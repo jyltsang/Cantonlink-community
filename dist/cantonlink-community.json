@@ -1,0 +1,3247 @@
+{
+  "licence": "CC BY-SA 4.0",
+  "source": "https://github.com/jyltsang/cantonlink-community",
+  "grammar": [
+    {
+      "id": "hai6-copula",
+      "pattern": "Subject + 係 + Noun",
+      "jyutping": "Subject + hai6 + Noun",
+      "meaning": "to be (identity)",
+      "level": "A1",
+      "function": "being-and-having",
+      "explanation": "係 links a subject to a noun: who or what something is. It is not used before adjectives — say 佢好高 (he is tall), not 佢係高. To negate, use 唔係.",
+      "writtenEquivalent": {
+        "cjk": "是",
+        "note": "Written Chinese uses 是; in speech always say 係."
+      },
+      "examples": [
+        {
+          "cjk": "我係學生。",
+          "jyutping": "ngo5 hai6 hok6 saang1.",
+          "yale": "ngóh haih hohk sāang.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄜㄧ⁶ ㄏㄛㆶ⁶ ㄙㄚㄥ¹.",
+          "en": "I'm a student."
+        },
+        {
+          "cjk": "佢係我朋友。",
+          "jyutping": "keoi5 hai6 ngo5 pang4 jau5.",
+          "yale": "kéuih haih ngóh pàhng yáuh.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㆭㄛ⁵ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵.",
+          "en": "He's my friend."
+        },
+        {
+          "cjk": "呢度係銅鑼灣。",
+          "jyutping": "ni1 dou6 hai6 tung4 lo4 waan1.",
+          "yale": "nī douh haih tùhng lòh wāan.",
+          "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶ ㄏㄜㄧ⁶ ㄊㄨㄥ⁴ ㄌㄛ⁴ ㄨㄚㄣ¹.",
+          "en": "This is Causeway Bay."
+        }
+      ],
+      "related": [
+        "m4-negation",
+        "hai2-location"
+      ]
+    },
+    {
+      "id": "m4-negation",
+      "pattern": "唔 + Verb / Adjective",
+      "jyutping": "m4 + Verb / Adjective",
+      "meaning": "not",
+      "level": "A1",
+      "function": "negation",
+      "explanation": "Put 唔 directly before a verb or adjective to negate it. The one big exception is 有 (to have): its negative is 冇, never 唔有.",
+      "writtenEquivalent": {
+        "cjk": "不",
+        "note": "Written Chinese uses 不; in speech always say 唔."
+      },
+      "examples": [
+        {
+          "cjk": "我唔食牛肉。",
+          "jyutping": "ngo5 m4 sik6 ngau4 juk6.",
+          "yale": "ngóh m̀h sihk ngàuh yuhk.",
+          "bopomofo": "ㆭㄛ⁵ ㆬ⁴ ㄙㄧㆶ⁶ ㆭㄜㄨ⁴ ㄧㄨㆶ⁶.",
+          "en": "I don't eat beef."
+        },
+        {
+          "cjk": "今日唔熱。",
+          "jyutping": "gam1 jat6 m4 jit6.",
+          "yale": "gām yaht m̀h yiht.",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㆬ⁴ ㄧㆵ⁶.",
+          "en": "It's not hot today."
+        },
+        {
+          "cjk": "佢唔係老師。",
+          "jyutping": "keoi5 m4 hai6 lou5 si1.",
+          "yale": "kéuih m̀h haih lóuh sī.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㆬ⁴ ㄏㄜㄧ⁶ ㄌㄛㄨ⁵ ㄙㄧ¹.",
+          "en": "She isn't a teacher."
+        }
+      ],
+      "related": [
+        "jau5-mou5",
+        "hai6-copula"
+      ]
+    },
+    {
+      "id": "jau5-mou5",
+      "pattern": "有 / 冇 + Noun",
+      "jyutping": "jau5 / mou5 + Noun",
+      "meaning": "to have; there is / there isn't",
+      "level": "A1",
+      "function": "being-and-having",
+      "explanation": "有 means both 'to have' and 'there is'. Its negative is the single word 冇 — 唔有 is always wrong.",
+      "writtenEquivalent": {
+        "cjk": "有 / 沒有",
+        "note": "沒有 is written Chinese; in speech say 冇."
+      },
+      "examples": [
+        {
+          "cjk": "我有一隻貓。",
+          "jyutping": "ngo5 jau5 jat1 zek3 maau1.",
+          "yale": "ngóh yáuh yāt jek māau.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄜㄨ⁵ ㄧㄜㆵ¹ ㄗㄝㆶ³ ㄇㄚㄨ¹.",
+          "en": "I have a cat."
+        },
+        {
+          "cjk": "佢冇車。",
+          "jyutping": "keoi5 mou5 ce1.",
+          "yale": "kéuih móuh chē.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄇㄛㄨ⁵ ㄘㄝ¹.",
+          "en": "He doesn't have a car."
+        },
+        {
+          "cjk": "呢度冇洗手間。",
+          "jyutping": "ni1 dou6 mou5 sai2 sau2 gaan1.",
+          "yale": "nī douh móuh sái sáu gāan.",
+          "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶ ㄇㄛㄨ⁵ ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹.",
+          "en": "There's no toilet here."
+        }
+      ],
+      "related": [
+        "jau5-mou5-question",
+        "m4-negation"
+      ]
+    },
+    {
+      "id": "jau5-mou5-question",
+      "pattern": "有冇 + Noun？",
+      "jyutping": "jau5 mou5 + Noun?",
+      "meaning": "Is there…? / Do you have…?",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "有冇 ('have or not have') turns 有 into a question. Answer 有 for yes or 冇 for no. Ending with 呀 makes it sound friendly.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "有冇奶茶呀？",
+          "jyutping": "jau5 mou5 naai5 caa4 aa3?",
+          "yale": "yáuh móuh náaih chàh a?",
+          "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄋㄚㄧ⁵ ㄘㄚ⁴ ㄚ³?",
+          "en": "Do you have milk tea?"
+        },
+        {
+          "cjk": "你有冇八達通呀？",
+          "jyutping": "nei5 jau5 mou5 baat3 daat6 tung1 aa3?",
+          "yale": "néih yáuh móuh baat daaht tūng a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄅㄚㆵ³ ㄉㄚㆵ⁶ ㄊㄨㄥ¹ ㄚ³?",
+          "en": "Do you have an Octopus card?"
+        },
+        {
+          "cjk": "附近有冇銀行呀？",
+          "jyutping": "fu6 gan6 jau5 mou5 ngan4 hong4 aa3?",
+          "yale": "fuh gahn yáuh móuh ngàhn hòhng a?",
+          "bopomofo": "ㄈㄨ⁶ ㄍㄜㄣ⁶ ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㆭㄜㄣ⁴ ㄏㄛㄥ⁴ ㄚ³?",
+          "en": "Is there a bank nearby?"
+        }
+      ],
+      "related": [
+        "jau5-mou5",
+        "a-not-a-question"
+      ]
+    },
+    {
+      "id": "a-not-a-question",
+      "pattern": "Verb + 唔 + Verb？",
+      "jyutping": "Verb + m4 + Verb?",
+      "meaning": "yes/no question (A-not-A)",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "The most natural way to ask a yes/no question is to say the verb, then 唔, then the verb again: 去唔去 ('go not go'). For two-syllable words, repeat only the first syllable: 好唔好食. Answer by repeating the verb: 去 or 唔去.",
+      "writtenEquivalent": {
+        "cjk": "…嗎？ / 是否",
+        "note": "Written Chinese tends to use 嗎 or 是否."
+      },
+      "examples": [
+        {
+          "cjk": "你去唔去呀？",
+          "jyutping": "nei5 heoi3 m4 heoi3 aa3?",
+          "yale": "néih heui m̀h heui a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㆤㄧ³ ㆬ⁴ ㄏㆤㄧ³ ㄚ³?",
+          "en": "Are you going?"
+        },
+        {
+          "cjk": "你係唔係老師呀？",
+          "jyutping": "nei5 hai6 m4 hai6 lou5 si1 aa3?",
+          "yale": "néih haih m̀h haih lóuh sī a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶ ㄌㄛㄨ⁵ ㄙㄧ¹ ㄚ³?",
+          "en": "Are you a teacher?"
+        },
+        {
+          "cjk": "呢個好唔好食呀？",
+          "jyutping": "ni1 go3 hou2 m4 hou2 sik6 aa3?",
+          "yale": "nī go hóu m̀h hóu sihk a?",
+          "bopomofo": "ㄋㄧ¹ ㄍㄛ³ ㄏㄛㄨ² ㆬ⁴ ㄏㄛㄨ² ㄙㄧㆶ⁶ ㄚ³?",
+          "en": "Is this tasty?"
+        }
+      ],
+      "related": [
+        "jau5-mou5-question",
+        "maa3-question"
+      ]
+    },
+    {
+      "id": "zo2-completed",
+      "pattern": "Verb + 咗",
+      "jyutping": "Verb + zo2",
+      "meaning": "completed action",
+      "level": "A1",
+      "function": "aspect",
+      "explanation": "Add 咗 straight after a verb to show the action has happened or been completed. It often translates as an English past tense or 'have done'.",
+      "writtenEquivalent": {
+        "cjk": "了",
+        "note": "Written Chinese uses 了; in speech say 咗."
+      },
+      "examples": [
+        {
+          "cjk": "我食咗飯喇。",
+          "jyutping": "ngo5 sik6 zo2 faan6 laa3.",
+          "yale": "ngóh sihk jó faahn la.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄌㄚ³.",
+          "en": "I've already eaten."
+        },
+        {
+          "cjk": "佢返咗屋企。",
+          "jyutping": "keoi5 faan1 zo2 uk1 kei2.",
+          "yale": "kéuih fāan jó ūk kéi.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄈㄚㄣ¹ ㄗㄛ² ㄨㆶ¹ ㄎㄝㄧ².",
+          "en": "He's gone home."
+        },
+        {
+          "cjk": "我買咗兩本書。",
+          "jyutping": "ngo5 maai5 zo2 loeng5 bun2 syu1.",
+          "yale": "ngóh máaih jó léuhng bún syū.",
+          "bopomofo": "ㆭㄛ⁵ ㄇㄚㄧ⁵ ㄗㄛ² ㄌㆦㄥ⁵ ㄅㄨㄣ² ㄙㄩ¹.",
+          "en": "I bought two books."
+        }
+      ],
+      "related": [
+        "mei6-yet",
+        "gan2-progressive",
+        "gwo3-experience"
+      ]
+    },
+    {
+      "id": "gan2-progressive",
+      "pattern": "Verb + 緊",
+      "jyutping": "Verb + gan2",
+      "meaning": "in the middle of doing (-ing)",
+      "level": "A1",
+      "function": "aspect",
+      "explanation": "Add 緊 straight after a verb to say an action is happening right now, like English '-ing'.",
+      "writtenEquivalent": {
+        "cjk": "正在…",
+        "note": "Written Chinese uses 正在 before the verb."
+      },
+      "examples": [
+        {
+          "cjk": "我食緊飯。",
+          "jyutping": "ngo5 sik6 gan2 faan6.",
+          "yale": "ngóh sihk gán faahn.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㄧㆶ⁶ ㄍㄜㄣ² ㄈㄚㄣ⁶.",
+          "en": "I'm eating."
+        },
+        {
+          "cjk": "佢講緊電話。",
+          "jyutping": "keoi5 gong2 gan2 din6 waa2.",
+          "yale": "kéuih góng gán dihn wá.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄍㄛㄥ² ㄍㄜㄣ² ㄉㄧㄣ⁶ ㄨㄚ².",
+          "en": "She's on the phone."
+        },
+        {
+          "cjk": "外面落緊雨。",
+          "jyutping": "ngoi6 min6 lok6 gan2 jyu5.",
+          "yale": "ngoih mihn lohk gán yúh.",
+          "bopomofo": "ㆭㄛㄧ⁶ ㄇㄧㄣ⁶ ㄌㄛㆶ⁶ ㄍㄜㄣ² ㄩ⁵.",
+          "en": "It's raining outside."
+        }
+      ],
+      "related": [
+        "zo2-completed",
+        "gwo3-experience"
+      ]
+    },
+    {
+      "id": "ge3-possessive",
+      "pattern": "Noun / Pronoun + 嘅 + Noun",
+      "jyutping": "Noun / Pronoun + ge3 + Noun",
+      "meaning": "'s / of (possession and description)",
+      "level": "A1",
+      "function": "possession-and-description",
+      "explanation": "嘅 joins an owner or a description to a noun: 我嘅書 (my book), 好食嘅餐廳 (a good restaurant). With family and close friends it is usually dropped: 我媽媽, 我朋友.",
+      "writtenEquivalent": {
+        "cjk": "的",
+        "note": "Written Chinese uses 的; in speech say 嘅."
+      },
+      "examples": [
+        {
+          "cjk": "呢本係我嘅書。",
+          "jyutping": "ni1 bun2 hai6 ngo5 ge3 syu1.",
+          "yale": "nī bún haih ngóh ge syū.",
+          "bopomofo": "ㄋㄧ¹ ㄅㄨㄣ² ㄏㄜㄧ⁶ ㆭㄛ⁵ ㄍㄝ³ ㄙㄩ¹.",
+          "en": "This is my book."
+        },
+        {
+          "cjk": "佢嘅電話號碼係幾多呀？",
+          "jyutping": "keoi5 ge3 din6 waa2 hou6 maa5 hai6 gei2 do1 aa3?",
+          "yale": "kéuih ge dihn wá houh máh haih géi dō a?",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄍㄝ³ ㄉㄧㄣ⁶ ㄨㄚ² ㄏㄛㄨ⁶ ㄇㄚ⁵ ㄏㄜㄧ⁶ ㄍㄝㄧ² ㄉㄛ¹ ㄚ³?",
+          "en": "What's her phone number?"
+        },
+        {
+          "cjk": "我知道一間好好食嘅餐廳。",
+          "jyutping": "ngo5 zi1 dou3 jat1 gaan1 hou2 hou2 sik6 ge3 caan1 teng1.",
+          "yale": "ngóh jī dou yāt gāan hóu hóu sihk ge chāan tēng.",
+          "bopomofo": "ㆭㄛ⁵ ㄗㄧ¹ ㄉㄛㄨ³ ㄧㄜㆵ¹ ㄍㄚㄣ¹ ㄏㄛㄨ² ㄏㄛㄨ² ㄙㄧㆶ⁶ ㄍㄝ³ ㄘㄚㄣ¹ ㄊㄝㄥ¹.",
+          "en": "I know a really good restaurant."
+        }
+      ],
+      "related": [
+        "ni1-go2-demonstratives"
+      ]
+    },
+    {
+      "id": "hai2-location",
+      "pattern": "Subject + 喺 + Place",
+      "jyutping": "Subject + hai2 + Place",
+      "meaning": "to be at / in",
+      "level": "A1",
+      "function": "location-and-pointing",
+      "explanation": "喺 (hai2) says where someone or something is, or where an action happens. Don't confuse it with 係 (hai6, 'to be') — only the tone is different.",
+      "writtenEquivalent": {
+        "cjk": "在",
+        "note": "Written Chinese uses 在; in speech say 喺."
+      },
+      "examples": [
+        {
+          "cjk": "我喺香港。",
+          "jyutping": "ngo5 hai2 hoeng1 gong2.",
+          "yale": "ngóh hái hēung góng.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄜㄧ² ㄏㆦㄥ¹ ㄍㄛㄥ².",
+          "en": "I'm in Hong Kong."
+        },
+        {
+          "cjk": "洗手間喺邊度呀？",
+          "jyutping": "sai2 sau2 gaan1 hai2 bin1 dou6 aa3?",
+          "yale": "sái sáu gāan hái bīn douh a?",
+          "bopomofo": "ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹ ㄏㄜㄧ² ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "Where's the toilet?"
+        },
+        {
+          "cjk": "我喺公司食飯。",
+          "jyutping": "ngo5 hai2 gung1 si1 sik6 faan6.",
+          "yale": "ngóh hái gūng sī sihk faahn.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄜㄧ² ㄍㄨㄥ¹ ㄙㄧ¹ ㄙㄧㆶ⁶ ㄈㄚㄣ⁶.",
+          "en": "I eat at the office."
+        }
+      ],
+      "related": [
+        "hai6-copula",
+        "bin1-where-who"
+      ]
+    },
+    {
+      "id": "ni1-go2-demonstratives",
+      "pattern": "呢 / 嗰 + Classifier (+ Noun)",
+      "jyutping": "ni1 / go2 + Classifier (+ Noun)",
+      "meaning": "this / that",
+      "level": "A1",
+      "function": "location-and-pointing",
+      "explanation": "呢 (this) and 嗰 (that) always need a classifier after them: 呢個, 嗰件, 呢間. The noun can be dropped when it's obvious from context.",
+      "writtenEquivalent": {
+        "cjk": "這 / 那",
+        "note": "Written Chinese uses 這 and 那."
+      },
+      "examples": [
+        {
+          "cjk": "呢個幾多錢呀？",
+          "jyutping": "ni1 go3 gei2 do1 cin2 aa3?",
+          "yale": "nī go géi dō chín a?",
+          "bopomofo": "ㄋㄧ¹ ㄍㄛ³ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much is this?"
+        },
+        {
+          "cjk": "我要嗰件。",
+          "jyutping": "ngo5 jiu3 go2 gin6.",
+          "yale": "ngóh yiu gó gihn.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄍㄛ² ㄍㄧㄣ⁶.",
+          "en": "I'd like that one (piece of clothing)."
+        },
+        {
+          "cjk": "嗰間餐廳好出名。",
+          "jyutping": "go2 gaan1 caan1 teng1 hou2 ceot1 meng2.",
+          "yale": "gó gāan chāan tēng hóu chēut méng.",
+          "bopomofo": "ㄍㄛ² ㄍㄚㄣ¹ ㄘㄚㄣ¹ ㄊㄝㄥ¹ ㄏㄛㄨ² ㄘㆤㆵ¹ ㄇㄝㄥ².",
+          "en": "That restaurant is very famous."
+        }
+      ],
+      "related": [
+        "number-classifier",
+        "bin1-where-who"
+      ]
+    },
+    {
+      "id": "number-classifier",
+      "pattern": "Number + Classifier + Noun",
+      "jyutping": "Number + Classifier + Noun",
+      "meaning": "counting things",
+      "level": "A1",
+      "function": "counting",
+      "explanation": "A number cannot go straight before a noun: a classifier goes in between. 個 is the general one; others depend on the noun's shape or type (杯 cups, 本 books, 部 machines). Use 兩 (loeng5), not 二, for 'two' before a classifier.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "我要兩杯奶茶。",
+          "jyutping": "ngo5 jiu3 loeng5 bui1 naai5 caa4.",
+          "yale": "ngóh yiu léuhng būi náaih chàh.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄌㆦㄥ⁵ ㄅㄨㄧ¹ ㄋㄚㄧ⁵ ㄘㄚ⁴.",
+          "en": "Two milk teas, please."
+        },
+        {
+          "cjk": "佢有三個仔。",
+          "jyutping": "keoi5 jau5 saam1 go3 zai2.",
+          "yale": "kéuih yáuh sāam go jái.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄧㄜㄨ⁵ ㄙㄚㆬ¹ ㄍㄛ³ ㄗㄜㄧ².",
+          "en": "She has three sons."
+        },
+        {
+          "cjk": "我想買一部新手機。",
+          "jyutping": "ngo5 soeng2 maai5 jat1 bou6 san1 sau2 gei1.",
+          "yale": "ngóh séung máaih yāt bouh sān sáu gēi.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㆦㄥ² ㄇㄚㄧ⁵ ㄧㄜㆵ¹ ㄅㄛㄨ⁶ ㄙㄜㄣ¹ ㄙㄜㄨ² ㄍㄝㄧ¹.",
+          "en": "I want to buy a new phone."
+        }
+      ],
+      "related": [
+        "ni1-go2-demonstratives",
+        "gei2-do1-cin2"
+      ]
+    },
+    {
+      "id": "soeng2-want",
+      "pattern": "想 + Verb",
+      "jyutping": "soeng2 + Verb",
+      "meaning": "would like to / want to",
+      "level": "A1",
+      "function": "wants-and-needs",
+      "explanation": "想 before a verb says what you would like to do. It is softer and more polite than 要.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "我想飲水。",
+          "jyutping": "ngo5 soeng2 jam2 seoi2.",
+          "yale": "ngóh séung yám séui.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㆦㄥ² ㄧㄜㆬ² ㄙㆤㄧ².",
+          "en": "I'd like some water."
+        },
+        {
+          "cjk": "我想學廣東話。",
+          "jyutping": "ngo5 soeng2 hok6 gwong2 dung1 waa2.",
+          "yale": "ngóh séung hohk gwóng dūng wá.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㆦㄥ² ㄏㄛㆶ⁶ ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ².",
+          "en": "I want to learn Cantonese."
+        },
+        {
+          "cjk": "你想去邊度呀？",
+          "jyutping": "nei5 soeng2 heoi3 bin1 dou6 aa3?",
+          "yale": "néih séung heui bīn douh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㆦㄥ² ㄏㆤㄧ³ ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "Where would you like to go?"
+        }
+      ],
+      "related": [
+        "jiu3-want-need",
+        "sik1-know-how"
+      ]
+    },
+    {
+      "id": "jiu3-want-need",
+      "pattern": "要 + Noun / Verb",
+      "jyutping": "jiu3 + Noun / Verb",
+      "meaning": "to want (something); to need to / have to",
+      "level": "A1",
+      "function": "wants-and-needs",
+      "explanation": "要 + noun is how you order or ask for things. 要 + verb means 'need to' or 'have to'. Its negative, 唔要, means 'don't want'; 'don't need to' is 唔使.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "我要一碗雲吞麪。",
+          "jyutping": "ngo5 jiu3 jat1 wun2 wan4 tan1 min6.",
+          "yale": "ngóh yiu yāt wún wàhn tān mihn.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄧㄜㆵ¹ ㄨㄨㄣ² ㄨㄜㄣ⁴ ㄊㄜㄣ¹ ㄇㄧㄣ⁶.",
+          "en": "One bowl of wonton noodles, please."
+        },
+        {
+          "cjk": "我要走喇。",
+          "jyutping": "ngo5 jiu3 zau2 laa3.",
+          "yale": "ngóh yiu jáu la.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄗㄜㄨ² ㄌㄚ³.",
+          "en": "I have to go now."
+        },
+        {
+          "cjk": "你要唔要袋呀？",
+          "jyutping": "nei5 jiu3 m4 jiu3 doi2 aa3?",
+          "yale": "néih yiu m̀h yiu dói a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄨ³ ㆬ⁴ ㄧㄨ³ ㄉㄛㄧ² ㄚ³?",
+          "en": "Do you need a bag?"
+        }
+      ],
+      "related": [
+        "soeng2-want",
+        "number-classifier"
+      ]
+    },
+    {
+      "id": "hou2-very",
+      "pattern": "好 + Adjective",
+      "jyutping": "hou2 + Adjective",
+      "meaning": "very",
+      "level": "A1",
+      "function": "degree-and-comparison",
+      "explanation": "Adjectives work like verbs, so no 係 is needed. A bare adjective can sound incomplete or comparative, so 好 is added by default — it often means just 'is' rather than a strong 'very'.",
+      "writtenEquivalent": {
+        "cjk": "很",
+        "note": "Written Chinese uses 很; in speech say 好."
+      },
+      "examples": [
+        {
+          "cjk": "今日好熱。",
+          "jyutping": "gam1 jat6 hou2 jit6.",
+          "yale": "gām yaht hóu yiht.",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄏㄛㄨ² ㄧㆵ⁶.",
+          "en": "It's very hot today."
+        },
+        {
+          "cjk": "呢度啲嘢好貴。",
+          "jyutping": "ni1 dou6 di1 je5 hou2 gwai3.",
+          "yale": "nī douh dī yéh hóu gwai.",
+          "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶ ㄉㄧ¹ ㄧㄝ⁵ ㄏㄛㄨ² ㄍㄨㄜㄧ³.",
+          "en": "Things here are very expensive."
+        },
+        {
+          "cjk": "我好攰。",
+          "jyutping": "ngo5 hou2 gui6.",
+          "yale": "ngóh hóu guih.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄛㄨ² ㄍㄨㄧ⁶.",
+          "en": "I'm really tired."
+        }
+      ],
+      "related": [
+        "taai3-too",
+        "gwo3-comparison"
+      ]
+    },
+    {
+      "id": "gei2-do1-cin2",
+      "pattern": "… 幾多錢？",
+      "jyutping": "… gei2 do1 cin2?",
+      "meaning": "How much is…?",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "Put 幾多錢 after the thing you are asking about. Prices are answered with a number + 蚊 (man1, dollars): 三十蚊.",
+      "writtenEquivalent": {
+        "cjk": "多少錢",
+        "note": "Written Chinese uses 多少."
+      },
+      "examples": [
+        {
+          "cjk": "一杯奶茶幾多錢呀？",
+          "jyutping": "jat1 bui1 naai5 caa4 gei2 do1 cin2 aa3?",
+          "yale": "yāt būi náaih chàh géi dō chín a?",
+          "bopomofo": "ㄧㄜㆵ¹ ㄅㄨㄧ¹ ㄋㄚㄧ⁵ ㄘㄚ⁴ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much is a milk tea?"
+        },
+        {
+          "cjk": "呢件衫幾多錢呀？",
+          "jyutping": "ni1 gin6 saam1 gei2 do1 cin2 aa3?",
+          "yale": "nī gihn sāam géi dō chín a?",
+          "bopomofo": "ㄋㄧ¹ ㄍㄧㄣ⁶ ㄙㄚㆬ¹ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much is this top?"
+        },
+        {
+          "cjk": "去機場幾多錢呀？",
+          "jyutping": "heoi3 gei1 coeng4 gei2 do1 cin2 aa3?",
+          "yale": "heui gēi chèuhng géi dō chín a?",
+          "bopomofo": "ㄏㆤㄧ³ ㄍㄝㄧ¹ ㄘㆦㄥ⁴ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much is it to the airport?"
+        }
+      ],
+      "related": [
+        "number-classifier",
+        "mat1-je5-what"
+      ]
+    },
+    {
+      "id": "mat1-je5-what",
+      "pattern": "乜嘢 / 咩",
+      "jyutping": "mat1 je5 / me1",
+      "meaning": "what",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "乜嘢 means 'what' and stays in the same place as the answer would: 你食乜嘢？ — 我食飯. 咩 (me1) is the short, everyday form.",
+      "writtenEquivalent": {
+        "cjk": "甚麼",
+        "note": "Written Chinese uses 甚麼 / 什麼."
+      },
+      "examples": [
+        {
+          "cjk": "你食乜嘢呀？",
+          "jyutping": "nei5 sik6 mat1 je5 aa3?",
+          "yale": "néih sihk māt yéh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³?",
+          "en": "What are you eating?"
+        },
+        {
+          "cjk": "你叫咩名呀？",
+          "jyutping": "nei5 giu3 me1 meng2 aa3?",
+          "yale": "néih giu mē méng a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄍㄧㄨ³ ㄇㄝ¹ ㄇㄝㄥ² ㄚ³?",
+          "en": "What's your name?"
+        },
+        {
+          "cjk": "呢個係乜嘢嚟㗎？",
+          "jyutping": "ni1 go3 hai6 mat1 je5 lai4 gaa3?",
+          "yale": "nī go haih māt yéh làih ga?",
+          "bopomofo": "ㄋㄧ¹ ㄍㄛ³ ㄏㄜㄧ⁶ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄌㄜㄧ⁴ ㄍㄚ³?",
+          "en": "What is this?"
+        }
+      ],
+      "related": [
+        "bin1-where-who",
+        "gei2-si4-when"
+      ]
+    },
+    {
+      "id": "bin1-where-who",
+      "pattern": "邊度 / 邊個 / 邊 + Classifier",
+      "jyutping": "bin1 dou6 / bin1 go3 / bin1 + Classifier",
+      "meaning": "where / who / which",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "邊 means 'which'. 邊度 is 'which place' (where), 邊個 is 'which person' (who), and 邊 + any classifier asks 'which one': 邊件, 邊間.",
+      "writtenEquivalent": {
+        "cjk": "哪裏 / 誰 / 哪",
+        "note": "Written Chinese uses 哪裏, 誰 and 哪."
+      },
+      "examples": [
+        {
+          "cjk": "你住喺邊度呀？",
+          "jyutping": "nei5 zyu6 hai2 bin1 dou6 aa3?",
+          "yale": "néih jyuh hái bīn douh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄗㄩ⁶ ㄏㄜㄧ² ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "Where do you live?"
+        },
+        {
+          "cjk": "佢係邊個呀？",
+          "jyutping": "keoi5 hai6 bin1 go3 aa3?",
+          "yale": "kéuih haih bīn go a?",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㄅㄧㄣ¹ ㄍㄛ³ ㄚ³?",
+          "en": "Who is he?"
+        },
+        {
+          "cjk": "你要邊件呀？",
+          "jyutping": "nei5 jiu3 bin1 gin6 aa3?",
+          "yale": "néih yiu bīn gihn a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄨ³ ㄅㄧㄣ¹ ㄍㄧㄣ⁶ ㄚ³?",
+          "en": "Which one do you want?"
+        }
+      ],
+      "related": [
+        "hai2-location",
+        "mat1-je5-what"
+      ]
+    },
+    {
+      "id": "gei2-si4-when",
+      "pattern": "幾時 + Verb？",
+      "jyutping": "gei2 si4 + Verb?",
+      "meaning": "when",
+      "level": "A1",
+      "function": "questions",
+      "explanation": "幾時 goes before the verb, where the time word would go in the answer: 你幾時返工？ — 我九點返工.",
+      "writtenEquivalent": {
+        "cjk": "甚麼時候",
+        "note": "Written Chinese uses 甚麼時候."
+      },
+      "examples": [
+        {
+          "cjk": "你幾時返工呀？",
+          "jyutping": "nei5 gei2 si4 faan1 gung1 aa3?",
+          "yale": "néih géi sìh fāan gūng a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄍㄝㄧ² ㄙㄧ⁴ ㄈㄚㄣ¹ ㄍㄨㄥ¹ ㄚ³?",
+          "en": "When do you go to work?"
+        },
+        {
+          "cjk": "我哋幾時見呀？",
+          "jyutping": "ngo5 dei6 gei2 si4 gin3 aa3?",
+          "yale": "ngóh deih géi sìh gin a?",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄍㄝㄧ² ㄙㄧ⁴ ㄍㄧㄣ³ ㄚ³?",
+          "en": "When shall we meet?"
+        },
+        {
+          "cjk": "你幾時嚟香港㗎？",
+          "jyutping": "nei5 gei2 si4 lai4 hoeng1 gong2 gaa3?",
+          "yale": "néih géi sìh làih hēung góng ga?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄍㄝㄧ² ㄙㄧ⁴ ㄌㄜㄧ⁴ ㄏㆦㄥ¹ ㄍㄛㄥ² ㄍㄚ³?",
+          "en": "When did you come to Hong Kong?"
+        }
+      ],
+      "related": [
+        "mat1-je5-what",
+        "dim2-gaai2-why"
+      ]
+    },
+    {
+      "id": "aa3-softener",
+      "pattern": "… 呀",
+      "jyutping": "… aa3",
+      "meaning": "friendly softener for questions and replies",
+      "level": "A1",
+      "function": "particles",
+      "explanation": "Sentence-final particles add tone of voice. 呀 makes questions and short answers sound warm rather than blunt. 你去邊度？ is abrupt; 你去邊度呀？ is friendly.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "你去邊度呀？",
+          "jyutping": "nei5 heoi3 bin1 dou6 aa3?",
+          "yale": "néih heui bīn douh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㆤㄧ³ ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "Where are you going?"
+        },
+        {
+          "cjk": "係呀。",
+          "jyutping": "hai6 aa3.",
+          "yale": "haih a.",
+          "bopomofo": "ㄏㄜㄧ⁶ ㄚ³.",
+          "en": "Yes, that's right."
+        },
+        {
+          "cjk": "好呀！",
+          "jyutping": "hou2 aa3!",
+          "yale": "hóu a!",
+          "bopomofo": "ㄏㄛㄨ² ㄚ³!",
+          "en": "Sure! Sounds good!"
+        }
+      ],
+      "related": [
+        "laa1-suggestion",
+        "maa3-question"
+      ]
+    },
+    {
+      "id": "laa1-suggestion",
+      "pattern": "… 啦",
+      "jyutping": "… laa1",
+      "meaning": "suggestion, invitation or gentle request",
+      "level": "A1",
+      "function": "particles",
+      "explanation": "啦 (laa1, high level tone) turns a statement into a suggestion or polite urging: 'let's…', 'go ahead and…'. Don't confuse it with 喇 (laa3), which marks a change of situation.",
+      "writtenEquivalent": {
+        "cjk": "吧",
+        "note": "Written Chinese uses 吧."
+      },
+      "examples": [
+        {
+          "cjk": "我哋走啦。",
+          "jyutping": "ngo5 dei6 zau2 laa1.",
+          "yale": "ngóh deih jáu lā.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄗㄜㄨ² ㄌㄚ¹.",
+          "en": "Let's go."
+        },
+        {
+          "cjk": "你坐啦。",
+          "jyutping": "nei5 co5 laa1.",
+          "yale": "néih chóh lā.",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄘㄛ⁵ ㄌㄚ¹.",
+          "en": "Please, have a seat."
+        },
+        {
+          "cjk": "快啲啦！",
+          "jyutping": "faai3 di1 laa1!",
+          "yale": "faai dī lā!",
+          "bopomofo": "ㄈㄚㄧ³ ㄉㄧ¹ ㄌㄚ¹!",
+          "en": "Hurry up!"
+        }
+      ],
+      "related": [
+        "laa3-change",
+        "aa3-softener"
+      ]
+    },
+    {
+      "id": "maa3-question",
+      "pattern": "… 嗎？",
+      "jyutping": "… maa3?",
+      "meaning": "neutral yes/no question",
+      "level": "A1",
+      "function": "particles",
+      "explanation": "Adding 嗎 to a statement makes it a yes/no question. It is correct and widely understood, though A-not-A questions (去唔去？) sound more colloquial in everyday speech.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "你好嗎？",
+          "jyutping": "nei5 hou2 maa3?",
+          "yale": "néih hóu ma?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄛㄨ² ㄇㄚ³?",
+          "en": "How are you?"
+        },
+        {
+          "cjk": "你係香港人嗎？",
+          "jyutping": "nei5 hai6 hoeng1 gong2 jan4 maa3?",
+          "yale": "néih haih hēung góng yàhn ma?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄜㄧ⁶ ㄏㆦㄥ¹ ㄍㄛㄥ² ㄧㄜㄣ⁴ ㄇㄚ³?",
+          "en": "Are you from Hong Kong?"
+        },
+        {
+          "cjk": "有問題嗎？",
+          "jyutping": "jau5 man6 tai4 maa3?",
+          "yale": "yáuh mahn tàih ma?",
+          "bopomofo": "ㄧㄜㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ ㄇㄚ³?",
+          "en": "Any questions?"
+        }
+      ],
+      "related": [
+        "a-not-a-question",
+        "me1-surprise"
+      ]
+    },
+    {
+      "id": "tung4-and-with",
+      "pattern": "A + 同 + B",
+      "jyutping": "A + tung4 + B",
+      "meaning": "and; with",
+      "level": "A1",
+      "function": "connecting",
+      "explanation": "同 joins two nouns ('and') or says who you do something with ('with'). It joins nouns and people, not whole sentences.",
+      "writtenEquivalent": {
+        "cjk": "和 / 跟",
+        "note": "Written Chinese uses 和 or 跟."
+      },
+      "examples": [
+        {
+          "cjk": "我同佢去睇戲。",
+          "jyutping": "ngo5 tung4 keoi5 heoi3 tai2 hei3.",
+          "yale": "ngóh tùhng kéuih heui tái hei.",
+          "bopomofo": "ㆭㄛ⁵ ㄊㄨㄥ⁴ ㄎㆤㄧ⁵ ㄏㆤㄧ³ ㄊㄜㄧ² ㄏㄝㄧ³.",
+          "en": "I'm going to see a film with her."
+        },
+        {
+          "cjk": "我要一杯奶茶同一杯咖啡。",
+          "jyutping": "ngo5 jiu3 jat1 bui1 naai5 caa4 tung4 jat1 bui1 gaa3 fe1.",
+          "yale": "ngóh yiu yāt būi náaih chàh tùhng yāt būi ga fē.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄧㄜㆵ¹ ㄅㄨㄧ¹ ㄋㄚㄧ⁵ ㄘㄚ⁴ ㄊㄨㄥ⁴ ㄧㄜㆵ¹ ㄅㄨㄧ¹ ㄍㄚ³ ㄈㄝ¹.",
+          "en": "One milk tea and one coffee, please."
+        },
+        {
+          "cjk": "你同邊個嚟㗎？",
+          "jyutping": "nei5 tung4 bin1 go3 lai4 gaa3?",
+          "yale": "néih tùhng bīn go làih ga?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄊㄨㄥ⁴ ㄅㄧㄣ¹ ㄍㄛ³ ㄌㄜㄧ⁴ ㄍㄚ³?",
+          "en": "Who did you come with?"
+        }
+      ],
+      "related": [
+        "dou1-also"
+      ]
+    },
+    {
+      "id": "mei6-yet",
+      "pattern": "Verb + 咗 + … 未？ / 未 + Verb",
+      "jyutping": "Verb + zo2 + … mei6? / mei6 + Verb",
+      "meaning": "…yet? / not yet",
+      "level": "A2",
+      "function": "aspect",
+      "explanation": "Put 未 at the end of a 咗 sentence to ask 'yet?'. Answer …咗喇 (yes, already) or 未呀 (not yet). Before a verb, 未 means 'haven't yet'. 食咗飯未呀？ is also an everyday greeting.",
+      "writtenEquivalent": {
+        "cjk": "…了沒有？ / 還沒",
+        "note": "Written Chinese uses 了沒有 and 還沒."
+      },
+      "examples": [
+        {
+          "cjk": "你食咗飯未呀？",
+          "jyutping": "nei5 sik6 zo2 faan6 mei6 aa3?",
+          "yale": "néih sihk jó faahn meih a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³?",
+          "en": "Have you eaten yet?"
+        },
+        {
+          "cjk": "佢到咗未呀？",
+          "jyutping": "keoi5 dou3 zo2 mei6 aa3?",
+          "yale": "kéuih dou jó meih a?",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄉㄛㄨ³ ㄗㄛ² ㄇㄝㄧ⁶ ㄚ³?",
+          "en": "Has he arrived yet?"
+        },
+        {
+          "cjk": "我未食。",
+          "jyutping": "ngo5 mei6 sik6.",
+          "yale": "ngóh meih sihk.",
+          "bopomofo": "ㆭㄛ⁵ ㄇㄝㄧ⁶ ㄙㄧㆶ⁶.",
+          "en": "I haven't eaten yet."
+        }
+      ],
+      "related": [
+        "zo2-completed",
+        "gwo3-experience"
+      ]
+    },
+    {
+      "id": "gwo3-experience",
+      "pattern": "Verb + 過",
+      "jyutping": "Verb + gwo3",
+      "meaning": "have ever done (experience)",
+      "level": "A2",
+      "function": "aspect",
+      "explanation": "過 after a verb says you have had the experience at some point: 'have been to', 'have tried'. 未 + Verb + 過 means 'have never'.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "我去過日本。",
+          "jyutping": "ngo5 heoi3 gwo3 jat6 bun2.",
+          "yale": "ngóh heui gwo yaht bún.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㆤㄧ³ ㄍㄨㄛ³ ㄧㄜㆵ⁶ ㄅㄨㄣ².",
+          "en": "I've been to Japan."
+        },
+        {
+          "cjk": "你飲過鴛鴦未呀？",
+          "jyutping": "nei5 jam2 gwo3 jin1 joeng1 mei6 aa3?",
+          "yale": "néih yám gwo yīn yēung meih a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄜㆬ² ㄍㄨㄛ³ ㄧㄣ¹ ㄧㆦㄥ¹ ㄇㄝㄧ⁶ ㄚ³?",
+          "en": "Have you ever tried yuenyeung (coffee with milk tea)?"
+        },
+        {
+          "cjk": "我未見過佢。",
+          "jyutping": "ngo5 mei6 gin3 gwo3 keoi5.",
+          "yale": "ngóh meih gin gwo kéuih.",
+          "bopomofo": "ㆭㄛ⁵ ㄇㄝㄧ⁶ ㄍㄧㄣ³ ㄍㄨㄛ³ ㄎㆤㄧ⁵.",
+          "en": "I've never met him."
+        }
+      ],
+      "related": [
+        "zo2-completed",
+        "mei6-yet",
+        "gwo3-comparison"
+      ]
+    },
+    {
+      "id": "sik1-know-how",
+      "pattern": "識 + Verb",
+      "jyutping": "sik1 + Verb",
+      "meaning": "know how to; can (a learned skill)",
+      "level": "A2",
+      "function": "wants-and-needs",
+      "explanation": "識 before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than 會, which leans towards 'will'.",
+      "writtenEquivalent": {
+        "cjk": "會",
+        "note": "Written Chinese uses 會 for learned ability."
+      },
+      "examples": [
+        {
+          "cjk": "我識講少少廣東話。",
+          "jyutping": "ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2.",
+          "yale": "ngóh sīk góng síu síu gwóng dūng wá.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㄧㆶ¹ ㄍㄛㄥ² ㄙㄧㄨ² ㄙㄧㄨ² ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ².",
+          "en": "I can speak a little Cantonese."
+        },
+        {
+          "cjk": "你識唔識游水呀？",
+          "jyutping": "nei5 sik1 m4 sik1 jau4 seoi2 aa3?",
+          "yale": "néih sīk m̀h sīk yàuh séui a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ¹ ㆬ⁴ ㄙㄧㆶ¹ ㄧㄜㄨ⁴ ㄙㆤㄧ² ㄚ³?",
+          "en": "Can you swim?"
+        },
+        {
+          "cjk": "佢唔識揸車。",
+          "jyutping": "keoi5 m4 sik1 zaa1 ce1.",
+          "yale": "kéuih m̀h sīk jā chē.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㆬ⁴ ㄙㄧㆶ¹ ㄗㄚ¹ ㄘㄝ¹.",
+          "en": "He can't drive."
+        }
+      ],
+      "related": [
+        "soeng2-want",
+        "ho2-ji5-may"
+      ]
+    },
+    {
+      "id": "ho2-ji5-may",
+      "pattern": "可唔可以 + Verb？",
+      "jyutping": "ho2 m4 ho2 ji5 + Verb?",
+      "meaning": "may I…? / could you…?",
+      "level": "A2",
+      "function": "wants-and-needs",
+      "explanation": "可以 means 'may' or 'can' (permission or possibility). Its A-not-A form 可唔可以 is the standard polite request. Answer 可以 (yes) or 唔可以 (no).",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "可唔可以平啲呀？",
+          "jyutping": "ho2 m4 ho2 ji5 peng4 di1 aa3?",
+          "yale": "hó m̀h hó yíh pèhng dī a?",
+          "bopomofo": "ㄏㄛ² ㆬ⁴ ㄏㄛ² ㄧ⁵ ㄆㄝㄥ⁴ ㄉㄧ¹ ㄚ³?",
+          "en": "Could you make it a bit cheaper?"
+        },
+        {
+          "cjk": "我可唔可以坐呢度呀？",
+          "jyutping": "ngo5 ho2 m4 ho2 ji5 co5 ni1 dou6 aa3?",
+          "yale": "ngóh hó m̀h hó yíh chóh nī douh a?",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄛ² ㆬ⁴ ㄏㄛ² ㄧ⁵ ㄘㄛ⁵ ㄋㄧ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "May I sit here?"
+        },
+        {
+          "cjk": "你可唔可以講慢啲呀？",
+          "jyutping": "nei5 ho2 m4 ho2 ji5 gong2 maan6 di1 aa3?",
+          "yale": "néih hó m̀h hó yíh góng maahn dī a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄛ² ㆬ⁴ ㄏㄛ² ㄧ⁵ ㄍㄛㄥ² ㄇㄚㄣ⁶ ㄉㄧ¹ ㄚ³?",
+          "en": "Could you speak a bit more slowly?"
+        }
+      ],
+      "related": [
+        "a-not-a-question",
+        "sik1-know-how"
+      ]
+    },
+    {
+      "id": "taai3-too",
+      "pattern": "太 + Adjective + 喇",
+      "jyutping": "taai3 + Adjective + laa3",
+      "meaning": "too (much)",
+      "level": "A2",
+      "function": "degree-and-comparison",
+      "explanation": "太 before an adjective means 'too'. It is very often followed by 喇, which marks the situation as having gone past what's acceptable.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "太貴喇！",
+          "jyutping": "taai3 gwai3 laa3!",
+          "yale": "taai gwai la!",
+          "bopomofo": "ㄊㄚㄧ³ ㄍㄨㄜㄧ³ ㄌㄚ³!",
+          "en": "That's too expensive!"
+        },
+        {
+          "cjk": "呢杯咖啡太甜喇。",
+          "jyutping": "ni1 bui1 gaa3 fe1 taai3 tim4 laa3.",
+          "yale": "nī būi ga fē taai tìhm la.",
+          "bopomofo": "ㄋㄧ¹ ㄅㄨㄧ¹ ㄍㄚ³ ㄈㄝ¹ ㄊㄚㄧ³ ㄊㄧㆬ⁴ ㄌㄚ³.",
+          "en": "This coffee is too sweet."
+        },
+        {
+          "cjk": "你行得太快喇。",
+          "jyutping": "nei5 haang4 dak1 taai3 faai3 laa3.",
+          "yale": "néih hàahng dāk taai faai la.",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄚㄥ⁴ ㄉㄜㆶ¹ ㄊㄚㄧ³ ㄈㄚㄧ³ ㄌㄚ³.",
+          "en": "You're walking too fast."
+        }
+      ],
+      "related": [
+        "hou2-very",
+        "laa3-change"
+      ]
+    },
+    {
+      "id": "dim2-gaai2-why",
+      "pattern": "點解 …？",
+      "jyutping": "dim2 gaai2 …?",
+      "meaning": "why",
+      "level": "A2",
+      "function": "questions",
+      "explanation": "點解 can go at the start of the question or after the subject. Answers usually begin with 因為 (because). Ending with 㗎 adds a note of puzzlement.",
+      "writtenEquivalent": {
+        "cjk": "為甚麼",
+        "note": "Written Chinese uses 為甚麼."
+      },
+      "examples": [
+        {
+          "cjk": "你點解學廣東話呀？",
+          "jyutping": "nei5 dim2 gaai2 hok6 gwong2 dung1 waa2 aa3?",
+          "yale": "néih dím gáai hohk gwóng dūng wá a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄉㄧㆬ² ㄍㄚㄧ² ㄏㄛㆶ⁶ ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ² ㄚ³?",
+          "en": "Why are you learning Cantonese?"
+        },
+        {
+          "cjk": "點解佢唔嚟呀？",
+          "jyutping": "dim2 gaai2 keoi5 m4 lai4 aa3?",
+          "yale": "dím gáai kéuih m̀h làih a?",
+          "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ² ㄎㆤㄧ⁵ ㆬ⁴ ㄌㄜㄧ⁴ ㄚ³?",
+          "en": "Why isn't he coming?"
+        },
+        {
+          "cjk": "點解咁貴㗎？",
+          "jyutping": "dim2 gaai2 gam3 gwai3 gaa3?",
+          "yale": "dím gáai gam gwai ga?",
+          "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ² ㄍㄜㆬ³ ㄍㄨㄜㄧ³ ㄍㄚ³?",
+          "en": "Why is it so expensive?"
+        }
+      ],
+      "related": [
+        "jan1-wai6-because",
+        "gei2-si4-when"
+      ]
+    },
+    {
+      "id": "dim2-how",
+      "pattern": "點(樣) + Verb？",
+      "jyutping": "dim2 (joeng2) + Verb?",
+      "meaning": "how (to do something)",
+      "level": "A2",
+      "function": "questions",
+      "explanation": "點 or 點樣 before a verb asks how to do it. 點去…？ ('how to get to…?') is essential for directions.",
+      "writtenEquivalent": {
+        "cjk": "怎樣",
+        "note": "Written Chinese uses 怎樣 / 怎麼."
+      },
+      "examples": [
+        {
+          "cjk": "請問點去中環呀？",
+          "jyutping": "cing2 man6 dim2 heoi3 zung1 waan4 aa3?",
+          "yale": "chíng mahn dím heui jūng wàahn a?",
+          "bopomofo": "ㄘㄧㄥ² ㄇㄜㄣ⁶ ㄉㄧㆬ² ㄏㆤㄧ³ ㄗㄨㄥ¹ ㄨㄚㄣ⁴ ㄚ³?",
+          "en": "Excuse me, how do I get to Central?"
+        },
+        {
+          "cjk": "點樣去機場最快呀？",
+          "jyutping": "dim2 joeng2 heoi3 gei1 coeng4 zeoi3 faai3 aa3?",
+          "yale": "dím yéung heui gēi chèuhng jeui faai a?",
+          "bopomofo": "ㄉㄧㆬ² ㄧㆦㄥ² ㄏㆤㄧ³ ㄍㄝㄧ¹ ㄘㆦㄥ⁴ ㄗㆤㄧ³ ㄈㄚㄧ³ ㄚ³?",
+          "en": "What's the fastest way to the airport?"
+        },
+        {
+          "cjk": "呢個字點讀呀？",
+          "jyutping": "ni1 go3 zi6 dim2 duk6 aa3?",
+          "yale": "nī go jih dím duhk a?",
+          "bopomofo": "ㄋㄧ¹ ㄍㄛ³ ㄗㄧ⁶ ㄉㄧㆬ² ㄉㄨㆶ⁶ ㄚ³?",
+          "en": "How do you pronounce this character?"
+        }
+      ],
+      "related": [
+        "bin1-where-who",
+        "dim2-gaai2-why"
+      ]
+    },
+    {
+      "id": "laa3-change",
+      "pattern": "… 喇",
+      "jyutping": "… laa3",
+      "meaning": "change of situation; 'now'",
+      "level": "A2",
+      "function": "particles",
+      "explanation": "喇 (laa3, mid level tone) signals that something has changed or a new situation now holds: I'm full now, it's started raining. Compare 啦 (laa1), which makes suggestions.",
+      "writtenEquivalent": {
+        "cjk": "了",
+        "note": "Written Chinese uses sentence-final 了."
+      },
+      "examples": [
+        {
+          "cjk": "我飽喇。",
+          "jyutping": "ngo5 baau2 laa3.",
+          "yale": "ngóh báau la.",
+          "bopomofo": "ㆭㄛ⁵ ㄅㄚㄨ² ㄌㄚ³.",
+          "en": "I'm full."
+        },
+        {
+          "cjk": "落雨喇！",
+          "jyutping": "lok6 jyu5 laa3!",
+          "yale": "lohk yúh la!",
+          "bopomofo": "ㄌㄛㆶ⁶ ㄩ⁵ ㄌㄚ³!",
+          "en": "It's started raining!"
+        },
+        {
+          "cjk": "夠喇，唔該。",
+          "jyutping": "gau3 laa3, m4 goi1.",
+          "yale": "gau la, m̀h gōi.",
+          "bopomofo": "ㄍㄜㄨ³ ㄌㄚ³, ㆬ⁴ ㄍㄛㄧ¹.",
+          "en": "That's enough, thanks."
+        }
+      ],
+      "related": [
+        "laa1-suggestion",
+        "taai3-too"
+      ]
+    },
+    {
+      "id": "me1-surprise",
+      "pattern": "… 咩？",
+      "jyutping": "… me1?",
+      "meaning": "surprised question ('really?')",
+      "level": "A2",
+      "function": "particles",
+      "explanation": "At the end of a sentence, 咩 shows surprise or doubt: you expected the opposite. 你識講廣東話咩？ means 'You can speak Cantonese?!' This is different from 咩 meaning 'what' inside a sentence.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "你唔鍾意咩？",
+          "jyutping": "nei5 m4 zung1 ji3 me1?",
+          "yale": "néih m̀h jūng yi mē?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㆬ⁴ ㄗㄨㄥ¹ ㄧ³ ㄇㄝ¹?",
+          "en": "You don't like it?"
+        },
+        {
+          "cjk": "佢未嚟咩？",
+          "jyutping": "keoi5 mei6 lai4 me1?",
+          "yale": "kéuih meih làih mē?",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄇㄝㄧ⁶ ㄌㄜㄧ⁴ ㄇㄝ¹?",
+          "en": "He hasn't come yet?"
+        },
+        {
+          "cjk": "你識講廣東話咩？",
+          "jyutping": "nei5 sik1 gong2 gwong2 dung1 waa2 me1?",
+          "yale": "néih sīk góng gwóng dūng wá mē?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ¹ ㄍㄛㄥ² ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ² ㄇㄝ¹?",
+          "en": "You can speak Cantonese?"
+        }
+      ],
+      "related": [
+        "maa3-question",
+        "mat1-je5-what"
+      ]
+    },
+    {
+      "id": "dou1-also",
+      "pattern": "Subject + 都 + Verb",
+      "jyutping": "Subject + dou1 + Verb",
+      "meaning": "also; both / all",
+      "level": "A2",
+      "function": "connecting",
+      "explanation": "都 means 'also' or 'all' and always goes before the verb — never at the end of the sentence like English 'too'. With a negative, 都唔 means 'not … either'.",
+      "writtenEquivalent": {
+        "cjk": "也 / 都",
+        "note": "Written Chinese often uses 也."
+      },
+      "examples": [
+        {
+          "cjk": "我都係學生。",
+          "jyutping": "ngo5 dou1 hai6 hok6 saang1.",
+          "yale": "ngóh dōu haih hohk sāang.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄛㄨ¹ ㄏㄜㄧ⁶ ㄏㄛㆶ⁶ ㄙㄚㄥ¹.",
+          "en": "I'm a student too."
+        },
+        {
+          "cjk": "我哋都鍾意食點心。",
+          "jyutping": "ngo5 dei6 dou1 zung1 ji3 sik6 dim2 sam1.",
+          "yale": "ngóh deih dōu jūng yi sihk dím sām.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄉㄛㄨ¹ ㄗㄨㄥ¹ ㄧ³ ㄙㄧㆶ⁶ ㄉㄧㆬ² ㄙㄜㆬ¹.",
+          "en": "We all like dim sum."
+        },
+        {
+          "cjk": "我都唔知。",
+          "jyutping": "ngo5 dou1 m4 zi1.",
+          "yale": "ngóh dōu m̀h jī.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄛㄨ¹ ㆬ⁴ ㄗㄧ¹.",
+          "en": "I don't know either."
+        }
+      ],
+      "related": [
+        "tung4-and-with"
+      ]
+    },
+    {
+      "id": "bei2-give",
+      "pattern": "畀 + Thing + Person",
+      "jyutping": "bei2 + Thing + Person",
+      "meaning": "to give",
+      "level": "A2",
+      "function": "connecting",
+      "explanation": "畀 means 'give'. In traditional Cantonese order the thing comes before the person: 畀杯水我 ('give a glass of water me'). The Mandarin-like order 畀我… is also heard, especially among younger speakers.",
+      "writtenEquivalent": {
+        "cjk": "給",
+        "note": "Written Chinese uses 給, with the person first."
+      },
+      "examples": [
+        {
+          "cjk": "唔該畀杯水我。",
+          "jyutping": "m4 goi1 bei2 bui1 seoi2 ngo5.",
+          "yale": "m̀h gōi béi būi séui ngóh.",
+          "bopomofo": "ㆬ⁴ ㄍㄛㄧ¹ ㄅㄝㄧ² ㄅㄨㄧ¹ ㄙㆤㄧ² ㆭㄛ⁵.",
+          "en": "Could I have a glass of water, please?"
+        },
+        {
+          "cjk": "我畀錢。",
+          "jyutping": "ngo5 bei2 cin2.",
+          "yale": "ngóh béi chín.",
+          "bopomofo": "ㆭㄛ⁵ ㄅㄝㄧ² ㄘㄧㄣ².",
+          "en": "I'll pay."
+        },
+        {
+          "cjk": "媽媽畀咗一本書我。",
+          "jyutping": "maa4 maa1 bei2 zo2 jat1 bun2 syu1 ngo5.",
+          "yale": "màh mā béi jó yāt bún syū ngóh.",
+          "bopomofo": "ㄇㄚ⁴ ㄇㄚ¹ ㄅㄝㄧ² ㄗㄛ² ㄧㄜㆵ¹ ㄅㄨㄣ² ㄙㄩ¹ ㆭㄛ⁵.",
+          "en": "Mum gave me a book."
+        }
+      ],
+      "related": [
+        "tung4-and-with"
+      ]
+    },
+    {
+      "id": "haa5-briefly",
+      "pattern": "Verb + 吓",
+      "jyutping": "Verb + haa5",
+      "meaning": "do briefly; have a go",
+      "level": "A2",
+      "function": "aspect",
+      "explanation": "吓 after a verb softens it: 'have a quick look', 'give it a try', 'wait a moment'. It makes requests and suggestions sound relaxed.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "我睇吓先。",
+          "jyutping": "ngo5 tai2 haa5 sin1.",
+          "yale": "ngóh tái háh sīn.",
+          "bopomofo": "ㆭㄛ⁵ ㄊㄜㄧ² ㄏㄚ⁵ ㄙㄧㄣ¹.",
+          "en": "Let me have a look first."
+        },
+        {
+          "cjk": "你試吓啦。",
+          "jyutping": "nei5 si3 haa5 laa1.",
+          "yale": "néih si háh lā.",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧ³ ㄏㄚ⁵ ㄌㄚ¹.",
+          "en": "Give it a try."
+        },
+        {
+          "cjk": "等吓！",
+          "jyutping": "dang2 haa5!",
+          "yale": "dáng háh!",
+          "bopomofo": "ㄉㄜㄥ² ㄏㄚ⁵!",
+          "en": "Hang on a moment!"
+        }
+      ],
+      "related": [
+        "laa1-suggestion"
+      ]
+    },
+    {
+      "id": "gwo3-comparison",
+      "pattern": "A + Adjective + 過 + B",
+      "jyutping": "A + Adjective + gwo3 + B",
+      "meaning": "A is more … than B",
+      "level": "A2",
+      "function": "degree-and-comparison",
+      "explanation": "To compare, put 過 after the adjective: 佢高過我 ('he tall-past me'). The written-style 佢比我高 is understood, but 過 is the natural spoken form.",
+      "writtenEquivalent": {
+        "cjk": "A 比 B + Adjective",
+        "note": "Written Chinese uses 比 before the adjective."
+      },
+      "examples": [
+        {
+          "cjk": "佢高過我。",
+          "jyutping": "keoi5 gou1 gwo3 ngo5.",
+          "yale": "kéuih gōu gwo ngóh.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄍㄛㄨ¹ ㄍㄨㄛ³ ㆭㄛ⁵.",
+          "en": "He's taller than me."
+        },
+        {
+          "cjk": "坐地鐵快過坐巴士。",
+          "jyutping": "co5 dei6 tit3 faai3 gwo3 co5 baa1 si2.",
+          "yale": "chóh deih tit faai gwo chóh bā sí.",
+          "bopomofo": "ㄘㄛ⁵ ㄉㄝㄧ⁶ ㄊㄧㆵ³ ㄈㄚㄧ³ ㄍㄨㄛ³ ㄘㄛ⁵ ㄅㄚ¹ ㄙㄧ².",
+          "en": "The MTR is faster than the bus."
+        },
+        {
+          "cjk": "今日凍過尋日。",
+          "jyutping": "gam1 jat6 dung3 gwo3 cam4 jat6.",
+          "yale": "gām yaht dung gwo chàhm yaht.",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄉㄨㄥ³ ㄍㄨㄛ³ ㄘㄜㆬ⁴ ㄧㄜㆵ⁶.",
+          "en": "Today is colder than yesterday."
+        }
+      ],
+      "related": [
+        "hou2-very",
+        "taai3-too"
+      ]
+    },
+    {
+      "id": "jan1-wai6-because",
+      "pattern": "因為 …，所以 …",
+      "jyutping": "jan1 wai6 …, so2 ji5 …",
+      "meaning": "because …, so …",
+      "level": "A2",
+      "function": "connecting",
+      "explanation": "因為 introduces the reason and 所以 the result. Unlike English, using both in one sentence is normal. Either half can also stand alone.",
+      "writtenEquivalent": null,
+      "examples": [
+        {
+          "cjk": "因為落雨，所以我冇出街。",
+          "jyutping": "jan1 wai6 lok6 jyu5, so2 ji5 ngo5 mou5 ceot1 gaai1.",
+          "yale": "yān waih lohk yúh, só yíh ngóh móuh chēut gāai.",
+          "bopomofo": "ㄧㄜㄣ¹ ㄨㄜㄧ⁶ ㄌㄛㆶ⁶ ㄩ⁵, ㄙㄛ² ㄧ⁵ ㆭㄛ⁵ ㄇㄛㄨ⁵ ㄘㆤㆵ¹ ㄍㄚㄧ¹.",
+          "en": "Because it was raining, I didn't go out."
+        },
+        {
+          "cjk": "我好攰，因為尋日好夜先瞓。",
+          "jyutping": "ngo5 hou2 gui6, jan1 wai6 cam4 jat6 hou2 je6 sin1 fan3.",
+          "yale": "ngóh hóu guih, yān waih chàhm yaht hóu yeh sīn fan.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄛㄨ² ㄍㄨㄧ⁶, ㄧㄜㄣ¹ ㄨㄜㄧ⁶ ㄘㄜㆬ⁴ ㄧㄜㆵ⁶ ㄏㄛㄨ² ㄧㄝ⁶ ㄙㄧㄣ¹ ㄈㄜㄣ³.",
+          "en": "I'm tired because I went to bed late last night."
+        },
+        {
+          "cjk": "因為佢病咗，所以今日唔返工。",
+          "jyutping": "jan1 wai6 keoi5 beng6 zo2, so2 ji5 gam1 jat6 m4 faan1 gung1.",
+          "yale": "yān waih kéuih behng jó, só yíh gām yaht m̀h fāan gūng.",
+          "bopomofo": "ㄧㄜㄣ¹ ㄨㄜㄧ⁶ ㄎㆤㄧ⁵ ㄅㄝㄥ⁶ ㄗㄛ², ㄙㄛ² ㄧ⁵ ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㆬ⁴ ㄈㄚㄣ¹ ㄍㄨㄥ¹.",
+          "en": "Because she's ill, she isn't going to work today."
+        }
+      ],
+      "related": [
+        "dim2-gaai2-why"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "greetings",
+      "title": "Greetings and courtesy",
+      "titleCjk": "打招呼",
+      "words": [
+        {
+          "cjk": "早晨",
+          "jyutping": "zou2 san4",
+          "yale": "jóu sàhn",
+          "bopomofo": "ㄗㄛㄨ² ㄙㄜㄣ⁴",
+          "en": "good morning",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "你好",
+          "jyutping": "nei5 hou2",
+          "yale": "néih hóu",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄛㄨ²",
+          "en": "hello",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "唔該",
+          "jyutping": "m4 goi1",
+          "yale": "m̀h gōi",
+          "bopomofo": "ㆬ⁴ ㄍㄛㄧ¹",
+          "en": "thank you (for a service); excuse me",
+          "pos": "phrase",
+          "note": "Use for small favours and services; 多謝 is for gifts and compliments."
+        },
+        {
+          "cjk": "多謝",
+          "jyutping": "do1 ze6",
+          "yale": "dō jeh",
+          "bopomofo": "ㄉㄛ¹ ㄗㄝ⁶",
+          "en": "thank you (for a gift or compliment)",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "對唔住",
+          "jyutping": "deoi3 m4 zyu6",
+          "yale": "deui m̀h jyuh",
+          "bopomofo": "ㄉㆤㄧ³ ㆬ⁴ ㄗㄩ⁶",
+          "en": "sorry",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "唔緊要",
+          "jyutping": "m4 gan2 jiu3",
+          "yale": "m̀h gán yiu",
+          "bopomofo": "ㆬ⁴ ㄍㄜㄣ² ㄧㄨ³",
+          "en": "never mind; it doesn't matter",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "唔好意思",
+          "jyutping": "m4 hou2 ji3 si3",
+          "yale": "m̀h hóu yi si",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄨ² ㄧ³ ㄙㄧ³",
+          "en": "excuse me; sorry (mild)",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "請問",
+          "jyutping": "cing2 man6",
+          "yale": "chíng mahn",
+          "bopomofo": "ㄘㄧㄥ² ㄇㄜㄣ⁶",
+          "en": "excuse me, may I ask…",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "拜拜",
+          "jyutping": "baai1 baai3",
+          "yale": "bāai baai",
+          "bopomofo": "ㄅㄚㄧ¹ ㄅㄚㄧ³",
+          "en": "bye",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "再見",
+          "jyutping": "zoi3 gin3",
+          "yale": "joi gin",
+          "bopomofo": "ㄗㄛㄧ³ ㄍㄧㄣ³",
+          "en": "goodbye",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "好耐冇見",
+          "jyutping": "hou2 noi6 mou5 gin3",
+          "yale": "hóu noih móuh gin",
+          "bopomofo": "ㄏㄛㄨ² ㄋㄛㄧ⁶ ㄇㄛㄨ⁵ ㄍㄧㄣ³",
+          "en": "long time no see",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "食咗飯未呀",
+          "jyutping": "sik6 zo2 faan6 mei6 aa3",
+          "yale": "sihk jó faahn meih a",
+          "bopomofo": "ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³",
+          "en": "have you eaten? (a common greeting)",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "麻麻哋",
+          "jyutping": "maa4 maa2 dei2",
+          "yale": "màh má déi",
+          "bopomofo": "ㄇㄚ⁴ ㄇㄚ² ㄉㄝㄧ²",
+          "en": "so-so",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "唔使客氣",
+          "jyutping": "m4 sai2 haak3 hei3",
+          "yale": "m̀h sái haak hei",
+          "bopomofo": "ㆬ⁴ ㄙㄜㄧ² ㄏㄚㆶ³ ㄏㄝㄧ³",
+          "en": "you're welcome; no need to be polite",
+          "pos": "phrase"
+        },
+        {
+          "cjk": "冇問題",
+          "jyutping": "mou5 man6 tai4",
+          "yale": "móuh mahn tàih",
+          "bopomofo": "ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴",
+          "en": "no problem",
+          "pos": "phrase"
+        }
+      ]
+    },
+    {
+      "id": "numbers-money-time",
+      "title": "Numbers, money and time",
+      "titleCjk": "數字、錢同時間",
+      "words": [
+        {
+          "cjk": "一",
+          "jyutping": "jat1",
+          "yale": "yāt",
+          "bopomofo": "ㄧㄜㆵ¹",
+          "en": "one",
+          "pos": "number"
+        },
+        {
+          "cjk": "兩",
+          "jyutping": "loeng5",
+          "yale": "léuhng",
+          "bopomofo": "ㄌㆦㄥ⁵",
+          "en": "two (before a classifier)",
+          "pos": "number",
+          "note": "Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十)."
+        },
+        {
+          "cjk": "三",
+          "jyutping": "saam1",
+          "yale": "sāam",
+          "bopomofo": "ㄙㄚㆬ¹",
+          "en": "three",
+          "pos": "number"
+        },
+        {
+          "cjk": "十",
+          "jyutping": "sap6",
+          "yale": "sahp",
+          "bopomofo": "ㄙㄜㆴ⁶",
+          "en": "ten",
+          "pos": "number"
+        },
+        {
+          "cjk": "一百",
+          "jyutping": "jat1 baak3",
+          "yale": "yāt baak",
+          "bopomofo": "ㄧㄜㆵ¹ ㄅㄚㆶ³",
+          "en": "one hundred",
+          "pos": "number"
+        },
+        {
+          "cjk": "一千",
+          "jyutping": "jat1 cin1",
+          "yale": "yāt chīn",
+          "bopomofo": "ㄧㄜㆵ¹ ㄘㄧㄣ¹",
+          "en": "one thousand",
+          "pos": "number"
+        },
+        {
+          "cjk": "蚊",
+          "jyutping": "man1",
+          "yale": "mān",
+          "bopomofo": "ㄇㄜㄣ¹",
+          "en": "dollar (colloquial)",
+          "pos": "noun"
+        },
+        {
+          "cjk": "毫子",
+          "jyutping": "hou4 zi2",
+          "yale": "hòuh jí",
+          "bopomofo": "ㄏㄛㄨ⁴ ㄗㄧ²",
+          "en": "ten cents",
+          "pos": "noun"
+        },
+        {
+          "cjk": "錢",
+          "jyutping": "cin2",
+          "yale": "chín",
+          "bopomofo": "ㄘㄧㄣ²",
+          "en": "money",
+          "pos": "noun"
+        },
+        {
+          "cjk": "幾點",
+          "jyutping": "gei2 dim2",
+          "yale": "géi dím",
+          "bopomofo": "ㄍㄝㄧ² ㄉㄧㆬ²",
+          "en": "what time",
+          "pos": "question word"
+        },
+        {
+          "cjk": "點鐘",
+          "jyutping": "dim2 zung1",
+          "yale": "dím jūng",
+          "bopomofo": "ㄉㄧㆬ² ㄗㄨㄥ¹",
+          "en": "o'clock",
+          "pos": "noun"
+        },
+        {
+          "cjk": "今日",
+          "jyutping": "gam1 jat6",
+          "yale": "gām yaht",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶",
+          "en": "today",
+          "pos": "time"
+        },
+        {
+          "cjk": "聽日",
+          "jyutping": "ting1 jat6",
+          "yale": "tīng yaht",
+          "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶",
+          "en": "tomorrow",
+          "pos": "time"
+        },
+        {
+          "cjk": "尋日",
+          "jyutping": "cam4 jat6",
+          "yale": "chàhm yaht",
+          "bopomofo": "ㄘㄜㆬ⁴ ㄧㄜㆵ⁶",
+          "en": "yesterday",
+          "pos": "time"
+        },
+        {
+          "cjk": "星期一",
+          "jyutping": "sing1 kei4 jat1",
+          "yale": "sīng kèih yāt",
+          "bopomofo": "ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄧㄜㆵ¹",
+          "en": "Monday",
+          "pos": "time"
+        }
+      ]
+    },
+    {
+      "id": "food-and-dim-sum",
+      "title": "Food and dim sum",
+      "titleCjk": "飲食同點心",
+      "words": [
+        {
+          "cjk": "食",
+          "jyutping": "sik6",
+          "yale": "sihk",
+          "bopomofo": "ㄙㄧㆶ⁶",
+          "en": "to eat",
+          "pos": "verb"
+        },
+        {
+          "cjk": "飲",
+          "jyutping": "jam2",
+          "yale": "yám",
+          "bopomofo": "ㄧㄜㆬ²",
+          "en": "to drink",
+          "pos": "verb"
+        },
+        {
+          "cjk": "飯",
+          "jyutping": "faan6",
+          "yale": "faahn",
+          "bopomofo": "ㄈㄚㄣ⁶",
+          "en": "rice; a meal",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "碗",
+            "jyutping": "wun2",
+            "yale": "wún",
+            "bopomofo": "ㄨㄨㄣ²"
+          }
+        },
+        {
+          "cjk": "點心",
+          "jyutping": "dim2 sam1",
+          "yale": "dím sām",
+          "bopomofo": "ㄉㄧㆬ² ㄙㄜㆬ¹",
+          "en": "dim sum",
+          "pos": "noun"
+        },
+        {
+          "cjk": "蝦餃",
+          "jyutping": "haa1 gaau2",
+          "yale": "hā gáau",
+          "bopomofo": "ㄏㄚ¹ ㄍㄚㄨ²",
+          "en": "har gow (shrimp dumpling)",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "籠",
+            "jyutping": "lung4",
+            "yale": "lùhng",
+            "bopomofo": "ㄌㄨㄥ⁴"
+          }
+        },
+        {
+          "cjk": "燒賣",
+          "jyutping": "siu1 maai2",
+          "yale": "sīu máai",
+          "bopomofo": "ㄙㄧㄨ¹ ㄇㄚㄧ²",
+          "en": "siu mai (pork dumpling)",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "籠",
+            "jyutping": "lung4",
+            "yale": "lùhng",
+            "bopomofo": "ㄌㄨㄥ⁴"
+          }
+        },
+        {
+          "cjk": "叉燒包",
+          "jyutping": "caa1 siu1 baau1",
+          "yale": "chā sīu bāau",
+          "bopomofo": "ㄘㄚ¹ ㄙㄧㄨ¹ ㄅㄚㄨ¹",
+          "en": "barbecue pork bun",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "籠",
+            "jyutping": "lung4",
+            "yale": "lùhng",
+            "bopomofo": "ㄌㄨㄥ⁴"
+          }
+        },
+        {
+          "cjk": "奶茶",
+          "jyutping": "naai5 caa4",
+          "yale": "náaih chàh",
+          "bopomofo": "ㄋㄚㄧ⁵ ㄘㄚ⁴",
+          "en": "Hong Kong milk tea",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "杯",
+            "jyutping": "bui1",
+            "yale": "būi",
+            "bopomofo": "ㄅㄨㄧ¹"
+          }
+        },
+        {
+          "cjk": "咖啡",
+          "jyutping": "gaa3 fe1",
+          "yale": "ga fē",
+          "bopomofo": "ㄍㄚ³ ㄈㄝ¹",
+          "en": "coffee",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "杯",
+            "jyutping": "bui1",
+            "yale": "būi",
+            "bopomofo": "ㄅㄨㄧ¹"
+          }
+        },
+        {
+          "cjk": "雲吞麪",
+          "jyutping": "wan4 tan1 min6",
+          "yale": "wàhn tān mihn",
+          "bopomofo": "ㄨㄜㄣ⁴ ㄊㄜㄣ¹ ㄇㄧㄣ⁶",
+          "en": "wonton noodles",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "碗",
+            "jyutping": "wun2",
+            "yale": "wún",
+            "bopomofo": "ㄨㄨㄣ²"
+          }
+        },
+        {
+          "cjk": "菠蘿包",
+          "jyutping": "bo1 lo4 baau1",
+          "yale": "bō lòh bāau",
+          "bopomofo": "ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹",
+          "en": "pineapple bun",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "好食",
+          "jyutping": "hou2 sik6",
+          "yale": "hóu sihk",
+          "bopomofo": "ㄏㄛㄨ² ㄙㄧㆶ⁶",
+          "en": "delicious",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "辣",
+          "jyutping": "laat6",
+          "yale": "laaht",
+          "bopomofo": "ㄌㄚㆵ⁶",
+          "en": "spicy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "埋單",
+          "jyutping": "maai4 daan1",
+          "yale": "màaih dāan",
+          "bopomofo": "ㄇㄚㄧ⁴ ㄉㄚㄣ¹",
+          "en": "to ask for the bill",
+          "pos": "verb"
+        },
+        {
+          "cjk": "筷子",
+          "jyutping": "faai3 zi2",
+          "yale": "faai jí",
+          "bopomofo": "ㄈㄚㄧ³ ㄗㄧ²",
+          "en": "chopsticks",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "對",
+            "jyutping": "deoi3",
+            "yale": "deui",
+            "bopomofo": "ㄉㆤㄧ³"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping",
+      "titleCjk": "買嘢",
+      "words": [
+        {
+          "cjk": "買",
+          "jyutping": "maai5",
+          "yale": "máaih",
+          "bopomofo": "ㄇㄚㄧ⁵",
+          "en": "to buy",
+          "pos": "verb"
+        },
+        {
+          "cjk": "賣",
+          "jyutping": "maai6",
+          "yale": "maaih",
+          "bopomofo": "ㄇㄚㄧ⁶",
+          "en": "to sell",
+          "pos": "verb",
+          "note": "Same syllable as 買 but tone 6. Tone changes the meaning."
+        },
+        {
+          "cjk": "貴",
+          "jyutping": "gwai3",
+          "yale": "gwai",
+          "bopomofo": "ㄍㄨㄜㄧ³",
+          "en": "expensive",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "平",
+          "jyutping": "peng4",
+          "yale": "pèhng",
+          "bopomofo": "ㄆㄝㄥ⁴",
+          "en": "cheap",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "衫",
+          "jyutping": "saam1",
+          "yale": "sāam",
+          "bopomofo": "ㄙㄚㆬ¹",
+          "en": "clothes; top",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "件",
+            "jyutping": "gin6",
+            "yale": "gihn",
+            "bopomofo": "ㄍㄧㄣ⁶"
+          }
+        },
+        {
+          "cjk": "褲",
+          "jyutping": "fu3",
+          "yale": "fu",
+          "bopomofo": "ㄈㄨ³",
+          "en": "trousers",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "條",
+            "jyutping": "tiu4",
+            "yale": "tìuh",
+            "bopomofo": "ㄊㄧㄨ⁴"
+          }
+        },
+        {
+          "cjk": "鞋",
+          "jyutping": "haai4",
+          "yale": "hàaih",
+          "bopomofo": "ㄏㄚㄧ⁴",
+          "en": "shoes",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "對",
+            "jyutping": "deoi3",
+            "yale": "deui",
+            "bopomofo": "ㄉㆤㄧ³"
+          }
+        },
+        {
+          "cjk": "袋",
+          "jyutping": "doi2",
+          "yale": "dói",
+          "bopomofo": "ㄉㄛㄧ²",
+          "en": "bag",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "大碼",
+          "jyutping": "daai6 maa5",
+          "yale": "daaih máh",
+          "bopomofo": "ㄉㄚㄧ⁶ ㄇㄚ⁵",
+          "en": "large size",
+          "pos": "noun"
+        },
+        {
+          "cjk": "細碼",
+          "jyutping": "sai3 maa5",
+          "yale": "sai máh",
+          "bopomofo": "ㄙㄜㄧ³ ㄇㄚ⁵",
+          "en": "small size",
+          "pos": "noun"
+        },
+        {
+          "cjk": "顏色",
+          "jyutping": "ngaan4 sik1",
+          "yale": "ngàahn sīk",
+          "bopomofo": "ㆭㄚㄣ⁴ ㄙㄧㆶ¹",
+          "en": "colour",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "隻",
+            "jyutping": "zek3",
+            "yale": "jek",
+            "bopomofo": "ㄗㄝㆶ³"
+          }
+        },
+        {
+          "cjk": "減價",
+          "jyutping": "gaam2 gaa3",
+          "yale": "gáam ga",
+          "bopomofo": "ㄍㄚㆬ² ㄍㄚ³",
+          "en": "on sale",
+          "pos": "verb"
+        },
+        {
+          "cjk": "碌卡",
+          "jyutping": "luk1 kaat1",
+          "yale": "lūk kāat",
+          "bopomofo": "ㄌㄨㆶ¹ ㄎㄚㆵ¹",
+          "en": "to pay by card",
+          "pos": "verb"
+        },
+        {
+          "cjk": "現金",
+          "jyutping": "jin6 gam1",
+          "yale": "yihn gām",
+          "bopomofo": "ㄧㄣ⁶ ㄍㄜㆬ¹",
+          "en": "cash",
+          "pos": "noun"
+        },
+        {
+          "cjk": "試身室",
+          "jyutping": "si3 san1 sat1",
+          "yale": "si sān sāt",
+          "bopomofo": "ㄙㄧ³ ㄙㄜㄣ¹ ㄙㄜㆵ¹",
+          "en": "fitting room",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport and MTR",
+      "titleCjk": "交通同港鐵",
+      "words": [
+        {
+          "cjk": "港鐵",
+          "jyutping": "gong2 tit3",
+          "yale": "góng tit",
+          "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³",
+          "en": "MTR",
+          "pos": "noun"
+        },
+        {
+          "cjk": "地鐵",
+          "jyutping": "dei6 tit3",
+          "yale": "deih tit",
+          "bopomofo": "ㄉㄝㄧ⁶ ㄊㄧㆵ³",
+          "en": "underground train",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          }
+        },
+        {
+          "cjk": "巴士",
+          "jyutping": "baa1 si2",
+          "yale": "bā sí",
+          "bopomofo": "ㄅㄚ¹ ㄙㄧ²",
+          "en": "bus",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          }
+        },
+        {
+          "cjk": "小巴",
+          "jyutping": "siu2 baa1",
+          "yale": "síu bā",
+          "bopomofo": "ㄙㄧㄨ² ㄅㄚ¹",
+          "en": "minibus",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          }
+        },
+        {
+          "cjk": "的士",
+          "jyutping": "dik1 si2",
+          "yale": "dīk sí",
+          "bopomofo": "ㄉㄧㆶ¹ ㄙㄧ²",
+          "en": "taxi",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          }
+        },
+        {
+          "cjk": "電車",
+          "jyutping": "din6 ce1",
+          "yale": "dihn chē",
+          "bopomofo": "ㄉㄧㄣ⁶ ㄘㄝ¹",
+          "en": "tram",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          }
+        },
+        {
+          "cjk": "八達通",
+          "jyutping": "baat3 daat6 tung1",
+          "yale": "baat daaht tūng",
+          "bopomofo": "ㄅㄚㆵ³ ㄉㄚㆵ⁶ ㄊㄨㄥ¹",
+          "en": "Octopus card",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          }
+        },
+        {
+          "cjk": "增值",
+          "jyutping": "zang1 zik6",
+          "yale": "jāng jihk",
+          "bopomofo": "ㄗㄜㄥ¹ ㄗㄧㆶ⁶",
+          "en": "to top up",
+          "pos": "verb"
+        },
+        {
+          "cjk": "搭",
+          "jyutping": "daap3",
+          "yale": "daap",
+          "bopomofo": "ㄉㄚㆴ³",
+          "en": "to take (transport)",
+          "pos": "verb"
+        },
+        {
+          "cjk": "坐",
+          "jyutping": "co5",
+          "yale": "chóh",
+          "bopomofo": "ㄘㄛ⁵",
+          "en": "to ride; to sit",
+          "pos": "verb"
+        },
+        {
+          "cjk": "落車",
+          "jyutping": "lok6 ce1",
+          "yale": "lohk chē",
+          "bopomofo": "ㄌㄛㆶ⁶ ㄘㄝ¹",
+          "en": "to get off",
+          "pos": "verb"
+        },
+        {
+          "cjk": "轉車",
+          "jyutping": "zyun3 ce1",
+          "yale": "jyun chē",
+          "bopomofo": "ㄗㄩㄣ³ ㄘㄝ¹",
+          "en": "to change (trains or buses)",
+          "pos": "verb"
+        },
+        {
+          "cjk": "車站",
+          "jyutping": "ce1 zaam6",
+          "yale": "chē jaahm",
+          "bopomofo": "ㄘㄝ¹ ㄗㄚㆬ⁶",
+          "en": "station; stop",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "出口",
+          "jyutping": "ceot1 hau2",
+          "yale": "chēut háu",
+          "bopomofo": "ㄘㆤㆵ¹ ㄏㄜㄨ²",
+          "en": "exit",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "機場",
+          "jyutping": "gei1 coeng4",
+          "yale": "gēi chèuhng",
+          "bopomofo": "ㄍㄝㄧ¹ ㄘㆦㄥ⁴",
+          "en": "airport",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Directions",
+      "titleCjk": "問路",
+      "words": [
+        {
+          "cjk": "邊度",
+          "jyutping": "bin1 dou6",
+          "yale": "bīn douh",
+          "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶",
+          "en": "where",
+          "pos": "question word"
+        },
+        {
+          "cjk": "呢度",
+          "jyutping": "ni1 dou6",
+          "yale": "nī douh",
+          "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶",
+          "en": "here",
+          "pos": "place"
+        },
+        {
+          "cjk": "嗰度",
+          "jyutping": "go2 dou6",
+          "yale": "gó douh",
+          "bopomofo": "ㄍㄛ² ㄉㄛㄨ⁶",
+          "en": "there",
+          "pos": "place"
+        },
+        {
+          "cjk": "左邊",
+          "jyutping": "zo2 bin1",
+          "yale": "jó bīn",
+          "bopomofo": "ㄗㄛ² ㄅㄧㄣ¹",
+          "en": "left side",
+          "pos": "place"
+        },
+        {
+          "cjk": "右邊",
+          "jyutping": "jau6 bin1",
+          "yale": "yauh bīn",
+          "bopomofo": "ㄧㄜㄨ⁶ ㄅㄧㄣ¹",
+          "en": "right side",
+          "pos": "place"
+        },
+        {
+          "cjk": "轉左",
+          "jyutping": "zyun3 zo2",
+          "yale": "jyun jó",
+          "bopomofo": "ㄗㄩㄣ³ ㄗㄛ²",
+          "en": "to turn left",
+          "pos": "verb"
+        },
+        {
+          "cjk": "轉右",
+          "jyutping": "zyun3 jau6",
+          "yale": "jyun yauh",
+          "bopomofo": "ㄗㄩㄣ³ ㄧㄜㄨ⁶",
+          "en": "to turn right",
+          "pos": "verb"
+        },
+        {
+          "cjk": "直行",
+          "jyutping": "zik6 haang4",
+          "yale": "jihk hàahng",
+          "bopomofo": "ㄗㄧㆶ⁶ ㄏㄚㄥ⁴",
+          "en": "to go straight on",
+          "pos": "verb"
+        },
+        {
+          "cjk": "對面",
+          "jyutping": "deoi3 min6",
+          "yale": "deui mihn",
+          "bopomofo": "ㄉㆤㄧ³ ㄇㄧㄣ⁶",
+          "en": "opposite",
+          "pos": "place"
+        },
+        {
+          "cjk": "隔籬",
+          "jyutping": "gaak3 lei4",
+          "yale": "gaak lèih",
+          "bopomofo": "ㄍㄚㆶ³ ㄌㄝㄧ⁴",
+          "en": "next to",
+          "pos": "place"
+        },
+        {
+          "cjk": "前面",
+          "jyutping": "cin4 min6",
+          "yale": "chìhn mihn",
+          "bopomofo": "ㄘㄧㄣ⁴ ㄇㄧㄣ⁶",
+          "en": "in front",
+          "pos": "place"
+        },
+        {
+          "cjk": "後面",
+          "jyutping": "hau6 min6",
+          "yale": "hauh mihn",
+          "bopomofo": "ㄏㄜㄨ⁶ ㄇㄧㄣ⁶",
+          "en": "behind",
+          "pos": "place"
+        },
+        {
+          "cjk": "附近",
+          "jyutping": "fu6 gan6",
+          "yale": "fuh gahn",
+          "bopomofo": "ㄈㄨ⁶ ㄍㄜㄣ⁶",
+          "en": "nearby",
+          "pos": "place"
+        },
+        {
+          "cjk": "近",
+          "jyutping": "kan5",
+          "yale": "káhn",
+          "bopomofo": "ㄎㄜㄣ⁵",
+          "en": "near",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "遠",
+          "jyutping": "jyun5",
+          "yale": "yúhn",
+          "bopomofo": "ㄩㄣ⁵",
+          "en": "far",
+          "pos": "adjective"
+        }
+      ]
+    },
+    {
+      "id": "family-and-people",
+      "title": "Family and people",
+      "titleCjk": "屋企人同朋友",
+      "words": [
+        {
+          "cjk": "屋企人",
+          "jyutping": "uk1 kei2 jan4",
+          "yale": "ūk kéi yàhn",
+          "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴",
+          "en": "family",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "爸爸",
+          "jyutping": "baa4 baa1",
+          "yale": "bàh bā",
+          "bopomofo": "ㄅㄚ⁴ ㄅㄚ¹",
+          "en": "dad",
+          "pos": "noun"
+        },
+        {
+          "cjk": "媽媽",
+          "jyutping": "maa4 maa1",
+          "yale": "màh mā",
+          "bopomofo": "ㄇㄚ⁴ ㄇㄚ¹",
+          "en": "mum",
+          "pos": "noun"
+        },
+        {
+          "cjk": "哥哥",
+          "jyutping": "go4 go1",
+          "yale": "gòh gō",
+          "bopomofo": "ㄍㄛ⁴ ㄍㄛ¹",
+          "en": "older brother",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "家姐",
+          "jyutping": "gaa1 ze1",
+          "yale": "gā jē",
+          "bopomofo": "ㄍㄚ¹ ㄗㄝ¹",
+          "en": "older sister",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "細佬",
+          "jyutping": "sai3 lou2",
+          "yale": "sai lóu",
+          "bopomofo": "ㄙㄜㄧ³ ㄌㄛㄨ²",
+          "en": "younger brother",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "妹妹",
+          "jyutping": "mui4 mui2",
+          "yale": "mùih múi",
+          "bopomofo": "ㄇㄨㄧ⁴ ㄇㄨㄧ²",
+          "en": "younger sister",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "老公",
+          "jyutping": "lou5 gung1",
+          "yale": "lóuh gūng",
+          "bopomofo": "ㄌㄛㄨ⁵ ㄍㄨㄥ¹",
+          "en": "husband",
+          "pos": "noun"
+        },
+        {
+          "cjk": "老婆",
+          "jyutping": "lou5 po4",
+          "yale": "lóuh pòh",
+          "bopomofo": "ㄌㄛㄨ⁵ ㄆㄛ⁴",
+          "en": "wife",
+          "pos": "noun"
+        },
+        {
+          "cjk": "仔",
+          "jyutping": "zai2",
+          "yale": "jái",
+          "bopomofo": "ㄗㄜㄧ²",
+          "en": "son",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "女",
+          "jyutping": "neoi2",
+          "yale": "néui",
+          "bopomofo": "ㄋㆤㄧ²",
+          "en": "daughter",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "朋友",
+          "jyutping": "pang4 jau5",
+          "yale": "pàhng yáuh",
+          "bopomofo": "ㄆㄜㄥ⁴ ㄧㄜㄨ⁵",
+          "en": "friend",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "同事",
+          "jyutping": "tung4 si6",
+          "yale": "tùhng sih",
+          "bopomofo": "ㄊㄨㄥ⁴ ㄙㄧ⁶",
+          "en": "colleague",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "細路",
+          "jyutping": "sai3 lou6",
+          "yale": "sai louh",
+          "bopomofo": "ㄙㄜㄧ³ ㄌㄛㄨ⁶",
+          "en": "child",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "婆婆",
+          "jyutping": "po4 po2",
+          "yale": "pòh pó",
+          "bopomofo": "ㄆㄛ⁴ ㄆㄛ²",
+          "en": "grandmother (maternal)",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "id": "home-and-routine",
+      "title": "Home and daily routine",
+      "titleCjk": "屋企同日常",
+      "words": [
+        {
+          "cjk": "屋企",
+          "jyutping": "uk1 kei2",
+          "yale": "ūk kéi",
+          "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²",
+          "en": "home",
+          "pos": "noun"
+        },
+        {
+          "cjk": "起身",
+          "jyutping": "hei2 san1",
+          "yale": "héi sān",
+          "bopomofo": "ㄏㄝㄧ² ㄙㄜㄣ¹",
+          "en": "to get up",
+          "pos": "verb"
+        },
+        {
+          "cjk": "瞓覺",
+          "jyutping": "fan3 gaau3",
+          "yale": "fan gaau",
+          "bopomofo": "ㄈㄜㄣ³ ㄍㄚㄨ³",
+          "en": "to sleep",
+          "pos": "verb"
+        },
+        {
+          "cjk": "沖涼",
+          "jyutping": "cung1 loeng4",
+          "yale": "chūng lèuhng",
+          "bopomofo": "ㄘㄨㄥ¹ ㄌㆦㄥ⁴",
+          "en": "to shower",
+          "pos": "verb"
+        },
+        {
+          "cjk": "刷牙",
+          "jyutping": "caat3 ngaa4",
+          "yale": "chaat ngàh",
+          "bopomofo": "ㄘㄚㆵ³ ㆭㄚ⁴",
+          "en": "to brush teeth",
+          "pos": "verb"
+        },
+        {
+          "cjk": "返工",
+          "jyutping": "faan1 gung1",
+          "yale": "fāan gūng",
+          "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹",
+          "en": "to go to work",
+          "pos": "verb"
+        },
+        {
+          "cjk": "放工",
+          "jyutping": "fong3 gung1",
+          "yale": "fong gūng",
+          "bopomofo": "ㄈㄛㄥ³ ㄍㄨㄥ¹",
+          "en": "to finish work",
+          "pos": "verb"
+        },
+        {
+          "cjk": "煮飯",
+          "jyutping": "zyu2 faan6",
+          "yale": "jyú faahn",
+          "bopomofo": "ㄗㄩ² ㄈㄚㄣ⁶",
+          "en": "to cook",
+          "pos": "verb"
+        },
+        {
+          "cjk": "洗衫",
+          "jyutping": "sai2 saam1",
+          "yale": "sái sāam",
+          "bopomofo": "ㄙㄜㄧ² ㄙㄚㆬ¹",
+          "en": "to do the laundry",
+          "pos": "verb"
+        },
+        {
+          "cjk": "廳",
+          "jyutping": "teng1",
+          "yale": "tēng",
+          "bopomofo": "ㄊㄝㄥ¹",
+          "en": "living room",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "房",
+          "jyutping": "fong2",
+          "yale": "fóng",
+          "bopomofo": "ㄈㄛㄥ²",
+          "en": "bedroom",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "廚房",
+          "jyutping": "cyu4 fong2",
+          "yale": "chyùh fóng",
+          "bopomofo": "ㄘㄩ⁴ ㄈㄛㄥ²",
+          "en": "kitchen",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "洗手間",
+          "jyutping": "sai2 sau2 gaan1",
+          "yale": "sái sáu gāan",
+          "bopomofo": "ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹",
+          "en": "toilet; bathroom",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "雪櫃",
+          "jyutping": "syut3 gwai6",
+          "yale": "syut gwaih",
+          "bopomofo": "ㄙㄩㆵ³ ㄍㄨㄜㄧ⁶",
+          "en": "fridge",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "冷氣",
+          "jyutping": "laang5 hei3",
+          "yale": "láahng hei",
+          "bopomofo": "ㄌㄚㄥ⁵ ㄏㄝㄧ³",
+          "en": "air conditioning",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          }
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health and the doctor",
+      "titleCjk": "健康同睇醫生",
+      "words": [
+        {
+          "cjk": "醫生",
+          "jyutping": "ji1 sang1",
+          "yale": "yī sāng",
+          "bopomofo": "ㄧ¹ ㄙㄜㄥ¹",
+          "en": "doctor",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "睇醫生",
+          "jyutping": "tai2 ji1 sang1",
+          "yale": "tái yī sāng",
+          "bopomofo": "ㄊㄜㄧ² ㄧ¹ ㄙㄜㄥ¹",
+          "en": "to see a doctor",
+          "pos": "verb"
+        },
+        {
+          "cjk": "診所",
+          "jyutping": "can2 so2",
+          "yale": "chán só",
+          "bopomofo": "ㄘㄜㄣ² ㄙㄛ²",
+          "en": "clinic",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "醫院",
+          "jyutping": "ji1 jyun2",
+          "yale": "yī yún",
+          "bopomofo": "ㄧ¹ ㄩㄣ²",
+          "en": "hospital",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "藥",
+          "jyutping": "joek6",
+          "yale": "yeuhk",
+          "bopomofo": "ㄧㆦㆶ⁶",
+          "en": "medicine",
+          "pos": "noun"
+        },
+        {
+          "cjk": "食藥",
+          "jyutping": "sik6 joek6",
+          "yale": "sihk yeuhk",
+          "bopomofo": "ㄙㄧㆶ⁶ ㄧㆦㆶ⁶",
+          "en": "to take medicine",
+          "pos": "verb"
+        },
+        {
+          "cjk": "藥房",
+          "jyutping": "joek6 fong4",
+          "yale": "yeuhk fòhng",
+          "bopomofo": "ㄧㆦㆶ⁶ ㄈㄛㄥ⁴",
+          "en": "pharmacy",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "唔舒服",
+          "jyutping": "m4 syu1 fuk6",
+          "yale": "m̀h syū fuhk",
+          "bopomofo": "ㆬ⁴ ㄙㄩ¹ ㄈㄨㆶ⁶",
+          "en": "unwell",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "頭痛",
+          "jyutping": "tau4 tung3",
+          "yale": "tàuh tung",
+          "bopomofo": "ㄊㄜㄨ⁴ ㄊㄨㄥ³",
+          "en": "headache",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "肚痛",
+          "jyutping": "tou5 tung3",
+          "yale": "tóuh tung",
+          "bopomofo": "ㄊㄛㄨ⁵ ㄊㄨㄥ³",
+          "en": "stomach ache",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "喉嚨痛",
+          "jyutping": "hau4 lung4 tung3",
+          "yale": "hàuh lùhng tung",
+          "bopomofo": "ㄏㄜㄨ⁴ ㄌㄨㄥ⁴ ㄊㄨㄥ³",
+          "en": "sore throat",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "發燒",
+          "jyutping": "faat3 siu1",
+          "yale": "faat sīu",
+          "bopomofo": "ㄈㄚㆵ³ ㄙㄧㄨ¹",
+          "en": "to have a fever",
+          "pos": "verb"
+        },
+        {
+          "cjk": "咳",
+          "jyutping": "kat1",
+          "yale": "kāt",
+          "bopomofo": "ㄎㄜㆵ¹",
+          "en": "to cough",
+          "pos": "verb"
+        },
+        {
+          "cjk": "感冒",
+          "jyutping": "gam2 mou6",
+          "yale": "gám mouh",
+          "bopomofo": "ㄍㄜㆬ² ㄇㄛㄨ⁶",
+          "en": "a cold; flu",
+          "pos": "noun"
+        },
+        {
+          "cjk": "休息",
+          "jyutping": "jau1 sik1",
+          "yale": "yāu sīk",
+          "bopomofo": "ㄧㄜㄨ¹ ㄙㄧㆶ¹",
+          "en": "to rest",
+          "pos": "verb"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Work and the office",
+      "titleCjk": "返工",
+      "words": [
+        {
+          "cjk": "公司",
+          "jyutping": "gung1 si1",
+          "yale": "gūng sī",
+          "bopomofo": "ㄍㄨㄥ¹ ㄙㄧ¹",
+          "en": "company; office",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          }
+        },
+        {
+          "cjk": "寫字樓",
+          "jyutping": "se2 zi6 lau4",
+          "yale": "sé jih làuh",
+          "bopomofo": "ㄙㄝ² ㄗㄧ⁶ ㄌㄜㄨ⁴",
+          "en": "office building",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "座",
+            "jyutping": "zo6",
+            "yale": "joh",
+            "bopomofo": "ㄗㄛ⁶"
+          }
+        },
+        {
+          "cjk": "老細",
+          "jyutping": "lou5 sai3",
+          "yale": "lóuh sai",
+          "bopomofo": "ㄌㄛㄨ⁵ ㄙㄜㄧ³",
+          "en": "boss",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "開會",
+          "jyutping": "hoi1 wui2",
+          "yale": "hōi wúi",
+          "bopomofo": "ㄏㄛㄧ¹ ㄨㄨㄧ²",
+          "en": "to have a meeting",
+          "pos": "verb"
+        },
+        {
+          "cjk": "加班",
+          "jyutping": "gaa1 baan1",
+          "yale": "gā bāan",
+          "bopomofo": "ㄍㄚ¹ ㄅㄚㄣ¹",
+          "en": "to work overtime",
+          "pos": "verb"
+        },
+        {
+          "cjk": "電郵",
+          "jyutping": "din6 jau4",
+          "yale": "dihn yàuh",
+          "bopomofo": "ㄉㄧㄣ⁶ ㄧㄜㄨ⁴",
+          "en": "email",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "封",
+            "jyutping": "fung1",
+            "yale": "fūng",
+            "bopomofo": "ㄈㄨㄥ¹"
+          }
+        },
+        {
+          "cjk": "電腦",
+          "jyutping": "din6 nou5",
+          "yale": "dihn nóuh",
+          "bopomofo": "ㄉㄧㄣ⁶ ㄋㄛㄨ⁵",
+          "en": "computer",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          }
+        },
+        {
+          "cjk": "份工",
+          "jyutping": "fan6 gung1",
+          "yale": "fahn gūng",
+          "bopomofo": "ㄈㄜㄣ⁶ ㄍㄨㄥ¹",
+          "en": "a job",
+          "pos": "noun"
+        },
+        {
+          "cjk": "人工",
+          "jyutping": "jan4 gung1",
+          "yale": "yàhn gūng",
+          "bopomofo": "ㄧㄜㄣ⁴ ㄍㄨㄥ¹",
+          "en": "salary",
+          "pos": "noun"
+        },
+        {
+          "cjk": "放假",
+          "jyutping": "fong3 gaa3",
+          "yale": "fong ga",
+          "bopomofo": "ㄈㄛㄥ³ ㄍㄚ³",
+          "en": "to be on holiday",
+          "pos": "verb"
+        },
+        {
+          "cjk": "請假",
+          "jyutping": "ceng2 gaa3",
+          "yale": "chéng ga",
+          "bopomofo": "ㄘㄝㄥ² ㄍㄚ³",
+          "en": "to take leave",
+          "pos": "verb"
+        },
+        {
+          "cjk": "忙",
+          "jyutping": "mong4",
+          "yale": "mòhng",
+          "bopomofo": "ㄇㄛㄥ⁴",
+          "en": "busy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "得閒",
+          "jyutping": "dak1 haan4",
+          "yale": "dāk hàahn",
+          "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴",
+          "en": "free; not busy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "客",
+          "jyutping": "haak3",
+          "yale": "haak",
+          "bopomofo": "ㄏㄚㆶ³",
+          "en": "client; customer",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "文件",
+          "jyutping": "man4 gin2",
+          "yale": "màhn gín",
+          "bopomofo": "ㄇㄜㄣ⁴ ㄍㄧㄣ²",
+          "en": "document",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "份",
+            "jyutping": "fan6",
+            "yale": "fahn",
+            "bopomofo": "ㄈㄜㄣ⁶"
+          }
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "titleCjk": "天氣",
+      "words": [
+        {
+          "cjk": "天氣",
+          "jyutping": "tin1 hei3",
+          "yale": "tīn hei",
+          "bopomofo": "ㄊㄧㄣ¹ ㄏㄝㄧ³",
+          "en": "weather",
+          "pos": "noun"
+        },
+        {
+          "cjk": "熱",
+          "jyutping": "jit6",
+          "yale": "yiht",
+          "bopomofo": "ㄧㆵ⁶",
+          "en": "hot",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "凍",
+          "jyutping": "dung3",
+          "yale": "dung",
+          "bopomofo": "ㄉㄨㄥ³",
+          "en": "cold",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "暖",
+          "jyutping": "nyun5",
+          "yale": "nyúhn",
+          "bopomofo": "ㄋㄩㄣ⁵",
+          "en": "warm",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "涼",
+          "jyutping": "loeng4",
+          "yale": "lèuhng",
+          "bopomofo": "ㄌㆦㄥ⁴",
+          "en": "cool",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "落雨",
+          "jyutping": "lok6 jyu5",
+          "yale": "lohk yúh",
+          "bopomofo": "ㄌㄛㆶ⁶ ㄩ⁵",
+          "en": "to rain",
+          "pos": "verb"
+        },
+        {
+          "cjk": "遮",
+          "jyutping": "ze1",
+          "yale": "jē",
+          "bopomofo": "ㄗㄝ¹",
+          "en": "umbrella",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "把",
+            "jyutping": "baa2",
+            "yale": "bá",
+            "bopomofo": "ㄅㄚ²"
+          }
+        },
+        {
+          "cjk": "出太陽",
+          "jyutping": "ceot1 taai3 joeng4",
+          "yale": "chēut taai yèuhng",
+          "bopomofo": "ㄘㆤㆵ¹ ㄊㄚㄧ³ ㄧㆦㄥ⁴",
+          "en": "to be sunny",
+          "pos": "verb"
+        },
+        {
+          "cjk": "大風",
+          "jyutping": "daai6 fung1",
+          "yale": "daaih fūng",
+          "bopomofo": "ㄉㄚㄧ⁶ ㄈㄨㄥ¹",
+          "en": "windy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "打風",
+          "jyutping": "daa2 fung1",
+          "yale": "dá fūng",
+          "bopomofo": "ㄉㄚ² ㄈㄨㄥ¹",
+          "en": "to have a typhoon",
+          "pos": "verb"
+        },
+        {
+          "cjk": "翳焗",
+          "jyutping": "ai3 guk6",
+          "yale": "ai guhk",
+          "bopomofo": "ㄜㄧ³ ㄍㄨㆶ⁶",
+          "en": "hot and stuffy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "潮濕",
+          "jyutping": "ciu4 sap1",
+          "yale": "chìuh sāp",
+          "bopomofo": "ㄘㄧㄨ⁴ ㄙㄜㆴ¹",
+          "en": "humid",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "黑雨",
+          "jyutping": "hak1 jyu5",
+          "yale": "hāk yúh",
+          "bopomofo": "ㄏㄜㆶ¹ ㄩ⁵",
+          "en": "black rainstorm (warning)",
+          "pos": "noun"
+        },
+        {
+          "cjk": "天文台",
+          "jyutping": "tin1 man4 toi4",
+          "yale": "tīn màhn tòih",
+          "bopomofo": "ㄊㄧㄣ¹ ㄇㄜㄣ⁴ ㄊㄛㄧ⁴",
+          "en": "Hong Kong Observatory",
+          "pos": "noun"
+        },
+        {
+          "cjk": "度",
+          "jyutping": "dou6",
+          "yale": "douh",
+          "bopomofo": "ㄉㄛㄨ⁶",
+          "en": "degree (temperature)",
+          "pos": "noun"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": "Feelings",
+      "titleCjk": "感受",
+      "words": [
+        {
+          "cjk": "開心",
+          "jyutping": "hoi1 sam1",
+          "yale": "hōi sām",
+          "bopomofo": "ㄏㄛㄧ¹ ㄙㄜㆬ¹",
+          "en": "happy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "唔開心",
+          "jyutping": "m4 hoi1 sam1",
+          "yale": "m̀h hōi sām",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄧ¹ ㄙㄜㆬ¹",
+          "en": "unhappy",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "嬲",
+          "jyutping": "nau1",
+          "yale": "nāu",
+          "bopomofo": "ㄋㄜㄨ¹",
+          "en": "angry",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "驚",
+          "jyutping": "geng1",
+          "yale": "gēng",
+          "bopomofo": "ㄍㄝㄥ¹",
+          "en": "scared",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "攰",
+          "jyutping": "gui6",
+          "yale": "guih",
+          "bopomofo": "ㄍㄨㄧ⁶",
+          "en": "tired",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "悶",
+          "jyutping": "mun6",
+          "yale": "muhn",
+          "bopomofo": "ㄇㄨㄣ⁶",
+          "en": "bored",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "緊張",
+          "jyutping": "gan2 zoeng1",
+          "yale": "gán jēung",
+          "bopomofo": "ㄍㄜㄣ² ㄗㆦㄥ¹",
+          "en": "nervous",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "擔心",
+          "jyutping": "daam1 sam1",
+          "yale": "dāam sām",
+          "bopomofo": "ㄉㄚㆬ¹ ㄙㄜㆬ¹",
+          "en": "worried",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "傷心",
+          "jyutping": "soeng1 sam1",
+          "yale": "sēung sām",
+          "bopomofo": "ㄙㆦㄥ¹ ㄙㄜㆬ¹",
+          "en": "sad",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "鍾意",
+          "jyutping": "zung1 ji3",
+          "yale": "jūng yi",
+          "bopomofo": "ㄗㄨㄥ¹ ㄧ³",
+          "en": "to like",
+          "pos": "verb"
+        },
+        {
+          "cjk": "憎",
+          "jyutping": "zang1",
+          "yale": "jāng",
+          "bopomofo": "ㄗㄜㄥ¹",
+          "en": "to hate",
+          "pos": "verb"
+        },
+        {
+          "cjk": "好笑",
+          "jyutping": "hou2 siu3",
+          "yale": "hóu siu",
+          "bopomofo": "ㄏㄛㄨ² ㄙㄧㄨ³",
+          "en": "funny",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "肚餓",
+          "jyutping": "tou5 ngo6",
+          "yale": "tóuh ngoh",
+          "bopomofo": "ㄊㄛㄨ⁵ ㆭㄛ⁶",
+          "en": "hungry",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "頸渴",
+          "jyutping": "geng2 hot3",
+          "yale": "géng hot",
+          "bopomofo": "ㄍㄝㄥ² ㄏㄛㆵ³",
+          "en": "thirsty",
+          "pos": "adjective"
+        },
+        {
+          "cjk": "放心",
+          "jyutping": "fong3 sam1",
+          "yale": "fong sām",
+          "bopomofo": "ㄈㄛㄥ³ ㄙㄜㆬ¹",
+          "en": "to feel reassured",
+          "pos": "verb"
+        }
+      ]
+    }
+  ]
+}
