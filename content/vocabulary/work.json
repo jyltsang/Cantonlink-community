@@ -1,0 +1,126 @@
+{
+  "id": "work",
+  "order": 10,
+  "title": "Work and the office",
+  "titleCjk": "返工",
+  "words": [
+    {
+      "cjk": "公司",
+      "jyutping": "gung1 si1",
+      "en": "company; office",
+      "pos": "noun",
+      "classifier": [
+        "間",
+        "gaan1"
+      ]
+    },
+    {
+      "cjk": "寫字樓",
+      "jyutping": "se2 zi6 lau4",
+      "en": "office building",
+      "pos": "noun",
+      "classifier": [
+        "座",
+        "zo6"
+      ]
+    },
+    {
+      "cjk": "老細",
+      "jyutping": "lou5 sai3",
+      "en": "boss",
+      "pos": "noun",
+      "classifier": [
+        "個",
+        "go3"
+      ]
+    },
+    {
+      "cjk": "開會",
+      "jyutping": "hoi1 wui2",
+      "en": "to have a meeting",
+      "pos": "verb"
+    },
+    {
+      "cjk": "加班",
+      "jyutping": "gaa1 baan1",
+      "en": "to work overtime",
+      "pos": "verb"
+    },
+    {
+      "cjk": "電郵",
+      "jyutping": "din6 jau4",
+      "en": "email",
+      "pos": "noun",
+      "classifier": [
+        "封",
+        "fung1"
+      ]
+    },
+    {
+      "cjk": "電腦",
+      "jyutping": "din6 nou5",
+      "en": "computer",
+      "pos": "noun",
+      "classifier": [
+        "部",
+        "bou6"
+      ]
+    },
+    {
+      "cjk": "份工",
+      "jyutping": "fan6 gung1",
+      "en": "a job",
+      "pos": "noun"
+    },
+    {
+      "cjk": "人工",
+      "jyutping": "jan4 gung1",
+      "en": "salary",
+      "pos": "noun"
+    },
+    {
+      "cjk": "放假",
+      "jyutping": "fong3 gaa3",
+      "en": "to be on holiday",
+      "pos": "verb"
+    },
+    {
+      "cjk": "請假",
+      "jyutping": "ceng2 gaa3",
+      "en": "to take leave",
+      "pos": "verb"
+    },
+    {
+      "cjk": "忙",
+      "jyutping": "mong4",
+      "en": "busy",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "得閒",
+      "jyutping": "dak1 haan4",
+      "en": "free; not busy",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "客",
+      "jyutping": "haak3",
+      "en": "client; customer",
+      "pos": "noun",
+      "classifier": [
+        "個",
+        "go3"
+      ]
+    },
+    {
+      "cjk": "文件",
+      "jyutping": "man4 gin2",
+      "en": "document",
+      "pos": "noun",
+      "classifier": [
+        "份",
+        "fan6"
+      ]
+    }
+  ]
+}

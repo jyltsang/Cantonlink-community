@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | Draft v0.2 — for review |
+| **Status** | Draft v0.3 — first content published |
 | **Owner** | CantoLink |
 | **Last updated** | 22 October 2026 |
 | **Scope** | A free, open, no-account companion to CantoLink for grammar patterns, practice and topic vocabulary |
@@ -203,29 +203,31 @@ content/*.json  ──►  build (validate, generate Yale, build search index)  
 Content lives as versioned JSON in the repository, extending the shapes CantoLink already uses in `data/raw/`.
 
 ```jsonc
-// content/grammar/verb-zo2.json
+// content/grammar/A1.json (one array per level)
 {
-  "id": "verb-zo2",
+  "id": "zo2-completed",
   "pattern": "Verb + 咗",
   "jyutping": "Verb + zo2",
   "meaning": "completed action",
-  "explanation": "Add 咗 after a verb to show the action has been completed...",
-  "writtenEquivalent": { "characters": "了", "note": "Written Chinese uses 了; speech uses 咗." },
   "level": "A1",
-  "functions": ["time-and-aspect"],
-  "situations": ["general"],
+  "function": "aspect",
+  "explanation": "Add 咗 straight after a verb to show the action has happened...",
+  "writtenEquivalent": { "cjk": "了", "note": "Written Chinese uses 了; in speech say 咗." },
   "examples": [
-    { "characters": "我食咗飯喇。", "jyutping": "ngo5 sik6 zo2 faan6 laa3.", "english": "I've already eaten." }
+    {
+      "words": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["。"]],
+      "en": "I've already eaten.",
+      "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] }
+    }
   ],
-  "commonMistakes": [
-    { "incorrect": "我食了飯", "correct": "我食咗飯", "explanation": "了 is written Chinese." }
-  ],
-  "related": ["verb-gan2", "mei6"],
-  "review": { "status": "published", "reviewers": ["…", "…"], "reviewedOn": "2026-11-01" }
+  "mistakes": [{ "incorrect": "我吃了飯。", "correct": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["。"]], "note": "..." }],
+  "related": ["mei6-yet", "gan2-progressive"]
 }
 ```
 
-Yale is **not stored**; it is generated from Jyutping at build time so the two can never drift apart.
+Sentences are stored as word-by-word pairs of characters and Jyutping. This lets the build check that every word has exactly one syllable per character, and lets practice exercises blank or shuffle whole words.
+
+Yale and Bopomofo are **not stored**; they are generated from Jyutping at build time (`tools/romanise.mjs`) so the systems can never drift apart. The Yale converter is tested against every syllable in the CC BY `pingyambiu` table.
 
 ### 9.3 Audio
 
@@ -325,6 +327,8 @@ Validation does not depend on the excluded dictionaries: Jyutping syllables can 
 | **5 — Grow** | Ongoing | Community audio recordings, B2 patterns, more topics, translated UI |
 
 ---
+
+**Progress (October 2026):** first draft content is published in [`library/`](../library/README.md) — 36 grammar patterns (A1 22 · A2 14), 180 words in 12 topics, and four worksheets — all marked as awaiting native-speaker review.
 
 ## 14. Risks and mitigations
 

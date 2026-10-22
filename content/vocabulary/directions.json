@@ -1,0 +1,98 @@
+{
+  "id": "directions",
+  "order": 6,
+  "title": "Directions",
+  "titleCjk": "問路",
+  "words": [
+    {
+      "cjk": "邊度",
+      "jyutping": "bin1 dou6",
+      "en": "where",
+      "pos": "question word"
+    },
+    {
+      "cjk": "呢度",
+      "jyutping": "ni1 dou6",
+      "en": "here",
+      "pos": "place"
+    },
+    {
+      "cjk": "嗰度",
+      "jyutping": "go2 dou6",
+      "en": "there",
+      "pos": "place"
+    },
+    {
+      "cjk": "左邊",
+      "jyutping": "zo2 bin1",
+      "en": "left side",
+      "pos": "place"
+    },
+    {
+      "cjk": "右邊",
+      "jyutping": "jau6 bin1",
+      "en": "right side",
+      "pos": "place"
+    },
+    {
+      "cjk": "轉左",
+      "jyutping": "zyun3 zo2",
+      "en": "to turn left",
+      "pos": "verb"
+    },
+    {
+      "cjk": "轉右",
+      "jyutping": "zyun3 jau6",
+      "en": "to turn right",
+      "pos": "verb"
+    },
+    {
+      "cjk": "直行",
+      "jyutping": "zik6 haang4",
+      "en": "to go straight on",
+      "pos": "verb"
+    },
+    {
+      "cjk": "對面",
+      "jyutping": "deoi3 min6",
+      "en": "opposite",
+      "pos": "place"
+    },
+    {
+      "cjk": "隔籬",
+      "jyutping": "gaak3 lei4",
+      "en": "next to",
+      "pos": "place"
+    },
+    {
+      "cjk": "前面",
+      "jyutping": "cin4 min6",
+      "en": "in front",
+      "pos": "place"
+    },
+    {
+      "cjk": "後面",
+      "jyutping": "hau6 min6",
+      "en": "behind",
+      "pos": "place"
+    },
+    {
+      "cjk": "附近",
+      "jyutping": "fu6 gan6",
+      "en": "nearby",
+      "pos": "place"
+    },
+    {
+      "cjk": "近",
+      "jyutping": "kan5",
+      "en": "near",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "遠",
+      "jyutping": "jyun5",
+      "en": "far",
+      "pos": "adjective"
+    }
+  ]
+}

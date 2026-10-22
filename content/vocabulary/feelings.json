@@ -1,0 +1,98 @@
+{
+  "id": "feelings",
+  "order": 12,
+  "title": "Feelings",
+  "titleCjk": "感受",
+  "words": [
+    {
+      "cjk": "開心",
+      "jyutping": "hoi1 sam1",
+      "en": "happy",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "唔開心",
+      "jyutping": "m4 hoi1 sam1",
+      "en": "unhappy",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "嬲",
+      "jyutping": "nau1",
+      "en": "angry",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "驚",
+      "jyutping": "geng1",
+      "en": "scared",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "攰",
+      "jyutping": "gui6",
+      "en": "tired",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "悶",
+      "jyutping": "mun6",
+      "en": "bored",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "緊張",
+      "jyutping": "gan2 zoeng1",
+      "en": "nervous",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "擔心",
+      "jyutping": "daam1 sam1",
+      "en": "worried",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "傷心",
+      "jyutping": "soeng1 sam1",
+      "en": "sad",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "鍾意",
+      "jyutping": "zung1 ji3",
+      "en": "to like",
+      "pos": "verb"
+    },
+    {
+      "cjk": "憎",
+      "jyutping": "zang1",
+      "en": "to hate",
+      "pos": "verb"
+    },
+    {
+      "cjk": "好笑",
+      "jyutping": "hou2 siu3",
+      "en": "funny",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "肚餓",
+      "jyutping": "tou5 ngo6",
+      "en": "hungry",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "頸渴",
+      "jyutping": "geng2 hot3",
+      "en": "thirsty",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "放心",
+      "jyutping": "fong3 sam1",
+      "en": "to feel reassured",
+      "pos": "verb"
+    }
+  ]
+}

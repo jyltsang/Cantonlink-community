@@ -1,0 +1,134 @@
+{
+  "id": "food-and-dim-sum",
+  "order": 3,
+  "title": "Food and dim sum",
+  "titleCjk": "飲食同點心",
+  "words": [
+    {
+      "cjk": "食",
+      "jyutping": "sik6",
+      "en": "to eat",
+      "pos": "verb"
+    },
+    {
+      "cjk": "飲",
+      "jyutping": "jam2",
+      "en": "to drink",
+      "pos": "verb"
+    },
+    {
+      "cjk": "飯",
+      "jyutping": "faan6",
+      "en": "rice; a meal",
+      "pos": "noun",
+      "classifier": [
+        "碗",
+        "wun2"
+      ]
+    },
+    {
+      "cjk": "點心",
+      "jyutping": "dim2 sam1",
+      "en": "dim sum",
+      "pos": "noun"
+    },
+    {
+      "cjk": "蝦餃",
+      "jyutping": "haa1 gaau2",
+      "en": "har gow (shrimp dumpling)",
+      "pos": "noun",
+      "classifier": [
+        "籠",
+        "lung4"
+      ]
+    },
+    {
+      "cjk": "燒賣",
+      "jyutping": "siu1 maai2",
+      "en": "siu mai (pork dumpling)",
+      "pos": "noun",
+      "classifier": [
+        "籠",
+        "lung4"
+      ]
+    },
+    {
+      "cjk": "叉燒包",
+      "jyutping": "caa1 siu1 baau1",
+      "en": "barbecue pork bun",
+      "pos": "noun",
+      "classifier": [
+        "籠",
+        "lung4"
+      ]
+    },
+    {
+      "cjk": "奶茶",
+      "jyutping": "naai5 caa4",
+      "en": "Hong Kong milk tea",
+      "pos": "noun",
+      "classifier": [
+        "杯",
+        "bui1"
+      ]
+    },
+    {
+      "cjk": "咖啡",
+      "jyutping": "gaa3 fe1",
+      "en": "coffee",
+      "pos": "noun",
+      "classifier": [
+        "杯",
+        "bui1"
+      ]
+    },
+    {
+      "cjk": "雲吞麪",
+      "jyutping": "wan4 tan1 min6",
+      "en": "wonton noodles",
+      "pos": "noun",
+      "classifier": [
+        "碗",
+        "wun2"
+      ]
+    },
+    {
+      "cjk": "菠蘿包",
+      "jyutping": "bo1 lo4 baau1",
+      "en": "pineapple bun",
+      "pos": "noun",
+      "classifier": [
+        "個",
+        "go3"
+      ]
+    },
+    {
+      "cjk": "好食",
+      "jyutping": "hou2 sik6",
+      "en": "delicious",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "辣",
+      "jyutping": "laat6",
+      "en": "spicy",
+      "pos": "adjective"
+    },
+    {
+      "cjk": "埋單",
+      "jyutping": "maai4 daan1",
+      "en": "to ask for the bill",
+      "pos": "verb"
+    },
+    {
+      "cjk": "筷子",
+      "jyutping": "faai3 zi2",
+      "en": "chopsticks",
+      "pos": "noun",
+      "classifier": [
+        "對",
+        "deoi3"
+      ]
+    }
+  ]
+}

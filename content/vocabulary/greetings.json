@@ -1,0 +1,99 @@
+{
+  "id": "greetings",
+  "order": 1,
+  "title": "Greetings and courtesy",
+  "titleCjk": "打招呼",
+  "words": [
+    {
+      "cjk": "早晨",
+      "jyutping": "zou2 san4",
+      "en": "good morning",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "你好",
+      "jyutping": "nei5 hou2",
+      "en": "hello",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "唔該",
+      "jyutping": "m4 goi1",
+      "en": "thank you (for a service); excuse me",
+      "pos": "phrase",
+      "note": "Use for small favours and services; 多謝 is for gifts and compliments."
+    },
+    {
+      "cjk": "多謝",
+      "jyutping": "do1 ze6",
+      "en": "thank you (for a gift or compliment)",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "對唔住",
+      "jyutping": "deoi3 m4 zyu6",
+      "en": "sorry",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "唔緊要",
+      "jyutping": "m4 gan2 jiu3",
+      "en": "never mind; it doesn't matter",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "唔好意思",
+      "jyutping": "m4 hou2 ji3 si3",
+      "en": "excuse me; sorry (mild)",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "請問",
+      "jyutping": "cing2 man6",
+      "en": "excuse me, may I ask…",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "拜拜",
+      "jyutping": "baai1 baai3",
+      "en": "bye",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "再見",
+      "jyutping": "zoi3 gin3",
+      "en": "goodbye",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "好耐冇見",
+      "jyutping": "hou2 noi6 mou5 gin3",
+      "en": "long time no see",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "食咗飯未呀",
+      "jyutping": "sik6 zo2 faan6 mei6 aa3",
+      "en": "have you eaten? (a common greeting)",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "麻麻哋",
+      "jyutping": "maa4 maa2 dei2",
+      "en": "so-so",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "唔使客氣",
+      "jyutping": "m4 sai2 haak3 hei3",
+      "en": "you're welcome; no need to be polite",
+      "pos": "phrase"
+    },
+    {
+      "cjk": "冇問題",
+      "jyutping": "mou5 man6 tai4",
+      "en": "no problem",
+      "pos": "phrase"
+    }
+  ]
+}

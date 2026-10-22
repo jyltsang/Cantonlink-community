@@ -1,0 +1,99 @@
+{
+  "id": "numbers-money-time",
+  "order": 2,
+  "title": "Numbers, money and time",
+  "titleCjk": "數字、錢同時間",
+  "words": [
+    {
+      "cjk": "一",
+      "jyutping": "jat1",
+      "en": "one",
+      "pos": "number"
+    },
+    {
+      "cjk": "兩",
+      "jyutping": "loeng5",
+      "en": "two (before a classifier)",
+      "pos": "number",
+      "note": "Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十)."
+    },
+    {
+      "cjk": "三",
+      "jyutping": "saam1",
+      "en": "three",
+      "pos": "number"
+    },
+    {
+      "cjk": "十",
+      "jyutping": "sap6",
+      "en": "ten",
+      "pos": "number"
+    },
+    {
+      "cjk": "一百",
+      "jyutping": "jat1 baak3",
+      "en": "one hundred",
+      "pos": "number"
+    },
+    {
+      "cjk": "一千",
+      "jyutping": "jat1 cin1",
+      "en": "one thousand",
+      "pos": "number"
+    },
+    {
+      "cjk": "蚊",
+      "jyutping": "man1",
+      "en": "dollar (colloquial)",
+      "pos": "noun"
+    },
+    {
+      "cjk": "毫子",
+      "jyutping": "hou4 zi2",
+      "en": "ten cents",
+      "pos": "noun"
+    },
+    {
+      "cjk": "錢",
+      "jyutping": "cin2",
+      "en": "money",
+      "pos": "noun"
+    },
+    {
+      "cjk": "幾點",
+      "jyutping": "gei2 dim2",
+      "en": "what time",
+      "pos": "question word"
+    },
+    {
+      "cjk": "點鐘",
+      "jyutping": "dim2 zung1",
+      "en": "o'clock",
+      "pos": "noun"
+    },
+    {
+      "cjk": "今日",
+      "jyutping": "gam1 jat6",
+      "en": "today",
+      "pos": "time"
+    },
+    {
+      "cjk": "聽日",
+      "jyutping": "ting1 jat6",
+      "en": "tomorrow",
+      "pos": "time"
+    },
+    {
+      "cjk": "尋日",
+      "jyutping": "cam4 jat6",
+      "en": "yesterday",
+      "pos": "time"
+    },
+    {
+      "cjk": "星期一",
+      "jyutping": "sing1 kei4 jat1",
+      "en": "Monday",
+      "pos": "time"
+    }
+  ]
+}

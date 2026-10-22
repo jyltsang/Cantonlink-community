@@ -1,15 +1,19 @@
-CantoLink Community Edition
+CantonLink Community Edition
 Copyright 2026 CantoLink contributors
 
-This project will include or derive data from the following third-party
-sources. Each is used under the licence stated.
+This project includes data from the following third-party source, used
+under the licence stated.
 
 ------------------------------------------------------------------------
 pingyambiu — Cantonese romanisation conversion table
 Source:  https://github.com/kfcd/pingyam
 Licence: Creative Commons Attribution 3.0 (CC BY 3.0)
-Use:     Jyutping-to-Yale conversion
+File:    data/third-party/pingyambiu.tsv
+Use:     Reference data for testing the Jyutping-to-Yale converter
 ------------------------------------------------------------------------
+
+All grammar patterns, example sentences, vocabulary lists and practice
+items in content/ are original work of the project's contributors.
 
 Sources under review (not included):
 - Character dictionaries previously bundled with CantoLink; original

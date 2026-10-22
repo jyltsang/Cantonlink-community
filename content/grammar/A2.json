@@ -1,0 +1,232 @@
+[
+  {
+    "id": "mei6-yet",
+    "pattern": "Verb + 咗 + … 未？ / 未 + Verb",
+    "jyutping": "Verb + zo2 + … mei6? / mei6 + Verb",
+    "meaning": "…yet? / not yet",
+    "level": "A2",
+    "function": "aspect",
+    "explanation": "Put 未 at the end of a 咗 sentence to ask 'yet?'. Answer …咗喇 (yes, already) or 未呀 (not yet). Before a verb, 未 means 'haven't yet'. 食咗飯未呀？ is also an everyday greeting.",
+    "writtenEquivalent": { "cjk": "…了沒有？ / 還沒", "note": "Written Chinese uses 了沒有 and 還沒." },
+    "examples": [
+      { "words": [["你", "nei5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you eaten yet?", "gap": { "word": "未", "distractors": ["唔", "冇", "都"] } },
+      { "words": [["佢", "keoi5"], ["到", "dou3"], ["咗", "zo2"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Has he arrived yet?", "gap": { "word": "未", "distractors": ["唔", "冇", "都"] } },
+      { "words": [["我", "ngo5"], ["未", "mei6"], ["食", "sik6"], ["。"]], "en": "I haven't eaten yet.", "gap": { "word": "未", "distractors": ["唔", "都", "好"] } }
+    ],
+    "related": ["zo2-completed", "gwo3-experience"]
+  },
+  {
+    "id": "gwo3-experience",
+    "pattern": "Verb + 過",
+    "jyutping": "Verb + gwo3",
+    "meaning": "have ever done (experience)",
+    "level": "A2",
+    "function": "aspect",
+    "explanation": "過 after a verb says you have had the experience at some point: 'have been to', 'have tried'. 未 + Verb + 過 means 'have never'.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["去", "heoi3"], ["過", "gwo3"], ["日本", "jat6 bun2"], ["。"]], "en": "I've been to Japan.", "gap": { "word": "過", "distractors": ["緊", "吓", "嘅"] } },
+      { "words": [["你", "nei5"], ["飲", "jam2"], ["過", "gwo3"], ["鴛鴦", "jin1 joeng1"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you ever tried yuenyeung (coffee with milk tea)?", "gap": { "word": "過", "distractors": ["緊", "吓", "嘅"] } },
+      { "words": [["我", "ngo5"], ["未", "mei6"], ["見", "gin3"], ["過", "gwo3"], ["佢", "keoi5"], ["。"]], "en": "I've never met him.", "gap": { "word": "過", "distractors": ["緊", "吓", "嘅"] } }
+    ],
+    "related": ["zo2-completed", "mei6-yet", "gwo3-comparison"]
+  },
+  {
+    "id": "sik1-know-how",
+    "pattern": "識 + Verb",
+    "jyutping": "sik1 + Verb",
+    "meaning": "know how to; can (a learned skill)",
+    "level": "A2",
+    "function": "wants-and-needs",
+    "explanation": "識 before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than 會, which leans towards 'will'.",
+    "writtenEquivalent": { "cjk": "會", "note": "Written Chinese uses 會 for learned ability." },
+    "examples": [
+      { "words": [["我", "ngo5"], ["識", "sik1"], ["講", "gong2"], ["少少", "siu2 siu2"], ["廣東話", "gwong2 dung1 waa2"], ["。"]], "en": "I can speak a little Cantonese.", "gap": { "word": "識", "distractors": ["想", "要", "喺"] } },
+      { "words": [["你", "nei5"], ["識唔識", "sik1 m4 sik1"], ["游水", "jau4 seoi2"], ["呀", "aa3"], ["？"]], "en": "Can you swim?" },
+      { "words": [["佢", "keoi5"], ["唔", "m4"], ["識", "sik1"], ["揸車", "zaa1 ce1"], ["。"]], "en": "He can't drive.", "gap": { "word": "識", "distractors": ["想", "要", "喺"] } }
+    ],
+    "mistakes": [
+      { "incorrect": "我不會說廣東話。", "correct": [["我", "ngo5"], ["唔", "m4"], ["識", "sik1"], ["講", "gong2"], ["廣東話", "gwong2 dung1 waa2"], ["。"]], "note": "不, 會 and 說 are written forms. Speech uses 唔識講." }
+    ],
+    "related": ["soeng2-want", "ho2-ji5-may"]
+  },
+  {
+    "id": "ho2-ji5-may",
+    "pattern": "可唔可以 + Verb？",
+    "jyutping": "ho2 m4 ho2 ji5 + Verb?",
+    "meaning": "may I…? / could you…?",
+    "level": "A2",
+    "function": "wants-and-needs",
+    "explanation": "可以 means 'may' or 'can' (permission or possibility). Its A-not-A form 可唔可以 is the standard polite request. Answer 可以 (yes) or 唔可以 (no).",
+    "examples": [
+      { "words": [["可唔可以", "ho2 m4 ho2 ji5"], ["平", "peng4"], ["啲", "di1"], ["呀", "aa3"], ["？"]], "en": "Could you make it a bit cheaper?" },
+      { "words": [["我", "ngo5"], ["可唔可以", "ho2 m4 ho2 ji5"], ["坐", "co5"], ["呢度", "ni1 dou6"], ["呀", "aa3"], ["？"]], "en": "May I sit here?" },
+      { "words": [["你", "nei5"], ["可唔可以", "ho2 m4 ho2 ji5"], ["講", "gong2"], ["慢", "maan6"], ["啲", "di1"], ["呀", "aa3"], ["？"]], "en": "Could you speak a bit more slowly?" }
+    ],
+    "related": ["a-not-a-question", "sik1-know-how"]
+  },
+  {
+    "id": "taai3-too",
+    "pattern": "太 + Adjective + 喇",
+    "jyutping": "taai3 + Adjective + laa3",
+    "meaning": "too (much)",
+    "level": "A2",
+    "function": "degree-and-comparison",
+    "explanation": "太 before an adjective means 'too'. It is very often followed by 喇, which marks the situation as having gone past what's acceptable.",
+    "examples": [
+      { "words": [["太", "taai3"], ["貴", "gwai3"], ["喇", "laa3"], ["！"]], "en": "That's too expensive!", "gap": { "word": "太", "distractors": ["好", "最", "幾"] } },
+      { "words": [["呢", "ni1"], ["杯", "bui1"], ["咖啡", "gaa3 fe1"], ["太", "taai3"], ["甜", "tim4"], ["喇", "laa3"], ["。"]], "en": "This coffee is too sweet.", "gap": { "word": "太", "distractors": ["好", "最", "幾"] } },
+      { "words": [["你", "nei5"], ["行", "haang4"], ["得", "dak1"], ["太", "taai3"], ["快", "faai3"], ["喇", "laa3"], ["。"]], "en": "You're walking too fast.", "gap": { "word": "太", "distractors": ["好", "最", "幾"] } }
+    ],
+    "related": ["hou2-very", "laa3-change"]
+  },
+  {
+    "id": "dim2-gaai2-why",
+    "pattern": "點解 …？",
+    "jyutping": "dim2 gaai2 …?",
+    "meaning": "why",
+    "level": "A2",
+    "function": "questions",
+    "explanation": "點解 can go at the start of the question or after the subject. Answers usually begin with 因為 (because). Ending with 㗎 adds a note of puzzlement.",
+    "writtenEquivalent": { "cjk": "為甚麼", "note": "Written Chinese uses 為甚麼." },
+    "examples": [
+      { "words": [["你", "nei5"], ["點解", "dim2 gaai2"], ["學", "hok6"], ["廣東話", "gwong2 dung1 waa2"], ["呀", "aa3"], ["？"]], "en": "Why are you learning Cantonese?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } },
+      { "words": [["點解", "dim2 gaai2"], ["佢", "keoi5"], ["唔", "m4"], ["嚟", "lai4"], ["呀", "aa3"], ["？"]], "en": "Why isn't he coming?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } },
+      { "words": [["點解", "dim2 gaai2"], ["咁", "gam3"], ["貴", "gwai3"], ["㗎", "gaa3"], ["？"]], "en": "Why is it so expensive?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } }
+    ],
+    "related": ["jan1-wai6-because", "gei2-si4-when"]
+  },
+  {
+    "id": "dim2-how",
+    "pattern": "點(樣) + Verb？",
+    "jyutping": "dim2 (joeng2) + Verb?",
+    "meaning": "how (to do something)",
+    "level": "A2",
+    "function": "questions",
+    "explanation": "點 or 點樣 before a verb asks how to do it. 點去…？ ('how to get to…?') is essential for directions.",
+    "writtenEquivalent": { "cjk": "怎樣", "note": "Written Chinese uses 怎樣 / 怎麼." },
+    "examples": [
+      { "words": [["請問", "cing2 man6"], ["點", "dim2"], ["去", "heoi3"], ["中環", "zung1 waan4"], ["呀", "aa3"], ["？"]], "en": "Excuse me, how do I get to Central?", "gap": { "word": "點", "distractors": ["邊", "幾", "乜"] } },
+      { "words": [["點樣", "dim2 joeng2"], ["去", "heoi3"], ["機場", "gei1 coeng4"], ["最", "zeoi3"], ["快", "faai3"], ["呀", "aa3"], ["？"]], "en": "What's the fastest way to the airport?", "gap": { "word": "點樣", "distractors": ["邊個", "幾時", "幾多"] } },
+      { "words": [["呢", "ni1"], ["個", "go3"], ["字", "zi6"], ["點", "dim2"], ["讀", "duk6"], ["呀", "aa3"], ["？"]], "en": "How do you pronounce this character?", "gap": { "word": "點", "distractors": ["邊", "幾", "乜"] } }
+    ],
+    "related": ["bin1-where-who", "dim2-gaai2-why"]
+  },
+  {
+    "id": "laa3-change",
+    "pattern": "… 喇",
+    "jyutping": "… laa3",
+    "meaning": "change of situation; 'now'",
+    "level": "A2",
+    "function": "particles",
+    "explanation": "喇 (laa3, mid level tone) signals that something has changed or a new situation now holds: I'm full now, it's started raining. Compare 啦 (laa1), which makes suggestions.",
+    "writtenEquivalent": { "cjk": "了", "note": "Written Chinese uses sentence-final 了." },
+    "examples": [
+      { "words": [["我", "ngo5"], ["飽", "baau2"], ["喇", "laa3"], ["。"]], "en": "I'm full.", "gap": { "word": "喇", "distractors": ["嗎", "咩", "嘅"] } },
+      { "words": [["落雨", "lok6 jyu5"], ["喇", "laa3"], ["！"]], "en": "It's started raining!", "gap": { "word": "喇", "distractors": ["嗎", "咩", "嘅"] } },
+      { "words": [["夠", "gau3"], ["喇", "laa3"], ["，"], ["唔該", "m4 goi1"], ["。"]], "en": "That's enough, thanks.", "gap": { "word": "喇", "distractors": ["嗎", "咩", "嘅"] } }
+    ],
+    "related": ["laa1-suggestion", "taai3-too"]
+  },
+  {
+    "id": "me1-surprise",
+    "pattern": "… 咩？",
+    "jyutping": "… me1?",
+    "meaning": "surprised question ('really?')",
+    "level": "A2",
+    "function": "particles",
+    "explanation": "At the end of a sentence, 咩 shows surprise or doubt: you expected the opposite. 你識講廣東話咩？ means 'You can speak Cantonese?!' This is different from 咩 meaning 'what' inside a sentence.",
+    "examples": [
+      { "words": [["你", "nei5"], ["唔", "m4"], ["鍾意", "zung1 ji3"], ["咩", "me1"], ["？"]], "en": "You don't like it?", "gap": { "word": "咩", "distractors": ["啦", "喇", "嘅"] } },
+      { "words": [["佢", "keoi5"], ["未", "mei6"], ["嚟", "lai4"], ["咩", "me1"], ["？"]], "en": "He hasn't come yet?", "gap": { "word": "咩", "distractors": ["啦", "喇", "嘅"] } },
+      { "words": [["你", "nei5"], ["識", "sik1"], ["講", "gong2"], ["廣東話", "gwong2 dung1 waa2"], ["咩", "me1"], ["？"]], "en": "You can speak Cantonese?", "gap": { "word": "咩", "distractors": ["啦", "喇", "嘅"] } }
+    ],
+    "related": ["maa3-question", "mat1-je5-what"]
+  },
+  {
+    "id": "dou1-also",
+    "pattern": "Subject + 都 + Verb",
+    "jyutping": "Subject + dou1 + Verb",
+    "meaning": "also; both / all",
+    "level": "A2",
+    "function": "connecting",
+    "explanation": "都 means 'also' or 'all' and always goes before the verb — never at the end of the sentence like English 'too'. With a negative, 都唔 means 'not … either'.",
+    "writtenEquivalent": { "cjk": "也 / 都", "note": "Written Chinese often uses 也." },
+    "examples": [
+      { "words": [["我", "ngo5"], ["都", "dou1"], ["係", "hai6"], ["學生", "hok6 saang1"], ["。"]], "en": "I'm a student too.", "gap": { "word": "都", "distractors": ["同", "喺", "畀"] } },
+      { "words": [["我哋", "ngo5 dei6"], ["都", "dou1"], ["鍾意", "zung1 ji3"], ["食", "sik6"], ["點心", "dim2 sam1"], ["。"]], "en": "We all like dim sum.", "gap": { "word": "都", "distractors": ["同", "喺", "畀"] } },
+      { "words": [["我", "ngo5"], ["都", "dou1"], ["唔", "m4"], ["知", "zi1"], ["。"]], "en": "I don't know either.", "gap": { "word": "都", "distractors": ["同", "喺", "畀"] } }
+    ],
+    "mistakes": [
+      { "incorrect": "我係學生都。", "correct": [["我", "ngo5"], ["都", "dou1"], ["係", "hai6"], ["學生", "hok6 saang1"], ["。"]], "note": "都 goes before the verb, not at the end." }
+    ],
+    "related": ["tung4-and-with"]
+  },
+  {
+    "id": "bei2-give",
+    "pattern": "畀 + Thing + Person",
+    "jyutping": "bei2 + Thing + Person",
+    "meaning": "to give",
+    "level": "A2",
+    "function": "connecting",
+    "explanation": "畀 means 'give'. In traditional Cantonese order the thing comes before the person: 畀杯水我 ('give a glass of water me'). The Mandarin-like order 畀我… is also heard, especially among younger speakers.",
+    "writtenEquivalent": { "cjk": "給", "note": "Written Chinese uses 給, with the person first." },
+    "examples": [
+      { "words": [["唔該", "m4 goi1"], ["畀", "bei2"], ["杯", "bui1"], ["水", "seoi2"], ["我", "ngo5"], ["。"]], "en": "Could I have a glass of water, please?", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } },
+      { "words": [["我", "ngo5"], ["畀", "bei2"], ["錢", "cin2"], ["。"]], "en": "I'll pay.", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } },
+      { "words": [["媽媽", "maa4 maa1"], ["畀", "bei2"], ["咗", "zo2"], ["一", "jat1"], ["本", "bun2"], ["書", "syu1"], ["我", "ngo5"], ["。"]], "en": "Mum gave me a book.", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } }
+    ],
+    "mistakes": [
+      { "incorrect": "他給了我一本書。", "correct": [["佢", "keoi5"], ["畀", "bei2"], ["咗", "zo2"], ["一", "jat1"], ["本", "bun2"], ["書", "syu1"], ["我", "ngo5"], ["。"]], "note": "他, 給 and 了 are written forms." }
+    ],
+    "related": ["tung4-and-with"]
+  },
+  {
+    "id": "haa5-briefly",
+    "pattern": "Verb + 吓",
+    "jyutping": "Verb + haa5",
+    "meaning": "do briefly; have a go",
+    "level": "A2",
+    "function": "aspect",
+    "explanation": "吓 after a verb softens it: 'have a quick look', 'give it a try', 'wait a moment'. It makes requests and suggestions sound relaxed.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["睇", "tai2"], ["吓", "haa5"], ["先", "sin1"], ["。"]], "en": "Let me have a look first.", "gap": { "word": "吓", "distractors": ["過", "緊", "嘅"] } },
+      { "words": [["你", "nei5"], ["試", "si3"], ["吓", "haa5"], ["啦", "laa1"], ["。"]], "en": "Give it a try.", "gap": { "word": "吓", "distractors": ["過", "緊", "嘅"] } },
+      { "words": [["等", "dang2"], ["吓", "haa5"], ["！"]], "en": "Hang on a moment!", "gap": { "word": "吓", "distractors": ["過", "緊", "嘅"] } }
+    ],
+    "related": ["laa1-suggestion"]
+  },
+  {
+    "id": "gwo3-comparison",
+    "pattern": "A + Adjective + 過 + B",
+    "jyutping": "A + Adjective + gwo3 + B",
+    "meaning": "A is more … than B",
+    "level": "A2",
+    "function": "degree-and-comparison",
+    "explanation": "To compare, put 過 after the adjective: 佢高過我 ('he tall-past me'). The written-style 佢比我高 is understood, but 過 is the natural spoken form.",
+    "writtenEquivalent": { "cjk": "A 比 B + Adjective", "note": "Written Chinese uses 比 before the adjective." },
+    "examples": [
+      { "words": [["佢", "keoi5"], ["高", "gou1"], ["過", "gwo3"], ["我", "ngo5"], ["。"]], "en": "He's taller than me.", "gap": { "word": "過", "distractors": ["咗", "緊", "嘅"] } },
+      { "words": [["坐", "co5"], ["地鐵", "dei6 tit3"], ["快", "faai3"], ["過", "gwo3"], ["坐", "co5"], ["巴士", "baa1 si2"], ["。"]], "en": "The MTR is faster than the bus.", "gap": { "word": "過", "distractors": ["咗", "緊", "嘅"] } },
+      { "words": [["今日", "gam1 jat6"], ["凍", "dung3"], ["過", "gwo3"], ["尋日", "cam4 jat6"], ["。"]], "en": "Today is colder than yesterday.", "gap": { "word": "過", "distractors": ["咗", "緊", "嘅"] } }
+    ],
+    "mistakes": [
+      { "incorrect": "他比我高。", "correct": [["佢", "keoi5"], ["高", "gou1"], ["過", "gwo3"], ["我", "ngo5"], ["。"]], "note": "他 is written; 比 sounds bookish in casual speech." }
+    ],
+    "related": ["hou2-very", "taai3-too"]
+  },
+  {
+    "id": "jan1-wai6-because",
+    "pattern": "因為 …，所以 …",
+    "jyutping": "jan1 wai6 …, so2 ji5 …",
+    "meaning": "because …, so …",
+    "level": "A2",
+    "function": "connecting",
+    "explanation": "因為 introduces the reason and 所以 the result. Unlike English, using both in one sentence is normal. Either half can also stand alone.",
+    "examples": [
+      { "words": [["因為", "jan1 wai6"], ["落雨", "lok6 jyu5"], ["，"], ["所以", "so2 ji5"], ["我", "ngo5"], ["冇", "mou5"], ["出街", "ceot1 gaai1"], ["。"]], "en": "Because it was raining, I didn't go out.", "gap": { "word": "所以", "distractors": ["但係", "如果", "或者"] } },
+      { "words": [["我", "ngo5"], ["好", "hou2"], ["攰", "gui6"], ["，"], ["因為", "jan1 wai6"], ["尋日", "cam4 jat6"], ["好", "hou2"], ["夜", "je6"], ["先", "sin1"], ["瞓", "fan3"], ["。"]], "en": "I'm tired because I went to bed late last night.", "gap": { "word": "因為", "distractors": ["但係", "如果", "或者"] } },
+      { "words": [["因為", "jan1 wai6"], ["佢", "keoi5"], ["病", "beng6"], ["咗", "zo2"], ["，"], ["所以", "so2 ji5"], ["今日", "gam1 jat6"], ["唔", "m4"], ["返工", "faan1 gung1"], ["。"]], "en": "Because she's ill, she isn't going to work today.", "gap": { "word": "因為", "distractors": ["但係", "如果", "或者"] } }
+    ],
+    "related": ["dim2-gaai2-why"]
+  }
+]
