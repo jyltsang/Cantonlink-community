@@ -343,7 +343,7 @@ for (const level of LEVELS) {
 
 emit('library/practice/README.md', page(
   '# Practice',
-  'Self-marking worksheets built from the grammar library. Every question links back to the pattern it practises. Prefer to practise interactively? Use the [practice site](https://jyltsang.github.io/cantonlink-community/).',
+  'Self-marking worksheets built from the grammar library. Every question links back to the pattern it practises. Prefer to practise interactively? Use the [practice site](https://jyltsang.github.io/Cantonlink-community/).',
   summaryNotice(reviewables, '../'),
   [
     '| Worksheet | What you practise |', '|---|---|',

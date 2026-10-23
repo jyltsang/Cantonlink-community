@@ -4,21 +4,21 @@
 
 [![Check content](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml/badge.svg)](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml)
 
-> ⚠️ **Status: first draft.** All content is awaiting review by native speakers ([review status](library/review-status.md)). If something sounds unnatural, please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml). Native speaker? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml): it takes about five minutes a pattern.
+> **Status: first draft.** All content is awaiting review by native speakers ([review status](library/review-status.md)). If something sounds unnatural, please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml). Native speaker? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml): it takes about five minutes a pattern.
 
 ---
 
 ## Start learning
 
-**▶ [Practise online](https://jyltsang.github.io/cantonlink-community/)** — flashcards, fill the gap, build the sentence and spoken-or-written drills in your browser, in Jyutping, Yale or Bopomofo. Free, no account.
+**[Practise online](https://jyltsang.github.io/Cantonlink-community/)** — flashcards, fill the gap, build the sentence and spoken-or-written drills in your browser, in Jyutping, Yale or Bopomofo. Free, no account.
 
 | | |
 |---|---|
-| 📖 **[Grammar patterns](library/grammar/README.md)** | 36 everyday patterns (A1–A2), each with three example sentences, plus written-Chinese equivalents and common mistakes where relevant |
-| 🗂️ **[Topic vocabulary](library/vocabulary/README.md)** | 180 words in 12 topics: greetings, food and dim sum, transport, health, work and more |
-| 🔎 **[English → Cantonese index](library/english-index.md)** | Look up any word by its English meaning |
-| ✍️ **[Practice worksheets](library/practice/README.md)** | Fill the gap, build the sentence, and *spoken or written?*, with answers |
-| 🔤 **[Romanisation guide](library/romanisation.md)** | The six tones, and how Jyutping, Yale and Bopomofo compare |
+| **[Grammar patterns](library/grammar/README.md)** | 36 everyday patterns (A1–A2), each with three example sentences, plus written-Chinese equivalents and common mistakes where relevant |
+| **[Topic vocabulary](library/vocabulary/README.md)** | 180 words in 12 topics: greetings, food and dim sum, transport, health, work and more |
+| **[English → Cantonese index](library/english-index.md)** | Look up any word by its English meaning |
+| **[Practice worksheets](library/practice/README.md)** | Fill the gap, build the sentence, and *spoken or written?*, with answers |
+| **[Romanisation guide](library/romanisation.md)** | The six tones, and how Jyutping, Yale and Bopomofo compare |
 
 ### A taste
 
