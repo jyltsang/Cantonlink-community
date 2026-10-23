@@ -63,7 +63,7 @@ body {
   font: 16px/1.55 var(--font-ui);
 }
 a { color: var(--inkblue); text-underline-offset: 2px; }
-button, input, select { font: inherit; color: inherit; }
+button, input, select, textarea { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 [lang^="yue-Hant"], .cjk { font-family: var(--font-cjk); }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -304,3 +304,63 @@ select.chip { appearance: auto; max-width: 100%; margin-bottom: 12px; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* AI settings */
+.form .label { display: block; font-weight: 500; margin: 16px 0 6px; }
+.form fieldset label.radio { display: flex; gap: 8px; padding: 6px 0; cursor: pointer; }
+.field { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg); font-size: 16px; }
+.field-row { display: flex; gap: 8px; }
+.field-row .btn { min-height: 0; }
+.check-row { display: flex; align-items: center; gap: 8px; margin-top: 12px; cursor: pointer; }
+.privacy ul { padding-left: 20px; }
+.privacy li { margin: 6px 0; }
+.unlock { text-align: center; }
+.unlock .btn { margin-top: 8px; }
+
+/* AI tutor chat */
+.tutor-controls { margin-bottom: 12px; }
+.tutor-controls .toolbar { margin-bottom: 4px; }
+.chat-log { display: flex; flex-direction: column; gap: 12px; margin: 8px 0 16px; }
+.msg { max-width: 92%; padding: 12px 14px; border-radius: var(--radius-lg); }
+.msg p { margin: 0 0 6px; }
+.msg-learner { align-self: flex-end; background: var(--ink); color: var(--cream); border-bottom-right-radius: 4px; }
+.msg-learner .small, .msg-learner li { color: var(--cream); opacity: 0.9; }
+.learner-notes { margin-top: 6px; padding-top: 6px; border-top: 1px solid rgb(255 255 255 / 0.25); }
+.learner-notes ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.msg-tutor { align-self: flex-start; background: var(--paper); border: 1px solid var(--border); border-bottom-left-radius: 4px; width: 92%; }
+.msg-tutor.unverified { opacity: 0.75; border-style: dashed; }
+.msg-tutor.pending { color: var(--fg-2); }
+.msg-error { align-self: stretch; background: var(--laicha-soft); }
+.msg-label { font-size: 12px; font-weight: 700; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.04em; }
+.msg .sentence { margin-bottom: 4px; }
+.msg .en { color: var(--fg-2); }
+.activity { list-style: none; margin: 0 0 8px; padding: 0; font-size: 14px; }
+.activity li::before { content: "· "; }
+.correction { margin: 10px 0; padding: 10px 12px; border-radius: var(--radius-md); background: var(--laicha-soft); }
+.correction-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--laicha); }
+.msg-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.btn-small { min-height: 36px; padding: 6px 12px; font-size: 14px; }
+.word .rom { position: relative; }
+.composer { position: sticky; bottom: 0; background: var(--bg); padding: 8px 0; }
+.chat-input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--paper); font-size: 16px; resize: vertical; }
+.composer .actions { margin-top: 8px; }
+
+/* Checks */
+.checks { margin-top: 10px; font-size: 14px; }
+.checks summary { cursor: pointer; color: var(--fg-2); }
+.checks-title { font-weight: 500; }
+.checks-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; }
+.check { display: grid; grid-template-columns: 72px 1fr; gap: 2px 10px; align-items: baseline; }
+.check-detail { grid-column: 2; color: var(--fg-3); font-size: 13px; }
+.check-status { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
+.check-pass .check-status { color: var(--jade); }
+.check-fixed .check-status, .check-warn .check-status { color: var(--persimmon); }
+.check-fail .check-status { color: var(--laicha); }
+.check-skip .check-status, .check-pending .check-status { color: var(--fg-3); }
+.check-running .check-status { color: var(--inkblue); }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.badge-verified { background: var(--jade-soft); color: var(--jade); }
+.badge-corrected { background: var(--persimmon-soft); color: var(--persimmon); }
+.badge-unverified { background: var(--laicha-soft); color: var(--laicha); }
+.ai-task { margin: 8px 0 16px; }
+.ai-task .example { margin-top: 8px; }

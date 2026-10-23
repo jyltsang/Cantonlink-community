@@ -25,7 +25,7 @@ export const saveSettings = () => write('cantonlink-settings', settings);
 
 // Missed items are kept so learners can review them later. Keys look like
 // "fill:hai6-copula:0", "build:…", "tone:飲:0" or "card:food-and-dim-sum:飲".
-const progress = { mistakes: {}, answered: 0, correct: 0, ...read('cantonlink-progress', {}) };
+const progress = { mistakes: {}, phrases: {}, answered: 0, correct: 0, ...read('cantonlink-progress', {}) };
 const saveProgress = () => write('cantonlink-progress', progress);
 
 export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
@@ -37,6 +37,16 @@ export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
   document.dispatchEvent(new CustomEvent('progresschange'));
 }
 export const mistakeKeys = () => Object.keys(progress.mistakes);
+
+// Phrases saved from verified AI tutor replies, reviewed like flashcards.
+export function savePhrase(sentence) {
+  progress.phrases[sentence.cjk] = { cjk: sentence.cjk, jyutping: sentence.jyutping, en: sentence.en, tokens: sentence.tokens };
+  progress.mistakes[`phrase:${sentence.cjk}`] = Date.now();
+  saveProgress();
+  document.dispatchEvent(new CustomEvent('progresschange'));
+}
+export const isPhraseSaved = (cjk) => Boolean(progress.phrases[cjk]);
+export const savedPhrase = (cjk) => progress.phrases[cjk];
 export const stats = () => ({ answered: progress.answered, correct: progress.correct, toReview: mistakeKeys().length });
 
 export function exportProgress() {
@@ -45,14 +55,14 @@ export function exportProgress() {
 export function importProgress(text) {
   const data = JSON.parse(text);
   if (data?.app !== 'cantonlink-community' || typeof data.progress !== 'object') throw new Error('This file is not a CantonLink progress file.');
-  Object.assign(progress, { mistakes: {}, answered: 0, correct: 0 }, data.progress);
+  Object.assign(progress, { mistakes: {}, phrases: {}, answered: 0, correct: 0 }, data.progress);
   Object.assign(settings, data.settings ?? {});
   saveProgress();
   saveSettings();
   document.dispatchEvent(new CustomEvent('progresschange'));
 }
 export function resetProgress() {
-  Object.assign(progress, { mistakes: {}, answered: 0, correct: 0 });
+  Object.assign(progress, { mistakes: {}, phrases: {}, answered: 0, correct: 0 });
   saveProgress();
   document.dispatchEvent(new CustomEvent('progresschange'));
 }
@@ -67,7 +77,7 @@ export function h(tag, attrs = {}, ...children) {
     else if (key === 'class') el.className = value;
     else el.setAttribute(key, value === true ? '' : value);
   }
-  for (const child of children.flat()) if (child != null && child !== false) el.append(child);
+  for (const child of children.flat(Infinity)) if (child != null && child !== false) el.append(child);
   return el;
 }
 

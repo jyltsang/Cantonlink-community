@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { chromium } from 'playwright';
+import { startMockAi } from './mock-ai.mjs';
 
 const PORT = 8123;
 const BASE = `http://localhost:${PORT}/`;
@@ -14,6 +15,8 @@ const EMOJI = /[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B50}\u{FE0F}]/u;
 
 let server;
 let browser;
+let mockAi;
+const MOCK_PORT = 8125;
 
 before(async () => {
   server = spawn(process.execPath, ['tools/site.mjs', '--serve'], { env: { ...process.env, PORT: String(PORT) }, stdio: ['ignore', 'pipe', 'inherit'] });
@@ -22,11 +25,13 @@ before(async () => {
     server.on('exit', (code) => reject(new Error(`Server exited with ${code}`)));
   });
   browser = await chromium.launch();
+  mockAi = await startMockAi(MOCK_PORT);
 });
 
 after(async () => {
   await browser?.close();
   server?.kill();
+  mockAi?.close();
 });
 
 async function open(path = '', { viewport = { width: 390, height: 844 }, colorScheme = 'light' } = {}) {
@@ -46,7 +51,7 @@ test('home page renders on phone and desktop, in light and dark mode', async () 
   for (const [viewport, colorScheme] of [[{ width: 360, height: 740 }, 'light'], [{ width: 1280, height: 900 }, 'dark']]) {
     const { page, context, errors } = await open('', { viewport, colorScheme });
     assert.equal(await page.locator('h1').textContent(), '學廣東話 · Learn Cantonese');
-    assert.equal(await page.locator('.mode-card').count(), 8);
+    assert.equal(await page.locator('.mode-card').count(), 9);
     assert.ok(await noOverflow(page), 'page scrolls sideways');
     assert.doesNotMatch(await page.locator('body').innerText(), EMOJI);
     assert.deepEqual(errors, []);
@@ -55,7 +60,7 @@ test('home page renders on phone and desktop, in light and dark mode', async () 
 });
 
 test('every page renders without errors or sideways scrolling', async () => {
-  const paths = ['#/grammar', `#/grammar/${data.grammar.at(-1).id}`, '#/vocabulary', `#/vocabulary/${data.vocabulary[0].id}`, '#/lookup',
+  const paths = ['#/ai', '#/tutor', '#/grammar', `#/grammar/${data.grammar.at(-1).id}`, '#/vocabulary', `#/vocabulary/${data.vocabulary[0].id}`, '#/lookup',
     '#/flashcards', '#/fill-the-gap', '#/build', '#/tones', '#/spoken-or-written', '#/review', '#/nowhere'];
   const { page, context, errors } = await open();
   for (const path of paths) {
@@ -202,5 +207,134 @@ test('works offline after the first visit', async () => {
   await page.waitForSelector('.mode-card');
   await page.goto(`${BASE}#/grammar/hai6-copula`);
   await page.waitForSelector('.example');
+  await context.close();
+});
+
+
+// --- AI tutor (against the local mock provider) ----------------------------
+
+async function connectMock(page, { remember = false } = {}) {
+  await page.goto(`${BASE}#/ai`);
+  await page.getByLabel('OpenAI-compatible').check();
+  await page.fill('#ai-base', `http://localhost:${MOCK_PORT}/v1`);
+  await page.fill('#ai-key', 'secret-key');
+  await page.fill('#ai-model', 'mock-model');
+  if (remember) await page.getByLabel('Remember the key on this device').check();
+}
+
+const lastTutor = (page) => page.locator('.msg-tutor:not(.pending)').last();
+
+test('AI settings: connection test lists models; the key is forgotten on reload unless remembered', async () => {
+  const { page, context } = await open('#/ai');
+  await connectMock(page);
+  await page.getByRole('button', { name: 'Test connection' }).click();
+  await page.waitForFunction(() => document.querySelector('#ai-status').textContent.startsWith('Connected'));
+  assert.equal(await page.locator('#model-list option').count(), 2);
+  assert.equal(mockAi.requests.at(-1).auth, 'Bearer secret-key');
+  await page.reload();
+  await page.waitForSelector('#ai-key');
+  assert.equal(await page.inputValue('#ai-key'), '');
+  assert.equal(await page.inputValue('#ai-model'), 'mock-model');
+  await connectMock(page, { remember: true });
+  await page.reload();
+  await page.waitForSelector('#ai-key');
+  assert.equal(await page.inputValue('#ai-key'), 'secret-key');
+  await page.getByRole('button', { name: 'Forget key' }).click();
+  await page.reload();
+  await page.waitForSelector('#ai-key');
+  assert.equal(await page.inputValue('#ai-key'), '');
+  await context.close();
+});
+
+test('AI tutor: without a key it asks for one', async () => {
+  const { page, context } = await open('#/tutor');
+  assert.match(await page.locator('main').innerText(), /Add an API key/);
+  await context.close();
+});
+
+test('AI tutor: every reply shows its checks, tool use and a badge; verified phrases can be saved', async () => {
+  const { page, context, errors } = await open();
+  const hosts = new Set();
+  page.on('request', (r) => hosts.add(new URL(r.url()).host));
+  await connectMock(page);
+  await page.goto(`${BASE}#/tutor`);
+  await lastTutor(page).locator('.badge').waitFor();
+  assert.equal(await lastTutor(page).locator('.badge').textContent(), 'Verified');
+  assert.match(await lastTutor(page).innerText(), /nei5 hou2/);
+  assert.equal(await lastTutor(page).locator('.check').count(), 8);
+
+  await page.fill('#chat-input', '我食咗飯喇');
+  await page.keyboard.press('Enter');
+  await page.locator('.activity', { hasText: 'get grammar pattern (zo2-completed)' }).waitFor();
+  await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 2);
+  const reply = lastTutor(page);
+  assert.equal(await reply.locator('.badge').textContent(), 'Verified');
+  assert.match(await reply.innerText(), /Grammar used: Verb \+ 咗, 乜嘢 \/ 咩/);
+  assert.doesNotMatch(await reply.innerText(), /http/);
+  await reply.getByRole('button', { name: 'Save phrase' }).click();
+  assert.equal(await reply.getByRole('button', { name: 'Saved for review' }).isDisabled(), true);
+  assert.equal(await page.locator('#review-count').textContent(), ' (1)');
+
+  const tutorRequests = mockAi.requests.filter((r) => r.path === '/v1/chat/completions');
+  assert.ok(tutorRequests.at(-1).body.tools.some((t) => t.function.name === 'search_vocabulary'));
+  assert.equal(tutorRequests.at(-1).body.messages.at(-1).role, 'tool');
+  for (const host of hosts) assert.ok([`localhost:${PORT}`, `localhost:${MOCK_PORT}`, 'fonts.googleapis.com', 'fonts.gstatic.com'].includes(host), `unexpected request to ${host}`);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('AI tutor: a failing reply is retried and Corrected; one that keeps failing is Unverified and cannot be saved', async () => {
+  const { page, context } = await open();
+  await connectMock(page);
+  await page.goto(`${BASE}#/tutor`);
+  await lastTutor(page).locator('.badge').waitFor();
+
+  await page.fill('#chat-input', 'FIX please');
+  await page.getByRole('button', { name: 'Send' }).click();
+  await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 2);
+  assert.equal(await lastTutor(page).locator('.badge').textContent(), 'Corrected');
+  await lastTutor(page).locator('.checks summary').click();
+  assert.match(await lastTutor(page).locator('.checks').innerText(), /retried once/);
+
+  await page.fill('#chat-input', 'BAD please');
+  await page.getByRole('button', { name: 'Send' }).click();
+  await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 3);
+  const unverified = lastTutor(page);
+  assert.equal(await unverified.locator('.badge').textContent(), 'Unverified');
+  await unverified.locator('.checks summary').click();
+  assert.match(await unverified.locator('.check-fail').first().innerText(), /Valid Jyutping/);
+  assert.equal(await unverified.getByRole('button', { name: 'Save phrase' }).isDisabled(), true);
+  await context.close();
+});
+
+test('AI tutor: "Check my sentence" flags written Chinese and shows the correction', async () => {
+  const { page, context } = await open();
+  await connectMock(page);
+  await page.goto(`${BASE}#/tutor`);
+  await lastTutor(page).locator('.badge').waitFor();
+  await page.getByRole('button', { name: 'Sifu (corrects you)' }).click();
+  await page.fill('#chat-input', '他是學生');
+  await page.getByRole('button', { name: 'Check my sentence' }).click();
+  await page.locator('.learner-notes', { hasText: '"他" is written Chinese' }).waitFor();
+  await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 2);
+  const correction = lastTutor(page).locator('.correction');
+  assert.match(await correction.innerText(), /佢/);
+  assert.match(await correction.innerText(), /keoi5/);
+  assert.equal(await correction.getByRole('link').textContent(), 'Subject + 係 + Noun');
+  await context.close();
+});
+
+test('AI on other pages: translate in Look up and explain on a grammar page, both checked', async () => {
+  const { page, context } = await open();
+  await connectMock(page);
+  await page.goto(`${BASE}#/lookup`);
+  await page.fill('#lookup-input', 'good morning everyone');
+  await page.getByRole('button', { name: /Translate .* with AI/ }).click();
+  await page.locator('.ai-task .badge').waitFor();
+  assert.match(await page.locator('.ai-task').innerText(), /zou2 san4/);
+  await page.goto(`${BASE}#/grammar/zo2-completed`);
+  await page.getByRole('button', { name: 'Explain with more examples' }).click();
+  await page.locator('.ai-task .badge').waitFor();
+  assert.equal(await page.locator('.ai-task .badge').textContent(), 'Verified');
   await context.close();
 });

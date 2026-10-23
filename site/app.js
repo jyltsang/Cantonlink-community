@@ -1,6 +1,7 @@
 import { settings, saveSettings, h, show, parseHash, stats } from './lib.js';
 import { home, grammarList, grammarDetail, vocabularyList, vocabularyTopic, lookup, notFound } from './learn.js';
 import { flashcards, fillTheGap, buildTheSentence, tones, spokenOrWritten, review } from './practice.js';
+import { aiSettingsView, tutorView } from './tutor.js';
 
 let data;
 let rerender = () => {};
@@ -8,7 +9,7 @@ let grammarLevel = 'all';
 
 const TITLES = {
   '': 'Learn Cantonese', grammar: 'Grammar', vocabulary: 'Vocabulary', lookup: 'Look up', flashcards: 'Flashcards',
-  'fill-the-gap': 'Fill the gap', build: 'Build the sentence', tones: 'Tones', 'spoken-or-written': 'Spoken or written?', review: 'Review',
+  'fill-the-gap': 'Fill the gap', build: 'Build the sentence', tones: 'Tones', 'spoken-or-written': 'Spoken or written?', review: 'Review', ai: 'AI settings', tutor: 'AI tutor',
 };
 
 function route() {
@@ -30,6 +31,8 @@ function route() {
     tones: () => tones(data),
     'spoken-or-written': () => spokenOrWritten(data),
     review: () => review(data),
+    ai: () => { const r = () => aiSettingsView(data, r); r(); return r; },
+    tutor: () => tutorView(data, query),
   };
   rerender = (views[section] ?? (() => { notFound(); return notFound; }))();
   document.title = `${TITLES[section] ?? 'Not found'} · CantonLink Community`;

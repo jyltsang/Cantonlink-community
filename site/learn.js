@@ -3,6 +3,7 @@ import {
   REPO, LEVELS, SYSTEM_NAME, settings, h, show, rom, han, sentenceEl, sentenceText, pageHead, chips, tag, draftTag, reportLine,
   fold, stats, exportProgress, importProgress, resetProgress,
 } from './lib.js';
+import { aiTaskSection, translateTask, explainTask } from './tutor.js';
 
 export function home(data, rerender) {
   const { toReview, answered, correct } = stats();
@@ -52,6 +53,7 @@ export function home(data, rerender) {
         card('#/fill-the-gap', '填充', 'Fill the gap', 'Pick the grammar word that matches the meaning.'),
         card('#/build', '砌句', 'Build the sentence', 'Put the words in natural Cantonese order.'),
         card('#/tones', '聲調', 'Tones', 'Choose the right tone for words you know.'),
+        card('#/tutor', '對話', 'AI tutor', 'Chat in Cantonese with an AI model of your choice; every reply is checked.'),
         card('#/spoken-or-written', '口語', 'Spoken or written?', 'Tell real spoken Cantonese from written Chinese.'))),
 
     h('section', { class: 'panel progress-panel', 'aria-labelledby': 'progress-heading' },
@@ -110,6 +112,8 @@ export function grammarDetail(data, id) {
       h('p', { class: 'small' }, m.note))),
     p.related.length ? h('h2', {}, 'Related') : null,
     p.related.length ? h('ul', { class: 'related' }, p.related.map((r) => h('li', {}, h('a', { href: `#/grammar/${r}`, lang: 'yue-Hant-HK' }, byId.get(r).pattern), ` — ${byId.get(r).meaning}`))) : null,
+    h('h2', {}, 'Explain with AI'),
+    aiTaskSection(data, { task: explainTask(p), label: 'Explain with more examples', intro: 'Get a fresh explanation and new examples from an AI model, checked against this library.' }),
     h('div', { class: 'actions' },
       data.practice.fillGap.some((q) => q.patternId === p.id) ? h('a', { class: 'btn btn-primary', href: `#/fill-the-gap?pattern=${p.id}` }, 'Practise this pattern') : null,
       h('a', { class: 'btn', href: '#/grammar' }, 'All patterns')),
@@ -170,6 +174,10 @@ export function lookup(data, initialQuery) {
       matches.length ? wordList(matches.slice(0, 60), (w) => w.topic) : '',
       patterns.length ? h('h2', {}, 'Grammar') : '',
       patterns.length ? h('ul', { class: 'related' }, patterns.map((p) => h('li', {}, h('a', { href: `#/grammar/${p.id}`, lang: 'yue-Hant-HK' }, p.pattern), ` — ${p.meaning}`))) : '',
+      fq && !converted && /[a-z]/i.test(q) && !/\p{Script=Han}/u.test(q)
+        ? h('section', { class: 'ai-translate' }, h('h2', {}, matches.length ? 'Translate the whole phrase' : 'Not in the library'),
+          aiTaskSection(data, { task: translateTask(q), label: `Translate "${q.length > 40 ? `${q.slice(0, 40)}…` : q}" with AI`, intro: 'An AI model can translate any English phrase, checked against this library.' }))
+        : '',
     );
     history.replaceState(null, '', q ? `#/lookup?q=${encodeURIComponent(q)}` : '#/lookup');
   };

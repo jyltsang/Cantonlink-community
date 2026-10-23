@@ -24,6 +24,7 @@ The **[learning site](https://jyltsang.github.io/Cantonlink-community/)** presen
 
 - **Learn:** browse grammar by level, read each pattern with word-by-word examples, browse vocabulary by topic, and look words up from English, Jyutping, Yale or characters.
 - **Practise:** flashcards, fill the gap, build the sentence, a tone drill and spoken-or-written, all in the romanisation you choose.
+- **AI tutor (optional, your own key):** conversation practice with every reply checked against the library.
 - **Review:** questions you miss are saved in your browser for a later review session. Progress can be exported and imported, with no account.
 
 ### A taste
@@ -65,6 +66,10 @@ npm run romanise -- "nei5 hou2"   # convert any Jyutping to Yale and Bopomofo
 
 Requires Node.js 22 or later. The content tools have no dependencies; the browser tests use Playwright.
 
+## AI tutor with your own key
+
+Paste an API key from **Claude, OpenAI or Gemini**, or connect a **free local model** (Ollama), to unlock an AI conversation tutor, "check my sentence", and AI explanations and translations. **Every AI reply passes a series of checks shown on screen**: valid Jyutping, one syllable per character, spoken rather than written Chinese, agreement with the library's readings, and real grammar references. Each reply is labelled Verified, Corrected or Unverified. The key stays in your browser and goes only to your provider. See the [AI tutor guide](docs/AI_TUTOR.md).
+
 ## Use it with an AI assistant (MCP)
 
 The [`mcp/`](mcp/) folder is a ready-made **Model Context Protocol** server. It lets assistants such as Claude, GitHub Copilot and Cursor look up words, read grammar patterns, convert romanisation, quiz you, and check their own Cantonese for written-Chinese forms, all from this library rather than from memory. Clone the repository, run `npm install --prefix mcp`, and open the folder in Claude Code, VS Code or Cursor: it is already configured.
@@ -79,6 +84,7 @@ New to MCP? The **[MCP guide](docs/MCP_GUIDE.md)** explains how it works, how to
 
 - [Product specification](docs/PRODUCT_SPEC.md): problem, audience, scope, quality process, licence audit and roadmap
 - [Curriculum](docs/CURRICULUM.md): what is covered at each level, and why
+- [AI tutor guide](docs/AI_TUTOR.md): connect your own AI model, privacy, and how replies are checked
 - [MCP guide](docs/MCP_GUIDE.md): connect an AI assistant to the library, and build your own MCP server
 - [Contributing](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md): how to report errors, review and add content
 - [Release checklist](docs/RELEASE_CHECKLIST.md): what has been verified, and what still needs people

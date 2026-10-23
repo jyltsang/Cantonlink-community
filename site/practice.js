@@ -1,8 +1,9 @@
 import { parseSyllable, toYale, toBopomofo, romanise } from './romanise.js';
 import {
   SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, pageHead, chips,
-  reportLine, recordAnswer, mistakeKeys,
+  reportLine, recordAnswer, mistakeKeys, savedPhrase,
 } from './lib.js';
+import { aiReady } from './ai-settings.js';
 
 const SESSION_LENGTH = 10;
 const patternLink = (data, id) => {
@@ -31,7 +32,8 @@ const KINDS = {
             h('span', { class: 'key-hint', 'aria-hidden': 'true' }, i + 1), rom(o), han(o));
         })),
         st.done ? h('div', { class: `feedback ${st.correct ? 'good' : 'bad'}`, role: 'status' },
-          verdict(st.correct, `The answer is ${right.cjk} ${right[settings.system]}.`), patternLink(data, q.patternId)) : null,
+          verdict(st.correct, `The answer is ${right.cjk} ${right[settings.system]}.`), patternLink(data, q.patternId),
+          aiReady() ? h('p', { class: 'small' }, h('a', { href: `#/tutor?ask=${encodeURIComponent(`Why is ${right.cjk} (${right.jyutping}) right in "${q.tokens.map((t) => t.cjk).join('')}" (${q.en})${st.choice !== right ? `, and not ${st.choice.cjk}` : ''}?`)}` }, 'Ask the AI tutor why')) : null) : null,
       ];
     },
   },
@@ -112,6 +114,22 @@ const KINDS = {
           h('p', { class: 'small' }, 'Written: ', h('span', { lang: 'yue-Hant-HK' }, q.item.written)),
           h('p', {}, 'Spoken: ', sentenceText(s)),
           h('p', { class: 'small' }, `“${s.en}” · What changes: ${q.item.changes}`)) : null,
+      ];
+    },
+  },
+
+  phrase: {
+    entry: (q) => `AI tutor phrase: ${q.cjk}`,
+    key: (q) => `phrase:${q.cjk}`,
+    render(q, st, answer) {
+      return [
+        h('p', { class: 'msg-label' }, 'Saved from the AI tutor'),
+        sentenceEl(q.tokens),
+        st.revealed ? h('p', { class: 'en' }, q.en) : null,
+        !st.revealed ? h('div', { class: 'actions' }, h('button', { class: 'btn btn-primary', type: 'button', onclick: () => { st.revealed = true; answer.rerender(); } }, 'Show meaning'))
+          : !st.done ? h('div', { class: 'actions' },
+            h('button', { class: 'btn', type: 'button', onclick: () => answer(false) }, 'I didn’t know it'),
+            h('button', { class: 'btn btn-primary', type: 'button', onclick: () => answer(true) }, 'I knew it')) : null,
       ];
     },
   },
@@ -311,6 +329,10 @@ export function review(data) {
     const [kind, ...rest] = key.split(':');
     if (kind === 'fill') return data.practice.fillGap.find((q) => q.id === rest.join(':')) && { kind, q: data.practice.fillGap.find((q) => q.id === rest.join(':')) };
     if (kind === 'build') return data.practice.buildSentence.find((q) => q.id === rest.join(':')) && { kind, q: data.practice.buildSentence.find((q) => q.id === rest.join(':')) };
+    if (kind === 'phrase') {
+      const q = savedPhrase(rest.join(':'));
+      return q && { kind, q };
+    }
     if (kind === 'sow') {
       const q = sowPool(data).find((x) => x.n === Number(rest[0]) && x.kind === rest[1]);
       return q && { kind, q };

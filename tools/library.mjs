@@ -156,3 +156,36 @@ export function practiceQuestions(data, type, { level, count = 5 } = {}) {
     answer: `${n + 1}. ${q.kind}. Spoken form: ${q.item.spoken.cjk} (${q.item.spoken.jyutping}). Changes: ${q.item.changes}`,
   }));
 }
+
+// --- Checks shared by the build and the AI tutor --------------------------
+
+const LATIN_WORD = /[A-Za-z][A-Za-z0-9'+.#-]*/g;
+
+// One Jyutping syllable per Chinese character. English words mixed into
+// Cantonese (寫 code) appear unchanged in both fields and are not counted.
+export function checkWordAlignment(cjk, jyutping) {
+  const latin = new Set((cjk.match(LATIN_WORD) ?? []).map((w) => w.toLowerCase()));
+  const syllables = jyutping.trim().split(/\s+/).filter((t) => t && !latin.has(t.toLowerCase()));
+  const invalid = syllables.filter((s) => !parseSyllable(s));
+  const han = (cjk.match(/\p{Script=Han}/gu) ?? []).length;
+  return { ok: !invalid.length && han === syllables.length, invalid, han, syllables: syllables.length };
+}
+
+// Every reading the library gives each word, from word lists and examples.
+export function buildLexicon(data) {
+  const lexicon = new Map();
+  const add = (cjk, jyutping) => {
+    if (!cjk || !jyutping) return;
+    if (!lexicon.has(cjk)) lexicon.set(cjk, new Set());
+    lexicon.get(cjk).add(jyutping);
+  };
+  for (const t of data.vocabulary) {
+    for (const w of t.words) {
+      add(w.cjk, w.jyutping);
+      if (w.classifier) add(w.classifier.cjk, w.classifier.jyutping);
+    }
+  }
+  for (const p of data.grammar) for (const ex of p.examples) for (const t of ex.tokens ?? []) add(t.cjk, t.jyutping);
+  for (const q of [...data.practice.fillGap, ...data.practice.buildSentence]) for (const t of q.tokens) add(t.cjk, t.jyutping);
+  return lexicon;
+}
