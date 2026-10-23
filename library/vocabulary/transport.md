@@ -7,7 +7,7 @@
 | # | 漢字 | Jyutping | Yale | Bopomofo | English | Classifier |
 |---|---|---|---|---|---|---|
 | 1 | **港鐵** | gong2 tit3 | góng tit | ㄍㄛㄥ² ㄊㄧㆵ³ | MTR |  |
-| 2 | **地鐵** | dei6 tit3 | deih tit | ㄉㄝㄧ⁶ ㄊㄧㆵ³ | underground train | 架 gaa3 |
+| 2 | **地鐵** | dei6 tit3 | deih tit | ㄉㄝㄧ⁶ ㄊㄧㆵ³ | underground railway; the MTR (older everyday name) | 架 gaa3 |
 | 3 | **巴士** | baa1 si2 | bā sí | ㄅㄚ¹ ㄙㄧ² | bus | 架 gaa3 |
 | 4 | **小巴** | siu2 baa1 | síu bā | ㄙㄧㄨ² ㄅㄚ¹ | minibus | 架 gaa3 |
 | 5 | **的士** | dik1 si2 | dīk sí | ㄉㄧㆶ¹ ㄙㄧ² | taxi | 架 gaa3 |

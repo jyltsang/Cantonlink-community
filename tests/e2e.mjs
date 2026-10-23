@@ -280,6 +280,19 @@ test('code-mixed words work in the word list, the tone drill and flashcards', as
   await context.close();
 });
 
+test('build the sentence accepts another natural word order', async () => {
+  const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { review: { 'build:ding6-hai6-or:0': { box: 1, due: Date.now() - 1000 } } } } });
+  await page.goto(`${BASE}#/review`);
+  await page.locator('.prompt-en', { hasText: 'Would you like tea or coffee?' }).waitFor();
+  for (const word of ['你', '飲', '咖啡', '定係', '茶', '呀']) await page.locator('.tiles:not(.answer) .tile', { hasText: word }).first().click();
+  await page.getByRole('button', { name: 'Check' }).click();
+  const feedback = page.locator('.feedback');
+  assert.match(await feedback.getAttribute('class'), /good/);
+  assert.match(await feedback.innerText(), /Your word order is natural too/);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
 // --- Learning path ---------------------------------------------------------
 
 function unitKeys(unitId) {

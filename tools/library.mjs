@@ -144,7 +144,8 @@ export function practiceQuestions(data, type, { level, count = 5 } = {}) {
       const tiles = pick(words, words.length).map((t) => `[${t.cjk} ${t.jyutping}]`).join(' ');
       const answer = q.tokens.map((t) => t.cjk).join('');
       const jp = q.tokens.map((t) => t.punctuation ?? t.jyutping).join(' ').replace(/ ([.,?!])/g, '$1');
-      return { question: `${n + 1}. "${q.en}"\n   Words: ${tiles}`, answer: `${n + 1}. ${answer} (${jp}) — pattern ${q.patternId}` };
+      const also = q.accept?.length ? `; also correct: ${q.accept.map((order) => order.join('')).join(', ')}` : '';
+      return { question: `${n + 1}. "${q.en}"\n   Words: ${tiles}`, answer: `${n + 1}. ${answer} (${jp}) — pattern ${q.patternId}${also}` };
     });
   }
   const pool = data.practice.spokenOrWritten.items.flatMap((item) => [

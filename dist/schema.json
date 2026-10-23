@@ -569,6 +569,16 @@
           "items": {
             "$ref": "#/$defs/token"
           }
+        },
+        "accept": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": "Other natural word orders, as lists of the same words (characters only, no punctuation)"
         }
       },
       "required": [

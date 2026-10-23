@@ -8,7 +8,8 @@ import { parseSyllable, phraseToYale, phraseToBopomofo, toYale, toBopomofo } fro
 import { PUNCTUATION, word, tokens, sentence } from './data.mjs';
 import { SCHEMA } from './schema.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+// CANTONLINK_ROOT lets tests validate a modified copy of content/.
+const ROOT = process.env.CANTONLINK_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
 const readJson = (path) => JSON.parse(readFileSync(join(ROOT, path), 'utf8'));
 const listJson = (dir) => readdirSync(join(ROOT, dir)).filter((f) => f.endsWith('.json')).sort();
@@ -39,6 +40,10 @@ const FUNCTIONS = {
 };
 
 // --- Validate -------------------------------------------------------------
+
+// Words that can stand in for each other, so one may never be offered as a
+// wrong option when the other is the answer.
+const EQUIVALENTS = [['乜嘢', '咩'], ['點', '點樣'], ['定係', '定'], ['而家', '依家'], ['畀', '俾']];
 
 const errors = [];
 const fail = (where, message) => errors.push(`${where}: ${message}`);
@@ -94,6 +99,20 @@ for (const p of patterns) {
       if (!ex.words.some((w) => w[0] === ex.gap.word)) fail(where, `gap word "${ex.gap.word}" is not a word in the sentence`);
       const options = new Set([ex.gap.word, ...ex.gap.distractors]);
       if (ex.gap.distractors.length !== 3 || options.size !== 4) fail(where, 'gap needs three distinct distractors that differ from the answer');
+      for (const d of ex.gap.distractors) {
+        if (ex.words.some((w) => w[0] === d)) fail(where, `distractor "${d}" already appears in the sentence`);
+        if (EQUIVALENTS.some((set) => set.includes(d) && set.includes(ex.gap.word))) fail(where, `distractor "${d}" means the same as the answer "${ex.gap.word}"`);
+      }
+    }
+    if (ex.accept) {
+      const own = ex.words.filter((w) => w.length === 2).map((w) => w[0]);
+      const key = (list) => [...list].sort().join('|');
+      const seen = new Set([own.join('|')]);
+      for (const alt of ex.accept) {
+        if (key(alt) !== key(own)) fail(where, `accepted order "${alt.join(' ')}" must use exactly the sentence's words`);
+        if (seen.has(alt.join('|'))) fail(where, `accepted order "${alt.join(' ')}" repeats the sentence or another accepted order`);
+        seen.add(alt.join('|'));
+      }
     }
   });
   (p.mistakes ?? []).forEach((m, i) => {
@@ -351,7 +370,8 @@ for (const level of LEVELS) {
     if (mixed.every((w, k) => w === tiles[k])) mixed = [...mixed.slice(1), mixed[0]];
     const s = sentence(ex.words, ex.en);
     questions.push(`**${i + 1}.** “${ex.en}”\n\n${mixed.map(([c, j]) => `\`${c} ${j}\``).join(' ')}`);
-    answers.push(`${i + 1}. **${s.cjk}** ${s.jyutping} · *${s.yale}* — [${p.pattern}](../grammar/${p.id}.md)`);
+    const also = (ex.accept ?? []).map((alt) => alt.join('')).join('; ');
+    answers.push(`${i + 1}. **${s.cjk}** ${s.jyutping} · *${s.yale}* — [${p.pattern}](../grammar/${p.id}.md)${also ? ` (also correct: ${also})` : ''}`);
   });
   emit('library/practice/build-the-sentence.md', page(
     '# Build the sentence',
@@ -491,7 +511,7 @@ emit('dist/cantonlink-community.json', JSON.stringify({
       options: [ex.gap.word, ...ex.gap.distractors].map((c) => word(c, lexicon.get(c))),
     }))),
     buildSentence: patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.words.filter((w) => w.length === 2).length >= 3).map(({ ex, i }) => ({
-      id: `${p.id}:${i}`, patternId: p.id, level: p.level, en: ex.en, tokens: tokens(ex.words),
+      id: `${p.id}:${i}`, patternId: p.id, level: p.level, en: ex.en, tokens: tokens(ex.words), ...(ex.accept ? { accept: ex.accept } : {}),
     }))),
     spokenOrWritten: { review: spokenOrWritten.review, items: spokenOrWritten.items.map((item) => ({ written: item.written, spoken: sentence(item.spoken, item.en), changes: item.changes })) },
   },
@@ -506,7 +526,7 @@ emit('dist/schema.json', JSON.stringify(SCHEMA, null, 2) + '\n');
   const fillGap = patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.gap).map(({ ex, i }) => [
     `${p.id}:${i}`, ex.words.findIndex((w) => w[0] === ex.gap.word), [ex.gap.word, ...ex.gap.distractors].map((c) => pair(c, lexicon.get(c))),
   ]));
-  const buildSentence = patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.words.filter((w) => w.length === 2).length >= 3).map(({ i }) => `${p.id}:${i}`));
+  const buildSentence = patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.words.filter((w) => w.length === 2).length >= 3).map(({ ex, i }) => (ex.accept ? [`${p.id}:${i}`, ex.accept] : `${p.id}:${i}`)));
   emit('dist/site-data.json', JSON.stringify({
     licence: 'CC BY-SA 4.0',
     source: 'https://github.com/jyltsang/cantonlink-community',

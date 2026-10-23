@@ -84,7 +84,10 @@ export const SCHEMA = {
       tokens: list(ref('token')), gapIndex: { type: 'integer', minimum: 0 },
       options: { ...list(ref('word')), minItems: 4, maxItems: 4, description: 'The answer first, then three distractors' },
     }),
-    buildSentence: obj({ id: str(), patternId: str(), level, en: str(), tokens: list(ref('token')) }),
+    buildSentence: obj({
+      id: str(), patternId: str(), level, en: str(), tokens: list(ref('token')),
+      accept: list(list(str()), 'Other natural word orders, as lists of the same words (characters only, no punctuation)'),
+    }, ['id', 'patternId', 'level', 'en', 'tokens']),
     spokenOrWritten: obj({ written: str('Standard Written Chinese'), spoken: ref('sentence'), changes: str('What changes, e.g. "他 → 佢"') }),
   },
 };

@@ -174,7 +174,7 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | grandfather (father's side) | **爺爺** | je4 je2 | yèh yé | ㄧㄝ⁴ ㄧㄝ² | [Family and people](vocabulary/family-and-people.md) |
 | grandfather (mother's side) | **公公** | gung4 gung1 | gùhng gūng | ㄍㄨㄥ⁴ ㄍㄨㄥ¹ | [Family and people](vocabulary/family-and-people.md) |
 | grandmother (father's side) | **嫲嫲** | maa4 maa4 | màh màh | ㄇㄚ⁴ ㄇㄚ⁴ | [Family and people](vocabulary/family-and-people.md) |
-| grandmother (maternal) | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | [Family and people](vocabulary/family-and-people.md) |
+| grandmother (mother's side) | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | [Family and people](vocabulary/family-and-people.md) |
 
 ## H
 
@@ -461,7 +461,7 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 |---|---|---|---|---|---|
 | umbrella | **遮** | ze1 | jē | ㄗㄝ¹ | [Weather](vocabulary/weather.md) |
 | uncle; polite term for an older man | **叔叔** | suk1 suk1 | sūk sūk | ㄙㄨㆶ¹ ㄙㄨㆶ¹ | [Family and people](vocabulary/family-and-people.md) |
-| underground train | **地鐵** | dei6 tit3 | deih tit | ㄉㄝㄧ⁶ ㄊㄧㆵ³ | [Transport and MTR](vocabulary/transport.md) |
+| underground railway; the MTR (older everyday name) | **地鐵** | dei6 tit3 | deih tit | ㄉㄝㄧ⁶ ㄊㄧㆵ³ | [Transport and MTR](vocabulary/transport.md) |
 | unhappy | **唔開心** | m4 hoi1 sam1 | m̀h hōi sām | ㆬ⁴ ㄏㄛㄧ¹ ㄙㄜㆬ¹ | [Feelings](vocabulary/feelings.md) |
 | unwell | **唔舒服** | m4 syu1 fuk6 | m̀h syū fuhk | ㆬ⁴ ㄙㄩ¹ ㄈㄨㆶ⁶ | [Health and the doctor](vocabulary/health.md) |
 | to upload | **上載** | soeng5 zoi3 | séuhng joi | ㄙㆦㄥ⁵ ㄗㄛㄧ³ | [Tech and work](vocabulary/tech-work.md) |

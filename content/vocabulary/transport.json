@@ -5,7 +5,7 @@
   "titleCjk": "交通同港鐵",
   "words": [
     { "cjk": "港鐵", "jyutping": "gong2 tit3", "en": "MTR", "pos": "noun" },
-    { "cjk": "地鐵", "jyutping": "dei6 tit3", "en": "underground train", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "地鐵", "jyutping": "dei6 tit3", "en": "underground railway; the MTR (older everyday name)", "pos": "noun", "classifier": ["架", "gaa3"] },
     { "cjk": "巴士", "jyutping": "baa1 si2", "en": "bus", "pos": "noun", "classifier": ["架", "gaa3"] },
     { "cjk": "小巴", "jyutping": "siu2 baa1", "en": "minibus", "pos": "noun", "classifier": ["架", "gaa3"] },
     { "cjk": "的士", "jyutping": "dik1 si2", "en": "taxi", "pos": "noun", "classifier": ["架", "gaa3"] },

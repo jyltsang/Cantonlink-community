@@ -9,8 +9,8 @@
     "explanation": "Put 未 at the end of a 咗 sentence to ask 'yet?'. Answer …咗喇 (yes, already) or 未呀 (not yet). Before a verb, 未 means 'haven't yet'. 食咗飯未呀？ is also an everyday greeting.",
     "writtenEquivalent": { "cjk": "…了沒有？ / 還沒", "note": "Written Chinese uses 了沒有 and 還沒." },
     "examples": [
-      { "words": [["你", "nei5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you eaten yet?", "gap": { "word": "未", "distractors": ["唔", "冇", "都"] } },
-      { "words": [["佢", "keoi5"], ["到", "dou3"], ["咗", "zo2"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Has he arrived yet?", "gap": { "word": "未", "distractors": ["唔", "冇", "都"] } },
+      { "words": [["你", "nei5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you eaten yet?", "gap": { "word": "未", "distractors": ["唔", "啦", "都"] } },
+      { "words": [["佢", "keoi5"], ["到", "dou3"], ["咗", "zo2"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Has he arrived yet?", "gap": { "word": "未", "distractors": ["唔", "啦", "都"] } },
       { "words": [["我", "ngo5"], ["未", "mei6"], ["食", "sik6"], ["。"]], "en": "I haven't eaten yet.", "gap": { "word": "未", "distractors": ["唔", "都", "好"] } }
     ],
     "related": ["zo2-completed", "gwo3-experience"],
@@ -96,8 +96,13 @@
     "explanation": "點解 can go at the start of the question or after the subject. Answers usually begin with 因為 (because). Ending with 㗎 adds a note of puzzlement.",
     "writtenEquivalent": { "cjk": "為甚麼", "note": "Written Chinese uses 為甚麼." },
     "examples": [
-      { "words": [["你", "nei5"], ["點解", "dim2 gaai2"], ["學", "hok6"], ["廣東話", "gwong2 dung1 waa2"], ["呀", "aa3"], ["？"]], "en": "Why are you learning Cantonese?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } },
-      { "words": [["點解", "dim2 gaai2"], ["佢", "keoi5"], ["唔", "m4"], ["嚟", "lai4"], ["呀", "aa3"], ["？"]], "en": "Why isn't he coming?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } },
+      {
+        "words": [["你", "nei5"], ["點解", "dim2 gaai2"], ["學", "hok6"], ["廣東話", "gwong2 dung1 waa2"], ["呀", "aa3"], ["？"]],
+        "en": "Why are you learning Cantonese?",
+        "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] },
+        "accept": [["點解", "你", "學", "廣東話", "呀"]]
+      },
+      { "words": [["點解", "dim2 gaai2"], ["佢", "keoi5"], ["唔", "m4"], ["嚟", "lai4"], ["呀", "aa3"], ["？"]], "en": "Why isn't he coming?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] }, "accept": [["佢", "點解", "唔", "嚟", "呀"]] },
       { "words": [["點解", "dim2 gaai2"], ["咁", "gam3"], ["貴", "gwai3"], ["㗎", "gaa3"], ["？"]], "en": "Why is it so expensive?", "gap": { "word": "點解", "distractors": ["幾時", "邊度", "幾多"] } }
     ],
     "related": ["jan1-wai6-because", "gei2-si4-when"],
@@ -239,7 +244,8 @@
       {
         "words": [["因為", "jan1 wai6"], ["落雨", "lok6 jyu5"], ["，"], ["所以", "so2 ji5"], ["我", "ngo5"], ["冇", "mou5"], ["出街", "ceot1 gaai1"], ["。"]],
         "en": "Because it was raining, I didn't go out.",
-        "gap": { "word": "所以", "distractors": ["但係", "如果", "或者"] }
+        "gap": { "word": "所以", "distractors": ["但係", "如果", "或者"] },
+        "accept": [["我", "因為", "落雨", "所以", "冇", "出街"]]
       },
       {
         "words": [["我", "ngo5"], ["好", "hou2"], ["攰", "gui6"], ["，"], ["因為", "jan1 wai6"], ["尋日", "cam4 jat6"], ["好", "hou2"], ["夜", "je6"], ["先", "sin1"], ["瞓", "fan3"], ["。"]],
@@ -249,7 +255,8 @@
       {
         "words": [["因為", "jan1 wai6"], ["佢", "keoi5"], ["病", "beng6"], ["咗", "zo2"], ["，"], ["所以", "so2 ji5"], ["今日", "gam1 jat6"], ["唔", "m4"], ["返工", "faan1 gung1"], ["。"]],
         "en": "Because she's ill, she isn't going to work today.",
-        "gap": { "word": "因為", "distractors": ["但係", "如果", "或者"] }
+        "gap": { "word": "因為", "distractors": ["但係", "如果", "或者"] },
+        "accept": [["佢", "因為", "病", "咗", "所以", "今日", "唔", "返工"]]
       }
     ],
     "related": ["dim2-gaai2-why"],
@@ -281,7 +288,12 @@
     "explanation": "會 before a verb talks about the future or what is likely: it will rain, I'll call you. 唔會 means 'won't' or 'is unlikely to'.",
     "examples": [
       { "words": [["聽日", "ting1 jat6"], ["會", "wui5"], ["落雨", "lok6 jyu5"], ["。"]], "en": "It's going to rain tomorrow.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } },
-      { "words": [["我", "ngo5"], ["聽日", "ting1 jat6"], ["會", "wui5"], ["打", "daa2"], ["電話", "din6 waa2"], ["畀", "bei2"], ["你", "nei5"], ["。"]], "en": "I'll phone you tomorrow.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } },
+      {
+        "words": [["我", "ngo5"], ["聽日", "ting1 jat6"], ["會", "wui5"], ["打", "daa2"], ["電話", "din6 waa2"], ["畀", "bei2"], ["你", "nei5"], ["。"]],
+        "en": "I'll phone you tomorrow.",
+        "gap": { "word": "會", "distractors": ["識", "想", "喺"] },
+        "accept": [["聽日", "我", "會", "打", "電話", "畀", "你"]]
+      },
       { "words": [["佢", "keoi5"], ["唔", "m4"], ["會", "wui5"], ["嚟", "lai4"], ["喇", "laa3"], ["。"]], "en": "He won't come now.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } }
     ],
     "related": ["sik1-know-how", "jing1-goi1-should"],
@@ -329,8 +341,8 @@
     "function": "aspect",
     "explanation": "完 after a verb means the action is finished: 做完 (finish doing), 食完 (finish eating). It often comes with 咗 or 喇.",
     "examples": [
-      { "words": [["我", "ngo5"], ["做", "zou6"], ["完", "jyun4"], ["功課", "gung1 fo3"], ["喇", "laa3"], ["。"]], "en": "I've finished my homework.", "gap": { "word": "完", "distractors": ["緊", "吓", "過"] } },
-      { "words": [["你", "nei5"], ["食", "sik6"], ["完", "jyun4"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you finished eating?", "gap": { "word": "完", "distractors": ["緊", "吓", "過"] } },
+      { "words": [["我", "ngo5"], ["做", "zou6"], ["完", "jyun4"], ["功課", "gung1 fo3"], ["喇", "laa3"], ["。"]], "en": "I've finished my homework.", "gap": { "word": "完", "distractors": ["緊", "吓", "住"] } },
+      { "words": [["你", "nei5"], ["食", "sik6"], ["完", "jyun4"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you finished eating?", "gap": { "word": "完", "distractors": ["緊", "吓", "住"] } },
       {
         "words": [["睇", "tai2"], ["完", "jyun4"], ["呢", "ni1"], ["套", "tou3"], ["戲", "hei3"], ["先", "sin1"], ["瞓", "fan3"], ["。"]],
         "en": "I'll go to bed when I've finished this film.",
@@ -354,7 +366,8 @@
       {
         "words": [["已經", "ji5 ging1"], ["十", "sap6"], ["點", "dim2"], ["喇", "laa3"], ["，"], ["快", "faai3"], ["啲", "di1"], ["啦", "laa1"], ["！"]],
         "en": "It's already ten o'clock — hurry up!",
-        "gap": { "word": "已經", "distractors": ["仲", "未", "應該"] }
+        "gap": { "word": "已經", "distractors": ["仲", "未", "應該"] },
+        "accept": [["快", "啲", "啦", "已經", "十", "點", "喇"]]
       }
     ],
     "related": ["zo2-completed", "laa3-change"],

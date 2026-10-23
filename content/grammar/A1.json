@@ -99,7 +99,7 @@
     "explanation": "Add 咗 straight after a verb to show the action has happened or been completed. It often translates as an English past tense or 'have done'.",
     "writtenEquivalent": { "cjk": "了", "note": "Written Chinese uses 了; in speech say 咗." },
     "examples": [
-      { "words": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["。"]], "en": "I've already eaten.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } },
+      { "words": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["。"]], "en": "I've already eaten.", "gap": { "word": "咗", "distractors": ["緊", "住", "吓"] } },
       { "words": [["佢", "keoi5"], ["返", "faan1"], ["咗", "zo2"], ["屋企", "uk1 kei2"], ["。"]], "en": "He's gone home.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } },
       { "words": [["我", "ngo5"], ["買", "maai5"], ["咗", "zo2"], ["兩", "loeng5"], ["本", "bun2"], ["書", "syu1"], ["。"]], "en": "I bought two books.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } }
     ],
@@ -134,8 +134,8 @@
     "explanation": "嘅 joins an owner or a description to a noun: 我嘅書 (my book), 好食嘅餐廳 (a good restaurant). With family and close friends it is usually dropped: 我媽媽, 我朋友.",
     "writtenEquivalent": { "cjk": "的", "note": "Written Chinese uses 的; in speech say 嘅." },
     "examples": [
-      { "words": [["呢", "ni1"], ["本", "bun2"], ["係", "hai6"], ["我", "ngo5"], ["嘅", "ge3"], ["書", "syu1"], ["。"]], "en": "This is my book.", "gap": { "word": "嘅", "distractors": ["係", "喺", "咗"] } },
-      { "words": [["佢", "keoi5"], ["嘅", "ge3"], ["電話", "din6 waa2"], ["號碼", "hou6 maa5"], ["係", "hai6"], ["幾多", "gei2 do1"], ["呀", "aa3"], ["？"]], "en": "What's her phone number?", "gap": { "word": "嘅", "distractors": ["係", "喺", "咗"] } },
+      { "words": [["呢", "ni1"], ["本", "bun2"], ["係", "hai6"], ["我", "ngo5"], ["嘅", "ge3"], ["書", "syu1"], ["。"]], "en": "This is my book.", "gap": { "word": "嘅", "distractors": ["緊", "喺", "咗"] } },
+      { "words": [["佢", "keoi5"], ["嘅", "ge3"], ["電話", "din6 waa2"], ["號碼", "hou6 maa5"], ["係", "hai6"], ["幾多", "gei2 do1"], ["呀", "aa3"], ["？"]], "en": "What's her phone number?", "gap": { "word": "嘅", "distractors": ["緊", "喺", "咗"] } },
       {
         "words": [["我", "ngo5"], ["知道", "zi1 dou3"], ["一", "jat1"], ["間", "gaan1"], ["好好食", "hou2 hou2 sik6"], ["嘅", "ge3"], ["餐廳", "caan1 teng1"], ["。"]],
         "en": "I know a really good restaurant.",
@@ -382,7 +382,8 @@
       {
         "words": [["我", "ngo5"], ["要", "jiu3"], ["一", "jat1"], ["杯", "bui1"], ["奶茶", "naai5 caa4"], ["同", "tung4"], ["一", "jat1"], ["杯", "bui1"], ["咖啡", "gaa3 fe1"], ["。"]],
         "en": "One milk tea and one coffee, please.",
-        "gap": { "word": "同", "distractors": ["都", "喺", "畀"] }
+        "gap": { "word": "同", "distractors": ["都", "喺", "畀"] },
+        "accept": [["我", "要", "一", "杯", "咖啡", "同", "一", "杯", "奶茶"]]
       },
       { "words": [["你", "nei5"], ["同", "tung4"], ["邊個", "bin1 go3"], ["嚟", "lai4"], ["㗎", "gaa3"], ["？"]], "en": "Who did you come with?", "gap": { "word": "同", "distractors": ["都", "喺", "畀"] } }
     ],
@@ -417,9 +418,24 @@
     "explanation": "定係 (often shortened to 定) offers a choice in a question: tea or coffee? In a statement, 'or' is 或者 instead.",
     "writtenEquivalent": { "cjk": "還是", "note": "Written Chinese uses 還是." },
     "examples": [
-      { "words": [["你", "nei5"], ["飲", "jam2"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "en": "Would you like tea or coffee?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } },
-      { "words": [["你哋", "nei5 dei6"], ["堂食", "tong4 sik6"], ["定係", "ding6 hai6"], ["拎走", "ling1 zau2"], ["呀", "aa3"], ["？"]], "en": "Eating in or taking away?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } },
-      { "words": [["佢", "keoi5"], ["係", "hai6"], ["老師", "lou5 si1"], ["定係", "ding6 hai6"], ["學生", "hok6 saang1"], ["呀", "aa3"], ["？"]], "en": "Is she a teacher or a student?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } }
+      {
+        "words": [["你", "nei5"], ["飲", "jam2"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]],
+        "en": "Would you like tea or coffee?",
+        "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
+        "accept": [["你", "飲", "咖啡", "定係", "茶", "呀"]]
+      },
+      {
+        "words": [["你哋", "nei5 dei6"], ["堂食", "tong4 sik6"], ["定係", "ding6 hai6"], ["拎走", "ling1 zau2"], ["呀", "aa3"], ["？"]],
+        "en": "Eating in or taking away?",
+        "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
+        "accept": [["你哋", "拎走", "定係", "堂食", "呀"]]
+      },
+      {
+        "words": [["佢", "keoi5"], ["係", "hai6"], ["老師", "lou5 si1"], ["定係", "ding6 hai6"], ["學生", "hok6 saang1"], ["呀", "aa3"], ["？"]],
+        "en": "Is she a teacher or a student?",
+        "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
+        "accept": [["佢", "係", "學生", "定係", "老師", "呀"]]
+      }
     ],
     "mistakes": [{ "incorrect": "你要茶還是咖啡？", "correct": [["你", "nei5"], ["要", "jiu3"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "note": "還是 is written Chinese; 或者 is for statements, not questions." }],
     "related": ["a-not-a-question", "tung4-and-with"],

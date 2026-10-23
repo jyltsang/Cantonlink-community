@@ -158,7 +158,7 @@ ngo5 sik6 \_\_\_ faan6 laa3.
 (a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 咗 zo2 · jó · ㄗㄛ²  
 (c) 吓 haa5 · háh · ㄏㄚ⁵  
-(d) 過 gwo3 · gwo · ㄍㄨㄛ³
+(d) 住 zyu6 · jyuh · ㄗㄩ⁶
 
 ---
 
@@ -227,7 +227,7 @@ ni1 bun2 hai6 ngo5 \_\_\_ syu1.
 *nī bún haih ngóh \_\_\_ syū.*  
 “This is my book.”
 
-(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 嘅 ge3 · ge · ㄍㄝ³  
 (c) 咗 zo2 · jó · ㄗㄛ²  
 (d) 喺 hai2 · hái · ㄏㄜㄧ²
@@ -241,7 +241,7 @@ keoi5 \_\_\_ din6 waa2 hou6 maa5 hai6 gei2 do1 aa3?
 
 (a) 喺 hai2 · hái · ㄏㄜㄧ²  
 (b) 咗 zo2 · jó · ㄗㄛ²  
-(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
 (d) 嘅 ge3 · ge · ㄍㄝ³
 
 ---

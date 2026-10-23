@@ -14,7 +14,7 @@ nei5 sik6 zo2 faan6 \_\_\_ aa3?
 (a) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (b) 未 mei6 · meih · ㄇㄝㄧ⁶  
 (c) 唔 m4 · m̀h · ㆬ⁴  
-(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+(d) 啦 laa1 · lā · ㄌㄚ¹
 
 ---
 
@@ -26,7 +26,7 @@ keoi5 dou3 zo2 \_\_\_ aa3?
 (a) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (b) 唔 m4 · m̀h · ㆬ⁴  
 (c) 未 mei6 · meih · ㄇㄝㄧ⁶  
-(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+(d) 啦 laa1 · lā · ㄌㄚ¹
 
 ---
 
@@ -613,7 +613,7 @@ ngo5 zou6 \_\_\_ gung1 fo3 laa3.
 
 (a) 吓 haa5 · háh · ㄏㄚ⁵  
 (b) 緊 gan2 · gán · ㄍㄜㄣ²  
-(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 住 zyu6 · jyuh · ㄗㄩ⁶  
 (d) 完 jyun4 · yùhn · ㄩㄣ⁴
 
 ---
@@ -623,7 +623,7 @@ nei5 sik6 \_\_\_ faan6 mei6 aa3?
 *néih sihk \_\_\_ faahn meih a?*  
 “Have you finished eating?”
 
-(a) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(a) 住 zyu6 · jyuh · ㄗㄩ⁶  
 (b) 完 jyun4 · yùhn · ㄩㄣ⁴  
 (c) 緊 gan2 · gán · ㄍㄜㄣ²  
 (d) 吓 haa5 · háh · ㄏㄚ⁵

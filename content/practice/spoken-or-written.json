@@ -36,7 +36,7 @@
       "changes": "明天 → 聽日, 下雨 → 落雨, 我們 → 我哋, 不 → 唔"
     },
     { "written": "他說今天不來。", "spoken": [["佢", "keoi5"], ["話", "waa6"], ["今日", "gam1 jat6"], ["唔", "m4"], ["嚟", "lai4"], ["。"]], "en": "He said he isn't coming today.", "changes": "說 → 話, 今天 → 今日, 不來 → 唔嚟" },
-    { "written": "東西都賣完了。", "spoken": [["啲", "di1"], ["嘢", "je5"], ["賣", "maai6"], ["晒", "saai3"], ["喇", "laa3"], ["。"]], "en": "Everything's sold out.", "changes": "東西 → 嘢, 都…完了 → 晒…喇" },
+    { "written": "東西都賣完了。", "spoken": [["啲", "di1"], ["嘢", "je5"], ["賣", "maai6"], ["晒", "saai3"], ["喇", "laa3"], ["。"]], "en": "Everything's sold out.", "changes": "東西 → 啲嘢, 都…完了 → 晒…喇" },
     { "written": "你喜歡哪一個？", "spoken": [["你", "nei5"], ["鍾意", "zung1 ji3"], ["邊", "bin1"], ["個", "go3"], ["呀", "aa3"], ["？"]], "en": "Which one do you like?", "changes": "喜歡 → 鍾意, 哪 → 邊" }
   ],
   "review": { "status": "draft", "reviewers": [] }

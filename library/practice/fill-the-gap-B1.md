@@ -337,7 +337,7 @@ nei5 ge3 gwong2 dung1 waa2 \_\_\_ hou2 laa3!
 
 (a) 越嚟越 jyut6 lai4 jyut6 · yuht làih yuht · ㄩㆵ⁶ ㄌㄜㄧ⁴ ㄩㆵ⁶  
 (b) 最 zeoi3 · jeui · ㄗㆤㄧ³  
-(c) 好 hou2 · hóu · ㄏㄛㄨ²  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
 (d) 太 taai3 · taai · ㄊㄚㄧ³
 
 ---
@@ -371,7 +371,7 @@ nei5 \_\_\_ zou6 gung1 fo3, zoi3 waan2 laa1.
 *néih \_\_\_ jouh gūng fo, joi wáan lā.*  
 “Do your homework first, then play.”
 
-(a) 再 zoi3 · joi · ㄗㄛㄧ³  
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 晒 saai3 · saai · ㄙㄚㄧ³  
 (c) 過 gwo3 · gwo · ㄍㄨㄛ³  
 (d) 先 sin1 · sīn · ㄙㄧㄣ¹
@@ -539,7 +539,7 @@ keoi5 \_\_\_ m4 hoi1 sam1.
 *kéuih \_\_\_ m̀h hōi sām.*  
 “She seems unhappy.”
 
-(a) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹  
+(a) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
 (b) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
 (c) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
 (d) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵
@@ -552,7 +552,7 @@ nei5 \_\_\_ nei5 baa4 baa1.
 “You look like your dad.”
 
 (a) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
-(b) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹  
+(b) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
 (c) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵  
 (d) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵
 
@@ -566,7 +566,7 @@ nei5 \_\_\_ nei5 baa4 baa1.
 (a) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
 (b) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
 (c) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵  
-(d) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹
+(d) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²
 
 <details>
 <summary><strong>Answers</strong></summary>

@@ -52,9 +52,10 @@ export function hydrate(data) {
         const { p, ex } = examples.get(id);
         return { id, patternId: p.id, level: p.level, en: ex.en, tokens: ex.tokens, gapIndex, options: options.map((o) => word(...o)) };
       }),
-      buildSentence: practice.buildSentence.map((id) => {
+      buildSentence: practice.buildSentence.map((entry) => {
+        const [id, accept] = Array.isArray(entry) ? entry : [entry];
         const { p, ex } = examples.get(id);
-        return { id, patternId: p.id, level: p.level, en: ex.en, tokens: ex.tokens };
+        return { id, patternId: p.id, level: p.level, en: ex.en, tokens: ex.tokens, ...(accept ? { accept } : {}) };
       }),
       spokenOrWritten: {
         review: practice.spokenOrWritten.review,

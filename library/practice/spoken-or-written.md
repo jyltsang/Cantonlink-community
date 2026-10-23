@@ -85,7 +85,7 @@ Much material sold as “Cantonese” is really Standard Written Chinese read al
 | 這裏不可以吸煙。 | **呢度唔可以食煙。** | ni1 dou6 m4 ho2 ji5 sik6 jin1. | nī douh m̀h hó yíh sihk yīn. | You can't smoke here. | 這裏 → 呢度, 不 → 唔, 吸煙 → 食煙 |
 | 如果明天下雨，我們就不去。 | **如果聽日落雨，我哋就唔去。** | jyu4 gwo2 ting1 jat6 lok6 jyu5, ngo5 dei6 zau6 m4 heoi3. | yùh gwó tīng yaht lohk yúh, ngóh deih jauh m̀h heui. | If it rains tomorrow, we won't go. | 明天 → 聽日, 下雨 → 落雨, 我們 → 我哋, 不 → 唔 |
 | 他說今天不來。 | **佢話今日唔嚟。** | keoi5 waa6 gam1 jat6 m4 lai4. | kéuih wah gām yaht m̀h làih. | He said he isn't coming today. | 說 → 話, 今天 → 今日, 不來 → 唔嚟 |
-| 東西都賣完了。 | **啲嘢賣晒喇。** | di1 je5 maai6 saai3 laa3. | dī yéh maaih saai la. | Everything's sold out. | 東西 → 嘢, 都…完了 → 晒…喇 |
+| 東西都賣完了。 | **啲嘢賣晒喇。** | di1 je5 maai6 saai3 laa3. | dī yéh maaih saai la. | Everything's sold out. | 東西 → 啲嘢, 都…完了 → 晒…喇 |
 | 你喜歡哪一個？ | **你鍾意邊個呀？** | nei5 zung1 ji3 bin1 go3 aa3? | néih jūng yi bīn go a? | Which one do you like? | 喜歡 → 鍾意, 哪 → 邊 |
 
 [← All practice](README.md)

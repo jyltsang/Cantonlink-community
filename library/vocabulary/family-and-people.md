@@ -20,7 +20,7 @@
 | 12 | **朋友** | pang4 jau5 | pàhng yáuh | ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | friend | 個 go3 |
 | 13 | **同事** | tung4 si6 | tùhng sih | ㄊㄨㄥ⁴ ㄙㄧ⁶ | colleague | 個 go3 |
 | 14 | **細路** | sai3 lou6 | sai louh | ㄙㄜㄧ³ ㄌㄛㄨ⁶ | child | 個 go3 |
-| 15 | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | grandmother (maternal) |  |
+| 15 | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | grandmother (mother's side) |  |
 | 16 | **爺爺** | je4 je2 | yèh yé | ㄧㄝ⁴ ㄧㄝ² | grandfather (father's side) |  |
 | 17 | **嫲嫲** | maa4 maa4 | màh màh | ㄇㄚ⁴ ㄇㄚ⁴ | grandmother (father's side) |  |
 | 18 | **公公** | gung4 gung1 | gùhng gūng | ㄍㄨㄥ⁴ ㄍㄨㄥ¹ | grandfather (mother's side) |  |

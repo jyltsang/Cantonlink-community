@@ -18,7 +18,7 @@
     { "cjk": "朋友", "jyutping": "pang4 jau5", "en": "friend", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "同事", "jyutping": "tung4 si6", "en": "colleague", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "細路", "jyutping": "sai3 lou6", "en": "child", "pos": "noun", "classifier": ["個", "go3"] },
-    { "cjk": "婆婆", "jyutping": "po4 po2", "en": "grandmother (maternal)", "pos": "noun" },
+    { "cjk": "婆婆", "jyutping": "po4 po2", "en": "grandmother (mother's side)", "pos": "noun" },
     { "cjk": "爺爺", "jyutping": "je4 je2", "en": "grandfather (father's side)", "pos": "noun" },
     { "cjk": "嫲嫲", "jyutping": "maa4 maa4", "en": "grandmother (father's side)", "pos": "noun" },
     { "cjk": "公公", "jyutping": "gung4 gung1", "en": "grandfather (mother's side)", "pos": "noun" },
