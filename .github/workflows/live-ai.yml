@@ -1,0 +1,43 @@
+name: Live AI provider test
+
+# Run by hand from the Actions tab. Drives the real AI tutor in a browser
+# against every provider that has a key saved as a repository secret
+# (ANTHROPIC_API_KEY, OPENAI_API_KEY, GEMINI_API_KEY) and writes a report to
+# the run summary. Each run costs a few cents per provider.
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Test the deployed site, or this commit built locally
+        type: choice
+        options: [deployed, local]
+        default: deployed
+
+permissions:
+  contents: read
+
+jobs:
+  live:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    container:
+      image: mcr.microsoft.com/playwright:v1.56.1-noble
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run site
+      - run: node tests/live-ai.mjs ${{ inputs.target == 'local' && '--local' || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: live-ai-report
+          path: live-ai-report.json
+          if-no-files-found: ignore

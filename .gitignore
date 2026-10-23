@@ -4,3 +4,4 @@ node_modules/
 _site/
 mcp/vendor/
 *.tgz
+live-ai-report.json

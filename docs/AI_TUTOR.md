@@ -85,6 +85,8 @@ The tutor also has the same six **library tools** as the [MCP server](MCP_GUIDE.
 
 All of it runs in the browser. The tests use recorded provider responses (`tools/ai.test.mjs`) and a scripted local provider for the browser tests (`tests/mock-ai.mjs`), so CI needs no keys.
 
+**Testing with real providers.** [`tests/live-ai.mjs`](../tests/live-ai.mjs) drives the real tutor in a browser against each provider whose key is set: a connection test, a short conversation, a Sifu correction, a translation, an explanation and a unit role-play. It reports every reply's badge and checks, and fails if there are network or CORS errors, if fewer than 80% of replies are Verified or Corrected, or if an Unverified reply could be saved. Run it locally with `ANTHROPIC_API_KEY=… npm run test:live -- --local`, or from the **Live AI provider test** workflow on GitHub using repository secrets.
+
 Provider notes:
 - **Claude** is called with the `anthropic-dangerous-direct-browser-access` header, which Anthropic requires for calls made from a browser. It uses API version `2026-10-21`, structured JSON output, and server-side refusal fallbacks (`fallbacks: "default"`).
 - **OpenAI** uses strict JSON-schema output.

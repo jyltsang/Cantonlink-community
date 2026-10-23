@@ -1,0 +1,62 @@
+name: Publish MCP package
+
+# Run by hand from the Actions tab. With "dry run" ticked (the default) it
+# tests and packs the package without publishing. Publishing needs the
+# repository secret NPM_TOKEN (an npm granular access token).
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Test and pack only, without publishing
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  id-token: write # npm provenance: links the package to this workflow run
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: mcp
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - run: npm ci
+      - run: npm test
+      - name: Stop if this version is already published
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if npm view "cantonlink-mcp@$VERSION" version >/dev/null 2>&1; then
+            echo "::error::cantonlink-mcp@$VERSION is already on npm. Bump the version in mcp/package.json."
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+      - name: Pack (dry run)
+        if: ${{ inputs.dry_run }}
+        run: npm publish --dry-run --access public --tag latest
+      - name: Publish
+        if: ${{ !inputs.dry_run }}
+        run: npm publish --provenance --access public --tag latest
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Check the published package works
+        if: ${{ !inputs.dry_run }}
+        working-directory: ${{ runner.temp }}
+        run: |
+          for attempt in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            npm view "cantonlink-mcp@$VERSION" version >/dev/null 2>&1 && break
+            sleep 10
+          done
+          npx -y -p "cantonlink-mcp@$VERSION" cantonlink romanise "nei5 hou2" | tee romanise.txt
+          grep -q "néih hóu" romanise.txt
+          printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"ci","version":"1.0.0"}}}' \
+            | timeout 60 npx -y "cantonlink-mcp@$VERSION" > server.txt
+          grep -q '"name":"cantonlink-community"' server.txt
+          echo "cantonlink-mcp@$VERSION is live: https://www.npmjs.com/package/cantonlink-mcp" >> "$GITHUB_STEP_SUMMARY"

@@ -1,6 +1,6 @@
 {
   "name": "cantonlink-mcp",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "Learn spoken Hong Kong Cantonese from your AI assistant or terminal: an MCP server and CLI over the CantonLink Community library, with Jyutping, Yale and Bopomofo.",
   "keywords": ["cantonese", "jyutping", "yale", "bopomofo", "mcp", "model-context-protocol", "language-learning", "cli"],
   "homepage": "https://github.com/jyltsang/Cantonlink-community/blob/main/docs/MCP_GUIDE.md",

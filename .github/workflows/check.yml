@@ -34,6 +34,7 @@ jobs:
       - run: npm ci
       - run: npm run site
       - run: npm run test:e2e
+      - run: node tests/live-ai.mjs --local --mock # checks the live test itself, without keys
 
   mcp:
     runs-on: ubuntu-24.04
