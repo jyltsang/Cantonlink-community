@@ -21,6 +21,21 @@
 | 13 | **碌卡** | luk1 kaat1 | lūk kāat | ㄌㄨㆶ¹ ㄎㄚㆵ¹ | to pay by card |  |
 | 14 | **現金** | jin6 gam1 | yihn gām | ㄧㄣ⁶ ㄍㄜㆬ¹ | cash |  |
 | 15 | **試身室** | si3 san1 sat1 | si sān sāt | ㄙㄧ³ ㄙㄜㄣ¹ ㄙㄜㆵ¹ | fitting room | 間 gaan1 |
+| 16 | **幾多錢** | gei2 do1 cin2 | géi dō chín | ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² | how much (does it cost)? |  |
+| 17 | **平啲** | peng4 di1 | pèhng dī | ㄆㄝㄥ⁴ ㄉㄧ¹ | a bit cheaper |  |
+| 18 | **找錢** | zaau2 cin2 | jáau chín | ㄗㄚㄨ² ㄘㄧㄣ² | to give change |  |
+| 19 | **收據** | sau1 geoi3 | sāu geui | ㄙㄜㄨ¹ ㄍㆤㄧ³ | receipt | 張 zoeng1 |
+| 20 | **試** | si3 | si | ㄙㄧ³ | to try (on) |  |
+| 21 | **啱** | ngaam1 | ngāam | ㆭㄚㆬ¹ | to fit; right |  |
+| 22 | **中碼** | zung1 maa5 | jūng máh | ㄗㄨㄥ¹ ㄇㄚ⁵ | medium size |  |
+| 23 | **黑色** | hak1 sik1 | hāk sīk | ㄏㄜㆶ¹ ㄙㄧㆶ¹ | black |  |
+| 24 | **白色** | baak6 sik1 | baahk sīk | ㄅㄚㆶ⁶ ㄙㄧㆶ¹ | white |  |
+| 25 | **紅色** | hung4 sik1 | hùhng sīk | ㄏㄨㄥ⁴ ㄙㄧㆶ¹ | red |  |
+| 26 | **藍色** | laam4 sik1 | làahm sīk | ㄌㄚㆬ⁴ ㄙㄧㆶ¹ | blue |  |
+| 27 | **超市** | ciu1 si5 | chīu síh | ㄘㄧㄨ¹ ㄙㄧ⁵ | supermarket | 間 gaan1 |
+| 28 | **商場** | soeng1 coeng4 | sēung chèuhng | ㄙㆦㄥ¹ ㄘㆦㄥ⁴ | shopping centre | 個 go3 |
+| 29 | **街市** | gaai1 si5 | gāai síh | ㄍㄚㄧ¹ ㄙㄧ⁵ | wet market | 個 go3 |
+| 30 | **膠袋** | gaau1 doi2 | gāau dói | ㄍㄚㄨ¹ ㄉㄛㄧ² | plastic bag | 個 go3 |
 
 ¹ **Usage notes**
 

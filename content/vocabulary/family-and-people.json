@@ -18,7 +18,22 @@
     { "cjk": "朋友", "jyutping": "pang4 jau5", "en": "friend", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "同事", "jyutping": "tung4 si6", "en": "colleague", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "細路", "jyutping": "sai3 lou6", "en": "child", "pos": "noun", "classifier": ["個", "go3"] },
-    { "cjk": "婆婆", "jyutping": "po4 po2", "en": "grandmother (maternal)", "pos": "noun" }
+    { "cjk": "婆婆", "jyutping": "po4 po2", "en": "grandmother (maternal)", "pos": "noun" },
+    { "cjk": "爺爺", "jyutping": "je4 je2", "en": "grandfather (father's side)", "pos": "noun" },
+    { "cjk": "嫲嫲", "jyutping": "maa4 maa4", "en": "grandmother (father's side)", "pos": "noun" },
+    { "cjk": "公公", "jyutping": "gung4 gung1", "en": "grandfather (mother's side)", "pos": "noun" },
+    { "cjk": "叔叔", "jyutping": "suk1 suk1", "en": "uncle; polite term for an older man", "pos": "noun" },
+    { "cjk": "姨姨", "jyutping": "ji4 ji1", "en": "auntie; polite term for an older woman", "pos": "noun" },
+    { "cjk": "表哥", "jyutping": "biu2 go1", "en": "older male cousin (on the mother's side, or a father's sister's son)", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "男朋友", "jyutping": "naam4 pang4 jau5", "en": "boyfriend", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "女朋友", "jyutping": "neoi5 pang4 jau5", "en": "girlfriend", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "鄰居", "jyutping": "leon4 geoi1", "en": "neighbour", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "同學", "jyutping": "tung4 hok6", "en": "classmate", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "老師", "jyutping": "lou5 si1", "en": "teacher", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "男人", "jyutping": "naam4 jan2", "en": "man", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "女人", "jyutping": "neoi5 jan2", "en": "woman", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "人", "jyutping": "jan4", "en": "person; people", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "結婚", "jyutping": "git3 fan1", "en": "to get married", "pos": "verb" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

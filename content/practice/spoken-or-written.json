@@ -22,7 +22,22 @@
     { "written": "他看電視。", "spoken": [["佢", "keoi5"], ["睇", "tai2"], ["電視", "din6 si6"], ["。"]], "en": "He's watching TV.", "changes": "看 → 睇" },
     { "written": "我很喜歡吃點心。", "spoken": [["我", "ngo5"], ["好", "hou2"], ["鍾意", "zung1 ji3"], ["食", "sik6"], ["點心", "dim2 sam1"], ["。"]], "en": "I really like dim sum.", "changes": "很 → 好, 喜歡 → 鍾意, 吃 → 食" },
     { "written": "你說甚麼？", "spoken": [["你", "nei5"], ["講", "gong2"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "en": "What did you say?", "changes": "說 → 講, 甚麼 → 乜嘢" },
-    { "written": "那裏有很多人。", "spoken": [["嗰度", "go2 dou6"], ["有", "jau5"], ["好", "hou2"], ["多", "do1"], ["人", "jan4"], ["。"]], "en": "There are lots of people there.", "changes": "那裏 → 嗰度, 很 → 好" }
+    { "written": "那裏有很多人。", "spoken": [["嗰度", "go2 dou6"], ["有", "jau5"], ["好", "hou2"], ["多", "do1"], ["人", "jan4"], ["。"]], "en": "There are lots of people there.", "changes": "那裏 → 嗰度, 很 → 好" },
+    { "written": "他們去了哪裏？", "spoken": [["佢哋", "keoi5 dei6"], ["去", "heoi3"], ["咗", "zo2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where did they go?", "changes": "他們 → 佢哋, 了 → 咗, 哪裏 → 邊度" },
+    { "written": "不要擔心。", "spoken": [["唔好", "m4 hou2"], ["擔心", "daam1 sam1"], ["。"]], "en": "Don't worry.", "changes": "不要 → 唔好" },
+    { "written": "我已經吃飽了。", "spoken": [["我", "ngo5"], ["已經", "ji5 ging1"], ["食", "sik6"], ["飽", "baau2"], ["喇", "laa3"], ["。"]], "en": "I'm already full.", "changes": "吃 → 食, sentence-final 了 → 喇" },
+    { "written": "我的手機沒有電了。", "spoken": [["我", "ngo5"], ["部", "bou6"], ["手機", "sau2 gei1"], ["冇", "mou5"], ["電", "din6"], ["喇", "laa3"], ["。"]], "en": "My phone's battery is dead.", "changes": "我的 → 我部 (classifier), 沒有 → 冇, 了 → 喇" },
+    { "written": "他被老闆罵了。", "spoken": [["佢", "keoi5"], ["畀", "bei2"], ["老細", "lou5 sai3"], ["鬧", "naau6"], ["咗", "zo2"], ["。"]], "en": "He got told off by his boss.", "changes": "他 → 佢, 被 → 畀, 老闆 → 老細, 罵 → 鬧, 了 → 咗" },
+    { "written": "這裏不可以吸煙。", "spoken": [["呢度", "ni1 dou6"], ["唔", "m4"], ["可以", "ho2 ji5"], ["食煙", "sik6 jin1"], ["。"]], "en": "You can't smoke here.", "changes": "這裏 → 呢度, 不 → 唔, 吸煙 → 食煙" },
+    {
+      "written": "如果明天下雨，我們就不去。",
+      "spoken": [["如果", "jyu4 gwo2"], ["聽日", "ting1 jat6"], ["落雨", "lok6 jyu5"], ["，"], ["我哋", "ngo5 dei6"], ["就", "zau6"], ["唔", "m4"], ["去", "heoi3"], ["。"]],
+      "en": "If it rains tomorrow, we won't go.",
+      "changes": "明天 → 聽日, 下雨 → 落雨, 我們 → 我哋, 不 → 唔"
+    },
+    { "written": "他說今天不來。", "spoken": [["佢", "keoi5"], ["話", "waa6"], ["今日", "gam1 jat6"], ["唔", "m4"], ["嚟", "lai4"], ["。"]], "en": "He said he isn't coming today.", "changes": "說 → 話, 今天 → 今日, 不來 → 唔嚟" },
+    { "written": "東西都賣完了。", "spoken": [["啲", "di1"], ["嘢", "je5"], ["賣", "maai6"], ["晒", "saai3"], ["喇", "laa3"], ["。"]], "en": "Everything's sold out.", "changes": "東西 → 嘢, 都…完了 → 晒…喇" },
+    { "written": "你喜歡哪一個？", "spoken": [["你", "nei5"], ["鍾意", "zung1 ji3"], ["邊", "bin1"], ["個", "go3"], ["呀", "aa3"], ["？"]], "en": "Which one do you like?", "changes": "喜歡 → 鍾意, 哪 → 邊" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

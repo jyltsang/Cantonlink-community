@@ -6,16 +6,23 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 
 > ⚠️ **12 of 12 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [W](#w) · [Y](#y)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [Y](#y) · [Z](#z)
 
 ## A
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| above; on top | **上面** | soeng6 min6 | seuhng mihn | ㄙㆦㄥ⁶ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| accident and emergency (A&E) | **急症室** | gap1 zing3 sat1 | gāp jing sāt | ㄍㄜㆴ¹ ㄗㄧㄥ³ ㄙㄜㆵ¹ | [Health and the doctor](vocabulary/health.md) |
 | air conditioning | **冷氣** | laang5 hei3 | láahng hei | ㄌㄚㄥ⁵ ㄏㄝㄧ³ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | airport | **機場** | gei1 coeng4 | gēi chèuhng | ㄍㄝㄧ¹ ㄘㆦㄥ⁴ | [Transport and MTR](vocabulary/transport.md) |
+| allergic | **敏感** | man5 gam2 | máhn gám | ㄇㄜㄣ⁵ ㄍㄜㆬ² | [Health and the doctor](vocabulary/health.md) |
+| ambulance | **救護車** | gau3 wu6 ce1 | gau wuh chē | ㄍㄜㄨ³ ㄨ⁶ ㄘㄝ¹ | [Health and the doctor](vocabulary/health.md) |
 | angry | **嬲** | nau1 | nāu | ㄋㄜㄨ¹ | [Feelings](vocabulary/feelings.md) |
+| annoyed; fed up | **煩** | faan4 | fàahn | ㄈㄚㄣ⁴ | [Feelings](vocabulary/feelings.md) |
 | to ask for the bill | **埋單** | maai4 daan1 | màaih dāan | ㄇㄚㄧ⁴ ㄉㄚㄣ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| at a loss; frustrated (lit. itchy head) | **頭痕** | tau4 han4 | tàuh hàhn | ㄊㄜㄨ⁴ ㄏㄜㄣ⁴ | [Feelings](vocabulary/feelings.md) |
+| auntie; polite term for an older woman | **姨姨** | ji4 ji1 | yìh yī | ㄧ⁴ ㄧ¹ | [Family and people](vocabulary/family-and-people.md) |
 
 ## B
 
@@ -25,13 +32,24 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | barbecue pork bun | **叉燒包** | caa1 siu1 baau1 | chā sīu bāau | ㄘㄚ¹ ㄙㄧㄨ¹ ㄅㄚㄨ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | to be on holiday | **放假** | fong3 gaa3 | fong ga | ㄈㄛㄥ³ ㄍㄚ³ | [Work and the office](vocabulary/work.md) |
 | to be sunny | **出太陽** | ceot1 taai3 joeng4 | chēut taai yèuhng | ㄘㆤㆵ¹ ㄊㄚㄧ³ ㄧㆦㄥ⁴ | [Weather](vocabulary/weather.md) |
+| bed | **牀** | cong4 | chòhng | ㄘㄛㄥ⁴ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | bedroom | **房** | fong2 | fóng | ㄈㄛㄥ² | [Home and daily routine](vocabulary/home-and-routine.md) |
+| beef | **牛肉** | ngau4 juk6 | ngàuh yuhk | ㆭㄜㄨ⁴ ㄧㄨㆶ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | behind | **後面** | hau6 min6 | hauh mihn | ㄏㄜㄨ⁶ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| below; underneath | **下面** | haa6 min6 | hah mihn | ㄏㄚ⁶ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| bicycle | **單車** | daan1 ce1 | dāan chē | ㄉㄚㄣ¹ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
+| a bit cheaper | **平啲** | peng4 di1 | pèhng dī | ㄆㄝㄥ⁴ ㄉㄧ¹ | [Shopping](vocabulary/shopping.md) |
+| black | **黑色** | hak1 sik1 | hāk sīk | ㄏㄜㆶ¹ ㄙㄧㆶ¹ | [Shopping](vocabulary/shopping.md) |
 | black rainstorm (warning) | **黑雨** | hak1 jyu5 | hāk yúh | ㄏㄜㆶ¹ ㄩ⁵ | [Weather](vocabulary/weather.md) |
+| blue | **藍色** | laam4 sik1 | làahm sīk | ㄌㄚㆬ⁴ ㄙㄧㆶ¹ | [Shopping](vocabulary/shopping.md) |
+| boat; ferry | **船** | syun4 | syùhn | ㄙㄩㄣ⁴ | [Transport and MTR](vocabulary/transport.md) |
+| body; health | **身體** | san1 tai2 | sān tái | ㄙㄜㄣ¹ ㄊㄜㄧ² | [Health and the doctor](vocabulary/health.md) |
 | bored | **悶** | mun6 | muhn | ㄇㄨㄣ⁶ | [Feelings](vocabulary/feelings.md) |
 | boss | **老細** | lou5 sai3 | lóuh sai | ㄌㄛㄨ⁵ ㄙㄜㄧ³ | [Work and the office](vocabulary/work.md) |
+| boyfriend | **男朋友** | naam4 pang4 jau5 | nàahm pàhng yáuh | ㄋㄚㆬ⁴ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | [Family and people](vocabulary/family-and-people.md) |
 | to brush teeth | **刷牙** | caat3 ngaa4 | chaat ngàh | ㄘㄚㆵ³ ㆭㄚ⁴ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | bus | **巴士** | baa1 si2 | bā sí | ㄅㄚ¹ ㄙㄧ² | [Transport and MTR](vocabulary/transport.md) |
+| business card | **卡片** | kaat1 pin2 | kāat pín | ㄎㄚㆵ¹ ㄆㄧㄣ² | [Work and the office](vocabulary/work.md) |
 | busy | **忙** | mong4 | mòhng | ㄇㄛㄥ⁴ | [Work and the office](vocabulary/work.md) |
 | to buy | **買** | maai5 | máaih | ㄇㄚㄧ⁵ | [Shopping](vocabulary/shopping.md) |
 | bye | **拜拜** | baai1 baai3 | bāai baai | ㄅㄚㄧ¹ ㄅㄚㄧ³ | [Greetings and courtesy](vocabulary/greetings.md) |
@@ -41,13 +59,17 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
 | cash | **現金** | jin6 gam1 | yihn gām | ㄧㄣ⁶ ㄍㄜㆬ¹ | [Shopping](vocabulary/shopping.md) |
+| chair; stool | **凳** | dang3 | dang | ㄉㄜㄥ³ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | to change (trains or buses) | **轉車** | zyun3 ce1 | jyun chē | ㄗㄩㄣ³ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
 | cheap | **平** | peng4 | pèhng | ㄆㄝㄥ⁴ | [Shopping](vocabulary/shopping.md) |
+| chicken | **雞** | gai1 | gāi | ㄍㄜㄧ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | child | **細路** | sai3 lou6 | sai louh | ㄙㄜㄧ³ ㄌㄛㄨ⁶ | [Family and people](vocabulary/family-and-people.md) |
 | chopsticks | **筷子** | faai3 zi2 | faai jí | ㄈㄚㄧ³ ㄗㄧ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| classmate | **同學** | tung4 hok6 | tùhng hohk | ㄊㄨㄥ⁴ ㄏㄛㆶ⁶ | [Family and people](vocabulary/family-and-people.md) |
 | client; customer | **客** | haak3 | haak | ㄏㄚㆶ³ | [Work and the office](vocabulary/work.md) |
 | clinic | **診所** | can2 so2 | chán só | ㄘㄜㄣ² ㄙㄛ² | [Health and the doctor](vocabulary/health.md) |
 | clothes; top | **衫** | saam1 | sāam | ㄙㄚㆬ¹ | [Shopping](vocabulary/shopping.md) |
+| cloud | **雲** | wan4 | wàhn | ㄨㄜㄣ⁴ | [Weather](vocabulary/weather.md) |
 | coffee | **咖啡** | gaa3 fe1 | ga fē | ㄍㄚ³ ㄈㄝ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | cold | **凍** | dung3 | dung | ㄉㄨㄥ³ | [Weather](vocabulary/weather.md) |
 | a cold; flu | **感冒** | gam2 mou6 | gám mouh | ㄍㄜㆬ² ㄇㄛㄨ⁶ | [Health and the doctor](vocabulary/health.md) |
@@ -55,9 +77,13 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | colour | **顏色** | ngaan4 sik1 | ngàahn sīk | ㆭㄚㄣ⁴ ㄙㄧㆶ¹ | [Shopping](vocabulary/shopping.md) |
 | company; office | **公司** | gung1 si1 | gūng sī | ㄍㄨㄥ¹ ㄙㄧ¹ | [Work and the office](vocabulary/work.md) |
 | computer | **電腦** | din6 nou5 | dihn nóuh | ㄉㄧㄣ⁶ ㄋㄛㄨ⁵ | [Work and the office](vocabulary/work.md) |
+| congee (rice porridge) | **粥** | zuk1 | jūk | ㄗㄨㆶ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| congratulations | **恭喜** | gung1 hei2 | gūng héi | ㄍㄨㄥ¹ ㄏㄝㄧ² | [Greetings and courtesy](vocabulary/greetings.md) |
 | to cook | **煮飯** | zyu2 faan6 | jyú faahn | ㄗㄩ² ㄈㄚㄣ⁶ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | cool | **涼** | loeng4 | lèuhng | ㄌㆦㄥ⁴ | [Weather](vocabulary/weather.md) |
 | to cough | **咳** | kat1 | kāt | ㄎㄜㆵ¹ | [Health and the doctor](vocabulary/health.md) |
+| to cross the road | **過馬路** | gwo3 maa5 lou6 | gwo máh louh | ㄍㄨㄛ³ ㄇㄚ⁵ ㄌㄛㄨ⁶ | [Directions](vocabulary/directions.md) |
+| crossroads | **十字路口** | sap6 zi6 lou6 hau2 | sahp jih louh háu | ㄙㄜㆴ⁶ ㄗㄧ⁶ ㄌㄛㄨ⁶ ㄏㄜㄨ² | [Directions](vocabulary/directions.md) |
 
 ## D
 
@@ -67,22 +93,35 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | daughter | **女** | neoi2 | néui | ㄋㆤㄧ² | [Family and people](vocabulary/family-and-people.md) |
 | degree (temperature) | **度** | dou6 | douh | ㄉㄛㄨ⁶ | [Weather](vocabulary/weather.md) |
 | delicious | **好食** | hou2 sik6 | hóu sihk | ㄏㄛㄨ² ㄙㄧㆶ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| dentist | **牙醫** | ngaa4 ji1 | ngàh yī | ㆭㄚ⁴ ㄧ¹ | [Health and the doctor](vocabulary/health.md) |
 | dim sum | **點心** | dim2 sam1 | dím sām | ㄉㄧㆬ² ㄙㄜㆬ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| disappointed | **失望** | sat1 mong6 | sāt mohng | ㄙㄜㆵ¹ ㄇㄛㄥ⁶ | [Feelings](vocabulary/feelings.md) |
+| dizzy | **頭暈** | tau4 wan4 | tàuh wàhn | ㄊㄜㄨ⁴ ㄨㄜㄣ⁴ | [Health and the doctor](vocabulary/health.md) |
 | to do the laundry | **洗衫** | sai2 saam1 | sái sāam | ㄙㄜㄧ² ㄙㄚㆬ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | doctor | **醫生** | ji1 sang1 | yī sāng | ㄧ¹ ㄙㄜㄥ¹ | [Health and the doctor](vocabulary/health.md) |
 | document | **文件** | man4 gin2 | màhn gín | ㄇㄜㄣ⁴ ㄍㄧㄣ² | [Work and the office](vocabulary/work.md) |
 | dollar (colloquial) | **蚊** | man1 | mān | ㄇㄜㄣ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| door | **門** | mun4 | mùhn | ㄇㄨㄣ⁴ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| downstairs | **樓下** | lau4 haa6 | làuh hah | ㄌㄜㄨ⁴ ㄏㄚ⁶ | [Directions](vocabulary/directions.md) |
 | to drink | **飲** | jam2 | yám | ㄧㄜㆬ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| to drive | **揸車** | zaa1 ce1 | jā chē | ㄗㄚ¹ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
+| dry | **乾** | gon1 | gōn | ㄍㄛㄣ¹ | [Weather](vocabulary/weather.md) |
 
 ## E
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
 | to eat | **食** | sik6 | sihk | ㄙㄧㆶ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| egg tart | **蛋撻** | daan6 taat1 | daahn tāat | ㄉㄚㄣ⁶ ㄊㄚㆵ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| eight | **八** | baat3 | baat | ㄅㄚㆵ³ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | email | **電郵** | din6 jau4 | dihn yàuh | ㄉㄧㄣ⁶ ㄧㄜㄨ⁴ | [Work and the office](vocabulary/work.md) |
+| embarrassed; awkward | **尷尬** | gaam3 gaai3 | gaam gaai | ㄍㄚㆬ³ ㄍㄚㄧ³ | [Feelings](vocabulary/feelings.md) |
+| to envy; to admire | **羨慕** | sin6 mou6 | sihn mouh | ㄙㄧㄣ⁶ ㄇㄛㄨ⁶ | [Feelings](vocabulary/feelings.md) |
+| excited | **興奮** | hing1 fan5 | hīng fáhn | ㄏㄧㄥ¹ ㄈㄜㄣ⁵ | [Feelings](vocabulary/feelings.md) |
 | excuse me, may I ask… | **請問** | cing2 man6 | chíng mahn | ㄘㄧㄥ² ㄇㄜㄣ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
 | excuse me; sorry (mild) | **唔好意思** | m4 hou2 ji3 si3 | m̀h hóu yi si | ㆬ⁴ ㄏㄛㄨ² ㄧ³ ㄙㄧ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | exit | **出口** | ceot1 hau2 | chēut háu | ㄘㆤㆵ¹ ㄏㄜㄨ² | [Transport and MTR](vocabulary/transport.md) |
+| to exit through the ticket gate | **出閘** | ceot1 zaap6 | chēut jaahp | ㄘㆤㆵ¹ ㄗㄚㆴ⁶ | [Transport and MTR](vocabulary/transport.md) |
 | expensive | **貴** | gwai3 | gwai | ㄍㄨㄜㄧ³ | [Shopping](vocabulary/shopping.md) |
 
 ## F
@@ -91,36 +130,63 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 |---|---|---|---|---|---|
 | family | **屋企人** | uk1 kei2 jan4 | ūk kéi yàhn | ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴ | [Family and people](vocabulary/family-and-people.md) |
 | far | **遠** | jyun5 | yúhn | ㄩㄣ⁵ | [Directions](vocabulary/directions.md) |
+| fare | **車費** | ce1 fai3 | chē fai | ㄘㄝ¹ ㄈㄜㄧ³ | [Transport and MTR](vocabulary/transport.md) |
 | to feel reassured | **放心** | fong3 sam1 | fong sām | ㄈㄛㄥ³ ㄙㄜㆬ¹ | [Feelings](vocabulary/feelings.md) |
 | to finish work | **放工** | fong3 gung1 | fong gūng | ㄈㄛㄥ³ ㄍㄨㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| fish (as food) | **魚** | jyu2 | yú | ㄩ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| to fit; right | **啱** | ngaam1 | ngāam | ㆭㄚㆬ¹ | [Shopping](vocabulary/shopping.md) |
 | fitting room | **試身室** | si3 san1 sat1 | si sān sāt | ㄙㄧ³ ㄙㄜㄣ¹ ㄙㄜㆵ¹ | [Shopping](vocabulary/shopping.md) |
+| five | **五** | ng5 | ńgh | ㄥ⁵ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| four | **四** | sei3 | sei | ㄙㄝㄧ³ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | free; not busy | **得閒** | dak1 haan4 | dāk hàahn | ㄉㄜㆶ¹ ㄏㄚㄣ⁴ | [Work and the office](vocabulary/work.md) |
 | fridge | **雪櫃** | syut3 gwai6 | syut gwaih | ㄙㄩㆵ³ ㄍㄨㄜㄧ⁶ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | friend | **朋友** | pang4 jau5 | pàhng yáuh | ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | [Family and people](vocabulary/family-and-people.md) |
+| full (after eating) | **飽** | baau2 | báau | ㄅㄚㄨ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | funny | **好笑** | hou2 siu3 | hóu siu | ㄏㄛㄨ² ㄙㄧㄨ³ | [Feelings](vocabulary/feelings.md) |
 
 ## G
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| to get married | **結婚** | git3 fan1 | git fān | ㄍㄧㆵ³ ㄈㄜㄣ¹ | [Family and people](vocabulary/family-and-people.md) |
 | to get off | **落車** | lok6 ce1 | lohk chē | ㄌㄛㆶ⁶ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
+| to get paid | **出糧** | ceot1 loeng4 | chēut lèuhng | ㄘㆤㆵ¹ ㄌㆦㄥ⁴ | [Work and the office](vocabulary/work.md) |
 | to get up | **起身** | hei2 san1 | héi sān | ㄏㄝㄧ² ㄙㄜㄣ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| getting off, please! (said to a minibus driver) | **有落** | jau5 lok6 | yáuh lohk | ㄧㄜㄨ⁵ ㄌㄛㆶ⁶ | [Transport and MTR](vocabulary/transport.md) |
+| girlfriend | **女朋友** | neoi5 pang4 jau5 | néuih pàhng yáuh | ㄋㆤㄧ⁵ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | [Family and people](vocabulary/family-and-people.md) |
+| to give change | **找錢** | zaau2 cin2 | jáau chín | ㄗㄚㄨ² ㄘㄧㄣ² | [Shopping](vocabulary/shopping.md) |
 | to go straight on | **直行** | zik6 haang4 | jihk hàahng | ㄗㄧㆶ⁶ ㄏㄚㄥ⁴ | [Directions](vocabulary/directions.md) |
+| to go through the ticket gate | **入閘** | jap6 zaap6 | yahp jaahp | ㄧㄜㆴ⁶ ㄗㄚㆴ⁶ | [Transport and MTR](vocabulary/transport.md) |
+| to go to school | **返學** | faan1 hok6 | fāan hohk | ㄈㄚㄣ¹ ㄏㄛㆶ⁶ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | to go to work | **返工** | faan1 gung1 | fāan gūng | ㄈㄚㄣ¹ ㄍㄨㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | good morning | **早晨** | zou2 san4 | jóu sàhn | ㄗㄛㄨ² ㄙㄜㄣ⁴ | [Greetings and courtesy](vocabulary/greetings.md) |
+| good night | **晚安** | maan5 on1 | máahn ōn | ㄇㄚㄣ⁵ ㄛㄣ¹ | [Greetings and courtesy](vocabulary/greetings.md) |
 | goodbye | **再見** | zoi3 gin3 | joi gin | ㄗㄛㄧ³ ㄍㄧㄣ³ | [Greetings and courtesy](vocabulary/greetings.md) |
+| grandfather (father's side) | **爺爺** | je4 je2 | yèh yé | ㄧㄝ⁴ ㄧㄝ² | [Family and people](vocabulary/family-and-people.md) |
+| grandfather (mother's side) | **公公** | gung4 gung1 | gùhng gūng | ㄍㄨㄥ⁴ ㄍㄨㄥ¹ | [Family and people](vocabulary/family-and-people.md) |
+| grandmother (father's side) | **嫲嫲** | maa4 maa4 | màh màh | ㄇㄚ⁴ ㄇㄚ⁴ | [Family and people](vocabulary/family-and-people.md) |
 | grandmother (maternal) | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | [Family and people](vocabulary/family-and-people.md) |
 
 ## H
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| half | **半** | bun3 | bun | ㄅㄨㄣ³ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | happy | **開心** | hoi1 sam1 | hōi sām | ㄏㄛㄧ¹ ㄙㄜㆬ¹ | [Feelings](vocabulary/feelings.md) |
+| happy birthday | **生日快樂** | saang1 jat6 faai3 lok6 | sāang yaht faai lohk | ㄙㄚㄥ¹ ㄧㄜㆵ⁶ ㄈㄚㄧ³ ㄌㄛㆶ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
+| Happy Lunar New Year (lit. wishing you prosperity) | **恭喜發財** | gung1 hei2 faat3 coi4 | gūng héi faat chòih | ㄍㄨㄥ¹ ㄏㄝㄧ² ㄈㄚㆵ³ ㄘㄛㄧ⁴ | [Greetings and courtesy](vocabulary/greetings.md) |
 | har gow (shrimp dumpling) | **蝦餃** | haa1 gaau2 | hā gáau | ㄏㄚ¹ ㄍㄚㄨ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | to hate | **憎** | zang1 | jāng | ㄗㄜㄥ¹ | [Feelings](vocabulary/feelings.md) |
+| to have a cold | **傷風** | soeng1 fung1 | sēung fūng | ㄙㆦㄥ¹ ㄈㄨㄥ¹ | [Health and the doctor](vocabulary/health.md) |
 | to have a fever | **發燒** | faat3 siu1 | faat sīu | ㄈㄚㆵ³ ㄙㄧㄨ¹ | [Health and the doctor](vocabulary/health.md) |
+| to have a job interview | **見工** | gin3 gung1 | gin gūng | ㄍㄧㄣ³ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
 | to have a meeting | **開會** | hoi1 wui2 | hōi wúi | ㄏㄛㄧ¹ ㄨㄨㄧ² | [Work and the office](vocabulary/work.md) |
+| to have a runny nose | **流鼻水** | lau4 bei6 seoi2 | làuh beih séui | ㄌㄜㄨ⁴ ㄅㄝㄧ⁶ ㄙㆤㄧ² | [Health and the doctor](vocabulary/health.md) |
 | to have a typhoon | **打風** | daa2 fung1 | dá fūng | ㄉㄚ² ㄈㄨㄥ¹ | [Weather](vocabulary/weather.md) |
+| to have an injection | **打針** | daa2 zam1 | dá jām | ㄉㄚ² ㄗㄜㆬ¹ | [Health and the doctor](vocabulary/health.md) |
+| to have breakfast | **食早餐** | sik6 zou2 caan1 | sihk jóu chāan | ㄙㄧㆶ⁶ ㄗㄛㄨ² ㄘㄚㄣ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| to have dinner | **食晚飯** | sik6 maan5 faan6 | sihk máahn faahn | ㄙㄧㆶ⁶ ㄇㄚㄣ⁵ ㄈㄚㄣ⁶ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| to have lunch | **食晏** | sik6 aan3 | sihk aan | ㄙㄧㆶ⁶ ㄚㄣ³ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | have you eaten? (a common greeting) | **食咗飯未呀** | sik6 zo2 faan6 mei6 aa3 | sihk jó faahn meih a | ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | headache | **頭痛** | tau4 tung3 | tàuh tung | ㄊㄜㄨ⁴ ㄊㄨㄥ³ | [Health and the doctor](vocabulary/health.md) |
 | hello | **你好** | nei5 hou2 | néih hóu | ㄋㄝㄧ⁵ ㄏㄛㄨ² | [Greetings and courtesy](vocabulary/greetings.md) |
@@ -131,7 +197,11 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | hospital | **醫院** | ji1 jyun2 | yī yún | ㄧ¹ ㄩㄣ² | [Health and the doctor](vocabulary/health.md) |
 | hot | **熱** | jit6 | yiht | ㄧㆵ⁶ | [Weather](vocabulary/weather.md) |
 | hot and stuffy | **翳焗** | ai3 guk6 | ai guhk | ㄜㄧ³ ㄍㄨㆶ⁶ | [Weather](vocabulary/weather.md) |
+| hour | **鐘頭** | zung1 tau4 | jūng tàuh | ㄗㄨㄥ¹ ㄊㄜㄨ⁴ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| how are you? | **你好嗎** | nei5 hou2 maa3 | néih hóu ma | ㄋㄝㄧ⁵ ㄏㄛㄨ² ㄇㄚ³ | [Greetings and courtesy](vocabulary/greetings.md) |
+| how much (does it cost)? | **幾多錢** | gei2 do1 cin2 | géi dō chín | ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² | [Shopping](vocabulary/shopping.md) |
 | humid | **潮濕** | ciu4 sap1 | chìuh sāp | ㄘㄧㄨ⁴ ㄙㄜㆴ¹ | [Weather](vocabulary/weather.md) |
+| hungry | **餓** | ngo6 | ngoh | ㆭㄛ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | hungry | **肚餓** | tou5 ngo6 | tóuh ngoh | ㄊㄛㄨ⁵ ㆭㄛ⁶ | [Feelings](vocabulary/feelings.md) |
 | husband | **老公** | lou5 gung1 | lóuh gūng | ㄌㄛㄨ⁵ ㄍㄨㄥ¹ | [Family and people](vocabulary/family-and-people.md) |
 
@@ -139,19 +209,27 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| ill; illness | **病** | beng6 | behng | ㄅㄝㄥ⁶ | [Health and the doctor](vocabulary/health.md) |
+| impatient | **心急** | sam1 gap1 | sām gāp | ㄙㄜㆬ¹ ㄍㄜㆴ¹ | [Feelings](vocabulary/feelings.md) |
 | in front | **前面** | cin4 min6 | chìhn mihn | ㄘㄧㄣ⁴ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| in the middle | **中間** | zung1 gaan1 | jūng gāan | ㄗㄨㄥ¹ ㄍㄚㄣ¹ | [Directions](vocabulary/directions.md) |
+| injured | **受傷** | sau6 soeng1 | sauh sēung | ㄙㄜㄨ⁶ ㄙㆦㄥ¹ | [Health and the doctor](vocabulary/health.md) |
+| inside | **裏面** | leoi5 min6 | léuih mihn | ㄌㆤㄧ⁵ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
 
 ## J
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| jealous | **妒忌** | dou3 gei6 | dou geih | ㄉㄛㄨ³ ㄍㄝㄧ⁶ | [Feelings](vocabulary/feelings.md) |
 | a job | **份工** | fan6 gung1 | fahn gūng | ㄈㄜㄣ⁶ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
 
 ## K
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| key | **鎖匙** | so2 si4 | só sìh | ㄙㄛ² ㄙㄧ⁴ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | kitchen | **廚房** | cyu4 fong2 | chyùh fóng | ㄘㄩ⁴ ㄈㄛㄥ² | [Home and daily routine](vocabulary/home-and-routine.md) |
+| to knock off; finish for the day | **收工** | sau1 gung1 | sāu gūng | ㄙㄜㄨ¹ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
 
 ## L
 
@@ -159,20 +237,36 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 |---|---|---|---|---|---|
 | large size | **大碼** | daai6 maa5 | daaih máh | ㄉㄚㄧ⁶ ㄇㄚ⁵ | [Shopping](vocabulary/shopping.md) |
 | left side | **左邊** | zo2 bin1 | jó bīn | ㄗㄛ² ㄅㄧㄣ¹ | [Directions](vocabulary/directions.md) |
+| light; lamp | **燈** | dang1 | dāng | ㄉㄜㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| lightning | **閃電** | sim2 din6 | sím dihn | ㄙㄧㆬ² ㄉㄧㄣ⁶ | [Weather](vocabulary/weather.md) |
 | to like | **鍾意** | zung1 ji3 | jūng yi | ㄗㄨㄥ¹ ㄧ³ | [Feelings](vocabulary/feelings.md) |
 | living room | **廳** | teng1 | tēng | ㄊㄝㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| lonely | **孤獨** | gu1 duk6 | gū duhk | ㄍㄨ¹ ㄉㄨㆶ⁶ | [Feelings](vocabulary/feelings.md) |
 | long time no see | **好耐冇見** | hou2 noi6 mou5 gin3 | hóu noih móuh gin | ㄏㄛㄨ² ㄋㄛㄧ⁶ ㄇㄛㄨ⁵ ㄍㄧㄣ³ | [Greetings and courtesy](vocabulary/greetings.md) |
+| to look for a job | **搵工** | wan2 gung1 | wán gūng | ㄨㄜㄣ² ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
+| lucky; luckily | **好彩** | hou2 coi2 | hóu chói | ㄏㄛㄨ² ㄘㄛㄧ² | [Feelings](vocabulary/feelings.md) |
 
 ## M
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| man | **男人** | naam4 jan2 | nàahm yán | ㄋㄚㆬ⁴ ㄧㄜㄣ² | [Family and people](vocabulary/family-and-people.md) |
+| manager | **經理** | ging1 lei5 | gīng léih | ㄍㄧㄥ¹ ㄌㄝㄧ⁵ | [Work and the office](vocabulary/work.md) |
+| map | **地圖** | dei6 tou4 | deih tòuh | ㄉㄝㄧ⁶ ㄊㄛㄨ⁴ | [Directions](vocabulary/directions.md) |
 | medicine | **藥** | joek6 | yeuhk | ㄧㆦㆶ⁶ | [Health and the doctor](vocabulary/health.md) |
+| medium size | **中碼** | zung1 maa5 | jūng máh | ㄗㄨㄥ¹ ㄇㄚ⁵ | [Shopping](vocabulary/shopping.md) |
+| meeting | **會議** | wui6 ji5 | wuih yíh | ㄨㄨㄧ⁶ ㄧ⁵ | [Work and the office](vocabulary/work.md) |
+| menu | **餐牌** | caan1 paai2 | chāan páai | ㄘㄚㄣ¹ ㄆㄚㄧ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | minibus | **小巴** | siu2 baa1 | síu bā | ㄙㄧㄨ² ㄅㄚ¹ | [Transport and MTR](vocabulary/transport.md) |
+| minute | **分鐘** | fan1 zung1 | fān jūng | ㄈㄜㄣ¹ ㄗㄨㄥ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | Monday | **星期一** | sing1 kei4 jat1 | sīng kèih yāt | ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄧㄜㆵ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | money | **錢** | cin2 | chín | ㄘㄧㄣ² | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| moon | **月光** | jyut6 gwong1 | yuht gwōng | ㄩㆵ⁶ ㄍㄨㄛㄥ¹ | [Weather](vocabulary/weather.md) |
+| moved; touched | **感動** | gam2 dung6 | gám duhng | ㄍㄜㆬ² ㄉㄨㄥ⁶ | [Feelings](vocabulary/feelings.md) |
 | MTR | **港鐵** | gong2 tit3 | góng tit | ㄍㄛㄥ² ㄊㄧㆵ³ | [Transport and MTR](vocabulary/transport.md) |
+| MTR station | **港鐵站** | gong2 tit3 zaam6 | góng tit jaahm | ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶ | [Transport and MTR](vocabulary/transport.md) |
 | mum | **媽媽** | maa4 maa1 | màh mā | ㄇㄚ⁴ ㄇㄚ¹ | [Family and people](vocabulary/family-and-people.md) |
+| my name is… | **我叫** | ngo5 giu3 | ngóh giu | ㆭㄛ⁵ ㄍㄧㄨ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 
 ## N
 
@@ -180,10 +274,16 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 |---|---|---|---|---|---|
 | near | **近** | kan5 | káhn | ㄎㄜㄣ⁵ | [Directions](vocabulary/directions.md) |
 | nearby | **附近** | fu6 gan6 | fuh gahn | ㄈㄨ⁶ ㄍㄜㄣ⁶ | [Directions](vocabulary/directions.md) |
+| neighbour | **鄰居** | leon4 geoi1 | lèuhn gēui | ㄌㆤㄣ⁴ ㄍㆤㄧ¹ | [Family and people](vocabulary/family-and-people.md) |
 | nervous | **緊張** | gan2 zoeng1 | gán jēung | ㄍㄜㄣ² ㄗㆦㄥ¹ | [Feelings](vocabulary/feelings.md) |
 | never mind; it doesn't matter | **唔緊要** | m4 gan2 jiu3 | m̀h gán yiu | ㆬ⁴ ㄍㄜㄣ² ㄧㄨ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | next to | **隔籬** | gaak3 lei4 | gaak lèih | ㄍㄚㆶ³ ㄌㄝㄧ⁴ | [Directions](vocabulary/directions.md) |
+| nice to meet you | **好高興認識你** | hou2 gou1 hing3 jing6 sik1 nei5 | hóu gōu hing yihng sīk néih | ㄏㄛㄨ² ㄍㄛㄨ¹ ㄏㄧㄥ³ ㄧㄥ⁶ ㄙㄧㆶ¹ ㄋㄝㄧ⁵ | [Greetings and courtesy](vocabulary/greetings.md) |
+| nine | **九** | gau2 | gáu | ㄍㄜㄨ² | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | no problem | **冇問題** | mou5 man6 tai4 | móuh mahn tàih | ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ | [Greetings and courtesy](vocabulary/greetings.md) |
+| no; that's not right | **唔係** | m4 hai6 | m̀h haih | ㆬ⁴ ㄏㄜㄧ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
+| noodles | **麪** | min6 | mihn | ㄇㄧㄣ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| now | **而家** | ji4 gaa1 | yìh gā | ㄧ⁴ ㄍㄚ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 
 ## O
 
@@ -191,30 +291,54 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 |---|---|---|---|---|---|
 | o'clock | **點鐘** | dim2 zung1 | dím jūng | ㄉㄧㆬ² ㄗㄨㄥ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | Octopus card | **八達通** | baat3 daat6 tung1 | baat daaht tūng | ㄅㄚㆵ³ ㄉㄚㆵ⁶ ㄊㄨㄥ¹ | [Transport and MTR](vocabulary/transport.md) |
+| office | **辦公室** | baan6 gung1 sat1 | baahn gūng sāt | ㄅㄚㄣ⁶ ㄍㄨㄥ¹ ㄙㄜㆵ¹ | [Work and the office](vocabulary/work.md) |
 | office building | **寫字樓** | se2 zi6 lau4 | sé jih làuh | ㄙㄝ² ㄗㄧ⁶ ㄌㄜㄨ⁴ | [Work and the office](vocabulary/work.md) |
+| OK; sure | **好呀** | hou2 aa3 | hóu a | ㄏㄛㄨ² ㄚ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | older brother | **哥哥** | go4 go1 | gòh gō | ㄍㄛ⁴ ㄍㄛ¹ | [Family and people](vocabulary/family-and-people.md) |
+| older male cousin (on the mother's side, or a father's sister's son) | **表哥** | biu2 go1 | bíu gō | ㄅㄧㄨ² ㄍㄛ¹ | [Family and people](vocabulary/family-and-people.md) |
 | older sister | **家姐** | gaa1 ze1 | gā jē | ㄍㄚ¹ ㄗㄝ¹ | [Family and people](vocabulary/family-and-people.md) |
 | on sale | **減價** | gaam2 gaa3 | gáam ga | ㄍㄚㆬ² ㄍㄚ³ | [Shopping](vocabulary/shopping.md) |
 | one | **一** | jat1 | yāt | ㄧㄜㆵ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | one hundred | **一百** | jat1 baak3 | yāt baak | ㄧㄜㆵ¹ ㄅㄚㆶ³ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | one thousand | **一千** | jat1 cin1 | yāt chīn | ㄧㄜㆵ¹ ㄘㄧㄣ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | opposite | **對面** | deoi3 min6 | deui mihn | ㄉㆤㄧ³ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| outside | **出面** | ceot1 min6 | chēut mihn | ㄘㆤㆵ¹ ㄇㄧㄣ⁶ | [Directions](vocabulary/directions.md) |
+| overcast | **陰天** | jam1 tin1 | yām tīn | ㄧㄜㆬ¹ ㄊㄧㄣ¹ | [Weather](vocabulary/weather.md) |
 
 ## P
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| painful; to hurt | **痛** | tung3 | tung | ㄊㄨㄥ³ | [Health and the doctor](vocabulary/health.md) |
 | to pay by card | **碌卡** | luk1 kaat1 | lūk kāat | ㄌㄨㆶ¹ ㄎㄚㆵ¹ | [Shopping](vocabulary/shopping.md) |
+| person; people | **人** | jan4 | yàhn | ㄧㄜㄣ⁴ | [Family and people](vocabulary/family-and-people.md) |
 | pharmacy | **藥房** | joek6 fong4 | yeuhk fòhng | ㄧㆦㆶ⁶ ㄈㄛㄥ⁴ | [Health and the doctor](vocabulary/health.md) |
+| to photocopy | **影印** | jing2 jan3 | yíng yan | ㄧㄥ² ㄧㄜㄣ³ | [Work and the office](vocabulary/work.md) |
 | pineapple bun | **菠蘿包** | bo1 lo4 baau1 | bō lòh bāau | ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| plane | **飛機** | fei1 gei1 | fēi gēi | ㄈㄝㄧ¹ ㄍㄝㄧ¹ | [Transport and MTR](vocabulary/transport.md) |
+| plastic bag | **膠袋** | gaau1 doi2 | gāau dói | ㄍㄚㄨ¹ ㄉㄛㄧ² | [Shopping](vocabulary/shopping.md) |
+| platform | **月台** | jyut6 toi4 | yuht tòih | ㄩㆵ⁶ ㄊㄛㄧ⁴ | [Transport and MTR](vocabulary/transport.md) |
+| pleasantly surprised; a nice surprise | **驚喜** | ging1 hei2 | gīng héi | ㄍㄧㄥ¹ ㄏㄝㄧ² | [Feelings](vocabulary/feelings.md) |
+| pork | **豬肉** | zyu1 juk6 | jyū yuhk | ㄗㄩ¹ ㄧㄨㆶ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| pretty good; not bad | **幾好** | gei2 hou2 | géi hóu | ㄍㄝㄧ² ㄏㄛㄨ² | [Greetings and courtesy](vocabulary/greetings.md) |
+| to print | **打印** | daa2 jan3 | dá yan | ㄉㄚ² ㄧㄜㄣ³ | [Work and the office](vocabulary/work.md) |
 
 ## R
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
 | to rain | **落雨** | lok6 jyu5 | lohk yúh | ㄌㄛㆶ⁶ ㄩ⁵ | [Weather](vocabulary/weather.md) |
+| rain | **雨** | jyu5 | yúh | ㄩ⁵ | [Weather](vocabulary/weather.md) |
+| receipt | **收據** | sau1 geoi3 | sāu geui | ㄙㄜㄨ¹ ㄍㆤㄧ³ | [Shopping](vocabulary/shopping.md) |
+| red | **紅色** | hung4 sik1 | hùhng sīk | ㄏㄨㄥ⁴ ㄙㄧㆶ¹ | [Shopping](vocabulary/shopping.md) |
+| to register (at a clinic) | **掛號** | gwaa3 hou6 | gwa houh | ㄍㄨㄚ³ ㄏㄛㄨ⁶ | [Health and the doctor](vocabulary/health.md) |
+| to regret | **後悔** | hau6 fui3 | hauh fui | ㄏㄜㄨ⁶ ㄈㄨㄧ³ | [Feelings](vocabulary/feelings.md) |
+| relaxed | **輕鬆** | hing1 sung1 | hīng sūng | ㄏㄧㄥ¹ ㄙㄨㄥ¹ | [Feelings](vocabulary/feelings.md) |
+| report | **報告** | bou3 gou3 | bou gou | ㄅㄛㄨ³ ㄍㄛㄨ³ | [Work and the office](vocabulary/work.md) |
+| to resign | **辭職** | ci4 zik1 | chìh jīk | ㄘㄧ⁴ ㄗㄧㆶ¹ | [Work and the office](vocabulary/work.md) |
 | to rest | **休息** | jau1 sik1 | yāu sīk | ㄧㄜㄨ¹ ㄙㄧㆶ¹ | [Health and the doctor](vocabulary/health.md) |
 | rice; a meal | **飯** | faan6 | faahn | ㄈㄚㄣ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| rice noodle roll | **腸粉** | coeng2 fan2 | chéung fán | ㄘㆦㄥ² ㄈㄜㄣ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | to ride; to sit | **坐** | co5 | chóh | ㄘㄛ⁵ | [Transport and MTR](vocabulary/transport.md) |
 | right side | **右邊** | jau6 bin1 | yauh bīn | ㄧㄜㄨ⁶ ㄅㄧㄣ¹ | [Directions](vocabulary/directions.md) |
 
@@ -226,65 +350,124 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 | salary | **人工** | jan4 gung1 | yàhn gūng | ㄧㄜㄣ⁴ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
 | scared | **驚** | geng1 | gēng | ㄍㄝㄥ¹ | [Feelings](vocabulary/feelings.md) |
 | to see a doctor | **睇醫生** | tai2 ji1 sang1 | tái yī sāng | ㄊㄜㄧ² ㄧ¹ ㄙㄜㄥ¹ | [Health and the doctor](vocabulary/health.md) |
+| see you later | **遲啲見** | ci4 di1 gin3 | chìh dī gin | ㄘㄧ⁴ ㄉㄧ¹ ㄍㄧㄣ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | to sell | **賣** | maai6 | maaih | ㄇㄚㄧ⁶ | [Shopping](vocabulary/shopping.md) |
+| seven | **七** | cat1 | chāt | ㄘㄜㆵ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | shoes | **鞋** | haai4 | hàaih | ㄏㄚㄧ⁴ | [Shopping](vocabulary/shopping.md) |
+| shopping centre | **商場** | soeng1 coeng4 | sēung chèuhng | ㄙㆦㄥ¹ ㄘㆦㄥ⁴ | [Shopping](vocabulary/shopping.md) |
 | to shower | **沖涼** | cung1 loeng4 | chūng lèuhng | ㄘㄨㄥ¹ ㄌㆦㄥ⁴ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| shy | **害羞** | hoi6 sau1 | hoih sāu | ㄏㄛㄧ⁶ ㄙㄜㄨ¹ | [Feelings](vocabulary/feelings.md) |
+| sick note | **病假紙** | beng6 gaa3 zi2 | behng ga jí | ㄅㄝㄥ⁶ ㄍㄚ³ ㄗㄧ² | [Health and the doctor](vocabulary/health.md) |
 | siu mai (pork dumpling) | **燒賣** | siu1 maai2 | sīu máai | ㄙㄧㄨ¹ ㄇㄚㄧ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| six | **六** | luk6 | luhk | ㄌㄨㆶ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | to sleep | **瞓覺** | fan3 gaau3 | fan gaau | ㄈㄜㄣ³ ㄍㄚㄨ³ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | small size | **細碼** | sai3 maa5 | sai máh | ㄙㄜㄧ³ ㄇㄚ⁵ | [Shopping](vocabulary/shopping.md) |
+| snow | **雪** | syut3 | syut | ㄙㄩㆵ³ | [Weather](vocabulary/weather.md) |
 | son | **仔** | zai2 | jái | ㄗㄜㄧ² | [Family and people](vocabulary/family-and-people.md) |
 | sore throat | **喉嚨痛** | hau4 lung4 tung3 | hàuh lùhng tung | ㄏㄜㄨ⁴ ㄌㄨㄥ⁴ ㄊㄨㄥ³ | [Health and the doctor](vocabulary/health.md) |
 | sorry | **對唔住** | deoi3 m4 zyu6 | deui m̀h jyuh | ㄉㆤㄧ³ ㆬ⁴ ㄗㄩ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
 | so-so | **麻麻哋** | maa4 maa2 dei2 | màh má déi | ㄇㄚ⁴ ㄇㄚ² ㄉㄝㄧ² | [Greetings and courtesy](vocabulary/greetings.md) |
 | spicy | **辣** | laat6 | laaht | ㄌㄚㆵ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| staff; employee | **員工** | jyun4 gung1 | yùhn gūng | ㄩㄣ⁴ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
+| Star Ferry | **天星小輪** | tin1 sing1 siu2 leon4 | tīn sīng síu lèuhn | ㄊㄧㄣ¹ ㄙㄧㄥ¹ ㄙㄧㄨ² ㄌㆤㄣ⁴ | [Transport and MTR](vocabulary/transport.md) |
+| to start work | **開工** | hoi1 gung1 | hōi gūng | ㄏㄛㄧ¹ ㄍㄨㄥ¹ | [Work and the office](vocabulary/work.md) |
 | station; stop | **車站** | ce1 zaam6 | chē jaahm | ㄘㄝ¹ ㄗㄚㆬ⁶ | [Transport and MTR](vocabulary/transport.md) |
 | stomach ache | **肚痛** | tou5 tung3 | tóuh tung | ㄊㄛㄨ⁵ ㄊㄨㄥ³ | [Health and the doctor](vocabulary/health.md) |
+| street corner | **街口** | gaai1 hau2 | gāai háu | ㄍㄚㄧ¹ ㄏㄜㄨ² | [Directions](vocabulary/directions.md) |
+| sun | **太陽** | taai3 joeng4 | taai yèuhng | ㄊㄚㄧ³ ㄧㆦㄥ⁴ | [Weather](vocabulary/weather.md) |
+| Sunday | **星期日** | sing1 kei4 jat6 | sīng kèih yaht | ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄧㄜㆵ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| sunny; clear | **天晴** | tin1 cing4 | tīn chìhng | ㄊㄧㄣ¹ ㄘㄧㄥ⁴ | [Weather](vocabulary/weather.md) |
+| supermarket | **超市** | ciu1 si5 | chīu síh | ㄘㄧㄨ¹ ㄙㄧ⁵ | [Shopping](vocabulary/shopping.md) |
+| sweet | **甜** | tim4 | tìhm | ㄊㄧㆬ⁴ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| to switch off the light | **熄燈** | sik1 dang1 | sīk dāng | ㄙㄧㆶ¹ ㄉㄜㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| to switch on the light | **開燈** | hoi1 dang1 | hōi dāng | ㄏㄛㄧ¹ ㄉㄜㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
 
 ## T
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| table | **枱** | toi2 | tói | ㄊㄛㄧ² | [Home and daily routine](vocabulary/home-and-routine.md) |
+| take care (said to a guest who is leaving) | **慢慢行** | maan6 maan2 haang4 | maahn máan hàahng | ㄇㄚㄣ⁶ ㄇㄚㄣ² ㄏㄚㄥ⁴ | [Greetings and courtesy](vocabulary/greetings.md) |
 | to take leave | **請假** | ceng2 gaa3 | chéng ga | ㄘㄝㄥ² ㄍㄚ³ | [Work and the office](vocabulary/work.md) |
 | to take medicine | **食藥** | sik6 joek6 | sihk yeuhk | ㄙㄧㆶ⁶ ㄧㆦㆶ⁶ | [Health and the doctor](vocabulary/health.md) |
 | to take (transport) | **搭** | daap3 | daap | ㄉㄚㆴ³ | [Transport and MTR](vocabulary/transport.md) |
 | taxi | **的士** | dik1 si2 | dīk sí | ㄉㄧㆶ¹ ㄙㄧ² | [Transport and MTR](vocabulary/transport.md) |
+| tea | **茶** | caa4 | chàh | ㄘㄚ⁴ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
+| teacher | **老師** | lou5 si1 | lóuh sī | ㄌㄛㄨ⁵ ㄙㄧ¹ | [Family and people](vocabulary/family-and-people.md) |
+| television | **電視** | din6 si6 | dihn sih | ㄉㄧㄣ⁶ ㄙㄧ⁶ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| temperature | **溫度** | wan1 dou6 | wān douh | ㄨㄜㄣ¹ ㄉㄛㄨ⁶ | [Weather](vocabulary/weather.md) |
 | ten | **十** | sap6 | sahp | ㄙㄜㆴ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | ten cents | **毫子** | hou4 zi2 | hòuh jí | ㄏㄛㄨ⁴ ㄗㄧ² | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| ten thousand | **一萬** | jat1 maan6 | yāt maahn | ㄧㄜㆵ¹ ㄇㄚㄣ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | thank you (for a gift or compliment) | **多謝** | do1 ze6 | dō jeh | ㄉㄛ¹ ㄗㄝ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
 | thank you (for a service); excuse me | **唔該** | m4 goi1 | m̀h gōi | ㆬ⁴ ㄍㄛㄧ¹ | [Greetings and courtesy](vocabulary/greetings.md) |
+| that side; over there | **嗰邊** | go2 bin1 | gó bīn | ㄍㄛ² ㄅㄧㄣ¹ | [Directions](vocabulary/directions.md) |
 | there | **嗰度** | go2 dou6 | gó douh | ㄍㄛ² ㄉㄛㄨ⁶ | [Directions](vocabulary/directions.md) |
 | thirsty | **頸渴** | geng2 hot3 | géng hot | ㄍㄝㄥ² ㄏㄛㆵ³ | [Feelings](vocabulary/feelings.md) |
+| thirteenth-month pay (an annual bonus) | **雙糧** | soeng1 loeng4 | sēung lèuhng | ㄙㆦㄥ¹ ㄌㆦㄥ⁴ | [Work and the office](vocabulary/work.md) |
+| this side; over here | **呢邊** | ni1 bin1 | nī bīn | ㄋㄧ¹ ㄅㄧㄣ¹ | [Directions](vocabulary/directions.md) |
 | three | **三** | saam1 | sāam | ㄙㄚㆬ¹ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| to thunder | **行雷** | haang4 leoi4 | hàahng lèuih | ㄏㄚㄥ⁴ ㄌㆤㄧ⁴ | [Weather](vocabulary/weather.md) |
+| to tidy the home | **執屋** | zap1 uk1 | jāp ūk | ㄗㄜㆴ¹ ㄨㆶ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
+| timetable | **時間表** | si4 gaan3 biu2 | sìh gaan bíu | ㄙㄧ⁴ ㄍㄚㄣ³ ㄅㄧㄨ² | [Transport and MTR](vocabulary/transport.md) |
 | tired | **攰** | gui6 | guih | ㄍㄨㄧ⁶ | [Feelings](vocabulary/feelings.md) |
 | today | **今日** | gam1 jat6 | gām yaht | ㄍㄜㆬ¹ ㄧㄜㆵ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | toilet; bathroom | **洗手間** | sai2 sau2 gaan1 | sái sáu gāan | ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | tomorrow | **聽日** | ting1 jat6 | tīng yaht | ㄊㄧㄥ¹ ㄧㄜㆵ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| toothache | **牙痛** | ngaa4 tung3 | ngàh tung | ㆭㄚ⁴ ㄊㄨㄥ³ | [Health and the doctor](vocabulary/health.md) |
 | to top up | **增值** | zang1 zik6 | jāng jihk | ㄗㄜㄥ¹ ㄗㄧㆶ⁶ | [Transport and MTR](vocabulary/transport.md) |
+| traffic jam | **塞車** | sak1 ce1 | sāk chē | ㄙㄜㆶ¹ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
+| traffic lights | **紅綠燈** | hung4 luk6 dang1 | hùhng luhk dāng | ㄏㄨㄥ⁴ ㄌㄨㆶ⁶ ㄉㄜㄥ¹ | [Directions](vocabulary/directions.md) |
 | tram | **電車** | din6 ce1 | dihn chē | ㄉㄧㄣ⁶ ㄘㄝ¹ | [Transport and MTR](vocabulary/transport.md) |
 | trousers | **褲** | fu3 | fu | ㄈㄨ³ | [Shopping](vocabulary/shopping.md) |
+| to try (on) | **試** | si3 | si | ㄙㄧ³ | [Shopping](vocabulary/shopping.md) |
+| tunnel | **隧道** | seoi6 dou6 | seuih douh | ㄙㆤㄧ⁶ ㄉㄛㄨ⁶ | [Transport and MTR](vocabulary/transport.md) |
 | to turn left | **轉左** | zyun3 zo2 | jyun jó | ㄗㄩㄣ³ ㄗㄛ² | [Directions](vocabulary/directions.md) |
 | to turn right | **轉右** | zyun3 jau6 | jyun yauh | ㄗㄩㄣ³ ㄧㄜㄨ⁶ | [Directions](vocabulary/directions.md) |
+| twenty | **二十** | ji6 sap6 | yih sahp | ㄧ⁶ ㄙㄜㆴ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | two (before a classifier) | **兩** | loeng5 | léuhng | ㄌㆦㄥ⁵ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| typhoon | **颱風** | toi4 fung1 | tòih fūng | ㄊㄛㄧ⁴ ㄈㄨㄥ¹ | [Weather](vocabulary/weather.md) |
+| typhoon signal no. 8 | **八號風球** | baat3 hou6 fung1 kau4 | baat houh fūng kàuh | ㄅㄚㆵ³ ㄏㄛㄨ⁶ ㄈㄨㄥ¹ ㄎㄜㄨ⁴ | [Weather](vocabulary/weather.md) |
 
 ## U
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
 | umbrella | **遮** | ze1 | jē | ㄗㄝ¹ | [Weather](vocabulary/weather.md) |
+| uncle; polite term for an older man | **叔叔** | suk1 suk1 | sūk sūk | ㄙㄨㆶ¹ ㄙㄨㆶ¹ | [Family and people](vocabulary/family-and-people.md) |
 | underground train | **地鐵** | dei6 tit3 | deih tit | ㄉㄝㄧ⁶ ㄊㄧㆵ³ | [Transport and MTR](vocabulary/transport.md) |
 | unhappy | **唔開心** | m4 hoi1 sam1 | m̀h hōi sām | ㆬ⁴ ㄏㄛㄧ¹ ㄙㄜㆬ¹ | [Feelings](vocabulary/feelings.md) |
 | unwell | **唔舒服** | m4 syu1 fuk6 | m̀h syū fuhk | ㆬ⁴ ㄙㄩ¹ ㄈㄨㆶ⁶ | [Health and the doctor](vocabulary/health.md) |
+| upstairs | **樓上** | lau4 soeng6 | làuh seuhng | ㄌㄜㄨ⁴ ㄙㆦㄥ⁶ | [Directions](vocabulary/directions.md) |
+
+## V
+
+| English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
+|---|---|---|---|---|---|
+| vegetables | **菜** | coi3 | choi | ㄘㄛㄧ³ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 
 ## W
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| to walk | **行路** | haang4 lou6 | hàahng louh | ㄏㄚㄥ⁴ ㄌㄛㄨ⁶ | [Transport and MTR](vocabulary/transport.md) |
+| to walk over (there) | **行過去** | haang4 gwo3 heoi3 | hàahng gwo heui | ㄏㄚㄥ⁴ ㄍㄨㄛ³ ㄏㆤㄧ³ | [Directions](vocabulary/directions.md) |
 | warm | **暖** | nyun5 | nyúhn | ㄋㄩㄣ⁵ | [Weather](vocabulary/weather.md) |
+| water | **水** | seoi2 | séui | ㄙㆤㄧ² | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | weather | **天氣** | tin1 hei3 | tīn hei | ㄊㄧㄣ¹ ㄏㄝㄧ³ | [Weather](vocabulary/weather.md) |
+| weather forecast | **天氣報告** | tin1 hei3 bou3 gou3 | tīn hei bou gou | ㄊㄧㄣ¹ ㄏㄝㄧ³ ㄅㄛㄨ³ ㄍㄛㄨ³ | [Weather](vocabulary/weather.md) |
+| week | **禮拜** | lai5 baai3 | láih baai | ㄌㄜㄧ⁵ ㄅㄚㄧ³ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| welcome | **歡迎** | fun1 jing4 | fūn yìhng | ㄈㄨㄣ¹ ㄧㄥ⁴ | [Greetings and courtesy](vocabulary/greetings.md) |
+| wet market | **街市** | gaai1 si5 | gāai síh | ㄍㄚㄧ¹ ㄙㄧ⁵ | [Shopping](vocabulary/shopping.md) |
 | what time | **幾點** | gei2 dim2 | géi dím | ㄍㄝㄧ² ㄉㄧㆬ² | [Numbers, money and time](vocabulary/numbers-money-time.md) |
+| what's your name? | **你叫咩名呀** | nei5 giu3 me1 meng2 aa3 | néih giu mē méng a | ㄋㄝㄧ⁵ ㄍㄧㄨ³ ㄇㄝ¹ ㄇㄝㄥ² ㄚ³ | [Greetings and courtesy](vocabulary/greetings.md) |
 | where | **邊度** | bin1 dou6 | bīn douh | ㄅㄧㄣ¹ ㄉㄛㄨ⁶ | [Directions](vocabulary/directions.md) |
+| white | **白色** | baak6 sik1 | baahk sīk | ㄅㄚㆶ⁶ ㄙㄧㆶ¹ | [Shopping](vocabulary/shopping.md) |
 | wife | **老婆** | lou5 po4 | lóuh pòh | ㄌㄛㄨ⁵ ㄆㄛ⁴ | [Family and people](vocabulary/family-and-people.md) |
+| wind | **風** | fung1 | fūng | ㄈㄨㄥ¹ | [Weather](vocabulary/weather.md) |
+| window | **窗** | coeng1 | chēung | ㄘㆦㄥ¹ | [Home and daily routine](vocabulary/home-and-routine.md) |
 | windy | **大風** | daai6 fung1 | daaih fūng | ㄉㄚㄧ⁶ ㄈㄨㄥ¹ | [Weather](vocabulary/weather.md) |
+| woman | **女人** | neoi5 jan2 | néuih yán | ㄋㆤㄧ⁵ ㄧㄜㄣ² | [Family and people](vocabulary/family-and-people.md) |
 | wonton noodles | **雲吞麪** | wan4 tan1 min6 | wàhn tān mihn | ㄨㄜㄣ⁴ ㄊㄜㄣ¹ ㄇㄧㄣ⁶ | [Food and dim sum](vocabulary/food-and-dim-sum.md) |
 | to work overtime | **加班** | gaa1 baan1 | gā bāan | ㄍㄚ¹ ㄅㄚㄣ¹ | [Work and the office](vocabulary/work.md) |
 | worried | **擔心** | daam1 sam1 | dāam sām | ㄉㄚㆬ¹ ㄙㄜㆬ¹ | [Feelings](vocabulary/feelings.md) |
@@ -293,7 +476,14 @@ Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutp
 
 | English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
 |---|---|---|---|---|---|
+| yes; that's right | **係** | hai6 | haih | ㄏㄜㄧ⁶ | [Greetings and courtesy](vocabulary/greetings.md) |
 | yesterday | **尋日** | cam4 jat6 | chàhm yaht | ㄘㄜㆬ⁴ ㄧㄜㆵ⁶ | [Numbers, money and time](vocabulary/numbers-money-time.md) |
 | younger brother | **細佬** | sai3 lou2 | sai lóu | ㄙㄜㄧ³ ㄌㄛㄨ² | [Family and people](vocabulary/family-and-people.md) |
 | younger sister | **妹妹** | mui4 mui2 | mùih múi | ㄇㄨㄧ⁴ ㄇㄨㄧ² | [Family and people](vocabulary/family-and-people.md) |
 | you're welcome; no need to be polite | **唔使客氣** | m4 sai2 haak3 hei3 | m̀h sái haak hei | ㆬ⁴ ㄙㄜㄧ² ㄏㄚㆶ³ ㄏㄝㄧ³ | [Greetings and courtesy](vocabulary/greetings.md) |
+
+## Z
+
+| English | 漢字 | Jyutping | Yale | Bopomofo | Topic |
+|---|---|---|---|---|---|
+| zero | **零** | ling4 | lìhng | ㄌㄧㄥ⁴ | [Numbers, money and time](vocabulary/numbers-money-time.md) |

@@ -21,10 +21,26 @@
 | 13 | **麻麻哋** | maa4 maa2 dei2 | màh má déi | ㄇㄚ⁴ ㄇㄚ² ㄉㄝㄧ² | so-so |  |
 | 14 | **唔使客氣** | m4 sai2 haak3 hei3 | m̀h sái haak hei | ㆬ⁴ ㄙㄜㄧ² ㄏㄚㆶ³ ㄏㄝㄧ³ | you're welcome; no need to be polite |  |
 | 15 | **冇問題** | mou5 man6 tai4 | móuh mahn tàih | ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ | no problem |  |
+| 16 | **晚安** | maan5 on1 | máahn ōn | ㄇㄚㄣ⁵ ㄛㄣ¹ | good night |  |
+| 17 | **你好嗎** | nei5 hou2 maa3 | néih hóu ma | ㄋㄝㄧ⁵ ㄏㄛㄨ² ㄇㄚ³ | how are you? |  |
+| 18 | **幾好** | gei2 hou2 | géi hóu | ㄍㄝㄧ² ㄏㄛㄨ² | pretty good; not bad |  |
+| 19 | **我叫** | ngo5 giu3 | ngóh giu | ㆭㄛ⁵ ㄍㄧㄨ³ | my name is… |  |
+| 20 | **你叫咩名呀** | nei5 giu3 me1 meng2 aa3 | néih giu mē méng a | ㄋㄝㄧ⁵ ㄍㄧㄨ³ ㄇㄝ¹ ㄇㄝㄥ² ㄚ³ | what's your name? |  |
+| 21 | **好高興認識你** | hou2 gou1 hing3 jing6 sik1 nei5 | hóu gōu hing yihng sīk néih | ㄏㄛㄨ² ㄍㄛㄨ¹ ㄏㄧㄥ³ ㄧㄥ⁶ ㄙㄧㆶ¹ ㄋㄝㄧ⁵ | nice to meet you |  |
+| 22 | **歡迎** | fun1 jing4 | fūn yìhng | ㄈㄨㄣ¹ ㄧㄥ⁴ | welcome |  |
+| 23 | **恭喜** | gung1 hei2 | gūng héi | ㄍㄨㄥ¹ ㄏㄝㄧ² | congratulations |  |
+| 24 | **恭喜發財** | gung1 hei2 faat3 coi4 | gūng héi faat chòih | ㄍㄨㄥ¹ ㄏㄝㄧ² ㄈㄚㆵ³ ㄘㄛㄧ⁴ | Happy Lunar New Year (lit. wishing you prosperity) |  |
+| 25 | **生日快樂** | saang1 jat6 faai3 lok6 | sāang yaht faai lohk | ㄙㄚㄥ¹ ㄧㄜㆵ⁶ ㄈㄚㄧ³ ㄌㄛㆶ⁶ | happy birthday |  |
+| 26 | **遲啲見** | ci4 di1 gin3 | chìh dī gin | ㄘㄧ⁴ ㄉㄧ¹ ㄍㄧㄣ³ | see you later |  |
+| 27 | **係** | hai6 | haih | ㄏㄜㄧ⁶ | yes; that's right ¹ |  |
+| 28 | **唔係** | m4 hai6 | m̀h haih | ㆬ⁴ ㄏㄜㄧ⁶ | no; that's not right |  |
+| 29 | **好呀** | hou2 aa3 | hóu a | ㄏㄛㄨ² ㄚ³ | OK; sure |  |
+| 30 | **慢慢行** | maan6 maan2 haang4 | maahn máan hàahng | ㄇㄚㄣ⁶ ㄇㄚㄣ² ㄏㄚㄥ⁴ | take care (said to a guest who is leaving) |  |
 
 ¹ **Usage notes**
 
 - **唔該** — Use for small favours and services; 多謝 is for gifts and compliments.
+- **係** — Cantonese has no single word for 'yes'; people usually repeat the verb, or say 係 to confirm a fact.
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

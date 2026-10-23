@@ -18,7 +18,22 @@
     { "cjk": "轉車", "jyutping": "zyun3 ce1", "en": "to change (trains or buses)", "pos": "verb" },
     { "cjk": "車站", "jyutping": "ce1 zaam6", "en": "station; stop", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "出口", "jyutping": "ceot1 hau2", "en": "exit", "pos": "noun", "classifier": ["個", "go3"] },
-    { "cjk": "機場", "jyutping": "gei1 coeng4", "en": "airport", "pos": "noun", "classifier": ["個", "go3"] }
+    { "cjk": "機場", "jyutping": "gei1 coeng4", "en": "airport", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "港鐵站", "jyutping": "gong2 tit3 zaam6", "en": "MTR station", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "月台", "jyutping": "jyut6 toi4", "en": "platform", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "入閘", "jyutping": "jap6 zaap6", "en": "to go through the ticket gate", "pos": "verb" },
+    { "cjk": "出閘", "jyutping": "ceot1 zaap6", "en": "to exit through the ticket gate", "pos": "verb" },
+    { "cjk": "天星小輪", "jyutping": "tin1 sing1 siu2 leon4", "en": "Star Ferry", "pos": "noun" },
+    { "cjk": "船", "jyutping": "syun4", "en": "boat; ferry", "pos": "noun", "classifier": ["隻", "zek3"] },
+    { "cjk": "飛機", "jyutping": "fei1 gei1", "en": "plane", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "單車", "jyutping": "daan1 ce1", "en": "bicycle", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "揸車", "jyutping": "zaa1 ce1", "en": "to drive", "pos": "verb" },
+    { "cjk": "塞車", "jyutping": "sak1 ce1", "en": "traffic jam", "pos": "verb" },
+    { "cjk": "有落", "jyutping": "jau5 lok6", "en": "getting off, please! (said to a minibus driver)", "pos": "phrase" },
+    { "cjk": "車費", "jyutping": "ce1 fai3", "en": "fare", "pos": "noun" },
+    { "cjk": "時間表", "jyutping": "si4 gaan3 biu2", "en": "timetable", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "隧道", "jyutping": "seoi6 dou6", "en": "tunnel", "pos": "noun", "classifier": ["條", "tiu4"] },
+    { "cjk": "行路", "jyutping": "haang4 lou6", "en": "to walk", "pos": "verb" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

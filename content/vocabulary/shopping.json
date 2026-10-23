@@ -18,7 +18,22 @@
     { "cjk": "減價", "jyutping": "gaam2 gaa3", "en": "on sale", "pos": "verb" },
     { "cjk": "碌卡", "jyutping": "luk1 kaat1", "en": "to pay by card", "pos": "verb" },
     { "cjk": "現金", "jyutping": "jin6 gam1", "en": "cash", "pos": "noun" },
-    { "cjk": "試身室", "jyutping": "si3 san1 sat1", "en": "fitting room", "pos": "noun", "classifier": ["間", "gaan1"] }
+    { "cjk": "試身室", "jyutping": "si3 san1 sat1", "en": "fitting room", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "幾多錢", "jyutping": "gei2 do1 cin2", "en": "how much (does it cost)?", "pos": "phrase" },
+    { "cjk": "平啲", "jyutping": "peng4 di1", "en": "a bit cheaper", "pos": "phrase" },
+    { "cjk": "找錢", "jyutping": "zaau2 cin2", "en": "to give change", "pos": "verb" },
+    { "cjk": "收據", "jyutping": "sau1 geoi3", "en": "receipt", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "試", "jyutping": "si3", "en": "to try (on)", "pos": "verb" },
+    { "cjk": "啱", "jyutping": "ngaam1", "en": "to fit; right", "pos": "adjective" },
+    { "cjk": "中碼", "jyutping": "zung1 maa5", "en": "medium size", "pos": "noun" },
+    { "cjk": "黑色", "jyutping": "hak1 sik1", "en": "black", "pos": "adjective" },
+    { "cjk": "白色", "jyutping": "baak6 sik1", "en": "white", "pos": "adjective" },
+    { "cjk": "紅色", "jyutping": "hung4 sik1", "en": "red", "pos": "adjective" },
+    { "cjk": "藍色", "jyutping": "laam4 sik1", "en": "blue", "pos": "adjective" },
+    { "cjk": "超市", "jyutping": "ciu1 si5", "en": "supermarket", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "商場", "jyutping": "soeng1 coeng4", "en": "shopping centre", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "街市", "jyutping": "gaai1 si5", "en": "wet market", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "膠袋", "jyutping": "gaau1 doi2", "en": "plastic bag", "pos": "noun", "classifier": ["個", "go3"] }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

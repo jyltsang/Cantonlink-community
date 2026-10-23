@@ -18,7 +18,22 @@
     { "cjk": "今日", "jyutping": "gam1 jat6", "en": "today", "pos": "time" },
     { "cjk": "聽日", "jyutping": "ting1 jat6", "en": "tomorrow", "pos": "time" },
     { "cjk": "尋日", "jyutping": "cam4 jat6", "en": "yesterday", "pos": "time" },
-    { "cjk": "星期一", "jyutping": "sing1 kei4 jat1", "en": "Monday", "pos": "time" }
+    { "cjk": "星期一", "jyutping": "sing1 kei4 jat1", "en": "Monday", "pos": "time" },
+    { "cjk": "零", "jyutping": "ling4", "en": "zero", "pos": "number" },
+    { "cjk": "四", "jyutping": "sei3", "en": "four", "pos": "number", "note": "Some people avoid 四 because it sounds like 死 (sei2, 'to die')." },
+    { "cjk": "五", "jyutping": "ng5", "en": "five", "pos": "number" },
+    { "cjk": "六", "jyutping": "luk6", "en": "six", "pos": "number" },
+    { "cjk": "七", "jyutping": "cat1", "en": "seven", "pos": "number" },
+    { "cjk": "八", "jyutping": "baat3", "en": "eight", "pos": "number", "note": "Considered lucky because it rhymes with 發 (faat3, 'to prosper')." },
+    { "cjk": "九", "jyutping": "gau2", "en": "nine", "pos": "number" },
+    { "cjk": "二十", "jyutping": "ji6 sap6", "en": "twenty", "pos": "number" },
+    { "cjk": "一萬", "jyutping": "jat1 maan6", "en": "ten thousand", "pos": "number" },
+    { "cjk": "半", "jyutping": "bun3", "en": "half", "pos": "number" },
+    { "cjk": "分鐘", "jyutping": "fan1 zung1", "en": "minute", "pos": "noun" },
+    { "cjk": "鐘頭", "jyutping": "zung1 tau4", "en": "hour", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "星期日", "jyutping": "sing1 kei4 jat6", "en": "Sunday", "pos": "time" },
+    { "cjk": "禮拜", "jyutping": "lai5 baai3", "en": "week", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "而家", "jyutping": "ji4 gaa1", "en": "now", "pos": "time" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

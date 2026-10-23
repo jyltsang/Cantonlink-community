@@ -21,6 +21,21 @@
 | 13 | **肚餓** | tou5 ngo6 | tóuh ngoh | ㄊㄛㄨ⁵ ㆭㄛ⁶ | hungry |  |
 | 14 | **頸渴** | geng2 hot3 | géng hot | ㄍㄝㄥ² ㄏㄛㆵ³ | thirsty |  |
 | 15 | **放心** | fong3 sam1 | fong sām | ㄈㄛㄥ³ ㄙㄜㆬ¹ | to feel reassured |  |
+| 16 | **興奮** | hing1 fan5 | hīng fáhn | ㄏㄧㄥ¹ ㄈㄜㄣ⁵ | excited |  |
+| 17 | **失望** | sat1 mong6 | sāt mohng | ㄙㄜㆵ¹ ㄇㄛㄥ⁶ | disappointed |  |
+| 18 | **後悔** | hau6 fui3 | hauh fui | ㄏㄜㄨ⁶ ㄈㄨㄧ³ | to regret |  |
+| 19 | **尷尬** | gaam3 gaai3 | gaam gaai | ㄍㄚㆬ³ ㄍㄚㄧ³ | embarrassed; awkward |  |
+| 20 | **感動** | gam2 dung6 | gám duhng | ㄍㄜㆬ² ㄉㄨㄥ⁶ | moved; touched |  |
+| 21 | **羨慕** | sin6 mou6 | sihn mouh | ㄙㄧㄣ⁶ ㄇㄛㄨ⁶ | to envy; to admire |  |
+| 22 | **妒忌** | dou3 gei6 | dou geih | ㄉㄛㄨ³ ㄍㄝㄧ⁶ | jealous |  |
+| 23 | **孤獨** | gu1 duk6 | gū duhk | ㄍㄨ¹ ㄉㄨㆶ⁶ | lonely |  |
+| 24 | **輕鬆** | hing1 sung1 | hīng sūng | ㄏㄧㄥ¹ ㄙㄨㄥ¹ | relaxed |  |
+| 25 | **煩** | faan4 | fàahn | ㄈㄚㄣ⁴ | annoyed; fed up |  |
+| 26 | **好彩** | hou2 coi2 | hóu chói | ㄏㄛㄨ² ㄘㄛㄧ² | lucky; luckily |  |
+| 27 | **心急** | sam1 gap1 | sām gāp | ㄙㄜㆬ¹ ㄍㄜㆴ¹ | impatient |  |
+| 28 | **害羞** | hoi6 sau1 | hoih sāu | ㄏㄛㄧ⁶ ㄙㄜㄨ¹ | shy |  |
+| 29 | **頭痕** | tau4 han4 | tàuh hàhn | ㄊㄜㄨ⁴ ㄏㄜㄣ⁴ | at a loss; frustrated (lit. itchy head) |  |
+| 30 | **驚喜** | ging1 hei2 | gīng héi | ㄍㄧㄥ¹ ㄏㄝㄧ² | pleasantly surprised; a nice surprise |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

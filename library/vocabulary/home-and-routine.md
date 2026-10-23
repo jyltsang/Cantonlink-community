@@ -21,6 +21,21 @@
 | 13 | **洗手間** | sai2 sau2 gaan1 | sái sáu gāan | ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹ | toilet; bathroom | 間 gaan1 |
 | 14 | **雪櫃** | syut3 gwai6 | syut gwaih | ㄙㄩㆵ³ ㄍㄨㄜㄧ⁶ | fridge | 個 go3 |
 | 15 | **冷氣** | laang5 hei3 | láahng hei | ㄌㄚㄥ⁵ ㄏㄝㄧ³ | air conditioning | 部 bou6 |
+| 16 | **枱** | toi2 | tói | ㄊㄛㄧ² | table | 張 zoeng1 |
+| 17 | **凳** | dang3 | dang | ㄉㄜㄥ³ | chair; stool | 張 zoeng1 |
+| 18 | **牀** | cong4 | chòhng | ㄘㄛㄥ⁴ | bed | 張 zoeng1 |
+| 19 | **門** | mun4 | mùhn | ㄇㄨㄣ⁴ | door | 度 dou6 |
+| 20 | **窗** | coeng1 | chēung | ㄘㆦㄥ¹ | window | 扇 sin3 |
+| 21 | **電視** | din6 si6 | dihn sih | ㄉㄧㄣ⁶ ㄙㄧ⁶ | television | 部 bou6 |
+| 22 | **鎖匙** | so2 si4 | só sìh | ㄙㄛ² ㄙㄧ⁴ | key | 條 tiu4 |
+| 23 | **燈** | dang1 | dāng | ㄉㄜㄥ¹ | light; lamp | 盞 zaan2 |
+| 24 | **開燈** | hoi1 dang1 | hōi dāng | ㄏㄛㄧ¹ ㄉㄜㄥ¹ | to switch on the light |  |
+| 25 | **熄燈** | sik1 dang1 | sīk dāng | ㄙㄧㆶ¹ ㄉㄜㄥ¹ | to switch off the light |  |
+| 26 | **執屋** | zap1 uk1 | jāp ūk | ㄗㄜㆴ¹ ㄨㆶ¹ | to tidy the home |  |
+| 27 | **食早餐** | sik6 zou2 caan1 | sihk jóu chāan | ㄙㄧㆶ⁶ ㄗㄛㄨ² ㄘㄚㄣ¹ | to have breakfast |  |
+| 28 | **食晏** | sik6 aan3 | sihk aan | ㄙㄧㆶ⁶ ㄚㄣ³ | to have lunch |  |
+| 29 | **食晚飯** | sik6 maan5 faan6 | sihk máahn faahn | ㄙㄧㆶ⁶ ㄇㄚㄣ⁵ ㄈㄚㄣ⁶ | to have dinner |  |
+| 30 | **返學** | faan1 hok6 | fāan hohk | ㄈㄚㄣ¹ ㄏㄛㆶ⁶ | to go to school |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

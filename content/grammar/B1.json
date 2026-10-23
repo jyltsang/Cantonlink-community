@@ -1,0 +1,324 @@
+[
+  {
+    "id": "dou2-result",
+    "pattern": "Verb + 到 / Verb + 唔到",
+    "jyutping": "Verb + dou2 / Verb + m4 dou2",
+    "meaning": "manage to; can't manage to",
+    "level": "B1",
+    "function": "complements",
+    "explanation": "到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from 到 (dou3) 'to arrive'.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["搵", "wan2"], ["到", "dou2"], ["我", "ngo5"], ["條", "tiu4"], ["鎖匙", "so2 si4"], ["喇", "laa3"], ["。"]], "en": "I've found my key.", "gap": { "word": "到", "distractors": ["完", "緊", "過"] } },
+      { "words": [["你", "nei5"], ["聽唔聽到", "teng1 m4 teng1 dou2"], ["呀", "aa3"], ["？"]], "en": "Can you hear me?" },
+      { "words": [["佢", "keoi5"], ["買", "maai5"], ["唔", "m4"], ["到", "dou2"], ["飛", "fei1"], ["。"]], "en": "He couldn't get a ticket.", "gap": { "word": "到", "distractors": ["完", "緊", "過"] } }
+    ],
+    "related": ["dak1-degree", "jyun4-finish"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "dak1-degree",
+    "pattern": "Verb + 得 + Adjective",
+    "jyutping": "Verb + dak1 + Adjective",
+    "meaning": "how well / how fast someone does something",
+    "level": "B1",
+    "function": "complements",
+    "explanation": "To describe how an action is done, put 得 after the verb and then the description: 行得好慢 (walks slowly). If the verb has an object, say the verb twice: 講廣東話講得好好.",
+    "examples": [
+      {
+        "words": [["佢", "keoi5"], ["講", "gong2"], ["廣東話", "gwong2 dung1 waa2"], ["講", "gong2"], ["得", "dak1"], ["好", "hou2"], ["好", "hou2"], ["。"]],
+        "en": "She speaks Cantonese really well.",
+        "gap": { "word": "得", "distractors": ["咗", "緊", "嘅"] }
+      },
+      { "words": [["你", "nei5"], ["寫", "se2"], ["字", "zi6"], ["寫", "se2"], ["得", "dak1"], ["好", "hou2"], ["靚", "leng3"], ["。"]], "en": "Your handwriting is beautiful.", "gap": { "word": "得", "distractors": ["咗", "緊", "嘅"] } },
+      { "words": [["佢", "keoi5"], ["行", "haang4"], ["得", "dak1"], ["好", "hou2"], ["慢", "maan6"], ["。"]], "en": "He walks very slowly.", "gap": { "word": "得", "distractors": ["咗", "緊", "嘅"] } }
+    ],
+    "related": ["dou2-result", "taai3-too"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "saai3-all",
+    "pattern": "Verb + 晒",
+    "jyutping": "Verb + saai3",
+    "meaning": "all; completely; entirely",
+    "level": "B1",
+    "function": "complements",
+    "explanation": "晒 after a verb means the action covers everything: 賣晒 (sold out), 食晒 (ate it all). 唔該晒 and 多謝晒 mean 'thanks very much'.",
+    "examples": [
+      { "words": [["啲", "di1"], ["蛋撻", "daan6 taat1"], ["賣", "maai6"], ["晒", "saai3"], ["喇", "laa3"], ["。"]], "en": "The egg tarts are sold out.", "gap": { "word": "晒", "distractors": ["緊", "過", "吓"] } },
+      { "words": [["我", "ngo5"], ["食", "sik6"], ["晒", "saai3"], ["啲", "di1"], ["飯", "faan6"], ["喇", "laa3"], ["。"]], "en": "I've eaten all the rice.", "gap": { "word": "晒", "distractors": ["緊", "過", "吓"] } },
+      { "words": [["唔該", "m4 goi1"], ["晒", "saai3"], ["！"]], "en": "Thanks so much!", "gap": { "word": "晒", "distractors": ["緊", "過", "吓"] } }
+    ],
+    "related": ["jyun4-finish", "bei2-passive"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "faan1-back",
+    "pattern": "Verb + 返",
+    "jyutping": "Verb + faan1",
+    "meaning": "back; again; return to a previous state",
+    "level": "B1",
+    "function": "complements",
+    "explanation": "返 after a verb means getting something back or returning to how things were: 攞返 (take back), 還返 (give back), 好返 (get better).",
+    "examples": [
+      { "words": [["我", "ngo5"], ["想", "soeng2"], ["攞", "lo2"], ["返", "faan1"], ["我", "ngo5"], ["把", "baa2"], ["遮", "ze1"], ["。"]], "en": "I'd like to get my umbrella back.", "gap": { "word": "返", "distractors": ["晒", "緊", "過"] } },
+      {
+        "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["還", "waan4"], ["返", "faan1"], ["本", "bun2"], ["書", "syu1"], ["畀", "bei2"], ["我", "ngo5"], ["呀", "aa3"], ["？"]],
+        "en": "When will you give the book back to me?",
+        "gap": { "word": "返", "distractors": ["晒", "緊", "過"] }
+      },
+      { "words": [["我", "ngo5"], ["病", "beng6"], ["好", "hou2"], ["返", "faan1"], ["喇", "laa3"], ["。"]], "en": "I've got better.", "gap": { "word": "返", "distractors": ["晒", "緊", "過"] } }
+    ],
+    "related": ["directional", "saai3-all"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "directional",
+    "pattern": "Verb + 出 / 入 / 上 / 落 + 嚟 / 去",
+    "jyutping": "Verb + ceot1 / jap6 / soeng5 / lok6 + lai4 / heoi3",
+    "meaning": "direction of movement",
+    "level": "B1",
+    "function": "complements",
+    "explanation": "嚟 means towards the speaker and 去 away from the speaker. Add 出 (out), 入 (in), 上 (up) or 落 (down) for the direction, and they can follow another verb: 行出去 (walk out).",
+    "examples": [
+      { "words": [["佢", "keoi5"], ["行", "haang4"], ["咗", "zo2"], ["出去", "ceot1 heoi3"], ["。"]], "en": "She's gone out.", "gap": { "word": "出去", "distractors": ["入嚟", "落嚟", "返嚟"] } },
+      { "words": [["入嚟", "jap6 lai4"], ["坐", "co5"], ["啦", "laa1"], ["！"]], "en": "Come in and sit down!", "gap": { "word": "入嚟", "distractors": ["出去", "落去", "上去"] } },
+      { "words": [["我", "ngo5"], ["而家", "ji4 gaa1"], ["落嚟", "lok6 lai4"], ["。"]], "en": "I'm coming down now.", "gap": { "word": "落嚟", "distractors": ["上去", "出去", "入嚟"] } }
+    ],
+    "related": ["faan1-back"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "bei2-passive",
+    "pattern": "Subject + 畀 + Doer + Verb",
+    "jyutping": "Subject + bei2 + Doer + Verb",
+    "meaning": "passive: was done by",
+    "level": "B1",
+    "function": "passive",
+    "explanation": "To say something was done to someone, use 畀 followed by who did it. If you don't know who, use 畀人 ('by someone'). Spoken Cantonese never uses written 被 here.",
+    "writtenEquivalent": { "cjk": "被", "note": "Written Chinese uses 被." },
+    "examples": [
+      { "words": [["我", "ngo5"], ["畀", "bei2"], ["老細", "lou5 sai3"], ["鬧", "naau6"], ["咗", "zo2"], ["。"]], "en": "I got told off by my boss.", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } },
+      { "words": [["我", "ngo5"], ["個", "go3"], ["銀包", "ngan4 baau1"], ["畀", "bei2"], ["人", "jan4"], ["偷", "tau1"], ["咗", "zo2"], ["。"]], "en": "My wallet was stolen.", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } },
+      { "words": [["啲", "di1"], ["蛋糕", "daan6 gou1"], ["畀", "bei2"], ["細佬", "sai3 lou2"], ["食", "sik6"], ["晒", "saai3"], ["。"]], "en": "My little brother ate all the cake.", "gap": { "word": "畀", "distractors": ["同", "都", "喺"] } }
+    ],
+    "mistakes": [{ "incorrect": "我的錢包被偷了。", "correct": [["我", "ngo5"], ["個", "go3"], ["銀包", "ngan4 baau1"], ["畀", "bei2"], ["人", "jan4"], ["偷", "tau1"], ["咗", "zo2"], ["。"]], "note": "的, 錢包, 被 and 了 are written forms." }],
+    "related": ["bei2-give", "saai3-all"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "jyu4-gwo2-if",
+    "pattern": "如果 …，就 …",
+    "jyutping": "jyu4 gwo2 …, zau6 …",
+    "meaning": "if …, then …",
+    "level": "B1",
+    "function": "connecting",
+    "explanation": "如果 introduces the condition and 就 the result. 就 goes after the subject of the second half, before the verb.",
+    "examples": [
+      {
+        "words": [["如果", "jyu4 gwo2"], ["聽日", "ting1 jat6"], ["落雨", "lok6 jyu5"], ["，"], ["我哋", "ngo5 dei6"], ["就", "zau6"], ["唔", "m4"], ["去", "heoi3"], ["喇", "laa3"], ["。"]],
+        "en": "If it rains tomorrow, we won't go.",
+        "gap": { "word": "如果", "distractors": ["因為", "雖然", "所以"] }
+      },
+      {
+        "words": [["如果", "jyu4 gwo2"], ["你", "nei5"], ["得閒", "dak1 haan4"], ["，"], ["就", "zau6"], ["嚟", "lai4"], ["我", "ngo5"], ["屋企", "uk1 kei2"], ["食飯", "sik6 faan6"], ["啦", "laa1"], ["。"]],
+        "en": "If you're free, come to my place for dinner.",
+        "gap": { "word": "如果", "distractors": ["因為", "雖然", "所以"] }
+      },
+      {
+        "words": [["如果", "jyu4 gwo2"], ["唔", "m4"], ["明", "ming4"], ["，"], ["可以", "ho2 ji5"], ["問", "man6"], ["我", "ngo5"], ["。"]],
+        "en": "If you don't understand, you can ask me.",
+        "gap": { "word": "如果", "distractors": ["因為", "雖然", "所以"] }
+      }
+    ],
+    "related": ["jan1-wai6-because", "seoi1-jin4-although"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "seoi1-jin4-although",
+    "pattern": "雖然 …，但係 …",
+    "jyutping": "seoi1 jin4 …, daan6 hai6 …",
+    "meaning": "although …, (but) …",
+    "level": "B1",
+    "function": "connecting",
+    "explanation": "雖然 introduces a contrast and 但係 the main point. Unlike English, both words are normally used in the same sentence.",
+    "examples": [
+      { "words": [["雖然", "seoi1 jin4"], ["好", "hou2"], ["貴", "gwai3"], ["，"], ["但係", "daan6 hai6"], ["好好食", "hou2 hou2 sik6"], ["。"]], "en": "It's expensive, but it's delicious.", "gap": { "word": "但係", "distractors": ["所以", "如果", "因為"] } },
+      {
+        "words": [["雖然", "seoi1 jin4"], ["佢", "keoi5"], ["好", "hou2"], ["忙", "mong4"], ["，"], ["但係", "daan6 hai6"], ["佢", "keoi5"], ["都", "dou1"], ["嚟", "lai4"], ["咗", "zo2"], ["。"]],
+        "en": "Although she was busy, she still came.",
+        "gap": { "word": "雖然", "distractors": ["因為", "如果", "所以"] }
+      },
+      {
+        "words": [["我", "ngo5"], ["雖然", "seoi1 jin4"], ["學", "hok6"], ["咗", "zo2"], ["兩", "loeng5"], ["年", "nin4"], ["，"], ["但係", "daan6 hai6"], ["仲", "zung6"], ["講", "gong2"], ["得", "dak1"], ["唔", "m4"], ["好", "hou2"], ["。"]],
+        "en": "Although I've studied for two years, I still don't speak well.",
+        "gap": { "word": "雖然", "distractors": ["因為", "如果", "所以"] }
+      }
+    ],
+    "related": ["jyu4-gwo2-if", "jan1-wai6-because"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "jat1-zau6-as-soon-as",
+    "pattern": "一 …就 …",
+    "jyutping": "jat1 … zau6 …",
+    "meaning": "as soon as …; whenever …",
+    "level": "B1",
+    "function": "connecting",
+    "explanation": "一 before the first verb and 就 before the second link two events closely: as soon as one happens, the other follows.",
+    "examples": [
+      {
+        "words": [["我", "ngo5"], ["一", "jat1"], ["到", "dou3"], ["就", "zau6"], ["打", "daa2"], ["電話", "din6 waa2"], ["畀", "bei2"], ["你", "nei5"], ["。"]],
+        "en": "I'll call you as soon as I arrive.",
+        "gap": { "word": "就", "distractors": ["都", "先", "再"] }
+      },
+      { "words": [["佢", "keoi5"], ["一", "jat1"], ["放工", "fong3 gung1"], ["就", "zau6"], ["返", "faan1"], ["屋企", "uk1 kei2"], ["。"]], "en": "He goes home as soon as he finishes work.", "gap": { "word": "就", "distractors": ["都", "先", "再"] } },
+      {
+        "words": [["我", "ngo5"], ["一", "jat1"], ["飲", "jam2"], ["咖啡", "gaa3 fe1"], ["就", "zau6"], ["瞓", "fan3"], ["唔", "m4"], ["着", "zoek6"], ["。"]],
+        "en": "Whenever I drink coffee, I can't sleep.",
+        "gap": { "word": "就", "distractors": ["都", "先", "再"] }
+      }
+    ],
+    "related": ["jyu4-gwo2-if", "sin1-zoi3-first-then"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "jyut6-lai4-jyut6",
+    "pattern": "越嚟越 + Adjective",
+    "jyutping": "jyut6 lai4 jyut6 + Adjective",
+    "meaning": "more and more …",
+    "level": "B1",
+    "function": "degree-and-comparison",
+    "explanation": "越嚟越 before an adjective describes something that keeps increasing: hotter and hotter, better and better.",
+    "examples": [
+      { "words": [["天氣", "tin1 hei3"], ["越嚟越", "jyut6 lai4 jyut6"], ["熱", "jit6"], ["。"]], "en": "The weather's getting hotter and hotter.", "gap": { "word": "越嚟越", "distractors": ["好", "太", "最"] } },
+      {
+        "words": [["你", "nei5"], ["嘅", "ge3"], ["廣東話", "gwong2 dung1 waa2"], ["越嚟越", "jyut6 lai4 jyut6"], ["好", "hou2"], ["喇", "laa3"], ["！"]],
+        "en": "Your Cantonese is getting better and better!",
+        "gap": { "word": "越嚟越", "distractors": ["好", "太", "最"] }
+      },
+      {
+        "words": [["香港", "hoeng1 gong2"], ["啲", "di1"], ["樓", "lau2"], ["越嚟越", "jyut6 lai4 jyut6"], ["貴", "gwai3"], ["。"]],
+        "en": "Flats in Hong Kong are getting more and more expensive.",
+        "gap": { "word": "越嚟越", "distractors": ["好", "太", "最"] }
+      }
+    ],
+    "related": ["gwo3-comparison", "hou2-ci5-seem"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "sin1-zoi3-first-then",
+    "pattern": "先 … 再 … / … 先",
+    "jyutping": "sin1 … zoi3 … / … sin1",
+    "meaning": "first …, then …",
+    "level": "B1",
+    "function": "connecting",
+    "explanation": "先 means 'first' and 再 'then'. Very typically for Cantonese, 先 can also come at the end of a sentence: 等我諗吓先 (let me think first).",
+    "examples": [
+      {
+        "words": [["我哋", "ngo5 dei6"], ["先", "sin1"], ["食飯", "sik6 faan6"], ["，"], ["再", "zoi3"], ["去", "heoi3"], ["睇戲", "tai2 hei3"], ["。"]],
+        "en": "Let's eat first, then go to the cinema.",
+        "gap": { "word": "再", "distractors": ["都", "未", "仲"] }
+      },
+      {
+        "words": [["你", "nei5"], ["先", "sin1"], ["做", "zou6"], ["功課", "gung1 fo3"], ["，"], ["再", "zoi3"], ["玩", "waan2"], ["啦", "laa1"], ["。"]],
+        "en": "Do your homework first, then play.",
+        "gap": { "word": "先", "distractors": ["再", "晒", "過"] }
+      },
+      { "words": [["等", "dang2"], ["我", "ngo5"], ["諗", "nam2"], ["吓", "haa5"], ["先", "sin1"], ["。"]], "en": "Let me think about it first.", "gap": { "word": "先", "distractors": ["再", "晒", "過"] } }
+    ],
+    "related": ["jat1-zau6-as-soon-as", "haa5-briefly"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "lo1-obvious",
+    "pattern": "… 囉",
+    "jyutping": "… lo1",
+    "meaning": "it's obvious; oh well",
+    "level": "B1",
+    "function": "particles",
+    "explanation": "囉 at the end of a sentence presents something as obvious or the natural conclusion, sometimes with a shrug: 'well, then…', 'of course'.",
+    "examples": [
+      { "words": [["噉", "gam2"], ["就", "zau6"], ["算", "syun3"], ["囉", "lo1"], ["。"]], "en": "Oh well, forget it then.", "gap": { "word": "囉", "distractors": ["嗎", "咩", "未"] } },
+      {
+        "words": [["你", "nei5"], ["唔", "m4"], ["鍾意", "zung1 ji3"], ["就", "zau6"], ["唔好", "m4 hou2"], ["食", "sik6"], ["囉", "lo1"], ["。"]],
+        "en": "If you don't like it, just don't eat it.",
+        "gap": { "word": "囉", "distractors": ["嗎", "咩", "未"] }
+      },
+      { "words": [["梗係", "gang2 hai6"], ["囉", "lo1"], ["！"]], "en": "Of course!", "gap": { "word": "囉", "distractors": ["嗎", "咩", "未"] } }
+    ],
+    "related": ["wo3-noticing", "laa1-suggestion"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "wo3-noticing",
+    "pattern": "… 喎",
+    "jyutping": "… wo3",
+    "meaning": "noticing something; passing on what someone said",
+    "level": "B1",
+    "function": "particles",
+    "explanation": "喎 marks something you have just noticed ('oh, look…') or information you are passing on from someone else ('he said…').",
+    "examples": [
+      { "words": [["嘩", "waa3"], ["，"], ["好", "hou2"], ["多", "do1"], ["人", "jan4"], ["喎", "wo3"], ["！"]], "en": "Wow, there are so many people!", "gap": { "word": "喎", "distractors": ["嗎", "咩", "啦"] } },
+      { "words": [["佢", "keoi5"], ["話", "waa6"], ["今日", "gam1 jat6"], ["唔", "m4"], ["嚟", "lai4"], ["喎", "wo3"], ["。"]], "en": "He says he's not coming today.", "gap": { "word": "喎", "distractors": ["嗎", "咩", "啦"] } },
+      { "words": [["呢", "ni1"], ["間", "gaan1"], ["餐廳", "caan1 teng1"], ["幾", "gei2"], ["好食", "hou2 sik6"], ["喎", "wo3"], ["。"]], "en": "Hey, this restaurant's actually pretty good.", "gap": { "word": "喎", "distractors": ["嗎", "咩", "啦"] } }
+    ],
+    "related": ["lo1-obvious", "me1-surprise"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "relative-ge3",
+    "pattern": "[Description] + 嘅 + Noun",
+    "jyutping": "[Description] + ge3 + Noun",
+    "meaning": "the … that / who … (relative clauses)",
+    "level": "B1",
+    "function": "possession-and-description",
+    "explanation": "To describe a noun with a whole phrase, put the phrase first, then 嘅, then the noun: 我尋日買嘅衫 ('the top I bought yesterday'). English puts the description after the noun; Cantonese puts it before.",
+    "examples": [
+      {
+        "words": [["我", "ngo5"], ["尋日", "cam4 jat6"], ["買", "maai5"], ["嘅", "ge3"], ["衫", "saam1"], ["好", "hou2"], ["平", "peng4"], ["。"]],
+        "en": "The top I bought yesterday was cheap.",
+        "gap": { "word": "嘅", "distractors": ["咗", "緊", "都"] }
+      },
+      {
+        "words": [["佢", "keoi5"], ["係", "hai6"], ["教", "gaau3"], ["我", "ngo5"], ["廣東話", "gwong2 dung1 waa2"], ["嘅", "ge3"], ["老師", "lou5 si1"], ["。"]],
+        "en": "She's the teacher who teaches me Cantonese.",
+        "gap": { "word": "嘅", "distractors": ["咗", "緊", "都"] }
+      },
+      { "words": [["有冇", "jau5 mou5"], ["唔", "m4"], ["辣", "laat6"], ["嘅", "ge3"], ["嘢食", "je5 sik6"], ["呀", "aa3"], ["？"]], "en": "Is there anything to eat that isn't spicy?", "gap": { "word": "嘅", "distractors": ["咗", "緊", "都"] } }
+    ],
+    "related": ["ge3-possessive", "classifier-possessive"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "zyu6-continuous",
+    "pattern": "Verb + 住",
+    "jyutping": "Verb + zyu6",
+    "meaning": "keep doing; in a continuing state",
+    "level": "B1",
+    "function": "aspect",
+    "explanation": "住 after a verb describes an ongoing state rather than an action in progress: 戴住眼鏡 (wearing glasses), 攞住 (holding). Compare 緊, which describes an action happening now.",
+    "examples": [
+      { "words": [["佢", "keoi5"], ["戴", "daai3"], ["住", "zyu6"], ["眼鏡", "ngaan5 geng2"], ["。"]], "en": "She's wearing glasses.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } },
+      { "words": [["你", "nei5"], ["攞", "lo2"], ["住", "zyu6"], ["先", "sin1"], ["。"]], "en": "Hold on to it for now.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } },
+      { "words": [["唔好", "m4 hou2"], ["企", "kei5"], ["住", "zyu6"], ["喺", "hai2"], ["門口", "mun4 hau2"], ["。"]], "en": "Don't stand in the doorway.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } }
+    ],
+    "related": ["gan2-progressive"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "hou2-ci5-seem",
+    "pattern": "好似 …",
+    "jyutping": "hou2 ci5 …",
+    "meaning": "seems; looks like; to be like",
+    "level": "B1",
+    "function": "degree-and-comparison",
+    "explanation": "好似 means 'seems' before a description, or 'to be like' before a noun: 佢好似唔開心 (she seems unhappy), 你好似你爸爸 (you look like your dad).",
+    "examples": [
+      { "words": [["佢", "keoi5"], ["好似", "hou2 ci5"], ["唔", "m4"], ["開心", "hoi1 sam1"], ["。"]], "en": "She seems unhappy.", "gap": { "word": "好似", "distractors": ["應該", "可以", "已經"] } },
+      { "words": [["你", "nei5"], ["好似", "hou2 ci5"], ["你", "nei5"], ["爸爸", "baa4 baa1"], ["。"]], "en": "You look like your dad.", "gap": { "word": "好似", "distractors": ["應該", "可以", "已經"] } },
+      { "words": [["好似", "hou2 ci5"], ["要", "jiu3"], ["落雨", "lok6 jyu5"], ["喇", "laa3"], ["。"]], "en": "It looks like it's going to rain.", "gap": { "word": "好似", "distractors": ["應該", "可以", "已經"] } }
+    ],
+    "related": ["jyut6-lai4-jyut6", "jing1-goi1-should"],
+    "review": { "status": "draft", "reviewers": [] }
+  }
+]

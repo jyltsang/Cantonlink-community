@@ -18,7 +18,22 @@
     { "cjk": "食咗飯未呀", "jyutping": "sik6 zo2 faan6 mei6 aa3", "en": "have you eaten? (a common greeting)", "pos": "phrase" },
     { "cjk": "麻麻哋", "jyutping": "maa4 maa2 dei2", "en": "so-so", "pos": "phrase" },
     { "cjk": "唔使客氣", "jyutping": "m4 sai2 haak3 hei3", "en": "you're welcome; no need to be polite", "pos": "phrase" },
-    { "cjk": "冇問題", "jyutping": "mou5 man6 tai4", "en": "no problem", "pos": "phrase" }
+    { "cjk": "冇問題", "jyutping": "mou5 man6 tai4", "en": "no problem", "pos": "phrase" },
+    { "cjk": "晚安", "jyutping": "maan5 on1", "en": "good night", "pos": "phrase" },
+    { "cjk": "你好嗎", "jyutping": "nei5 hou2 maa3", "en": "how are you?", "pos": "phrase" },
+    { "cjk": "幾好", "jyutping": "gei2 hou2", "en": "pretty good; not bad", "pos": "phrase" },
+    { "cjk": "我叫", "jyutping": "ngo5 giu3", "en": "my name is…", "pos": "phrase" },
+    { "cjk": "你叫咩名呀", "jyutping": "nei5 giu3 me1 meng2 aa3", "en": "what's your name?", "pos": "phrase" },
+    { "cjk": "好高興認識你", "jyutping": "hou2 gou1 hing3 jing6 sik1 nei5", "en": "nice to meet you", "pos": "phrase" },
+    { "cjk": "歡迎", "jyutping": "fun1 jing4", "en": "welcome", "pos": "phrase" },
+    { "cjk": "恭喜", "jyutping": "gung1 hei2", "en": "congratulations", "pos": "phrase" },
+    { "cjk": "恭喜發財", "jyutping": "gung1 hei2 faat3 coi4", "en": "Happy Lunar New Year (lit. wishing you prosperity)", "pos": "phrase" },
+    { "cjk": "生日快樂", "jyutping": "saang1 jat6 faai3 lok6", "en": "happy birthday", "pos": "phrase" },
+    { "cjk": "遲啲見", "jyutping": "ci4 di1 gin3", "en": "see you later", "pos": "phrase" },
+    { "cjk": "係", "jyutping": "hai6", "en": "yes; that's right", "pos": "phrase", "note": "Cantonese has no single word for 'yes'; people usually repeat the verb, or say 係 to confirm a fact." },
+    { "cjk": "唔係", "jyutping": "m4 hai6", "en": "no; that's not right", "pos": "phrase" },
+    { "cjk": "好呀", "jyutping": "hou2 aa3", "en": "OK; sure", "pos": "phrase" },
+    { "cjk": "慢慢行", "jyutping": "maan6 maan2 haang4", "en": "take care (said to a guest who is leaving)", "pos": "phrase" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

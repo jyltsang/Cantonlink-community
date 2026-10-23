@@ -18,7 +18,22 @@
     { "cjk": "好食", "jyutping": "hou2 sik6", "en": "delicious", "pos": "adjective" },
     { "cjk": "辣", "jyutping": "laat6", "en": "spicy", "pos": "adjective" },
     { "cjk": "埋單", "jyutping": "maai4 daan1", "en": "to ask for the bill", "pos": "verb" },
-    { "cjk": "筷子", "jyutping": "faai3 zi2", "en": "chopsticks", "pos": "noun", "classifier": ["對", "deoi3"] }
+    { "cjk": "筷子", "jyutping": "faai3 zi2", "en": "chopsticks", "pos": "noun", "classifier": ["對", "deoi3"] },
+    { "cjk": "茶", "jyutping": "caa4", "en": "tea", "pos": "noun", "classifier": ["杯", "bui1"] },
+    { "cjk": "水", "jyutping": "seoi2", "en": "water", "pos": "noun", "classifier": ["杯", "bui1"] },
+    { "cjk": "粥", "jyutping": "zuk1", "en": "congee (rice porridge)", "pos": "noun", "classifier": ["碗", "wun2"] },
+    { "cjk": "麪", "jyutping": "min6", "en": "noodles", "pos": "noun", "classifier": ["碗", "wun2"] },
+    { "cjk": "腸粉", "jyutping": "coeng2 fan2", "en": "rice noodle roll", "pos": "noun", "classifier": ["碟", "dip2"] },
+    { "cjk": "蛋撻", "jyutping": "daan6 taat1", "en": "egg tart", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "雞", "jyutping": "gai1", "en": "chicken", "pos": "noun", "classifier": ["隻", "zek3"] },
+    { "cjk": "牛肉", "jyutping": "ngau4 juk6", "en": "beef", "pos": "noun" },
+    { "cjk": "豬肉", "jyutping": "zyu1 juk6", "en": "pork", "pos": "noun" },
+    { "cjk": "魚", "jyutping": "jyu2", "en": "fish (as food)", "pos": "noun", "classifier": ["條", "tiu4"], "note": "Usually jyu2 when talking about fish as food; jyu4 in more formal words." },
+    { "cjk": "菜", "jyutping": "coi3", "en": "vegetables", "pos": "noun" },
+    { "cjk": "甜", "jyutping": "tim4", "en": "sweet", "pos": "adjective" },
+    { "cjk": "餓", "jyutping": "ngo6", "en": "hungry", "pos": "adjective" },
+    { "cjk": "飽", "jyutping": "baau2", "en": "full (after eating)", "pos": "adjective" },
+    { "cjk": "餐牌", "jyutping": "caan1 paai2", "en": "menu", "pos": "noun", "classifier": ["張", "zoeng1"] }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

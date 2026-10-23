@@ -18,7 +18,22 @@
     { "cjk": "潮濕", "jyutping": "ciu4 sap1", "en": "humid", "pos": "adjective" },
     { "cjk": "黑雨", "jyutping": "hak1 jyu5", "en": "black rainstorm (warning)", "pos": "noun" },
     { "cjk": "天文台", "jyutping": "tin1 man4 toi4", "en": "Hong Kong Observatory", "pos": "noun" },
-    { "cjk": "度", "jyutping": "dou6", "en": "degree (temperature)", "pos": "noun" }
+    { "cjk": "度", "jyutping": "dou6", "en": "degree (temperature)", "pos": "noun" },
+    { "cjk": "雨", "jyutping": "jyu5", "en": "rain", "pos": "noun" },
+    { "cjk": "雪", "jyutping": "syut3", "en": "snow", "pos": "noun" },
+    { "cjk": "風", "jyutping": "fung1", "en": "wind", "pos": "noun" },
+    { "cjk": "太陽", "jyutping": "taai3 joeng4", "en": "sun", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "月光", "jyutping": "jyut6 gwong1", "en": "moon", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "天晴", "jyutping": "tin1 cing4", "en": "sunny; clear", "pos": "adjective" },
+    { "cjk": "陰天", "jyutping": "jam1 tin1", "en": "overcast", "pos": "adjective" },
+    { "cjk": "行雷", "jyutping": "haang4 leoi4", "en": "to thunder", "pos": "verb" },
+    { "cjk": "閃電", "jyutping": "sim2 din6", "en": "lightning", "pos": "noun" },
+    { "cjk": "颱風", "jyutping": "toi4 fung1", "en": "typhoon", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "八號風球", "jyutping": "baat3 hou6 fung1 kau4", "en": "typhoon signal no. 8", "pos": "noun", "note": "When it is raised, offices and schools close." },
+    { "cjk": "溫度", "jyutping": "wan1 dou6", "en": "temperature", "pos": "noun" },
+    { "cjk": "天氣報告", "jyutping": "tin1 hei3 bou3 gou3", "en": "weather forecast", "pos": "noun" },
+    { "cjk": "乾", "jyutping": "gon1", "en": "dry", "pos": "adjective" },
+    { "cjk": "雲", "jyutping": "wan4", "en": "cloud", "pos": "noun" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

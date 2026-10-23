@@ -21,6 +21,21 @@
 | 13 | **附近** | fu6 gan6 | fuh gahn | ㄈㄨ⁶ ㄍㄜㄣ⁶ | nearby |  |
 | 14 | **近** | kan5 | káhn | ㄎㄜㄣ⁵ | near |  |
 | 15 | **遠** | jyun5 | yúhn | ㄩㄣ⁵ | far |  |
+| 16 | **上面** | soeng6 min6 | seuhng mihn | ㄙㆦㄥ⁶ ㄇㄧㄣ⁶ | above; on top |  |
+| 17 | **下面** | haa6 min6 | hah mihn | ㄏㄚ⁶ ㄇㄧㄣ⁶ | below; underneath |  |
+| 18 | **裏面** | leoi5 min6 | léuih mihn | ㄌㆤㄧ⁵ ㄇㄧㄣ⁶ | inside |  |
+| 19 | **出面** | ceot1 min6 | chēut mihn | ㄘㆤㆵ¹ ㄇㄧㄣ⁶ | outside |  |
+| 20 | **中間** | zung1 gaan1 | jūng gāan | ㄗㄨㄥ¹ ㄍㄚㄣ¹ | in the middle |  |
+| 21 | **呢邊** | ni1 bin1 | nī bīn | ㄋㄧ¹ ㄅㄧㄣ¹ | this side; over here |  |
+| 22 | **嗰邊** | go2 bin1 | gó bīn | ㄍㄛ² ㄅㄧㄣ¹ | that side; over there |  |
+| 23 | **街口** | gaai1 hau2 | gāai háu | ㄍㄚㄧ¹ ㄏㄜㄨ² | street corner | 個 go3 |
+| 24 | **十字路口** | sap6 zi6 lou6 hau2 | sahp jih louh háu | ㄙㄜㆴ⁶ ㄗㄧ⁶ ㄌㄛㄨ⁶ ㄏㄜㄨ² | crossroads | 個 go3 |
+| 25 | **紅綠燈** | hung4 luk6 dang1 | hùhng luhk dāng | ㄏㄨㄥ⁴ ㄌㄨㆶ⁶ ㄉㄜㄥ¹ | traffic lights | 個 go3 |
+| 26 | **過馬路** | gwo3 maa5 lou6 | gwo máh louh | ㄍㄨㄛ³ ㄇㄚ⁵ ㄌㄛㄨ⁶ | to cross the road |  |
+| 27 | **地圖** | dei6 tou4 | deih tòuh | ㄉㄝㄧ⁶ ㄊㄛㄨ⁴ | map | 張 zoeng1 |
+| 28 | **樓上** | lau4 soeng6 | làuh seuhng | ㄌㄜㄨ⁴ ㄙㆦㄥ⁶ | upstairs |  |
+| 29 | **樓下** | lau4 haa6 | làuh hah | ㄌㄜㄨ⁴ ㄏㄚ⁶ | downstairs |  |
+| 30 | **行過去** | haang4 gwo3 heoi3 | hàahng gwo heui | ㄏㄚㄥ⁴ ㄍㄨㄛ³ ㄏㆤㄧ³ | to walk over (there) |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

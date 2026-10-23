@@ -2,9 +2,9 @@
 
 # Grammar patterns
 
-36 patterns of everyday spoken Cantonese, each with at least three example sentences in 漢字, Jyutping, Yale, Bopomofo and English.
+60 patterns of everyday spoken Cantonese, each with at least three example sentences in 漢字, Jyutping, Yale, Bopomofo and English.
 
-> ⚠️ **36 of 36 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> ⚠️ **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 ## A1
 
@@ -34,6 +34,8 @@
 | [… 啦](laa1-suggestion.md) | … laa1 | suggestion, invitation or gentle request | Sentence-final particles | ⚠️ draft |
 | [… 嗎？](maa3-question.md) | … maa3? | neutral yes/no question | Sentence-final particles | ⚠️ draft |
 | [A + 同 + B](tung4-and-with.md) | A + tung4 + B | and; with | Connecting words | ⚠️ draft |
+| [唔好 + Verb](m4-hou2-dont.md) | m4 hou2 + Verb | don't (telling someone not to) | Negation | ⚠️ draft |
+| [A 定係 B？](ding6-hai6-or.md) | A ding6 hai6 B? | …or…? (choosing in a question) | Asking questions | ⚠️ draft |
 
 ## A2
 
@@ -55,3 +57,32 @@
 | [Verb + 吓](haa5-briefly.md) | Verb + haa5 | do briefly; have a go | Time and aspect | ⚠️ draft |
 | [A + Adjective + 過 + B](gwo3-comparison.md) | A + Adjective + gwo3 + B | A is more … than B | Degree and comparison | ⚠️ draft |
 | [因為 …，所以 …](jan1-wai6-because.md) | jan1 wai6 …, so2 ji5 … | because …, so … | Connecting words | ⚠️ draft |
+| [Owner + Classifier + Noun](classifier-possessive.md) | Owner + Classifier + Noun | my / your / her (a specific thing) | Possession and description | ⚠️ draft |
+| [會 + Verb](wui5-will.md) | wui5 + Verb | will; would; likely to | Wants, needs and ability | ⚠️ draft |
+| [應該 + Verb](jing1-goi1-should.md) | jing1 goi1 + Verb | should; ought to; probably | Wants, needs and ability | ⚠️ draft |
+| [唔使 + Verb](m4-sai2-no-need.md) | m4 sai2 + Verb | no need to; don't have to | Wants, needs and ability | ⚠️ draft |
+| [Verb + 完](jyun4-finish.md) | Verb + jyun4 | finish doing | Time and aspect | ⚠️ draft |
+| [已經 + … + 喇](ji5-ging1-already.md) | ji5 ging1 + … + laa3 | already | Time and aspect | ⚠️ draft |
+
+## B1
+
+| Pattern | Jyutping | Meaning | Topic | Review |
+
+|---|---|---|---|---|
+
+| [Verb + 到 / Verb + 唔到](dou2-result.md) | Verb + dou2 / Verb + m4 dou2 | manage to; can't manage to | Verb endings and complements | ⚠️ draft |
+| [Verb + 得 + Adjective](dak1-degree.md) | Verb + dak1 + Adjective | how well / how fast someone does something | Verb endings and complements | ⚠️ draft |
+| [Verb + 晒](saai3-all.md) | Verb + saai3 | all; completely; entirely | Verb endings and complements | ⚠️ draft |
+| [Verb + 返](faan1-back.md) | Verb + faan1 | back; again; return to a previous state | Verb endings and complements | ⚠️ draft |
+| [Verb + 出 / 入 / 上 / 落 + 嚟 / 去](directional.md) | Verb + ceot1 / jap6 / soeng5 / lok6 + lai4 / heoi3 | direction of movement | Verb endings and complements | ⚠️ draft |
+| [Subject + 畀 + Doer + Verb](bei2-passive.md) | Subject + bei2 + Doer + Verb | passive: was done by | Passive | ⚠️ draft |
+| [如果 …，就 …](jyu4-gwo2-if.md) | jyu4 gwo2 …, zau6 … | if …, then … | Connecting words | ⚠️ draft |
+| [雖然 …，但係 …](seoi1-jin4-although.md) | seoi1 jin4 …, daan6 hai6 … | although …, (but) … | Connecting words | ⚠️ draft |
+| [一 …就 …](jat1-zau6-as-soon-as.md) | jat1 … zau6 … | as soon as …; whenever … | Connecting words | ⚠️ draft |
+| [越嚟越 + Adjective](jyut6-lai4-jyut6.md) | jyut6 lai4 jyut6 + Adjective | more and more … | Degree and comparison | ⚠️ draft |
+| [先 … 再 … / … 先](sin1-zoi3-first-then.md) | sin1 … zoi3 … / … sin1 | first …, then … | Connecting words | ⚠️ draft |
+| [… 囉](lo1-obvious.md) | … lo1 | it's obvious; oh well | Sentence-final particles | ⚠️ draft |
+| [… 喎](wo3-noticing.md) | … wo3 | noticing something; passing on what someone said | Sentence-final particles | ⚠️ draft |
+| [[Description] + 嘅 + Noun](relative-ge3.md) | [Description] + ge3 + Noun | the … that / who … (relative clauses) | Possession and description | ⚠️ draft |
+| [Verb + 住](zyu6-continuous.md) | Verb + zyu6 | keep doing; in a continuing state | Time and aspect | ⚠️ draft |
+| [好似 …](hou2-ci5-seem.md) | hou2 ci5 … | seems; looks like; to be like | Degree and comparison | ⚠️ draft |

@@ -18,7 +18,22 @@
     { "cjk": "廚房", "jyutping": "cyu4 fong2", "en": "kitchen", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "洗手間", "jyutping": "sai2 sau2 gaan1", "en": "toilet; bathroom", "pos": "noun", "classifier": ["間", "gaan1"] },
     { "cjk": "雪櫃", "jyutping": "syut3 gwai6", "en": "fridge", "pos": "noun", "classifier": ["個", "go3"] },
-    { "cjk": "冷氣", "jyutping": "laang5 hei3", "en": "air conditioning", "pos": "noun", "classifier": ["部", "bou6"] }
+    { "cjk": "冷氣", "jyutping": "laang5 hei3", "en": "air conditioning", "pos": "noun", "classifier": ["部", "bou6"] },
+    { "cjk": "枱", "jyutping": "toi2", "en": "table", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "凳", "jyutping": "dang3", "en": "chair; stool", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "牀", "jyutping": "cong4", "en": "bed", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "門", "jyutping": "mun4", "en": "door", "pos": "noun", "classifier": ["度", "dou6"] },
+    { "cjk": "窗", "jyutping": "coeng1", "en": "window", "pos": "noun", "classifier": ["扇", "sin3"] },
+    { "cjk": "電視", "jyutping": "din6 si6", "en": "television", "pos": "noun", "classifier": ["部", "bou6"] },
+    { "cjk": "鎖匙", "jyutping": "so2 si4", "en": "key", "pos": "noun", "classifier": ["條", "tiu4"] },
+    { "cjk": "燈", "jyutping": "dang1", "en": "light; lamp", "pos": "noun", "classifier": ["盞", "zaan2"] },
+    { "cjk": "開燈", "jyutping": "hoi1 dang1", "en": "to switch on the light", "pos": "verb" },
+    { "cjk": "熄燈", "jyutping": "sik1 dang1", "en": "to switch off the light", "pos": "verb" },
+    { "cjk": "執屋", "jyutping": "zap1 uk1", "en": "to tidy the home", "pos": "verb" },
+    { "cjk": "食早餐", "jyutping": "sik6 zou2 caan1", "en": "to have breakfast", "pos": "verb" },
+    { "cjk": "食晏", "jyutping": "sik6 aan3", "en": "to have lunch", "pos": "verb" },
+    { "cjk": "食晚飯", "jyutping": "sik6 maan5 faan6", "en": "to have dinner", "pos": "verb" },
+    { "cjk": "返學", "jyutping": "faan1 hok6", "en": "to go to school", "pos": "verb" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

@@ -388,5 +388,41 @@
     ],
     "related": ["dou1-also"],
     "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "m4-hou2-dont",
+    "pattern": "唔好 + Verb",
+    "jyutping": "m4 hou2 + Verb",
+    "meaning": "don't (telling someone not to)",
+    "level": "A1",
+    "function": "negation",
+    "explanation": "唔好 before a verb tells someone not to do something. It is the everyday way to say 'don't'. Compare 唔使, which means 'there's no need to'.",
+    "writtenEquivalent": { "cjk": "不要 / 別", "note": "Written Chinese uses 不要 or 別." },
+    "examples": [
+      { "words": [["唔好", "m4 hou2"], ["擔心", "daam1 sam1"], ["。"]], "en": "Don't worry.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
+      { "words": [["唔好", "m4 hou2"], ["喺度", "hai2 dou6"], ["食煙", "sik6 jin1"], ["。"]], "en": "Don't smoke here.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
+      { "words": [["唔好", "m4 hou2"], ["話", "waa6"], ["佢", "keoi5"], ["知", "zi1"], ["。"]], "en": "Don't tell him.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } }
+    ],
+    "mistakes": [{ "incorrect": "不要擔心。", "correct": [["唔好", "m4 hou2"], ["擔心", "daam1 sam1"], ["。"]], "note": "不要 is written Chinese. Say 唔好." }],
+    "related": ["m4-negation", "m4-sai2-no-need"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "ding6-hai6-or",
+    "pattern": "A 定係 B？",
+    "jyutping": "A ding6 hai6 B?",
+    "meaning": "…or…? (choosing in a question)",
+    "level": "A1",
+    "function": "questions",
+    "explanation": "定係 (often shortened to 定) offers a choice in a question: tea or coffee? In a statement, 'or' is 或者 instead.",
+    "writtenEquivalent": { "cjk": "還是", "note": "Written Chinese uses 還是." },
+    "examples": [
+      { "words": [["你", "nei5"], ["飲", "jam2"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "en": "Would you like tea or coffee?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } },
+      { "words": [["你哋", "nei5 dei6"], ["堂食", "tong4 sik6"], ["定係", "ding6 hai6"], ["拎走", "ling1 zau2"], ["呀", "aa3"], ["？"]], "en": "Eating in or taking away?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } },
+      { "words": [["佢", "keoi5"], ["係", "hai6"], ["老師", "lou5 si1"], ["定係", "ding6 hai6"], ["學生", "hok6 saang1"], ["呀", "aa3"], ["？"]], "en": "Is she a teacher or a student?", "gap": { "word": "定係", "distractors": ["同", "都", "或者"] } }
+    ],
+    "mistakes": [{ "incorrect": "你要茶還是咖啡？", "correct": [["你", "nei5"], ["要", "jiu3"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "note": "還是 is written Chinese; 或者 is for statements, not questions." }],
+    "related": ["a-not-a-question", "tung4-and-with"],
+    "review": { "status": "draft", "reviewers": [] }
   }
 ]

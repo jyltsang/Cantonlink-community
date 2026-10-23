@@ -21,6 +21,21 @@
 | 13 | **車站** | ce1 zaam6 | chē jaahm | ㄘㄝ¹ ㄗㄚㆬ⁶ | station; stop | 個 go3 |
 | 14 | **出口** | ceot1 hau2 | chēut háu | ㄘㆤㆵ¹ ㄏㄜㄨ² | exit | 個 go3 |
 | 15 | **機場** | gei1 coeng4 | gēi chèuhng | ㄍㄝㄧ¹ ㄘㆦㄥ⁴ | airport | 個 go3 |
+| 16 | **港鐵站** | gong2 tit3 zaam6 | góng tit jaahm | ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶ | MTR station | 個 go3 |
+| 17 | **月台** | jyut6 toi4 | yuht tòih | ㄩㆵ⁶ ㄊㄛㄧ⁴ | platform | 個 go3 |
+| 18 | **入閘** | jap6 zaap6 | yahp jaahp | ㄧㄜㆴ⁶ ㄗㄚㆴ⁶ | to go through the ticket gate |  |
+| 19 | **出閘** | ceot1 zaap6 | chēut jaahp | ㄘㆤㆵ¹ ㄗㄚㆴ⁶ | to exit through the ticket gate |  |
+| 20 | **天星小輪** | tin1 sing1 siu2 leon4 | tīn sīng síu lèuhn | ㄊㄧㄣ¹ ㄙㄧㄥ¹ ㄙㄧㄨ² ㄌㆤㄣ⁴ | Star Ferry |  |
+| 21 | **船** | syun4 | syùhn | ㄙㄩㄣ⁴ | boat; ferry | 隻 zek3 |
+| 22 | **飛機** | fei1 gei1 | fēi gēi | ㄈㄝㄧ¹ ㄍㄝㄧ¹ | plane | 架 gaa3 |
+| 23 | **單車** | daan1 ce1 | dāan chē | ㄉㄚㄣ¹ ㄘㄝ¹ | bicycle | 架 gaa3 |
+| 24 | **揸車** | zaa1 ce1 | jā chē | ㄗㄚ¹ ㄘㄝ¹ | to drive |  |
+| 25 | **塞車** | sak1 ce1 | sāk chē | ㄙㄜㆶ¹ ㄘㄝ¹ | traffic jam |  |
+| 26 | **有落** | jau5 lok6 | yáuh lohk | ㄧㄜㄨ⁵ ㄌㄛㆶ⁶ | getting off, please! (said to a minibus driver) |  |
+| 27 | **車費** | ce1 fai3 | chē fai | ㄘㄝ¹ ㄈㄜㄧ³ | fare |  |
+| 28 | **時間表** | si4 gaan3 biu2 | sìh gaan bíu | ㄙㄧ⁴ ㄍㄚㄣ³ ㄅㄧㄨ² | timetable | 張 zoeng1 |
+| 29 | **隧道** | seoi6 dou6 | seuih douh | ㄙㆤㄧ⁶ ㄉㄛㄨ⁶ | tunnel | 條 tiu4 |
+| 30 | **行路** | haang4 lou6 | hàahng louh | ㄏㄚㄥ⁴ ㄌㄛㄨ⁶ | to walk |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

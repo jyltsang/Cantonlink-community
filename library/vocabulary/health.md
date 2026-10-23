@@ -21,6 +21,21 @@
 | 13 | **咳** | kat1 | kāt | ㄎㄜㆵ¹ | to cough |  |
 | 14 | **感冒** | gam2 mou6 | gám mouh | ㄍㄜㆬ² ㄇㄛㄨ⁶ | a cold; flu |  |
 | 15 | **休息** | jau1 sik1 | yāu sīk | ㄧㄜㄨ¹ ㄙㄧㆶ¹ | to rest |  |
+| 16 | **頭暈** | tau4 wan4 | tàuh wàhn | ㄊㄜㄨ⁴ ㄨㄜㄣ⁴ | dizzy |  |
+| 17 | **流鼻水** | lau4 bei6 seoi2 | làuh beih séui | ㄌㄜㄨ⁴ ㄅㄝㄧ⁶ ㄙㆤㄧ² | to have a runny nose |  |
+| 18 | **牙痛** | ngaa4 tung3 | ngàh tung | ㆭㄚ⁴ ㄊㄨㄥ³ | toothache |  |
+| 19 | **傷風** | soeng1 fung1 | sēung fūng | ㄙㆦㄥ¹ ㄈㄨㄥ¹ | to have a cold |  |
+| 20 | **敏感** | man5 gam2 | máhn gám | ㄇㄜㄣ⁵ ㄍㄜㆬ² | allergic |  |
+| 21 | **受傷** | sau6 soeng1 | sauh sēung | ㄙㄜㄨ⁶ ㄙㆦㄥ¹ | injured |  |
+| 22 | **痛** | tung3 | tung | ㄊㄨㄥ³ | painful; to hurt |  |
+| 23 | **救護車** | gau3 wu6 ce1 | gau wuh chē | ㄍㄜㄨ³ ㄨ⁶ ㄘㄝ¹ | ambulance | 架 gaa3 |
+| 24 | **急症室** | gap1 zing3 sat1 | gāp jing sāt | ㄍㄜㆴ¹ ㄗㄧㄥ³ ㄙㄜㆵ¹ | accident and emergency (A&E) | 間 gaan1 |
+| 25 | **病假紙** | beng6 gaa3 zi2 | behng ga jí | ㄅㄝㄥ⁶ ㄍㄚ³ ㄗㄧ² | sick note | 張 zoeng1 |
+| 26 | **掛號** | gwaa3 hou6 | gwa houh | ㄍㄨㄚ³ ㄏㄛㄨ⁶ | to register (at a clinic) |  |
+| 27 | **打針** | daa2 zam1 | dá jām | ㄉㄚ² ㄗㄜㆬ¹ | to have an injection |  |
+| 28 | **牙醫** | ngaa4 ji1 | ngàh yī | ㆭㄚ⁴ ㄧ¹ | dentist | 個 go3 |
+| 29 | **身體** | san1 tai2 | sān tái | ㄙㄜㄣ¹ ㄊㄜㄧ² | body; health |  |
+| 30 | **病** | beng6 | behng | ㄅㄝㄥ⁶ | ill; illness |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

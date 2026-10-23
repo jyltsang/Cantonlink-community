@@ -4,12 +4,13 @@
 
 Self-marking worksheets built from the grammar library. Every question links back to the pattern it practises. Prefer to practise interactively? Use the [practice site](https://jyltsang.github.io/Cantonlink-community/).
 
-> ⚠️ **49 of 49 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> ⚠️ **73 of 73 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 | Worksheet | What you practise |
 |---|---|
 | [Fill the gap — A1](fill-the-gap-A1.md) | Choosing the right grammar word for the meaning |
 | [Fill the gap — A2](fill-the-gap-A2.md) | Choosing the right grammar word for the meaning |
+| [Fill the gap — B1](fill-the-gap-B1.md) | Choosing the right grammar word for the meaning |
 | [Build the sentence](build-the-sentence.md) | Cantonese word order |
 | [Spoken or written?](spoken-or-written.md) | Telling spoken Cantonese from written Chinese |
 

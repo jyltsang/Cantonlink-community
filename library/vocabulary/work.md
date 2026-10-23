@@ -21,6 +21,21 @@
 | 13 | **得閒** | dak1 haan4 | dāk hàahn | ㄉㄜㆶ¹ ㄏㄚㄣ⁴ | free; not busy |  |
 | 14 | **客** | haak3 | haak | ㄏㄚㆶ³ | client; customer | 個 go3 |
 | 15 | **文件** | man4 gin2 | màhn gín | ㄇㄜㄣ⁴ ㄍㄧㄣ² | document | 份 fan6 |
+| 16 | **辦公室** | baan6 gung1 sat1 | baahn gūng sāt | ㄅㄚㄣ⁶ ㄍㄨㄥ¹ ㄙㄜㆵ¹ | office | 間 gaan1 |
+| 17 | **經理** | ging1 lei5 | gīng léih | ㄍㄧㄥ¹ ㄌㄝㄧ⁵ | manager | 個 go3 |
+| 18 | **員工** | jyun4 gung1 | yùhn gūng | ㄩㄣ⁴ ㄍㄨㄥ¹ | staff; employee | 個 go3 |
+| 19 | **見工** | gin3 gung1 | gin gūng | ㄍㄧㄣ³ ㄍㄨㄥ¹ | to have a job interview |  |
+| 20 | **辭職** | ci4 zik1 | chìh jīk | ㄘㄧ⁴ ㄗㄧㆶ¹ | to resign |  |
+| 21 | **搵工** | wan2 gung1 | wán gūng | ㄨㄜㄣ² ㄍㄨㄥ¹ | to look for a job |  |
+| 22 | **會議** | wui6 ji5 | wuih yíh | ㄨㄨㄧ⁶ ㄧ⁵ | meeting | 個 go3 |
+| 23 | **報告** | bou3 gou3 | bou gou | ㄅㄛㄨ³ ㄍㄛㄨ³ | report | 份 fan6 |
+| 24 | **打印** | daa2 jan3 | dá yan | ㄉㄚ² ㄧㄜㄣ³ | to print |  |
+| 25 | **影印** | jing2 jan3 | yíng yan | ㄧㄥ² ㄧㄜㄣ³ | to photocopy |  |
+| 26 | **卡片** | kaat1 pin2 | kāat pín | ㄎㄚㆵ¹ ㄆㄧㄣ² | business card | 張 zoeng1 |
+| 27 | **開工** | hoi1 gung1 | hōi gūng | ㄏㄛㄧ¹ ㄍㄨㄥ¹ | to start work |  |
+| 28 | **收工** | sau1 gung1 | sāu gūng | ㄙㄜㄨ¹ ㄍㄨㄥ¹ | to knock off; finish for the day |  |
+| 29 | **出糧** | ceot1 loeng4 | chēut lèuhng | ㄘㆤㆵ¹ ㄌㆦㄥ⁴ | to get paid |  |
+| 30 | **雙糧** | soeng1 loeng4 | sēung lèuhng | ㄙㆦㄥ¹ ㄌㆦㄥ⁴ | thirteenth-month pay (an annual bonus) |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

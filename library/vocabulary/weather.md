@@ -21,6 +21,25 @@
 | 13 | **黑雨** | hak1 jyu5 | hāk yúh | ㄏㄜㆶ¹ ㄩ⁵ | black rainstorm (warning) |  |
 | 14 | **天文台** | tin1 man4 toi4 | tīn màhn tòih | ㄊㄧㄣ¹ ㄇㄜㄣ⁴ ㄊㄛㄧ⁴ | Hong Kong Observatory |  |
 | 15 | **度** | dou6 | douh | ㄉㄛㄨ⁶ | degree (temperature) |  |
+| 16 | **雨** | jyu5 | yúh | ㄩ⁵ | rain |  |
+| 17 | **雪** | syut3 | syut | ㄙㄩㆵ³ | snow |  |
+| 18 | **風** | fung1 | fūng | ㄈㄨㄥ¹ | wind |  |
+| 19 | **太陽** | taai3 joeng4 | taai yèuhng | ㄊㄚㄧ³ ㄧㆦㄥ⁴ | sun | 個 go3 |
+| 20 | **月光** | jyut6 gwong1 | yuht gwōng | ㄩㆵ⁶ ㄍㄨㄛㄥ¹ | moon | 個 go3 |
+| 21 | **天晴** | tin1 cing4 | tīn chìhng | ㄊㄧㄣ¹ ㄘㄧㄥ⁴ | sunny; clear |  |
+| 22 | **陰天** | jam1 tin1 | yām tīn | ㄧㄜㆬ¹ ㄊㄧㄣ¹ | overcast |  |
+| 23 | **行雷** | haang4 leoi4 | hàahng lèuih | ㄏㄚㄥ⁴ ㄌㆤㄧ⁴ | to thunder |  |
+| 24 | **閃電** | sim2 din6 | sím dihn | ㄙㄧㆬ² ㄉㄧㄣ⁶ | lightning |  |
+| 25 | **颱風** | toi4 fung1 | tòih fūng | ㄊㄛㄧ⁴ ㄈㄨㄥ¹ | typhoon | 個 go3 |
+| 26 | **八號風球** | baat3 hou6 fung1 kau4 | baat houh fūng kàuh | ㄅㄚㆵ³ ㄏㄛㄨ⁶ ㄈㄨㄥ¹ ㄎㄜㄨ⁴ | typhoon signal no. 8 ¹ |  |
+| 27 | **溫度** | wan1 dou6 | wān douh | ㄨㄜㄣ¹ ㄉㄛㄨ⁶ | temperature |  |
+| 28 | **天氣報告** | tin1 hei3 bou3 gou3 | tīn hei bou gou | ㄊㄧㄣ¹ ㄏㄝㄧ³ ㄅㄛㄨ³ ㄍㄛㄨ³ | weather forecast |  |
+| 29 | **乾** | gon1 | gōn | ㄍㄛㄣ¹ | dry |  |
+| 30 | **雲** | wan4 | wàhn | ㄨㄜㄣ⁴ | cloud |  |
+
+¹ **Usage notes**
+
+- **八號風球** — When it is raised, offices and schools close.
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

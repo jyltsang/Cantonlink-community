@@ -13,7 +13,7 @@ const listJson = (dir) => readdirSync(join(ROOT, dir)).filter((f) => f.endsWith(
 
 // --- Load -----------------------------------------------------------------
 
-const LEVELS = ['A1', 'A2'];
+const LEVELS = ['A1', 'A2', 'B1'];
 const patterns = LEVELS.flatMap((level) => readJson(`content/grammar/${level}.json`));
 const topics = listJson('content/vocabulary').map((f) => readJson(`content/vocabulary/${f}`)).sort((a, b) => a.order - b.order);
 const spokenOrWritten = readJson('content/practice/spoken-or-written.json');
@@ -31,6 +31,8 @@ const FUNCTIONS = {
   'degree-and-comparison': 'Degree and comparison',
   particles: 'Sentence-final particles',
   connecting: 'Connecting words',
+  complements: 'Verb endings and complements',
+  passive: 'Passive',
 };
 
 // --- Validate -------------------------------------------------------------
@@ -57,6 +59,16 @@ function checkWords(where, words) {
   }
 }
 
+// Tell-tale Standard Written Chinese. Whole words are checked exactly, so
+// legitimate spoken words such as 的士 (taxi) or 小說 (novel) still pass.
+const WRITTEN_WORDS = new Set(['是', '的', '不', '了', '在', '和', '跟', '給', '被', '吧', '說', '看', '那', '那裏', '這裏', '甚麼', '什麼', '沒有', '不要', '還是']);
+const WRITTEN_CHARS = /[他她們這哪沒吃很喝]/u;
+function checkSpoken(where, words) {
+  for (const [cjk] of words) {
+    if (WRITTEN_WORDS.has(cjk) || WRITTEN_CHARS.test(cjk)) fail(where, `"${cjk}" is written Chinese; use the spoken Cantonese form`);
+  }
+}
+
 const lexicon = new Map();
 const learn = (cjk, jyutping) => { if (!lexicon.has(cjk)) lexicon.set(cjk, jyutping); };
 
@@ -69,6 +81,7 @@ for (const p of patterns) {
   p.examples.forEach((ex, i) => {
     const where = `${p.id} example ${i + 1}`;
     checkWords(where, ex.words);
+    checkSpoken(where, ex.words);
     ex.words.filter((w) => w.length === 2).forEach(([c, j]) => learn(c, j));
     if (ex.gap) {
       if (!ex.words.some((w) => w[0] === ex.gap.word)) fail(where, `gap word "${ex.gap.word}" is not a word in the sentence`);
@@ -76,12 +89,19 @@ for (const p of patterns) {
       if (ex.gap.distractors.length !== 3 || options.size !== 4) fail(where, 'gap needs three distinct distractors that differ from the answer');
     }
   });
-  (p.mistakes ?? []).forEach((m, i) => checkWords(`${p.id} mistake ${i + 1}`, m.correct));
+  (p.mistakes ?? []).forEach((m, i) => {
+    checkWords(`${p.id} mistake ${i + 1}`, m.correct);
+    checkSpoken(`${p.id} mistake ${i + 1}`, m.correct);
+  });
 }
 for (const p of patterns) for (const r of p.related ?? []) if (!ids.has(r)) fail(p.id, `related pattern "${r}" does not exist`);
 
+const seenWords = new Map();
 for (const t of topics) {
   t.words.forEach((w) => {
+    if (seenWords.has(w.cjk)) fail(`${t.id}/${w.cjk}`, `already listed in ${seenWords.get(w.cjk)}`);
+    seenWords.set(w.cjk, t.id);
+    checkSpoken(`${t.id}/${w.cjk}`, [[w.cjk]]);
     checkJyutping(`${t.id}/${w.cjk}`, w.cjk, w.jyutping);
     learn(w.cjk, w.jyutping);
     if (w.classifier) {
@@ -90,7 +110,10 @@ for (const t of topics) {
     }
   });
 }
-spokenOrWritten.items.forEach((item, i) => checkWords(`spoken-or-written ${i + 1}`, item.spoken));
+spokenOrWritten.items.forEach((item, i) => {
+  checkWords(`spoken-or-written ${i + 1}`, item.spoken);
+  checkSpoken(`spoken-or-written ${i + 1}`, item.spoken);
+});
 for (const [cjk, jyutping] of extraLexicon.words) {
   checkJyutping(`lexicon/${cjk}`, cjk, jyutping);
   learn(cjk, jyutping);

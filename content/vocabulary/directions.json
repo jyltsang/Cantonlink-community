@@ -18,7 +18,22 @@
     { "cjk": "後面", "jyutping": "hau6 min6", "en": "behind", "pos": "place" },
     { "cjk": "附近", "jyutping": "fu6 gan6", "en": "nearby", "pos": "place" },
     { "cjk": "近", "jyutping": "kan5", "en": "near", "pos": "adjective" },
-    { "cjk": "遠", "jyutping": "jyun5", "en": "far", "pos": "adjective" }
+    { "cjk": "遠", "jyutping": "jyun5", "en": "far", "pos": "adjective" },
+    { "cjk": "上面", "jyutping": "soeng6 min6", "en": "above; on top", "pos": "place" },
+    { "cjk": "下面", "jyutping": "haa6 min6", "en": "below; underneath", "pos": "place" },
+    { "cjk": "裏面", "jyutping": "leoi5 min6", "en": "inside", "pos": "place" },
+    { "cjk": "出面", "jyutping": "ceot1 min6", "en": "outside", "pos": "place" },
+    { "cjk": "中間", "jyutping": "zung1 gaan1", "en": "in the middle", "pos": "place" },
+    { "cjk": "呢邊", "jyutping": "ni1 bin1", "en": "this side; over here", "pos": "place" },
+    { "cjk": "嗰邊", "jyutping": "go2 bin1", "en": "that side; over there", "pos": "place" },
+    { "cjk": "街口", "jyutping": "gaai1 hau2", "en": "street corner", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "十字路口", "jyutping": "sap6 zi6 lou6 hau2", "en": "crossroads", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "紅綠燈", "jyutping": "hung4 luk6 dang1", "en": "traffic lights", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "過馬路", "jyutping": "gwo3 maa5 lou6", "en": "to cross the road", "pos": "verb" },
+    { "cjk": "地圖", "jyutping": "dei6 tou4", "en": "map", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "樓上", "jyutping": "lau4 soeng6", "en": "upstairs", "pos": "place" },
+    { "cjk": "樓下", "jyutping": "lau4 haa6", "en": "downstairs", "pos": "place" },
+    { "cjk": "行過去", "jyutping": "haang4 gwo3 heoi3", "en": "to walk over (there)", "pos": "verb" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

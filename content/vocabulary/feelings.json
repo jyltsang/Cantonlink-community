@@ -18,7 +18,22 @@
     { "cjk": "好笑", "jyutping": "hou2 siu3", "en": "funny", "pos": "adjective" },
     { "cjk": "肚餓", "jyutping": "tou5 ngo6", "en": "hungry", "pos": "adjective" },
     { "cjk": "頸渴", "jyutping": "geng2 hot3", "en": "thirsty", "pos": "adjective" },
-    { "cjk": "放心", "jyutping": "fong3 sam1", "en": "to feel reassured", "pos": "verb" }
+    { "cjk": "放心", "jyutping": "fong3 sam1", "en": "to feel reassured", "pos": "verb" },
+    { "cjk": "興奮", "jyutping": "hing1 fan5", "en": "excited", "pos": "adjective" },
+    { "cjk": "失望", "jyutping": "sat1 mong6", "en": "disappointed", "pos": "adjective" },
+    { "cjk": "後悔", "jyutping": "hau6 fui3", "en": "to regret", "pos": "verb" },
+    { "cjk": "尷尬", "jyutping": "gaam3 gaai3", "en": "embarrassed; awkward", "pos": "adjective" },
+    { "cjk": "感動", "jyutping": "gam2 dung6", "en": "moved; touched", "pos": "adjective" },
+    { "cjk": "羨慕", "jyutping": "sin6 mou6", "en": "to envy; to admire", "pos": "verb" },
+    { "cjk": "妒忌", "jyutping": "dou3 gei6", "en": "jealous", "pos": "adjective" },
+    { "cjk": "孤獨", "jyutping": "gu1 duk6", "en": "lonely", "pos": "adjective" },
+    { "cjk": "輕鬆", "jyutping": "hing1 sung1", "en": "relaxed", "pos": "adjective" },
+    { "cjk": "煩", "jyutping": "faan4", "en": "annoyed; fed up", "pos": "adjective" },
+    { "cjk": "好彩", "jyutping": "hou2 coi2", "en": "lucky; luckily", "pos": "adjective" },
+    { "cjk": "心急", "jyutping": "sam1 gap1", "en": "impatient", "pos": "adjective" },
+    { "cjk": "害羞", "jyutping": "hoi6 sau1", "en": "shy", "pos": "adjective" },
+    { "cjk": "頭痕", "jyutping": "tau4 han4", "en": "at a loss; frustrated (lit. itchy head)", "pos": "adjective" },
+    { "cjk": "驚喜", "jyutping": "ging1 hei2", "en": "pleasantly surprised; a nice surprise", "pos": "adjective" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

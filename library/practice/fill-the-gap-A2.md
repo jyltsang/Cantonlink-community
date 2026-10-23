@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> ⚠️ **14 of 14 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> ⚠️ **20 of 20 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 你食咗飯＿＿呀？  
 nei5 sik6 zo2 faan6 \_\_\_ aa3?  
@@ -460,6 +460,222 @@ ngo5 hou2 gui6, \_\_\_ cam4 jat6 hou2 je6 sin1 fan3.
 (c) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
 (d) 如果 jyu4 gwo2 · yùh gwó · ㄩ⁴ ㄍㄨㄛ²
 
+---
+
+**39.** 我＿＿手機冇電喇。  
+ngo5 \_\_\_ sau2 gei1 mou5 din6 laa3.  
+*ngóh \_\_\_ sáu gēi móuh dihn la.*  
+“My phone's battery is dead.”
+
+(a) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(b) 部 bou6 · bouh · ㄅㄛㄨ⁶  
+(c) 件 gin6 · gihn · ㄍㄧㄣ⁶  
+(d) 本 bun2 · bún · ㄅㄨㄣ²
+
+---
+
+**40.** 你＿＿車好靚。  
+nei5 \_\_\_ ce1 hou2 leng3.  
+*néih \_\_\_ chē hóu leng.*  
+“Your car is lovely.”
+
+(a) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(b) 架 gaa3 · ga · ㄍㄚ³  
+(c) 本 bun2 · bún · ㄅㄨㄣ²  
+(d) 件 gin6 · gihn · ㄍㄧㄣ⁶
+
+---
+
+**41.** 佢＿＿屋喺沙田。  
+keoi5 \_\_\_ uk1 hai2 saa1 tin4.  
+*kéuih \_\_\_ ūk hái sā tìhn.*  
+“Her flat is in Sha Tin.”
+
+(a) 件 gin6 · gihn · ㄍㄧㄣ⁶  
+(b) 本 bun2 · bún · ㄅㄨㄣ²  
+(c) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(d) 間 gaan1 · gāan · ㄍㄚㄣ¹
+
+---
+
+**42.** 聽日＿＿落雨。  
+ting1 jat6 \_\_\_ lok6 jyu5.  
+*tīng yaht \_\_\_ lohk yúh.*  
+“It's going to rain tomorrow.”
+
+(a) 想 soeng2 · séung · ㄙㆦㄥ²  
+(b) 會 wui5 · wúih · ㄨㄨㄧ⁵  
+(c) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(d) 喺 hai2 · hái · ㄏㄜㄧ²
+
+---
+
+**43.** 我聽日＿＿打電話畀你。  
+ngo5 ting1 jat6 \_\_\_ daa2 din6 waa2 bei2 nei5.  
+*ngóh tīng yaht \_\_\_ dá dihn wá béi néih.*  
+“I'll phone you tomorrow.”
+
+(a) 會 wui5 · wúih · ㄨㄨㄧ⁵  
+(b) 想 soeng2 · séung · ㄙㆦㄥ²  
+(c) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(d) 喺 hai2 · hái · ㄏㄜㄧ²
+
+---
+
+**44.** 佢唔＿＿嚟喇。  
+keoi5 m4 \_\_\_ lai4 laa3.  
+*kéuih m̀h \_\_\_ làih la.*  
+“He won't come now.”
+
+(a) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 想 soeng2 · séung · ㄙㆦㄥ²  
+(d) 會 wui5 · wúih · ㄨㄨㄧ⁵
+
+---
+
+**45.** 你＿＿早啲瞓。  
+nei5 \_\_\_ zou2 di1 fan3.  
+*néih \_\_\_ jóu dī fan.*  
+“You should go to bed earlier.”
+
+(a) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(b) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(c) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
+(d) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹
+
+---
+
+**46.** 佢＿＿到咗喇。  
+keoi5 \_\_\_ dou3 zo2 laa3.  
+*kéuih \_\_\_ dou jó la.*  
+“She should have arrived by now.”
+
+(a) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(b) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(c) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
+(d) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹
+
+---
+
+**47.** 我哋＿＿點做呀？  
+ngo5 dei6 \_\_\_ dim2 zou6 aa3?  
+*ngóh deih \_\_\_ dím jouh a?*  
+“What should we do?”
+
+(a) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(b) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹  
+(c) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
+(d) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶
+
+---
+
+**48.** ＿＿客氣。  
+\_\_\_ haak3 hei3.  
+*\_\_\_ haak hei.*  
+“You're welcome. (No need to be polite.)”
+
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+
+---
+
+**49.** 今日＿＿返工。  
+gam1 jat6 \_\_\_ faan1 gung1.  
+*gām yaht \_\_\_ fāan gūng.*  
+“I don't have to go to work today.”
+
+(a) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
+(b) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(d) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²
+
+---
+
+**50.** ＿＿畀錢，免費㗎。  
+\_\_\_ bei2 cin2, min5 fai3 gaa3.  
+*\_\_\_ béi chín, míhn fai ga.*  
+“You don't need to pay — it's free.”
+
+(a) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(b) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 都 dou1 · dōu · ㄉㄛㄨ¹
+
+---
+
+**51.** 我做＿＿功課喇。  
+ngo5 zou6 \_\_\_ gung1 fo3 laa3.  
+*ngóh jouh \_\_\_ gūng fo la.*  
+“I've finished my homework.”
+
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(d) 完 jyun4 · yùhn · ㄩㄣ⁴
+
+---
+
+**52.** 你食＿＿飯未呀？  
+nei5 sik6 \_\_\_ faan6 mei6 aa3?  
+*néih sihk \_\_\_ faahn meih a?*  
+“Have you finished eating?”
+
+(a) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(b) 完 jyun4 · yùhn · ㄩㄣ⁴  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 吓 haa5 · háh · ㄏㄚ⁵
+
+---
+
+**53.** 睇＿＿呢套戲先瞓。  
+tai2 \_\_\_ ni1 tou3 hei3 sin1 fan3.  
+*tái \_\_\_ nī tou hei sīn fan.*  
+“I'll go to bed when I've finished this film.”
+
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 完 jyun4 · yùhn · ㄩㄣ⁴  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 過 gwo3 · gwo · ㄍㄨㄛ³
+
+---
+
+**54.** 我＿＿食咗飯喇。  
+ngo5 \_\_\_ sik6 zo2 faan6 laa3.  
+*ngóh \_\_\_ sihk jó faahn la.*  
+“I've already eaten.”
+
+(a) 仲 zung6 · juhng · ㄗㄨㄥ⁶  
+(b) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹
+
+---
+
+**55.** 佢＿＿走咗喇。  
+keoi5 \_\_\_ zau2 zo2 laa3.  
+*kéuih \_\_\_ jáu jó la.*  
+“He's already left.”
+
+(a) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
+(b) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 仲 zung6 · juhng · ㄗㄨㄥ⁶
+
+---
+
+**56.** ＿＿十點喇，快啲啦！  
+\_\_\_ sap6 dim2 laa3, faai3 di1 laa1!  
+*\_\_\_ sahp dím la, faai dī lā!*  
+“It's already ten o'clock — hurry up!”
+
+(a) 應該 jing1 goi1 · yīng gōi · ㄧㄥ¹ ㄍㄛㄧ¹  
+(b) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 仲 zung6 · juhng · ㄗㄨㄥ⁶
+
 <details>
 <summary><strong>Answers</strong></summary>
 
@@ -501,6 +717,24 @@ ngo5 hou2 gui6, \_\_\_ cam4 jat6 hou2 je6 sin1 fan3.
 36. **(b) 所以** — [因為 …，所以 …](../grammar/jan1-wai6-because.md): because …, so …
 37. **(a) 因為** — [因為 …，所以 …](../grammar/jan1-wai6-because.md): because …, so …
 38. **(a) 因為** — [因為 …，所以 …](../grammar/jan1-wai6-because.md): because …, so …
+39. **(b) 部** — [Owner + Classifier + Noun](../grammar/classifier-possessive.md): my / your / her (a specific thing)
+40. **(b) 架** — [Owner + Classifier + Noun](../grammar/classifier-possessive.md): my / your / her (a specific thing)
+41. **(d) 間** — [Owner + Classifier + Noun](../grammar/classifier-possessive.md): my / your / her (a specific thing)
+42. **(b) 會** — [會 + Verb](../grammar/wui5-will.md): will; would; likely to
+43. **(a) 會** — [會 + Verb](../grammar/wui5-will.md): will; would; likely to
+44. **(d) 會** — [會 + Verb](../grammar/wui5-will.md): will; would; likely to
+45. **(d) 應該** — [應該 + Verb](../grammar/jing1-goi1-should.md): should; ought to; probably
+46. **(d) 應該** — [應該 + Verb](../grammar/jing1-goi1-should.md): should; ought to; probably
+47. **(b) 應該** — [應該 + Verb](../grammar/jing1-goi1-should.md): should; ought to; probably
+48. **(b) 唔使** — [唔使 + Verb](../grammar/m4-sai2-no-need.md): no need to; don't have to
+49. **(d) 唔使** — [唔使 + Verb](../grammar/m4-sai2-no-need.md): no need to; don't have to
+50. **(b) 唔使** — [唔使 + Verb](../grammar/m4-sai2-no-need.md): no need to; don't have to
+51. **(d) 完** — [Verb + 完](../grammar/jyun4-finish.md): finish doing
+52. **(b) 完** — [Verb + 完](../grammar/jyun4-finish.md): finish doing
+53. **(b) 完** — [Verb + 完](../grammar/jyun4-finish.md): finish doing
+54. **(b) 已經** — [已經 + … + 喇](../grammar/ji5-ging1-already.md): already
+55. **(a) 已經** — [已經 + … + 喇](../grammar/ji5-ging1-already.md): already
+56. **(b) 已經** — [已經 + … + 喇](../grammar/ji5-ging1-already.md): already
 
 </details>
 

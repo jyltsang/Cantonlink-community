@@ -21,6 +21,21 @@
 | 13 | **同事** | tung4 si6 | tùhng sih | ㄊㄨㄥ⁴ ㄙㄧ⁶ | colleague | 個 go3 |
 | 14 | **細路** | sai3 lou6 | sai louh | ㄙㄜㄧ³ ㄌㄛㄨ⁶ | child | 個 go3 |
 | 15 | **婆婆** | po4 po2 | pòh pó | ㄆㄛ⁴ ㄆㄛ² | grandmother (maternal) |  |
+| 16 | **爺爺** | je4 je2 | yèh yé | ㄧㄝ⁴ ㄧㄝ² | grandfather (father's side) |  |
+| 17 | **嫲嫲** | maa4 maa4 | màh màh | ㄇㄚ⁴ ㄇㄚ⁴ | grandmother (father's side) |  |
+| 18 | **公公** | gung4 gung1 | gùhng gūng | ㄍㄨㄥ⁴ ㄍㄨㄥ¹ | grandfather (mother's side) |  |
+| 19 | **叔叔** | suk1 suk1 | sūk sūk | ㄙㄨㆶ¹ ㄙㄨㆶ¹ | uncle; polite term for an older man |  |
+| 20 | **姨姨** | ji4 ji1 | yìh yī | ㄧ⁴ ㄧ¹ | auntie; polite term for an older woman |  |
+| 21 | **表哥** | biu2 go1 | bíu gō | ㄅㄧㄨ² ㄍㄛ¹ | older male cousin (on the mother's side, or a father's sister's son) | 個 go3 |
+| 22 | **男朋友** | naam4 pang4 jau5 | nàahm pàhng yáuh | ㄋㄚㆬ⁴ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | boyfriend | 個 go3 |
+| 23 | **女朋友** | neoi5 pang4 jau5 | néuih pàhng yáuh | ㄋㆤㄧ⁵ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵ | girlfriend | 個 go3 |
+| 24 | **鄰居** | leon4 geoi1 | lèuhn gēui | ㄌㆤㄣ⁴ ㄍㆤㄧ¹ | neighbour | 個 go3 |
+| 25 | **同學** | tung4 hok6 | tùhng hohk | ㄊㄨㄥ⁴ ㄏㄛㆶ⁶ | classmate | 個 go3 |
+| 26 | **老師** | lou5 si1 | lóuh sī | ㄌㄛㄨ⁵ ㄙㄧ¹ | teacher | 個 go3 |
+| 27 | **男人** | naam4 jan2 | nàahm yán | ㄋㄚㆬ⁴ ㄧㄜㄣ² | man | 個 go3 |
+| 28 | **女人** | neoi5 jan2 | néuih yán | ㄋㆤㄧ⁵ ㄧㄜㄣ² | woman | 個 go3 |
+| 29 | **人** | jan4 | yàhn | ㄧㄜㄣ⁴ | person; people | 個 go3 |
+| 30 | **結婚** | git3 fan1 | git fān | ㄍㄧㆵ³ ㄈㄜㄣ¹ | to get married |  |
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

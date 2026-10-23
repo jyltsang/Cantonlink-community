@@ -21,10 +21,27 @@
 | 13 | **聽日** | ting1 jat6 | tīng yaht | ㄊㄧㄥ¹ ㄧㄜㆵ⁶ | tomorrow |  |
 | 14 | **尋日** | cam4 jat6 | chàhm yaht | ㄘㄜㆬ⁴ ㄧㄜㆵ⁶ | yesterday |  |
 | 15 | **星期一** | sing1 kei4 jat1 | sīng kèih yāt | ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄧㄜㆵ¹ | Monday |  |
+| 16 | **零** | ling4 | lìhng | ㄌㄧㄥ⁴ | zero |  |
+| 17 | **四** | sei3 | sei | ㄙㄝㄧ³ | four ¹ |  |
+| 18 | **五** | ng5 | ńgh | ㄥ⁵ | five |  |
+| 19 | **六** | luk6 | luhk | ㄌㄨㆶ⁶ | six |  |
+| 20 | **七** | cat1 | chāt | ㄘㄜㆵ¹ | seven |  |
+| 21 | **八** | baat3 | baat | ㄅㄚㆵ³ | eight ¹ |  |
+| 22 | **九** | gau2 | gáu | ㄍㄜㄨ² | nine |  |
+| 23 | **二十** | ji6 sap6 | yih sahp | ㄧ⁶ ㄙㄜㆴ⁶ | twenty |  |
+| 24 | **一萬** | jat1 maan6 | yāt maahn | ㄧㄜㆵ¹ ㄇㄚㄣ⁶ | ten thousand |  |
+| 25 | **半** | bun3 | bun | ㄅㄨㄣ³ | half |  |
+| 26 | **分鐘** | fan1 zung1 | fān jūng | ㄈㄜㄣ¹ ㄗㄨㄥ¹ | minute |  |
+| 27 | **鐘頭** | zung1 tau4 | jūng tàuh | ㄗㄨㄥ¹ ㄊㄜㄨ⁴ | hour | 個 go3 |
+| 28 | **星期日** | sing1 kei4 jat6 | sīng kèih yaht | ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄧㄜㆵ⁶ | Sunday |  |
+| 29 | **禮拜** | lai5 baai3 | láih baai | ㄌㄜㄧ⁵ ㄅㄚㄧ³ | week | 個 go3 |
+| 30 | **而家** | ji4 gaa1 | yìh gā | ㄧ⁴ ㄍㄚ¹ | now |  |
 
 ¹ **Usage notes**
 
 - **兩** — Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十).
+- **四** — Some people avoid 四 because it sounds like 死 (sei2, 'to die').
+- **八** — Considered lucky because it rhymes with 發 (faat3, 'to prosper').
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

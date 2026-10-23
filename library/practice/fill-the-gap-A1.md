@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> ⚠️ **22 of 22 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> ⚠️ **24 of 24 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 我＿＿學生。  
 ngo5 \_\_\_ hok6 saang1.  
@@ -748,6 +748,78 @@ nei5 \_\_\_ bin1 go3 lai4 gaa3?
 (c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
 (d) 都 dou1 · dōu · ㄉㄛㄨ¹
 
+---
+
+**63.** ＿＿擔心。  
+\_\_\_ daam1 sam1.  
+*\_\_\_ dāam sām.*  
+“Don't worry.”
+
+(a) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(b) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(d) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²
+
+---
+
+**64.** ＿＿喺度食煙。  
+\_\_\_ hai2 dou6 sik6 jin1.  
+*\_\_\_ hái douh sihk yīn.*  
+“Don't smoke here.”
+
+(a) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(d) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²
+
+---
+
+**65.** ＿＿話佢知。  
+\_\_\_ waa6 keoi5 zi1.  
+*\_\_\_ wah kéuih jī.*  
+“Don't tell him.”
+
+(a) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(b) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
+(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+
+---
+
+**66.** 你飲茶＿＿咖啡呀？  
+nei5 jam2 caa4 \_\_\_ gaa3 fe1 aa3?  
+*néih yám chàh \_\_\_ ga fē a?*  
+“Would you like tea or coffee?”
+
+(a) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
+(d) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²
+
+---
+
+**67.** 你哋堂食＿＿拎走呀？  
+nei5 dei6 tong4 sik6 \_\_\_ ling1 zau2 aa3?  
+*néih deih tòhng sihk \_\_\_ līng jáu a?*  
+“Eating in or taking away?”
+
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(c) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(d) 同 tung4 · tùhng · ㄊㄨㄥ⁴
+
+---
+
+**68.** 佢係老師＿＿學生呀？  
+keoi5 hai6 lou5 si1 \_\_\_ hok6 saang1 aa3?  
+*kéuih haih lóuh sī \_\_\_ hohk sāang a?*  
+“Is she a teacher or a student?”
+
+(a) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(d) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶
+
 <details>
 <summary><strong>Answers</strong></summary>
 
@@ -813,6 +885,12 @@ nei5 \_\_\_ bin1 go3 lai4 gaa3?
 60. **(b) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
 61. **(b) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
 62. **(c) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+63. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+64. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+65. **(b) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+66. **(a) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+67. **(b) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+68. **(d) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
 
 </details>
 

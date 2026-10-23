@@ -2,7 +2,7 @@
 
 # Review status
 
-**0 of 49 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
+**0 of 73 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
 
 Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml) — reviewers are credited by name.
 
@@ -30,6 +30,8 @@ Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-c
 | Grammar | [… 啦](grammar/laa1-suggestion.md) | A1 | ⚠️ draft (0/2) | — |
 | Grammar | [… 嗎？](grammar/maa3-question.md) | A1 | ⚠️ draft (0/2) | — |
 | Grammar | [A + 同 + B](grammar/tung4-and-with.md) | A1 | ⚠️ draft (0/2) | — |
+| Grammar | [唔好 + Verb](grammar/m4-hou2-dont.md) | A1 | ⚠️ draft (0/2) | — |
+| Grammar | [A 定係 B？](grammar/ding6-hai6-or.md) | A1 | ⚠️ draft (0/2) | — |
 | Grammar | [Verb + 咗 + … 未？ / 未 + Verb](grammar/mei6-yet.md) | A2 | ⚠️ draft (0/2) | — |
 | Grammar | [Verb + 過](grammar/gwo3-experience.md) | A2 | ⚠️ draft (0/2) | — |
 | Grammar | [識 + Verb](grammar/sik1-know-how.md) | A2 | ⚠️ draft (0/2) | — |
@@ -44,6 +46,28 @@ Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-c
 | Grammar | [Verb + 吓](grammar/haa5-briefly.md) | A2 | ⚠️ draft (0/2) | — |
 | Grammar | [A + Adjective + 過 + B](grammar/gwo3-comparison.md) | A2 | ⚠️ draft (0/2) | — |
 | Grammar | [因為 …，所以 …](grammar/jan1-wai6-because.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [Owner + Classifier + Noun](grammar/classifier-possessive.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [會 + Verb](grammar/wui5-will.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [應該 + Verb](grammar/jing1-goi1-should.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [唔使 + Verb](grammar/m4-sai2-no-need.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 完](grammar/jyun4-finish.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [已經 + … + 喇](grammar/ji5-ging1-already.md) | A2 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 到 / Verb + 唔到](grammar/dou2-result.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 得 + Adjective](grammar/dak1-degree.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 晒](grammar/saai3-all.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 返](grammar/faan1-back.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 出 / 入 / 上 / 落 + 嚟 / 去](grammar/directional.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Subject + 畀 + Doer + Verb](grammar/bei2-passive.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [如果 …，就 …](grammar/jyu4-gwo2-if.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [雖然 …，但係 …](grammar/seoi1-jin4-although.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [一 …就 …](grammar/jat1-zau6-as-soon-as.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [越嚟越 + Adjective](grammar/jyut6-lai4-jyut6.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [先 … 再 … / … 先](grammar/sin1-zoi3-first-then.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [… 囉](grammar/lo1-obvious.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [… 喎](grammar/wo3-noticing.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [[Description] + 嘅 + Noun](grammar/relative-ge3.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [Verb + 住](grammar/zyu6-continuous.md) | B1 | ⚠️ draft (0/2) | — |
+| Grammar | [好似 …](grammar/hou2-ci5-seem.md) | B1 | ⚠️ draft (0/2) | — |
 | Vocabulary | [Greetings and courtesy](vocabulary/greetings.md) | — | ⚠️ draft (0/2) | — |
 | Vocabulary | [Numbers, money and time](vocabulary/numbers-money-time.md) | — | ⚠️ draft (0/2) | — |
 | Vocabulary | [Food and dim sum](vocabulary/food-and-dim-sum.md) | — | ⚠️ draft (0/2) | — |

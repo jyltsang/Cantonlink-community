@@ -18,7 +18,22 @@
     { "cjk": "忙", "jyutping": "mong4", "en": "busy", "pos": "adjective" },
     { "cjk": "得閒", "jyutping": "dak1 haan4", "en": "free; not busy", "pos": "adjective" },
     { "cjk": "客", "jyutping": "haak3", "en": "client; customer", "pos": "noun", "classifier": ["個", "go3"] },
-    { "cjk": "文件", "jyutping": "man4 gin2", "en": "document", "pos": "noun", "classifier": ["份", "fan6"] }
+    { "cjk": "文件", "jyutping": "man4 gin2", "en": "document", "pos": "noun", "classifier": ["份", "fan6"] },
+    { "cjk": "辦公室", "jyutping": "baan6 gung1 sat1", "en": "office", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "經理", "jyutping": "ging1 lei5", "en": "manager", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "員工", "jyutping": "jyun4 gung1", "en": "staff; employee", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "見工", "jyutping": "gin3 gung1", "en": "to have a job interview", "pos": "verb" },
+    { "cjk": "辭職", "jyutping": "ci4 zik1", "en": "to resign", "pos": "verb" },
+    { "cjk": "搵工", "jyutping": "wan2 gung1", "en": "to look for a job", "pos": "verb" },
+    { "cjk": "會議", "jyutping": "wui6 ji5", "en": "meeting", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "報告", "jyutping": "bou3 gou3", "en": "report", "pos": "noun", "classifier": ["份", "fan6"] },
+    { "cjk": "打印", "jyutping": "daa2 jan3", "en": "to print", "pos": "verb" },
+    { "cjk": "影印", "jyutping": "jing2 jan3", "en": "to photocopy", "pos": "verb" },
+    { "cjk": "卡片", "jyutping": "kaat1 pin2", "en": "business card", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "開工", "jyutping": "hoi1 gung1", "en": "to start work", "pos": "verb" },
+    { "cjk": "收工", "jyutping": "sau1 gung1", "en": "to knock off; finish for the day", "pos": "verb" },
+    { "cjk": "出糧", "jyutping": "ceot1 loeng4", "en": "to get paid", "pos": "verb" },
+    { "cjk": "雙糧", "jyutping": "soeng1 loeng4", "en": "thirteenth-month pay (an annual bonus)", "pos": "noun" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }

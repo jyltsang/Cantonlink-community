@@ -6,50 +6,50 @@ Much material sold as “Cantonese” is really Standard Written Chinese read al
 
 > ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20practice%2Fspoken-or-written).
 
-**1.** 我們走吧。 — spoken ☐ written ☐  
-**2.** 呢本係我嘅書。 — spoken ☐ written ☐  
-**3.** 我唔知。 — spoken ☐ written ☐  
-**4.** 這是我的書。 — spoken ☐ written ☐  
-**5.** 他們很好。 — spoken ☐ written ☐  
-**6.** 佢哋好好。 — spoken ☐ written ☐  
-**7.** 我吃了飯。 — spoken ☐ written ☐  
-**8.** 佢睇電視。 — spoken ☐ written ☐  
+**1.** 佢睇電視。 — spoken ☐ written ☐  
+**2.** 我沒有錢。 — spoken ☐ written ☐  
+**3.** 點解？ — spoken ☐ written ☐  
+**4.** 嗰度有好多人。 — spoken ☐ written ☐  
+**5.** 我哋走啦。 — spoken ☐ written ☐  
+**6.** 你說甚麼？ — spoken ☐ written ☐  
+**7.** 你在哪裏？ — spoken ☐ written ☐  
+**8.** 佢話今日唔嚟。 — spoken ☐ written ☐  
 **9.** 這個多少錢？ — spoken ☐ written ☐  
-**10.** 點解？ — spoken ☐ written ☐  
-**11.** 佢係學生。 — spoken ☐ written ☐  
-**12.** 佢畀咗一本書我。 — spoken ☐ written ☐  
-**13.** 我沒有錢。 — spoken ☐ written ☐  
-**14.** 我不知道。 — spoken ☐ written ☐  
-**15.** 他給了我一本書。 — spoken ☐ written ☐  
-**16.** 他看電視。 — spoken ☐ written ☐  
-**17.** 我唔識講廣東話。 — spoken ☐ written ☐  
-**18.** 你要乜嘢呀？ — spoken ☐ written ☐  
-**19.** 我冇錢。 — spoken ☐ written ☐  
-**20.** 現在幾點？ — spoken ☐ written ☐
+**10.** 佢係學生。 — spoken ☐ written ☐  
+**11.** 我不知道。 — spoken ☐ written ☐  
+**12.** 他給了我一本書。 — spoken ☐ written ☐  
+**13.** 他比我高。 — spoken ☐ written ☐  
+**14.** 我不會說廣東話。 — spoken ☐ written ☐  
+**15.** 他看電視。 — spoken ☐ written ☐  
+**16.** 我很喜歡吃點心。 — spoken ☐ written ☐  
+**17.** 現在幾點？ — spoken ☐ written ☐  
+**18.** 佢高過我。 — spoken ☐ written ☐  
+**19.** 我們走吧。 — spoken ☐ written ☐  
+**20.** 你要乜嘢呀？ — spoken ☐ written ☐
 
 <details>
 <summary><strong>Answers</strong></summary>
 
-1. **written** — Let's go. (我們 → 我哋, 吧 → 啦)
-2. **spoken** — This is my book. (這 → 呢 + classifier, 是 → 係, 的 → 嘅)
-3. **spoken** — I don't know. (不 → 唔; 知道 is usually shortened to 知)
-4. **written** — This is my book. (這 → 呢 + classifier, 是 → 係, 的 → 嘅)
-5. **written** — They're very nice. (他們 → 佢哋, 很 → 好)
-6. **spoken** — They're very nice. (他們 → 佢哋, 很 → 好)
-7. **written** — I've eaten. (吃 → 食, 了 → 咗)
-8. **spoken** — He's watching TV. (看 → 睇)
+1. **spoken** — He's watching TV. (看 → 睇)
+2. **written** — I don't have any money. (沒有 → 冇)
+3. **spoken** — Why? (為甚麼 → 點解)
+4. **spoken** — There are lots of people there. (那裏 → 嗰度, 很 → 好)
+5. **spoken** — Let's go. (我們 → 我哋, 吧 → 啦)
+6. **written** — What did you say? (說 → 講, 甚麼 → 乜嘢)
+7. **written** — Where are you? (在 → 喺, 哪裏 → 邊度)
+8. **spoken** — He said he isn't coming today. (說 → 話, 今天 → 今日, 不來 → 唔嚟)
 9. **written** — How much is this? (這 → 呢, 多少 → 幾多)
-10. **spoken** — Why? (為甚麼 → 點解)
-11. **spoken** — He's a student. (他 → 佢, 是 → 係)
-12. **spoken** — He gave me a book. (給 → 畀 (thing before person), 了 → 咗)
-13. **written** — I don't have any money. (沒有 → 冇)
-14. **written** — I don't know. (不 → 唔; 知道 is usually shortened to 知)
-15. **written** — He gave me a book. (給 → 畀 (thing before person), 了 → 咗)
-16. **written** — He's watching TV. (看 → 睇)
-17. **spoken** — I can't speak Cantonese. (不會說 → 唔識講)
-18. **spoken** — What would you like? (甚麼 → 乜嘢)
-19. **spoken** — I don't have any money. (沒有 → 冇)
-20. **written** — What time is it now? (現在 → 而家)
+10. **spoken** — He's a student. (他 → 佢, 是 → 係)
+11. **written** — I don't know. (不 → 唔; 知道 is usually shortened to 知)
+12. **written** — He gave me a book. (給 → 畀 (thing before person), 了 → 咗)
+13. **written** — He's taller than me. (A 比 B 高 → A 高過 B)
+14. **written** — I can't speak Cantonese. (不會說 → 唔識講)
+15. **written** — He's watching TV. (看 → 睇)
+16. **written** — I really like dim sum. (很 → 好, 喜歡 → 鍾意, 吃 → 食)
+17. **written** — What time is it now? (現在 → 而家)
+18. **spoken** — He's taller than me. (A 比 B 高 → A 高過 B)
+19. **written** — Let's go. (我們 → 我哋, 吧 → 啦)
+20. **spoken** — What would you like? (甚麼 → 乜嘢)
 
 </details>
 
@@ -77,5 +77,15 @@ Much material sold as “Cantonese” is really Standard Written Chinese read al
 | 我很喜歡吃點心。 | **我好鍾意食點心。** | ngo5 hou2 zung1 ji3 sik6 dim2 sam1. | ngóh hóu jūng yi sihk dím sām. | I really like dim sum. | 很 → 好, 喜歡 → 鍾意, 吃 → 食 |
 | 你說甚麼？ | **你講乜嘢呀？** | nei5 gong2 mat1 je5 aa3? | néih góng māt yéh a? | What did you say? | 說 → 講, 甚麼 → 乜嘢 |
 | 那裏有很多人。 | **嗰度有好多人。** | go2 dou6 jau5 hou2 do1 jan4. | gó douh yáuh hóu dō yàhn. | There are lots of people there. | 那裏 → 嗰度, 很 → 好 |
+| 他們去了哪裏？ | **佢哋去咗邊度呀？** | keoi5 dei6 heoi3 zo2 bin1 dou6 aa3? | kéuih deih heui jó bīn douh a? | Where did they go? | 他們 → 佢哋, 了 → 咗, 哪裏 → 邊度 |
+| 不要擔心。 | **唔好擔心。** | m4 hou2 daam1 sam1. | m̀h hóu dāam sām. | Don't worry. | 不要 → 唔好 |
+| 我已經吃飽了。 | **我已經食飽喇。** | ngo5 ji5 ging1 sik6 baau2 laa3. | ngóh yíh gīng sihk báau la. | I'm already full. | 吃 → 食, sentence-final 了 → 喇 |
+| 我的手機沒有電了。 | **我部手機冇電喇。** | ngo5 bou6 sau2 gei1 mou5 din6 laa3. | ngóh bouh sáu gēi móuh dihn la. | My phone's battery is dead. | 我的 → 我部 (classifier), 沒有 → 冇, 了 → 喇 |
+| 他被老闆罵了。 | **佢畀老細鬧咗。** | keoi5 bei2 lou5 sai3 naau6 zo2. | kéuih béi lóuh sai naauh jó. | He got told off by his boss. | 他 → 佢, 被 → 畀, 老闆 → 老細, 罵 → 鬧, 了 → 咗 |
+| 這裏不可以吸煙。 | **呢度唔可以食煙。** | ni1 dou6 m4 ho2 ji5 sik6 jin1. | nī douh m̀h hó yíh sihk yīn. | You can't smoke here. | 這裏 → 呢度, 不 → 唔, 吸煙 → 食煙 |
+| 如果明天下雨，我們就不去。 | **如果聽日落雨，我哋就唔去。** | jyu4 gwo2 ting1 jat6 lok6 jyu5, ngo5 dei6 zau6 m4 heoi3. | yùh gwó tīng yaht lohk yúh, ngóh deih jauh m̀h heui. | If it rains tomorrow, we won't go. | 明天 → 聽日, 下雨 → 落雨, 我們 → 我哋, 不 → 唔 |
+| 他說今天不來。 | **佢話今日唔嚟。** | keoi5 waa6 gam1 jat6 m4 lai4. | kéuih wah gām yaht m̀h làih. | He said he isn't coming today. | 說 → 話, 今天 → 今日, 不來 → 唔嚟 |
+| 東西都賣完了。 | **啲嘢賣晒喇。** | di1 je5 maai6 saai3 laa3. | dī yéh maaih saai la. | Everything's sold out. | 東西 → 嘢, 都…完了 → 晒…喇 |
+| 你喜歡哪一個？ | **你鍾意邊個呀？** | nei5 zung1 ji3 bin1 go3 aa3? | néih jūng yi bīn go a? | Which one do you like? | 喜歡 → 鍾意, 哪 → 邊 |
 
 [← All practice](README.md)

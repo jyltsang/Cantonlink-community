@@ -21,6 +21,25 @@
 | 13 | **辣** | laat6 | laaht | ㄌㄚㆵ⁶ | spicy |  |
 | 14 | **埋單** | maai4 daan1 | màaih dāan | ㄇㄚㄧ⁴ ㄉㄚㄣ¹ | to ask for the bill |  |
 | 15 | **筷子** | faai3 zi2 | faai jí | ㄈㄚㄧ³ ㄗㄧ² | chopsticks | 對 deoi3 |
+| 16 | **茶** | caa4 | chàh | ㄘㄚ⁴ | tea | 杯 bui1 |
+| 17 | **水** | seoi2 | séui | ㄙㆤㄧ² | water | 杯 bui1 |
+| 18 | **粥** | zuk1 | jūk | ㄗㄨㆶ¹ | congee (rice porridge) | 碗 wun2 |
+| 19 | **麪** | min6 | mihn | ㄇㄧㄣ⁶ | noodles | 碗 wun2 |
+| 20 | **腸粉** | coeng2 fan2 | chéung fán | ㄘㆦㄥ² ㄈㄜㄣ² | rice noodle roll | 碟 dip2 |
+| 21 | **蛋撻** | daan6 taat1 | daahn tāat | ㄉㄚㄣ⁶ ㄊㄚㆵ¹ | egg tart | 個 go3 |
+| 22 | **雞** | gai1 | gāi | ㄍㄜㄧ¹ | chicken | 隻 zek3 |
+| 23 | **牛肉** | ngau4 juk6 | ngàuh yuhk | ㆭㄜㄨ⁴ ㄧㄨㆶ⁶ | beef |  |
+| 24 | **豬肉** | zyu1 juk6 | jyū yuhk | ㄗㄩ¹ ㄧㄨㆶ⁶ | pork |  |
+| 25 | **魚** | jyu2 | yú | ㄩ² | fish (as food) ¹ | 條 tiu4 |
+| 26 | **菜** | coi3 | choi | ㄘㄛㄧ³ | vegetables |  |
+| 27 | **甜** | tim4 | tìhm | ㄊㄧㆬ⁴ | sweet |  |
+| 28 | **餓** | ngo6 | ngoh | ㆭㄛ⁶ | hungry |  |
+| 29 | **飽** | baau2 | báau | ㄅㄚㄨ² | full (after eating) |  |
+| 30 | **餐牌** | caan1 paai2 | chāan páai | ㄘㄚㄣ¹ ㄆㄚㄧ² | menu | 張 zoeng1 |
+
+¹ **Usage notes**
+
+- **魚** — Usually jyu2 when talking about fish as food; jyu4 in more formal words.
 
 The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).
 

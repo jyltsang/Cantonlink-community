@@ -254,5 +254,110 @@
     ],
     "related": ["dim2-gaai2-why"],
     "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "classifier-possessive",
+    "pattern": "Owner + Classifier + Noun",
+    "jyutping": "Owner + Classifier + Noun",
+    "meaning": "my / your / her (a specific thing)",
+    "level": "A2",
+    "function": "possession-and-description",
+    "explanation": "Instead of 嘅, Cantonese often joins an owner to a specific thing with its classifier: 我部手機 is 'my phone', 佢間屋 is 'her flat'. This is very common in everyday speech.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["部", "bou6"], ["手機", "sau2 gei1"], ["冇", "mou5"], ["電", "din6"], ["喇", "laa3"], ["。"]], "en": "My phone's battery is dead.", "gap": { "word": "部", "distractors": ["本", "杯", "件"] } },
+      { "words": [["你", "nei5"], ["架", "gaa3"], ["車", "ce1"], ["好", "hou2"], ["靚", "leng3"], ["。"]], "en": "Your car is lovely.", "gap": { "word": "架", "distractors": ["本", "杯", "件"] } },
+      { "words": [["佢", "keoi5"], ["間", "gaan1"], ["屋", "uk1"], ["喺", "hai2"], ["沙田", "saa1 tin4"], ["。"]], "en": "Her flat is in Sha Tin.", "gap": { "word": "間", "distractors": ["本", "杯", "件"] } }
+    ],
+    "related": ["ge3-possessive", "number-classifier"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "wui5-will",
+    "pattern": "會 + Verb",
+    "jyutping": "wui5 + Verb",
+    "meaning": "will; would; likely to",
+    "level": "A2",
+    "function": "wants-and-needs",
+    "explanation": "會 before a verb talks about the future or what is likely: it will rain, I'll call you. 唔會 means 'won't' or 'is unlikely to'.",
+    "examples": [
+      { "words": [["聽日", "ting1 jat6"], ["會", "wui5"], ["落雨", "lok6 jyu5"], ["。"]], "en": "It's going to rain tomorrow.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } },
+      { "words": [["我", "ngo5"], ["聽日", "ting1 jat6"], ["會", "wui5"], ["打", "daa2"], ["電話", "din6 waa2"], ["畀", "bei2"], ["你", "nei5"], ["。"]], "en": "I'll phone you tomorrow.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } },
+      { "words": [["佢", "keoi5"], ["唔", "m4"], ["會", "wui5"], ["嚟", "lai4"], ["喇", "laa3"], ["。"]], "en": "He won't come now.", "gap": { "word": "會", "distractors": ["識", "想", "喺"] } }
+    ],
+    "related": ["sik1-know-how", "jing1-goi1-should"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "jing1-goi1-should",
+    "pattern": "應該 + Verb",
+    "jyutping": "jing1 goi1 + Verb",
+    "meaning": "should; ought to; probably",
+    "level": "A2",
+    "function": "wants-and-needs",
+    "explanation": "應該 gives advice ('you should') or a reasonable guess ('she should be there by now').",
+    "examples": [
+      { "words": [["你", "nei5"], ["應該", "jing1 goi1"], ["早", "zou2"], ["啲", "di1"], ["瞓", "fan3"], ["。"]], "en": "You should go to bed earlier.", "gap": { "word": "應該", "distractors": ["可以", "識", "定係"] } },
+      { "words": [["佢", "keoi5"], ["應該", "jing1 goi1"], ["到", "dou3"], ["咗", "zo2"], ["喇", "laa3"], ["。"]], "en": "She should have arrived by now.", "gap": { "word": "應該", "distractors": ["可以", "識", "定係"] } },
+      { "words": [["我哋", "ngo5 dei6"], ["應該", "jing1 goi1"], ["點", "dim2"], ["做", "zou6"], ["呀", "aa3"], ["？"]], "en": "What should we do?", "gap": { "word": "應該", "distractors": ["可以", "識", "定係"] } }
+    ],
+    "related": ["wui5-will", "m4-sai2-no-need"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "m4-sai2-no-need",
+    "pattern": "唔使 + Verb",
+    "jyutping": "m4 sai2 + Verb",
+    "meaning": "no need to; don't have to",
+    "level": "A2",
+    "function": "wants-and-needs",
+    "explanation": "唔使 says something isn't necessary. It is the negative of 要 ('need to'). Don't confuse it with 唔好, which tells someone not to do something.",
+    "writtenEquivalent": { "cjk": "不用", "note": "Written Chinese uses 不用." },
+    "examples": [
+      { "words": [["唔使", "m4 sai2"], ["客氣", "haak3 hei3"], ["。"]], "en": "You're welcome. (No need to be polite.)", "gap": { "word": "唔使", "distractors": ["冇", "未", "都"] } },
+      { "words": [["今日", "gam1 jat6"], ["唔使", "m4 sai2"], ["返工", "faan1 gung1"], ["。"]], "en": "I don't have to go to work today.", "gap": { "word": "唔使", "distractors": ["唔好", "冇", "未"] } },
+      { "words": [["唔使", "m4 sai2"], ["畀", "bei2"], ["錢", "cin2"], ["，"], ["免費", "min5 fai3"], ["㗎", "gaa3"], ["。"]], "en": "You don't need to pay — it's free.", "gap": { "word": "唔使", "distractors": ["冇", "未", "都"] } }
+    ],
+    "related": ["m4-hou2-dont", "jiu3-want-need"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "jyun4-finish",
+    "pattern": "Verb + 完",
+    "jyutping": "Verb + jyun4",
+    "meaning": "finish doing",
+    "level": "A2",
+    "function": "aspect",
+    "explanation": "完 after a verb means the action is finished: 做完 (finish doing), 食完 (finish eating). It often comes with 咗 or 喇.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["做", "zou6"], ["完", "jyun4"], ["功課", "gung1 fo3"], ["喇", "laa3"], ["。"]], "en": "I've finished my homework.", "gap": { "word": "完", "distractors": ["緊", "吓", "過"] } },
+      { "words": [["你", "nei5"], ["食", "sik6"], ["完", "jyun4"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you finished eating?", "gap": { "word": "完", "distractors": ["緊", "吓", "過"] } },
+      {
+        "words": [["睇", "tai2"], ["完", "jyun4"], ["呢", "ni1"], ["套", "tou3"], ["戲", "hei3"], ["先", "sin1"], ["瞓", "fan3"], ["。"]],
+        "en": "I'll go to bed when I've finished this film.",
+        "gap": { "word": "完", "distractors": ["緊", "吓", "過"] }
+      }
+    ],
+    "related": ["zo2-completed", "saai3-all"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "ji5-ging1-already",
+    "pattern": "已經 + … + 喇",
+    "jyutping": "ji5 ging1 + … + laa3",
+    "meaning": "already",
+    "level": "A2",
+    "function": "aspect",
+    "explanation": "已經 goes before the verb, and the sentence usually ends with 喇 to mark the new situation.",
+    "examples": [
+      { "words": [["我", "ngo5"], ["已經", "ji5 ging1"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["。"]], "en": "I've already eaten.", "gap": { "word": "已經", "distractors": ["仲", "未", "應該"] } },
+      { "words": [["佢", "keoi5"], ["已經", "ji5 ging1"], ["走", "zau2"], ["咗", "zo2"], ["喇", "laa3"], ["。"]], "en": "He's already left.", "gap": { "word": "已經", "distractors": ["仲", "未", "應該"] } },
+      {
+        "words": [["已經", "ji5 ging1"], ["十", "sap6"], ["點", "dim2"], ["喇", "laa3"], ["，"], ["快", "faai3"], ["啲", "di1"], ["啦", "laa1"], ["！"]],
+        "en": "It's already ten o'clock — hurry up!",
+        "gap": { "word": "已經", "distractors": ["仲", "未", "應該"] }
+      }
+    ],
+    "related": ["zo2-completed", "laa3-change"],
+    "review": { "status": "draft", "reviewers": [] }
   }
 ]

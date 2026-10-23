@@ -18,7 +18,22 @@
     { "cjk": "發燒", "jyutping": "faat3 siu1", "en": "to have a fever", "pos": "verb" },
     { "cjk": "咳", "jyutping": "kat1", "en": "to cough", "pos": "verb" },
     { "cjk": "感冒", "jyutping": "gam2 mou6", "en": "a cold; flu", "pos": "noun" },
-    { "cjk": "休息", "jyutping": "jau1 sik1", "en": "to rest", "pos": "verb" }
+    { "cjk": "休息", "jyutping": "jau1 sik1", "en": "to rest", "pos": "verb" },
+    { "cjk": "頭暈", "jyutping": "tau4 wan4", "en": "dizzy", "pos": "adjective" },
+    { "cjk": "流鼻水", "jyutping": "lau4 bei6 seoi2", "en": "to have a runny nose", "pos": "verb" },
+    { "cjk": "牙痛", "jyutping": "ngaa4 tung3", "en": "toothache", "pos": "adjective" },
+    { "cjk": "傷風", "jyutping": "soeng1 fung1", "en": "to have a cold", "pos": "verb" },
+    { "cjk": "敏感", "jyutping": "man5 gam2", "en": "allergic", "pos": "adjective" },
+    { "cjk": "受傷", "jyutping": "sau6 soeng1", "en": "injured", "pos": "verb" },
+    { "cjk": "痛", "jyutping": "tung3", "en": "painful; to hurt", "pos": "adjective" },
+    { "cjk": "救護車", "jyutping": "gau3 wu6 ce1", "en": "ambulance", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "急症室", "jyutping": "gap1 zing3 sat1", "en": "accident and emergency (A&E)", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "病假紙", "jyutping": "beng6 gaa3 zi2", "en": "sick note", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "掛號", "jyutping": "gwaa3 hou6", "en": "to register (at a clinic)", "pos": "verb" },
+    { "cjk": "打針", "jyutping": "daa2 zam1", "en": "to have an injection", "pos": "verb" },
+    { "cjk": "牙醫", "jyutping": "ngaa4 ji1", "en": "dentist", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "身體", "jyutping": "san1 tai2", "en": "body; health", "pos": "noun" },
+    { "cjk": "病", "jyutping": "beng6", "en": "ill; illness", "pos": "adjective" }
   ],
   "review": { "status": "draft", "reviewers": [] }
 }
