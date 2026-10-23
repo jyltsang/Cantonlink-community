@@ -4,7 +4,7 @@
 
 Put the word tiles in the right order to say the English sentence in Cantonese. Answers are at the bottom.
 
-> ⚠️ **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** “He's my friend.”
 

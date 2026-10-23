@@ -4,7 +4,7 @@
 
 **Meaning:** neutral yes/no question · **Level:** A1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fmaa3-question).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fmaa3-question).
 
 Adding 嗎 to a statement makes it a yes/no question. It is correct and widely understood, though A-not-A questions (去唔去？) sound more colloquial in everyday speech.
 

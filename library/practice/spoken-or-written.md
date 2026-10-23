@@ -4,28 +4,28 @@
 
 Much material sold as “Cantonese” is really Standard Written Chinese read aloud. Can you tell which sentences sound like natural spoken Cantonese? Answers and a full reference table are at the bottom.
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20practice%2Fspoken-or-written).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20practice%2Fspoken-or-written).
 
-**1.** 佢睇電視。 — spoken ☐ written ☐  
-**2.** 我沒有錢。 — spoken ☐ written ☐  
-**3.** 點解？ — spoken ☐ written ☐  
-**4.** 嗰度有好多人。 — spoken ☐ written ☐  
-**5.** 我哋走啦。 — spoken ☐ written ☐  
-**6.** 你說甚麼？ — spoken ☐ written ☐  
-**7.** 你在哪裏？ — spoken ☐ written ☐  
-**8.** 佢話今日唔嚟。 — spoken ☐ written ☐  
-**9.** 這個多少錢？ — spoken ☐ written ☐  
-**10.** 佢係學生。 — spoken ☐ written ☐  
-**11.** 我不知道。 — spoken ☐ written ☐  
-**12.** 他給了我一本書。 — spoken ☐ written ☐  
-**13.** 他比我高。 — spoken ☐ written ☐  
-**14.** 我不會說廣東話。 — spoken ☐ written ☐  
-**15.** 他看電視。 — spoken ☐ written ☐  
-**16.** 我很喜歡吃點心。 — spoken ☐ written ☐  
-**17.** 現在幾點？ — spoken ☐ written ☐  
-**18.** 佢高過我。 — spoken ☐ written ☐  
-**19.** 我們走吧。 — spoken ☐ written ☐  
-**20.** 你要乜嘢呀？ — spoken ☐ written ☐
+**1.** 佢睇電視。 — spoken or written?  
+**2.** 我沒有錢。 — spoken or written?  
+**3.** 點解？ — spoken or written?  
+**4.** 嗰度有好多人。 — spoken or written?  
+**5.** 我哋走啦。 — spoken or written?  
+**6.** 你說甚麼？ — spoken or written?  
+**7.** 你在哪裏？ — spoken or written?  
+**8.** 佢話今日唔嚟。 — spoken or written?  
+**9.** 這個多少錢？ — spoken or written?  
+**10.** 佢係學生。 — spoken or written?  
+**11.** 我不知道。 — spoken or written?  
+**12.** 他給了我一本書。 — spoken or written?  
+**13.** 他比我高。 — spoken or written?  
+**14.** 我不會說廣東話。 — spoken or written?  
+**15.** 他看電視。 — spoken or written?  
+**16.** 我很喜歡吃點心。 — spoken or written?  
+**17.** 現在幾點？ — spoken or written?  
+**18.** 佢高過我。 — spoken or written?  
+**19.** 我們走吧。 — spoken or written?  
+**20.** 你要乜嘢呀？ — spoken or written?
 
 <details>
 <summary><strong>Answers</strong></summary>

@@ -4,7 +4,7 @@
 
 **Meaning:** it's obvious; oh well · **Level:** B1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flo1-obvious).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flo1-obvious).
 
 囉 at the end of a sentence presents something as obvious or the natural conclusion, sometimes with a shrug: 'well, then…', 'of course'.
 

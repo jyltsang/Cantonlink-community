@@ -4,7 +4,7 @@
 
 **Meaning:** first …, then … · **Level:** B1 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsin1-zoi3-first-then).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsin1-zoi3-first-then).
 
 先 means 'first' and 再 'then'. Very typically for Cantonese, 先 can also come at the end of a sentence: 等我諗吓先 (let me think first).
 

@@ -15,3 +15,16 @@ jobs:
           node-version: 22
       - run: npm test
       - run: npm run check
+
+  e2e:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run site
+      - run: npm run test:e2e

@@ -4,7 +4,7 @@
 
 **Meaning:** will; would; likely to · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fwui5-will).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fwui5-will).
 
 會 before a verb talks about the future or what is likely: it will rain, I'll call you. 唔會 means 'won't' or 'is unlikely to'.
 

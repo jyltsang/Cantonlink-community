@@ -4,7 +4,7 @@
 
 **Meaning:** counting things · **Level:** A1 · **Topic:** Counting
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fnumber-classifier).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fnumber-classifier).
 
 A number cannot go straight before a noun: a classifier goes in between. 個 is the general one; others depend on the noun's shape or type (杯 cups, 本 books, 部 machines). Use 兩 (loeng5), not 二, for 'two' before a classifier.
 
@@ -36,7 +36,7 @@ A number cannot go straight before a noun: a classifier goes in between. 個 is 
 
 ## Common mistakes
 
-- ✗ ~~二個人~~ → ✓ **兩個人** *loeng5 go3 jan4* · *léuhng go yàhn*  
+- Not ~~二個人~~ but **兩個人** *loeng5 go3 jan4* · *léuhng go yàhn*  
   Before a classifier, 'two' is 兩, not 二.
 
 ## Related patterns

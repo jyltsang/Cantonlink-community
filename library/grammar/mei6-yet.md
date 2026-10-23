@@ -4,7 +4,7 @@
 
 **Meaning:** …yet? / not yet · **Level:** A2 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fmei6-yet).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fmei6-yet).
 
 Put 未 at the end of a 咗 sentence to ask 'yet?'. Answer …咗喇 (yes, already) or 未呀 (not yet). Before a verb, 未 means 'haven't yet'. 食咗飯未呀？ is also an everyday greeting.
 

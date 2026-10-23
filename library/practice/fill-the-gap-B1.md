@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> ⚠️ **16 of 16 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **16 of 16 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 我搵＿＿我條鎖匙喇。  
 ngo5 wan2 \_\_\_ ngo5 tiu4 so2 si4 laa3.  

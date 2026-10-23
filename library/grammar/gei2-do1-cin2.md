@@ -4,7 +4,7 @@
 
 **Meaning:** How much is…? · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgei2-do1-cin2).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgei2-do1-cin2).
 
 Put 幾多錢 after the thing you are asking about. Prices are answered with a number + 蚊 (man1, dollars): 三十蚊.
 
@@ -38,7 +38,7 @@ Put 幾多錢 after the thing you are asking about. Prices are answered with a n
 
 ## Common mistakes
 
-- ✗ ~~這個多少錢？~~ → ✓ **呢個幾多錢呀？** *ni1 go3 gei2 do1 cin2 aa3?* · *nī go géi dō chín a?*  
+- Not ~~這個多少錢？~~ but **呢個幾多錢呀？** *ni1 go3 gei2 do1 cin2 aa3?* · *nī go géi dō chín a?*  
   這 and 多少 are written forms.
 
 ## Related patterns

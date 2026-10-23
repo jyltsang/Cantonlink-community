@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> ⚠️ **24 of 24 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **24 of 24 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 我＿＿學生。  
 ngo5 \_\_\_ hok6 saang1.  

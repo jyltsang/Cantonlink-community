@@ -4,7 +4,7 @@
 
 **Meaning:** don't (telling someone not to) · **Level:** A1 · **Topic:** Negation
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-hou2-dont).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-hou2-dont).
 
 唔好 before a verb tells someone not to do something. It is the everyday way to say 'don't'. Compare 唔使, which means 'there's no need to'.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~不要擔心。~~ → ✓ **唔好擔心。** *m4 hou2 daam1 sam1.* · *m̀h hóu dāam sām.*  
+- Not ~~不要擔心。~~ but **唔好擔心。** *m4 hou2 daam1 sam1.* · *m̀h hóu dāam sām.*  
   不要 is written Chinese. Say 唔好.
 
 ## Related patterns

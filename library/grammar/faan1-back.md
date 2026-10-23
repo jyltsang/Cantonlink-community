@@ -4,7 +4,7 @@
 
 **Meaning:** back; again; return to a previous state · **Level:** B1 · **Topic:** Verb endings and complements
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Ffaan1-back).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Ffaan1-back).
 
 返 after a verb means getting something back or returning to how things were: 攞返 (take back), 還返 (give back), 好返 (get better).
 

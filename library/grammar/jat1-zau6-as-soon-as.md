@@ -4,7 +4,7 @@
 
 **Meaning:** as soon as …; whenever … · **Level:** B1 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjat1-zau6-as-soon-as).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjat1-zau6-as-soon-as).
 
 一 before the first verb and 就 before the second link two events closely: as soon as one happens, the other follows.
 

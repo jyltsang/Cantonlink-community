@@ -4,7 +4,7 @@
 
 **Meaning:** friendly softener for questions and replies · **Level:** A1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Faa3-softener).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Faa3-softener).
 
 Sentence-final particles add tone of voice. 呀 makes questions and short answers sound warm rather than blunt. 你去邊度？ is abrupt; 你去邊度呀？ is friendly.
 

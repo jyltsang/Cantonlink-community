@@ -1,0 +1,137 @@
+export const REPO = 'https://github.com/jyltsang/Cantonlink-community';
+export const SYSTEM_LANG = { jyutping: 'yue-Latn', yale: 'yue-Latn', bopomofo: 'yue-Bopo' };
+export const SYSTEM_NAME = { jyutping: 'Jyutping', yale: 'Yale', bopomofo: 'Bopomofo' };
+export const LEVELS = ['A1', 'A2', 'B1'];
+
+// --- Browser storage (optional: the site works without it) ---------------
+
+function read(key, fallback) {
+  try {
+    return JSON.parse(localStorage.getItem(key) ?? 'null') ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+function write(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // Private browsing or blocked storage: keep going for this visit only.
+  }
+}
+
+export const settings = { system: 'jyutping', showCjk: true, ...read('cantonlink-settings', {}) };
+export const saveSettings = () => write('cantonlink-settings', settings);
+
+// Missed items are kept so learners can review them later. Keys look like
+// "fill:hai6-copula:0", "build:…", "tone:飲:0" or "card:food-and-dim-sum:飲".
+const progress = { mistakes: {}, answered: 0, correct: 0, ...read('cantonlink-progress', {}) };
+const saveProgress = () => write('cantonlink-progress', progress);
+
+export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
+  progress.answered++;
+  if (isCorrect) progress.correct++;
+  if (!isCorrect) progress.mistakes[key] = Date.now();
+  else if (reviewing) delete progress.mistakes[key];
+  saveProgress();
+  document.dispatchEvent(new CustomEvent('progresschange'));
+}
+export const mistakeKeys = () => Object.keys(progress.mistakes);
+export const stats = () => ({ answered: progress.answered, correct: progress.correct, toReview: mistakeKeys().length });
+
+export function exportProgress() {
+  return JSON.stringify({ app: 'cantonlink-community', version: 1, exported: new Date().toISOString(), settings, progress }, null, 2);
+}
+export function importProgress(text) {
+  const data = JSON.parse(text);
+  if (data?.app !== 'cantonlink-community' || typeof data.progress !== 'object') throw new Error('This file is not a CantonLink progress file.');
+  Object.assign(progress, { mistakes: {}, answered: 0, correct: 0 }, data.progress);
+  Object.assign(settings, data.settings ?? {});
+  saveProgress();
+  saveSettings();
+  document.dispatchEvent(new CustomEvent('progresschange'));
+}
+export function resetProgress() {
+  Object.assign(progress, { mistakes: {}, answered: 0, correct: 0 });
+  saveProgress();
+  document.dispatchEvent(new CustomEvent('progresschange'));
+}
+
+// --- DOM helpers ----------------------------------------------------------
+
+export function h(tag, attrs = {}, ...children) {
+  const el = document.createElement(tag);
+  for (const [key, value] of Object.entries(attrs)) {
+    if (value === false || value == null) continue;
+    if (key.startsWith('on')) el.addEventListener(key.slice(2), value);
+    else if (key === 'class') el.className = value;
+    else el.setAttribute(key, value === true ? '' : value);
+  }
+  for (const child of children.flat()) if (child != null && child !== false) el.append(child);
+  return el;
+}
+
+export const app = document.getElementById('app');
+export function show(...nodes) {
+  app.replaceChildren(...nodes.flat().filter((n) => n != null && n !== false));
+}
+
+export function shuffle(items) {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+export const sample = (items, n) => shuffle(items).slice(0, n);
+
+export const reportUrl = (entry) => `${REPO}/issues/new?template=content-error.yml&title=${encodeURIComponent(`[Correction] ${entry}`)}`;
+
+// Lower-case, without tone numbers, accents or spaces, for forgiving search.
+export const fold = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[1-6\s'’.,!?]/g, '');
+
+// --- Cantonese rendering --------------------------------------------------
+
+export const rom = (word, cls = 'rom') => h('span', { class: cls, lang: SYSTEM_LANG[settings.system] }, word[settings.system]);
+export const han = (word, cls = 'han') => (settings.showCjk ? h('span', { class: cls, lang: 'yue-Hant-HK' }, word.cjk) : null);
+
+export function sentenceEl(tokens, { blankIndex = -1, filled = null, highlight = -1 } = {}) {
+  return h('p', { class: 'sentence' }, tokens.map((t, i) => {
+    if (t.punctuation) return h('span', { class: 'word punct' }, h('span', { class: 'rom' }, settings.system === 'bopomofo' ? t.cjk : t.punctuation));
+    if (i === blankIndex) {
+      const w = filled ?? { cjk: '＿＿', jyutping: ' ', yale: ' ', bopomofo: ' ' };
+      return h('span', { class: 'word blank' }, rom(w), han(w));
+    }
+    return h('span', { class: `word${i === highlight ? ' highlight' : ''}` }, rom(t), han(t));
+  }));
+}
+
+export function sentenceText(sentence) {
+  return h('span', {}, settings.showCjk ? h('span', { class: 'cjk', lang: 'yue-Hant-HK' }, sentence.cjk, ' ') : null, h('span', { lang: SYSTEM_LANG[settings.system] }, sentence[settings.system]));
+}
+
+// --- Shared page pieces ---------------------------------------------------
+
+export function pageHead(title, { back = ['#/', 'Home'], lede } = {}) {
+  return [
+    h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' }, h('a', { href: back[0] }, `← ${back[1]}`)),
+    h('h1', {}, title),
+    lede ? h('p', { class: 'lede' }, lede) : null,
+  ];
+}
+
+export function chips(options, current, onPick, label) {
+  return h('div', { class: 'chip-row', role: 'group', 'aria-label': label },
+    options.map(([value, text]) => h('button', { class: 'chip', type: 'button', 'aria-pressed': String(value === current), onclick: () => onPick(value) }, text)));
+}
+
+export const tag = (text, kind = '') => h('span', { class: `tag ${kind}` }, text);
+export const draftTag = (review) => (review.status === 'reviewed' ? tag('Reviewed', 'tag-good') : tag('Draft', 'tag-draft'));
+
+export const reportLine = (entry) => h('p', { class: 'report' }, 'Something unnatural? ', h('a', { href: reportUrl(entry), target: '_blank', rel: 'noopener' }, 'Report it'));
+
+export function parseHash() {
+  const [path, query = ''] = location.hash.replace(/^#\/?/, '').split('?');
+  return { parts: path.split('/').filter(Boolean).map(decodeURIComponent), query: new URLSearchParams(query) };
+}

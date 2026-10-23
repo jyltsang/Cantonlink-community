@@ -4,7 +4,7 @@
 
 **Meaning:** because …, so … · **Level:** A2 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjan1-wai6-because).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjan1-wai6-because).
 
 因為 introduces the reason and 所以 the result. Unlike English, using both in one sentence is normal. Either half can also stand alone.
 

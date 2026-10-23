@@ -4,7 +4,7 @@
 
 **Meaning:** finish doing · **Level:** A2 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyun4-finish).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyun4-finish).
 
 完 after a verb means the action is finished: 做完 (finish doing), 食完 (finish eating). It often comes with 咗 or 喇.
 

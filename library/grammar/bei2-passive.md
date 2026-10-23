@@ -4,7 +4,7 @@
 
 **Meaning:** passive: was done by · **Level:** B1 · **Topic:** Passive
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fbei2-passive).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fbei2-passive).
 
 To say something was done to someone, use 畀 followed by who did it. If you don't know who, use 畀人 ('by someone'). Spoken Cantonese never uses written 被 here.
 
@@ -38,7 +38,7 @@ To say something was done to someone, use 畀 followed by who did it. If you don
 
 ## Common mistakes
 
-- ✗ ~~我的錢包被偷了。~~ → ✓ **我個銀包畀人偷咗。** *ngo5 go3 ngan4 baau1 bei2 jan4 tau1 zo2.* · *ngóh go ngàhn bāau béi yàhn tāu jó.*  
+- Not ~~我的錢包被偷了。~~ but **我個銀包畀人偷咗。** *ngo5 go3 ngan4 baau1 bei2 jan4 tau1 zo2.* · *ngóh go ngàhn bāau béi yàhn tāu jó.*  
   的, 錢包, 被 and 了 are written forms.
 
 ## Related patterns

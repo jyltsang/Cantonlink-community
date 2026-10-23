@@ -4,7 +4,7 @@
 
 **Meaning:** 's / of (possession and description) · **Level:** A1 · **Topic:** Possession and description
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fge3-possessive).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fge3-possessive).
 
 嘅 joins an owner or a description to a noun: 我嘅書 (my book), 好食嘅餐廳 (a good restaurant). With family and close friends it is usually dropped: 我媽媽, 我朋友.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~這是我的書。~~ → ✓ **呢本係我嘅書。** *ni1 bun2 hai6 ngo5 ge3 syu1.* · *nī bún haih ngóh ge syū.*  
+- Not ~~這是我的書。~~ but **呢本係我嘅書。** *ni1 bun2 hai6 ngo5 ge3 syu1.* · *nī bún haih ngóh ge syū.*  
   這 and 的 are written forms. Speech uses 呢 + classifier and 嘅.
 
 ## Related patterns

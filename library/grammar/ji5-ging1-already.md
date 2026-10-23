@@ -4,7 +4,7 @@
 
 **Meaning:** already · **Level:** A2 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fji5-ging1-already).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fji5-ging1-already).
 
 已經 goes before the verb, and the sentence usually ends with 喇 to mark the new situation.
 

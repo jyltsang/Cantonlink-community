@@ -4,7 +4,7 @@
 
 **Meaning:** how (to do something) · **Level:** A2 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdim2-how).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdim2-how).
 
 點 or 點樣 before a verb asks how to do it. 點去…？ ('how to get to…?') is essential for directions.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** seems; looks like; to be like · **Level:** B1 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhou2-ci5-seem).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhou2-ci5-seem).
 
 好似 means 'seems' before a description, or 'to be like' before a noun: 佢好似唔開心 (she seems unhappy), 你好似你爸爸 (you look like your dad).
 

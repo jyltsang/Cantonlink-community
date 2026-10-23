@@ -4,7 +4,7 @@
 
 **Meaning:** how well / how fast someone does something · **Level:** B1 · **Topic:** Verb endings and complements
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdak1-degree).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdak1-degree).
 
 To describe how an action is done, put 得 after the verb and then the description: 行得好慢 (walks slowly). If the verb has an object, say the verb twice: 講廣東話講得好好.
 

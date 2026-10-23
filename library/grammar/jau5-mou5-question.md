@@ -4,7 +4,7 @@
 
 **Meaning:** Is there…? / Do you have…? · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjau5-mou5-question).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjau5-mou5-question).
 
 有冇 ('have or not have') turns 有 into a question. Answer 有 for yes or 冇 for no. Ending with 呀 makes it sound friendly.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** to want (something); to need to / have to · **Level:** A1 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjiu3-want-need).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjiu3-want-need).
 
 要 + noun is how you order or ask for things. 要 + verb means 'need to' or 'have to'. Its negative, 唔要, means 'don't want'; 'don't need to' is 唔使.
 

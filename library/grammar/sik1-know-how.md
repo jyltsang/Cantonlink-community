@@ -4,7 +4,7 @@
 
 **Meaning:** know how to; can (a learned skill) · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsik1-know-how).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsik1-know-how).
 
 識 before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than 會, which leans towards 'will'.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~我不會說廣東話。~~ → ✓ **我唔識講廣東話。** *ngo5 m4 sik1 gong2 gwong2 dung1 waa2.* · *ngóh m̀h sīk góng gwóng dūng wá.*  
+- Not ~~我不會說廣東話。~~ but **我唔識講廣東話。** *ngo5 m4 sik1 gong2 gwong2 dung1 waa2.* · *ngóh m̀h sīk góng gwóng dūng wá.*  
   不, 會 and 說 are written forms. Speech uses 唔識講.
 
 ## Related patterns

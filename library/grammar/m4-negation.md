@@ -4,7 +4,7 @@
 
 **Meaning:** not · **Level:** A1 · **Topic:** Negation
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-negation).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-negation).
 
 Put 唔 directly before a verb or adjective to negate it. The one big exception is 有 (to have): its negative is 冇, never 唔有.
 
@@ -38,7 +38,7 @@ Put 唔 directly before a verb or adjective to negate it. The one big exception 
 
 ## Common mistakes
 
-- ✗ ~~我不去。~~ → ✓ **我唔去。** *ngo5 m4 heoi3.* · *ngóh m̀h heui.*  
+- Not ~~我不去。~~ but **我唔去。** *ngo5 m4 heoi3.* · *ngóh m̀h heui.*  
   不 is written Chinese. Say 唔.
 
 ## Related patterns

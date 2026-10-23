@@ -4,7 +4,7 @@
 
 **Meaning:** very · **Level:** A1 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhou2-very).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhou2-very).
 
 Adjectives work like verbs, so no 係 is needed. A bare adjective can sound incomplete or comparative, so 好 is added by default — it often means just 'is' rather than a strong 'very'.
 
@@ -38,7 +38,7 @@ Adjectives work like verbs, so no 係 is needed. A bare adjective can sound inco
 
 ## Common mistakes
 
-- ✗ ~~很好~~ → ✓ **好好** *hou2 hou2* · *hóu hóu*  
+- Not ~~很好~~ but **好好** *hou2 hou2* · *hóu hóu*  
   很 is written Chinese. 'Very good' is 好好.
 
 ## Related patterns

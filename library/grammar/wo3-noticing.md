@@ -4,7 +4,7 @@
 
 **Meaning:** noticing something; passing on what someone said · **Level:** B1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fwo3-noticing).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fwo3-noticing).
 
 喎 marks something you have just noticed ('oh, look…') or information you are passing on from someone else ('he said…').
 

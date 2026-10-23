@@ -4,7 +4,7 @@
 
 **Meaning:** to have; there is / there isn't · **Level:** A1 · **Topic:** Being and having
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjau5-mou5).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjau5-mou5).
 
 有 means both 'to have' and 'there is'. Its negative is the single word 冇 — 唔有 is always wrong.
 
@@ -38,9 +38,9 @@
 
 ## Common mistakes
 
-- ✗ ~~我唔有錢。~~ → ✓ **我冇錢。** *ngo5 mou5 cin2.* · *ngóh móuh chín.*  
+- Not ~~我唔有錢。~~ but **我冇錢。** *ngo5 mou5 cin2.* · *ngóh móuh chín.*  
   The negative of 有 is 冇, not 唔有.
-- ✗ ~~沒有錢。~~ → ✓ **冇錢。** *mou5 cin2.* · *móuh chín.*  
+- Not ~~沒有錢。~~ but **冇錢。** *mou5 cin2.* · *móuh chín.*  
   沒有 is written Chinese.
 
 ## Related patterns

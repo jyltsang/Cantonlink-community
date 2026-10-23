@@ -4,7 +4,7 @@
 
 Every word in the topic lists, sorted by its English meaning, with 漢字, Jyutping, Yale and Bopomofo side by side.
 
-> ⚠️ **12 of 12 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **12 of 12 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [Y](#y) · [Z](#z)
 

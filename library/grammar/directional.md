@@ -4,7 +4,7 @@
 
 **Meaning:** direction of movement · **Level:** B1 · **Topic:** Verb endings and complements
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdirectional).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdirectional).
 
 嚟 means towards the speaker and 去 away from the speaker. Add 出 (out), 入 (in), 上 (up) or 落 (down) for the direction, and they can follow another verb: 行出去 (walk out).
 

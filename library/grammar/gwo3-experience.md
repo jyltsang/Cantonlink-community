@@ -4,7 +4,7 @@
 
 **Meaning:** have ever done (experience) · **Level:** A2 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgwo3-experience).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgwo3-experience).
 
 過 after a verb says you have had the experience at some point: 'have been to', 'have tried'. 未 + Verb + 過 means 'have never'.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** suggestion, invitation or gentle request · **Level:** A1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flaa1-suggestion).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flaa1-suggestion).
 
 啦 (laa1, high level tone) turns a statement into a suggestion or polite urging: 'let's…', 'go ahead and…'. Don't confuse it with 喇 (laa3), which marks a change of situation.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~我們走吧。~~ → ✓ **我哋走啦。** *ngo5 dei6 zau2 laa1.* · *ngóh deih jáu lā.*  
+- Not ~~我們走吧。~~ but **我哋走啦。** *ngo5 dei6 zau2 laa1.* · *ngóh deih jáu lā.*  
   我們 and 吧 are written forms. Speech uses 我哋 and 啦.
 
 ## Related patterns

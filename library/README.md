@@ -2,11 +2,11 @@
 
 # The library
 
-> ⚠️ **73 of 73 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **73 of 73 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
-- 📖 [Grammar patterns](grammar/README.md) — 60 patterns, A1–A2
-- 🗂️ [Topic vocabulary](vocabulary/README.md) — 360 words in 12 topics
-- 🔎 [English → Cantonese index](english-index.md)
-- ✍️ [Practice worksheets](practice/README.md)
-- 🔤 [Romanisation guide](romanisation.md) — Jyutping, Yale and Bopomofo
-- ✅ [Review status](review-status.md) — what has been checked by native speakers
+- [Grammar patterns](grammar/README.md) — 60 patterns, A1–B1
+- [Topic vocabulary](vocabulary/README.md) — 360 words in 12 topics
+- [English → Cantonese index](english-index.md)
+- [Practice worksheets](practice/README.md)
+- [Romanisation guide](romanisation.md) — Jyutping, Yale and Bopomofo
+- [Review status](review-status.md) — what has been checked by native speakers

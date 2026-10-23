@@ -4,7 +4,7 @@
 
 **Meaning:** …or…? (choosing in a question) · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fding6-hai6-or).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fding6-hai6-or).
 
 定係 (often shortened to 定) offers a choice in a question: tea or coffee? In a statement, 'or' is 或者 instead.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~你要茶還是咖啡？~~ → ✓ **你要茶定係咖啡呀？** *nei5 jiu3 caa4 ding6 hai6 gaa3 fe1 aa3?* · *néih yiu chàh dihng haih ga fē a?*  
+- Not ~~你要茶還是咖啡？~~ but **你要茶定係咖啡呀？** *nei5 jiu3 caa4 ding6 hai6 gaa3 fe1 aa3?* · *néih yiu chàh dihng haih ga fē a?*  
   還是 is written Chinese; 或者 is for statements, not questions.
 
 ## Related patterns

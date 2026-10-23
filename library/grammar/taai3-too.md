@@ -4,7 +4,7 @@
 
 **Meaning:** too (much) · **Level:** A2 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Ftaai3-too).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Ftaai3-too).
 
 太 before an adjective means 'too'. It is very often followed by 喇, which marks the situation as having gone past what's acceptable.
 

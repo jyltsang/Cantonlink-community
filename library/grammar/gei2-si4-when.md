@@ -4,7 +4,7 @@
 
 **Meaning:** when · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgei2-si4-when).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgei2-si4-when).
 
 幾時 goes before the verb, where the time word would go in the answer: 你幾時返工？ — 我九點返工.
 

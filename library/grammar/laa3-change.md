@@ -4,7 +4,7 @@
 
 **Meaning:** change of situation; 'now' · **Level:** A2 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flaa3-change).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flaa3-change).
 
 喇 (laa3, mid level tone) signals that something has changed or a new situation now holds: I'm full now, it's started raining. Compare 啦 (laa1), which makes suggestions.
 

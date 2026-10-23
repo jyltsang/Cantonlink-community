@@ -4,7 +4,7 @@
 
 **Meaning:** the … that / who … (relative clauses) · **Level:** B1 · **Topic:** Possession and description
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Frelative-ge3).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Frelative-ge3).
 
 To describe a noun with a whole phrase, put the phrase first, then 嘅, then the noun: 我尋日買嘅衫 ('the top I bought yesterday'). English puts the description after the noun; Cantonese puts it before.
 

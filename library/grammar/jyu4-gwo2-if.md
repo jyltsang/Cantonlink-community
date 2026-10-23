@@ -4,7 +4,7 @@
 
 **Meaning:** if …, then … · **Level:** B1 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyu4-gwo2-if).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyu4-gwo2-if).
 
 如果 introduces the condition and 就 the result. 就 goes after the subject of the second half, before the verb.
 

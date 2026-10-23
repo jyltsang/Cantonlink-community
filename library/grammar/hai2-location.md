@@ -4,7 +4,7 @@
 
 **Meaning:** to be at / in · **Level:** A1 · **Topic:** Location and pointing
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhai2-location).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhai2-location).
 
 喺 (hai2) says where someone or something is, or where an action happens. Don't confuse it with 係 (hai6, 'to be') — only the tone is different.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~你在哪裏？~~ → ✓ **你喺邊度呀？** *nei5 hai2 bin1 dou6 aa3?* · *néih hái bīn douh a?*  
+- Not ~~你在哪裏？~~ but **你喺邊度呀？** *nei5 hai2 bin1 dou6 aa3?* · *néih hái bīn douh a?*  
   在 and 哪裏 are written forms. Speech uses 喺 and 邊度.
 
 ## Related patterns

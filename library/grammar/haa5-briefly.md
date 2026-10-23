@@ -4,7 +4,7 @@
 
 **Meaning:** do briefly; have a go · **Level:** A2 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhaa5-briefly).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhaa5-briefly).
 
 吓 after a verb softens it: 'have a quick look', 'give it a try', 'wait a moment'. It makes requests and suggestions sound relaxed.
 

@@ -2,7 +2,7 @@
 
 # Shopping · 買嘢
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20vocabulary%2Fshopping).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20vocabulary%2Fshopping).
 
 | # | 漢字 | Jyutping | Yale | Bopomofo | English | Classifier |
 |---|---|---|---|---|---|---|

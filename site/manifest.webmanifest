@@ -1,0 +1,14 @@
+{
+  "name": "CantonLink Community Edition",
+  "short_name": "CantonLink",
+  "description": "Free lessons and practice for spoken Hong Kong Cantonese.",
+  "lang": "en-GB",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#1a1614",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

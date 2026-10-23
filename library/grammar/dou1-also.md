@@ -4,7 +4,7 @@
 
 **Meaning:** also; both / all · **Level:** A2 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdou1-also).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdou1-also).
 
 都 means 'also' or 'all' and always goes before the verb — never at the end of the sentence like English 'too'. With a negative, 都唔 means 'not … either'.
 
@@ -38,7 +38,7 @@
 
 ## Common mistakes
 
-- ✗ ~~我係學生都。~~ → ✓ **我都係學生。** *ngo5 dou1 hai6 hok6 saang1.* · *ngóh dōu haih hohk sāang.*  
+- Not ~~我係學生都。~~ but **我都係學生。** *ngo5 dou1 hai6 hok6 saang1.* · *ngóh dōu haih hohk sāang.*  
   都 goes before the verb, not at the end.
 
 ## Related patterns

@@ -4,7 +4,7 @@
 
 **Meaning:** A is more … than B · **Level:** A2 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgwo3-comparison).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fgwo3-comparison).
 
 To compare, put 過 after the adjective: 佢高過我 ('he tall-past me'). The written-style 佢比我高 is understood, but 過 is the natural spoken form.
 
@@ -38,7 +38,7 @@ To compare, put 過 after the adjective: 佢高過我 ('he tall-past me'). The w
 
 ## Common mistakes
 
-- ✗ ~~他比我高。~~ → ✓ **佢高過我。** *keoi5 gou1 gwo3 ngo5.* · *kéuih gōu gwo ngóh.*  
+- Not ~~他比我高。~~ but **佢高過我。** *keoi5 gou1 gwo3 ngo5.* · *kéuih gōu gwo ngóh.*  
   他 is written; 比 sounds bookish in casual speech.
 
 ## Related patterns

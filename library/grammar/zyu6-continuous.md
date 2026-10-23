@@ -4,7 +4,7 @@
 
 **Meaning:** keep doing; in a continuing state · **Level:** B1 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fzyu6-continuous).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fzyu6-continuous).
 
 住 after a verb describes an ongoing state rather than an action in progress: 戴住眼鏡 (wearing glasses), 攞住 (holding). Compare 緊, which describes an action happening now.
 

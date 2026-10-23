@@ -4,7 +4,7 @@
 
 **Meaning:** more and more … · **Level:** B1 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyut6-lai4-jyut6).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjyut6-lai4-jyut6).
 
 越嚟越 before an adjective describes something that keeps increasing: hotter and hotter, better and better.
 

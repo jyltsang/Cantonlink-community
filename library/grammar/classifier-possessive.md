@@ -4,7 +4,7 @@
 
 **Meaning:** my / your / her (a specific thing) · **Level:** A2 · **Topic:** Possession and description
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fclassifier-possessive).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fclassifier-possessive).
 
 Instead of 嘅, Cantonese often joins an owner to a specific thing with its classifier: 我部手機 is 'my phone', 佢間屋 is 'her flat'. This is very common in everyday speech.
 

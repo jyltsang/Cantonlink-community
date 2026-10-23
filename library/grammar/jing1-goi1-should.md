@@ -4,7 +4,7 @@
 
 **Meaning:** should; ought to; probably · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjing1-goi1-should).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fjing1-goi1-should).
 
 應該 gives advice ('you should') or a reasonable guess ('she should be there by now').
 

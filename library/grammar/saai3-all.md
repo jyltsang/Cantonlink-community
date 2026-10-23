@@ -4,7 +4,7 @@
 
 **Meaning:** all; completely; entirely · **Level:** B1 · **Topic:** Verb endings and complements
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsaai3-all).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsaai3-all).
 
 晒 after a verb means the action covers everything: 賣晒 (sold out), 食晒 (ate it all). 唔該晒 and 多謝晒 mean 'thanks very much'.
 

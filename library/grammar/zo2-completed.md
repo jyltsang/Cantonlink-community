@@ -4,7 +4,7 @@
 
 **Meaning:** completed action · **Level:** A1 · **Topic:** Time and aspect
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fzo2-completed).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fzo2-completed).
 
 Add 咗 straight after a verb to show the action has happened or been completed. It often translates as an English past tense or 'have done'.
 
@@ -38,7 +38,7 @@ Add 咗 straight after a verb to show the action has happened or been completed.
 
 ## Common mistakes
 
-- ✗ ~~我吃了飯。~~ → ✓ **我食咗飯。** *ngo5 sik6 zo2 faan6.* · *ngóh sihk jó faahn.*  
+- Not ~~我吃了飯。~~ but **我食咗飯。** *ngo5 sik6 zo2 faan6.* · *ngóh sihk jó faahn.*  
   吃 and 了 are written forms. Speech uses 食 and 咗.
 
 ## Related patterns

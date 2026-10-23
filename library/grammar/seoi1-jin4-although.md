@@ -4,7 +4,7 @@
 
 **Meaning:** although …, (but) … · **Level:** B1 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fseoi1-jin4-although).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fseoi1-jin4-although).
 
 雖然 introduces a contrast and 但係 the main point. Unlike English, both words are normally used in the same sentence.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** no need to; don't have to · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-sai2-no-need).
+> **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-sai2-no-need).
 
 唔使 says something isn't necessary. It is the negative of 要 ('need to'). Don't confuse it with 唔好, which tells someone not to do something.
 
