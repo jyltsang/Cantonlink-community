@@ -1,0 +1,606 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jyltsang/Cantonlink-community/blob/main/dist/schema.json",
+  "title": "CantonLink Community data",
+  "description": "Grammar patterns, topic vocabulary, a learning path and practice items for spoken Hong Kong Cantonese. English words in code-mixed phrases (寫 code) appear unchanged in every romanisation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "licence",
+    "source",
+    "grammar",
+    "vocabulary",
+    "path",
+    "practice"
+  ],
+  "properties": {
+    "licence": {
+      "const": "CC BY-SA 4.0"
+    },
+    "source": {
+      "type": "string",
+      "description": "Repository the data comes from"
+    },
+    "grammar": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pattern"
+      },
+      "description": "Grammar patterns, A1 to B1"
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/topic"
+      },
+      "description": "Vocabulary topics"
+    },
+    "path": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      },
+      "description": "Learning path units in teaching order"
+    },
+    "practice": {
+      "type": "object",
+      "properties": {
+        "fillGap": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fillGap"
+          }
+        },
+        "buildSentence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/buildSentence"
+          }
+        },
+        "spokenOrWritten": {
+          "type": "object",
+          "properties": {
+            "review": {
+              "$ref": "#/$defs/review"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/spokenOrWritten"
+              }
+            }
+          },
+          "required": [
+            "review",
+            "items"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "fillGap",
+        "buildSentence",
+        "spokenOrWritten"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "word": {
+      "type": "object",
+      "properties": {
+        "cjk": {
+          "type": "string",
+          "description": "Traditional Chinese characters, as written in Hong Kong"
+        },
+        "jyutping": {
+          "type": "string",
+          "description": "Jyutping with tone numbers 1–6; the source of truth"
+        },
+        "yale": {
+          "type": "string",
+          "description": "Yale romanisation with tone marks, generated from the Jyutping"
+        },
+        "bopomofo": {
+          "type": "string",
+          "description": "Cantonese Bopomofo, generated from the Jyutping"
+        }
+      },
+      "required": [
+        "cjk",
+        "jyutping",
+        "yale",
+        "bopomofo"
+      ],
+      "additionalProperties": false
+    },
+    "punctuation": {
+      "type": "object",
+      "properties": {
+        "cjk": {
+          "type": "string",
+          "description": "Chinese punctuation mark"
+        },
+        "punctuation": {
+          "type": "string",
+          "description": "The same mark in Latin script"
+        }
+      },
+      "required": [
+        "cjk",
+        "punctuation"
+      ],
+      "additionalProperties": false
+    },
+    "token": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/word"
+        },
+        {
+          "$ref": "#/$defs/punctuation"
+        }
+      ],
+      "description": "One word of a sentence, or a punctuation mark"
+    },
+    "sentence": {
+      "type": "object",
+      "properties": {
+        "cjk": {
+          "type": "string",
+          "description": "Traditional Chinese characters, as written in Hong Kong"
+        },
+        "jyutping": {
+          "type": "string",
+          "description": "Jyutping with tone numbers 1–6; the source of truth"
+        },
+        "yale": {
+          "type": "string",
+          "description": "Yale romanisation with tone marks, generated from the Jyutping"
+        },
+        "bopomofo": {
+          "type": "string",
+          "description": "Cantonese Bopomofo, generated from the Jyutping"
+        },
+        "en": {
+          "type": "string",
+          "description": "English meaning"
+        }
+      },
+      "required": [
+        "cjk",
+        "jyutping",
+        "yale",
+        "bopomofo"
+      ],
+      "additionalProperties": false
+    },
+    "example": {
+      "type": "object",
+      "properties": {
+        "cjk": {
+          "type": "string",
+          "description": "Traditional Chinese characters, as written in Hong Kong"
+        },
+        "jyutping": {
+          "type": "string",
+          "description": "Jyutping with tone numbers 1–6; the source of truth"
+        },
+        "yale": {
+          "type": "string",
+          "description": "Yale romanisation with tone marks, generated from the Jyutping"
+        },
+        "bopomofo": {
+          "type": "string",
+          "description": "Cantonese Bopomofo, generated from the Jyutping"
+        },
+        "en": {
+          "type": "string",
+          "description": "English meaning"
+        },
+        "tokens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/token"
+          },
+          "description": "The sentence word by word"
+        }
+      },
+      "required": [
+        "cjk",
+        "jyutping",
+        "yale",
+        "bopomofo",
+        "en",
+        "tokens"
+      ],
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "description": "Native-speaker review: an entry is reviewed once two native speakers have checked it",
+      "required": [
+        "status",
+        "reviewers"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "pattern": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable identifier, used in links and practice ids"
+        },
+        "pattern": {
+          "type": "string",
+          "description": "The pattern, e.g. \"Verb + 咗\""
+        },
+        "jyutping": {
+          "type": "string"
+        },
+        "meaning": {
+          "type": "string",
+          "description": "Short English meaning"
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        "function": {
+          "type": "string",
+          "description": "Function id, e.g. \"aspect\""
+        },
+        "functionName": {
+          "type": "string",
+          "description": "Function name, e.g. \"Time and aspect\""
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "writtenEquivalent": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "cjk": {
+                  "type": "string",
+                  "description": "The Standard Written Chinese form"
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "cjk",
+                "note"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The Standard Written Chinese equivalent, where it differs from speech"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/example"
+          }
+        },
+        "mistakes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "incorrect": {
+                "type": "string"
+              },
+              "correct": {
+                "$ref": "#/$defs/sentence"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "incorrect",
+              "correct",
+              "note"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "id of a related pattern"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        }
+      },
+      "required": [
+        "id",
+        "pattern",
+        "jyutping",
+        "meaning",
+        "level",
+        "function",
+        "functionName",
+        "explanation",
+        "writtenEquivalent",
+        "examples",
+        "mistakes",
+        "related",
+        "review"
+      ],
+      "additionalProperties": false
+    },
+    "vocabularyWord": {
+      "type": "object",
+      "properties": {
+        "cjk": {
+          "type": "string",
+          "description": "Traditional Chinese characters, as written in Hong Kong"
+        },
+        "jyutping": {
+          "type": "string",
+          "description": "Jyutping with tone numbers 1–6; the source of truth"
+        },
+        "yale": {
+          "type": "string",
+          "description": "Yale romanisation with tone marks, generated from the Jyutping"
+        },
+        "bopomofo": {
+          "type": "string",
+          "description": "Cantonese Bopomofo, generated from the Jyutping"
+        },
+        "en": {
+          "type": "string"
+        },
+        "pos": {
+          "type": "string",
+          "description": "Part of speech, e.g. noun, verb, phrase"
+        },
+        "classifier": {
+          "$ref": "#/$defs/word",
+          "description": "The measure word used when counting or pointing"
+        },
+        "note": {
+          "type": "string",
+          "description": "Usage note"
+        }
+      },
+      "required": [
+        "cjk",
+        "jyutping",
+        "yale",
+        "bopomofo",
+        "en",
+        "pos"
+      ],
+      "additionalProperties": false
+    },
+    "topic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "titleCjk": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string",
+          "description": "Usage note for the whole topic"
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        },
+        "words": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/vocabularyWord"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "titleCjk",
+        "review",
+        "words"
+      ],
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "titleWord": {
+          "$ref": "#/$defs/word"
+        },
+        "scenario": {
+          "type": "string",
+          "description": "AI tutor scenario id"
+        },
+        "goal": {
+          "type": "string",
+          "description": "What the learner can do after the unit"
+        },
+        "patterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "pattern id"
+          }
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "topic id"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "level",
+        "title",
+        "titleWord",
+        "scenario",
+        "goal",
+        "patterns",
+        "topics"
+      ],
+      "additionalProperties": false
+    },
+    "fillGap": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "\"<pattern id>:<example index>\""
+        },
+        "patternId": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        "en": {
+          "type": "string"
+        },
+        "tokens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/token"
+          }
+        },
+        "gapIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/word"
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "The answer first, then three distractors"
+        }
+      },
+      "required": [
+        "id",
+        "patternId",
+        "level",
+        "en",
+        "tokens",
+        "gapIndex",
+        "options"
+      ],
+      "additionalProperties": false
+    },
+    "buildSentence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "patternId": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "A1",
+            "A2",
+            "B1"
+          ]
+        },
+        "en": {
+          "type": "string"
+        },
+        "tokens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/token"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "patternId",
+        "level",
+        "en",
+        "tokens"
+      ],
+      "additionalProperties": false
+    },
+    "spokenOrWritten": {
+      "type": "object",
+      "properties": {
+        "written": {
+          "type": "string",
+          "description": "Standard Written Chinese"
+        },
+        "spoken": {
+          "$ref": "#/$defs/sentence"
+        },
+        "changes": {
+          "type": "string",
+          "description": "What changes, e.g. \"他 → 佢\""
+        }
+      },
+      "required": [
+        "written",
+        "spoken",
+        "changes"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

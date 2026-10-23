@@ -79,7 +79,19 @@ New to MCP? The **[MCP guide](docs/MCP_GUIDE.md)** explains how it works, how to
 
 ## Reuse the data
 
-[`dist/cantonlink-community.json`](dist/cantonlink-community.json) contains every pattern, example, word and practice item with all three romanisations, ready for your own app, flashcard deck or class materials under CC BY-SA 4.0.
+[`dist/cantonlink-community.json`](dist/cantonlink-community.json) contains every pattern, example, word, learning-path unit and practice item with all three romanisations, ready for your own app, flashcard deck or class materials under CC BY-SA 4.0.
+
+| File | What it is |
+|---|---|
+| [`dist/cantonlink-community.json`](dist/cantonlink-community.json) | The full data, every sentence with 漢字, Jyutping, Yale and Bopomofo, and word by word |
+| [`dist/schema.json`](dist/schema.json) | A JSON Schema (draft 2020-12) describing every field; use it to validate the file or generate types |
+| [`dist/site-data.json`](dist/site-data.json) | A compact copy (about a seventh of the size) that the website loads; [`tools/data.mjs`](tools/data.mjs) `hydrate()` turns it back into the full structure |
+
+```js
+const data = await (await fetch('https://raw.githubusercontent.com/jyltsang/Cantonlink-community/main/dist/cantonlink-community.json')).json();
+const pattern = data.grammar.find((p) => p.id === 'zo2-completed');
+console.log(pattern.examples[0].jyutping, '·', pattern.examples[0].en);
+```
 
 ## Documents
 
@@ -93,7 +105,7 @@ New to MCP? The **[MCP guide](docs/MCP_GUIDE.md)** explains how it works, how to
 
 ## Relationship to CantoLink
 
-This is the free, open companion to [CantoLink](https://cantolink.org), an AI-powered Cantonese learning platform. The Community Edition covers reference material and drills; the paid product adds AI conversation practice and personalised learning paths.
+This is the free, open companion to [CantoLink](https://cantolink.org), an AI-powered Cantonese learning platform. The Community Edition is self-service: reference material, drills, a fixed learning path, and an AI tutor that uses your own API key. The CantoLink app adds hosted AI conversation practice with no key to manage, and personalised learning plans.
 
 ## Licence
 

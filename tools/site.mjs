@@ -15,11 +15,11 @@ mkdirSync(OUT, { recursive: true });
 cpSync(join(ROOT, 'site'), OUT, { recursive: true });
 // Shared modules are served as .js (the type every static host knows), so
 // their relative imports are rewritten to match.
-for (const name of ['romanise', 'srs', 'library', 'tool-definitions', 'ai-checks', 'ai-providers', 'ai-tutor']) {
+for (const name of ['romanise', 'data', 'srs', 'library', 'tool-definitions', 'ai-checks', 'ai-providers', 'ai-tutor']) {
   const source = readFileSync(join(ROOT, 'tools', `${name}.mjs`), 'utf8').replace(/from '\.\/([\w-]+)\.mjs'/g, "from './$1.js'");
   writeFileSync(join(OUT, `${name}.js`), source);
 }
-cpSync(join(ROOT, 'dist', 'cantonlink-community.json'), join(OUT, 'data.json'));
+cpSync(join(ROOT, 'dist', 'site-data.json'), join(OUT, 'data.json'));
 
 const hash = createHash('sha256');
 for (const file of readdirSync(OUT).sort()) if (file !== 'sw.js') hash.update(readFileSync(join(OUT, file)));

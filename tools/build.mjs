@@ -5,6 +5,8 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, existsSync
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseSyllable, phraseToYale, phraseToBopomofo, toYale, toBopomofo } from './romanise.mjs';
+import { PUNCTUATION, word, tokens, sentence } from './data.mjs';
+import { SCHEMA } from './schema.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
@@ -41,7 +43,6 @@ const FUNCTIONS = {
 const errors = [];
 const fail = (where, message) => errors.push(`${where}: ${message}`);
 const HAN = /\p{Script=Han}/gu;
-const PUNCTUATION = { '。': '.', '，': ',', '？': '?', '！': '!', '、': ',' };
 
 // English words in code-mixed phrases (寫 code) are written the same in the
 // characters and the Jyutping, and are left out of the syllable count.
@@ -177,22 +178,7 @@ if (errors.length) {
 // --- Formatting helpers ---------------------------------------------------
 
 const cjkOf = (words) => words.map((w) => w[0]).join('');
-function romanOf(words, convert) {
-  return words
-    .map((w) => (w.length === 1 ? PUNCTUATION[w[0]] : convert(w[1])))
-    .join(' ')
-    .replace(/ ([.,?!])/g, '$1');
-}
 const SYSTEMS = { jyutping: (j) => j, yale: phraseToYale, bopomofo: phraseToBopomofo };
-const sentence = (words, en) => ({
-  cjk: cjkOf(words),
-  jyutping: romanOf(words, SYSTEMS.jyutping),
-  yale: romanOf(words, SYSTEMS.yale),
-  bopomofo: romanOf(words, SYSTEMS.bopomofo),
-  ...(en ? { en } : {}),
-});
-const word = (cjk, jyutping) => ({ cjk, jyutping, yale: phraseToYale(jyutping), bopomofo: phraseToBopomofo(jyutping) });
-const tokens = (words) => words.map((w) => (w.length === 1 ? { cjk: w[0], punctuation: PUNCTUATION[w[0]] } : word(w[0], w[1])));
 const option = (cjk) => { const w = word(cjk, lexicon.get(cjk)); return `${w.cjk} ${w.jyutping} · ${w.yale} · ${w.bopomofo}`; };
 
 function sentenceTable(s) {
@@ -510,6 +496,39 @@ emit('dist/cantonlink-community.json', JSON.stringify({
     spokenOrWritten: { review: spokenOrWritten.review, items: spokenOrWritten.items.map((item) => ({ written: item.written, spoken: sentence(item.spoken, item.en), changes: item.changes })) },
   },
 }, null, 2) + '\n');
+
+emit('dist/schema.json', JSON.stringify(SCHEMA, null, 2) + '\n');
+
+// Slim copy for the website; tools/data.mjs hydrate() turns it back into the
+// full structure above (checked by tools/data.test.mjs).
+{
+  const pair = (cjk, jyutping) => [cjk, jyutping];
+  const fillGap = patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.gap).map(({ ex, i }) => [
+    `${p.id}:${i}`, ex.words.findIndex((w) => w[0] === ex.gap.word), [ex.gap.word, ...ex.gap.distractors].map((c) => pair(c, lexicon.get(c))),
+  ]));
+  const buildSentence = patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.words.filter((w) => w.length === 2).length >= 3).map(({ i }) => `${p.id}:${i}`));
+  emit('dist/site-data.json', JSON.stringify({
+    licence: 'CC BY-SA 4.0',
+    source: 'https://github.com/jyltsang/cantonlink-community',
+    slim: true,
+    grammar: patterns.map((p) => ({
+      id: p.id, pattern: p.pattern, jyutping: p.jyutping, meaning: p.meaning, level: p.level, function: p.function,
+      functionName: FUNCTIONS[p.function], explanation: p.explanation, writtenEquivalent: p.writtenEquivalent ?? null,
+      examples: p.examples.map((ex) => [ex.words, ex.en]),
+      mistakes: (p.mistakes ?? []).map((m) => ({ incorrect: m.incorrect, correct: m.correct, note: m.note })),
+      related: p.related ?? [], review: p.review,
+    })),
+    vocabulary: topics.map((t) => ({
+      id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
+      words: t.words.map((w) => ({ cjk: w.cjk, jyutping: w.jyutping, en: w.en, pos: w.pos, ...(w.classifier ? { classifier: w.classifier } : {}), ...(w.note ? { note: w.note } : {}) })),
+    })),
+    path: path.units.map(({ titleCjk, titleJyutping, ...u }) => ({ ...u, titleWord: pair(titleCjk, titleJyutping) })),
+    practice: {
+      fillGap, buildSentence,
+      spokenOrWritten: { review: spokenOrWritten.review, items: spokenOrWritten.items.map((item) => ({ written: item.written, spoken: [item.spoken, item.en], changes: item.changes })) },
+    },
+  }) + '\n');
+}
 
 // --- Write or check -------------------------------------------------------
 

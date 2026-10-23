@@ -1,4 +1,5 @@
 import { settings, saveSettings, h, show, parseHash, stats } from './lib.js';
+import { hydrate } from './data.js';
 import { home, grammarList, grammarDetail, vocabularyList, vocabularyTopic, lookup, notFound } from './learn.js';
 import { flashcards, fillTheGap, buildTheSentence, tones, spokenOrWritten, review } from './practice.js';
 import { aiSettingsView, tutorView } from './tutor.js';
@@ -100,7 +101,7 @@ async function main() {
   try {
     const response = await fetch('data.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    data = await response.json();
+    data = hydrate(await response.json());
   } catch (error) {
     show(h('div', { class: 'panel' }, h('p', {}, `Sorry, the lessons could not be loaded (${error.message}). Please check your connection and refresh the page.`)));
     return;
