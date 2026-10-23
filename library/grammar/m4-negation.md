@@ -4,7 +4,7 @@
 
 **Meaning:** not · **Level:** A1 · **Topic:** Negation
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fm4-negation).
 
 Put 唔 directly before a verb or adjective to negate it. The one big exception is 有 (to have): its negative is 冇, never 唔有.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** and; with · **Level:** A1 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Ftung4-and-with).
 
 同 joins two nouns ('and') or says who you do something with ('with'). It joins nouns and people, not whole sentences.
 

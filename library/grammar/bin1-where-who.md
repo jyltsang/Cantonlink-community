@@ -4,7 +4,7 @@
 
 **Meaning:** where / who / which · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fbin1-where-who).
 
 邊 means 'which'. 邊度 is 'which place' (where), 邊個 is 'which person' (who), and 邊 + any classifier asks 'which one': 邊件, 邊間.
 

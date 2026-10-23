@@ -4,7 +4,7 @@
 
 **Meaning:** to be at / in · **Level:** A1 · **Topic:** Location and pointing
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhai2-location).
 
 喺 (hai2) says where someone or something is, or where an action happens. Don't confuse it with 係 (hai6, 'to be') — only the tone is different.
 

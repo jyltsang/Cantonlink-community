@@ -4,7 +4,7 @@
 
 **Meaning:** why · **Level:** A2 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdim2-gaai2-why).
 
 點解 can go at the start of the question or after the subject. Answers usually begin with 因為 (because). Ending with 㗎 adds a note of puzzlement.
 

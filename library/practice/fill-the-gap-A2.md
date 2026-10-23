@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **14 of 14 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 你食咗飯＿＿呀？  
 nei5 sik6 zo2 faan6 \_\_\_ aa3?  

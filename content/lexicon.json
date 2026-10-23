@@ -1,45 +1,4 @@
 {
   "description": "Extra words used only as practice distractors, so every option can be shown with its romanisation.",
-  "words": [
-    [
-      "但係",
-      "daan6 hai6",
-      "but"
-    ],
-    [
-      "如果",
-      "jyu4 gwo2",
-      "if"
-    ],
-    [
-      "或者",
-      "waak6 ze2",
-      "or; maybe"
-    ],
-    [
-      "乜",
-      "mat1",
-      "what (short form)"
-    ],
-    [
-      "幾",
-      "gei2",
-      "how many; quite"
-    ],
-    [
-      "點",
-      "dim2",
-      "how"
-    ],
-    [
-      "最",
-      "zeoi3",
-      "most"
-    ],
-    [
-      "教",
-      "gaau3",
-      "to teach"
-    ]
-  ]
+  "words": [["但係", "daan6 hai6", "but"], ["如果", "jyu4 gwo2", "if"], ["或者", "waak6 ze2", "or; maybe"], ["乜", "mat1", "what (short form)"], ["幾", "gei2", "how many; quite"], ["點", "dim2", "how"], ["最", "zeoi3", "most"], ["教", "gaau3", "to teach"]]
 }

@@ -4,7 +4,7 @@
 
 **Meaning:** this / that · **Level:** A1 · **Topic:** Location and pointing
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fni1-go2-demonstratives).
 
 呢 (this) and 嗰 (that) always need a classifier after them: 呢個, 嗰件, 呢間. The noun can be dropped when it's obvious from context.
 

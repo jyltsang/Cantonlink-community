@@ -1,0 +1,56 @@
+name: Report a content error
+description: Something sounds unnatural, has the wrong tone or character, or a translation is off.
+title: "[Correction] "
+labels: ["content", "correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Corrections are the most valuable contribution right now. You don't need to know Jyutping perfectly; describe it however is easiest.
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      description: The page or pattern, e.g. "grammar/zo2-completed" or "Food and dim sum, 燒賣". The title may already say.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What it says now
+      description: Copy the sentence or word.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What a native speaker would say
+      description: Your correction, with Jyutping if you can.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      multiple: true
+      options:
+        - Sounds unnatural or like written Chinese
+        - Wrong character
+        - Wrong Jyutping or tone
+        - English translation is off
+        - Explanation is wrong or unclear
+        - Wrong level
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: speaker
+    attributes:
+      label: Your Cantonese background
+      options:
+        - Native speaker (Hong Kong)
+        - Native speaker (elsewhere, e.g. Guangzhou, Macau, overseas)
+        - Heritage speaker
+        - Learner
+    validations:
+      required: true

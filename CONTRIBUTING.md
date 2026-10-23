@@ -5,7 +5,7 @@ Thank you for helping make free Cantonese learning material more reliable. All c
 ## Ways to help
 
 - **Report an error.** Open an issue naming the pattern or word, what is wrong, and what you would say instead. Every page has a link.
-- **Review content.** If you are a native or near-native speaker of Hong Kong Cantonese, open an issue titled "Reviewer". Reviewers are credited by name.
+- **Review content.** If you are a native or near-native speaker of Hong Kong Cantonese, read the [review guide](docs/REVIEW_GUIDE.md) and [volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml). Reviewers are credited by name on every page they check.
 - **Add or improve content.** Edit the JSON in `content/` and open a pull request (see below).
 
 ## Content standards
@@ -26,6 +26,7 @@ Content follows the quality process in [§8 of the spec](docs/PRODUCT_SPEC.md#8-
 | `content/vocabulary/<topic>.json` | One file per topic |
 | `content/practice/spoken-or-written.json` | Written vs spoken sentence pairs |
 | `content/lexicon.json` | Extra words used only as practice distractors |
+| `site/` | The practice web app (plain HTML, CSS and JavaScript) |
 
 Sentences are lists of `[characters, jyutping]` pairs, one per word, with punctuation as a single-item list:
 
@@ -38,9 +39,13 @@ Add `"gap": { "word": "咗", "distractors": ["緊", "過", "吓"] }` to use the 
 Then run:
 
 ```sh
+npm run format  # tidies the JSON so diffs stay readable
 npm test        # romanisation tests
 npm run build   # validates content and regenerates library/ and dist/
+npm run preview # optional: try your change in the practice site
 ```
+
+Every entry has a `review` block. Leave it alone unless you are a reviewer (see the [review guide](docs/REVIEW_GUIDE.md)). If you change the Cantonese in a reviewed entry, set its status back to `"draft"` and keep the existing names, so the change gets checked.
 
 Commit both your `content/` change and the regenerated files. Never edit `library/` or `dist/` by hand: CI will reject it.
 

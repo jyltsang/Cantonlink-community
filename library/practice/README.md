@@ -2,9 +2,9 @@
 
 # Practice
 
-Self-marking worksheets built from the grammar library. Every question links back to the pattern it practises.
+Self-marking worksheets built from the grammar library. Every question links back to the pattern it practises. Prefer to practise interactively? Use the [practice site](https://jyltsang.github.io/cantonlink-community/).
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **49 of 49 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 | Worksheet | What you practise |
 |---|---|

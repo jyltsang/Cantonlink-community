@@ -4,7 +4,7 @@
 
 **Meaning:** to be (identity) · **Level:** A1 · **Topic:** Being and having
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhai6-copula).
 
 係 links a subject to a noun: who or what something is. It is not used before adjectives — say 佢好高 (he is tall), not 佢係高. To negate, use 唔係.
 

@@ -4,7 +4,7 @@
 
 **Meaning:** suggestion, invitation or gentle request · **Level:** A1 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Flaa1-suggestion).
 
 啦 (laa1, high level tone) turns a statement into a suggestion or polite urging: 'let's…', 'go ahead and…'. Don't confuse it with 喇 (laa3), which marks a change of situation.
 

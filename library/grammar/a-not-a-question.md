@@ -4,7 +4,7 @@
 
 **Meaning:** yes/no question (A-not-A) · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fa-not-a-question).
 
 The most natural way to ask a yes/no question is to say the verb, then 唔, then the verb again: 去唔去 ('go not go'). For two-syllable words, repeat only the first syllable: 好唔好食. Answer by repeating the verb: 去 or 唔去.
 

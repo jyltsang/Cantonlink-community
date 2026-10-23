@@ -1,0 +1,42 @@
+name: Volunteer as a reviewer
+description: Help check content as a native or near-native speaker of Hong Kong Cantonese.
+title: "[Reviewer] "
+labels: ["reviewer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every grammar pattern and word list needs **two** native-speaker reviews before it loses its draft label. A pattern takes about 5 minutes. Please read the [review guide](https://github.com/jyltsang/cantonlink-community/blob/main/docs/REVIEW_GUIDE.md) first.
+  - type: input
+    id: name
+    attributes:
+      label: Name to credit
+      description: How you'd like to appear on reviewed pages (a GitHub handle is fine).
+    validations:
+      required: true
+  - type: dropdown
+    id: background
+    attributes:
+      label: Your Cantonese background
+      options:
+        - Native speaker, grew up in Hong Kong
+        - Native speaker, grew up elsewhere
+        - Near-native / heritage speaker
+    validations:
+      required: true
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: What would you like to review?
+      options:
+        - label: A1 grammar patterns
+        - label: A2 grammar patterns
+        - label: Topic vocabulary
+        - label: Spoken-or-written practice set
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreement
+      options:
+        - label: I've read the review guide, and I agree that my corrections are licensed under CC BY-SA 4.0.
+          required: true

@@ -4,99 +4,21 @@
   "title": "Weather",
   "titleCjk": "天氣",
   "words": [
-    {
-      "cjk": "天氣",
-      "jyutping": "tin1 hei3",
-      "en": "weather",
-      "pos": "noun"
-    },
-    {
-      "cjk": "熱",
-      "jyutping": "jit6",
-      "en": "hot",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "凍",
-      "jyutping": "dung3",
-      "en": "cold",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "暖",
-      "jyutping": "nyun5",
-      "en": "warm",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "涼",
-      "jyutping": "loeng4",
-      "en": "cool",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "落雨",
-      "jyutping": "lok6 jyu5",
-      "en": "to rain",
-      "pos": "verb"
-    },
-    {
-      "cjk": "遮",
-      "jyutping": "ze1",
-      "en": "umbrella",
-      "pos": "noun",
-      "classifier": [
-        "把",
-        "baa2"
-      ]
-    },
-    {
-      "cjk": "出太陽",
-      "jyutping": "ceot1 taai3 joeng4",
-      "en": "to be sunny",
-      "pos": "verb"
-    },
-    {
-      "cjk": "大風",
-      "jyutping": "daai6 fung1",
-      "en": "windy",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "打風",
-      "jyutping": "daa2 fung1",
-      "en": "to have a typhoon",
-      "pos": "verb"
-    },
-    {
-      "cjk": "翳焗",
-      "jyutping": "ai3 guk6",
-      "en": "hot and stuffy",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "潮濕",
-      "jyutping": "ciu4 sap1",
-      "en": "humid",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "黑雨",
-      "jyutping": "hak1 jyu5",
-      "en": "black rainstorm (warning)",
-      "pos": "noun"
-    },
-    {
-      "cjk": "天文台",
-      "jyutping": "tin1 man4 toi4",
-      "en": "Hong Kong Observatory",
-      "pos": "noun"
-    },
-    {
-      "cjk": "度",
-      "jyutping": "dou6",
-      "en": "degree (temperature)",
-      "pos": "noun"
-    }
-  ]
+    { "cjk": "天氣", "jyutping": "tin1 hei3", "en": "weather", "pos": "noun" },
+    { "cjk": "熱", "jyutping": "jit6", "en": "hot", "pos": "adjective" },
+    { "cjk": "凍", "jyutping": "dung3", "en": "cold", "pos": "adjective" },
+    { "cjk": "暖", "jyutping": "nyun5", "en": "warm", "pos": "adjective" },
+    { "cjk": "涼", "jyutping": "loeng4", "en": "cool", "pos": "adjective" },
+    { "cjk": "落雨", "jyutping": "lok6 jyu5", "en": "to rain", "pos": "verb" },
+    { "cjk": "遮", "jyutping": "ze1", "en": "umbrella", "pos": "noun", "classifier": ["把", "baa2"] },
+    { "cjk": "出太陽", "jyutping": "ceot1 taai3 joeng4", "en": "to be sunny", "pos": "verb" },
+    { "cjk": "大風", "jyutping": "daai6 fung1", "en": "windy", "pos": "adjective" },
+    { "cjk": "打風", "jyutping": "daa2 fung1", "en": "to have a typhoon", "pos": "verb" },
+    { "cjk": "翳焗", "jyutping": "ai3 guk6", "en": "hot and stuffy", "pos": "adjective" },
+    { "cjk": "潮濕", "jyutping": "ciu4 sap1", "en": "humid", "pos": "adjective" },
+    { "cjk": "黑雨", "jyutping": "hak1 jyu5", "en": "black rainstorm (warning)", "pos": "noun" },
+    { "cjk": "天文台", "jyutping": "tin1 man4 toi4", "en": "Hong Kong Observatory", "pos": "noun" },
+    { "cjk": "度", "jyutping": "dou6", "en": "degree (temperature)", "pos": "noun" }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

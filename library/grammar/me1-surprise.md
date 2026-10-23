@@ -4,7 +4,7 @@
 
 **Meaning:** surprised question ('really?') · **Level:** A2 · **Topic:** Sentence-final particles
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fme1-surprise).
 
 At the end of a sentence, 咩 shows surprise or doubt: you expected the opposite. 你識講廣東話咩？ means 'You can speak Cantonese?!' This is different from 咩 meaning 'what' inside a sentence.
 

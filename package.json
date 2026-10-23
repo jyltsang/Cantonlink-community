@@ -5,11 +5,16 @@
   "description": "Free, open Cantonese learning content: grammar patterns, topic vocabulary and practice in Jyutping, Yale and Bopomofo.",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node tools/build.mjs",
-    "check": "node tools/build.mjs --check",
+    "check": "node tools/format.mjs --check && node tools/build.mjs --check",
+    "format": "node tools/format.mjs",
     "test": "node --test \"tools/*.test.mjs\"",
-    "romanise": "node tools/cli.mjs"
+    "romanise": "node tools/cli.mjs",
+    "site": "node tools/site.mjs",
+    "preview": "node tools/site.mjs --serve"
   }
 }

@@ -4,7 +4,7 @@
 
 **Meaning:** what · **Level:** A1 · **Topic:** Asking questions
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fmat1-je5-what).
 
 乜嘢 means 'what' and stays in the same place as the answer would: 你食乜嘢？ — 我食飯. 咩 (me1) is the short, everyday form.
 

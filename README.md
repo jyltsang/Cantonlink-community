@@ -4,11 +4,13 @@
 
 [![Check content](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml/badge.svg)](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml)
 
-> ⚠️ **Status: first draft.** All content is awaiting review by native speakers. If something sounds unnatural, please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new). Corrections are the most valuable contribution right now.
+> ⚠️ **Status: first draft.** All content is awaiting review by native speakers ([review status](library/review-status.md)). If something sounds unnatural, please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml). Native speaker? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml): it takes about five minutes a pattern.
 
 ---
 
 ## Start learning
+
+**▶ [Practise online](https://jyltsang.github.io/cantonlink-community/)** — flashcards, fill the gap, build the sentence and spoken-or-written drills in your browser, in Jyutping, Yale or Bopomofo. Free, no account.
 
 | | |
 |---|---|
@@ -47,6 +49,8 @@ content/*.json  ──►  tools/build.mjs  ──►  library/*.md     (pages y
 ```sh
 npm test                                # romanisation tests
 npm run build                           # validate content and regenerate library/ and dist/
+npm run format                          # tidy content/*.json for readable diffs
+npm run preview                         # practice site at http://localhost:8080
 npm run romanise -- "nei5 hou2"         # convert any Jyutping to Yale and Bopomofo
 ```
 
@@ -60,6 +64,7 @@ Requires Node.js 22 or later; there are no dependencies to install.
 
 - **[Product specification](docs/PRODUCT_SPEC.md)**: the problem, audience, scope, content-quality process, licence audit and roadmap
 - **[Contributing](CONTRIBUTING.md)**: how to report errors, review content and add new entries
+- **[Review guide](docs/REVIEW_GUIDE.md)** and **[review status](library/review-status.md)**: how native speakers check content, and what has been checked so far
 
 ## Relationship to CantoLink
 

@@ -4,7 +4,7 @@
 
 **Meaning:** very · **Level:** A1 · **Topic:** Degree and comparison
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fhou2-very).
 
 Adjectives work like verbs, so no 係 is needed. A bare adjective can sound incomplete or comparative, so 好 is added by default — it often means just 'is' rather than a strong 'very'.
 

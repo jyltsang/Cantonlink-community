@@ -4,135 +4,21 @@
   "title": "Family and people",
   "titleCjk": "屋企人同朋友",
   "words": [
-    {
-      "cjk": "屋企人",
-      "jyutping": "uk1 kei2 jan4",
-      "en": "family",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "爸爸",
-      "jyutping": "baa4 baa1",
-      "en": "dad",
-      "pos": "noun"
-    },
-    {
-      "cjk": "媽媽",
-      "jyutping": "maa4 maa1",
-      "en": "mum",
-      "pos": "noun"
-    },
-    {
-      "cjk": "哥哥",
-      "jyutping": "go4 go1",
-      "en": "older brother",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "家姐",
-      "jyutping": "gaa1 ze1",
-      "en": "older sister",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "細佬",
-      "jyutping": "sai3 lou2",
-      "en": "younger brother",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "妹妹",
-      "jyutping": "mui4 mui2",
-      "en": "younger sister",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "老公",
-      "jyutping": "lou5 gung1",
-      "en": "husband",
-      "pos": "noun"
-    },
-    {
-      "cjk": "老婆",
-      "jyutping": "lou5 po4",
-      "en": "wife",
-      "pos": "noun"
-    },
-    {
-      "cjk": "仔",
-      "jyutping": "zai2",
-      "en": "son",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "女",
-      "jyutping": "neoi2",
-      "en": "daughter",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "朋友",
-      "jyutping": "pang4 jau5",
-      "en": "friend",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "同事",
-      "jyutping": "tung4 si6",
-      "en": "colleague",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "細路",
-      "jyutping": "sai3 lou6",
-      "en": "child",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "婆婆",
-      "jyutping": "po4 po2",
-      "en": "grandmother (maternal)",
-      "pos": "noun"
-    }
-  ]
+    { "cjk": "屋企人", "jyutping": "uk1 kei2 jan4", "en": "family", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "爸爸", "jyutping": "baa4 baa1", "en": "dad", "pos": "noun" },
+    { "cjk": "媽媽", "jyutping": "maa4 maa1", "en": "mum", "pos": "noun" },
+    { "cjk": "哥哥", "jyutping": "go4 go1", "en": "older brother", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "家姐", "jyutping": "gaa1 ze1", "en": "older sister", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "細佬", "jyutping": "sai3 lou2", "en": "younger brother", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "妹妹", "jyutping": "mui4 mui2", "en": "younger sister", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "老公", "jyutping": "lou5 gung1", "en": "husband", "pos": "noun" },
+    { "cjk": "老婆", "jyutping": "lou5 po4", "en": "wife", "pos": "noun" },
+    { "cjk": "仔", "jyutping": "zai2", "en": "son", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "女", "jyutping": "neoi2", "en": "daughter", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "朋友", "jyutping": "pang4 jau5", "en": "friend", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "同事", "jyutping": "tung4 si6", "en": "colleague", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "細路", "jyutping": "sai3 lou6", "en": "child", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "婆婆", "jyutping": "po4 po2", "en": "grandmother (maternal)", "pos": "noun" }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

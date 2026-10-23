@@ -4,131 +4,21 @@
   "title": "Transport and MTR",
   "titleCjk": "交通同港鐵",
   "words": [
-    {
-      "cjk": "港鐵",
-      "jyutping": "gong2 tit3",
-      "en": "MTR",
-      "pos": "noun"
-    },
-    {
-      "cjk": "地鐵",
-      "jyutping": "dei6 tit3",
-      "en": "underground train",
-      "pos": "noun",
-      "classifier": [
-        "架",
-        "gaa3"
-      ]
-    },
-    {
-      "cjk": "巴士",
-      "jyutping": "baa1 si2",
-      "en": "bus",
-      "pos": "noun",
-      "classifier": [
-        "架",
-        "gaa3"
-      ]
-    },
-    {
-      "cjk": "小巴",
-      "jyutping": "siu2 baa1",
-      "en": "minibus",
-      "pos": "noun",
-      "classifier": [
-        "架",
-        "gaa3"
-      ]
-    },
-    {
-      "cjk": "的士",
-      "jyutping": "dik1 si2",
-      "en": "taxi",
-      "pos": "noun",
-      "classifier": [
-        "架",
-        "gaa3"
-      ]
-    },
-    {
-      "cjk": "電車",
-      "jyutping": "din6 ce1",
-      "en": "tram",
-      "pos": "noun",
-      "classifier": [
-        "架",
-        "gaa3"
-      ]
-    },
-    {
-      "cjk": "八達通",
-      "jyutping": "baat3 daat6 tung1",
-      "en": "Octopus card",
-      "pos": "noun",
-      "classifier": [
-        "張",
-        "zoeng1"
-      ]
-    },
-    {
-      "cjk": "增值",
-      "jyutping": "zang1 zik6",
-      "en": "to top up",
-      "pos": "verb"
-    },
-    {
-      "cjk": "搭",
-      "jyutping": "daap3",
-      "en": "to take (transport)",
-      "pos": "verb"
-    },
-    {
-      "cjk": "坐",
-      "jyutping": "co5",
-      "en": "to ride; to sit",
-      "pos": "verb"
-    },
-    {
-      "cjk": "落車",
-      "jyutping": "lok6 ce1",
-      "en": "to get off",
-      "pos": "verb"
-    },
-    {
-      "cjk": "轉車",
-      "jyutping": "zyun3 ce1",
-      "en": "to change (trains or buses)",
-      "pos": "verb"
-    },
-    {
-      "cjk": "車站",
-      "jyutping": "ce1 zaam6",
-      "en": "station; stop",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "出口",
-      "jyutping": "ceot1 hau2",
-      "en": "exit",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "機場",
-      "jyutping": "gei1 coeng4",
-      "en": "airport",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    }
-  ]
+    { "cjk": "港鐵", "jyutping": "gong2 tit3", "en": "MTR", "pos": "noun" },
+    { "cjk": "地鐵", "jyutping": "dei6 tit3", "en": "underground train", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "巴士", "jyutping": "baa1 si2", "en": "bus", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "小巴", "jyutping": "siu2 baa1", "en": "minibus", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "的士", "jyutping": "dik1 si2", "en": "taxi", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "電車", "jyutping": "din6 ce1", "en": "tram", "pos": "noun", "classifier": ["架", "gaa3"] },
+    { "cjk": "八達通", "jyutping": "baat3 daat6 tung1", "en": "Octopus card", "pos": "noun", "classifier": ["張", "zoeng1"] },
+    { "cjk": "增值", "jyutping": "zang1 zik6", "en": "to top up", "pos": "verb" },
+    { "cjk": "搭", "jyutping": "daap3", "en": "to take (transport)", "pos": "verb" },
+    { "cjk": "坐", "jyutping": "co5", "en": "to ride; to sit", "pos": "verb" },
+    { "cjk": "落車", "jyutping": "lok6 ce1", "en": "to get off", "pos": "verb" },
+    { "cjk": "轉車", "jyutping": "zyun3 ce1", "en": "to change (trains or buses)", "pos": "verb" },
+    { "cjk": "車站", "jyutping": "ce1 zaam6", "en": "station; stop", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "出口", "jyutping": "ceot1 hau2", "en": "exit", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "機場", "jyutping": "gei1 coeng4", "en": "airport", "pos": "noun", "classifier": ["個", "go3"] }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

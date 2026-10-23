@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Review status
+    url: https://github.com/jyltsang/cantonlink-community/blob/main/library/review-status.md
+    about: See which entries still need review.

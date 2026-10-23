@@ -4,120 +4,21 @@
   "title": "Shopping",
   "titleCjk": "買嘢",
   "words": [
-    {
-      "cjk": "買",
-      "jyutping": "maai5",
-      "en": "to buy",
-      "pos": "verb"
-    },
-    {
-      "cjk": "賣",
-      "jyutping": "maai6",
-      "en": "to sell",
-      "pos": "verb",
-      "note": "Same syllable as 買 but tone 6. Tone changes the meaning."
-    },
-    {
-      "cjk": "貴",
-      "jyutping": "gwai3",
-      "en": "expensive",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "平",
-      "jyutping": "peng4",
-      "en": "cheap",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "衫",
-      "jyutping": "saam1",
-      "en": "clothes; top",
-      "pos": "noun",
-      "classifier": [
-        "件",
-        "gin6"
-      ]
-    },
-    {
-      "cjk": "褲",
-      "jyutping": "fu3",
-      "en": "trousers",
-      "pos": "noun",
-      "classifier": [
-        "條",
-        "tiu4"
-      ]
-    },
-    {
-      "cjk": "鞋",
-      "jyutping": "haai4",
-      "en": "shoes",
-      "pos": "noun",
-      "classifier": [
-        "對",
-        "deoi3"
-      ]
-    },
-    {
-      "cjk": "袋",
-      "jyutping": "doi2",
-      "en": "bag",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "大碼",
-      "jyutping": "daai6 maa5",
-      "en": "large size",
-      "pos": "noun"
-    },
-    {
-      "cjk": "細碼",
-      "jyutping": "sai3 maa5",
-      "en": "small size",
-      "pos": "noun"
-    },
-    {
-      "cjk": "顏色",
-      "jyutping": "ngaan4 sik1",
-      "en": "colour",
-      "pos": "noun",
-      "classifier": [
-        "隻",
-        "zek3"
-      ]
-    },
-    {
-      "cjk": "減價",
-      "jyutping": "gaam2 gaa3",
-      "en": "on sale",
-      "pos": "verb"
-    },
-    {
-      "cjk": "碌卡",
-      "jyutping": "luk1 kaat1",
-      "en": "to pay by card",
-      "pos": "verb"
-    },
-    {
-      "cjk": "現金",
-      "jyutping": "jin6 gam1",
-      "en": "cash",
-      "pos": "noun"
-    },
-    {
-      "cjk": "試身室",
-      "jyutping": "si3 san1 sat1",
-      "en": "fitting room",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    }
-  ]
+    { "cjk": "買", "jyutping": "maai5", "en": "to buy", "pos": "verb" },
+    { "cjk": "賣", "jyutping": "maai6", "en": "to sell", "pos": "verb", "note": "Same syllable as 買 but tone 6. Tone changes the meaning." },
+    { "cjk": "貴", "jyutping": "gwai3", "en": "expensive", "pos": "adjective" },
+    { "cjk": "平", "jyutping": "peng4", "en": "cheap", "pos": "adjective" },
+    { "cjk": "衫", "jyutping": "saam1", "en": "clothes; top", "pos": "noun", "classifier": ["件", "gin6"] },
+    { "cjk": "褲", "jyutping": "fu3", "en": "trousers", "pos": "noun", "classifier": ["條", "tiu4"] },
+    { "cjk": "鞋", "jyutping": "haai4", "en": "shoes", "pos": "noun", "classifier": ["對", "deoi3"] },
+    { "cjk": "袋", "jyutping": "doi2", "en": "bag", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "大碼", "jyutping": "daai6 maa5", "en": "large size", "pos": "noun" },
+    { "cjk": "細碼", "jyutping": "sai3 maa5", "en": "small size", "pos": "noun" },
+    { "cjk": "顏色", "jyutping": "ngaan4 sik1", "en": "colour", "pos": "noun", "classifier": ["隻", "zek3"] },
+    { "cjk": "減價", "jyutping": "gaam2 gaa3", "en": "on sale", "pos": "verb" },
+    { "cjk": "碌卡", "jyutping": "luk1 kaat1", "en": "to pay by card", "pos": "verb" },
+    { "cjk": "現金", "jyutping": "jin6 gam1", "en": "cash", "pos": "noun" },
+    { "cjk": "試身室", "jyutping": "si3 san1 sat1", "en": "fitting room", "pos": "noun", "classifier": ["間", "gaan1"] }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

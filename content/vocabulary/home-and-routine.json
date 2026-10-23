@@ -4,119 +4,21 @@
   "title": "Home and daily routine",
   "titleCjk": "屋企同日常",
   "words": [
-    {
-      "cjk": "屋企",
-      "jyutping": "uk1 kei2",
-      "en": "home",
-      "pos": "noun"
-    },
-    {
-      "cjk": "起身",
-      "jyutping": "hei2 san1",
-      "en": "to get up",
-      "pos": "verb"
-    },
-    {
-      "cjk": "瞓覺",
-      "jyutping": "fan3 gaau3",
-      "en": "to sleep",
-      "pos": "verb"
-    },
-    {
-      "cjk": "沖涼",
-      "jyutping": "cung1 loeng4",
-      "en": "to shower",
-      "pos": "verb"
-    },
-    {
-      "cjk": "刷牙",
-      "jyutping": "caat3 ngaa4",
-      "en": "to brush teeth",
-      "pos": "verb"
-    },
-    {
-      "cjk": "返工",
-      "jyutping": "faan1 gung1",
-      "en": "to go to work",
-      "pos": "verb"
-    },
-    {
-      "cjk": "放工",
-      "jyutping": "fong3 gung1",
-      "en": "to finish work",
-      "pos": "verb"
-    },
-    {
-      "cjk": "煮飯",
-      "jyutping": "zyu2 faan6",
-      "en": "to cook",
-      "pos": "verb"
-    },
-    {
-      "cjk": "洗衫",
-      "jyutping": "sai2 saam1",
-      "en": "to do the laundry",
-      "pos": "verb"
-    },
-    {
-      "cjk": "廳",
-      "jyutping": "teng1",
-      "en": "living room",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "房",
-      "jyutping": "fong2",
-      "en": "bedroom",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    },
-    {
-      "cjk": "廚房",
-      "jyutping": "cyu4 fong2",
-      "en": "kitchen",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "洗手間",
-      "jyutping": "sai2 sau2 gaan1",
-      "en": "toilet; bathroom",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    },
-    {
-      "cjk": "雪櫃",
-      "jyutping": "syut3 gwai6",
-      "en": "fridge",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "冷氣",
-      "jyutping": "laang5 hei3",
-      "en": "air conditioning",
-      "pos": "noun",
-      "classifier": [
-        "部",
-        "bou6"
-      ]
-    }
-  ]
+    { "cjk": "屋企", "jyutping": "uk1 kei2", "en": "home", "pos": "noun" },
+    { "cjk": "起身", "jyutping": "hei2 san1", "en": "to get up", "pos": "verb" },
+    { "cjk": "瞓覺", "jyutping": "fan3 gaau3", "en": "to sleep", "pos": "verb" },
+    { "cjk": "沖涼", "jyutping": "cung1 loeng4", "en": "to shower", "pos": "verb" },
+    { "cjk": "刷牙", "jyutping": "caat3 ngaa4", "en": "to brush teeth", "pos": "verb" },
+    { "cjk": "返工", "jyutping": "faan1 gung1", "en": "to go to work", "pos": "verb" },
+    { "cjk": "放工", "jyutping": "fong3 gung1", "en": "to finish work", "pos": "verb" },
+    { "cjk": "煮飯", "jyutping": "zyu2 faan6", "en": "to cook", "pos": "verb" },
+    { "cjk": "洗衫", "jyutping": "sai2 saam1", "en": "to do the laundry", "pos": "verb" },
+    { "cjk": "廳", "jyutping": "teng1", "en": "living room", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "房", "jyutping": "fong2", "en": "bedroom", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "廚房", "jyutping": "cyu4 fong2", "en": "kitchen", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "洗手間", "jyutping": "sai2 sau2 gaan1", "en": "toilet; bathroom", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "雪櫃", "jyutping": "syut3 gwai6", "en": "fridge", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "冷氣", "jyutping": "laang5 hei3", "en": "air conditioning", "pos": "noun", "classifier": ["部", "bou6"] }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

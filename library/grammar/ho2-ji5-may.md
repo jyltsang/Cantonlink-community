@@ -4,7 +4,7 @@
 
 **Meaning:** may I…? / could you…? · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fho2-ji5-may).
 
 可以 means 'may' or 'can' (permission or possibility). Its A-not-A form 可唔可以 is the standard polite request. Answer 可以 (yes) or 唔可以 (no).
 

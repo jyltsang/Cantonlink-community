@@ -4,7 +4,7 @@
 
 **Meaning:** to give · **Level:** A2 · **Topic:** Connecting words
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fbei2-give).
 
 畀 means 'give'. In traditional Cantonese order the thing comes before the person: 畀杯水我 ('give a glass of water me'). The Mandarin-like order 畀我… is also heard, especially among younger speakers.
 

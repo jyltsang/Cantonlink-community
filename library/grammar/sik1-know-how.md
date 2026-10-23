@@ -4,7 +4,7 @@
 
 **Meaning:** know how to; can (a learned skill) · **Level:** A2 · **Topic:** Wants, needs and ability
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fsik1-know-how).
 
 識 before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than 會, which leans towards 'will'.
 

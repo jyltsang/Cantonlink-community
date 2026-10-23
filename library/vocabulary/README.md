@@ -4,19 +4,19 @@
 
 180 everyday words in 12 topics. Looking for a word in English? Use the [English index](../english-index.md).
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **12 of 12 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
-| Topic | 主題 | Words |
-|---|---|---|
-| [Greetings and courtesy](greetings.md) | 打招呼 | 15 |
-| [Numbers, money and time](numbers-money-time.md) | 數字、錢同時間 | 15 |
-| [Food and dim sum](food-and-dim-sum.md) | 飲食同點心 | 15 |
-| [Shopping](shopping.md) | 買嘢 | 15 |
-| [Transport and MTR](transport.md) | 交通同港鐵 | 15 |
-| [Directions](directions.md) | 問路 | 15 |
-| [Family and people](family-and-people.md) | 屋企人同朋友 | 15 |
-| [Home and daily routine](home-and-routine.md) | 屋企同日常 | 15 |
-| [Health and the doctor](health.md) | 健康同睇醫生 | 15 |
-| [Work and the office](work.md) | 返工 | 15 |
-| [Weather](weather.md) | 天氣 | 15 |
-| [Feelings](feelings.md) | 感受 | 15 |
+| Topic | 主題 | Words | Review |
+|---|---|---|---|
+| [Greetings and courtesy](greetings.md) | 打招呼 | 15 | ⚠️ draft |
+| [Numbers, money and time](numbers-money-time.md) | 數字、錢同時間 | 15 | ⚠️ draft |
+| [Food and dim sum](food-and-dim-sum.md) | 飲食同點心 | 15 | ⚠️ draft |
+| [Shopping](shopping.md) | 買嘢 | 15 | ⚠️ draft |
+| [Transport and MTR](transport.md) | 交通同港鐵 | 15 | ⚠️ draft |
+| [Directions](directions.md) | 問路 | 15 | ⚠️ draft |
+| [Family and people](family-and-people.md) | 屋企人同朋友 | 15 | ⚠️ draft |
+| [Home and daily routine](home-and-routine.md) | 屋企同日常 | 15 | ⚠️ draft |
+| [Health and the doctor](health.md) | 健康同睇醫生 | 15 | ⚠️ draft |
+| [Work and the office](work.md) | 返工 | 15 | ⚠️ draft |
+| [Weather](weather.md) | 天氣 | 15 | ⚠️ draft |
+| [Feelings](feelings.md) | 感受 | 15 | ⚠️ draft |

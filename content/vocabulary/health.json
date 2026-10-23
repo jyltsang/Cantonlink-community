@@ -4,111 +4,21 @@
   "title": "Health and the doctor",
   "titleCjk": "健康同睇醫生",
   "words": [
-    {
-      "cjk": "醫生",
-      "jyutping": "ji1 sang1",
-      "en": "doctor",
-      "pos": "noun",
-      "classifier": [
-        "個",
-        "go3"
-      ]
-    },
-    {
-      "cjk": "睇醫生",
-      "jyutping": "tai2 ji1 sang1",
-      "en": "to see a doctor",
-      "pos": "verb"
-    },
-    {
-      "cjk": "診所",
-      "jyutping": "can2 so2",
-      "en": "clinic",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    },
-    {
-      "cjk": "醫院",
-      "jyutping": "ji1 jyun2",
-      "en": "hospital",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    },
-    {
-      "cjk": "藥",
-      "jyutping": "joek6",
-      "en": "medicine",
-      "pos": "noun"
-    },
-    {
-      "cjk": "食藥",
-      "jyutping": "sik6 joek6",
-      "en": "to take medicine",
-      "pos": "verb"
-    },
-    {
-      "cjk": "藥房",
-      "jyutping": "joek6 fong4",
-      "en": "pharmacy",
-      "pos": "noun",
-      "classifier": [
-        "間",
-        "gaan1"
-      ]
-    },
-    {
-      "cjk": "唔舒服",
-      "jyutping": "m4 syu1 fuk6",
-      "en": "unwell",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "頭痛",
-      "jyutping": "tau4 tung3",
-      "en": "headache",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "肚痛",
-      "jyutping": "tou5 tung3",
-      "en": "stomach ache",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "喉嚨痛",
-      "jyutping": "hau4 lung4 tung3",
-      "en": "sore throat",
-      "pos": "adjective"
-    },
-    {
-      "cjk": "發燒",
-      "jyutping": "faat3 siu1",
-      "en": "to have a fever",
-      "pos": "verb"
-    },
-    {
-      "cjk": "咳",
-      "jyutping": "kat1",
-      "en": "to cough",
-      "pos": "verb"
-    },
-    {
-      "cjk": "感冒",
-      "jyutping": "gam2 mou6",
-      "en": "a cold; flu",
-      "pos": "noun"
-    },
-    {
-      "cjk": "休息",
-      "jyutping": "jau1 sik1",
-      "en": "to rest",
-      "pos": "verb"
-    }
-  ]
+    { "cjk": "醫生", "jyutping": "ji1 sang1", "en": "doctor", "pos": "noun", "classifier": ["個", "go3"] },
+    { "cjk": "睇醫生", "jyutping": "tai2 ji1 sang1", "en": "to see a doctor", "pos": "verb" },
+    { "cjk": "診所", "jyutping": "can2 so2", "en": "clinic", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "醫院", "jyutping": "ji1 jyun2", "en": "hospital", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "藥", "jyutping": "joek6", "en": "medicine", "pos": "noun" },
+    { "cjk": "食藥", "jyutping": "sik6 joek6", "en": "to take medicine", "pos": "verb" },
+    { "cjk": "藥房", "jyutping": "joek6 fong4", "en": "pharmacy", "pos": "noun", "classifier": ["間", "gaan1"] },
+    { "cjk": "唔舒服", "jyutping": "m4 syu1 fuk6", "en": "unwell", "pos": "adjective" },
+    { "cjk": "頭痛", "jyutping": "tau4 tung3", "en": "headache", "pos": "adjective" },
+    { "cjk": "肚痛", "jyutping": "tou5 tung3", "en": "stomach ache", "pos": "adjective" },
+    { "cjk": "喉嚨痛", "jyutping": "hau4 lung4 tung3", "en": "sore throat", "pos": "adjective" },
+    { "cjk": "發燒", "jyutping": "faat3 siu1", "en": "to have a fever", "pos": "verb" },
+    { "cjk": "咳", "jyutping": "kat1", "en": "to cough", "pos": "verb" },
+    { "cjk": "感冒", "jyutping": "gam2 mou6", "en": "a cold; flu", "pos": "noun" },
+    { "cjk": "休息", "jyutping": "jau1 sik1", "en": "to rest", "pos": "verb" }
+  ],
+  "review": { "status": "draft", "reviewers": [] }
 }

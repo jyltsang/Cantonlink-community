@@ -4,7 +4,7 @@
 
 Much material sold as “Cantonese” is really Standard Written Chinese read aloud. Can you tell which sentences sound like natural spoken Cantonese? Answers and a full reference table are at the bottom.
 
-> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [open an issue](https://github.com/jyltsang/cantonlink-community/issues/new).
+> ⚠️ **Draft — awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20practice%2Fspoken-or-written).
 
 **1.** 我們走吧。 — spoken ☐ written ☐  
 **2.** 呢本係我嘅書。 — spoken ☐ written ☐  
