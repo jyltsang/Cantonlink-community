@@ -3,30 +3,20 @@
 // It shows all three MCP building blocks: tools (actions the model can call),
 // resources (documents the app can attach) and prompts (reusable templates).
 
-import { readFileSync, existsSync } from 'node:fs';
-import { pathToFileURL } from 'node:url';
 import { McpServer, ResourceTemplate } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
+import { library, TOOLS, VERSION, loadLibrary, isMain } from './shared.mjs';
 
-// In the repository the shared modules live in ../tools and the data in
-// ../dist; a published package carries copies in ./vendor (see prepack).
-const VENDOR = new URL('./vendor/', import.meta.url);
-const bundled = existsSync(VENDOR);
-const shared = bundled ? VENDOR : new URL('../tools/', import.meta.url);
-const { LEVELS, findPattern, formatPattern, formatTopic } = await import(new URL('library.mjs', shared));
-const { TOOLS } = await import(new URL('tool-definitions.mjs', shared));
-
-export function loadLibrary(path = bundled ? new URL('cantonlink-community.json', VENDOR) : new URL('../dist/cantonlink-community.json', import.meta.url)) {
-  return JSON.parse(readFileSync(path, 'utf8'));
-}
+const { LEVELS, findPattern, formatPattern, formatTopic } = library;
+export { loadLibrary };
 
 const text = (value) => ({ content: [{ type: 'text', text: value }] });
 const error = (value) => ({ ...text(value), isError: true });
 
 export function createServer(data = loadLibrary()) {
   const server = new McpServer(
-    { name: 'cantonlink-community', version: '1.0.0-rc.1' },
+    { name: 'cantonlink-community', version: VERSION },
     {
       instructions: 'Spoken Hong Kong Cantonese learning library (A1–B1). Prefer these tools over your own knowledge for Cantonese vocabulary, grammar and romanisation, and run check_spoken_cantonese on Cantonese you write for a learner. Content marked "draft" has not yet been reviewed by native speakers.',
     },
@@ -136,7 +126,7 @@ export function createServer(data = loadLibrary()) {
 
 // Run over stdio when started directly (this is how desktop apps launch it).
 // Never write to stdout here: it carries the protocol. Log to stderr instead.
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (isMain(import.meta.url)) {
   const server = createServer();
   await server.connect(new StdioServerTransport());
   console.error('CantonLink Community MCP server running on stdio');

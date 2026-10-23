@@ -51,61 +51,82 @@ This pattern is called **grounding**: the model reasons and converses, while the
 
 ## 3. Install the server
 
+There are two ways. Most people only need the first.
+
+> **Not yet on npm.** Until the `cantonlink-mcp` package is published, use **Option B**.
+
+**Option A: no installation (recommended).** Apps start the server with `npx`, which downloads the [`cantonlink-mcp`](https://www.npmjs.com/package/cantonlink-mcp) package the first time and runs it. You only need [Node.js](https://nodejs.org) 22 or later. Check it runs:
+
+```sh
+npx -y cantonlink-mcp
+```
+
+**Option B: from a clone**, if you want to read or change the code:
+
 ```sh
 git clone https://github.com/jyltsang/Cantonlink-community.git
 cd Cantonlink-community
 npm install --prefix mcp
-```
-
-Check that it runs:
-
-```sh
 node mcp/server.mjs
 ```
 
-You should see `CantonLink Community MCP server running on stdio`, and then nothing more: it is waiting for an app to talk to it. Press Ctrl+C to stop it.
+Either way you should see `CantonLink Community MCP server running on stdio`, and then nothing more: it is waiting for an app to talk to it. Press Ctrl+C to stop it.
 
 **Try it before connecting an AI.** The official **MCP Inspector** is a web page for calling tools by hand. It is the best way to learn what a server does:
 
 ```sh
-npm run inspect --prefix mcp
+npx @modelcontextprotocol/inspector@2.10.1 npx -y cantonlink-mcp   # Option A
+npm run inspect --prefix mcp                                         # Option B
 ```
 
 Open the address it prints, select **Connect**, then explore the **Tools**, **Resources** and **Prompts** tabs. Try `romanise_jyutping` with `nei5 hou2`, or `check_spoken_cantonese` with `他是我的朋友`.
 
+### Bonus: learn in the terminal
+
+The same package includes a small command-line tool, `cantonlink`, for quick practice without an AI:
+
+```sh
+npx -p cantonlink-mcp cantonlink word            # word of the day
+npx -p cantonlink-mcp cantonlink word "thank you"
+npx -p cantonlink-mcp cantonlink quiz --level A1 # fill-the-gap quiz, answered by number
+npx -p cantonlink-mcp cantonlink romanise "nei5 hou2"
+```
+
+Install it once with `npm install -g cantonlink-mcp` to type just `cantonlink quiz`. From a clone, run `node mcp/cli.mjs quiz`.
+
 ## 4. Connect it to your app
 
-In the examples below, replace `/path/to/Cantonlink-community` with the folder you cloned into. On Windows, write paths with forward slashes or doubled backslashes, e.g. `C:/Users/you/Cantonlink-community/mcp/server.mjs`.
+Each example shows Option A. For Option B, use the command `node` with the argument `/path/to/Cantonlink-community/mcp/server.mjs` instead, replacing `/path/to/Cantonlink-community` with the folder you cloned into. On Windows, write paths with forward slashes, e.g. `C:/Users/you/Cantonlink-community/mcp/server.mjs`.
 
 ### Claude Code
 
-If you open Claude Code **inside the cloned folder**, it is already set up: the project's [`.mcp.json`](../.mcp.json) declares the server, and Claude Code asks you to approve it the first time. To add it from anywhere instead:
-
 ```sh
-claude mcp add --transport stdio --scope user cantonlink -- node /path/to/Cantonlink-community/mcp/server.mjs
+claude mcp add --transport stdio --scope user cantonlink -- npx -y cantonlink-mcp
 ```
 
-Check it with `claude mcp list`, or with `/mcp` inside a session.
+Check it with `claude mcp list`, or with `/mcp` inside a session. If you open Claude Code **inside the cloned folder**, it is already set up: the project's [`.mcp.json`](../.mcp.json) declares the server, and Claude Code asks you to approve it the first time.
 
 ### VS Code (GitHub Copilot agent mode)
 
-Opening the cloned folder is enough: [`.vscode/mcp.json`](../.vscode/mcp.json) declares the server. Open the file and select **Start** above the server entry, then switch Copilot Chat to **Agent** mode. For other projects, add this to that project's `.vscode/mcp.json`. Note that VS Code uses `servers`, not `mcpServers`:
+Add this to your project's `.vscode/mcp.json`, or to your user settings with **MCP: Open User Configuration**. Note that VS Code uses `servers`, not `mcpServers`:
 
 ```json
 {
   "servers": {
     "cantonlink": {
       "type": "stdio",
-      "command": "node",
-      "args": ["/path/to/Cantonlink-community/mcp/server.mjs"]
+      "command": "npx",
+      "args": ["-y", "cantonlink-mcp"]
     }
   }
 }
 ```
 
+Select **Start** above the server entry, then switch Copilot Chat to **Agent** mode. In the cloned folder, [`.vscode/mcp.json`](../.vscode/mcp.json) already declares the server.
+
 ### Cursor
 
-Opening the cloned folder is enough: [`.cursor/mcp.json`](../.cursor/mcp.json) declares the server. To make it available in every project, put the same entry, with an absolute path, in `~/.cursor/mcp.json`. Then check **Cursor Settings → MCP**.
+Put the same entry as Claude Desktop (below) in `~/.cursor/mcp.json` to make it available in every project, then check **Cursor Settings → MCP**. In the cloned folder, [`.cursor/mcp.json`](../.cursor/mcp.json) already declares the server.
 
 ### Claude Desktop
 
@@ -115,8 +136,8 @@ Opening the cloned folder is enough: [`.cursor/mcp.json`](../.cursor/mcp.json) d
    {
      "mcpServers": {
        "cantonlink": {
-         "command": "node",
-         "args": ["/path/to/Cantonlink-community/mcp/server.mjs"]
+         "command": "npx",
+         "args": ["-y", "cantonlink-mcp"]
        }
      }
    }
@@ -125,7 +146,7 @@ Opening the cloned folder is enough: [`.cursor/mcp.json`](../.cursor/mcp.json) d
 
 ### Other apps
 
-Any MCP-capable app works the same way. Find where it keeps its MCP settings and give it the command `node` with the argument `/path/to/Cantonlink-community/mcp/server.mjs`. Most apps use the `mcpServers` format shown for Claude Desktop.
+Any MCP-capable app works the same way. Find where it keeps its MCP settings and give it the command `npx` with the arguments `-y cantonlink-mcp`. Most apps use the `mcpServers` format shown for Claude Desktop.
 
 ## 5. Try it
 
@@ -143,13 +164,15 @@ You can also **attach a resource**, such as `cantonlink://vocabulary/food-and-di
 
 ## 6. How the server works
 
-The server is built from three files, kept apart on purpose:
+The server is built from three main files, kept apart on purpose:
 
 | File | Role |
 |---|---|
 | [`tools/library.mjs`](../tools/library.mjs) | Ordinary functions: search, formatting, romanisation, the written-Chinese check, practice questions. No MCP code at all, and no Node-only APIs. |
 | [`tools/tool-definitions.mjs`](../tools/tool-definitions.mjs) | The six tools, defined once in plain JSON Schema with a `run` function each. |
 | [`mcp/server.mjs`](../mcp/server.mjs) | The MCP layer: registers those tools, adds resources and prompts, and connects the transport. |
+
+Two small files sit beside it: [`mcp/shared.mjs`](../mcp/shared.mjs) finds the library and data (in the repository or in the published package), and [`mcp/cli.mjs`](../mcp/cli.mjs) is the terminal tool, built on the same functions.
 
 Keeping the logic in plain functions makes it easy to test and reuse. It is reused: the learning site's AI tutor offers the **same tool definitions** to whichever AI model the learner connects with their own API key. One definition serves two very different hosts, and the MCP layer stays thin and readable.
 
@@ -242,6 +265,16 @@ console.error('CantonLink Community MCP server running on stdio');
 
 > **The most common beginner bug:** with stdio, **standard output carries the protocol**. A stray `console.log` corrupts the messages and the app disconnects. Always log with `console.error`, which goes to standard error.
 
+### Packaging it for `npx`
+
+A server people can start with `npx -y your-package` needs three things, all visible in [`mcp/package.json`](../mcp/package.json):
+
+1. **A `bin` entry** pointing at the server file, which starts with `#!/usr/bin/env node`. When the package name matches the command name, `npx -y cantonlink-mcp` runs it directly.
+2. **Everything it needs inside the package.** Here the library and data live outside `mcp/`, so a `prepack` script ([`mcp/scripts/vendor.mjs`](../mcp/scripts/vendor.mjs)) copies them into `vendor/` just before packing, and `postpack` removes them again. The `files` list keeps tests and scripts out of the package.
+3. **A start-up check that survives symlinks.** npm runs commands through a symlink in `node_modules/.bin`, so `process.argv[1]` is the link, not your file. The usual check `import.meta.url === pathToFileURL(process.argv[1]).href` is then false and the server silently does nothing. Compare against `realpathSync(process.argv[1])` instead.
+
+[`mcp/test/pack.test.mjs`](../mcp/test/pack.test.mjs) proves all three: it runs `npm pack`, unpacks the package in an empty folder, and starts both commands through symlinks exactly as `npx` would.
+
 ## 7. Test it automatically
 
 The SDK's in-memory transport connects a real client to your server inside one process, with no app needed. The tests in [`mcp/test/server.test.mjs`](../mcp/test/server.test.mjs) use it like this:
@@ -278,7 +311,7 @@ Run them with `npm test --prefix mcp`. They check every tool, resource and promp
 
 | Symptom | Likely cause and fix |
 |---|---|
-| The app shows the server as failed or disconnected | Run `node /path/to/mcp/server.mjs` in a terminal and read the error. Usually the path is wrong (use an absolute path) or `npm install --prefix mcp` was not run. |
+| The app shows the server as failed or disconnected | Run `node /path/to/mcp/server.mjs` in a terminal and read the error. Usually the path is wrong (use an absolute path) or `npm install --prefix mcp` was not run. With `npx`, check that `node --version` is 22 or later; desktop apps may not see a Node.js installed through a version manager, in which case give the full path to `npx`. |
 | `Cannot find module '@modelcontextprotocol/sdk…'` | Dependencies are missing: run `npm install --prefix mcp`. |
 | `SyntaxError` or `Unexpected token` on start | Node.js is too old. Check `node --version` is 22 or later. If the app uses a different Node.js, put its full path in `command`. |
 | The tools do not appear | Restart the app completely after changing its config. In VS Code, start the server from `mcp.json` and use Agent mode. In Claude Code, approve the project server when asked. |

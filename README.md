@@ -73,7 +73,11 @@ Paste an API key from **Claude, OpenAI or Gemini**, or connect a **free local mo
 
 ## Use it with an AI assistant (MCP)
 
-The [`mcp/`](mcp/) folder is a ready-made **Model Context Protocol** server. It lets assistants such as Claude, GitHub Copilot and Cursor look up words, read grammar patterns, convert romanisation, quiz you, and check their own Cantonese for written-Chinese forms, all from this library rather than from memory. Clone the repository, run `npm install --prefix mcp`, and open the folder in Claude Code, VS Code or Cursor: it is already configured.
+The [`mcp/`](mcp/) folder is a ready-made **Model Context Protocol** server. It lets assistants such as Claude, GitHub Copilot and Cursor look up words, read grammar patterns, convert romanisation, quiz you, and check their own Cantonese for written-Chinese forms, all from this library rather than from memory. Add it to your app with the command `npx -y cantonlink-mcp` (until the package is on npm, use the clone route in the guide), or clone the repository and open the folder in Claude Code, VS Code or Cursor: it is already configured. The same package has a terminal tool for quick practice:
+
+```sh
+npx -p cantonlink-mcp cantonlink quiz --level A1
+```
 
 New to MCP? The **[MCP guide](docs/MCP_GUIDE.md)** explains how it works, how to connect it to your app, and how to build your own server.
 
