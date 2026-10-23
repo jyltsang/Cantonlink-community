@@ -4,7 +4,7 @@ This report records the quality checks made on the content of the Community Edit
 
 ## 1. Independent pronunciation check
 
-Every reading in `content/` (759 entries: words, classifiers, example sentences, corrections, spoken-or-written pairs, unit titles and practice distractors) is compared with an independent Cantonese pronunciation dictionary, [to-jyutping](https://github.com/CanCLID/to-jyutping) by the Cantonese Computational Linguistics Infrastructure Development Workgroup (CanCLID). Sentences are read in context, so the dictionary can choose between readings of the same character. The check runs in CI as part of `npm run check` ([`tools/check-pronunciation.mjs`](../tools/check-pronunciation.mjs)).
+Every reading in `content/` (853 entries: words, classifiers, example sentences, corrections, spoken-or-written pairs, unit titles, dialogue lines and practice distractors) is compared with an independent Cantonese pronunciation dictionary, [to-jyutping](https://github.com/CanCLID/to-jyutping) by the Cantonese Computational Linguistics Infrastructure Development Workgroup (CanCLID). Sentences are read in context, so the dictionary can choose between readings of the same character. The check runs in CI as part of `npm run check` ([`tools/check-pronunciation.mjs`](../tools/check-pronunciation.mjs)).
 
 **Result:** 48 differences in 31 words. None of our readings was outside the dictionary's list of accepted readings for the character.
 
@@ -51,3 +51,7 @@ Every item was checked for another natural word order. 14 items have one, and th
 - a time word before the subject (聽日我會…), and 快啲啦 before 已經十點喇
 
 The build checks that each accepted order uses exactly the sentence's words and does not repeat another order. Alternatives are shown in the printable worksheets and in the MCP practice tool's answers. Items whose other orders would change the meaning (佢係我朋友 / 我係佢朋友) accept only one order.
+
+## 4. Model dialogues
+
+The 12 new dialogues (94 lines) were written for natural Hong Kong speech at each unit's level and checked like every other sentence: Jyutping validity, one syllable per character, no written Chinese, and the independent pronunciation check. Four further colloquial readings were documented (喂 wai2 on the phone, 卡 kaat1 'card', 左右 zo2 jau6 'about', and 呀 aa3 in replies). One spelling was changed to the more standard form: 海傍 to 海旁 hoi2 pong4. The build also checks that each dialogue uses at least three of its unit's grammar patterns.

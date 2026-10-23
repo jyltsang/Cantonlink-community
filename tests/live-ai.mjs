@@ -176,8 +176,14 @@ if (!tested.length) {
 
 let server;
 if (LOCAL) {
-  server = spawn(process.execPath, ['tools/site.mjs', '--serve'], { stdio: ['ignore', 'pipe', 'inherit'] });
-  await new Promise((resolve) => server.stdout.on('data', (chunk) => { if (String(chunk).includes('Previewing')) resolve(); }));
+  server = spawn(process.execPath, ['tools/site.mjs', '--serve'], { stdio: ['ignore', 'pipe', 'pipe'] });
+  await new Promise((resolve, reject) => {
+    let errors = '';
+    server.stdout.on('data', (chunk) => { if (String(chunk).includes('Previewing')) resolve(); });
+    server.stderr.on('data', (chunk) => { errors += chunk; });
+    server.on('exit', (code) => reject(new Error(`The local site server stopped (exit ${code}). Is port 8080 already in use?\n${errors.trim()}`)));
+    setTimeout(() => reject(new Error('The local site server did not start within 30 seconds.')), 30_000);
+  });
 }
 const browser = await chromium.launch();
 const results = [];

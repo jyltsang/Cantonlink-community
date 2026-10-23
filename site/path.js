@@ -1,5 +1,5 @@
-import { LEVELS, h, show, rom, han, pageHead, tag, isDone, shuffle } from './lib.js';
-import { runSession, itemKey } from './practice.js';
+import { LEVELS, h, show, rom, han, pageHead, tag, isDone, shuffle, sentenceEl } from './lib.js';
+import { runSession, itemKey, dialogueBuildItems } from './practice.js';
 import { aiReady } from './ai-settings.js';
 
 // A unit counts as complete once most of its practice has been answered
@@ -12,6 +12,7 @@ function unitItems(data, unit) {
     ...data.practice.fillGap.filter((q) => patterns.has(q.patternId)).map((q) => ({ kind: 'fill', q })),
     ...data.practice.buildSentence.filter((q) => patterns.has(q.patternId)).map((q) => ({ kind: 'build', q })),
     ...data.vocabulary.filter((t) => unit.topics.includes(t.id)).flatMap((t) => t.words.map((word) => ({ kind: 'card', q: { word, topic: t.id } }))),
+    ...dialogueBuildItems(data, unit),
   ];
 }
 
@@ -73,6 +74,28 @@ export function pathView(data) {
   );
 }
 
+// The unit's model dialogue, word by word in the chosen romanisation, with
+// the English hidden until the learner asks for it.
+function dialogueSection(unit) {
+  const d = unit.dialogue;
+  const lines = h('ol', { class: 'dialogue' }, d.lines.map((line) => h('li', { class: `dialogue-line speaker-${line.speaker}` },
+    h('p', { class: 'speaker' }, d.speakers[line.speaker]),
+    sentenceEl(line.tokens),
+    h('p', { class: 'en' }, line.en))));
+  const toggle = h('button', {
+    class: 'btn btn-small', type: 'button', 'aria-pressed': 'false',
+    onclick: () => {
+      const showing = lines.classList.toggle('show-en');
+      toggle.setAttribute('aria-pressed', String(showing));
+      toggle.textContent = showing ? 'Hide English' : 'Show English';
+    },
+  }, 'Show English');
+  return h('section', { class: 'panel', 'aria-labelledby': 'dialogue-heading' },
+    h('h2', { id: 'dialogue-heading' }, `3. Model dialogue: ${d.title}`),
+    h('p', { class: 'small' }, 'Read it aloud, taking each part in turn. Try to understand it before you show the English.'),
+    toggle, lines);
+}
+
 export function unitView(data, id) {
   const unit = data.path.find((u) => u.id === id);
   if (!unit) return false;
@@ -94,12 +117,13 @@ export function unitView(data, id) {
       h('ul', { class: 'link-list' }, topics.map((t) => h('li', {},
         h('a', { href: `#/vocabulary/${t.id}` }, t.title), ` — ${t.words.length} words · `,
         h('a', { href: `#/flashcards?topic=${t.id}` }, 'Flashcards'))))),
+    dialogueSection(unit),
     h('section', { class: 'panel' },
-      h('h2', {}, '3. Practise'),
-      h('p', {}, 'A mixed session of fill-the-gap, sentence-building and flashcards from this unit, starting with what you have not practised yet.'),
+      h('h2', {}, '4. Practise'),
+      h('p', {}, 'A mixed session of fill-the-gap, sentence-building (including lines from the dialogue) and flashcards from this unit, starting with what you have not practised yet. With an AI key, you can also act out the dialogue\'s situation with the tutor.'),
       h('div', { class: 'actions' },
         h('a', { class: 'btn btn-primary', href: `#/path/${unit.id}/practise` }, 'Practise this unit'),
-        h('a', { class: 'btn', href: tutorLink(unit) }, aiReady() ? 'Practise with the AI tutor' : 'AI tutor (needs a key)'))),
+        h('a', { class: 'btn', href: tutorLink(unit) }, aiReady() ? 'Role-play with the AI tutor' : 'AI tutor (needs a key)'))),
     next ? h('p', {}, progress.complete ? 'Unit complete. ' : '', 'Next: ', h('a', { href: `#/path/${next.id}` }, `Unit ${n + 1}: ${next.title}`)) : null,
   );
   return true;
@@ -117,6 +141,6 @@ export function unitPractice(data, id) {
     lede: unit.goal,
     back: [`#/path/${unit.id}`, `Unit ${unitNumber(data, unit)}`],
     exit: [`#/path/${unit.id}`, 'Back to the unit'],
-    makeItems: () => shuffle([...pick('fill', 5), ...pick('build', 2), ...pick('card', 5)]),
+    makeItems: () => shuffle([...pick('fill', 5), ...pick('build', 3), ...pick('card', 4)]),
   });
 }

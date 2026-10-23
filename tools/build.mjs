@@ -22,6 +22,7 @@ const topics = listJson('content/vocabulary').map((f) => readJson(`content/vocab
 const spokenOrWritten = readJson('content/practice/spoken-or-written.json');
 const extraLexicon = readJson('content/lexicon.json');
 const path = readJson('content/path.json');
+const dialogues = readJson('content/dialogues.json').dialogues;
 
 const FUNCTIONS = {
   'being-and-having': 'Being and having',
@@ -176,6 +177,37 @@ for (const p of patterns) {
     }
   }
   for (const id of [...byId.keys(), ...topicIds]) if (!taught.has(id)) fail('path', `"${id}" is not in any unit`);
+}
+
+// One model dialogue per unit, in natural spoken Cantonese, that uses at
+// least three of the unit's patterns. A pattern counts as used when the
+// characters of one of its forms (e.g. 有冇, or 一 + 就) all appear.
+const patternForms = (p) => p.pattern.split('/').map((form) => (form.match(/\p{Script=Han}/gu) ?? []).join('')).filter(Boolean);
+{
+  const units = new Map(path.units.map((u) => [u.id, u]));
+  const byId = new Map(patterns.map((p) => [p.id, p]));
+  const seen = new Set();
+  for (const d of dialogues) {
+    const where = `dialogue/${d.unit}`;
+    if (!units.has(d.unit)) { fail(where, 'unknown unit'); continue; }
+    if (seen.has(d.unit)) fail(where, 'the unit already has a dialogue');
+    seen.add(d.unit);
+    if (!d.title?.trim()) fail(where, 'needs a title');
+    if (!d.speakers?.A || !d.speakers?.B) fail(where, 'needs two named speakers, A and B');
+    if (d.lines.length < 6 || d.lines.length > 8) fail(where, `has ${d.lines.length} lines; use 6 to 8`);
+    d.lines.forEach((line, i) => {
+      const at = `${where} line ${i + 1}`;
+      if (!d.speakers?.[line.speaker]) fail(at, `unknown speaker "${line.speaker}"`);
+      if (!line.en?.trim()) fail(at, 'needs an English translation');
+      checkWords(at, line.words);
+      checkSpoken(at, line.words);
+      line.words.filter((w) => w.length === 2).forEach(([c, j]) => learn(c, j));
+    });
+    const text = d.lines.map((line) => line.words.map((w) => w[0]).join('')).join('');
+    const used = units.get(d.unit).patterns.filter((id) => patternForms(byId.get(id)).some((form) => [...form].every((c) => text.includes(c))));
+    if (used.length < 3) fail(where, `uses ${used.length} of the unit's patterns (${used.join(', ') || 'none'}); use at least three`);
+  }
+  for (const u of path.units) if (!seen.has(u.id)) fail(`path/${u.id}`, 'has no dialogue in content/dialogues.json');
 }
 
 const REVIEW_STATUSES = ['draft', 'reviewed'];
@@ -447,6 +479,13 @@ emit('library/practice/README.md', page(
 }
 
 // Learning path
+function dialogueTable(d) {
+  const rows = d.lines.map((line) => {
+    const s = sentence(line.words, line.en);
+    return `| **${d.speakers[line.speaker]}** | ${s.cjk}<br>${s.jyutping}<br>*${s.yale}* | ${s.en} |`;
+  });
+  return [`**Model dialogue: ${d.title}**`, '| | Cantonese | English |\n|---|---|---|\n' + rows.join('\n')].join('\n\n');
+}
 {
   const byId = new Map(patterns.map((p) => [p.id, p]));
   const topicById = new Map(topics.map((t) => [t.id, t]));
@@ -458,6 +497,7 @@ emit('library/practice/README.md', page(
       `*${u.goal}*`,
       u.patterns.map((id) => `- [${byId.get(id).pattern}](grammar/${id}.md) — ${byId.get(id).meaning}`).join('\n'),
       `Vocabulary: ${u.topics.map((id) => `[${topicById.get(id).title}](vocabulary/${id}.md)`).join(', ')}`,
+      dialogueTable(dialogues.find((d) => d.unit === u.id)),
     ].join('\n\n')),
   ));
 }
@@ -503,7 +543,13 @@ emit('dist/cantonlink-community.json', JSON.stringify({
     id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
     words: t.words.map((w) => ({ ...word(w.cjk, w.jyutping), en: w.en, pos: w.pos, ...(w.classifier ? { classifier: word(...w.classifier) } : {}), ...(w.note ? { note: w.note } : {}) })),
   })),
-  path: path.units.map(({ titleCjk, titleJyutping, ...u }) => ({ ...u, titleWord: word(titleCjk, titleJyutping) })),
+  path: path.units.map(({ titleCjk, titleJyutping, ...u }) => {
+    const d = dialogues.find((x) => x.unit === u.id);
+    return {
+      ...u, titleWord: word(titleCjk, titleJyutping),
+      dialogue: { title: d.title, speakers: d.speakers, lines: d.lines.map((line) => ({ speaker: line.speaker, ...sentence(line.words, line.en), tokens: tokens(line.words) })) },
+    };
+  }),
   practice: {
     fillGap: patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.gap).map(({ ex, i }) => ({
       id: `${p.id}:${i}`, patternId: p.id, level: p.level, en: ex.en, tokens: tokens(ex.words),
@@ -542,7 +588,10 @@ emit('dist/schema.json', JSON.stringify(SCHEMA, null, 2) + '\n');
       id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
       words: t.words.map((w) => ({ cjk: w.cjk, jyutping: w.jyutping, en: w.en, pos: w.pos, ...(w.classifier ? { classifier: w.classifier } : {}), ...(w.note ? { note: w.note } : {}) })),
     })),
-    path: path.units.map(({ titleCjk, titleJyutping, ...u }) => ({ ...u, titleWord: pair(titleCjk, titleJyutping) })),
+    path: path.units.map(({ titleCjk, titleJyutping, ...u }) => {
+      const d = dialogues.find((x) => x.unit === u.id);
+      return { ...u, titleWord: pair(titleCjk, titleJyutping), dialogue: { title: d.title, speakers: d.speakers, lines: d.lines.map((line) => [line.speaker, line.words, line.en]) } };
+    }),
     practice: {
       fillGap, buildSentence,
       spokenOrWritten: { review: spokenOrWritten.review, items: spokenOrWritten.items.map((item) => ({ written: item.written, spoken: [item.spoken, item.en], changes: item.changes })) },

@@ -78,6 +78,11 @@ export const SCHEMA = {
       id: str(), level, title: str(), titleWord: ref('word'),
       scenario: str('AI tutor scenario id'), goal: str('What the learner can do after the unit'),
       patterns: list(str('pattern id')), topics: list(str('topic id')),
+      dialogue: obj({
+        title: str(),
+        speakers: obj({ A: str('Name of speaker A'), B: str('Name of speaker B') }),
+        lines: list(obj({ speaker: { enum: ['A', 'B'] }, ...romanised, en: str(), tokens: list(ref('token')) }), '6 to 8 lines'),
+      }),
     }),
     fillGap: obj({
       id: str('"<pattern id>:<example index>"'), patternId: str(), level, en: str(),

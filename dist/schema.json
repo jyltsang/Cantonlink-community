@@ -478,6 +478,88 @@
             "type": "string",
             "description": "topic id"
           }
+        },
+        "dialogue": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "speakers": {
+              "type": "object",
+              "properties": {
+                "A": {
+                  "type": "string",
+                  "description": "Name of speaker A"
+                },
+                "B": {
+                  "type": "string",
+                  "description": "Name of speaker B"
+                }
+              },
+              "required": [
+                "A",
+                "B"
+              ],
+              "additionalProperties": false
+            },
+            "lines": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "speaker": {
+                    "enum": [
+                      "A",
+                      "B"
+                    ]
+                  },
+                  "cjk": {
+                    "type": "string",
+                    "description": "Traditional Chinese characters, as written in Hong Kong"
+                  },
+                  "jyutping": {
+                    "type": "string",
+                    "description": "Jyutping with tone numbers 1–6; the source of truth"
+                  },
+                  "yale": {
+                    "type": "string",
+                    "description": "Yale romanisation with tone marks, generated from the Jyutping"
+                  },
+                  "bopomofo": {
+                    "type": "string",
+                    "description": "Cantonese Bopomofo, generated from the Jyutping"
+                  },
+                  "en": {
+                    "type": "string"
+                  },
+                  "tokens": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/$defs/token"
+                    }
+                  }
+                },
+                "required": [
+                  "speaker",
+                  "cjk",
+                  "jyutping",
+                  "yale",
+                  "bopomofo",
+                  "en",
+                  "tokens"
+                ],
+                "additionalProperties": false
+              },
+              "description": "6 to 8 lines"
+            }
+          },
+          "required": [
+            "title",
+            "speakers",
+            "lines"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
@@ -488,7 +570,8 @@
         "scenario",
         "goal",
         "patterns",
-        "topics"
+        "topics",
+        "dialogue"
       ],
       "additionalProperties": false
     },

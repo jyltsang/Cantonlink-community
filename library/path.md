@@ -16,6 +16,19 @@
 
 Vocabulary: [Greetings and courtesy](vocabulary/greetings.md)
 
+**Model dialogue: Nice to meet you**
+
+| | Cantonese | English |
+|---|---|---|
+| **Ka-yan** | 你好！我叫嘉欣。你叫咩名呀？<br>nei5 hou2! ngo5 giu3 gaa1 jan1. nei5 giu3 me1 meng2 aa3?<br>*néih hóu! ngóh giu gā yān. néih giu mē méng a?* | Hi! I'm Ka-yan. What's your name? |
+| **Tom** | 你好，我叫Tom。好高興認識你！<br>nei5 hou2, ngo5 giu3 Tom. hou2 gou1 hing3 jing6 sik1 nei5!<br>*néih hóu, ngóh giu Tom. hóu gōu hing yihng sīk néih!* | Hi, I'm Tom. Nice to meet you! |
+| **Ka-yan** | 你係學生嗎？<br>nei5 hai6 hok6 saang1 maa3?<br>*néih haih hohk sāang ma?* | Are you a student? |
+| **Tom** | 唔係呀，我係老師。<br>m4 hai6 aa3, ngo5 hai6 lou5 si1.<br>*m̀h haih a, ngóh haih lóuh sī.* | No, I'm a teacher. |
+| **Ka-yan** | 你係邊度人呀？<br>nei5 hai6 bin1 dou6 jan4 aa3?<br>*néih haih bīn douh yàhn a?* | Where are you from? |
+| **Tom** | 我係英國人。呢張係我嘅卡片。<br>ngo5 hai6 jing1 gwok3 jan4. ni1 zoeng1 hai6 ngo5 ge3 kaat1 pin2.<br>*ngóh haih yīng gwok yàhn. nī jēung haih ngóh ge kāat pín.* | I'm British. Here's my card. |
+| **Ka-yan** | 唔該！遲啲見！<br>m4 goi1! ci4 di1 gin3!<br>*m̀h gōi! chìh dī gin!* | Thanks! See you later! |
+| **Tom** | 拜拜！<br>baai1 baai3!<br>*bāai baai!* | Bye! |
+
 ## 2. Numbers and prices · 數字同價錢 (sou3 zi6 tung4 gaa3 cin4) · A1
 
 *Count things, point at them, and ask what they cost and whether there are any.*
@@ -27,6 +40,19 @@ Vocabulary: [Greetings and courtesy](vocabulary/greetings.md)
 - [有冇 + Noun？](grammar/jau5-mou5-question.md) — Is there…? / Do you have…?
 
 Vocabulary: [Numbers, money and time](vocabulary/numbers-money-time.md)
+
+**Model dialogue: At the fruit stall**
+
+| | Cantonese | English |
+|---|---|---|
+| **Amy** | 唔該，有冇蘋果呀？<br>m4 goi1, jau5 mou5 ping4 gwo2 aa3?<br>*m̀h gōi, yáuh móuh pìhng gwó a?* | Excuse me, do you have any apples? |
+| **Mr Chan** | 有呀。呢啲好甜㗎。<br>jau5 aa3. ni1 di1 hou2 tim4 gaa3.<br>*yáuh a. nī dī hóu tìhm ga.* | Yes. These are very sweet. |
+| **Amy** | 幾多錢一個呀？<br>gei2 do1 cin2 jat1 go3 aa3?<br>*géi dō chín yāt go a?* | How much is one? |
+| **Mr Chan** | 十蚊一個，二十五蚊三個。<br>sap6 man1 jat1 go3, ji6 sap6 ng5 man1 saam1 go3.<br>*sahp mān yāt go, yih sahp ńgh mān sāam go.* | Ten dollars each, or three for twenty-five. |
+| **Amy** | 我要三個。有冇橙呀？<br>ngo5 jiu3 saam1 go3. jau5 mou5 caang2 aa3?<br>*ngóh yiu sāam go. yáuh móuh cháang a?* | I'll have three. Do you have any oranges? |
+| **Mr Chan** | 今日冇橙呀，唔好意思。<br>gam1 jat6 mou5 caang2 aa3, m4 hou2 ji3 si3.<br>*gām yaht móuh cháang a, m̀h hóu yi si.* | No oranges today, sorry. |
+| **Amy** | 唔緊要。畀你三十蚊。<br>m4 gan2 jiu3. bei2 nei5 saam1 sap6 man1.<br>*m̀h gán yiu. béi néih sāam sahp mān.* | Never mind. Here's thirty dollars. |
+| **Mr Chan** | 找你五蚊。多謝！<br>zaau2 nei5 ng5 man1. do1 ze6!<br>*jáau néih ńgh mān. dō jeh!* | Five dollars change. Thank you! |
 
 ## 3. Eating out · 飲茶 (jam2 caa4) · A1
 
@@ -40,6 +66,19 @@ Vocabulary: [Numbers, money and time](vocabulary/numbers-money-time.md)
 
 Vocabulary: [Food and dim sum](vocabulary/food-and-dim-sum.md)
 
+**Model dialogue: Breakfast at a cha chaan teng**
+
+| | Cantonese | English |
+|---|---|---|
+| **Waiter** | 你食乜嘢呀？<br>nei5 sik6 mat1 je5 aa3?<br>*néih sihk māt yéh a?* | What would you like to eat? |
+| **Mei** | 我想要一個菠蘿包同一碗雲吞麪。<br>ngo5 soeng2 jiu3 jat1 go3 bo1 lo4 baau1 tung4 jat1 wun2 wan4 tan1 min6.<br>*ngóh séung yiu yāt go bō lòh bāau tùhng yāt wún wàhn tān mihn.* | I'd like a pineapple bun and a bowl of wonton noodles. |
+| **Waiter** | 飲咩呀？<br>jam2 me1 aa3?<br>*yám mē a?* | Anything to drink? |
+| **Mei** | 我要一杯奶茶。<br>ngo5 jiu3 jat1 bui1 naai5 caa4.<br>*ngóh yiu yāt būi náaih chàh.* | A milk tea, please. |
+| **Waiter** | 熱定係凍呀？<br>jit6 ding6 hai6 dung3 aa3?<br>*yiht dihng haih dung a?* | Hot or iced? |
+| **Mei** | 凍，少甜，唔該。<br>dung3, siu2 tim4, m4 goi1.<br>*dung, síu tìhm, m̀h gōi.* | Iced, less sugar, thanks. |
+| **Waiter** | 你嘅雲吞麪。慢慢食啦。<br>nei5 ge3 wan4 tan1 min6. maan6 maan2 sik6 laa1.<br>*néih ge wàhn tān mihn. maahn máan sihk lā.* | Your wonton noodles. Enjoy! |
+| **Mei** | 唔該！<br>m4 goi1!<br>*m̀h gōi!* | Thank you! |
+
 ## 4. Family and friends · 屋企人 (uk1 kei2 jan4) · A1
 
 *Talk about the people in your life and describe them.*
@@ -50,6 +89,19 @@ Vocabulary: [Food and dim sum](vocabulary/food-and-dim-sum.md)
 - [邊度 / 邊個 / 邊 + Classifier](grammar/bin1-where-who.md) — where / who / which
 
 Vocabulary: [Family and people](vocabulary/family-and-people.md)
+
+**Model dialogue: A family photo**
+
+| | Cantonese | English |
+|---|---|---|
+| **Siu-ming** | 呢個係邊個呀？<br>ni1 go3 hai6 bin1 go3 aa3?<br>*nī go haih bīn go a?* | Who's this? |
+| **Jess** | 佢係我家姐。佢好高㗎。<br>keoi5 hai6 ngo5 gaa1 ze1. keoi5 hou2 gou1 gaa3.<br>*kéuih haih ngóh gā jē. kéuih hóu gōu ga.* | She's my older sister. She's very tall. |
+| **Siu-ming** | 佢住喺邊度呀？<br>keoi5 zyu6 hai2 bin1 dou6 aa3?<br>*kéuih jyuh hái bīn douh a?* | Where does she live? |
+| **Jess** | 佢同佢老公住喺沙田。<br>keoi5 tung4 keoi5 lou5 gung1 zyu6 hai2 saa1 tin4.<br>*kéuih tùhng kéuih lóuh gūng jyuh hái sā tìhn.* | She lives in Sha Tin with her husband. |
+| **Siu-ming** | 佢哋有冇細路呀？<br>keoi5 dei6 jau5 mou5 sai3 lou6 aa3?<br>*kéuih deih yáuh móuh sai louh a?* | Do they have any children? |
+| **Jess** | 有，一個仔同一個女。<br>jau5, jat1 go3 zai2 tung4 jat1 go3 neoi2.<br>*yáuh, yāt go jái tùhng yāt go néui.* | Yes, a son and a daughter. |
+| **Siu-ming** | 你鍾唔鍾意做姨姨呀？<br>nei5 zung1 m4 zung1 ji3 zou6 ji4 ji1 aa3?<br>*néih jūng m̀h jūng yi jouh yìh yī a?* | Do you like being an auntie? |
+| **Jess** | 好鍾意呀！佢哋好得意。<br>hou2 zung1 ji3 aa3! keoi5 dei6 hou2 dak1 ji3.<br>*hóu jūng yi a! kéuih deih hóu dāk yi.* | I love it! They're so cute. |
 
 ## 5. Getting around · 搭車 (daap3 ce1) · A1
 
@@ -63,6 +115,18 @@ Vocabulary: [Family and people](vocabulary/family-and-people.md)
 
 Vocabulary: [Transport and MTR](vocabulary/transport.md)
 
+**Model dialogue: Meeting at the station**
+
+| | Cantonese | English |
+|---|---|---|
+| **Wing** | 喂，你喺邊度呀？<br>wai2, nei5 hai2 bin1 dou6 aa3?<br>*wái, néih hái bīn douh a?* | Hello, where are you? |
+| **Alex** | 我搭緊巴士，就快到。<br>ngo5 daap3 gan2 baa1 si2, zau6 faai3 dou3.<br>*ngóh daap gán bā sí, jauh faai dou.* | I'm on the bus; I'm nearly there. |
+| **Wing** | 你幾時到呀？<br>nei5 gei2 si4 dou3 aa3?<br>*néih géi sìh dou a?* | When will you get here? |
+| **Alex** | 大概十分鐘。你喺車站等我啦。<br>daai6 koi3 sap6 fan1 zung1. nei5 hai2 ce1 zaam6 dang2 ngo5 laa1.<br>*daaih koi sahp fān jūng. néih hái chē jaahm dáng ngóh lā.* | About ten minutes. Wait for me at the station. |
+| **Wing** | 好。我到咗喇，喺B出口。<br>hou2. ngo5 dou3 zo2 laa3, hai2 B ceot1 hau2.<br>*hóu. ngóh dou jó la, hái B chēut háu.* | OK. I'm here now, at Exit B. |
+| **Alex** | 唔好行開呀，我落車就嚟。<br>m4 hou2 haang4 hoi1 aa3, ngo5 lok6 ce1 zau6 lai4.<br>*m̀h hóu hàahng hōi a, ngóh lohk chē jauh làih.* | Don't wander off — I'll be there as soon as I get off. |
+| **Wing** | 唔好急，慢慢嚟。<br>m4 hou2 gap1, maan6 maan2 lai4.<br>*m̀h hóu gāp, maahn máan làih.* | Don't rush, take your time. |
+
 ## 6. Shopping · 買嘢 (maai5 je5) · A2
 
 *Compare things, say something is too dear, and ask if you may try or pay.*
@@ -75,6 +139,19 @@ Vocabulary: [Transport and MTR](vocabulary/transport.md)
 
 Vocabulary: [Shopping](vocabulary/shopping.md)
 
+**Model dialogue: Trying on clothes**
+
+| | Cantonese | English |
+|---|---|---|
+| **Sam** | 可唔可以試吓呢件衫呀？<br>ho2 m4 ho2 ji5 si3 haa5 ni1 gin6 saam1 aa3?<br>*hó m̀h hó yíh si háh nī gihn sāam a?* | Could I try this top on? |
+| **Shop assistant** | 可以，試身室喺嗰邊。<br>ho2 ji5, si3 san1 sat1 hai2 go2 bin1.<br>*hó yíh, si sān sāt hái gó bīn.* | Of course — the fitting room is over there. |
+| **Sam** | 太細喇。有冇大啲嘅呀？<br>taai3 sai3 laa3. jau5 mou5 daai6 di1 ge3 aa3?<br>*taai sai la. yáuh móuh daaih dī ge a?* | It's too small. Do you have a bigger one? |
+| **Shop assistant** | 有，呢件係大碼。藍色嘅靚過黑色嘅。<br>jau5, ni1 gin6 hai6 daai6 maa5. laam4 sik1 ge3 leng3 gwo3 hak1 sik1 ge3.<br>*yáuh, nī gihn haih daaih máh. làahm sīk ge leng gwo hāk sīk ge.* | Yes, this one's a large. The blue one looks better than the black. |
+| **Sam** | 啱啱好。幾多錢呀？<br>ngaam1 ngaam1 hou2. gei2 do1 cin2 aa3?<br>*ngāam ngāam hóu. géi dō chín a?* | It fits perfectly. How much is it? |
+| **Shop assistant** | 三百蚊，今日減價八折。<br>saam1 baak3 man1, gam1 jat6 gaam2 gaa3 baat3 zit3.<br>*sāam baak mān, gām yaht gáam ga baat jit.* | Three hundred dollars, with 20% off today. |
+| **Sam** | 好，我要喇。畀張卡你。<br>hou2, ngo5 jiu3 laa3. bei2 zoeng1 kaat1 nei5.<br>*hóu, ngóh yiu la. béi jēung kāat néih.* | Great, I'll take it. Here's my card. |
+| **Shop assistant** | 唔該，你張卡同收據。<br>m4 goi1, nei5 zoeng1 kaat1 tung4 sau1 geoi3.<br>*m̀h gōi, néih jēung kāat tùhng sāu geui.* | Thank you — your card and your receipt. |
+
 ## 7. Asking the way · 問路 (man6 lou6) · A2
 
 *Ask how to get somewhere and why, and say what you know how to do.*
@@ -85,6 +162,19 @@ Vocabulary: [Shopping](vocabulary/shopping.md)
 - [識 + Verb](grammar/sik1-know-how.md) — know how to; can (a learned skill)
 
 Vocabulary: [Directions](vocabulary/directions.md)
+
+**Model dialogue: The way to the Star Ferry**
+
+| | Cantonese | English |
+|---|---|---|
+| **Lily** | 唔好意思，請問點去天星碼頭呀？<br>m4 hou2 ji3 si3, cing2 man6 dim2 heoi3 tin1 sing1 maa5 tau4 aa3?<br>*m̀h hóu yi si, chíng mahn dím heui tīn sīng máh tàuh a?* | Excuse me, how do I get to the Star Ferry pier? |
+| **Mrs Chan** | 直行，過兩個紅綠燈，然後轉左。<br>zik6 haang4, gwo3 loeng5 go3 hung4 luk6 dang1, jin4 hau6 zyun3 zo2.<br>*jihk hàahng, gwo léuhng go hùhng luhk dāng, yìhn hauh jyun jó.* | Go straight on, past two sets of traffic lights, then turn left. |
+| **Lily** | 遠唔遠呀？<br>jyun5 m4 jyun5 aa3?<br>*yúhn m̀h yúhn a?* | Is it far? |
+| **Mrs Chan** | 唔遠，行五分鐘左右。你識唔識睇地圖呀？<br>m4 jyun5, haang4 ng5 fan1 zung1 zo2 jau6. nei5 sik1 m4 sik1 tai2 dei6 tou4 aa3?<br>*m̀h yúhn, hàahng ńgh fān jūng jó yauh. néih sīk m̀h sīk tái deih tòuh a?* | Not far, about five minutes on foot. Can you read a map? |
+| **Lily** | 識呀。等我睇吓先。<br>sik1 aa3. dang2 ngo5 tai2 haa5 sin1.<br>*sīk a. dáng ngóh tái háh sīn.* | Yes. Let me have a look. |
+| **Mrs Chan** | 喺呢度，海旁嗰邊。<br>hai2 ni1 dou6, hoi2 pong4 go2 bin1.<br>*hái nī douh, hói pòhng gó bīn.* | Here, over by the harbour. |
+| **Lily** | 點解今日咁多人呀？<br>dim2 gaai2 gam1 jat6 gam3 do1 jan4 aa3?<br>*dím gáai gām yaht gam dō yàhn a?* | Why are there so many people today? |
+| **Mrs Chan** | 今晚有煙花㗎！<br>gam1 maan5 jau5 jin1 faa1 gaa3!<br>*gām máahn yáuh yīn fā ga!* | There are fireworks tonight! |
 
 ## 8. Daily life · 日常生活 (jat6 soeng4 sang1 wut6) · A2
 
@@ -97,6 +187,19 @@ Vocabulary: [Directions](vocabulary/directions.md)
 - [Verb + 過](grammar/gwo3-experience.md) — have ever done (experience)
 
 Vocabulary: [Home and daily routine](vocabulary/home-and-routine.md)
+
+**Model dialogue: Dinner at home**
+
+| | Cantonese | English |
+|---|---|---|
+| **Kit** | 你食咗晚飯未呀？<br>nei5 sik6 zo2 maan5 faan6 mei6 aa3?<br>*néih sihk jó máahn faahn meih a?* | Have you had dinner yet? |
+| **Ben** | 未呀。我啱啱放工。<br>mei6 aa3. ngo5 ngaam1 ngaam1 fong3 gung1.<br>*meih a. ngóh ngāam ngāam fong gūng.* | Not yet. I've just finished work. |
+| **Kit** | 我已經煮咗飯喇，一齊食啦。<br>ngo5 ji5 ging1 zyu2 zo2 faan6 laa3, jat1 cai4 sik6 laa1.<br>*ngóh yíh gīng jyú jó faahn la, yāt chàih sihk lā.* | I've already cooked — let's eat together. |
+| **Ben** | 好呀！你煮咗咩呀？<br>hou2 aa3! nei5 zyu2 zo2 me1 aa3?<br>*hóu a! néih jyú jó mē a?* | Great! What did you make? |
+| **Kit** | 蒸魚同菜。你食過蒸魚未呀？<br>zing1 jyu2 tung4 coi3. nei5 sik6 gwo3 zing1 jyu2 mei6 aa3?<br>*jīng yú tùhng choi. néih sihk gwo jīng yú meih a?* | Steamed fish and vegetables. Have you ever had steamed fish? |
+| **Ben** | 未食過。好香呀！<br>mei6 sik6 gwo3. hou2 hoeng1 aa3!<br>*meih sihk gwo. hóu hēung a!* | Never. It smells wonderful! |
+| **Kit** | 食完你洗碗啦。<br>sik6 jyun4 nei5 sai2 wun2 laa1.<br>*sihk yùhn néih sái wún lā.* | When we've finished, you do the washing-up. |
+| **Ben** | 冇問題！<br>mou5 man6 tai4!<br>*móuh mahn tàih!* | No problem! |
 
 ## 9. Seeing a doctor · 睇醫生 (tai2 ji1 sang1) · A2
 
@@ -111,6 +214,19 @@ Vocabulary: [Home and daily routine](vocabulary/home-and-routine.md)
 
 Vocabulary: [Health and the doctor](vocabulary/health.md)
 
+**Model dialogue: At the clinic**
+
+| | Cantonese | English |
+|---|---|---|
+| **Doctor** | 你邊度唔舒服呀？<br>nei5 bin1 dou6 m4 syu1 fuk6 aa3?<br>*néih bīn douh m̀h syū fuhk a?* | What seems to be the problem? |
+| **Chris** | 我頭痛，喉嚨都好痛。<br>ngo5 tau4 tung3, hau4 lung4 dou1 hou2 tung3.<br>*ngóh tàuh tung, hàuh lùhng dōu hóu tung.* | I've got a headache, and my throat hurts too. |
+| **Doctor** | 有冇發燒呀？<br>jau5 mou5 faat3 siu1 aa3?<br>*yáuh móuh faat sīu a?* | Do you have a fever? |
+| **Chris** | 冇。因為聽日要返工，所以想快啲好返。<br>mou5. jan1 wai6 ting1 jat6 jiu3 faan1 gung1, so2 ji5 soeng2 faai3 di1 hou2 faan1.<br>*móuh. yān waih tīng yaht yiu fāan gūng, só yíh séung faai dī hóu fāan.* | No. I have to work tomorrow, so I want to get better quickly. |
+| **Doctor** | 你係感冒。你應該休息兩日。<br>nei5 hai6 gam2 mou6. nei5 jing1 goi1 jau1 sik1 loeng5 jat6.<br>*néih haih gám mouh. néih yīng gōi yāu sīk léuhng yaht.* | You've got a cold. You should rest for two days. |
+| **Chris** | 唔使返工咩？<br>m4 sai2 faan1 gung1 me1?<br>*m̀h sái fāan gūng mē?* | I don't have to go to work? |
+| **Doctor** | 唔使，我會寫病假紙畀你。<br>m4 sai2, ngo5 wui5 se2 beng6 gaa3 zi2 bei2 nei5.<br>*m̀h sái, ngóh wúih sé behng ga jí béi néih.* | No, I'll write you a sick note. |
+| **Chris** | 唔該醫生！<br>m4 goi1 ji1 sang1!<br>*m̀h gōi yī sāng!* | Thank you, doctor! |
+
 ## 10. At work · 返工 (faan1 gung1) · B1
 
 *Talk about tasks and results, how well things went, and what to do first.*
@@ -124,6 +240,19 @@ Vocabulary: [Health and the doctor](vocabulary/health.md)
 
 Vocabulary: [Work and the office](vocabulary/work.md), [Tech and work](vocabulary/tech-work.md)
 
+**Model dialogue: A bug before the meeting**
+
+| | Cantonese | English |
+|---|---|---|
+| **Mr Wong** | 份報告寫完未呀？<br>fan6 bou3 gou3 se2 jyun4 mei6 aa3?<br>*fahn bou gou sé yùhn meih a?* | Have you finished the report yet? |
+| **Priya** | 寫晒喇，我啱啱send咗畀你。<br>se2 saai3 laa3, ngo5 ngaam1 ngaam1 send zo2 bei2 nei5.<br>*sé saai la, ngóh ngāam ngāam send jó béi néih.* | It's all done — I've just sent it to you. |
+| **Mr Wong** | 我搵唔到喎。<br>ngo5 wan2 m4 dou2 wo3.<br>*ngóh wán m̀h dóu wo.* | I can't find it. |
+| **Priya** | 個系統出咗bug。我一執好就send返畀你。<br>go3 hai6 tung2 ceot1 zo2 bug. ngo5 jat1 zap1 hou2 zau6 send faan1 bei2 nei5.<br>*go haih túng chēut jó bug. ngóh yāt jāp hóu jauh send fāan béi néih.* | The system's got a bug. As soon as I've fixed it, I'll send it to you again. |
+| **Mr Wong** | 唔緊要，你先開會，再執啦。<br>m4 gan2 jiu3, nei5 sin1 hoi1 wui2, zoi3 zap1 laa1.<br>*m̀h gán yiu, néih sīn hōi wúi, joi jāp lā.* | Never mind. Go to the meeting first, then fix it. |
+| **Priya** | 好，唔該。<br>hou2, m4 goi1.<br>*hóu, m̀h gōi.* | OK, thanks. |
+| **Mr Wong** | 係呢，你尋日present得好好。<br>hai6 ne1, nei5 cam4 jat6 present dak1 hou2 hou2.<br>*haih nē, néih chàhm yaht present dāk hóu hóu.* | By the way, you presented really well yesterday. |
+| **Priya** | 多謝！我準備咗好耐㗎。<br>do1 ze6! ngo5 zeon2 bei6 zo2 hou2 noi6 gaa3.<br>*dō jeh! ngóh jéun beih jó hóu noih ga.* | Thanks! I spent ages preparing. |
+
 ## 11. Weather and plans · 天氣同計劃 (tin1 hei3 tung4 gai3 waak6) · B1
 
 *Make plans that depend on the weather, and talk about changes and impressions.*
@@ -136,6 +265,18 @@ Vocabulary: [Work and the office](vocabulary/work.md), [Tech and work](vocabular
 
 Vocabulary: [Weather](vocabulary/weather.md)
 
+**Model dialogue: Hiking or shopping?**
+
+| | Cantonese | English |
+|---|---|---|
+| **Hoi-yan** | 聽日去唔去行山呀？<br>ting1 jat6 heoi3 m4 heoi3 haang4 saan1 aa3?<br>*tīng yaht heui m̀h heui hàahng sāan a?* | Shall we go hiking tomorrow? |
+| **Dan** | 天文台話聽日會落雨喎。<br>tin1 man4 toi4 waa6 ting1 jat6 wui5 lok6 jyu5 wo3.<br>*tīn màhn tòih wah tīng yaht wúih lohk yúh wo.* | The Observatory says it's going to rain tomorrow. |
+| **Hoi-yan** | 如果落雨，我哋就去商場啦。<br>jyu4 gwo2 lok6 jyu5, ngo5 dei6 zau6 heoi3 soeng1 coeng4 laa1.<br>*yùh gwó lohk yúh, ngóh deih jauh heui sēung chèuhng lā.* | If it rains, let's go to a shopping centre instead. |
+| **Dan** | 好。今日好似越嚟越翳焗。<br>hou2. gam1 jat6 hou2 ci5 jyut6 lai4 jyut6 ai3 guk6.<br>*hóu. gām yaht hóu chíh yuht làih yuht ai guhk.* | OK. It seems to be getting more and more humid today. |
+| **Hoi-yan** | 係呀。雖然好熱，但係我都想出去行吓。<br>hai6 aa3. seoi1 jin4 hou2 jit6, daan6 hai6 ngo5 dou1 soeng2 ceot1 heoi3 haang4 haa5.<br>*haih a. sēui yìhn hóu yiht, daahn haih ngóh dōu séung chēut heui hàahng háh.* | Yes. Although it's hot, I still want to go out for a walk. |
+| **Dan** | 噉你落嚟啦，我喺樓下等你。<br>gam2 nei5 lok6 lai4 laa1, ngo5 hai2 lau4 haa6 dang2 nei5.<br>*gám néih lohk làih lā, ngóh hái làuh hah dáng néih.* | Then come down — I'll wait for you downstairs. |
+| **Hoi-yan** | 等陣，我帶埋把遮先。<br>dang2 zan6, ngo5 daai3 maai4 baa2 ze1 sin1.<br>*dáng jahn, ngóh daai màaih bá jē sīn.* | Hang on, let me grab an umbrella first. |
+
 ## 12. Telling stories · 講故事 (gong2 gu3 si6) · B1
 
 *Tell what happened and how you felt, react to news, and describe people and things in detail.*
@@ -147,3 +288,16 @@ Vocabulary: [Weather](vocabulary/weather.md)
 - [… 喎](grammar/wo3-noticing.md) — noticing something; passing on what someone said
 
 Vocabulary: [Feelings](vocabulary/feelings.md)
+
+**Model dialogue: A stolen wallet**
+
+| | Cantonese | English |
+|---|---|---|
+| **Ming** | 你做咩咁唔開心呀？<br>nei5 zou6 me1 gam3 m4 hoi1 sam1 aa3?<br>*néih jouh mē gam m̀h hōi sām a?* | Why do you look so unhappy? |
+| **Zoe** | 我今朝喺地鐵畀人偷咗個銀包。<br>ngo5 gam1 ziu1 hai2 dei6 tit3 bei2 jan4 tau1 zo2 go3 ngan4 baau1.<br>*ngóh gām jīu hái deih tit béi yàhn tāu jó go ngàhn bāau.* | My wallet was stolen on the MTR this morning. |
+| **Ming** | 咁慘？入面有幾多錢呀？<br>gam3 caam2? jap6 min6 jau5 gei2 do1 cin2 aa3?<br>*gam cháam? yahp mihn yáuh géi dō chín a?* | That's awful! How much money was in it? |
+| **Zoe** | 錢唔多，但係我媽媽送畀我嘅銀包就冇咗。<br>cin2 m4 do1, daan6 hai6 ngo5 maa4 maa1 sung3 bei2 ngo5 ge3 ngan4 baau1 zau6 mou5 zo2.<br>*chín m̀h dō, daahn haih ngóh màh mā sung béi ngóh ge ngàhn bāau jauh móuh jó.* | Not much money, but the wallet my mum gave me is gone. |
+| **Ming** | 你有冇報警呀？<br>nei5 jau5 mou5 bou3 ging2 aa3?<br>*néih yáuh móuh bou gíng a?* | Did you report it to the police? |
+| **Zoe** | 報咗喇。我記得我一直拎住個袋㗎。<br>bou3 zo2 laa3. ngo5 gei3 dak1 ngo5 jat1 zik6 ling1 zyu6 go3 doi2 gaa3.<br>*bou jó la. ngóh gei dāk ngóh yāt jihk līng jyuh go dói ga.* | Yes. I'm sure I was holding my bag the whole time. |
+| **Ming** | 地鐵咁多人，小心啲囉。<br>dei6 tit3 gam3 do1 jan4, siu2 sam1 di1 lo1.<br>*deih tit gam dō yàhn, síu sām dī lō.* | The MTR is so crowded — you just have to be careful. |
+| **Zoe** | 係喎，下次我會孭喺前面。<br>hai6 wo3, haa6 ci3 ngo5 wui5 me1 hai2 cin4 min6.<br>*haih wo, hah chi ngóh wúih mē hái chìhn mihn.* | True. Next time I'll wear it on my front. |

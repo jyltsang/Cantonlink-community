@@ -9,7 +9,18 @@ const SESSION_LENGTH = 10;
 export const itemKey = (item) => KINDS[item.kind].key(item.q);
 const patternLink = (data, id) => {
   const p = data.grammar.find((x) => x.id === id);
-  return h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${p.id}`, lang: 'yue-Hant-HK' }, p.pattern), ` — ${p.meaning}`);
+  return p ? h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${p.id}`, lang: 'yue-Hant-HK' }, p.pattern), ` — ${p.meaning}`) : null;
+};
+
+// Lines of a unit's model dialogue, practised as build-the-sentence items.
+export function dialogueBuildItems(data, unit) {
+  return unit.dialogue.lines
+    .map((line, i) => ({ kind: 'build', q: { id: `dialogue:${unit.id}:${i}`, unitId: unit.id, level: unit.level, en: line.en, tokens: line.tokens } }))
+    .filter((item) => item.q.tokens.filter((t) => !t.punctuation).length >= 4);
+}
+const dialogueBuildItem = (data, unitId, index) => {
+  const unit = data.path.find((u) => u.id === unitId);
+  return unit && dialogueBuildItems(data, unit).find((item) => item.q.id === `dialogue:${unitId}:${index}`);
 };
 const verdict = (correct, wrongText) => h('p', {}, h('strong', {}, correct ? 'Correct.' : wrongText));
 
@@ -40,7 +51,7 @@ const KINDS = {
   },
 
   build: {
-    entry: (q) => `grammar/${q.patternId}`,
+    entry: (q) => (q.patternId ? `grammar/${q.patternId}` : `path/${q.unitId} dialogue`),
     key: (q) => `build:${q.id}`,
     render(q, st, answer, data, rerender) {
       const words = q.tokens.filter((t) => !t.punctuation);
@@ -331,6 +342,7 @@ export function review(data) {
   const resolve = (key) => {
     const [kind, ...rest] = key.split(':');
     if (kind === 'fill') return data.practice.fillGap.find((q) => q.id === rest.join(':')) && { kind, q: data.practice.fillGap.find((q) => q.id === rest.join(':')) };
+    if (kind === 'build' && rest[0] === 'dialogue') return dialogueBuildItem(data, rest[1], Number(rest[2]));
     if (kind === 'build') return data.practice.buildSentence.find((q) => q.id === rest.join(':')) && { kind, q: data.practice.buildSentence.find((q) => q.id === rest.join(':')) };
     if (kind === 'phrase') {
       const q = savedPhrase(rest.join(':'));

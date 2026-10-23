@@ -46,7 +46,11 @@ export function hydrate(data) {
       ...t,
       words: t.words.map(({ classifier, ...w }) => ({ ...word(w.cjk, w.jyutping), ...w, ...(classifier ? { classifier: word(...classifier) } : {}) })),
     })),
-    path: path.map((u) => ({ ...u, titleWord: word(...u.titleWord) })),
+    path: path.map((u) => ({
+      ...u,
+      titleWord: word(...u.titleWord),
+      dialogue: { ...u.dialogue, lines: u.dialogue.lines.map(([speaker, words, en]) => ({ speaker, ...sentence(words, en), tokens: tokens(words) })) },
+    })),
     practice: {
       fillGap: practice.fillGap.map(([id, gapIndex, options]) => {
         const { p, ex } = examples.get(id);

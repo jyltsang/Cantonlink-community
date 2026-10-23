@@ -32,6 +32,7 @@ function sources() {
   }
   readJson('content/practice/spoken-or-written.json').items.forEach((item, i) => out.push([`spoken-or-written ${i + 1}`, item.spoken]));
   for (const u of readJson('content/path.json').units) out.push([`path/${u.id} title`, [[u.titleCjk, u.titleJyutping]]]);
+  for (const d of readJson('content/dialogues.json').dialogues) d.lines.forEach((line, i) => out.push([`dialogue/${d.unit} line ${i + 1}`, line.words]));
   for (const [cjk, jyutping] of readJson('content/lexicon.json').words) out.push([`lexicon/${cjk}`, [[cjk, jyutping]]]);
   return out;
 }

@@ -37,7 +37,7 @@ Levels follow the CEFR-style labels used across CantonLink. Cantonese has no off
 
 ### Learning path
 
-[`content/path.json`](../content/path.json) puts everything above into 12 units in teaching order (5 at A1, 4 at A2, 3 at B1). Each unit pairs four to six patterns with a vocabulary topic (two in unit 10) and an AI tutor scenario, so learners meet the grammar in a situation where they need it: ordering food (想, 要, 啦, 定係, 乜嘢) or seeing a doctor (應該, 唔使, 會, 因為…所以). The build checks that every pattern and topic is taught exactly once and that units never go down in level. The readable version is [library/path.md](../library/path.md).
+[`content/path.json`](../content/path.json) puts everything above into 12 units in teaching order (5 at A1, 4 at A2, 3 at B1). Each unit pairs four to six patterns with a vocabulary topic (two in unit 10) and an AI tutor scenario, so learners meet the grammar in a situation where they need it: ordering food (想, 要, 啦, 定係, 乜嘢) or seeing a doctor (應該, 唔使, 會, 因為…所以). Each unit also has a **model dialogue** of 6–8 lines (`content/dialogues.json`) that puts at least three of its patterns to work in the unit's situation; the tutor uses it for role-play. The build checks that every pattern and topic is taught exactly once, that units never go down in level, and that each dialogue really uses its unit's patterns. The readable version is [library/path.md](../library/path.md).
 
 ### Vocabulary
 

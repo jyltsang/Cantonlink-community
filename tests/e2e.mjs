@@ -302,6 +302,7 @@ function unitKeys(unitId) {
     ...data.practice.fillGap.filter(has).map((q) => `fill:${q.id}`),
     ...data.practice.buildSentence.filter(has).map((q) => `build:${q.id}`),
     ...data.vocabulary.filter((t) => unit.topics.includes(t.id)).flatMap((t) => t.words.map((w) => `card:${t.id}:${w.cjk}`)),
+    ...unit.dialogue.lines.map((line, i) => ({ line, i })).filter(({ line }) => line.tokens.filter((t) => !t.punctuation).length >= 4).map(({ i }) => `build:dialogue:${unitId}:${i}`),
   ];
 }
 
@@ -320,6 +321,35 @@ test('learning path: home card, units, progress and unit practice', async () => 
   await page.waitForSelector('.path-unit');
   assert.equal(await page.locator('.path-unit').count(), 12);
   assert.equal(await page.locator('.path-unit.current h3').innerText().then((t) => t.startsWith('Meeting people')), true);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('learning path: each unit has a model dialogue with the English hidden until asked for', async () => {
+  const { page, context, errors } = await open('#/path/u07');
+  const lines = page.locator('.dialogue-line');
+  assert.equal(await lines.count(), data.path.find((u) => u.id === 'u07').dialogue.lines.length);
+  assert.match(await lines.first().innerText(), /^Lily[\s\S]*cing2 man6[\s\S]*請問[\s\S]*天星碼頭/);
+  assert.equal(await lines.first().locator('.en').isVisible(), false);
+  await page.getByRole('button', { name: 'Show English' }).click();
+  assert.equal(await lines.first().locator('.en').isVisible(), true);
+  assert.equal(await page.getByRole('button', { name: 'Hide English' }).getAttribute('aria-pressed'), 'true');
+  await page.locator('.settings summary').click();
+  await page.locator('input[value=yale]').check();
+  assert.match(await lines.first().innerText(), /chíng mahn[\s\S]*dím[\s\S]*heui/);
+
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('learning path: dialogue lines can be practised and reviewed', async () => {
+  const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { review: { 'build:dialogue:u03:1': { box: 1, due: Date.now() - 1000 } } } } });
+  await page.goto(`${BASE}#/review`);
+  await page.locator('.prompt-en', { hasText: "I'd like a pineapple bun and a bowl of wonton noodles." }).waitFor();
+  for (const word of ['我', '想', '要', '一', '個', '菠蘿包', '同', '一', '碗', '雲吞麪']) await page.locator('.tiles:not(.answer) .tile', { hasText: word }).first().click();
+  await page.getByRole('button', { name: 'Check' }).click();
+  assert.match(await page.locator('.feedback').getAttribute('class'), /good/);
+  assert.doesNotMatch(await page.locator('.feedback').innerText(), /Pattern:/);
   assert.deepEqual(errors, []);
   await context.close();
 });
@@ -378,13 +408,14 @@ test('AI tutor: a unit sets the level, scenario and focus patterns', async () =>
   const { page, context, errors } = await open('#/ai');
   await connectMock(page);
   await page.goto(`${BASE}#/path/u03`);
-  await page.getByRole('link', { name: 'Practise with the AI tutor' }).click();
+  await page.getByRole('link', { name: 'Role-play with the AI tutor' }).click();
   await lastTutor(page).waitFor();
-  assert.match(await page.locator('.unit-focus').innerText(), /Practising unit: Eating out/);
+  assert.match(await page.locator('.unit-focus').innerText(), /Role-play: Breakfast at a cha chaan teng/);
   assert.equal(await page.getByLabel('Scenario').inputValue(), 'restaurant');
   const system = mockAi.requests.filter((r) => r.path === '/v1/chat/completions').at(-1).body.messages[0].content;
   assert.match(system, /This lesson practises: soeng2-want/);
   assert.match(system, /cha chaan teng/);
+  assert.match(system, /Role-play the situation of this model dialogue, "Breakfast at a cha chaan teng". You are Waiter and the learner is Mei/);
   assert.deepEqual(errors, []);
   await context.close();
 });

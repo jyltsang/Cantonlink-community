@@ -1,0 +1,293 @@
+{
+  "description": "One model dialogue per learning-path unit. Each uses the unit's grammar patterns and vocabulary in an everyday situation.",
+  "dialogues": [
+    {
+      "unit": "u01",
+      "title": "Nice to meet you",
+      "speakers": { "A": "Ka-yan", "B": "Tom" },
+      "lines": [
+        {
+          "speaker": "A",
+          "words": [["你好", "nei5 hou2"], ["！"], ["我", "ngo5"], ["叫", "giu3"], ["嘉欣", "gaa1 jan1"], ["。"], ["你", "nei5"], ["叫", "giu3"], ["咩", "me1"], ["名", "meng2"], ["呀", "aa3"], ["？"]],
+          "en": "Hi! I'm Ka-yan. What's your name?"
+        },
+        { "speaker": "B", "words": [["你好", "nei5 hou2"], ["，"], ["我", "ngo5"], ["叫", "giu3"], ["Tom", "Tom"], ["。"], ["好", "hou2"], ["高興", "gou1 hing3"], ["認識", "jing6 sik1"], ["你", "nei5"], ["！"]], "en": "Hi, I'm Tom. Nice to meet you!" },
+        { "speaker": "A", "words": [["你", "nei5"], ["係", "hai6"], ["學生", "hok6 saang1"], ["嗎", "maa3"], ["？"]], "en": "Are you a student?" },
+        { "speaker": "B", "words": [["唔係", "m4 hai6"], ["呀", "aa3"], ["，"], ["我", "ngo5"], ["係", "hai6"], ["老師", "lou5 si1"], ["。"]], "en": "No, I'm a teacher." },
+        { "speaker": "A", "words": [["你", "nei5"], ["係", "hai6"], ["邊度", "bin1 dou6"], ["人", "jan4"], ["呀", "aa3"], ["？"]], "en": "Where are you from?" },
+        {
+          "speaker": "B",
+          "words": [["我", "ngo5"], ["係", "hai6"], ["英國人", "jing1 gwok3 jan4"], ["。"], ["呢", "ni1"], ["張", "zoeng1"], ["係", "hai6"], ["我", "ngo5"], ["嘅", "ge3"], ["卡片", "kaat1 pin2"], ["。"]],
+          "en": "I'm British. Here's my card."
+        },
+        { "speaker": "A", "words": [["唔該", "m4 goi1"], ["！"], ["遲啲", "ci4 di1"], ["見", "gin3"], ["！"]], "en": "Thanks! See you later!" },
+        { "speaker": "B", "words": [["拜拜", "baai1 baai3"], ["！"]], "en": "Bye!" }
+      ]
+    },
+    {
+      "unit": "u02",
+      "title": "At the fruit stall",
+      "speakers": { "A": "Amy", "B": "Mr Chan" },
+      "lines": [
+        { "speaker": "A", "words": [["唔該", "m4 goi1"], ["，"], ["有冇", "jau5 mou5"], ["蘋果", "ping4 gwo2"], ["呀", "aa3"], ["？"]], "en": "Excuse me, do you have any apples?" },
+        { "speaker": "B", "words": [["有", "jau5"], ["呀", "aa3"], ["。"], ["呢啲", "ni1 di1"], ["好", "hou2"], ["甜", "tim4"], ["㗎", "gaa3"], ["。"]], "en": "Yes. These are very sweet." },
+        { "speaker": "A", "words": [["幾多錢", "gei2 do1 cin2"], ["一", "jat1"], ["個", "go3"], ["呀", "aa3"], ["？"]], "en": "How much is one?" },
+        { "speaker": "B", "words": [["十", "sap6"], ["蚊", "man1"], ["一", "jat1"], ["個", "go3"], ["，"], ["二十五", "ji6 sap6 ng5"], ["蚊", "man1"], ["三", "saam1"], ["個", "go3"], ["。"]], "en": "Ten dollars each, or three for twenty-five." },
+        { "speaker": "A", "words": [["我", "ngo5"], ["要", "jiu3"], ["三", "saam1"], ["個", "go3"], ["。"], ["有冇", "jau5 mou5"], ["橙", "caang2"], ["呀", "aa3"], ["？"]], "en": "I'll have three. Do you have any oranges?" },
+        { "speaker": "B", "words": [["今日", "gam1 jat6"], ["冇", "mou5"], ["橙", "caang2"], ["呀", "aa3"], ["，"], ["唔好意思", "m4 hou2 ji3 si3"], ["。"]], "en": "No oranges today, sorry." },
+        { "speaker": "A", "words": [["唔緊要", "m4 gan2 jiu3"], ["。"], ["畀", "bei2"], ["你", "nei5"], ["三十", "saam1 sap6"], ["蚊", "man1"], ["。"]], "en": "Never mind. Here's thirty dollars." },
+        { "speaker": "B", "words": [["找", "zaau2"], ["你", "nei5"], ["五", "ng5"], ["蚊", "man1"], ["。"], ["多謝", "do1 ze6"], ["！"]], "en": "Five dollars change. Thank you!" }
+      ]
+    },
+    {
+      "unit": "u03",
+      "title": "Breakfast at a cha chaan teng",
+      "speakers": { "A": "Waiter", "B": "Mei" },
+      "lines": [
+        { "speaker": "A", "words": [["你", "nei5"], ["食", "sik6"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "en": "What would you like to eat?" },
+        {
+          "speaker": "B",
+          "words": [["我", "ngo5"], ["想", "soeng2"], ["要", "jiu3"], ["一", "jat1"], ["個", "go3"], ["菠蘿包", "bo1 lo4 baau1"], ["同", "tung4"], ["一", "jat1"], ["碗", "wun2"], ["雲吞麪", "wan4 tan1 min6"], ["。"]],
+          "en": "I'd like a pineapple bun and a bowl of wonton noodles."
+        },
+        { "speaker": "A", "words": [["飲", "jam2"], ["咩", "me1"], ["呀", "aa3"], ["？"]], "en": "Anything to drink?" },
+        { "speaker": "B", "words": [["我", "ngo5"], ["要", "jiu3"], ["一", "jat1"], ["杯", "bui1"], ["奶茶", "naai5 caa4"], ["。"]], "en": "A milk tea, please." },
+        { "speaker": "A", "words": [["熱", "jit6"], ["定係", "ding6 hai6"], ["凍", "dung3"], ["呀", "aa3"], ["？"]], "en": "Hot or iced?" },
+        { "speaker": "B", "words": [["凍", "dung3"], ["，"], ["少", "siu2"], ["甜", "tim4"], ["，"], ["唔該", "m4 goi1"], ["。"]], "en": "Iced, less sugar, thanks." },
+        { "speaker": "A", "words": [["你", "nei5"], ["嘅", "ge3"], ["雲吞麪", "wan4 tan1 min6"], ["。"], ["慢慢", "maan6 maan2"], ["食", "sik6"], ["啦", "laa1"], ["。"]], "en": "Your wonton noodles. Enjoy!" },
+        { "speaker": "B", "words": [["唔該", "m4 goi1"], ["！"]], "en": "Thank you!" }
+      ]
+    },
+    {
+      "unit": "u04",
+      "title": "A family photo",
+      "speakers": { "A": "Siu-ming", "B": "Jess" },
+      "lines": [
+        { "speaker": "A", "words": [["呢個", "ni1 go3"], ["係", "hai6"], ["邊個", "bin1 go3"], ["呀", "aa3"], ["？"]], "en": "Who's this?" },
+        { "speaker": "B", "words": [["佢", "keoi5"], ["係", "hai6"], ["我", "ngo5"], ["家姐", "gaa1 ze1"], ["。"], ["佢", "keoi5"], ["好", "hou2"], ["高", "gou1"], ["㗎", "gaa3"], ["。"]], "en": "She's my older sister. She's very tall." },
+        { "speaker": "A", "words": [["佢", "keoi5"], ["住", "zyu6"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where does she live?" },
+        { "speaker": "B", "words": [["佢", "keoi5"], ["同", "tung4"], ["佢", "keoi5"], ["老公", "lou5 gung1"], ["住", "zyu6"], ["喺", "hai2"], ["沙田", "saa1 tin4"], ["。"]], "en": "She lives in Sha Tin with her husband." },
+        { "speaker": "A", "words": [["佢哋", "keoi5 dei6"], ["有冇", "jau5 mou5"], ["細路", "sai3 lou6"], ["呀", "aa3"], ["？"]], "en": "Do they have any children?" },
+        { "speaker": "B", "words": [["有", "jau5"], ["，"], ["一", "jat1"], ["個", "go3"], ["仔", "zai2"], ["同", "tung4"], ["一", "jat1"], ["個", "go3"], ["女", "neoi2"], ["。"]], "en": "Yes, a son and a daughter." },
+        { "speaker": "A", "words": [["你", "nei5"], ["鍾唔鍾意", "zung1 m4 zung1 ji3"], ["做", "zou6"], ["姨姨", "ji4 ji1"], ["呀", "aa3"], ["？"]], "en": "Do you like being an auntie?" },
+        { "speaker": "B", "words": [["好", "hou2"], ["鍾意", "zung1 ji3"], ["呀", "aa3"], ["！"], ["佢哋", "keoi5 dei6"], ["好", "hou2"], ["得意", "dak1 ji3"], ["。"]], "en": "I love it! They're so cute." }
+      ]
+    },
+    {
+      "unit": "u05",
+      "title": "Meeting at the station",
+      "speakers": { "A": "Wing", "B": "Alex" },
+      "lines": [
+        { "speaker": "A", "words": [["喂", "wai2"], ["，"], ["你", "nei5"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Hello, where are you?" },
+        { "speaker": "B", "words": [["我", "ngo5"], ["搭", "daap3"], ["緊", "gan2"], ["巴士", "baa1 si2"], ["，"], ["就快", "zau6 faai3"], ["到", "dou3"], ["。"]], "en": "I'm on the bus; I'm nearly there." },
+        { "speaker": "A", "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["到", "dou3"], ["呀", "aa3"], ["？"]], "en": "When will you get here?" },
+        {
+          "speaker": "B",
+          "words": [["大概", "daai6 koi3"], ["十", "sap6"], ["分鐘", "fan1 zung1"], ["。"], ["你", "nei5"], ["喺", "hai2"], ["車站", "ce1 zaam6"], ["等", "dang2"], ["我", "ngo5"], ["啦", "laa1"], ["。"]],
+          "en": "About ten minutes. Wait for me at the station."
+        },
+        { "speaker": "A", "words": [["好", "hou2"], ["。"], ["我", "ngo5"], ["到", "dou3"], ["咗", "zo2"], ["喇", "laa3"], ["，"], ["喺", "hai2"], ["B", "B"], ["出口", "ceot1 hau2"], ["。"]], "en": "OK. I'm here now, at Exit B." },
+        { "speaker": "B", "words": [["唔好", "m4 hou2"], ["行開", "haang4 hoi1"], ["呀", "aa3"], ["，"], ["我", "ngo5"], ["落車", "lok6 ce1"], ["就", "zau6"], ["嚟", "lai4"], ["。"]], "en": "Don't wander off — I'll be there as soon as I get off." },
+        { "speaker": "A", "words": [["唔好", "m4 hou2"], ["急", "gap1"], ["，"], ["慢慢", "maan6 maan2"], ["嚟", "lai4"], ["。"]], "en": "Don't rush, take your time." }
+      ]
+    },
+    {
+      "unit": "u06",
+      "title": "Trying on clothes",
+      "speakers": { "A": "Sam", "B": "Shop assistant" },
+      "lines": [
+        { "speaker": "A", "words": [["可唔可以", "ho2 m4 ho2 ji5"], ["試", "si3"], ["吓", "haa5"], ["呢", "ni1"], ["件", "gin6"], ["衫", "saam1"], ["呀", "aa3"], ["？"]], "en": "Could I try this top on?" },
+        { "speaker": "B", "words": [["可以", "ho2 ji5"], ["，"], ["試身室", "si3 san1 sat1"], ["喺", "hai2"], ["嗰邊", "go2 bin1"], ["。"]], "en": "Of course — the fitting room is over there." },
+        { "speaker": "A", "words": [["太", "taai3"], ["細", "sai3"], ["喇", "laa3"], ["。"], ["有冇", "jau5 mou5"], ["大", "daai6"], ["啲", "di1"], ["嘅", "ge3"], ["呀", "aa3"], ["？"]], "en": "It's too small. Do you have a bigger one?" },
+        {
+          "speaker": "B",
+          "words": [["有", "jau5"], ["，"], ["呢", "ni1"], ["件", "gin6"], ["係", "hai6"], ["大碼", "daai6 maa5"], ["。"], ["藍色", "laam4 sik1"], ["嘅", "ge3"], ["靚", "leng3"], ["過", "gwo3"], ["黑色", "hak1 sik1"], ["嘅", "ge3"], ["。"]],
+          "en": "Yes, this one's a large. The blue one looks better than the black."
+        },
+        { "speaker": "A", "words": [["啱啱好", "ngaam1 ngaam1 hou2"], ["。"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "It fits perfectly. How much is it?" },
+        { "speaker": "B", "words": [["三百", "saam1 baak3"], ["蚊", "man1"], ["，"], ["今日", "gam1 jat6"], ["減價", "gaam2 gaa3"], ["八折", "baat3 zit3"], ["。"]], "en": "Three hundred dollars, with 20% off today." },
+        { "speaker": "A", "words": [["好", "hou2"], ["，"], ["我", "ngo5"], ["要", "jiu3"], ["喇", "laa3"], ["。"], ["畀", "bei2"], ["張", "zoeng1"], ["卡", "kaat1"], ["你", "nei5"], ["。"]], "en": "Great, I'll take it. Here's my card." },
+        { "speaker": "B", "words": [["唔該", "m4 goi1"], ["，"], ["你", "nei5"], ["張", "zoeng1"], ["卡", "kaat1"], ["同", "tung4"], ["收據", "sau1 geoi3"], ["。"]], "en": "Thank you — your card and your receipt." }
+      ]
+    },
+    {
+      "unit": "u07",
+      "title": "The way to the Star Ferry",
+      "speakers": { "A": "Lily", "B": "Mrs Chan" },
+      "lines": [
+        { "speaker": "A", "words": [["唔好意思", "m4 hou2 ji3 si3"], ["，"], ["請問", "cing2 man6"], ["點", "dim2"], ["去", "heoi3"], ["天星碼頭", "tin1 sing1 maa5 tau4"], ["呀", "aa3"], ["？"]], "en": "Excuse me, how do I get to the Star Ferry pier?" },
+        {
+          "speaker": "B",
+          "words": [["直行", "zik6 haang4"], ["，"], ["過", "gwo3"], ["兩", "loeng5"], ["個", "go3"], ["紅綠燈", "hung4 luk6 dang1"], ["，"], ["然後", "jin4 hau6"], ["轉左", "zyun3 zo2"], ["。"]],
+          "en": "Go straight on, past two sets of traffic lights, then turn left."
+        },
+        { "speaker": "A", "words": [["遠唔遠", "jyun5 m4 jyun5"], ["呀", "aa3"], ["？"]], "en": "Is it far?" },
+        {
+          "speaker": "B",
+          "words": [["唔", "m4"], ["遠", "jyun5"], ["，"], ["行", "haang4"], ["五", "ng5"], ["分鐘", "fan1 zung1"], ["左右", "zo2 jau6"], ["。"], ["你", "nei5"], ["識唔識", "sik1 m4 sik1"], ["睇", "tai2"], ["地圖", "dei6 tou4"], ["呀", "aa3"], ["？"]],
+          "en": "Not far, about five minutes on foot. Can you read a map?"
+        },
+        { "speaker": "A", "words": [["識", "sik1"], ["呀", "aa3"], ["。"], ["等", "dang2"], ["我", "ngo5"], ["睇", "tai2"], ["吓", "haa5"], ["先", "sin1"], ["。"]], "en": "Yes. Let me have a look." },
+        { "speaker": "B", "words": [["喺", "hai2"], ["呢度", "ni1 dou6"], ["，"], ["海旁", "hoi2 pong4"], ["嗰邊", "go2 bin1"], ["。"]], "en": "Here, over by the harbour." },
+        { "speaker": "A", "words": [["點解", "dim2 gaai2"], ["今日", "gam1 jat6"], ["咁", "gam3"], ["多", "do1"], ["人", "jan4"], ["呀", "aa3"], ["？"]], "en": "Why are there so many people today?" },
+        { "speaker": "B", "words": [["今晚", "gam1 maan5"], ["有", "jau5"], ["煙花", "jin1 faa1"], ["㗎", "gaa3"], ["！"]], "en": "There are fireworks tonight!" }
+      ]
+    },
+    {
+      "unit": "u08",
+      "title": "Dinner at home",
+      "speakers": { "A": "Kit", "B": "Ben" },
+      "lines": [
+        { "speaker": "A", "words": [["你", "nei5"], ["食", "sik6"], ["咗", "zo2"], ["晚飯", "maan5 faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you had dinner yet?" },
+        { "speaker": "B", "words": [["未", "mei6"], ["呀", "aa3"], ["。"], ["我", "ngo5"], ["啱啱", "ngaam1 ngaam1"], ["放工", "fong3 gung1"], ["。"]], "en": "Not yet. I've just finished work." },
+        {
+          "speaker": "A",
+          "words": [["我", "ngo5"], ["已經", "ji5 ging1"], ["煮", "zyu2"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["，"], ["一齊", "jat1 cai4"], ["食", "sik6"], ["啦", "laa1"], ["。"]],
+          "en": "I've already cooked — let's eat together."
+        },
+        { "speaker": "B", "words": [["好", "hou2"], ["呀", "aa3"], ["！"], ["你", "nei5"], ["煮", "zyu2"], ["咗", "zo2"], ["咩", "me1"], ["呀", "aa3"], ["？"]], "en": "Great! What did you make?" },
+        {
+          "speaker": "A",
+          "words": [["蒸魚", "zing1 jyu2"], ["同", "tung4"], ["菜", "coi3"], ["。"], ["你", "nei5"], ["食", "sik6"], ["過", "gwo3"], ["蒸魚", "zing1 jyu2"], ["未", "mei6"], ["呀", "aa3"], ["？"]],
+          "en": "Steamed fish and vegetables. Have you ever had steamed fish?"
+        },
+        { "speaker": "B", "words": [["未", "mei6"], ["食", "sik6"], ["過", "gwo3"], ["。"], ["好", "hou2"], ["香", "hoeng1"], ["呀", "aa3"], ["！"]], "en": "Never. It smells wonderful!" },
+        { "speaker": "A", "words": [["食", "sik6"], ["完", "jyun4"], ["你", "nei5"], ["洗碗", "sai2 wun2"], ["啦", "laa1"], ["。"]], "en": "When we've finished, you do the washing-up." },
+        { "speaker": "B", "words": [["冇", "mou5"], ["問題", "man6 tai4"], ["！"]], "en": "No problem!" }
+      ]
+    },
+    {
+      "unit": "u09",
+      "title": "At the clinic",
+      "speakers": { "A": "Doctor", "B": "Chris" },
+      "lines": [
+        { "speaker": "A", "words": [["你", "nei5"], ["邊度", "bin1 dou6"], ["唔舒服", "m4 syu1 fuk6"], ["呀", "aa3"], ["？"]], "en": "What seems to be the problem?" },
+        { "speaker": "B", "words": [["我", "ngo5"], ["頭痛", "tau4 tung3"], ["，"], ["喉嚨", "hau4 lung4"], ["都", "dou1"], ["好", "hou2"], ["痛", "tung3"], ["。"]], "en": "I've got a headache, and my throat hurts too." },
+        { "speaker": "A", "words": [["有冇", "jau5 mou5"], ["發燒", "faat3 siu1"], ["呀", "aa3"], ["？"]], "en": "Do you have a fever?" },
+        {
+          "speaker": "B",
+          "words": [["冇", "mou5"], ["。"], ["因為", "jan1 wai6"], ["聽日", "ting1 jat6"], ["要", "jiu3"], ["返工", "faan1 gung1"], ["，"], ["所以", "so2 ji5"], ["想", "soeng2"], ["快", "faai3"], ["啲", "di1"], ["好", "hou2"], ["返", "faan1"], ["。"]],
+          "en": "No. I have to work tomorrow, so I want to get better quickly."
+        },
+        {
+          "speaker": "A",
+          "words": [["你", "nei5"], ["係", "hai6"], ["感冒", "gam2 mou6"], ["。"], ["你", "nei5"], ["應該", "jing1 goi1"], ["休息", "jau1 sik1"], ["兩", "loeng5"], ["日", "jat6"], ["。"]],
+          "en": "You've got a cold. You should rest for two days."
+        },
+        { "speaker": "B", "words": [["唔使", "m4 sai2"], ["返工", "faan1 gung1"], ["咩", "me1"], ["？"]], "en": "I don't have to go to work?" },
+        { "speaker": "A", "words": [["唔使", "m4 sai2"], ["，"], ["我", "ngo5"], ["會", "wui5"], ["寫", "se2"], ["病假紙", "beng6 gaa3 zi2"], ["畀", "bei2"], ["你", "nei5"], ["。"]], "en": "No, I'll write you a sick note." },
+        { "speaker": "B", "words": [["唔該", "m4 goi1"], ["醫生", "ji1 sang1"], ["！"]], "en": "Thank you, doctor!" }
+      ]
+    },
+    {
+      "unit": "u10",
+      "title": "A bug before the meeting",
+      "speakers": { "A": "Mr Wong", "B": "Priya" },
+      "lines": [
+        { "speaker": "A", "words": [["份", "fan6"], ["報告", "bou3 gou3"], ["寫", "se2"], ["完", "jyun4"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you finished the report yet?" },
+        {
+          "speaker": "B",
+          "words": [["寫", "se2"], ["晒", "saai3"], ["喇", "laa3"], ["，"], ["我", "ngo5"], ["啱啱", "ngaam1 ngaam1"], ["send", "send"], ["咗", "zo2"], ["畀", "bei2"], ["你", "nei5"], ["。"]],
+          "en": "It's all done — I've just sent it to you."
+        },
+        { "speaker": "A", "words": [["我", "ngo5"], ["搵", "wan2"], ["唔", "m4"], ["到", "dou2"], ["喎", "wo3"], ["。"]], "en": "I can't find it." },
+        {
+          "speaker": "B",
+          "words": [
+            ["個", "go3"],
+            ["系統", "hai6 tung2"],
+            ["出", "ceot1"],
+            ["咗", "zo2"],
+            ["bug", "bug"],
+            ["。"],
+            ["我", "ngo5"],
+            ["一", "jat1"],
+            ["執", "zap1"],
+            ["好", "hou2"],
+            ["就", "zau6"],
+            ["send", "send"],
+            ["返", "faan1"],
+            ["畀", "bei2"],
+            ["你", "nei5"],
+            ["。"]
+          ],
+          "en": "The system's got a bug. As soon as I've fixed it, I'll send it to you again."
+        },
+        { "speaker": "A", "words": [["唔緊要", "m4 gan2 jiu3"], ["，"], ["你", "nei5"], ["先", "sin1"], ["開會", "hoi1 wui2"], ["，"], ["再", "zoi3"], ["執", "zap1"], ["啦", "laa1"], ["。"]], "en": "Never mind. Go to the meeting first, then fix it." },
+        { "speaker": "B", "words": [["好", "hou2"], ["，"], ["唔該", "m4 goi1"], ["。"]], "en": "OK, thanks." },
+        { "speaker": "A", "words": [["係呢", "hai6 ne1"], ["，"], ["你", "nei5"], ["尋日", "cam4 jat6"], ["present", "present"], ["得", "dak1"], ["好好", "hou2 hou2"], ["。"]], "en": "By the way, you presented really well yesterday." },
+        { "speaker": "B", "words": [["多謝", "do1 ze6"], ["！"], ["我", "ngo5"], ["準備", "zeon2 bei6"], ["咗", "zo2"], ["好耐", "hou2 noi6"], ["㗎", "gaa3"], ["。"]], "en": "Thanks! I spent ages preparing." }
+      ]
+    },
+    {
+      "unit": "u11",
+      "title": "Hiking or shopping?",
+      "speakers": { "A": "Hoi-yan", "B": "Dan" },
+      "lines": [
+        { "speaker": "A", "words": [["聽日", "ting1 jat6"], ["去唔去", "heoi3 m4 heoi3"], ["行山", "haang4 saan1"], ["呀", "aa3"], ["？"]], "en": "Shall we go hiking tomorrow?" },
+        { "speaker": "B", "words": [["天文台", "tin1 man4 toi4"], ["話", "waa6"], ["聽日", "ting1 jat6"], ["會", "wui5"], ["落雨", "lok6 jyu5"], ["喎", "wo3"], ["。"]], "en": "The Observatory says it's going to rain tomorrow." },
+        {
+          "speaker": "A",
+          "words": [["如果", "jyu4 gwo2"], ["落雨", "lok6 jyu5"], ["，"], ["我哋", "ngo5 dei6"], ["就", "zau6"], ["去", "heoi3"], ["商場", "soeng1 coeng4"], ["啦", "laa1"], ["。"]],
+          "en": "If it rains, let's go to a shopping centre instead."
+        },
+        { "speaker": "B", "words": [["好", "hou2"], ["。"], ["今日", "gam1 jat6"], ["好似", "hou2 ci5"], ["越嚟越", "jyut6 lai4 jyut6"], ["翳焗", "ai3 guk6"], ["。"]], "en": "OK. It seems to be getting more and more humid today." },
+        {
+          "speaker": "A",
+          "words": [["係", "hai6"], ["呀", "aa3"], ["。"], ["雖然", "seoi1 jin4"], ["好", "hou2"], ["熱", "jit6"], ["，"], ["但係", "daan6 hai6"], ["我", "ngo5"], ["都", "dou1"], ["想", "soeng2"], ["出去", "ceot1 heoi3"], ["行", "haang4"], ["吓", "haa5"], ["。"]],
+          "en": "Yes. Although it's hot, I still want to go out for a walk."
+        },
+        {
+          "speaker": "B",
+          "words": [["噉", "gam2"], ["你", "nei5"], ["落嚟", "lok6 lai4"], ["啦", "laa1"], ["，"], ["我", "ngo5"], ["喺", "hai2"], ["樓下", "lau4 haa6"], ["等", "dang2"], ["你", "nei5"], ["。"]],
+          "en": "Then come down — I'll wait for you downstairs."
+        },
+        { "speaker": "A", "words": [["等陣", "dang2 zan6"], ["，"], ["我", "ngo5"], ["帶埋", "daai3 maai4"], ["把", "baa2"], ["遮", "ze1"], ["先", "sin1"], ["。"]], "en": "Hang on, let me grab an umbrella first." }
+      ]
+    },
+    {
+      "unit": "u12",
+      "title": "A stolen wallet",
+      "speakers": { "A": "Ming", "B": "Zoe" },
+      "lines": [
+        { "speaker": "A", "words": [["你", "nei5"], ["做咩", "zou6 me1"], ["咁", "gam3"], ["唔開心", "m4 hoi1 sam1"], ["呀", "aa3"], ["？"]], "en": "Why do you look so unhappy?" },
+        {
+          "speaker": "B",
+          "words": [["我", "ngo5"], ["今朝", "gam1 ziu1"], ["喺", "hai2"], ["地鐵", "dei6 tit3"], ["畀", "bei2"], ["人", "jan4"], ["偷", "tau1"], ["咗", "zo2"], ["個", "go3"], ["銀包", "ngan4 baau1"], ["。"]],
+          "en": "My wallet was stolen on the MTR this morning."
+        },
+        { "speaker": "A", "words": [["咁", "gam3"], ["慘", "caam2"], ["？"], ["入面", "jap6 min6"], ["有", "jau5"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "That's awful! How much money was in it?" },
+        {
+          "speaker": "B",
+          "words": [
+            ["錢", "cin2"],
+            ["唔", "m4"],
+            ["多", "do1"],
+            ["，"],
+            ["但係", "daan6 hai6"],
+            ["我", "ngo5"],
+            ["媽媽", "maa4 maa1"],
+            ["送", "sung3"],
+            ["畀", "bei2"],
+            ["我", "ngo5"],
+            ["嘅", "ge3"],
+            ["銀包", "ngan4 baau1"],
+            ["就", "zau6"],
+            ["冇", "mou5"],
+            ["咗", "zo2"],
+            ["。"]
+          ],
+          "en": "Not much money, but the wallet my mum gave me is gone."
+        },
+        { "speaker": "A", "words": [["你", "nei5"], ["有冇", "jau5 mou5"], ["報警", "bou3 ging2"], ["呀", "aa3"], ["？"]], "en": "Did you report it to the police?" },
+        {
+          "speaker": "B",
+          "words": [["報", "bou3"], ["咗", "zo2"], ["喇", "laa3"], ["。"], ["我", "ngo5"], ["記得", "gei3 dak1"], ["我", "ngo5"], ["一直", "jat1 zik6"], ["拎", "ling1"], ["住", "zyu6"], ["個", "go3"], ["袋", "doi2"], ["㗎", "gaa3"], ["。"]],
+          "en": "Yes. I'm sure I was holding my bag the whole time."
+        },
+        { "speaker": "A", "words": [["地鐵", "dei6 tit3"], ["咁", "gam3"], ["多", "do1"], ["人", "jan4"], ["，"], ["小心", "siu2 sam1"], ["啲", "di1"], ["囉", "lo1"], ["。"]], "en": "The MTR is so crowded — you just have to be careful." },
+        { "speaker": "B", "words": [["係", "hai6"], ["喎", "wo3"], ["，"], ["下次", "haa6 ci3"], ["我", "ngo5"], ["會", "wui5"], ["孭", "me1"], ["喺", "hai2"], ["前面", "cin4 min6"], ["。"]], "en": "True. Next time I'll wear it on my front." }
+      ]
+    }
+  ]
+}

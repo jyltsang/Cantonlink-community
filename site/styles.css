@@ -388,3 +388,11 @@ section.panel + section.panel { margin-top: 14px; }
   .site-nav { gap: 0; }
   .site-nav a { padding: 8px 5px; font-size: 14px; }
 }
+
+/* Model dialogue */
+.dialogue { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
+.dialogue-line { max-width: 85%; padding: 10px 14px; border-radius: var(--radius-lg); background: var(--oat-100); border: 1px solid var(--border); }
+.dialogue-line.speaker-B { justify-self: end; background: var(--paper); }
+.dialogue-line .speaker { margin: 0 0 4px; font-size: 13px; font-weight: 700; color: var(--fg-3); }
+.dialogue-line .en { display: none; margin: 6px 0 0; color: var(--fg-2); font-size: 15px; }
+.dialogue.show-en .en { display: block; }

@@ -64,3 +64,15 @@ test('the learning path must teach every pattern', () => {
   const out = validate((edit) => edit('path.json', (d) => { d.units[0].patterns = d.units[0].patterns.filter((id) => id !== 'hai6-copula'); }));
   assert.match(out, /"hai6-copula" is not in any unit/);
 });
+
+test('dialogues: written Chinese, a missing unit and too few patterns are rejected', () => {
+  const written = validate((edit) => edit('dialogues.json', (d) => { d.dialogues[0].lines[2].words = [['你', 'nei5'], ['是', 'si6'], ['學生', 'hok6 saang1'], ['嗎', 'maa3'], ['？']]; }));
+  assert.match(written, /dialogue\/u01 line 3/);
+  const missing = validate((edit) => edit('dialogues.json', (d) => { d.dialogues = d.dialogues.filter((x) => x.unit !== 'u05'); }));
+  assert.match(missing, /path\/u05: has no dialogue/);
+  const thin = validate((edit) => edit('dialogues.json', (d) => {
+    const lines = d.dialogues[1].lines;
+    d.dialogues[1].lines = Array.from({ length: 6 }, (_, i) => ({ ...lines[0], words: [['你好', 'nei5 hou2'], ['！']], en: 'Hello!', speaker: i % 2 ? 'B' : 'A' }));
+  }));
+  assert.match(thin, /dialogue\/u02: uses 0 of the unit's patterns/);
+});

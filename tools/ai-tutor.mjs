@@ -28,7 +28,7 @@ const JSON_RULES = `Always answer with one JSON object and nothing else, in this
 - "patterns": ids of library grammar patterns your reply uses (from list_grammar_patterns). Never invent ids.
 - "note": optional short English tip, or "".`;
 
-export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free', focus = [] }) {
+export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free', focus = [], dialogue = null }) {
   const patterns = listPatterns(data, level).map((p) => `${p.id}: ${p.pattern} (${p.meaning})`).join('\n');
   const style = mode === 'sifu'
     ? 'You are a patient Cantonese teacher (師傅, Sifu). Correct every mistake the learner makes, gently, and name the grammar pattern involved.'
@@ -36,6 +36,9 @@ export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'f
   const focusPatterns = focus.map((id) => findPattern(data, id)).filter(Boolean);
   const focusNote = focusPatterns.length
     ? `\nThis lesson practises: ${focusPatterns.map((p) => `${p.id}: ${p.pattern} (${p.meaning})`).join('; ')}. Use these patterns naturally and steer the conversation so the learner needs them.\n`
+    : '';
+  const dialogueNote = dialogue
+    ? `\nRole-play the situation of this model dialogue, "${dialogue.title}". You are ${dialogue.speakers.A} and the learner is ${dialogue.speakers.B}. Start as ${dialogue.speakers.A} does, then let the conversation develop naturally rather than repeating the script:\n${dialogue.lines.map((line) => `${dialogue.speakers[line.speaker]}: ${line.cjk} (${line.en})`).join('\n')}\n`
     : '';
   return `${style}
 
@@ -46,7 +49,7 @@ Use the tools to look up words and grammar in the learner's reviewed library rat
 
 Grammar patterns at this level:
 ${patterns}
-${focusNote}
+${focusNote}${dialogueNote}
 ${JSON_RULES}`;
 }
 

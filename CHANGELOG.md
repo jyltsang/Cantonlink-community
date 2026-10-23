@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Model dialogues and a quality pass
+- Each of the 12 units has a model dialogue (94 lines), shown on the unit page with the English hidden until asked for, practised as build-the-sentence items, and used by the AI tutor for role-play. The build checks that each dialogue uses at least three of its unit's patterns.
+- Every reading (853 entries) is cross-checked against an independent dictionary, to-jyutping, in CI; differences are fixed or documented in `content/pronunciation-notes.json`.
+- A proofreading pass and an exercise audit: nine fill-the-gap questions fixed, 14 build-the-sentence items now accept another natural word order, and new build rules guard against ambiguous wrong options. See [docs/QUALITY_REPORT.md](docs/QUALITY_REPORT.md).
+- Fixed: the Pages deploy did not install dependencies before checking content; a test now checks every workflow.
+
 ### One-line MCP install and a terminal CLI
 - The MCP server is packaged as `cantonlink-mcp`, self-contained (the library and data are bundled at pack time), so apps can start it with `npx -y cantonlink-mcp`.
 - A `cantonlink` command in the same package: `word` (search, or a word of the day), `quiz` (an interactive fill-the-gap quiz) and `romanise`.
