@@ -160,7 +160,7 @@ test('missed questions are saved, reviewed and cleared', async () => {
   await page.locator('.next').click();
   assert.equal(await page.locator('.score .big').textContent(), '1 / 1');
   await page.locator('.site-nav a', { hasText: 'Review' }).click();
-  await page.waitForSelector('main h1');
+  await page.locator('main', { hasText: 'Nothing due right now' }).waitFor();
   assert.match(await page.locator('main').innerText(), /Nothing due right now\. 1 item is scheduled; the next is due on \w+day/);
   assert.doesNotMatch(await page.locator('main').innerText(), /\bnull\b|undefined/);
   assert.equal(await page.locator('#review-count').textContent(), '');
@@ -296,8 +296,7 @@ test('learning path: home card, units, progress and unit practice', async () => 
   const { page, context, errors } = await open('#/');
   assert.match(await page.locator('.continue').innerText(), /Start · Unit 1 of 12 · A1[\s\S]*Meeting people/);
   await page.getByRole('link', { name: 'Start the unit' }).click();
-  await page.waitForSelector('main h1');
-  assert.equal(await page.locator('main h1').textContent(), 'Unit 1: Meeting people');
+  await page.locator('main h1', { hasText: 'Unit 1: Meeting people' }).waitFor();
   assert.equal(await page.locator('main .link-list').first().locator('li').count(), 5);
 
   await page.getByRole('link', { name: 'Practise this unit' }).click();
