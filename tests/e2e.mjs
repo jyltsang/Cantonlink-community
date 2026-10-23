@@ -257,6 +257,29 @@ test('works offline after the first visit', async () => {
 });
 
 
+test('code-mixed words work in the word list, the tone drill and flashcards', async () => {
+  const { page, context, errors } = await open('#/vocabulary/tech-work');
+  assert.match(await page.locator('main').innerText(), /mixes in English words/);
+  await page.locator('text=寫 code').first().waitFor();
+  for (const system of ['yale', 'bopomofo']) {
+    await page.locator('.settings summary').click();
+    await page.locator(`input[value=${system}]`).check();
+    await page.locator('.settings summary').click();
+    assert.match(await page.locator('main').innerText(), /\bcode\b[\s\S]*\bdeadline\b/);
+  }
+  await page.goto(`${BASE}#/tones`);
+  await page.getByLabel('Topic').selectOption('tech-work');
+  for (let i = 0; i < 10; i++) {
+    await page.locator('.option').first().click();
+    await page.locator('.next').click();
+  }
+  await page.locator('.score').waitFor();
+  await page.goto(`${BASE}#/flashcards?topic=tech-work`);
+  await page.locator('.card').waitFor();
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
 // --- Learning path ---------------------------------------------------------
 
 function unitKeys(unitId) {

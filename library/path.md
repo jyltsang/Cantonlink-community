@@ -2,7 +2,7 @@
 
 # Learning path
 
-12 units that take you from A1 to B1. Each unit teaches a few grammar patterns with one vocabulary topic, around an everyday situation. Work through them in order on the [learning site](https://jyltsang.github.io/Cantonlink-community/#/path), which tracks your progress, or read them here.
+12 units that take you from A1 to B1. Each unit teaches a few grammar patterns with vocabulary, around an everyday situation. Work through them in order on the [learning site](https://jyltsang.github.io/Cantonlink-community/#/path), which tracks your progress, or read them here.
 
 ## 1. Meeting people · 打招呼 (daa2 ziu1 fu1) · A1
 
@@ -122,7 +122,7 @@ Vocabulary: [Health and the doctor](vocabulary/health.md)
 - [先 … 再 … / … 先](grammar/sin1-zoi3-first-then.md) — first …, then …
 - [一 …就 …](grammar/jat1-zau6-as-soon-as.md) — as soon as …; whenever …
 
-Vocabulary: [Work and the office](vocabulary/work.md)
+Vocabulary: [Work and the office](vocabulary/work.md), [Tech and work](vocabulary/tech-work.md)
 
 ## 11. Weather and plans · 天氣同計劃 (tin1 hei3 tung4 gai3 waak6) · B1
 

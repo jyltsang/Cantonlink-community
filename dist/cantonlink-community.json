@@ -12909,6 +12909,305 @@
           "pos": "adjective"
         }
       ]
+    },
+    {
+      "id": "tech-work",
+      "title": "Tech and work",
+      "titleCjk": "科技同返工",
+      "note": "Hong Kong office speech mixes in English words freely. The English words keep their English spelling here and are said much as in English, usually fitted to Cantonese rhythm. The fully Cantonese word is often more formal or written.",
+      "review": {
+        "status": "draft",
+        "reviewers": []
+      },
+      "words": [
+        {
+          "cjk": "寫 code",
+          "jyutping": "se2 code",
+          "yale": "sé code",
+          "bopomofo": "ㄙㄝ² code",
+          "en": "to write code; to program",
+          "pos": "verb"
+        },
+        {
+          "cjk": "出 bug",
+          "jyutping": "ceot1 bug",
+          "yale": "chēut bug",
+          "bopomofo": "ㄘㆤㆵ¹ bug",
+          "en": "to have a bug; for a bug to appear",
+          "pos": "verb"
+        },
+        {
+          "cjk": "執 bug",
+          "jyutping": "zap1 bug",
+          "yale": "jāp bug",
+          "bopomofo": "ㄗㄜㆴ¹ bug",
+          "en": "to fix bugs",
+          "pos": "verb",
+          "note": "執 means to tidy up or sort out."
+        },
+        {
+          "cjk": "趕 deadline",
+          "jyutping": "gon2 deadline",
+          "yale": "gón deadline",
+          "bopomofo": "ㄍㄛㄣ² deadline",
+          "en": "to rush to meet a deadline",
+          "pos": "verb"
+        },
+        {
+          "cjk": "開 meeting",
+          "jyutping": "hoi1 meeting",
+          "yale": "hōi meeting",
+          "bopomofo": "ㄏㄛㄧ¹ meeting",
+          "en": "to have a meeting",
+          "pos": "verb",
+          "note": "The same as 開會, and very common in offices."
+        },
+        {
+          "cjk": "開 OT",
+          "jyutping": "hoi1 OT",
+          "yale": "hōi OT",
+          "bopomofo": "ㄏㄛㄧ¹ OT",
+          "en": "to work overtime",
+          "pos": "verb",
+          "note": "OT is overtime, said as two letters; the same as 加班."
+        },
+        {
+          "cjk": "覆 email",
+          "jyutping": "fuk1 email",
+          "yale": "fūk email",
+          "bopomofo": "ㄈㄨㆶ¹ email",
+          "en": "to reply to an email",
+          "pos": "verb"
+        },
+        {
+          "cjk": "交 report",
+          "jyutping": "gaau1 report",
+          "yale": "gāau report",
+          "bopomofo": "ㄍㄚㄨ¹ report",
+          "en": "to hand in a report",
+          "pos": "verb"
+        },
+        {
+          "cjk": "跟 project",
+          "jyutping": "gan1 project",
+          "yale": "gān project",
+          "bopomofo": "ㄍㄜㄣ¹ project",
+          "en": "to be in charge of a project; to follow a project",
+          "pos": "verb"
+        },
+        {
+          "cjk": "返 office",
+          "jyutping": "faan1 office",
+          "yale": "fāan office",
+          "bopomofo": "ㄈㄚㄣ¹ office",
+          "en": "to go in to the office",
+          "pos": "verb"
+        },
+        {
+          "cjk": "上線",
+          "jyutping": "soeng5 sin3",
+          "yale": "séuhng sin",
+          "bopomofo": "ㄙㆦㄥ⁵ ㄙㄧㄣ³",
+          "en": "to go live; to launch online",
+          "pos": "verb"
+        },
+        {
+          "cjk": "部署",
+          "jyutping": "bou6 cyu5",
+          "yale": "bouh chyúh",
+          "bopomofo": "ㄅㄛㄨ⁶ ㄘㄩ⁵",
+          "en": "to deploy",
+          "pos": "verb",
+          "note": "Formal; in speech many developers simply say deploy."
+        },
+        {
+          "cjk": "測試",
+          "jyutping": "caak1 si3",
+          "yale": "chāak si",
+          "bopomofo": "ㄘㄚㆶ¹ ㄙㄧ³",
+          "en": "to test; testing",
+          "pos": "verb"
+        },
+        {
+          "cjk": "程式",
+          "jyutping": "cing4 sik1",
+          "yale": "chìhng sīk",
+          "bopomofo": "ㄘㄧㄥ⁴ ㄙㄧㆶ¹",
+          "en": "computer program",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "程式員",
+          "jyutping": "cing4 sik1 jyun4",
+          "yale": "chìhng sīk yùhn",
+          "bopomofo": "ㄘㄧㄥ⁴ ㄙㄧㆶ¹ ㄩㄣ⁴",
+          "en": "programmer",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "軟件",
+          "jyutping": "jyun5 gin2",
+          "yale": "yúhn gín",
+          "bopomofo": "ㄩㄣ⁵ ㄍㄧㄣ²",
+          "en": "software",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "套",
+            "jyutping": "tou3",
+            "yale": "tou",
+            "bopomofo": "ㄊㄛㄨ³"
+          }
+        },
+        {
+          "cjk": "硬件",
+          "jyutping": "ngaang6 gin2",
+          "yale": "ngaahng gín",
+          "bopomofo": "ㆭㄚㄥ⁶ ㄍㄧㄣ²",
+          "en": "hardware",
+          "pos": "noun"
+        },
+        {
+          "cjk": "系統",
+          "jyutping": "hai6 tung2",
+          "yale": "haih túng",
+          "bopomofo": "ㄏㄜㄧ⁶ ㄊㄨㄥ²",
+          "en": "system",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "網站",
+          "jyutping": "mong5 zaam6",
+          "yale": "móhng jaahm",
+          "bopomofo": "ㄇㄛㄥ⁵ ㄗㄚㆬ⁶",
+          "en": "website",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "數據",
+          "jyutping": "sou3 geoi3",
+          "yale": "sou geui",
+          "bopomofo": "ㄙㄛㄨ³ ㄍㆤㄧ³",
+          "en": "data",
+          "pos": "noun"
+        },
+        {
+          "cjk": "伺服器",
+          "jyutping": "si6 fuk6 hei3",
+          "yale": "sih fuhk hei",
+          "bopomofo": "ㄙㄧ⁶ ㄈㄨㆶ⁶ ㄏㄝㄧ³",
+          "en": "server",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          },
+          "note": "Many people just say server."
+        },
+        {
+          "cjk": "密碼",
+          "jyutping": "mat6 maa5",
+          "yale": "maht máh",
+          "bopomofo": "ㄇㄜㆵ⁶ ㄇㄚ⁵",
+          "en": "password",
+          "pos": "noun",
+          "classifier": {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          }
+        },
+        {
+          "cjk": "登入",
+          "jyutping": "dang1 jap6",
+          "yale": "dāng yahp",
+          "bopomofo": "ㄉㄜㄥ¹ ㄧㄜㆴ⁶",
+          "en": "to log in",
+          "pos": "verb"
+        },
+        {
+          "cjk": "下載",
+          "jyutping": "haa6 zoi3",
+          "yale": "hah joi",
+          "bopomofo": "ㄏㄚ⁶ ㄗㄛㄧ³",
+          "en": "to download",
+          "pos": "verb"
+        },
+        {
+          "cjk": "上載",
+          "jyutping": "soeng5 zoi3",
+          "yale": "séuhng joi",
+          "bopomofo": "ㄙㆦㄥ⁵ ㄗㄛㄧ³",
+          "en": "to upload",
+          "pos": "verb"
+        },
+        {
+          "cjk": "開機",
+          "jyutping": "hoi1 gei1",
+          "yale": "hōi gēi",
+          "bopomofo": "ㄏㄛㄧ¹ ㄍㄝㄧ¹",
+          "en": "to switch on (a computer or phone)",
+          "pos": "verb"
+        },
+        {
+          "cjk": "熄機",
+          "jyutping": "sik1 gei1",
+          "yale": "sīk gēi",
+          "bopomofo": "ㄙㄧㆶ¹ ㄍㄝㄧ¹",
+          "en": "to switch off (a computer or phone)",
+          "pos": "verb"
+        },
+        {
+          "cjk": "死機",
+          "jyutping": "sei2 gei1",
+          "yale": "séi gēi",
+          "bopomofo": "ㄙㄝㄧ² ㄍㄝㄧ¹",
+          "en": "to crash; to freeze (of a device)",
+          "pos": "verb"
+        },
+        {
+          "cjk": "撳掣",
+          "jyutping": "gam6 zai3",
+          "yale": "gahm jai",
+          "bopomofo": "ㄍㄜㆬ⁶ ㄗㄜㄧ³",
+          "en": "to press a button",
+          "pos": "verb"
+        },
+        {
+          "cjk": "試用期",
+          "jyutping": "si3 jung6 kei4",
+          "yale": "si yuhng kèih",
+          "bopomofo": "ㄙㄧ³ ㄧㄨㄥ⁶ ㄎㄝㄧ⁴",
+          "en": "probation period",
+          "pos": "noun"
+        }
+      ]
     }
   ],
   "path": [
@@ -13133,7 +13432,8 @@
         "jat1-zau6-as-soon-as"
       ],
       "topics": [
-        "work"
+        "work",
+        "tech-work"
       ],
       "titleWord": {
         "cjk": "返工",

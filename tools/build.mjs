@@ -43,8 +43,13 @@ const fail = (where, message) => errors.push(`${where}: ${message}`);
 const HAN = /\p{Script=Han}/gu;
 const PUNCTUATION = { '。': '.', '，': ',', '？': '?', '！': '!', '、': ',' };
 
+// English words in code-mixed phrases (寫 code) are written the same in the
+// characters and the Jyutping, and are left out of the syllable count.
 function checkJyutping(where, cjk, jyutping) {
-  const syllables = jyutping.trim().split(/\s+/);
+  const english = cjk.match(/[A-Za-z][A-Za-z0-9'+.#-]*/g) ?? [];
+  const tokens = jyutping.trim().split(/\s+/);
+  if (english.join(' ') !== tokens.filter((t) => !/\d$/.test(t)).join(' ')) fail(where, `English words in "${cjk}" and "${jyutping}" do not match`);
+  const syllables = tokens.filter((t) => /\d$/.test(t) || !english.includes(t));
   for (const s of syllables) if (!parseSyllable(s)) fail(where, `invalid Jyutping syllable "${s}" in "${jyutping}"`);
   const chars = cjk.match(HAN) ?? [];
   if (chars.length !== syllables.length) fail(where, `"${cjk}" has ${chars.length} characters but "${jyutping}" has ${syllables.length} syllables`);
@@ -297,6 +302,7 @@ for (const t of topics) {
   emit(`library/vocabulary/${t.id}.md`, page(
     `# ${t.title} · ${t.titleCjk}`,
     reviewNotice(t.review, `vocabulary/${t.id}`),
+    ...(t.note ? [t.note] : []),
     '| # | 漢字 | Jyutping | Yale | Bopomofo | English | Classifier |\n|---|---|---|---|---|---|---|\n' + t.words.map(vocabRow).join('\n'),
     ...(notes.length ? ['¹ **Usage notes**', notes.join('\n')] : []),
     'The **classifier** is the measure word used when counting or pointing: 一**部**電腦, 呢**間**醫院. See [Number + Classifier + Noun](../grammar/number-classifier.md).',
@@ -440,7 +446,7 @@ emit('library/practice/README.md', page(
   const topicById = new Map(topics.map((t) => [t.id, t]));
   emit('library/path.md', page(
     '# Learning path',
-    `${path.units.length} units that take you from A1 to B1. Each unit teaches a few grammar patterns with one vocabulary topic, around an everyday situation. Work through them in order on the [learning site](${SITE}#/path), which tracks your progress, or read them here.`,
+    `${path.units.length} units that take you from A1 to B1. Each unit teaches a few grammar patterns with vocabulary, around an everyday situation. Work through them in order on the [learning site](${SITE}#/path), which tracks your progress, or read them here.`,
     ...path.units.map((u, i) => [
       `## ${i + 1}. ${u.title} · ${u.titleCjk} (${u.titleJyutping}) · ${u.level}`,
       `*${u.goal}*`,
@@ -488,7 +494,7 @@ emit('dist/cantonlink-community.json', JSON.stringify({
     related: p.related ?? [], review: p.review,
   })),
   vocabulary: topics.map((t) => ({
-    id: t.id, title: t.title, titleCjk: t.titleCjk, review: t.review,
+    id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
     words: t.words.map((w) => ({ ...word(w.cjk, w.jyutping), en: w.en, pos: w.pos, ...(w.classifier ? { classifier: word(...w.classifier) } : {}), ...(w.note ? { note: w.note } : {}) })),
   })),
   path: path.units.map(({ titleCjk, titleJyutping, ...u }) => ({ ...u, titleWord: word(titleCjk, titleJyutping) })),

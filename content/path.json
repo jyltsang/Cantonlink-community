@@ -108,7 +108,7 @@
       "scenario": "work",
       "goal": "Talk about tasks and results, how well things went, and what to do first.",
       "patterns": ["dou2-result", "dak1-degree", "saai3-all", "faan1-back", "sin1-zoi3-first-then", "jat1-zau6-as-soon-as"],
-      "topics": ["work"]
+      "topics": ["work", "tech-work"]
     },
     {
       "id": "u11",

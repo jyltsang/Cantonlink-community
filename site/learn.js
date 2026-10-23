@@ -143,6 +143,7 @@ export function vocabularyTopic(data, id) {
   show(
     ...pageHead(t.title, { back: ['#/vocabulary', 'Vocabulary'] }),
     h('p', { class: 'meta-line' }, h('span', { lang: 'yue-Hant-HK' }, t.titleCjk), ' · ', `${t.words.length} words`, ' · ', draftTag(t.review)),
+    t.note ? h('p', { class: 'lede' }, t.note) : null,
     h('div', { class: 'actions' }, h('a', { class: 'btn btn-primary', href: `#/flashcards?topic=${t.id}` }, 'Practise as flashcards')),
     wordList(t.words),
     reportLine(`vocabulary/${t.id}`),

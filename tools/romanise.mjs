@@ -104,12 +104,16 @@ export function toBopomofo(syllable) {
 
 const syllablesOf = (jyutping) => jyutping.trim().split(/\s+/).filter(Boolean);
 
+// Code-mixed phrases such as 寫 code ("se2 code") keep their English words
+// as they are. Every Jyutping syllable ends in a tone number; English does not.
+const keepEnglish = (convert) => (token) => (/\d$/.test(token) ? convert(token) : token);
+
 export function phraseToYale(jyutping) {
-  return syllablesOf(jyutping).map(toYale).join(' ');
+  return syllablesOf(jyutping).map(keepEnglish(toYale)).join(' ');
 }
 
 export function phraseToBopomofo(jyutping) {
-  return syllablesOf(jyutping).map(toBopomofo).join(' ');
+  return syllablesOf(jyutping).map(keepEnglish(toBopomofo)).join(' ');
 }
 
 export function romanise(jyutping) {

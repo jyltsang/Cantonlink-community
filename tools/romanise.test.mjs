@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { isValidSyllable, toYale, toBopomofo, romanise } from './romanise.mjs';
+import { isValidSyllable, toYale, toBopomofo, romanise, phraseToYale, phraseToBopomofo } from './romanise.mjs';
 
 const table = readFileSync(new URL('../data/third-party/pingyambiu.tsv', import.meta.url), 'utf8')
   .split('\n')
@@ -72,4 +72,10 @@ test('invalid syllables are rejected', () => {
 
 test('romanise converts whole phrases', () => {
   assert.deepEqual(romanise('nei5 hou2'), { jyutping: 'nei5 hou2', yale: 'néih hóu', bopomofo: 'ㄋㄝㄧ⁵ ㄏㄛㄨ²' });
+});
+
+test('English words in code-mixed phrases are kept as they are', () => {
+  assert.equal(phraseToYale('se2 code'), 'sé code');
+  assert.equal(phraseToBopomofo('gon2 deadline'), `${toBopomofo('gon2')} deadline`);
+  assert.throws(() => phraseToYale('se7 code'));
 });

@@ -1,4 +1,4 @@
-import { parseSyllable, toYale, toBopomofo, romanise } from './romanise.js';
+import { parseSyllable, phraseToYale, phraseToBopomofo, romanise } from './romanise.js';
 import {
   SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, pageHead, chips,
   reportLine, recordAnswer, reviewKeys, savedPhrase, stats, whenDue,
@@ -250,7 +250,7 @@ function toneQuestion(word, topic, index = null) {
   if (!pick) return null;
   const variant = (syl) => {
     const jp = syllables.map((s, i) => (i === pick.i ? syl : s)).join(' ');
-    return { jyutping: jp, yale: jp.split(' ').map(toYale).join(' '), bopomofo: jp.split(' ').map(toBopomofo).join(' ') };
+    return { jyutping: jp, yale: phraseToYale(jp), bopomofo: phraseToBopomofo(jp) };
   };
   const options = shuffle([{ ...variant(syllables[pick.i]), right: true }, ...sample(pick.alts, 3).map((a) => variant(a))]);
   return { word, topic, index: pick.i, syllables: syllables.length, tone: Number(syllables[pick.i].at(-1)), options };

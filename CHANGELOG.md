@@ -2,8 +2,12 @@
 
 ## Unreleased
 
+### Tech and work vocabulary
+- A new topic of 30 words for office and tech work, with the code-mixed forms Hong Kong people actually use (寫 code, 出 bug, 趕 deadline, 開 OT) next to the Cantonese terms, taught in unit 10 of the learning path.
+- Code-mixed entries are supported throughout: the build matches the English words between characters and Jyutping, and romanisation keeps them unchanged.
+
 ### Learning path
-- `content/path.json`: 12 units from A1 to B1, each pairing a few grammar patterns with one vocabulary topic around an everyday situation. The build checks that every pattern and topic is taught exactly once, in order of level.
+- `content/path.json`: 12 units from A1 to B1, each pairing a few grammar patterns with vocabulary around an everyday situation. The build checks that every pattern and topic is taught exactly once, in order of level.
 - A `#/path` page with progress per unit, a page for each unit (grammar, words, practice), a mixed practice session per unit that starts with what you have not practised, and a Continue card on the home page.
 - "Practise with the AI tutor" from any unit sets the level and scenario and asks the tutor to use that unit's patterns.
 - A readable [learning path](library/path.md) in the library.

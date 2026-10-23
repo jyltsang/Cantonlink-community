@@ -2,9 +2,9 @@
 
 # Topic vocabulary
 
-360 everyday words in 12 topics. Looking for a word in English? Use the [English index](../english-index.md).
+390 everyday words in 13 topics. Looking for a word in English? Use the [English index](../english-index.md).
 
-> **12 of 12 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **13 of 13 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 | Topic | 主題 | Words | Review |
 |---|---|---|---|
@@ -20,3 +20,4 @@
 | [Work and the office](work.md) | 返工 | 30 | Draft |
 | [Weather](weather.md) | 天氣 | 30 | Draft |
 | [Feelings](feelings.md) | 感受 | 30 | Draft |
+| [Tech and work](tech-work.md) | 科技同返工 | 30 | Draft |

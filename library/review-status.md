@@ -2,7 +2,7 @@
 
 # Review status
 
-**0 of 73 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
+**0 of 74 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
 
 Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml) — reviewers are credited by name.
 
@@ -80,4 +80,5 @@ Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-c
 | Vocabulary | [Work and the office](vocabulary/work.md) | — | Draft (0/2) | — |
 | Vocabulary | [Weather](vocabulary/weather.md) | — | Draft (0/2) | — |
 | Vocabulary | [Feelings](vocabulary/feelings.md) | — | Draft (0/2) | — |
+| Vocabulary | [Tech and work](vocabulary/tech-work.md) | — | Draft (0/2) | — |
 | Practice | [Spoken or written?](practice/spoken-or-written.md) | — | Draft (0/2) | — |

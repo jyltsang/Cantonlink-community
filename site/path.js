@@ -58,7 +58,7 @@ export function continueCard(data) {
 export function pathView(data) {
   const current = currentUnit(data);
   show(
-    ...pageHead('Learning path', { lede: `${data.path.length} units from A1 to B1. Each unit teaches a few grammar patterns with one vocabulary topic, around an everyday situation. A unit is complete once you have practised ${Math.round(COMPLETE * 100)}% of it.` }),
+    ...pageHead('Learning path', { lede: `${data.path.length} units from A1 to B1. Each unit teaches a few grammar patterns with vocabulary, around an everyday situation. A unit is complete once you have practised ${Math.round(COMPLETE * 100)}% of it.` }),
     ...LEVELS.map((level) => h('section', { 'aria-labelledby': `path-${level}` },
       h('h2', { id: `path-${level}` }, `Level ${level}`),
       h('ol', { class: 'path', start: data.path.findIndex((u) => u.level === level) + 1 },
