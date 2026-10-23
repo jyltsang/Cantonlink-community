@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cantonlink": {
+      "command": "node",
+      "args": ["${workspaceFolder}/mcp/server.mjs"]
+    }
+  }
+}

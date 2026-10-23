@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cantonlink": {
+      "command": "node",
+      "args": ["${CLAUDE_PROJECT_DIR:-.}/mcp/server.mjs"]
+    }
+  }
+}

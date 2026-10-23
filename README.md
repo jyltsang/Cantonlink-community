@@ -65,6 +65,12 @@ npm run romanise -- "nei5 hou2"   # convert any Jyutping to Yale and Bopomofo
 
 Requires Node.js 22 or later. The content tools have no dependencies; the browser tests use Playwright.
 
+## Use it with an AI assistant (MCP)
+
+The [`mcp/`](mcp/) folder is a ready-made **Model Context Protocol** server. It lets assistants such as Claude, GitHub Copilot and Cursor look up words, read grammar patterns, convert romanisation, quiz you, and check their own Cantonese for written-Chinese forms, all from this library rather than from memory. Clone the repository, run `npm install --prefix mcp`, and open the folder in Claude Code, VS Code or Cursor: it is already configured.
+
+New to MCP? The **[MCP guide](docs/MCP_GUIDE.md)** explains how it works, how to connect it to your app, and how to build your own server.
+
 ## Reuse the data
 
 [`dist/cantonlink-community.json`](dist/cantonlink-community.json) contains every pattern, example, word and practice item with all three romanisations, ready for your own app, flashcard deck or class materials under CC BY-SA 4.0.
@@ -73,6 +79,7 @@ Requires Node.js 22 or later. The content tools have no dependencies; the browse
 
 - [Product specification](docs/PRODUCT_SPEC.md): problem, audience, scope, quality process, licence audit and roadmap
 - [Curriculum](docs/CURRICULUM.md): what is covered at each level, and why
+- [MCP guide](docs/MCP_GUIDE.md): connect an AI assistant to the library, and build your own MCP server
 - [Contributing](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md): how to report errors, review and add content
 - [Release checklist](docs/RELEASE_CHECKLIST.md): what has been verified, and what still needs people
 - [Changelog](CHANGELOG.md)

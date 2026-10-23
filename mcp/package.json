@@ -1,0 +1,19 @@
+{
+  "name": "cantonlink-community-mcp",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "description": "MCP server that gives AI assistants access to the CantonLink Community Cantonese library.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "cantonlink-mcp": "server.mjs" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "inspect": "npx @modelcontextprotocol/inspector@2.10.1 node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "4.6.5"
+  }
+}

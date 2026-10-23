@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### MCP server
+- New `mcp/` server exposing the library to AI assistants: six read-only tools, three resources and two prompts.
+- Ready-made project configuration for Claude Code (`.mcp.json`), VS Code (`.vscode/mcp.json`) and Cursor (`.cursor/mcp.json`).
+- `docs/MCP_GUIDE.md`: an introductory guide to MCP, app setup, a code walkthrough and a checklist for building servers.
+- Server tests (in-memory client and stdio), run in CI.
+
 ## 1.0.0-rc.1 (October 2026)
 
 First release candidate, ready for native-speaker review.

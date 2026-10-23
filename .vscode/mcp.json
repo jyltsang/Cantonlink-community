@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "cantonlink": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/mcp/server.mjs"]
+    }
+  }
+}
