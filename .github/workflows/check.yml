@@ -27,7 +27,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      # The apt step inside --with-deps occasionally stalls on a runner, so
+      # each attempt gets four minutes and one retry.
+      - run: timeout 240 npx playwright install --with-deps chromium || timeout 240 npx playwright install --with-deps chromium
       - run: npm run site
       - run: npm run test:e2e
 
