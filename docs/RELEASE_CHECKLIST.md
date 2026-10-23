@@ -39,7 +39,7 @@ These cannot be automated, and they are the reason the status is "release candid
 3. **Testing on real devices,** especially older Android phones and iOS Safari.
 4. **The AI tutor with real keys.** CI uses a scripted provider. One conversation each with Claude, OpenAI, Gemini and a local Ollama model should confirm that each provider accepts calls from the browser and returns replies in the expected format.
 5. **Publishing `cantonlink-mcp` to npm** (`cd mcp && npm publish`), then removing the "Not yet on npm" note from the [MCP guide](MCP_GUIDE.md) and README.
-6. **A decision on the Bopomofo scheme.** This project's scheme distinguishes long *aa* and short *a* and uses superscript tone numbers. The CantoLink app uses a different variant, and the two should be aligned.
+6. ~~A decision on the Bopomofo scheme.~~ **Decided (October 2026):** keep this project's Cantonese scheme (long *aa* ㄚ versus short *a* ㄜ, Bopomofo Extended letters, superscript tone numbers), documented in full in the [romanisation guide](../library/romanisation.md#the-bopomofo-scheme-used-here). The CantoLink app's CMS currently derives Bopomofo from **Mandarin** pinyin, which gives Mandarin sounds; it should reuse `tools/romanise.mjs` instead.
 
 ## Before tagging 1.0.0
 

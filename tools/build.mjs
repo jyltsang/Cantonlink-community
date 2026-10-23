@@ -468,6 +468,26 @@ emit('library/practice/README.md', page(
       '- **Yale** (mid-20th century) shows tones with accents: macron (ā) tone 1, acute (á) tones 2 and 5, grave (à) tone 4, none for 3 and 6. An **h** after the vowel marks the low tones 4, 5 and 6. Many classic textbooks use it.',
       '- **Bopomofo** (注音符號) is familiar to readers from Taiwan. Standard Bopomofo cannot show Cantonese’s six tones or its long *aa* versus short *a*, so this library uses Bopomofo Extended letters (ㆭ ㆬ ㆴ ㆵ ㆶ ㆦ ㆤ), **ㄜ** for short *a*, and superscript tone numbers. It is a learning aid, not an official standard.',
     ].join('\n'),
+    '## The Bopomofo scheme used here',
+    [
+      'Standard Bopomofo was designed for Mandarin, so writing Cantonese with it needs choices. This library makes them as follows, and applies them automatically to every syllable:',
+      '',
+      '- **Long *aa* and short *a* are different letters:** ㄚ for *aa* (家 gaa1 ㄍㄚ¹) and ㄜ for *a* (金 gam1 ㄍㄜㆬ¹), because the difference changes meaning (三 saam1 / 心 sam1).',
+      '- **Cantonese-only sounds use Bopomofo Extended letters** from Unicode: ㆭ for *ng-*, ㆦ for *oe*, ㆤ for *eo*, ㆬ for final *-m*, and ㆴ ㆵ ㆶ for the unreleased final stops *-p*, *-t* and *-k*.',
+      '- **Tones are superscript numbers ¹ to ⁶**, matching Jyutping, because Mandarin tone marks cannot show six Cantonese tones.',
+      '- **The syllabic nasals** *m* and *ng* are written ㆬ and ㆭ on their own (唔 m4 ㆬ⁴, 五 ng5 ㆭ⁵).',
+      '',
+      'Bopomofo generated from Mandarin pinyin is a different thing: it gives the Mandarin pronunciation of the characters, not the Cantonese one. Do not mix the two.',
+    ].join('\n'),
+    '### Initials',
+    '| Jyutping | Bopomofo | Example |\n|---|---|---|\n' + ['b', 'p', 'm', 'f', 'd', 't', 'n', 'l', 'g', 'k', 'ng', 'h', 'gw', 'kw', 'w', 'z', 'c', 's', 'j']
+      .map((initial) => { const syl = `${initial}aa1`; return `| ${initial}- | ${toBopomofo(syl).replace(/ㄚ¹$/, '')} | ${syl} → ${toBopomofo(syl)} |`; }).join('\n'),
+    '### Finals',
+    'Each final is shown after *s-* in tone 1 so the letters can be compared; not every combination is a real word.',
+    '| Jyutping | Bopomofo | Pattern |\n|---|---|---|\n' + ['aa', 'aai', 'aau', 'aam', 'aan', 'aang', 'aap', 'aat', 'aak', 'ai', 'au', 'am', 'an', 'ang', 'ap', 'at', 'ak',
+      'e', 'ei', 'eng', 'ek', 'i', 'iu', 'im', 'in', 'ing', 'ip', 'it', 'ik', 'o', 'oi', 'ou', 'on', 'ong', 'ot', 'ok',
+      'oe', 'oeng', 'oek', 'eoi', 'eon', 'eot', 'u', 'ui', 'un', 'ung', 'ut', 'uk', 'yu', 'yun', 'yut']
+      .map((final) => { const syl = `s${final}1`; const bpmf = toBopomofo(syl); return `| -${final} | ${bpmf.replace(/^ㄙ/, '').replace(/¹$/, '')} | ${syl} → ${bpmf} |`; }).join('\n'),
     '## Spelling differences at a glance',
     '| Sound | Jyutping | Yale | Bopomofo | 漢字 |\n|---|---|---|---|---|\n' + [
       ['z', 'zoeng1', '張'], ['c', 'coeng4', '牆'], ['j', 'jat1', '一'], ['aa', 'gaa1', '家'], ['a', 'gam1', '金'],

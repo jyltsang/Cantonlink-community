@@ -7,6 +7,7 @@
 - Every reading (853 entries) is cross-checked against an independent dictionary, to-jyutping, in CI; differences are fixed or documented in `content/pronunciation-notes.json`.
 - A proofreading pass and an exercise audit: nine fill-the-gap questions fixed, 14 build-the-sentence items now accept another natural word order, and new build rules guard against ambiguous wrong options. See [docs/QUALITY_REPORT.md](docs/QUALITY_REPORT.md).
 - Fixed: the Pages deploy did not install dependencies before checking content; a test now checks every workflow.
+- The Bopomofo scheme is decided and documented, with complete initial and final tables generated from the converter.
 
 ### One-line MCP install and a terminal CLI
 - The MCP server is packaged as `cantonlink-mcp`, self-contained (the library and data are bundled at pack time), so apps can start it with `npx -y cantonlink-mcp`.

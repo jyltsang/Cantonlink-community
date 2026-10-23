@@ -227,7 +227,7 @@ Content lives as versioned JSON in the repository, extending the shapes CantoLin
 
 Sentences are stored as word-by-word pairs of characters and Jyutping. This lets the build check that every word has exactly one syllable per character, and lets practice exercises blank or shuffle whole words.
 
-Yale and Bopomofo are **not stored**; they are generated from Jyutping at build time (`tools/romanise.mjs`) so the systems can never drift apart. The Yale converter is tested against every syllable in the CC BY `pingyambiu` table.
+Yale and Bopomofo are **not stored**; they are generated from Jyutping at build time (`tools/romanise.mjs`) so the systems can never drift apart. The Bopomofo is **Cantonese** Bopomofo (scheme documented in `library/romanisation.md`). Any other CantonLink surface that shows Bopomofo should reuse this converter rather than deriving Bopomofo from Mandarin pinyin, which produces Mandarin sounds. The Yale converter is tested against every syllable in the CC BY `pingyambiu` table.
 
 ### 9.3 Audio
 

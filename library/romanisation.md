@@ -21,6 +21,99 @@ Every word in this library is written once, in **Jyutping**, by a human. **Yale*
 - **Yale** (mid-20th century) shows tones with accents: macron (ā) tone 1, acute (á) tones 2 and 5, grave (à) tone 4, none for 3 and 6. An **h** after the vowel marks the low tones 4, 5 and 6. Many classic textbooks use it.
 - **Bopomofo** (注音符號) is familiar to readers from Taiwan. Standard Bopomofo cannot show Cantonese’s six tones or its long *aa* versus short *a*, so this library uses Bopomofo Extended letters (ㆭ ㆬ ㆴ ㆵ ㆶ ㆦ ㆤ), **ㄜ** for short *a*, and superscript tone numbers. It is a learning aid, not an official standard.
 
+## The Bopomofo scheme used here
+
+Standard Bopomofo was designed for Mandarin, so writing Cantonese with it needs choices. This library makes them as follows, and applies them automatically to every syllable:
+
+- **Long *aa* and short *a* are different letters:** ㄚ for *aa* (家 gaa1 ㄍㄚ¹) and ㄜ for *a* (金 gam1 ㄍㄜㆬ¹), because the difference changes meaning (三 saam1 / 心 sam1).
+- **Cantonese-only sounds use Bopomofo Extended letters** from Unicode: ㆭ for *ng-*, ㆦ for *oe*, ㆤ for *eo*, ㆬ for final *-m*, and ㆴ ㆵ ㆶ for the unreleased final stops *-p*, *-t* and *-k*.
+- **Tones are superscript numbers ¹ to ⁶**, matching Jyutping, because Mandarin tone marks cannot show six Cantonese tones.
+- **The syllabic nasals** *m* and *ng* are written ㆬ and ㆭ on their own (唔 m4 ㆬ⁴, 五 ng5 ㆭ⁵).
+
+Bopomofo generated from Mandarin pinyin is a different thing: it gives the Mandarin pronunciation of the characters, not the Cantonese one. Do not mix the two.
+
+### Initials
+
+| Jyutping | Bopomofo | Example |
+|---|---|---|
+| b- | ㄅ | baa1 → ㄅㄚ¹ |
+| p- | ㄆ | paa1 → ㄆㄚ¹ |
+| m- | ㄇ | maa1 → ㄇㄚ¹ |
+| f- | ㄈ | faa1 → ㄈㄚ¹ |
+| d- | ㄉ | daa1 → ㄉㄚ¹ |
+| t- | ㄊ | taa1 → ㄊㄚ¹ |
+| n- | ㄋ | naa1 → ㄋㄚ¹ |
+| l- | ㄌ | laa1 → ㄌㄚ¹ |
+| g- | ㄍ | gaa1 → ㄍㄚ¹ |
+| k- | ㄎ | kaa1 → ㄎㄚ¹ |
+| ng- | ㆭ | ngaa1 → ㆭㄚ¹ |
+| h- | ㄏ | haa1 → ㄏㄚ¹ |
+| gw- | ㄍㄨ | gwaa1 → ㄍㄨㄚ¹ |
+| kw- | ㄎㄨ | kwaa1 → ㄎㄨㄚ¹ |
+| w- | ㄨ | waa1 → ㄨㄚ¹ |
+| z- | ㄗ | zaa1 → ㄗㄚ¹ |
+| c- | ㄘ | caa1 → ㄘㄚ¹ |
+| s- | ㄙ | saa1 → ㄙㄚ¹ |
+| j- | ㄧ | jaa1 → ㄧㄚ¹ |
+
+### Finals
+
+Each final is shown after *s-* in tone 1 so the letters can be compared; not every combination is a real word.
+
+| Jyutping | Bopomofo | Pattern |
+|---|---|---|
+| -aa | ㄚ | saa1 → ㄙㄚ¹ |
+| -aai | ㄚㄧ | saai1 → ㄙㄚㄧ¹ |
+| -aau | ㄚㄨ | saau1 → ㄙㄚㄨ¹ |
+| -aam | ㄚㆬ | saam1 → ㄙㄚㆬ¹ |
+| -aan | ㄚㄣ | saan1 → ㄙㄚㄣ¹ |
+| -aang | ㄚㄥ | saang1 → ㄙㄚㄥ¹ |
+| -aap | ㄚㆴ | saap1 → ㄙㄚㆴ¹ |
+| -aat | ㄚㆵ | saat1 → ㄙㄚㆵ¹ |
+| -aak | ㄚㆶ | saak1 → ㄙㄚㆶ¹ |
+| -ai | ㄜㄧ | sai1 → ㄙㄜㄧ¹ |
+| -au | ㄜㄨ | sau1 → ㄙㄜㄨ¹ |
+| -am | ㄜㆬ | sam1 → ㄙㄜㆬ¹ |
+| -an | ㄜㄣ | san1 → ㄙㄜㄣ¹ |
+| -ang | ㄜㄥ | sang1 → ㄙㄜㄥ¹ |
+| -ap | ㄜㆴ | sap1 → ㄙㄜㆴ¹ |
+| -at | ㄜㆵ | sat1 → ㄙㄜㆵ¹ |
+| -ak | ㄜㆶ | sak1 → ㄙㄜㆶ¹ |
+| -e | ㄝ | se1 → ㄙㄝ¹ |
+| -ei | ㄝㄧ | sei1 → ㄙㄝㄧ¹ |
+| -eng | ㄝㄥ | seng1 → ㄙㄝㄥ¹ |
+| -ek | ㄝㆶ | sek1 → ㄙㄝㆶ¹ |
+| -i | ㄧ | si1 → ㄙㄧ¹ |
+| -iu | ㄧㄨ | siu1 → ㄙㄧㄨ¹ |
+| -im | ㄧㆬ | sim1 → ㄙㄧㆬ¹ |
+| -in | ㄧㄣ | sin1 → ㄙㄧㄣ¹ |
+| -ing | ㄧㄥ | sing1 → ㄙㄧㄥ¹ |
+| -ip | ㄧㆴ | sip1 → ㄙㄧㆴ¹ |
+| -it | ㄧㆵ | sit1 → ㄙㄧㆵ¹ |
+| -ik | ㄧㆶ | sik1 → ㄙㄧㆶ¹ |
+| -o | ㄛ | so1 → ㄙㄛ¹ |
+| -oi | ㄛㄧ | soi1 → ㄙㄛㄧ¹ |
+| -ou | ㄛㄨ | sou1 → ㄙㄛㄨ¹ |
+| -on | ㄛㄣ | son1 → ㄙㄛㄣ¹ |
+| -ong | ㄛㄥ | song1 → ㄙㄛㄥ¹ |
+| -ot | ㄛㆵ | sot1 → ㄙㄛㆵ¹ |
+| -ok | ㄛㆶ | sok1 → ㄙㄛㆶ¹ |
+| -oe | ㆦ | soe1 → ㄙㆦ¹ |
+| -oeng | ㆦㄥ | soeng1 → ㄙㆦㄥ¹ |
+| -oek | ㆦㆶ | soek1 → ㄙㆦㆶ¹ |
+| -eoi | ㆤㄧ | seoi1 → ㄙㆤㄧ¹ |
+| -eon | ㆤㄣ | seon1 → ㄙㆤㄣ¹ |
+| -eot | ㆤㆵ | seot1 → ㄙㆤㆵ¹ |
+| -u | ㄨ | su1 → ㄙㄨ¹ |
+| -ui | ㄨㄧ | sui1 → ㄙㄨㄧ¹ |
+| -un | ㄨㄣ | sun1 → ㄙㄨㄣ¹ |
+| -ung | ㄨㄥ | sung1 → ㄙㄨㄥ¹ |
+| -ut | ㄨㆵ | sut1 → ㄙㄨㆵ¹ |
+| -uk | ㄨㆶ | suk1 → ㄙㄨㆶ¹ |
+| -yu | ㄩ | syu1 → ㄙㄩ¹ |
+| -yun | ㄩㄣ | syun1 → ㄙㄩㄣ¹ |
+| -yut | ㄩㆵ | syut1 → ㄙㄩㆵ¹ |
+
 ## Spelling differences at a glance
 
 | Sound | Jyutping | Yale | Bopomofo | 漢字 |
