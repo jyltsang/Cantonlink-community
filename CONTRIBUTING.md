@@ -22,11 +22,12 @@ Content follows the quality process in [§8 of the spec](docs/PRODUCT_SPEC.md#8-
 
 | File | What it holds |
 |---|---|
-| `content/grammar/A1.json`, `A2.json` | Grammar patterns, one array per level |
+| `content/grammar/A1.json`, `A2.json`, `B1.json` | Grammar patterns, one array per level |
 | `content/vocabulary/<topic>.json` | One file per topic |
 | `content/practice/spoken-or-written.json` | Written vs spoken sentence pairs |
 | `content/lexicon.json` | Extra words used only as practice distractors |
-| `site/` | The practice web app (plain HTML, CSS and JavaScript) |
+| `site/` | The learning site (plain HTML, CSS and JavaScript modules) |
+| `tests/e2e.mjs` | Browser tests for the site |
 
 Sentences are lists of `[characters, jyutping]` pairs, one per word, with punctuation as a single-item list:
 
@@ -42,8 +43,10 @@ Then run:
 npm run format  # tidies the JSON so diffs stay readable
 npm test        # romanisation tests
 npm run build   # validates content and regenerates library/ and dist/
-npm run preview # optional: try your change in the practice site
+npm run preview # optional: try your change in the learning site
 ```
+
+If you change the site, also run the browser tests: `npm ci`, `npm run site`, then `npm run test:e2e`.
 
 Every entry has a `review` block. Leave it alone unless you are a reviewer (see the [review guide](docs/REVIEW_GUIDE.md)). If you change the Cantonese in a reviewed entry, set its status back to `"draft"` and keep the existing names, so the change gets checked.
 

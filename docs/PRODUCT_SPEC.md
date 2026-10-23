@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | Draft v0.3 — first content published |
+| **Status** | v1.0 release candidate — awaiting native-speaker review |
 | **Owner** | CantoLink |
 | **Last updated** | 22 October 2026 |
 | **Scope** | A free, open, no-account companion to CantoLink for grammar patterns, practice and topic vocabulary |
@@ -84,7 +84,7 @@ A browsable, searchable reference of Cantonese sentence patterns.
 - One-line meaning ("completed action")
 - Plain-English explanation (≤ 80 words), with a "Written Chinese equivalent" note where relevant (e.g. 了 → 咗)
 - 3–5 example sentences, each with Jyutping / Yale, characters and English
-- "Common mistake" box drawn from the error-correction data (e.g. *我不去* ✗ → *我唔去* ✓)
+- "Common mistake" box drawn from the error-correction data (e.g. not *我不去* but *我唔去*)
 - Related patterns (e.g. `Verb + 咗` ↔ `Verb + 緊` ↔ `未…`)
 - "Practise this pattern" button → a 5-question set targeting it
 
@@ -269,11 +269,11 @@ Estimated new writing for launch: ~25 patterns and ~250 words, plus review of al
 
 | | Community Edition (free) | CantoLink (paid) |
 |---|---|---|
-| Grammar library, topic vocabulary, practice | ✅ | ✅ |
-| Account and cross-device sync | — (JSON export instead) | ✅ |
-| AI conversation partner (Friend / Sifu) | — | ✅ |
-| Structured lesson path, news and video | — | ✅ |
-| Personalised progress analytics | — | ✅ |
+| Grammar library, topic vocabulary, practice | Yes | Yes |
+| Account and cross-device sync | No (JSON export instead) | Yes |
+| AI conversation partner (Friend / Sifu) | No | Yes |
+| Structured lesson path, news and video | No | Yes |
+| Personalised progress analytics | No | Yes |
 
 A single, unobtrusive "Want to practise speaking? Try CantoLink" card appears on the home page and at the end of practice sessions. There are no pop-ups, interstitials or nag screens; the Community Edition must stand on its own merit.
 
@@ -292,9 +292,9 @@ The Community Edition lives in its own public repository, separate from the "All
 
 | Source | Origin | Licence | Decision |
 |---|---|---|---|
-| `pingyambiu` conversion table | [kfcd/pingyam](https://github.com/kfcd/pingyam) | CC BY 3.0 | ✅ Usable with attribution in `NOTICE` |
-| Character dictionaries (`粵語字典_(耶魯_調符).csv`, `粵語字典_(粵語拼音字_數字).csv`) | Imported into CantoLink in January 2026; original publisher not recorded | Unknown | ⛔ Excluded until the source and its terms are confirmed |
-| HKCanCor corpus | [fcbond/hkcancor](https://github.com/fcbond/hkcancor) | CC BY 4.0 | ✅ Usable with attribution if needed |
+| `pingyambiu` conversion table | [kfcd/pingyam](https://github.com/kfcd/pingyam) | CC BY 3.0 | Usable with attribution in `NOTICE` |
+| Character dictionaries (`粵語字典_(耶魯_調符).csv`, `粵語字典_(粵語拼音字_數字).csv`) | Imported into CantoLink in January 2026; original publisher not recorded | Unknown | Excluded until the source and its terms are confirmed |
+| HKCanCor corpus | [fcbond/hkcancor](https://github.com/fcbond/hkcancor) | CC BY 4.0 | Usable with attribution if needed |
 | words.hk (粵典) | words.hk | Data available on request; terms set by words.hk | Possible replacement for the character dictionaries; requires their permission |
 
 Validation does not depend on the excluded dictionaries: Jyutping syllables can be checked against the LSHK scheme's initials, finals and tones alone, and Yale is derived from `pingyambiu`.
@@ -328,7 +328,10 @@ Validation does not depend on the excluded dictionaries: Jyutping syllables can 
 
 ---
 
-**Progress (October 2026):** first draft content is published in [`library/`](../library/README.md) — 36 grammar patterns (A1 22 · A2 14), 180 words in 12 topics, and four worksheets — all marked as awaiting native-speaker review.
+**Progress (October 2026), release candidate 1:**
+- Content at launch targets: 60 grammar patterns (A1 24, A2 20, B1 16), 360 words in 12 topics, 30 spoken-or-written pairs. See [CURRICULUM.md](CURRICULUM.md).
+- The learning site is live at <https://jyltsang.github.io/Cantonlink-community/>, with grammar, vocabulary, look-up, five drills, review of missed questions, progress export and offline use.
+- Phases 0 and 2 are complete. Phase 1's remaining work, and phase 3, are native-speaker review and a private beta. See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
 
 ## 14. Risks and mitigations
 
@@ -367,7 +370,7 @@ Validation does not depend on the excluded dictionaries: Jyutping syllables can 
 
 **Build the sentence** — *Is there any milk tea?*
 > [ naai5 caa4 ] [ jau5 mou5 ] [ aa3 ] [ ? ]
-> ✓ jau5 mou5 naai5 caa4 aa3?
+> Answer: jau5 mou5 naai5 caa4 aa3?
 
 ## Appendix B — Glossary
 

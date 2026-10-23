@@ -126,10 +126,10 @@ nei5 gei2 si4 waan4 \_\_\_ bun2 syu1 bei2 ngo5 aa3?
 
 ---
 
-**11.** 我病好＿＿喇。  
-ngo5 beng6 hou2 \_\_\_ laa3.  
-*ngóh behng hóu \_\_\_ la.*  
-“I've got better.”
+**11.** 我好＿＿好多喇。  
+ngo5 hou2 \_\_\_ hou2 do1 laa3.  
+*ngóh hóu \_\_\_ hóu dō la.*  
+“I'm feeling much better.”
 
 (a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 過 gwo3 · gwo · ㄍㄨㄛ³  
@@ -522,10 +522,10 @@ nei5 lo2 \_\_\_ sin1.
 
 ---
 
-**44.** 唔好企＿＿喺門口。  
-m4 hou2 kei5 \_\_\_ hai2 mun4 hau2.  
-*m̀h hóu kéih \_\_\_ hái mùhn háu.*  
-“Don't stand in the doorway.”
+**44.** 佢拎＿＿一把遮。  
+keoi5 ling1 \_\_\_ jat1 baa2 ze1.  
+*kéuih līng \_\_\_ yāt bá jē.*  
+“She's holding an umbrella.”
 
 (a) 住 zyu6 · jyuh · ㄗㄩ⁶  
 (b) 過 gwo3 · gwo · ㄍㄨㄛ³  

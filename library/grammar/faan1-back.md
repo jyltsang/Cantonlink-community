@@ -28,11 +28,11 @@
 
 | | |
 |---|---|
-| 漢字 | **我病好返喇。** |
-| Jyutping | ngo5 beng6 hou2 faan1 laa3. |
-| Yale | ngóh behng hóu fāan la. |
-| Bopomofo | ㆭㄛ⁵ ㄅㄝㄥ⁶ ㄏㄛㄨ² ㄈㄚㄣ¹ ㄌㄚ³. |
-| English | I've got better. |
+| 漢字 | **我好返好多喇。** |
+| Jyutping | ngo5 hou2 faan1 hou2 do1 laa3. |
+| Yale | ngóh hóu fāan hóu dō la. |
+| Bopomofo | ㆭㄛ⁵ ㄏㄛㄨ² ㄈㄚㄣ¹ ㄏㄛㄨ² ㄉㄛ¹ ㄌㄚ³. |
+| English | I'm feeling much better. |
 
 ## Related patterns
 

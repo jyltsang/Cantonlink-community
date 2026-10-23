@@ -66,7 +66,7 @@
         "en": "When will you give the book back to me?",
         "gap": { "word": "返", "distractors": ["晒", "緊", "過"] }
       },
-      { "words": [["我", "ngo5"], ["病", "beng6"], ["好", "hou2"], ["返", "faan1"], ["喇", "laa3"], ["。"]], "en": "I've got better.", "gap": { "word": "返", "distractors": ["晒", "緊", "過"] } }
+      { "words": [["我", "ngo5"], ["好", "hou2"], ["返", "faan1"], ["好多", "hou2 do1"], ["喇", "laa3"], ["。"]], "en": "I'm feeling much better.", "gap": { "word": "返", "distractors": ["晒", "緊", "過"] } }
     ],
     "related": ["directional", "saai3-all"],
     "review": { "status": "draft", "reviewers": [] }
@@ -300,7 +300,7 @@
     "examples": [
       { "words": [["佢", "keoi5"], ["戴", "daai3"], ["住", "zyu6"], ["眼鏡", "ngaan5 geng2"], ["。"]], "en": "She's wearing glasses.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } },
       { "words": [["你", "nei5"], ["攞", "lo2"], ["住", "zyu6"], ["先", "sin1"], ["。"]], "en": "Hold on to it for now.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } },
-      { "words": [["唔好", "m4 hou2"], ["企", "kei5"], ["住", "zyu6"], ["喺", "hai2"], ["門口", "mun4 hau2"], ["。"]], "en": "Don't stand in the doorway.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } }
+      { "words": [["佢", "keoi5"], ["拎", "ling1"], ["住", "zyu6"], ["一", "jat1"], ["把", "baa2"], ["遮", "ze1"], ["。"]], "en": "She's holding an umbrella.", "gap": { "word": "住", "distractors": ["完", "晒", "過"] } }
     ],
     "related": ["gan2-progressive"],
     "review": { "status": "draft", "reviewers": [] }

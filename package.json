@@ -1,6 +1,6 @@
 {
   "name": "cantonlink-community",
-  "version": "0.1.0",
+  "version": "1.0.0-rc.1",
   "private": true,
   "description": "Free, open Cantonese learning content: grammar patterns, topic vocabulary and practice in Jyutping, Yale and Bopomofo.",
   "type": "module",

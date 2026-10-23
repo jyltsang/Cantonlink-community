@@ -7159,23 +7159,17 @@
           ]
         },
         {
-          "cjk": "我病好返喇。",
-          "jyutping": "ngo5 beng6 hou2 faan1 laa3.",
-          "yale": "ngóh behng hóu fāan la.",
-          "bopomofo": "ㆭㄛ⁵ ㄅㄝㄥ⁶ ㄏㄛㄨ² ㄈㄚㄣ¹ ㄌㄚ³.",
-          "en": "I've got better.",
+          "cjk": "我好返好多喇。",
+          "jyutping": "ngo5 hou2 faan1 hou2 do1 laa3.",
+          "yale": "ngóh hóu fāan hóu dō la.",
+          "bopomofo": "ㆭㄛ⁵ ㄏㄛㄨ² ㄈㄚㄣ¹ ㄏㄛㄨ² ㄉㄛ¹ ㄌㄚ³.",
+          "en": "I'm feeling much better.",
           "tokens": [
             {
               "cjk": "我",
               "jyutping": "ngo5",
               "yale": "ngóh",
               "bopomofo": "ㆭㄛ⁵"
-            },
-            {
-              "cjk": "病",
-              "jyutping": "beng6",
-              "yale": "behng",
-              "bopomofo": "ㄅㄝㄥ⁶"
             },
             {
               "cjk": "好",
@@ -7188,6 +7182,12 @@
               "jyutping": "faan1",
               "yale": "fāan",
               "bopomofo": "ㄈㄚㄣ¹"
+            },
+            {
+              "cjk": "好多",
+              "jyutping": "hou2 do1",
+              "yale": "hóu dō",
+              "bopomofo": "ㄏㄛㄨ² ㄉㄛ¹"
             },
             {
               "cjk": "喇",
@@ -9043,23 +9043,23 @@
           ]
         },
         {
-          "cjk": "唔好企住喺門口。",
-          "jyutping": "m4 hou2 kei5 zyu6 hai2 mun4 hau2.",
-          "yale": "m̀h hóu kéih jyuh hái mùhn háu.",
-          "bopomofo": "ㆬ⁴ ㄏㄛㄨ² ㄎㄝㄧ⁵ ㄗㄩ⁶ ㄏㄜㄧ² ㄇㄨㄣ⁴ ㄏㄜㄨ².",
-          "en": "Don't stand in the doorway.",
+          "cjk": "佢拎住一把遮。",
+          "jyutping": "keoi5 ling1 zyu6 jat1 baa2 ze1.",
+          "yale": "kéuih līng jyuh yāt bá jē.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄌㄧㄥ¹ ㄗㄩ⁶ ㄧㄜㆵ¹ ㄅㄚ² ㄗㄝ¹.",
+          "en": "She's holding an umbrella.",
           "tokens": [
             {
-              "cjk": "唔好",
-              "jyutping": "m4 hou2",
-              "yale": "m̀h hóu",
-              "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
             },
             {
-              "cjk": "企",
-              "jyutping": "kei5",
-              "yale": "kéih",
-              "bopomofo": "ㄎㄝㄧ⁵"
+              "cjk": "拎",
+              "jyutping": "ling1",
+              "yale": "līng",
+              "bopomofo": "ㄌㄧㄥ¹"
             },
             {
               "cjk": "住",
@@ -9068,16 +9068,22 @@
               "bopomofo": "ㄗㄩ⁶"
             },
             {
-              "cjk": "喺",
-              "jyutping": "hai2",
-              "yale": "hái",
-              "bopomofo": "ㄏㄜㄧ²"
+              "cjk": "一",
+              "jyutping": "jat1",
+              "yale": "yāt",
+              "bopomofo": "ㄧㄜㆵ¹"
             },
             {
-              "cjk": "門口",
-              "jyutping": "mun4 hau2",
-              "yale": "mùhn háu",
-              "bopomofo": "ㄇㄨㄣ⁴ ㄏㄜㄨ²"
+              "cjk": "把",
+              "jyutping": "baa2",
+              "yale": "bá",
+              "bopomofo": "ㄅㄚ²"
+            },
+            {
+              "cjk": "遮",
+              "jyutping": "ze1",
+              "yale": "jē",
+              "bopomofo": "ㄗㄝ¹"
             },
             {
               "cjk": "。",
@@ -21899,19 +21905,13 @@
         "id": "faan1-back:2",
         "patternId": "faan1-back",
         "level": "B1",
-        "en": "I've got better.",
+        "en": "I'm feeling much better.",
         "tokens": [
           {
             "cjk": "我",
             "jyutping": "ngo5",
             "yale": "ngóh",
             "bopomofo": "ㆭㄛ⁵"
-          },
-          {
-            "cjk": "病",
-            "jyutping": "beng6",
-            "yale": "behng",
-            "bopomofo": "ㄅㄝㄥ⁶"
           },
           {
             "cjk": "好",
@@ -21926,6 +21926,12 @@
             "bopomofo": "ㄈㄚㄣ¹"
           },
           {
+            "cjk": "好多",
+            "jyutping": "hou2 do1",
+            "yale": "hóu dō",
+            "bopomofo": "ㄏㄛㄨ² ㄉㄛ¹"
+          },
+          {
             "cjk": "喇",
             "jyutping": "laa3",
             "yale": "la",
@@ -21936,7 +21942,7 @@
             "punctuation": "."
           }
         ],
-        "gapIndex": 3,
+        "gapIndex": 2,
         "options": [
           {
             "cjk": "返",
@@ -24386,19 +24392,19 @@
         "id": "zyu6-continuous:2",
         "patternId": "zyu6-continuous",
         "level": "B1",
-        "en": "Don't stand in the doorway.",
+        "en": "She's holding an umbrella.",
         "tokens": [
           {
-            "cjk": "唔好",
-            "jyutping": "m4 hou2",
-            "yale": "m̀h hóu",
-            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
           },
           {
-            "cjk": "企",
-            "jyutping": "kei5",
-            "yale": "kéih",
-            "bopomofo": "ㄎㄝㄧ⁵"
+            "cjk": "拎",
+            "jyutping": "ling1",
+            "yale": "līng",
+            "bopomofo": "ㄌㄧㄥ¹"
           },
           {
             "cjk": "住",
@@ -24407,16 +24413,22 @@
             "bopomofo": "ㄗㄩ⁶"
           },
           {
-            "cjk": "喺",
-            "jyutping": "hai2",
-            "yale": "hái",
-            "bopomofo": "ㄏㄜㄧ²"
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
           },
           {
-            "cjk": "門口",
-            "jyutping": "mun4 hau2",
-            "yale": "mùhn háu",
-            "bopomofo": "ㄇㄨㄣ⁴ ㄏㄜㄨ²"
+            "cjk": "把",
+            "jyutping": "baa2",
+            "yale": "bá",
+            "bopomofo": "ㄅㄚ²"
+          },
+          {
+            "cjk": "遮",
+            "jyutping": "ze1",
+            "yale": "jē",
+            "bopomofo": "ㄗㄝ¹"
           },
           {
             "cjk": "。",
@@ -30172,19 +30184,13 @@
         "id": "faan1-back:2",
         "patternId": "faan1-back",
         "level": "B1",
-        "en": "I've got better.",
+        "en": "I'm feeling much better.",
         "tokens": [
           {
             "cjk": "我",
             "jyutping": "ngo5",
             "yale": "ngóh",
             "bopomofo": "ㆭㄛ⁵"
-          },
-          {
-            "cjk": "病",
-            "jyutping": "beng6",
-            "yale": "behng",
-            "bopomofo": "ㄅㄝㄥ⁶"
           },
           {
             "cjk": "好",
@@ -30197,6 +30203,12 @@
             "jyutping": "faan1",
             "yale": "fāan",
             "bopomofo": "ㄈㄚㄣ¹"
+          },
+          {
+            "cjk": "好多",
+            "jyutping": "hou2 do1",
+            "yale": "hóu dō",
+            "bopomofo": "ㄏㄛㄨ² ㄉㄛ¹"
           },
           {
             "cjk": "喇",
@@ -31744,19 +31756,19 @@
         "id": "zyu6-continuous:2",
         "patternId": "zyu6-continuous",
         "level": "B1",
-        "en": "Don't stand in the doorway.",
+        "en": "She's holding an umbrella.",
         "tokens": [
           {
-            "cjk": "唔好",
-            "jyutping": "m4 hou2",
-            "yale": "m̀h hóu",
-            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
           },
           {
-            "cjk": "企",
-            "jyutping": "kei5",
-            "yale": "kéih",
-            "bopomofo": "ㄎㄝㄧ⁵"
+            "cjk": "拎",
+            "jyutping": "ling1",
+            "yale": "līng",
+            "bopomofo": "ㄌㄧㄥ¹"
           },
           {
             "cjk": "住",
@@ -31765,16 +31777,22 @@
             "bopomofo": "ㄗㄩ⁶"
           },
           {
-            "cjk": "喺",
-            "jyutping": "hai2",
-            "yale": "hái",
-            "bopomofo": "ㄏㄜㄧ²"
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
           },
           {
-            "cjk": "門口",
-            "jyutping": "mun4 hau2",
-            "yale": "mùhn háu",
-            "bopomofo": "ㄇㄨㄣ⁴ ㄏㄜㄨ²"
+            "cjk": "把",
+            "jyutping": "baa2",
+            "yale": "bá",
+            "bopomofo": "ㄅㄚ²"
+          },
+          {
+            "cjk": "遮",
+            "jyutping": "ze1",
+            "yale": "jē",
+            "bopomofo": "ㄗㄝ¹"
           },
           {
             "cjk": "。",

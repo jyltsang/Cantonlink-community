@@ -1,24 +1,30 @@
 # CantonLink Community Edition
 
-**Free, open material for learning spoken Cantonese: grammar patterns, topic vocabulary and practice, all written in 漢字, Jyutping, Yale and Bopomofo with English.**
+**Free, open lessons and practice for spoken Hong Kong Cantonese, in Jyutping, Yale or Bopomofo, with 漢字 and English.**
 
-[![Check content](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml/badge.svg)](https://github.com/jyltsang/cantonlink-community/actions/workflows/check.yml)
+[![Check content](https://github.com/jyltsang/Cantonlink-community/actions/workflows/check.yml/badge.svg)](https://github.com/jyltsang/Cantonlink-community/actions/workflows/check.yml)
 
-> **Status: first draft.** All content is awaiting review by native speakers ([review status](library/review-status.md)). If something sounds unnatural, please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml). Native speaker? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml): it takes about five minutes a pattern.
+**[Open the learning site](https://jyltsang.github.io/Cantonlink-community/)**: no account, works on phones and offline.
+
+> **Status: release candidate, awaiting native-speaker review.** Every entry is checked automatically, but none has yet been reviewed by native speakers ([review status](library/review-status.md)). If something sounds unnatural, please [report it](https://github.com/jyltsang/Cantonlink-community/issues/new?template=content-error.yml). Native speaker? [Volunteer as a reviewer](https://github.com/jyltsang/Cantonlink-community/issues/new?template=reviewer.yml).
 
 ---
 
-## Start learning
-
-**[Practise online](https://jyltsang.github.io/Cantonlink-community/)** — flashcards, fill the gap, build the sentence and spoken-or-written drills in your browser, in Jyutping, Yale or Bopomofo. Free, no account.
+## What's inside
 
 | | |
 |---|---|
-| **[Grammar patterns](library/grammar/README.md)** | 36 everyday patterns (A1–A2), each with three example sentences, plus written-Chinese equivalents and common mistakes where relevant |
-| **[Topic vocabulary](library/vocabulary/README.md)** | 180 words in 12 topics: greetings, food and dim sum, transport, health, work and more |
-| **[English → Cantonese index](library/english-index.md)** | Look up any word by its English meaning |
-| **[Practice worksheets](library/practice/README.md)** | Fill the gap, build the sentence, and *spoken or written?*, with answers |
+| **[Grammar](library/grammar/README.md)** | 60 patterns from A1 to B1, each with three example sentences, the written-Chinese equivalent and common mistakes where relevant |
+| **[Vocabulary](library/vocabulary/README.md)** | 360 everyday words in 12 topics, with classifiers and usage notes |
+| **[English → Cantonese index](library/english-index.md)** | Every word, sorted by its English meaning |
+| **[Practice worksheets](library/practice/README.md)** | Printable fill-the-gap (A1, A2, B1), build-the-sentence and spoken-or-written worksheets with answers |
 | **[Romanisation guide](library/romanisation.md)** | The six tones, and how Jyutping, Yale and Bopomofo compare |
+
+The **[learning site](https://jyltsang.github.io/Cantonlink-community/)** presents the same material interactively:
+
+- **Learn:** browse grammar by level, read each pattern with word-by-word examples, browse vocabulary by topic, and look words up from English, Jyutping, Yale or characters.
+- **Practise:** flashcards, fill the gap, build the sentence, a tone drill and spoken-or-written, all in the romanisation you choose.
+- **Review:** questions you miss are saved in your browser for a later review session. Progress can be exported and imported, with no account.
 
 ### A taste
 
@@ -32,39 +38,44 @@
 
 ## Why this exists
 
-Free Cantonese material is scattered and inconsistent, and it often teaches **written Chinese read aloud** rather than the Cantonese people actually speak: 他是學生 instead of 佢係學生. This project aims to be a reference learners can trust, and puts accuracy before breadth.
+Free Cantonese material is scattered and inconsistent, and it often teaches **written Chinese read aloud** rather than the Cantonese people actually speak: 他是學生 instead of 佢係學生. This project aims to be a reference learners can trust, and puts accuracy before breadth. The scope follows the standard Routledge course grammars; see [the curriculum](docs/CURRICULUM.md).
 
 ## How it works
 
 ```
-content/*.json  ──►  tools/build.mjs  ──►  library/*.md     (pages you read on GitHub)
- (Jyutping only)      validate + romanise   dist/*.json      (data for apps and other projects)
+content/*.json  ──►  tools/build.mjs  ──►  library/*.md        pages you read on GitHub
+ (Jyutping only)      validate + romanise   dist/*.json         data for apps and other projects
+                                                │
+                                   tools/site.mjs ──► _site/   the learning site (GitHub Pages)
 ```
 
-- **Jyutping is written once, by a person.** Yale and Bopomofo are generated by [`tools/romanise.mjs`](tools/romanise.mjs), so the three systems can never disagree.
-- **Every sentence is checked automatically.** The build rejects invalid syllables, words whose character count doesn't match their syllables, broken links and malformed exercises.
-- **The converter is tested** against all ~4,000 syllables of the CC BY [pingyambiu](https://github.com/kfcd/pingyam) table.
-- **CI** runs the tests and checks that the generated pages match the content on every pull request.
+- **Jyutping is written once, by a person.** Yale and Bopomofo are generated by [`tools/romanise.mjs`](tools/romanise.mjs), so the three systems never disagree. The converter is tested against all ~4,000 syllables of the CC BY [pingyambiu](https://github.com/kfcd/pingyam) table.
+- **Every entry is checked automatically.** The build rejects invalid syllables, words whose character count doesn't match their syllables, tell-tale written Chinese (他, 是, 的, 不, 了…) in spoken sentences, duplicate words, broken links and malformed exercises.
+- **Reviews are tracked.** An entry only counts as reviewed once two named native speakers have checked it ([review guide](docs/REVIEW_GUIDE.md)).
+- **The site is tested in a real browser.** CI runs every page and learning journey in Chromium on each change.
 
 ```sh
-npm test                                # romanisation tests
-npm run build                           # validate content and regenerate library/ and dist/
-npm run format                          # tidy content/*.json for readable diffs
-npm run preview                         # practice site at http://localhost:8080
-npm run romanise -- "nei5 hou2"         # convert any Jyutping to Yale and Bopomofo
+npm test                          # romanisation tests
+npm run build                     # validate content and regenerate library/ and dist/
+npm run check                     # confirm formatting and generated files are up to date
+npm run preview                   # learning site at http://localhost:8080
+npm run test:e2e                  # browser tests (after npm ci and npm run site)
+npm run romanise -- "nei5 hou2"   # convert any Jyutping to Yale and Bopomofo
 ```
 
-Requires Node.js 22 or later; there are no dependencies to install.
+Requires Node.js 22 or later. The content tools have no dependencies; the browser tests use Playwright.
 
 ## Reuse the data
 
-[`dist/cantonlink-community.json`](dist/cantonlink-community.json) contains every pattern, example and word with all romanisations, ready to use in your own app, flashcard deck or class materials under CC BY-SA 4.0.
+[`dist/cantonlink-community.json`](dist/cantonlink-community.json) contains every pattern, example, word and practice item with all three romanisations, ready for your own app, flashcard deck or class materials under CC BY-SA 4.0.
 
 ## Documents
 
-- **[Product specification](docs/PRODUCT_SPEC.md)**: the problem, audience, scope, content-quality process, licence audit and roadmap
-- **[Contributing](CONTRIBUTING.md)**: how to report errors, review content and add new entries
-- **[Review guide](docs/REVIEW_GUIDE.md)** and **[review status](library/review-status.md)**: how native speakers check content, and what has been checked so far
+- [Product specification](docs/PRODUCT_SPEC.md): problem, audience, scope, quality process, licence audit and roadmap
+- [Curriculum](docs/CURRICULUM.md): what is covered at each level, and why
+- [Contributing](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md): how to report errors, review and add content
+- [Release checklist](docs/RELEASE_CHECKLIST.md): what has been verified, and what still needs people
+- [Changelog](CHANGELOG.md)
 
 ## Relationship to CantoLink
 

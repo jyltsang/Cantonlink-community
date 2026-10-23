@@ -28,11 +28,11 @@
 
 | | |
 |---|---|
-| 漢字 | **唔好企住喺門口。** |
-| Jyutping | m4 hou2 kei5 zyu6 hai2 mun4 hau2. |
-| Yale | m̀h hóu kéih jyuh hái mùhn háu. |
-| Bopomofo | ㆬ⁴ ㄏㄛㄨ² ㄎㄝㄧ⁵ ㄗㄩ⁶ ㄏㄜㄧ² ㄇㄨㄣ⁴ ㄏㄜㄨ². |
-| English | Don't stand in the doorway. |
+| 漢字 | **佢拎住一把遮。** |
+| Jyutping | keoi5 ling1 zyu6 jat1 baa2 ze1. |
+| Yale | kéuih līng jyuh yāt bá jē. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄌㄧㄥ¹ ㄗㄩ⁶ ㄧㄜㆵ¹ ㄅㄚ² ㄗㄝ¹. |
+| English | She's holding an umbrella. |
 
 ## Related patterns
 
