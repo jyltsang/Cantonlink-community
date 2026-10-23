@@ -1,14 +1,9 @@
-// Plain functions over the generated library data. Nothing here knows about
-// MCP, which keeps the logic easy to test and reuse.
+// Plain functions over the generated library data, shared by the MCP server
+// and the website's AI tutor. No Node-only APIs, so it also runs in browsers.
 
-import { readFileSync } from 'node:fs';
-import { parseSyllable, romanise } from '../tools/romanise.mjs';
+import { parseSyllable, romanise } from './romanise.mjs';
 
 export const LEVELS = ['A1', 'A2', 'B1'];
-
-export function loadLibrary(path = new URL('../dist/cantonlink-community.json', import.meta.url)) {
-  return JSON.parse(readFileSync(path, 'utf8'));
-}
 
 const fold = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[1-6\s'’.,!?]/g, '');
 const status = (review) => (review.status === 'reviewed' ? `reviewed by ${review.reviewers.join(' and ')}` : 'draft, awaiting native-speaker review');

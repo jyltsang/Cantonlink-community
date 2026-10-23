@@ -3,18 +3,26 @@
 // It shows all three MCP building blocks: tools (actions the model can call),
 // resources (documents the app can attach) and prompts (reusable templates).
 
+import { readFileSync, existsSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 import { McpServer, ResourceTemplate } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { pathToFileURL } from 'node:url';
 import { z } from 'zod';
-import {
-  LEVELS, loadLibrary, searchVocabulary, formatWord, listPatterns, findPattern, suggestPatterns, formatPattern, formatTopic,
-  convertJyutping, checkSpoken, practiceQuestions,
-} from './library.mjs';
+
+// In the repository the shared modules live in ../tools and the data in
+// ../dist; a published package carries copies in ./vendor (see prepack).
+const VENDOR = new URL('./vendor/', import.meta.url);
+const bundled = existsSync(VENDOR);
+const shared = bundled ? VENDOR : new URL('../tools/', import.meta.url);
+const { LEVELS, findPattern, formatPattern, formatTopic } = await import(new URL('library.mjs', shared));
+const { TOOLS } = await import(new URL('tool-definitions.mjs', shared));
+
+export function loadLibrary(path = bundled ? new URL('cantonlink-community.json', VENDOR) : new URL('../dist/cantonlink-community.json', import.meta.url)) {
+  return JSON.parse(readFileSync(path, 'utf8'));
+}
 
 const text = (value) => ({ content: [{ type: 'text', text: value }] });
 const error = (value) => ({ ...text(value), isError: true });
-const READ_ONLY = { readOnlyHint: true, openWorldHint: false };
 
 export function createServer(data = loadLibrary()) {
   const server = new McpServer(
@@ -25,75 +33,19 @@ export function createServer(data = loadLibrary()) {
   );
 
   // --- Tools ----------------------------------------------------------------
+  // Defined once in tools/tool-definitions.mjs and shared with the website.
 
-  server.registerTool('search_vocabulary', {
-    title: 'Search vocabulary',
-    description: 'Find Cantonese words in the library by English meaning, Jyutping (tone numbers optional), Yale or Chinese characters. Returns characters, Jyutping, Yale, Bopomofo, meaning, classifier and usage notes.',
-    inputSchema: {
-      query: z.string().min(1).max(100).describe('English word, Jyutping, Yale or characters, e.g. "thank you", "m4 goi1", "唔該"'),
-      limit: z.number().int().min(1).max(50).default(10).describe('Maximum number of results'),
-    },
-    annotations: READ_ONLY,
-  }, async ({ query, limit }) => {
-    const results = searchVocabulary(data, query, limit);
-    if (!results.length) return text(`No words in the library match "${query}". The library has ${data.vocabulary.reduce((n, t) => n + t.words.length, 0)} everyday words; it is not a full dictionary.`);
-    return text(results.map(formatWord).join('\n\n'));
-  });
-
-  server.registerTool('list_grammar_patterns', {
-    title: 'List grammar patterns',
-    description: 'List the grammar patterns in the library, optionally for one level (A1, A2 or B1). Use get_grammar_pattern with an id for details.',
-    inputSchema: { level: z.enum(LEVELS).optional().describe('Only patterns at this level') },
-    annotations: READ_ONLY,
-  }, async ({ level }) => text(listPatterns(data, level).map((p) => `${p.id} [${p.level}] ${p.pattern} — ${p.meaning}`).join('\n')));
-
-  server.registerTool('get_grammar_pattern', {
-    title: 'Get a grammar pattern',
-    description: 'Get one grammar pattern: explanation, written-Chinese equivalent, example sentences in characters, Jyutping, Yale and English, and common mistakes.',
-    inputSchema: { id: z.string().min(1).max(60).describe('Pattern id from list_grammar_patterns, e.g. "zo2-completed"') },
-    annotations: READ_ONLY,
-  }, async ({ id }) => {
-    const pattern = findPattern(data, id);
-    if (pattern) return text(formatPattern(pattern));
-    const suggestions = suggestPatterns(data, id);
-    return error(`No pattern with id "${id}".${suggestions.length ? ` Did you mean: ${suggestions.map((p) => p.id).join(', ')}?` : ' Use list_grammar_patterns to see all ids.'}`);
-  });
-
-  server.registerTool('romanise_jyutping', {
-    title: 'Convert Jyutping',
-    description: 'Convert Jyutping (with tone numbers 1–6) to Yale and Cantonese Bopomofo, and validate every syllable.',
-    inputSchema: { jyutping: z.string().min(1).max(500).describe('Space-separated Jyutping syllables, e.g. "nei5 hou2"') },
-    annotations: { ...READ_ONLY, idempotentHint: true },
-  }, async ({ jyutping }) => {
-    const result = convertJyutping(jyutping);
-    if (result.invalid) return error(`Not valid Jyutping: ${result.invalid.join(', ') || '(empty)'}. Each syllable needs a tone number from 1 to 6, e.g. "nei5".`);
-    return text(`Jyutping: ${result.jyutping}\nYale: ${result.yale}\nBopomofo: ${result.bopomofo}`);
-  });
-
-  server.registerTool('check_spoken_cantonese', {
-    title: 'Check for written Chinese',
-    description: 'Check Chinese text meant to be spoken Cantonese for common Standard Written Chinese forms (他, 是, 的, 不, 了, 在…) and suggest the spoken forms. A heuristic: review its suggestions in context.',
-    inputSchema: { text: z.string().min(1).max(2000).describe('Chinese text to check') },
-    annotations: { ...READ_ONLY, idempotentHint: true },
-  }, async ({ text: input }) => {
-    const findings = checkSpoken(input);
-    if (!findings.length) return text('No common written-Chinese forms found.');
-    return text([`Found ${findings.length} written form${findings.length === 1 ? '' : 's'}:`, ...findings.map((f) => `- "${f.written}" in "…${f.context}…" → spoken: ${f.spoken}`)].join('\n'));
-  });
-
-  server.registerTool('get_practice_questions', {
-    title: 'Get practice questions',
-    description: 'Get practice questions with answers, to quiz a learner. Ask the questions first and only reveal the answers after the learner replies.',
-    inputSchema: {
-      type: z.enum(['fill_the_gap', 'build_the_sentence', 'spoken_or_written']).describe('Kind of exercise'),
-      level: z.enum(LEVELS).optional().describe('Level, for fill_the_gap and build_the_sentence'),
-      count: z.number().int().min(1).max(10).default(5).describe('Number of questions'),
-    },
-    annotations: READ_ONLY,
-  }, async ({ type, level, count }) => {
-    const items = practiceQuestions(data, type, { level, count });
-    return text(['QUESTIONS', ...items.map((i) => i.question), '', 'ANSWERS (reveal only after the learner answers)', ...items.map((i) => i.answer)].join('\n'));
-  });
+  for (const tool of TOOLS) {
+    server.registerTool(tool.name, {
+      title: tool.title,
+      description: tool.description,
+      inputSchema: z.fromJSONSchema(tool.inputSchema),
+      annotations: tool.annotations,
+    }, async (args) => {
+      const result = tool.run(data, args);
+      return result.isError ? error(result.text) : text(result.text);
+    });
+  }
 
   // --- Resources ------------------------------------------------------------
 

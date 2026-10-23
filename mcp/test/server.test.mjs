@@ -4,7 +4,7 @@ import { spawn } from 'node:child_process';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
 import { createServer } from '../server.mjs';
-import { checkSpoken } from '../library.mjs';
+import { checkSpoken } from '../../tools/library.mjs';
 
 let client;
 

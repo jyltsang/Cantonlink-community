@@ -13,7 +13,12 @@ const OUT = join(ROOT, '_site');
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 cpSync(join(ROOT, 'site'), OUT, { recursive: true });
-cpSync(join(ROOT, 'tools', 'romanise.mjs'), join(OUT, 'romanise.js'));
+// Shared modules are served as .js (the type every static host knows), so
+// their relative imports are rewritten to match.
+for (const name of ['romanise', 'library', 'tool-definitions']) {
+  const source = readFileSync(join(ROOT, 'tools', `${name}.mjs`), 'utf8').replace(/from '\.\/([\w-]+)\.mjs'/g, "from './$1.js'");
+  writeFileSync(join(OUT, `${name}.js`), source);
+}
 cpSync(join(ROOT, 'dist', 'cantonlink-community.json'), join(OUT, 'data.json'));
 
 const hash = createHash('sha256');

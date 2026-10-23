@@ -143,14 +143,31 @@ You can also **attach a resource**, such as `cantonlink://vocabulary/food-and-di
 
 ## 6. How the server works
 
-The server is two files, kept apart on purpose:
+The server is built from three files, kept apart on purpose:
 
 | File | Role |
 |---|---|
-| [`mcp/library.mjs`](../mcp/library.mjs) | Ordinary functions: search, formatting, romanisation, the written-Chinese check, practice questions. No MCP code at all. |
-| [`mcp/server.mjs`](../mcp/server.mjs) | The MCP layer: declares the tools, resources and prompts, and connects the transport. |
+| [`tools/library.mjs`](../tools/library.mjs) | Ordinary functions: search, formatting, romanisation, the written-Chinese check, practice questions. No MCP code at all, and no Node-only APIs. |
+| [`tools/tool-definitions.mjs`](../tools/tool-definitions.mjs) | The six tools, defined once in plain JSON Schema with a `run` function each. |
+| [`mcp/server.mjs`](../mcp/server.mjs) | The MCP layer: registers those tools, adds resources and prompts, and connects the transport. |
 
-Keeping the logic in plain functions makes it easy to test and reuse, and leaves the MCP layer thin and readable.
+Keeping the logic in plain functions makes it easy to test and reuse. It is reused: the learning site's AI tutor offers the **same tool definitions** to whichever AI model the learner connects with their own API key. One definition serves two very different hosts, and the MCP layer stays thin and readable.
+
+The MCP SDK expects [zod](https://zod.dev) schemas, so the server converts each shared JSON Schema with `z.fromJSONSchema`:
+
+```js
+for (const tool of TOOLS) {
+  server.registerTool(tool.name, {
+    title: tool.title,
+    description: tool.description,
+    inputSchema: z.fromJSONSchema(tool.inputSchema),
+    annotations: tool.annotations,
+  }, async (args) => {
+    const result = tool.run(data, args);
+    return { content: [{ type: 'text', text: result.text }], isError: result.isError };
+  });
+}
+```
 
 ### Creating the server
 
@@ -165,7 +182,9 @@ const server = new McpServer(
 
 `instructions` is a short note the host may give the model, explaining when to use this server.
 
-### A tool
+### A tool, written out in full
+
+This is what the loop above produces for one tool, written by hand:
 
 ```js
 server.registerTool('romanise_jyutping', {
