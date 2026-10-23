@@ -1,3 +1,5 @@
+import { schedule, migrate, dueKeys, endOfDay, nextDue } from './srs.js';
+
 export const REPO = 'https://github.com/jyltsang/Cantonlink-community';
 export const SYSTEM_LANG = { jyutping: 'yue-Latn', yale: 'yue-Latn', bopomofo: 'yue-Bopo' };
 export const SYSTEM_NAME = { jyutping: 'Jyutping', yale: 'Yale', bopomofo: 'Bopomofo' };
@@ -23,31 +25,55 @@ function write(key, value) {
 export const settings = { system: 'jyutping', showCjk: true, ...read('cantonlink-settings', {}) };
 export const saveSettings = () => write('cantonlink-settings', settings);
 
-// Missed items are kept so learners can review them later. Keys look like
-// "fill:hai6-copula:0", "build:…", "tone:飲:0" or "card:food-and-dim-sum:飲".
-const progress = { mistakes: {}, phrases: {}, answered: 0, correct: 0, ...read('cantonlink-progress', {}) };
+// Missed items go into a spaced-repetition schedule (see srs.js). Keys look
+// like "fill:hai6-copula:0", "build:…", "tone:飲:0" or "card:food-and-dim-sum:飲".
+const EMPTY = () => ({ review: {}, phrases: {}, answered: 0, correct: 0 });
+function loadProgress(saved) {
+  const { mistakes, review, ...rest } = saved ?? {};
+  return { ...EMPTY(), ...rest, review: migrate({ ...mistakes, ...review }) };
+}
+const progress = loadProgress(read('cantonlink-progress', {}));
 const saveProgress = () => write('cantonlink-progress', progress);
+const changed = () => {
+  saveProgress();
+  document.dispatchEvent(new CustomEvent('progresschange'));
+};
 
 export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
   progress.answered++;
   if (isCorrect) progress.correct++;
-  if (!isCorrect) progress.mistakes[key] = Date.now();
-  else if (reviewing) delete progress.mistakes[key];
-  saveProgress();
-  document.dispatchEvent(new CustomEvent('progresschange'));
+  if (!isCorrect || reviewing) {
+    const next = schedule(progress.review[key], isCorrect);
+    if (next) progress.review[key] = next;
+    else delete progress.review[key];
+  }
+  changed();
 }
-export const mistakeKeys = () => Object.keys(progress.mistakes);
+export const reviewKeys = () => dueKeys(progress.review);
+export const reviewBox = (key) => progress.review[key]?.box;
 
 // Phrases saved from verified AI tutor replies, reviewed like flashcards.
 export function savePhrase(sentence) {
   progress.phrases[sentence.cjk] = { cjk: sentence.cjk, jyutping: sentence.jyutping, en: sentence.en, tokens: sentence.tokens };
-  progress.mistakes[`phrase:${sentence.cjk}`] = Date.now();
-  saveProgress();
-  document.dispatchEvent(new CustomEvent('progresschange'));
+  progress.review[`phrase:${sentence.cjk}`] = schedule(undefined, false);
+  changed();
 }
 export const isPhraseSaved = (cjk) => Boolean(progress.phrases[cjk]);
 export const savedPhrase = (cjk) => progress.phrases[cjk];
-export const stats = () => ({ answered: progress.answered, correct: progress.correct, toReview: mistakeKeys().length });
+export const stats = () => ({
+  answered: progress.answered,
+  correct: progress.correct,
+  toReview: reviewKeys().length,
+  dueToday: dueKeys(progress.review, endOfDay()).length,
+  scheduled: Object.keys(progress.review).length,
+  nextDue: nextDue(progress.review),
+});
+
+export function whenDue(time) {
+  const date = new Date(time);
+  if (time <= endOfDay()) return `today at ${date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}`;
+  return `on ${date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })}`;
+}
 
 export function exportProgress() {
   return JSON.stringify({ app: 'cantonlink-community', version: 1, exported: new Date().toISOString(), settings, progress }, null, 2);
@@ -55,16 +81,14 @@ export function exportProgress() {
 export function importProgress(text) {
   const data = JSON.parse(text);
   if (data?.app !== 'cantonlink-community' || typeof data.progress !== 'object') throw new Error('This file is not a CantonLink progress file.');
-  Object.assign(progress, { mistakes: {}, phrases: {}, answered: 0, correct: 0 }, data.progress);
+  Object.assign(progress, loadProgress(data.progress));
   Object.assign(settings, data.settings ?? {});
-  saveProgress();
   saveSettings();
-  document.dispatchEvent(new CustomEvent('progresschange'));
+  changed();
 }
 export function resetProgress() {
-  Object.assign(progress, { mistakes: {}, phrases: {}, answered: 0, correct: 0 });
-  saveProgress();
-  document.dispatchEvent(new CustomEvent('progresschange'));
+  Object.assign(progress, EMPTY());
+  changed();
 }
 
 // --- DOM helpers ----------------------------------------------------------

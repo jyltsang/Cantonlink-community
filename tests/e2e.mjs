@@ -34,8 +34,14 @@ after(async () => {
   mockAi?.close();
 });
 
-async function open(path = '', { viewport = { width: 390, height: 844 }, colorScheme = 'light' } = {}) {
+async function open(path = '', { viewport = { width: 390, height: 844 }, colorScheme = 'light', storage } = {}) {
   const context = await browser.newContext({ viewport, colorScheme });
+  // Seeds localStorage once, before the first page load.
+  if (storage) await context.addInitScript((items) => {
+    if (sessionStorage.getItem('seeded')) return;
+    sessionStorage.setItem('seeded', '1');
+    for (const [key, value] of Object.entries(items)) localStorage.setItem(key, JSON.stringify(value));
+  }, storage);
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -154,8 +160,47 @@ test('missed questions are saved, reviewed and cleared', async () => {
   assert.equal(await page.locator('.score .big').textContent(), '1 / 1');
   await page.locator('.site-nav a', { hasText: 'Review' }).click();
   await page.waitForSelector('main h1');
-  assert.match(await page.locator('main').innerText(), /Nothing to review/);
+  assert.match(await page.locator('main').innerText(), /Nothing due right now\. 1 item is scheduled; the next is due on \w+day/);
   assert.doesNotMatch(await page.locator('main').innerText(), /\bnull\b|undefined/);
+  assert.equal(await page.locator('#review-count').textContent(), '');
+  const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('cantonlink-progress')).review);
+  const [entry] = Object.values(saved);
+  assert.equal(entry.box, 2);
+  assert.ok(Math.abs(entry.due - Date.now() - 86400000) < 60000, 'next review is a day later');
+  await context.close();
+});
+
+test('review follows the spaced schedule and reads older saves', async () => {
+  const DAY = 86400000;
+  const now = Date.now();
+  const { page, context, errors } = await open('#/', {
+    storage: {
+      'cantonlink-progress': {
+        answered: 3, correct: 0,
+        mistakes: { 'card:greetings:你好': now - DAY },
+        review: {
+          'card:greetings:早晨': { box: 5, due: now - 1000 },
+          'card:greetings:多謝': { box: 3, due: now + 3 * DAY },
+        },
+      },
+    },
+  });
+  assert.equal(await page.locator('#review-count').textContent(), ' (2)');
+  assert.match(await page.locator('.due-line').innerText(), /2 items due now\. 3 in your review schedule\./);
+
+  await page.goto(`${BASE}#/review`);
+  for (let i = 0; i < 2; i++) {
+    await page.locator('.card').waitFor();
+    await page.getByRole('button', { name: 'Show meaning' }).click();
+    await page.getByRole('button', { name: 'I knew it' }).click();
+    await page.locator('.next').click();
+  }
+  assert.equal(await page.locator('.score .big').textContent(), '2 / 2');
+  const review = await page.evaluate(() => JSON.parse(localStorage.getItem('cantonlink-progress')).review);
+  assert.deepEqual(Object.keys(review).sort(), ['card:greetings:你好', 'card:greetings:多謝'], 'a box-5 item is learnt and leaves');
+  assert.equal(review['card:greetings:你好'].box, 2);
+  assert.equal(await page.locator('#review-count').textContent(), '');
+  assert.deepEqual(errors, []);
   await context.close();
 });
 

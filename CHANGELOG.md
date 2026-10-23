@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+### Spaced repetition
+- Review now follows a five-box Leitner schedule: a missed item is due at once, and each correct review waits longer (1, 3, 7, then 14 days) until the item is learnt. A miss starts it again.
+- The home page shows how many items are due now and when the next review is; the navigation count shows only items that are due.
+- Progress saved by earlier versions is carried over.
+
 ### AI tutor (bring your own key)
 - AI settings page for Claude, OpenAI, Gemini or any OpenAI-compatible server (Ollama, LM Studio, OpenRouter…), with the key kept in memory unless "remember" is ticked.
 - Chat screen with Friend and Sifu modes, level and scenario, library look-ups shown as they happen, and "Check my sentence".

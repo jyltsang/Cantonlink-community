@@ -1,7 +1,7 @@
 import { parseSyllable, toYale, toBopomofo, romanise } from './romanise.js';
 import {
   SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, pageHead, chips,
-  reportLine, recordAnswer, mistakeKeys, savedPhrase,
+  reportLine, recordAnswer, reviewKeys, savedPhrase, stats, whenDue,
 } from './lib.js';
 import { aiReady } from './ai-settings.js';
 
@@ -345,11 +345,17 @@ export function review(data) {
   };
   return runSession(data, {
     title: 'Review',
-    lede: 'Questions you missed earlier. Answer one correctly and it leaves the list.',
+    lede: 'Questions you missed, brought back on a spaced schedule. Each correct answer waits longer before the next review: 1, 3, 7, then 14 days, after which the item is learnt. A miss starts it again.',
     reviewing: true,
-    emptyText: 'Nothing to review. Questions you miss in any exercise will appear here.',
-    makeItems: () => shuffle(mistakeKeys().map(resolve).filter(Boolean)).slice(0, 20),
+    emptyText: reviewEmptyText(),
+    makeItems: () => shuffle(reviewKeys().map(resolve).filter(Boolean)).slice(0, 20),
   });
+}
+
+function reviewEmptyText() {
+  const { scheduled, nextDue } = stats();
+  if (!scheduled) return 'Nothing to review. Questions you miss in any exercise will appear here.';
+  return `Nothing due right now. ${scheduled} item${scheduled === 1 ? ' is' : 's are'} scheduled; the next is due ${whenDue(nextDue)}.`;
 }
 
 // --- Flashcards -----------------------------------------------------------

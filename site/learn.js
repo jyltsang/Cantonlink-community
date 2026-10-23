@@ -1,12 +1,12 @@
 import { parseSyllable, romanise } from './romanise.js';
 import {
   REPO, LEVELS, SYSTEM_NAME, settings, h, show, rom, han, sentenceEl, sentenceText, pageHead, chips, tag, draftTag, reportLine,
-  fold, stats, exportProgress, importProgress, resetProgress,
+  fold, stats, whenDue, exportProgress, importProgress, resetProgress,
 } from './lib.js';
 import { aiTaskSection, translateTask, explainTask } from './tutor.js';
 
 export function home(data, rerender) {
-  const { toReview, answered, correct } = stats();
+  const { toReview, answered, correct, dueToday, scheduled, nextDue } = stats();
   const drafts = [...data.grammar, ...data.vocabulary].filter((x) => x.review.status !== 'reviewed').length;
   const wordCount = data.vocabulary.reduce((n, t) => n + t.words.length, 0);
   const card = (href, cjk, title, text) => h('a', { class: 'mode-card', href }, h('span', { class: 'mode-cjk', lang: 'yue-Hant-HK' }, cjk), h('h3', {}, title), h('p', {}, text));
@@ -59,8 +59,11 @@ export function home(data, rerender) {
     h('section', { class: 'panel progress-panel', 'aria-labelledby': 'progress-heading' },
       h('h2', { id: 'progress-heading' }, 'Your progress'),
       h('p', {}, answered
-        ? `You have answered ${answered} questions, ${Math.round((correct / answered) * 100)}% correctly. ${toReview ? `${toReview} item${toReview === 1 ? '' : 's'} to review.` : 'Nothing to review.'}`
+        ? `You have answered ${answered} questions, ${Math.round((correct / answered) * 100)}% correctly.`
         : 'Your answers are saved in this browser only. Questions you miss are kept here for review.'),
+      scheduled ? h('p', { class: 'due-line' }, toReview
+        ? `${toReview} item${toReview === 1 ? '' : 's'} due now${dueToday > toReview ? `, ${dueToday - toReview} more later today` : ''}. ${scheduled} in your review schedule.`
+        : `Nothing due now. Next review ${whenDue(nextDue)}; ${scheduled} item${scheduled === 1 ? '' : 's'} in your review schedule.`) : null,
       h('div', { class: 'actions' },
         toReview ? h('a', { class: 'btn btn-primary', href: '#/review' }, `Review ${toReview} item${toReview === 1 ? '' : 's'}`) : null,
         h('button', { class: 'btn', type: 'button', onclick: download }, 'Export progress'),
