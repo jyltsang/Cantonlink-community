@@ -35,6 +35,10 @@ Levels follow the CEFR-style labels used across CantonLink. Cantonese has no off
 
 **60 patterns** in all: A1 24, A2 20, B1 16. That matches the spec's launch target.
 
+### Learning path
+
+[`content/path.json`](../content/path.json) puts everything above into 12 units in teaching order (5 at A1, 4 at A2, 3 at B1). Each unit pairs four to six patterns with one vocabulary topic and an AI tutor scenario, so learners meet the grammar in a situation where they need it: ordering food (想, 要, 啦, 定係, 乜嘢) or seeing a doctor (應該, 唔使, 會, 因為…所以). The build checks that every pattern and topic is taught exactly once and that units never go down in level. The readable version is [library/path.md](../library/path.md).
+
 ### Vocabulary
 
 There are 12 everyday topics with 30 words each, **360 words** in total: greetings, numbers and time, food and dim sum, shopping, transport, directions, family and people, home and routine, health, work, weather, and feelings.

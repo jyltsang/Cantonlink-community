@@ -4,6 +4,7 @@ import {
   fold, stats, whenDue, exportProgress, importProgress, resetProgress,
 } from './lib.js';
 import { aiTaskSection, translateTask, explainTask } from './tutor.js';
+import { continueCard } from './path.js';
 
 export function home(data, rerender) {
   const { toReview, answered, correct, dueToday, scheduled, nextDue } = stats();
@@ -38,6 +39,8 @@ export function home(data, rerender) {
       `${drafts} of ${data.grammar.length + data.vocabulary.length} grammar patterns and word lists are awaiting review by native speakers. `,
       h('a', { href: `${REPO}/blob/main/library/review-status.md` }, 'Review status'), ' · ',
       h('a', { href: `${REPO}/issues/new?template=reviewer.yml` }, 'Help review')) : null,
+
+    continueCard(data),
 
     h('section', { 'aria-labelledby': 'learn-heading' },
       h('h2', { id: 'learn-heading' }, 'Learn'),

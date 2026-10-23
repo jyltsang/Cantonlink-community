@@ -6,6 +6,7 @@ import {
 import { aiReady } from './ai-settings.js';
 
 const SESSION_LENGTH = 10;
+export const itemKey = (item) => KINDS[item.kind].key(item.q);
 const patternLink = (data, id) => {
   const p = data.grammar.find((x) => x.id === id);
   return h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${p.id}`, lang: 'yue-Hant-HK' }, p.pattern), ` — ${p.meaning}`);
@@ -155,7 +156,7 @@ const KINDS = {
 
 // --- Session runner -------------------------------------------------------
 
-function runSession(data, { title, lede, back, filters, makeItems, reviewing = false, emptyText }) {
+export function runSession(data, { title, lede, back, filters, makeItems, reviewing = false, emptyText, exit = ['#/', 'Home'] }) {
   let items;
   let index;
   let correct;
@@ -203,7 +204,7 @@ function runSession(data, { title, lede, back, filters, makeItems, reviewing = f
         h('div', { class: 'actions center' },
           missed.length ? h('button', { class: 'btn btn-primary', type: 'button', onclick: () => start(shuffle(missed)) }, `Retry the ${missed.length} I missed`) : null,
           h('button', { class: missed.length ? 'btn' : 'btn btn-primary', type: 'button', onclick: () => start() }, reviewing ? 'Review again' : 'New session'),
-          h('a', { class: 'btn', href: '#/' }, 'Home'))));
+          h('a', { class: 'btn', href: exit[0] }, exit[1]))));
       app.querySelector('.score .btn')?.focus();
       return;
     }

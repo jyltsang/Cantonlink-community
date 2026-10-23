@@ -4,7 +4,7 @@
 
 import { TOOLS, runTool } from './tool-definitions.mjs';
 import { verify, badgeFor, SCHEMAS } from './ai-checks.mjs';
-import { listPatterns } from './library.mjs';
+import { listPatterns, findPattern } from './library.mjs';
 
 export const SCENARIOS = {
   free: 'free conversation about everyday life',
@@ -28,11 +28,15 @@ const JSON_RULES = `Always answer with one JSON object and nothing else, in this
 - "patterns": ids of library grammar patterns your reply uses (from list_grammar_patterns). Never invent ids.
 - "note": optional short English tip, or "".`;
 
-export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free' }) {
+export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free', focus = [] }) {
   const patterns = listPatterns(data, level).map((p) => `${p.id}: ${p.pattern} (${p.meaning})`).join('\n');
   const style = mode === 'sifu'
     ? 'You are a patient Cantonese teacher (師傅, Sifu). Correct every mistake the learner makes, gently, and name the grammar pattern involved.'
     : 'You are a friendly Hong Kong local chatting with a learner. Keep the conversation flowing; only correct mistakes that would confuse a listener.';
+  const focusPatterns = focus.map((id) => findPattern(data, id)).filter(Boolean);
+  const focusNote = focusPatterns.length
+    ? `\nThis lesson practises: ${focusPatterns.map((p) => `${p.id}: ${p.pattern} (${p.meaning})`).join('; ')}. Use these patterns naturally and steer the conversation so the learner needs them.\n`
+    : '';
   return `${style}
 
 Speak natural spoken Hong Kong Cantonese, never Standard Written Chinese: say 佢 not 他, 係 not 是, 嘅 not 的, 唔 not 不, 咗 not 了, 喺 not 在.
@@ -42,7 +46,7 @@ Use the tools to look up words and grammar in the learner's reviewed library rat
 
 Grammar patterns at this level:
 ${patterns}
-
+${focusNote}
 ${JSON_RULES}`;
 }
 

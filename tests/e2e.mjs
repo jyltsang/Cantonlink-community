@@ -58,6 +58,7 @@ test('home page renders on phone and desktop, in light and dark mode', async () 
     const { page, context, errors } = await open('', { viewport, colorScheme });
     assert.equal(await page.locator('h1').textContent(), '學廣東話 · Learn Cantonese');
     assert.equal(await page.locator('.mode-card').count(), 9);
+    assert.equal(await page.locator('.continue').count(), 1);
     assert.ok(await noOverflow(page), 'page scrolls sideways');
     assert.doesNotMatch(await page.locator('body').innerText(), EMOJI);
     assert.deepEqual(errors, []);
@@ -67,7 +68,7 @@ test('home page renders on phone and desktop, in light and dark mode', async () 
 
 test('every page renders without errors or sideways scrolling', async () => {
   const paths = ['#/ai', '#/tutor', '#/grammar', `#/grammar/${data.grammar.at(-1).id}`, '#/vocabulary', `#/vocabulary/${data.vocabulary[0].id}`, '#/lookup',
-    '#/flashcards', '#/fill-the-gap', '#/build', '#/tones', '#/spoken-or-written', '#/review', '#/nowhere'];
+    '#/flashcards', '#/fill-the-gap', '#/build', '#/tones', '#/spoken-or-written', '#/review', '#/path', '#/path/u12', '#/path/u03/practise', '#/path/u99', '#/nowhere'];
   const { page, context, errors } = await open();
   for (const path of paths) {
     await page.goto(BASE + path);
@@ -256,6 +257,53 @@ test('works offline after the first visit', async () => {
 });
 
 
+// --- Learning path ---------------------------------------------------------
+
+function unitKeys(unitId) {
+  const unit = data.path.find((u) => u.id === unitId);
+  const has = (q) => unit.patterns.includes(q.patternId);
+  return [
+    ...data.practice.fillGap.filter(has).map((q) => `fill:${q.id}`),
+    ...data.practice.buildSentence.filter(has).map((q) => `build:${q.id}`),
+    ...data.vocabulary.filter((t) => unit.topics.includes(t.id)).flatMap((t) => t.words.map((w) => `card:${t.id}:${w.cjk}`)),
+  ];
+}
+
+test('learning path: home card, units, progress and unit practice', async () => {
+  const { page, context, errors } = await open('#/');
+  assert.match(await page.locator('.continue').innerText(), /Start · Unit 1 of 12 · A1[\s\S]*Meeting people/);
+  await page.getByRole('link', { name: 'Start the unit' }).click();
+  await page.waitForSelector('main h1');
+  assert.equal(await page.locator('main h1').textContent(), 'Unit 1: Meeting people');
+  assert.equal(await page.locator('main .link-list').first().locator('li').count(), 5);
+
+  await page.getByRole('link', { name: 'Practise this unit' }).click();
+  await page.locator('main h1', { hasText: 'Practise: Meeting people' }).waitFor();
+  assert.match(await page.locator('.progress').first().innerText(), /1 of 12/);
+
+  await page.goto(`${BASE}#/path`);
+  await page.waitForSelector('.path-unit');
+  assert.equal(await page.locator('.path-unit').count(), 12);
+  assert.equal(await page.locator('.path-unit.current h3').innerText().then((t) => t.startsWith('Meeting people')), true);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('learning path: a unit completes at 80% and the next one is up', async () => {
+  const keys = unitKeys('u01');
+  const done = Object.fromEntries(keys.slice(0, Math.ceil(keys.length * 0.8)).map((k) => [k, 1]));
+  const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { answered: 50, correct: 50, done } } });
+  assert.match(await page.locator('.continue').innerText(), /Start · Unit 2 of 12[\s\S]*Numbers and prices/);
+  await page.goto(`${BASE}#/path`);
+  await page.waitForSelector('.path-unit');
+  const first = page.locator('.path-unit').first();
+  assert.match(await first.innerText(), /Complete/);
+  assert.equal(await first.locator('[role=progressbar]').getAttribute('aria-valuenow'), String(Math.round((Object.keys(done).length / keys.length) * 100)));
+  assert.match(await page.locator('.path-unit.current').innerText(), /Numbers and prices/);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
 // --- AI tutor (against the local mock provider) ----------------------------
 
 async function connectMock(page, { remember = false } = {}) {
@@ -288,6 +336,21 @@ test('AI settings: connection test lists models; the key is forgotten on reload 
   await page.reload();
   await page.waitForSelector('#ai-key');
   assert.equal(await page.inputValue('#ai-key'), '');
+  await context.close();
+});
+
+test('AI tutor: a unit sets the level, scenario and focus patterns', async () => {
+  const { page, context, errors } = await open('#/ai');
+  await connectMock(page);
+  await page.goto(`${BASE}#/path/u03`);
+  await page.getByRole('link', { name: 'Practise with the AI tutor' }).click();
+  await lastTutor(page).waitFor();
+  assert.match(await page.locator('.unit-focus').innerText(), /Practising unit: Eating out/);
+  assert.equal(await page.getByLabel('Scenario').inputValue(), 'restaurant');
+  const system = mockAi.requests.filter((r) => r.path === '/v1/chat/completions').at(-1).body.messages[0].content;
+  assert.match(system, /This lesson practises: soeng2-want/);
+  assert.match(system, /cha chaan teng/);
+  assert.deepEqual(errors, []);
   await context.close();
 });
 

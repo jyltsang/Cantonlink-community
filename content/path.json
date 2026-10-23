@@ -1,0 +1,136 @@
+{
+  "units": [
+    {
+      "id": "u01",
+      "level": "A1",
+      "title": "Meeting people",
+      "titleCjk": "打招呼",
+      "titleJyutping": "daa2 ziu1 fu1",
+      "scenario": "friends",
+      "goal": "Greet people, say who you are, and ask simple yes-or-no questions.",
+      "patterns": ["hai6-copula", "m4-negation", "maa3-question", "aa3-softener", "ge3-possessive"],
+      "topics": ["greetings"]
+    },
+    {
+      "id": "u02",
+      "level": "A1",
+      "title": "Numbers and prices",
+      "titleCjk": "數字同價錢",
+      "titleJyutping": "sou3 zi6 tung4 gaa3 cin4",
+      "scenario": "shopping",
+      "goal": "Count things, point at them, and ask what they cost and whether there are any.",
+      "patterns": ["number-classifier", "ni1-go2-demonstratives", "gei2-do1-cin2", "jau5-mou5", "jau5-mou5-question"],
+      "topics": ["numbers-money-time"]
+    },
+    {
+      "id": "u03",
+      "level": "A1",
+      "title": "Eating out",
+      "titleCjk": "飲茶",
+      "titleJyutping": "jam2 caa4",
+      "scenario": "restaurant",
+      "goal": "Order food and drink, say what you want, and choose between options.",
+      "patterns": ["soeng2-want", "jiu3-want-need", "laa1-suggestion", "ding6-hai6-or", "mat1-je5-what"],
+      "topics": ["food-and-dim-sum"]
+    },
+    {
+      "id": "u04",
+      "level": "A1",
+      "title": "Family and friends",
+      "titleCjk": "屋企人",
+      "titleJyutping": "uk1 kei2 jan4",
+      "scenario": "friends",
+      "goal": "Talk about the people in your life and describe them.",
+      "patterns": ["tung4-and-with", "hou2-very", "a-not-a-question", "bin1-where-who"],
+      "topics": ["family-and-people"]
+    },
+    {
+      "id": "u05",
+      "level": "A1",
+      "title": "Getting around",
+      "titleCjk": "搭車",
+      "titleJyutping": "daap3 ce1",
+      "scenario": "transport",
+      "goal": "Say where you are, when you are going, and what you have done or are doing.",
+      "patterns": ["hai2-location", "gei2-si4-when", "zo2-completed", "gan2-progressive", "m4-hou2-dont"],
+      "topics": ["transport"]
+    },
+    {
+      "id": "u06",
+      "level": "A2",
+      "title": "Shopping",
+      "titleCjk": "買嘢",
+      "titleJyutping": "maai5 je5",
+      "scenario": "shopping",
+      "goal": "Compare things, say something is too dear, and ask if you may try or pay.",
+      "patterns": ["taai3-too", "gwo3-comparison", "ho2-ji5-may", "classifier-possessive", "bei2-give"],
+      "topics": ["shopping"]
+    },
+    {
+      "id": "u07",
+      "level": "A2",
+      "title": "Asking the way",
+      "titleCjk": "問路",
+      "titleJyutping": "man6 lou6",
+      "scenario": "directions",
+      "goal": "Ask how to get somewhere and why, and say what you know how to do.",
+      "patterns": ["dim2-how", "dim2-gaai2-why", "haa5-briefly", "sik1-know-how"],
+      "topics": ["directions"]
+    },
+    {
+      "id": "u08",
+      "level": "A2",
+      "title": "Daily life",
+      "titleCjk": "日常生活",
+      "titleJyutping": "jat6 soeng4 sang1 wut6",
+      "scenario": "free",
+      "goal": "Describe your day: what you have finished, what you have not done yet, and what you have ever done.",
+      "patterns": ["mei6-yet", "jyun4-finish", "ji5-ging1-already", "laa3-change", "gwo3-experience"],
+      "topics": ["home-and-routine"]
+    },
+    {
+      "id": "u09",
+      "level": "A2",
+      "title": "Seeing a doctor",
+      "titleCjk": "睇醫生",
+      "titleJyutping": "tai2 ji1 sang1",
+      "scenario": "doctor",
+      "goal": "Describe how you feel, give reasons, and understand advice.",
+      "patterns": ["jing1-goi1-should", "m4-sai2-no-need", "wui5-will", "jan1-wai6-because", "dou1-also", "me1-surprise"],
+      "topics": ["health"]
+    },
+    {
+      "id": "u10",
+      "level": "B1",
+      "title": "At work",
+      "titleCjk": "返工",
+      "titleJyutping": "faan1 gung1",
+      "scenario": "work",
+      "goal": "Talk about tasks and results, how well things went, and what to do first.",
+      "patterns": ["dou2-result", "dak1-degree", "saai3-all", "faan1-back", "sin1-zoi3-first-then", "jat1-zau6-as-soon-as"],
+      "topics": ["work"]
+    },
+    {
+      "id": "u11",
+      "level": "B1",
+      "title": "Weather and plans",
+      "titleCjk": "天氣同計劃",
+      "titleJyutping": "tin1 hei3 tung4 gai3 waak6",
+      "scenario": "free",
+      "goal": "Make plans that depend on the weather, and talk about changes and impressions.",
+      "patterns": ["jyu4-gwo2-if", "seoi1-jin4-although", "jyut6-lai4-jyut6", "hou2-ci5-seem", "directional"],
+      "topics": ["weather"]
+    },
+    {
+      "id": "u12",
+      "level": "B1",
+      "title": "Telling stories",
+      "titleCjk": "講故事",
+      "titleJyutping": "gong2 gu3 si6",
+      "scenario": "friends",
+      "goal": "Tell what happened and how you felt, react to news, and describe people and things in detail.",
+      "patterns": ["bei2-passive", "relative-ge3", "zyu6-continuous", "lo1-obvious", "wo3-noticing"],
+      "topics": ["feelings"]
+    }
+  ]
+}

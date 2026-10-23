@@ -115,7 +115,7 @@ export function needsKeyPanel(what = 'This feature') {
 
 // --- Chat screen ----------------------------------------------------------
 
-const chat = { mode: 'friend', level: 'A1', scenario: 'free', history: [], items: [], busy: false };
+const chat = { mode: 'friend', level: 'A1', scenario: 'free', unit: null, history: [], items: [], busy: false };
 
 function tutorMessage(item, data, onAction) {
   const v = item.value;
@@ -164,6 +164,9 @@ export function tutorView(data, query) {
     return () => tutorView(data, query);
   }
   const prefill = query.get('ask') ?? '';
+  const unit = data.path.find((u) => u.id === query.get('unit'));
+  if (unit && chat.unit !== unit.id) Object.assign(chat, { unit: unit.id, level: unit.level, scenario: unit.scenario, history: [], items: [] });
+  if (!unit && query.get('unit') === null && chat.unit) Object.assign(chat, { unit: null, history: [], items: [] });
   const log = h('div', { class: 'chat-log', 'aria-live': 'off' });
   const input = h('textarea', {
     id: 'chat-input', class: 'chat-input', rows: 2, placeholder: 'Write in characters, Jyutping or English…',
@@ -202,7 +205,7 @@ export function tutorView(data, query) {
     };
     try {
       const result = await checkedAnswer({
-        client: makeClient(), system: tutorSystem({ data, ...chat }), history: chat.history, kind: 'tutor',
+        client: makeClient(), system: tutorSystem({ data, ...chat, focus: data.path.find((u) => u.id === chat.unit)?.patterns ?? [] }), history: chat.history, kind: 'tutor',
         data, lexicon: lexiconFor(data), tools: TOOLS, secondOpinionOn: ai.secondOpinion, onEvent,
       });
       await revealChecks(result.steps, (steps) => { pending.steps = steps; renderLog(); });
@@ -240,6 +243,7 @@ export function tutorView(data, query) {
         h('select', { class: 'chip', 'aria-label': 'Level', onchange: (e) => { chat.level = e.target.value; } }, LEVELS.map((l) => h('option', { value: l, selected: chat.level === l }, `Level ${l}`))),
         h('select', { class: 'chip', 'aria-label': 'Scenario', onchange: (e) => { chat.scenario = e.target.value; } }, Object.entries(SCENARIOS).map(([id, label]) => h('option', { value: id, selected: chat.scenario === id }, label[0].toUpperCase() + label.slice(1)))),
         h('button', { class: 'btn btn-small', type: 'button', disabled: chat.busy, onclick: start }, 'New chat')),
+      unit ? h('p', { class: 'small unit-focus' }, `Practising unit: ${unit.title} (${unit.patterns.length} patterns). `, h('a', { href: '#/tutor' }, 'Free chat instead'), ' · ', h('a', { href: `#/path/${unit.id}` }, 'Back to the unit')) : null,
       h('p', { class: 'small' }, `${PROVIDERS[ai.provider].label} · ${ai.model} · `, h('a', { href: '#/ai' }, 'Change')));
     show(
       ...pageHead('AI tutor', { lede: 'Chat in Cantonese. Each reply is checked against this library: valid Jyutping, one syllable per character, spoken (not written) Chinese, library readings, and real grammar references.' }),

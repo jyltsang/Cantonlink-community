@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Learning path
+- `content/path.json`: 12 units from A1 to B1, each pairing a few grammar patterns with one vocabulary topic around an everyday situation. The build checks that every pattern and topic is taught exactly once, in order of level.
+- A `#/path` page with progress per unit, a page for each unit (grammar, words, practice), a mixed practice session per unit that starts with what you have not practised, and a Continue card on the home page.
+- "Practise with the AI tutor" from any unit sets the level and scenario and asks the tutor to use that unit's patterns.
+- A readable [learning path](library/path.md) in the library.
+
 ### Spaced repetition
 - Review now follows a five-box Leitner schedule: a missed item is due at once, and each correct review waits longer (1, 3, 7, then 14 days) until the item is learnt. A miss starts it again.
 - The home page shows how many items are due now and when the next review is; the navigation count shows only items that are due.

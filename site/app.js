@@ -2,6 +2,7 @@ import { settings, saveSettings, h, show, parseHash, stats } from './lib.js';
 import { home, grammarList, grammarDetail, vocabularyList, vocabularyTopic, lookup, notFound } from './learn.js';
 import { flashcards, fillTheGap, buildTheSentence, tones, spokenOrWritten, review } from './practice.js';
 import { aiSettingsView, tutorView } from './tutor.js';
+import { pathView, unitView, unitPractice } from './path.js';
 
 let data;
 let rerender = () => {};
@@ -9,7 +10,7 @@ let grammarLevel = 'all';
 
 const TITLES = {
   '': 'Learn Cantonese', grammar: 'Grammar', vocabulary: 'Vocabulary', lookup: 'Look up', flashcards: 'Flashcards',
-  'fill-the-gap': 'Fill the gap', build: 'Build the sentence', tones: 'Tones', 'spoken-or-written': 'Spoken or written?', review: 'Review', ai: 'AI settings', tutor: 'AI tutor',
+  'fill-the-gap': 'Fill the gap', build: 'Build the sentence', tones: 'Tones', 'spoken-or-written': 'Spoken or written?', review: 'Review', ai: 'AI settings', tutor: 'AI tutor', path: 'Learning path',
 };
 
 function route() {
@@ -33,6 +34,12 @@ function route() {
     review: () => review(data),
     ai: () => { const r = () => aiSettingsView(data, r); r(); return r; },
     tutor: () => tutorView(data, query),
+    path: () => {
+      if (id && parts[2] === 'practise') return unitPractice(data, id) ?? (notFound(), notFound);
+      const r = () => (id ? unitView(data, id) || notFound() : pathView(data));
+      r();
+      return r;
+    },
   };
   rerender = (views[section] ?? (() => { notFound(); return notFound; }))();
   document.title = `${TITLES[section] ?? 'Not found'} · CantonLink Community`;

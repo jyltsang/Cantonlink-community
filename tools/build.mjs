@@ -18,6 +18,7 @@ const patterns = LEVELS.flatMap((level) => readJson(`content/grammar/${level}.js
 const topics = listJson('content/vocabulary').map((f) => readJson(`content/vocabulary/${f}`)).sort((a, b) => a.order - b.order);
 const spokenOrWritten = readJson('content/practice/spoken-or-written.json');
 const extraLexicon = readJson('content/lexicon.json');
+const path = readJson('content/path.json');
 
 const FUNCTIONS = {
   'being-and-having': 'Being and having',
@@ -124,6 +125,34 @@ for (const p of patterns) {
   });
 }
 
+// The learning path must teach every pattern and topic exactly once, in
+// order of level, using real ids and scenarios.
+{
+  const SCENARIOS = ['free', 'restaurant', 'shopping', 'transport', 'directions', 'doctor', 'work', 'friends'];
+  const taught = new Map();
+  const topicIds = new Set(topics.map((t) => t.id));
+  const byId = new Map(patterns.map((p) => [p.id, p]));
+  const unitIds = new Set();
+  let lastLevel = 0;
+  for (const u of path.units) {
+    const where = `path/${u.id}`;
+    if (unitIds.has(u.id)) fail(where, 'duplicate unit id');
+    unitIds.add(u.id);
+    if (!LEVELS.includes(u.level)) fail(where, `unknown level "${u.level}"`);
+    if (LEVELS.indexOf(u.level) < lastLevel) fail(where, 'units must go up in level');
+    lastLevel = Math.max(lastLevel, LEVELS.indexOf(u.level));
+    if (!SCENARIOS.includes(u.scenario)) fail(where, `unknown tutor scenario "${u.scenario}"`);
+    checkJyutping(`${where} title`, u.titleCjk, u.titleJyutping);
+    for (const id of [...u.patterns, ...u.topics]) {
+      if (!byId.has(id) && !topicIds.has(id)) fail(where, `"${id}" is not a pattern or topic id`);
+      else if (taught.has(id)) fail(where, `"${id}" is already taught in ${taught.get(id)}`);
+      taught.set(id, u.id);
+      if (byId.has(id) && byId.get(id).level !== u.level) fail(where, `pattern "${id}" is ${byId.get(id).level}, but the unit is ${u.level}`);
+    }
+  }
+  for (const id of [...byId.keys(), ...topicIds]) if (!taught.has(id)) fail('path', `"${id}" is not in any unit`);
+}
+
 const REVIEW_STATUSES = ['draft', 'reviewed'];
 function checkReview(where, review) {
   if (!review || !REVIEW_STATUSES.includes(review.status)) return fail(where, `review.status must be one of ${REVIEW_STATUSES.join(', ')}`);
@@ -192,6 +221,7 @@ function shuffle(items, seedText) {
 }
 
 const REPO = 'https://github.com/jyltsang/cantonlink-community';
+const SITE = 'https://jyltsang.github.io/Cantonlink-community/';
 const reportLink = (entry) => `${REPO}/issues/new?template=content-error.yml&title=${encodeURIComponent(`[Correction] ${entry}`)}`;
 const listNames = (names) => (names.length < 2 ? names.join('') : `${names.slice(0, -1).join(', ')} and ${names.at(-1)}`);
 
@@ -404,10 +434,27 @@ emit('library/practice/README.md', page(
   ));
 }
 
+// Learning path
+{
+  const byId = new Map(patterns.map((p) => [p.id, p]));
+  const topicById = new Map(topics.map((t) => [t.id, t]));
+  emit('library/path.md', page(
+    '# Learning path',
+    `${path.units.length} units that take you from A1 to B1. Each unit teaches a few grammar patterns with one vocabulary topic, around an everyday situation. Work through them in order on the [learning site](${SITE}#/path), which tracks your progress, or read them here.`,
+    ...path.units.map((u, i) => [
+      `## ${i + 1}. ${u.title} · ${u.titleCjk} (${u.titleJyutping}) · ${u.level}`,
+      `*${u.goal}*`,
+      u.patterns.map((id) => `- [${byId.get(id).pattern}](grammar/${id}.md) — ${byId.get(id).meaning}`).join('\n'),
+      `Vocabulary: ${u.topics.map((id) => `[${topicById.get(id).title}](vocabulary/${id}.md)`).join(', ')}`,
+    ].join('\n\n')),
+  ));
+}
+
 emit('library/README.md', page(
   '# The library',
   summaryNotice(reviewables),
   [
+    `- [Learning path](path.md) — ${path.units.length} units in teaching order`,
     `- [Grammar patterns](grammar/README.md) — ${patterns.length} patterns, A1–B1`,
     `- [Topic vocabulary](vocabulary/README.md) — ${topics.reduce((n, t) => n + t.words.length, 0)} words in ${topics.length} topics`,
     '- [English → Cantonese index](english-index.md)',
@@ -444,6 +491,7 @@ emit('dist/cantonlink-community.json', JSON.stringify({
     id: t.id, title: t.title, titleCjk: t.titleCjk, review: t.review,
     words: t.words.map((w) => ({ ...word(w.cjk, w.jyutping), en: w.en, pos: w.pos, ...(w.classifier ? { classifier: word(...w.classifier) } : {}), ...(w.note ? { note: w.note } : {}) })),
   })),
+  path: path.units.map(({ titleCjk, titleJyutping, ...u }) => ({ ...u, titleWord: word(titleCjk, titleJyutping) })),
   practice: {
     fillGap: patterns.flatMap((p) => p.examples.map((ex, i) => ({ ex, i })).filter(({ ex }) => ex.gap).map(({ ex, i }) => ({
       id: `${p.id}:${i}`, patternId: p.id, level: p.level, en: ex.en, tokens: tokens(ex.words),

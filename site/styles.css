@@ -364,3 +364,27 @@ select.chip { appearance: auto; max-width: 100%; margin-bottom: 12px; }
 .badge-unverified { background: var(--laicha-soft); color: var(--laicha); }
 .ai-task { margin: 8px 0 16px; }
 .ai-task .example { margin-top: 8px; }
+
+/* Learning path */
+.continue { margin: 8px 0 24px; border-color: var(--persimmon); }
+.continue h2 { margin: 4px 0 6px; }
+.eyebrow { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; color: var(--persimmon); }
+.path { list-style: none; padding: 0; margin: 0 0 8px; display: grid; gap: 12px; }
+.path-unit { background: var(--paper); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 16px 18px; box-shadow: var(--shadow); }
+.path-unit.current { border-color: var(--persimmon); }
+.path-unit h3 { margin: 0 0 4px; }
+.path-unit a { text-decoration: none; color: inherit; }
+.path-unit a:hover h3 { color: var(--persimmon); }
+.path-unit p { margin: 0 0 10px; color: var(--fg-2); font-size: 15px; }
+.path-unit .progress { margin: 0 0 6px; }
+.unit-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin: 0 0 12px; }
+.big-rom { font-size: 20px; font-weight: 700; }
+.link-list { padding-left: 20px; margin: 0; }
+.link-list li { margin: 6px 0; }
+section.panel + section.panel { margin-top: 14px; }
+.panel > h2:first-child { margin-top: 0; }
+.path-unit h3 .han, .continue h2 .han, .path-unit h3 .rom, .continue h2 .rom { white-space: nowrap; }
+@media (max-width: 480px) {
+  .site-nav { gap: 0; }
+  .site-nav a { padding: 8px 5px; font-size: 14px; }
+}

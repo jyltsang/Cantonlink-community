@@ -27,7 +27,7 @@ export const saveSettings = () => write('cantonlink-settings', settings);
 
 // Missed items go into a spaced-repetition schedule (see srs.js). Keys look
 // like "fill:hai6-copula:0", "build:…", "tone:飲:0" or "card:food-and-dim-sum:飲".
-const EMPTY = () => ({ review: {}, phrases: {}, answered: 0, correct: 0 });
+const EMPTY = () => ({ review: {}, phrases: {}, done: {}, answered: 0, correct: 0 });
 function loadProgress(saved) {
   const { mistakes, review, ...rest } = saved ?? {};
   return { ...EMPTY(), ...rest, review: migrate({ ...mistakes, ...review }) };
@@ -41,7 +41,10 @@ const changed = () => {
 
 export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
   progress.answered++;
-  if (isCorrect) progress.correct++;
+  if (isCorrect) {
+    progress.correct++;
+    progress.done[key] = 1;
+  }
   if (!isCorrect || reviewing) {
     const next = schedule(progress.review[key], isCorrect);
     if (next) progress.review[key] = next;
@@ -50,6 +53,7 @@ export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
   changed();
 }
 export const reviewKeys = () => dueKeys(progress.review);
+export const isDone = (key) => Boolean(progress.done[key]);
 export const reviewBox = (key) => progress.review[key]?.box;
 
 // Phrases saved from verified AI tutor replies, reviewed like flashcards.

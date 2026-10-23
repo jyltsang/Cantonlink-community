@@ -4,6 +4,7 @@
 
 > **73 of 73 entries are awaiting native-speaker review.** See the [review status](review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
+- [Learning path](path.md) — 12 units in teaching order
 - [Grammar patterns](grammar/README.md) — 60 patterns, A1–B1
 - [Topic vocabulary](vocabulary/README.md) — 360 words in 12 topics
 - [English → Cantonese index](english-index.md)

@@ -14,6 +14,7 @@
 
 | | |
 |---|---|
+| **[Learning path](library/path.md)** | 12 units from A1 to B1 in teaching order, each pairing grammar with a vocabulary topic |
 | **[Grammar](library/grammar/README.md)** | 60 patterns from A1 to B1, each with three example sentences, the written-Chinese equivalent and common mistakes where relevant |
 | **[Vocabulary](library/vocabulary/README.md)** | 360 everyday words in 12 topics, with classifiers and usage notes |
 | **[English → Cantonese index](library/english-index.md)** | Every word, sorted by its English meaning |
