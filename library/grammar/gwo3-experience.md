@@ -21,9 +21,9 @@
 | | |
 |---|---|
 | 漢字 | **你飲過鴛鴦未呀？** |
-| Jyutping | nei5 jam2 gwo3 jin1 joeng1 mei6 aa3? |
-| Yale | néih yám gwo yīn yēung meih a? |
-| Bopomofo | ㄋㄝㄧ⁵ ㄧㄜㆬ² ㄍㄨㄛ³ ㄧㄣ¹ ㄧㆦㄥ¹ ㄇㄝㄧ⁶ ㄚ³? |
+| Jyutping | nei5 jam2 gwo3 jyun1 joeng1 mei6 aa3? |
+| Yale | néih yám gwo yūn yēung meih a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄧㄜㆬ² ㄍㄨㄛ³ ㄩㄣ¹ ㄧㆦㄥ¹ ㄇㄝㄧ⁶ ㄚ³? |
 | English | Have you ever tried yuenyeung (coffee with milk tea)? |
 
 | | |

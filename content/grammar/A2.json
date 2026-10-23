@@ -27,7 +27,7 @@
     "examples": [
       { "words": [["我", "ngo5"], ["去", "heoi3"], ["過", "gwo3"], ["日本", "jat6 bun2"], ["。"]], "en": "I've been to Japan.", "gap": { "word": "過", "distractors": ["緊", "吓", "嘅"] } },
       {
-        "words": [["你", "nei5"], ["飲", "jam2"], ["過", "gwo3"], ["鴛鴦", "jin1 joeng1"], ["未", "mei6"], ["呀", "aa3"], ["？"]],
+        "words": [["你", "nei5"], ["飲", "jam2"], ["過", "gwo3"], ["鴛鴦", "jyun1 joeng1"], ["未", "mei6"], ["呀", "aa3"], ["？"]],
         "en": "Have you ever tried yuenyeung (coffee with milk tea)?",
         "gap": { "word": "過", "distractors": ["緊", "吓", "嘅"] }
       },

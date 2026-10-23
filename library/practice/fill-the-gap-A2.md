@@ -55,8 +55,8 @@ ngo5 heoi3 \_\_\_ jat6 bun2.
 ---
 
 **5.** 你飲＿＿鴛鴦未呀？  
-nei5 jam2 \_\_\_ jin1 joeng1 mei6 aa3?  
-*néih yám \_\_\_ yīn yēung meih a?*  
+nei5 jam2 \_\_\_ jyun1 joeng1 mei6 aa3?  
+*néih yám \_\_\_ yūn yēung meih a?*  
 “Have you ever tried yuenyeung (coffee with milk tea)?”
 
 (a) 過 gwo3 · gwo · ㄍㄨㄛ³  

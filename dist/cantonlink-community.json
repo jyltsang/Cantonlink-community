@@ -3700,9 +3700,9 @@
         },
         {
           "cjk": "你飲過鴛鴦未呀？",
-          "jyutping": "nei5 jam2 gwo3 jin1 joeng1 mei6 aa3?",
-          "yale": "néih yám gwo yīn yēung meih a?",
-          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄜㆬ² ㄍㄨㄛ³ ㄧㄣ¹ ㄧㆦㄥ¹ ㄇㄝㄧ⁶ ㄚ³?",
+          "jyutping": "nei5 jam2 gwo3 jyun1 joeng1 mei6 aa3?",
+          "yale": "néih yám gwo yūn yēung meih a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄜㆬ² ㄍㄨㄛ³ ㄩㄣ¹ ㄧㆦㄥ¹ ㄇㄝㄧ⁶ ㄚ³?",
           "en": "Have you ever tried yuenyeung (coffee with milk tea)?",
           "tokens": [
             {
@@ -3725,9 +3725,9 @@
             },
             {
               "cjk": "鴛鴦",
-              "jyutping": "jin1 joeng1",
-              "yale": "yīn yēung",
-              "bopomofo": "ㄧㄣ¹ ㄧㆦㄥ¹"
+              "jyutping": "jyun1 joeng1",
+              "yale": "yūn yēung",
+              "bopomofo": "ㄩㄣ¹ ㄧㆦㄥ¹"
             },
             {
               "cjk": "未",
@@ -18179,9 +18179,9 @@
           },
           {
             "cjk": "鴛鴦",
-            "jyutping": "jin1 joeng1",
-            "yale": "yīn yēung",
-            "bopomofo": "ㄧㄣ¹ ㄧㆦㄥ¹"
+            "jyutping": "jyun1 joeng1",
+            "yale": "yūn yēung",
+            "bopomofo": "ㄩㄣ¹ ㄧㆦㄥ¹"
           },
           {
             "cjk": "未",
@@ -28036,9 +28036,9 @@
           },
           {
             "cjk": "鴛鴦",
-            "jyutping": "jin1 joeng1",
-            "yale": "yīn yēung",
-            "bopomofo": "ㄧㄣ¹ ㄧㆦㄥ¹"
+            "jyutping": "jyun1 joeng1",
+            "yale": "yūn yēung",
+            "bopomofo": "ㄩㄣ¹ ㄧㆦㄥ¹"
           },
           {
             "cjk": "未",
