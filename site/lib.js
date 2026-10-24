@@ -1,4 +1,5 @@
 import { schedule, migrate, dueKeys, endOfDay, nextDue } from './srs.js';
+import { romanise } from './romanise.js';
 
 export const REPO = 'https://github.com/jyltsang/Cantonlink-community';
 export const SYSTEM_LANG = { jyutping: 'yue-Latn', yale: 'yue-Latn', bopomofo: 'yue-Bopo' };
@@ -149,6 +150,29 @@ export function romText(text, system = settings.system) {
 const romClass = (cls) => (settings.system === 'jyutping' ? `${cls} jp` : cls);
 export const rom = (word, cls = 'rom') => h('span', { class: romClass(cls), lang: SYSTEM_LANG[settings.system] }, romText(word[settings.system]));
 export const han = (word, cls = 'han') => (settings.showCjk ? h('span', { class: cls, lang: 'yue-Hant-HK' }, word.cjk) : null);
+
+// Text with characters inside it (explanations, notes). With characters off,
+// each Cantonese word is shown in the chosen romanisation instead.
+export function prose(parts, text) {
+  if (settings.showCjk || !parts) return text;
+  // Characters need no spaces between words; romanisation does (搵到 → wan2 dou2).
+  return parts.map((part, i) => (typeof part === 'string' ? part : [typeof parts[i - 1] === 'object' ? ' ' : null, rom(part, 'rom prose-word')]));
+}
+
+// Grammar pattern names, e.g. "Verb + 咗" or, without characters, "Verb + zo²".
+export const patternText = (p) => (settings.showCjk ? p.pattern : p.patternRomanised[settings.system]);
+export const patternName = (p) => (settings.showCjk
+  ? h('span', { lang: 'yue-Hant-HK' }, p.pattern)
+  : h('span', { class: romClass('pattern-rom'), lang: SYSTEM_LANG[settings.system] }, romText(p.patternRomanised[settings.system])));
+
+// A fixed Cantonese label given as [characters, Jyutping], e.g. the home cards.
+export const cantoLabel = ([cjk, jyutping], cls) => (settings.showCjk
+  ? h('span', { class: cls, lang: 'yue-Hant-HK' }, cjk)
+  : h('span', { class: romClass(cls), lang: SYSTEM_LANG[settings.system] }, romText(romanise(jyutping)[settings.system])));
+
+// A vocabulary topic's Cantonese name: 打招呼, or daa² ziu¹ fu¹.
+export const topicCanto = (t) => (settings.showCjk ? h('span', { lang: 'yue-Hant-HK' }, t.titleCjk) : rom(t.titleWord));
+export const topicCantoText = (t) => (settings.showCjk ? t.titleCjk : t.titleWord[settings.system]);
 
 export function sentenceEl(tokens, { blankIndex = -1, filled = null, highlight = -1 } = {}) {
   return h('p', { class: 'sentence' }, tokens.map((t, i) => {

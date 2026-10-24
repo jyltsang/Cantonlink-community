@@ -114,6 +114,20 @@
       ],
       "additionalProperties": false
     },
+    "parts": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "$ref": "#/$defs/word"
+          }
+        ]
+      },
+      "description": "The same text split into plain strings and Cantonese words, for showing it in romanisation without characters"
+    },
     "punctuation": {
       "type": "object",
       "properties": {
@@ -252,6 +266,26 @@
         "jyutping": {
           "type": "string"
         },
+        "patternRomanised": {
+          "type": "object",
+          "properties": {
+            "jyutping": {
+              "type": "string"
+            },
+            "yale": {
+              "type": "string"
+            },
+            "bopomofo": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "jyutping",
+            "yale",
+            "bopomofo"
+          ],
+          "additionalProperties": false
+        },
         "meaning": {
           "type": "string",
           "description": "Short English meaning"
@@ -274,6 +308,9 @@
         },
         "explanation": {
           "type": "string"
+        },
+        "explanationParts": {
+          "$ref": "#/$defs/parts"
         },
         "writtenEquivalent": {
           "anyOf": [
@@ -319,12 +356,16 @@
               },
               "note": {
                 "type": "string"
+              },
+              "noteParts": {
+                "$ref": "#/$defs/parts"
               }
             },
             "required": [
               "incorrect",
               "correct",
-              "note"
+              "note",
+              "noteParts"
             ],
             "additionalProperties": false
           }
@@ -344,11 +385,13 @@
         "id",
         "pattern",
         "jyutping",
+        "patternRomanised",
         "meaning",
         "level",
         "function",
         "functionName",
         "explanation",
+        "explanationParts",
         "writtenEquivalent",
         "examples",
         "mistakes",
@@ -390,6 +433,9 @@
         "note": {
           "type": "string",
           "description": "Usage note"
+        },
+        "noteParts": {
+          "$ref": "#/$defs/parts"
         }
       },
       "required": [
@@ -414,9 +460,15 @@
         "titleCjk": {
           "type": "string"
         },
+        "titleWord": {
+          "$ref": "#/$defs/word"
+        },
         "note": {
           "type": "string",
           "description": "Usage note for the whole topic"
+        },
+        "noteParts": {
+          "$ref": "#/$defs/parts"
         },
         "review": {
           "$ref": "#/$defs/review"
@@ -432,6 +484,7 @@
         "id",
         "title",
         "titleCjk",
+        "titleWord",
         "review",
         "words"
       ],

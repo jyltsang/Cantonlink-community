@@ -3,6 +3,7 @@
   "order": 4,
   "title": "Shopping",
   "titleCjk": "買嘢",
+  "titleJyutping": "maai5 je5",
   "words": [
     { "cjk": "買", "jyutping": "maai5", "en": "to buy", "pos": "verb" },
     { "cjk": "賣", "jyutping": "maai6", "en": "to sell", "pos": "verb", "note": "Same syllable as 買 but tone 6. Tone changes the meaning." },

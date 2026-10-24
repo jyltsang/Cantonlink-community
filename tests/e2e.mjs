@@ -61,8 +61,8 @@ const noOverflow = (page) => page.evaluate(() => document.documentElement.scroll
 test('home page renders on phone and desktop, in light and dark mode', async () => {
   for (const [viewport, colorScheme] of [[{ width: 360, height: 740 }, 'light'], [{ width: 1280, height: 900 }, 'dark']]) {
     const { page, context, errors } = await open('', { viewport, colorScheme });
-    assert.equal(await page.locator('h1').textContent(), '學廣東話 · Learn Cantonese');
-    assert.equal(await page.locator('.mode-card').count(), 9);
+    assert.equal(await page.locator('h1').textContent(), 'Learn Cantonese');
+    assert.equal(await page.locator('.mode-card').count(), 8, 'Spoken or written? is hidden without characters');
     assert.equal(await page.locator('.continue').count(), 1);
     assert.ok(await noOverflow(page), 'page scrolls sideways');
     assert.doesNotMatch(await page.locator('body').innerText(), EMOJI);
@@ -211,7 +211,7 @@ test('review follows the spaced schedule and reads older saves', async () => {
 });
 
 test('tones, spoken-or-written and flashcards complete a full session', async () => {
-  const { page, context, errors } = await open('#/tones');
+  const { page, context, errors } = await open('#/tones', { cjk: true });
   for (const path of ['#/tones', '#/spoken-or-written']) {
     await page.goto(BASE + path);
     for (let i = 0; i < 10; i++) {
@@ -231,7 +231,7 @@ test('tones, spoken-or-written and flashcards complete a full session', async ()
 });
 
 test('progress can be exported and imported', async () => {
-  const { page, context } = await open('#/spoken-or-written');
+  const { page, context } = await open('#/spoken-or-written', { cjk: true });
   await page.locator('.question .option').first().click();
   await page.goto(BASE);
   await page.waitForSelector('.progress-panel');
@@ -362,6 +362,58 @@ test('characters are hidden by default, and Jyutping tones are superscripts with
   assert.equal(await page.locator('.word-han').first().textContent(), first.cjk);
   await page.locator('input[value="yale"]').check();
   assert.equal(await page.locator('.word-rom sup').count(), 0);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+// Learners who don't read characters must never meet them once characters
+// are off (the default), on any page, in any romanisation.
+const HAN = /\p{Script=Han}/u;
+test('with characters off, no page shows a Chinese character', async () => {
+  const paths = [
+    '#/', '#/path', ...data.path.map((u) => `#/path/${u.id}`), '#/grammar', ...data.grammar.map((p) => `#/grammar/${p.id}`),
+    '#/vocabulary', ...data.vocabulary.map((t) => `#/vocabulary/${t.id}`), '#/lookup?q=thank', '#/lookup?q=nei5%20hou2',
+    '#/flashcards', '#/fill-the-gap', `#/fill-the-gap?pattern=${data.grammar[5].id}`, '#/build', '#/tones', '#/spoken-or-written', '#/review', '#/ai', '#/tutor',
+  ];
+  for (const system of ['jyutping', 'yale']) {
+    const { page, context, errors } = await open('#/', { storage: { 'cantonlink-settings': { system, showCjk: false } } });
+    const found = [];
+    for (const path of paths) {
+      await page.goto(BASE + path);
+      await page.waitForSelector('main h1');
+      await page.locator('details.tone-table').evaluateAll((els) => els.forEach((d) => { d.open = true; }));
+      const text = await page.locator('main').innerText();
+      const options = await page.locator('main select option').allTextContents();
+      const line = [text, ...options].join('\n').split('\n').find((l) => HAN.test(l));
+      if (line) found.push(`${path}: ${line.trim().slice(0, 80)}`);
+    }
+    assert.deepEqual(found, [], `characters shown in ${system}`);
+    assert.deepEqual(errors, []);
+    await context.close();
+  }
+});
+
+test('with characters on, pattern names, explanations and Spoken or written? come back', async () => {
+  const p = data.grammar.find((x) => x.id === 'zo2-completed') ?? data.grammar[5];
+  const { page, context, errors } = await open(`#/grammar/${p.id}`);
+  assert.equal(await page.locator('main h1').innerText(), p.patternRomanised.jyutping);
+  assert.doesNotMatch(await page.locator('main').innerText(), HAN);
+  await page.goto(`${BASE}#/grammar/dou2-result`);
+  await page.waitForSelector('main h1');
+  assert.match(await page.locator('main').innerText(), /wan2 dou2 \(found\)[\s\S]*maai5 m4 dou2/, 'neighbouring words are spaced');
+  await page.goto(`${BASE}#/`);
+  await page.waitForSelector('.mode-card');
+  assert.equal(await page.locator('.mode-card', { hasText: 'Spoken or written?' }).count(), 0);
+  await page.goto(`${BASE}#/spoken-or-written`);
+  await page.getByRole('button', { name: 'Turn characters on' }).click();
+  await page.locator('.prompt-cjk').waitFor();
+  await page.goto(`${BASE}#/grammar/${p.id}`);
+  await page.waitForSelector('main h1');
+  assert.equal(await page.locator('main h1').innerText(), p.pattern);
+  assert.match(await page.locator('main').innerText(), new RegExp(p.explanation.slice(0, 20).replace(/[.*+?()[\]]/g, '\\$&')));
+  await page.goto(`${BASE}#/`);
+  await page.waitForSelector('.mode-card');
+  assert.equal(await page.locator('.mode-card', { hasText: 'Spoken or written?' }).count(), 1);
   assert.deepEqual(errors, []);
   await context.close();
 });
@@ -534,7 +586,7 @@ test('AI tutor: every reply shows its checks, tool use and a badge; verified phr
   await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 2);
   const reply = lastTutor(page);
   assert.equal(await reply.locator('.badge').textContent(), 'Verified');
-  assert.match(await reply.innerText(), /Grammar used: Verb \+ 咗, 乜嘢 \/ 咩/);
+  assert.match(await reply.innerText(), /Grammar used: Verb \+ zo2, mat1 je5 \/ me1/);
   assert.doesNotMatch(await reply.innerText(), /http/);
   await reply.getByRole('button', { name: 'Save phrase' }).click();
   assert.equal(await reply.getByRole('button', { name: 'Saved for review' }).isDisabled(), true);
@@ -573,7 +625,7 @@ test('AI tutor: a failing reply is retried and Corrected; one that keeps failing
 });
 
 test('AI tutor: "Check my sentence" flags written Chinese and shows the correction', async () => {
-  const { page, context } = await open();
+  const { page, context } = await open('', { cjk: true });
   await connectMock(page);
   await page.goto(`${BASE}#/tutor`);
   await lastTutor(page).locator('.badge').waitFor();

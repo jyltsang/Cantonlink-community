@@ -1,4 +1,4 @@
-import { LEVELS, h, show, rom, han, pageHead, tag, chips, isDone, markDone, shuffle, sentenceEl } from './lib.js';
+import { LEVELS, h, show, rom, han, pageHead, tag, chips, isDone, markDone, shuffle, sentenceEl, patternName } from './lib.js';
 import { runSession, itemKey, dialogueBuildItems } from './practice.js';
 import { aiReady } from './ai-settings.js';
 
@@ -185,7 +185,7 @@ export function unitView(data, id) {
     h('p', { class: 'small' }, `${progress.done} of ${progress.total} exercises practised.`),
     h('section', { class: 'panel' },
       h('h2', {}, '1. Learn the grammar'),
-      h('ul', { class: 'link-list' }, patterns.map((p) => h('li', {}, h('a', { href: `#/grammar/${p.id}` }, p.pattern), ` — ${p.meaning}`)))),
+      h('ul', { class: 'link-list' }, patterns.map((p) => h('li', {}, h('a', { href: `#/grammar/${p.id}` }, patternName(p)), ` — ${p.meaning}`)))),
     h('section', { class: 'panel' },
       h('h2', {}, '2. Learn the words'),
       h('ul', { class: 'link-list' }, topics.map((t) => h('li', {},

@@ -3,6 +3,7 @@
   "order": 1,
   "title": "Greetings and courtesy",
   "titleCjk": "打招呼",
+  "titleJyutping": "daa2 ziu1 fu1",
   "words": [
     { "cjk": "早晨", "jyutping": "zou2 san4", "en": "good morning", "pos": "phrase" },
     { "cjk": "你好", "jyutping": "nei5 hou2", "en": "hello", "pos": "phrase" },

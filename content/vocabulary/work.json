@@ -3,6 +3,7 @@
   "order": 10,
   "title": "Work and the office",
   "titleCjk": "返工",
+  "titleJyutping": "faan1 gung1",
   "words": [
     { "cjk": "公司", "jyutping": "gung1 si1", "en": "company; office", "pos": "noun", "classifier": ["間", "gaan1"] },
     { "cjk": "寫字樓", "jyutping": "se2 zi6 lau4", "en": "office building", "pos": "noun", "classifier": ["座", "zo6"] },

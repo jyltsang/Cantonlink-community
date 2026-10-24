@@ -3,6 +3,7 @@
   "order": 13,
   "title": "Tech and work",
   "titleCjk": "科技同返工",
+  "titleJyutping": "fo1 gei6 tung4 faan1 gung1",
   "note": "Hong Kong office speech mixes in English words freely. The English words keep their English spelling here and are said much as in English, usually fitted to Cantonese rhythm. The fully Cantonese word is often more formal or written.",
   "words": [
     { "cjk": "寫 code", "jyutping": "se2 code", "en": "to write code; to program", "pos": "verb" },

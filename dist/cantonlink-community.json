@@ -6,11 +6,70 @@
       "id": "hai6-copula",
       "pattern": "Subject + 係 + Noun",
       "jyutping": "Subject + hai6 + Noun",
+      "patternRomanised": {
+        "jyutping": "Subject + hai6 + Noun",
+        "yale": "Subject + haih + Noun",
+        "bopomofo": "Subject + ㄏㄜㄧ⁶ + Noun"
+      },
       "meaning": "to be (identity)",
       "level": "A1",
       "function": "being-and-having",
       "functionName": "Being and having",
       "explanation": "係 links a subject to a noun: who or what something is. It is not used before adjectives — say 佢好高 (he is tall), not 佢係高. To negate, use 唔係.",
+      "explanationParts": [
+        {
+          "cjk": "係",
+          "jyutping": "hai6",
+          "yale": "haih",
+          "bopomofo": "ㄏㄜㄧ⁶"
+        },
+        " links a subject to a noun: who or what something is. It is not used before adjectives — say ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "好",
+          "jyutping": "hou2",
+          "yale": "hóu",
+          "bopomofo": "ㄏㄛㄨ²"
+        },
+        {
+          "cjk": "高",
+          "jyutping": "gou1",
+          "yale": "gōu",
+          "bopomofo": "ㄍㄛㄨ¹"
+        },
+        " (he is tall), not ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "係",
+          "jyutping": "hai6",
+          "yale": "haih",
+          "bopomofo": "ㄏㄜㄧ⁶"
+        },
+        {
+          "cjk": "高",
+          "jyutping": "gou1",
+          "yale": "gōu",
+          "bopomofo": "ㄍㄛㄨ¹"
+        },
+        ". To negate, use ",
+        {
+          "cjk": "唔係",
+          "jyutping": "m4 hai6",
+          "yale": "m̀h haih",
+          "bopomofo": "ㆬ⁴ ㄏㄜㄧ⁶"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "是",
         "note": "Written Chinese uses 是; in speech always say 係."
@@ -125,7 +184,37 @@
             "yale": "kéuih haih hohk sāang.",
             "bopomofo": "ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㄏㄛㆶ⁶ ㄙㄚㄥ¹."
           },
-          "note": "他 and 是 are written forms. Speech uses 佢 and 係."
+          "note": "他 and 是 are written forms. Speech uses 佢 and 係.",
+          "noteParts": [
+            {
+              "cjk": "他",
+              "jyutping": "taa1",
+              "yale": "tā",
+              "bopomofo": "ㄊㄚ¹"
+            },
+            " and ",
+            {
+              "cjk": "是",
+              "jyutping": "si6",
+              "yale": "sih",
+              "bopomofo": "ㄙㄧ⁶"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            " and ",
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -141,11 +230,53 @@
       "id": "m4-negation",
       "pattern": "唔 + Verb / Adjective",
       "jyutping": "m4 + Verb / Adjective",
+      "patternRomanised": {
+        "jyutping": "m4 + Verb / Adjective",
+        "yale": "m̀h + Verb / Adjective",
+        "bopomofo": "ㆬ⁴ + Verb / Adjective"
+      },
       "meaning": "not",
       "level": "A1",
       "function": "negation",
       "functionName": "Negation",
       "explanation": "Put 唔 directly before a verb or adjective to negate it. The one big exception is 有 (to have): its negative is 冇, never 唔有.",
+      "explanationParts": [
+        "Put ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        " directly before a verb or adjective to negate it. The one big exception is ",
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        " (to have): its negative is ",
+        {
+          "cjk": "冇",
+          "jyutping": "mou5",
+          "yale": "móuh",
+          "bopomofo": "ㄇㄛㄨ⁵"
+        },
+        ", never ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "不",
         "note": "Written Chinese uses 不; in speech always say 唔."
@@ -266,7 +397,23 @@
             "yale": "ngóh m̀h heui.",
             "bopomofo": "ㆭㄛ⁵ ㆬ⁴ ㄏㆤㄧ³."
           },
-          "note": "不 is written Chinese. Say 唔."
+          "note": "不 is written Chinese. Say 唔.",
+          "noteParts": [
+            {
+              "cjk": "不",
+              "jyutping": "bat1",
+              "yale": "bāt",
+              "bopomofo": "ㄅㄜㆵ¹"
+            },
+            " is written Chinese. Say ",
+            {
+              "cjk": "唔",
+              "jyutping": "m4",
+              "yale": "m̀h",
+              "bopomofo": "ㆬ⁴"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -282,11 +429,45 @@
       "id": "jau5-mou5",
       "pattern": "有 / 冇 + Noun",
       "jyutping": "jau5 / mou5 + Noun",
+      "patternRomanised": {
+        "jyutping": "jau5 / mou5 + Noun",
+        "yale": "yáuh / móuh + Noun",
+        "bopomofo": "ㄧㄜㄨ⁵ / ㄇㄛㄨ⁵ + Noun"
+      },
       "meaning": "to have; there is / there isn't",
       "level": "A1",
       "function": "being-and-having",
       "functionName": "Being and having",
       "explanation": "有 means both 'to have' and 'there is'. Its negative is the single word 冇 — 唔有 is always wrong.",
+      "explanationParts": [
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        " means both 'to have' and 'there is'. Its negative is the single word ",
+        {
+          "cjk": "冇",
+          "jyutping": "mou5",
+          "yale": "móuh",
+          "bopomofo": "ㄇㄛㄨ⁵"
+        },
+        " — ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        " is always wrong."
+      ],
       "writtenEquivalent": {
         "cjk": "有 / 沒有",
         "note": "沒有 is written Chinese; in speech say 冇."
@@ -407,7 +588,37 @@
             "yale": "ngóh móuh chín.",
             "bopomofo": "ㆭㄛ⁵ ㄇㄛㄨ⁵ ㄘㄧㄣ²."
           },
-          "note": "The negative of 有 is 冇, not 唔有."
+          "note": "The negative of 有 is 冇, not 唔有.",
+          "noteParts": [
+            "The negative of ",
+            {
+              "cjk": "有",
+              "jyutping": "jau5",
+              "yale": "yáuh",
+              "bopomofo": "ㄧㄜㄨ⁵"
+            },
+            " is ",
+            {
+              "cjk": "冇",
+              "jyutping": "mou5",
+              "yale": "móuh",
+              "bopomofo": "ㄇㄛㄨ⁵"
+            },
+            ", not ",
+            {
+              "cjk": "唔",
+              "jyutping": "m4",
+              "yale": "m̀h",
+              "bopomofo": "ㆬ⁴"
+            },
+            {
+              "cjk": "有",
+              "jyutping": "jau5",
+              "yale": "yáuh",
+              "bopomofo": "ㄧㄜㄨ⁵"
+            },
+            "."
+          ]
         },
         {
           "incorrect": "沒有錢。",
@@ -417,7 +628,22 @@
             "yale": "móuh chín.",
             "bopomofo": "ㄇㄛㄨ⁵ ㄘㄧㄣ²."
           },
-          "note": "沒有 is written Chinese."
+          "note": "沒有 is written Chinese.",
+          "noteParts": [
+            {
+              "cjk": "沒",
+              "jyutping": "mut6",
+              "yale": "muht",
+              "bopomofo": "ㄇㄨㆵ⁶"
+            },
+            {
+              "cjk": "有",
+              "jyutping": "jau5",
+              "yale": "yáuh",
+              "bopomofo": "ㄧㄜㄨ⁵"
+            },
+            " is written Chinese."
+          ]
         }
       ],
       "related": [
@@ -433,11 +659,53 @@
       "id": "jau5-mou5-question",
       "pattern": "有冇 + Noun？",
       "jyutping": "jau5 mou5 + Noun?",
+      "patternRomanised": {
+        "jyutping": "jau5 mou5 + Noun?",
+        "yale": "yáuh móuh + Noun?",
+        "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ + Noun?"
+      },
       "meaning": "Is there…? / Do you have…?",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "有冇 ('have or not have') turns 有 into a question. Answer 有 for yes or 冇 for no. Ending with 呀 makes it sound friendly.",
+      "explanationParts": [
+        {
+          "cjk": "有冇",
+          "jyutping": "jau5 mou5",
+          "yale": "yáuh móuh",
+          "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+        },
+        " ('have or not have') turns ",
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        " into a question. Answer ",
+        {
+          "cjk": "有",
+          "jyutping": "jau5",
+          "yale": "yáuh",
+          "bopomofo": "ㄧㄜㄨ⁵"
+        },
+        " for yes or ",
+        {
+          "cjk": "冇",
+          "jyutping": "mou5",
+          "yale": "móuh",
+          "bopomofo": "ㄇㄛㄨ⁵"
+        },
+        " for no. Ending with ",
+        {
+          "cjk": "呀",
+          "jyutping": "aa3",
+          "yale": "a",
+          "bopomofo": "ㄚ³"
+        },
+        " makes it sound friendly."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -560,11 +828,60 @@
       "id": "a-not-a-question",
       "pattern": "Verb + 唔 + Verb？",
       "jyutping": "Verb + m4 + Verb?",
+      "patternRomanised": {
+        "jyutping": "Verb + m4 + Verb?",
+        "yale": "Verb + m̀h + Verb?",
+        "bopomofo": "Verb + ㆬ⁴ + Verb?"
+      },
       "meaning": "yes/no question (A-not-A)",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "The most natural way to ask a yes/no question is to say the verb, then 唔, then the verb again: 去唔去 ('go not go'). For two-syllable words, repeat only the first syllable: 好唔好食. Answer by repeating the verb: 去 or 唔去.",
+      "explanationParts": [
+        "The most natural way to ask a yes/no question is to say the verb, then ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        ", then the verb again: ",
+        {
+          "cjk": "去唔去",
+          "jyutping": "heoi3 m4 heoi3",
+          "yale": "heui m̀h heui",
+          "bopomofo": "ㄏㆤㄧ³ ㆬ⁴ ㄏㆤㄧ³"
+        },
+        " ('go not go'). For two-syllable words, repeat only the first syllable: ",
+        {
+          "cjk": "好唔好食",
+          "jyutping": "hou2 m4 hou2 sik6",
+          "yale": "hóu m̀h hóu sihk",
+          "bopomofo": "ㄏㄛㄨ² ㆬ⁴ ㄏㄛㄨ² ㄙㄧㆶ⁶"
+        },
+        ". Answer by repeating the verb: ",
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        " or ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "…嗎？ / 是否",
         "note": "Written Chinese tends to use 嗎 or 是否."
@@ -684,11 +1001,26 @@
       "id": "zo2-completed",
       "pattern": "Verb + 咗",
       "jyutping": "Verb + zo2",
+      "patternRomanised": {
+        "jyutping": "Verb + zo2",
+        "yale": "Verb + jó",
+        "bopomofo": "Verb + ㄗㄛ²"
+      },
       "meaning": "completed action",
       "level": "A1",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "Add 咗 straight after a verb to show the action has happened or been completed. It often translates as an English past tense or 'have done'.",
+      "explanationParts": [
+        "Add ",
+        {
+          "cjk": "咗",
+          "jyutping": "zo2",
+          "yale": "jó",
+          "bopomofo": "ㄗㄛ²"
+        },
+        " straight after a verb to show the action has happened or been completed. It often translates as an English past tense or 'have done'."
+      ],
       "writtenEquivalent": {
         "cjk": "了",
         "note": "Written Chinese uses 了; in speech say 咗."
@@ -833,7 +1165,37 @@
             "yale": "ngóh sihk jó faahn.",
             "bopomofo": "ㆭㄛ⁵ ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶."
           },
-          "note": "吃 and 了 are written forms. Speech uses 食 and 咗."
+          "note": "吃 and 了 are written forms. Speech uses 食 and 咗.",
+          "noteParts": [
+            {
+              "cjk": "吃",
+              "jyutping": "hek3",
+              "yale": "hek",
+              "bopomofo": "ㄏㄝㆶ³"
+            },
+            " and ",
+            {
+              "cjk": "了",
+              "jyutping": "liu5",
+              "yale": "líuh",
+              "bopomofo": "ㄌㄧㄨ⁵"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "食",
+              "jyutping": "sik6",
+              "yale": "sihk",
+              "bopomofo": "ㄙㄧㆶ⁶"
+            },
+            " and ",
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -850,11 +1212,26 @@
       "id": "gan2-progressive",
       "pattern": "Verb + 緊",
       "jyutping": "Verb + gan2",
+      "patternRomanised": {
+        "jyutping": "Verb + gan2",
+        "yale": "Verb + gán",
+        "bopomofo": "Verb + ㄍㄜㄣ²"
+      },
       "meaning": "in the middle of doing (-ing)",
       "level": "A1",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "Add 緊 straight after a verb to say an action is happening right now, like English '-ing'.",
+      "explanationParts": [
+        "Add ",
+        {
+          "cjk": "緊",
+          "jyutping": "gan2",
+          "yale": "gán",
+          "bopomofo": "ㄍㄜㄣ²"
+        },
+        " straight after a verb to say an action is happening right now, like English '-ing'."
+      ],
       "writtenEquivalent": {
         "cjk": "正在…",
         "note": "Written Chinese uses 正在 before the verb."
@@ -986,11 +1363,89 @@
       "id": "ge3-possessive",
       "pattern": "Noun / Pronoun + 嘅 + Noun",
       "jyutping": "Noun / Pronoun + ge3 + Noun",
+      "patternRomanised": {
+        "jyutping": "Noun / Pronoun + ge3 + Noun",
+        "yale": "Noun / Pronoun + ge + Noun",
+        "bopomofo": "Noun / Pronoun + ㄍㄝ³ + Noun"
+      },
       "meaning": "'s / of (possession and description)",
       "level": "A1",
       "function": "possession-and-description",
       "functionName": "Possession and description",
       "explanation": "嘅 joins an owner or a description to a noun: 我嘅書 (my book), 好食嘅餐廳 (a good restaurant). With family and close friends it is usually dropped: 我媽媽, 我朋友.",
+      "explanationParts": [
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        " joins an owner or a description to a noun: ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        {
+          "cjk": "書",
+          "jyutping": "syu1",
+          "yale": "syū",
+          "bopomofo": "ㄙㄩ¹"
+        },
+        " (my book), ",
+        {
+          "cjk": "好食",
+          "jyutping": "hou2 sik6",
+          "yale": "hóu sihk",
+          "bopomofo": "ㄏㄛㄨ² ㄙㄧㆶ⁶"
+        },
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        {
+          "cjk": "餐廳",
+          "jyutping": "caan1 teng1",
+          "yale": "chāan tēng",
+          "bopomofo": "ㄘㄚㄣ¹ ㄊㄝㄥ¹"
+        },
+        " (a good restaurant). With family and close friends it is usually dropped: ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "媽媽",
+          "jyutping": "maa4 maa1",
+          "yale": "màh mā",
+          "bopomofo": "ㄇㄚ⁴ ㄇㄚ¹"
+        },
+        ", ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "朋友",
+          "jyutping": "pang4 jau5",
+          "yale": "pàhng yáuh",
+          "bopomofo": "ㄆㄜㄥ⁴ ㄧㄜㄨ⁵"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "的",
         "note": "Written Chinese uses 的; in speech say 嘅."
@@ -1165,7 +1620,37 @@
             "yale": "nī bún haih ngóh ge syū.",
             "bopomofo": "ㄋㄧ¹ ㄅㄨㄣ² ㄏㄜㄧ⁶ ㆭㄛ⁵ ㄍㄝ³ ㄙㄩ¹."
           },
-          "note": "這 and 的 are written forms. Speech uses 呢 + classifier and 嘅."
+          "note": "這 and 的 are written forms. Speech uses 呢 + classifier and 嘅.",
+          "noteParts": [
+            {
+              "cjk": "這",
+              "jyutping": "ze5",
+              "yale": "jéh",
+              "bopomofo": "ㄗㄝ⁵"
+            },
+            " and ",
+            {
+              "cjk": "的",
+              "jyutping": "dik1",
+              "yale": "dīk",
+              "bopomofo": "ㄉㄧㆶ¹"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "呢",
+              "jyutping": "ni1",
+              "yale": "nī",
+              "bopomofo": "ㄋㄧ¹"
+            },
+            " + classifier and ",
+            {
+              "cjk": "嘅",
+              "jyutping": "ge3",
+              "yale": "ge",
+              "bopomofo": "ㄍㄝ³"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -1180,11 +1665,32 @@
       "id": "hai2-location",
       "pattern": "Subject + 喺 + Place",
       "jyutping": "Subject + hai2 + Place",
+      "patternRomanised": {
+        "jyutping": "Subject + hai2 + Place",
+        "yale": "Subject + hái + Place",
+        "bopomofo": "Subject + ㄏㄜㄧ² + Place"
+      },
       "meaning": "to be at / in",
       "level": "A1",
       "function": "location-and-pointing",
       "functionName": "Location and pointing",
       "explanation": "喺 (hai2) says where someone or something is, or where an action happens. Don't confuse it with 係 (hai6, 'to be') — only the tone is different.",
+      "explanationParts": [
+        {
+          "cjk": "喺",
+          "jyutping": "hai2",
+          "yale": "hái",
+          "bopomofo": "ㄏㄜㄧ²"
+        },
+        " (hai2) says where someone or something is, or where an action happens. Don't confuse it with ",
+        {
+          "cjk": "係",
+          "jyutping": "hai6",
+          "yale": "haih",
+          "bopomofo": "ㄏㄜㄧ⁶"
+        },
+        " (hai6, 'to be') — only the tone is different."
+      ],
       "writtenEquivalent": {
         "cjk": "在",
         "note": "Written Chinese uses 在; in speech say 喺."
@@ -1305,7 +1811,43 @@
             "yale": "néih hái bīn douh a?",
             "bopomofo": "ㄋㄝㄧ⁵ ㄏㄜㄧ² ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?"
           },
-          "note": "在 and 哪裏 are written forms. Speech uses 喺 and 邊度."
+          "note": "在 and 哪裏 are written forms. Speech uses 喺 and 邊度.",
+          "noteParts": [
+            {
+              "cjk": "在",
+              "jyutping": "zoi6",
+              "yale": "joih",
+              "bopomofo": "ㄗㄛㄧ⁶"
+            },
+            " and ",
+            {
+              "cjk": "哪",
+              "jyutping": "naa5",
+              "yale": "náh",
+              "bopomofo": "ㄋㄚ⁵"
+            },
+            {
+              "cjk": "裏",
+              "jyutping": "leoi5",
+              "yale": "léuih",
+              "bopomofo": "ㄌㆤㄧ⁵"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "喺",
+              "jyutping": "hai2",
+              "yale": "hái",
+              "bopomofo": "ㄏㄜㄧ²"
+            },
+            " and ",
+            {
+              "cjk": "邊度",
+              "jyutping": "bin1 dou6",
+              "yale": "bīn douh",
+              "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -1321,11 +1863,71 @@
       "id": "ni1-go2-demonstratives",
       "pattern": "呢 / 嗰 + Classifier (+ Noun)",
       "jyutping": "ni1 / go2 + Classifier (+ Noun)",
+      "patternRomanised": {
+        "jyutping": "ni1 / go2 + Classifier (+ Noun)",
+        "yale": "nī / gó + Classifier (+ Noun)",
+        "bopomofo": "ㄋㄧ¹ / ㄍㄛ² + Classifier (+ Noun)"
+      },
       "meaning": "this / that",
       "level": "A1",
       "function": "location-and-pointing",
       "functionName": "Location and pointing",
       "explanation": "呢 (this) and 嗰 (that) always need a classifier after them: 呢個, 嗰件, 呢間. The noun can be dropped when it's obvious from context.",
+      "explanationParts": [
+        {
+          "cjk": "呢",
+          "jyutping": "ni1",
+          "yale": "nī",
+          "bopomofo": "ㄋㄧ¹"
+        },
+        " (this) and ",
+        {
+          "cjk": "嗰",
+          "jyutping": "go2",
+          "yale": "gó",
+          "bopomofo": "ㄍㄛ²"
+        },
+        " (that) always need a classifier after them: ",
+        {
+          "cjk": "呢",
+          "jyutping": "ni1",
+          "yale": "nī",
+          "bopomofo": "ㄋㄧ¹"
+        },
+        {
+          "cjk": "個",
+          "jyutping": "go3",
+          "yale": "go",
+          "bopomofo": "ㄍㄛ³"
+        },
+        ", ",
+        {
+          "cjk": "嗰",
+          "jyutping": "go2",
+          "yale": "gó",
+          "bopomofo": "ㄍㄛ²"
+        },
+        {
+          "cjk": "件",
+          "jyutping": "gin6",
+          "yale": "gihn",
+          "bopomofo": "ㄍㄧㄣ⁶"
+        },
+        ", ",
+        {
+          "cjk": "呢",
+          "jyutping": "ni1",
+          "yale": "nī",
+          "bopomofo": "ㄋㄧ¹"
+        },
+        {
+          "cjk": "間",
+          "jyutping": "gaan1",
+          "yale": "gāan",
+          "bopomofo": "ㄍㄚㄣ¹"
+        },
+        ". The noun can be dropped when it's obvious from context."
+      ],
       "writtenEquivalent": {
         "cjk": "這 / 那",
         "note": "Written Chinese uses 這 and 那."
@@ -1463,11 +2065,61 @@
       "id": "number-classifier",
       "pattern": "Number + Classifier + Noun",
       "jyutping": "Number + Classifier + Noun",
+      "patternRomanised": {
+        "jyutping": "Number + Classifier + Noun",
+        "yale": "Number + Classifier + Noun",
+        "bopomofo": "Number + Classifier + Noun"
+      },
       "meaning": "counting things",
       "level": "A1",
       "function": "counting",
       "functionName": "Counting",
       "explanation": "A number cannot go straight before a noun: a classifier goes in between. 個 is the general one; others depend on the noun's shape or type (杯 cups, 本 books, 部 machines). Use 兩 (loeng5), not 二, for 'two' before a classifier.",
+      "explanationParts": [
+        "A number cannot go straight before a noun: a classifier goes in between. ",
+        {
+          "cjk": "個",
+          "jyutping": "go3",
+          "yale": "go",
+          "bopomofo": "ㄍㄛ³"
+        },
+        " is the general one; others depend on the noun's shape or type (",
+        {
+          "cjk": "杯",
+          "jyutping": "bui1",
+          "yale": "būi",
+          "bopomofo": "ㄅㄨㄧ¹"
+        },
+        " cups, ",
+        {
+          "cjk": "本",
+          "jyutping": "bun2",
+          "yale": "bún",
+          "bopomofo": "ㄅㄨㄣ²"
+        },
+        " books, ",
+        {
+          "cjk": "部",
+          "jyutping": "bou6",
+          "yale": "bouh",
+          "bopomofo": "ㄅㄛㄨ⁶"
+        },
+        " machines). Use ",
+        {
+          "cjk": "兩",
+          "jyutping": "loeng5",
+          "yale": "léuhng",
+          "bopomofo": "ㄌㆦㄥ⁵"
+        },
+        " (loeng5), not ",
+        {
+          "cjk": "二",
+          "jyutping": "ji6",
+          "yale": "yih",
+          "bopomofo": "ㄧ⁶"
+        },
+        ", for 'two' before a classifier."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -1621,7 +2273,24 @@
             "yale": "léuhng go yàhn",
             "bopomofo": "ㄌㆦㄥ⁵ ㄍㄛ³ ㄧㄜㄣ⁴"
           },
-          "note": "Before a classifier, 'two' is 兩, not 二."
+          "note": "Before a classifier, 'two' is 兩, not 二.",
+          "noteParts": [
+            "Before a classifier, 'two' is ",
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            ", not ",
+            {
+              "cjk": "二",
+              "jyutping": "ji6",
+              "yale": "yih",
+              "bopomofo": "ㄧ⁶"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -1637,11 +2306,32 @@
       "id": "soeng2-want",
       "pattern": "想 + Verb",
       "jyutping": "soeng2 + Verb",
+      "patternRomanised": {
+        "jyutping": "soeng2 + Verb",
+        "yale": "séung + Verb",
+        "bopomofo": "ㄙㆦㄥ² + Verb"
+      },
       "meaning": "would like to / want to",
       "level": "A1",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "想 before a verb says what you would like to do. It is softer and more polite than 要.",
+      "explanationParts": [
+        {
+          "cjk": "想",
+          "jyutping": "soeng2",
+          "yale": "séung",
+          "bopomofo": "ㄙㆦㄥ²"
+        },
+        " before a verb says what you would like to do. It is softer and more polite than ",
+        {
+          "cjk": "要",
+          "jyutping": "jiu3",
+          "yale": "yiu",
+          "bopomofo": "ㄧㄨ³"
+        },
+        "."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -1776,11 +2466,52 @@
       "id": "jiu3-want-need",
       "pattern": "要 + Noun / Verb",
       "jyutping": "jiu3 + Noun / Verb",
+      "patternRomanised": {
+        "jyutping": "jiu3 + Noun / Verb",
+        "yale": "yiu + Noun / Verb",
+        "bopomofo": "ㄧㄨ³ + Noun / Verb"
+      },
       "meaning": "to want (something); to need to / have to",
       "level": "A1",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "要 + noun is how you order or ask for things. 要 + verb means 'need to' or 'have to'. Its negative, 唔要, means 'don't want'; 'don't need to' is 唔使.",
+      "explanationParts": [
+        {
+          "cjk": "要",
+          "jyutping": "jiu3",
+          "yale": "yiu",
+          "bopomofo": "ㄧㄨ³"
+        },
+        " + noun is how you order or ask for things. ",
+        {
+          "cjk": "要",
+          "jyutping": "jiu3",
+          "yale": "yiu",
+          "bopomofo": "ㄧㄨ³"
+        },
+        " + verb means 'need to' or 'have to'. Its negative, ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "要",
+          "jyutping": "jiu3",
+          "yale": "yiu",
+          "bopomofo": "ㄧㄨ³"
+        },
+        ", means 'don't want'; 'don't need to' is ",
+        {
+          "cjk": "唔使",
+          "jyutping": "m4 sai2",
+          "yale": "m̀h sái",
+          "bopomofo": "ㆬ⁴ ㄙㄜㄧ²"
+        },
+        "."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -1915,11 +2646,33 @@
       "id": "hou2-very",
       "pattern": "好 + Adjective",
       "jyutping": "hou2 + Adjective",
+      "patternRomanised": {
+        "jyutping": "hou2 + Adjective",
+        "yale": "hóu + Adjective",
+        "bopomofo": "ㄏㄛㄨ² + Adjective"
+      },
       "meaning": "very",
       "level": "A1",
       "function": "degree-and-comparison",
       "functionName": "Degree and comparison",
       "explanation": "Adjectives work like verbs, so no 係 is needed. A bare adjective can sound incomplete or comparative, so 好 is added by default — it often means just 'is' rather than a strong 'very'.",
+      "explanationParts": [
+        "Adjectives work like verbs, so no ",
+        {
+          "cjk": "係",
+          "jyutping": "hai6",
+          "yale": "haih",
+          "bopomofo": "ㄏㄜㄧ⁶"
+        },
+        " is needed. A bare adjective can sound incomplete or comparative, so ",
+        {
+          "cjk": "好",
+          "jyutping": "hou2",
+          "yale": "hóu",
+          "bopomofo": "ㄏㄛㄨ²"
+        },
+        " is added by default — it often means just 'is' rather than a strong 'very'."
+      ],
       "writtenEquivalent": {
         "cjk": "很",
         "note": "Written Chinese uses 很; in speech say 好."
@@ -2040,7 +2793,23 @@
             "yale": "hóu hóu",
             "bopomofo": "ㄏㄛㄨ² ㄏㄛㄨ²"
           },
-          "note": "很 is written Chinese. 'Very good' is 好好."
+          "note": "很 is written Chinese. 'Very good' is 好好.",
+          "noteParts": [
+            {
+              "cjk": "很",
+              "jyutping": "han2",
+              "yale": "hán",
+              "bopomofo": "ㄏㄜㄣ²"
+            },
+            " is written Chinese. 'Very good' is ",
+            {
+              "cjk": "好好",
+              "jyutping": "hou2 hou2",
+              "yale": "hóu hóu",
+              "bopomofo": "ㄏㄛㄨ² ㄏㄛㄨ²"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -2056,11 +2825,46 @@
       "id": "gei2-do1-cin2",
       "pattern": "… 幾多錢？",
       "jyutping": "… gei2 do1 cin2?",
+      "patternRomanised": {
+        "jyutping": "… gei2 do1 cin2?",
+        "yale": "… géi dō chín?",
+        "bopomofo": "… ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²?"
+      },
       "meaning": "How much is…?",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "Put 幾多錢 after the thing you are asking about. Prices are answered with a number + 蚊 (man1, dollars): 三十蚊.",
+      "explanationParts": [
+        "Put ",
+        {
+          "cjk": "幾多錢",
+          "jyutping": "gei2 do1 cin2",
+          "yale": "géi dō chín",
+          "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+        },
+        " after the thing you are asking about. Prices are answered with a number + ",
+        {
+          "cjk": "蚊",
+          "jyutping": "man1",
+          "yale": "mān",
+          "bopomofo": "ㄇㄜㄣ¹"
+        },
+        " (man1, dollars): ",
+        {
+          "cjk": "三十",
+          "jyutping": "saam1 sap6",
+          "yale": "sāam sahp",
+          "bopomofo": "ㄙㄚㆬ¹ ㄙㄜㆴ⁶"
+        },
+        {
+          "cjk": "蚊",
+          "jyutping": "man1",
+          "yale": "mān",
+          "bopomofo": "ㄇㄜㄣ¹"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "多少錢",
         "note": "Written Chinese uses 多少."
@@ -2199,7 +3003,29 @@
             "yale": "nī go géi dō chín a?",
             "bopomofo": "ㄋㄧ¹ ㄍㄛ³ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?"
           },
-          "note": "這 and 多少 are written forms."
+          "note": "這 and 多少 are written forms.",
+          "noteParts": [
+            {
+              "cjk": "這",
+              "jyutping": "ze5",
+              "yale": "jéh",
+              "bopomofo": "ㄗㄝ⁵"
+            },
+            " and ",
+            {
+              "cjk": "多",
+              "jyutping": "do1",
+              "yale": "dō",
+              "bopomofo": "ㄉㄛ¹"
+            },
+            {
+              "cjk": "少",
+              "jyutping": "siu2",
+              "yale": "síu",
+              "bopomofo": "ㄙㄧㄨ²"
+            },
+            " are written forms."
+          ]
         }
       ],
       "related": [
@@ -2215,11 +3041,64 @@
       "id": "mat1-je5-what",
       "pattern": "乜嘢 / 咩",
       "jyutping": "mat1 je5 / me1",
+      "patternRomanised": {
+        "jyutping": "mat1 je5 / me1",
+        "yale": "māt yéh / mē",
+        "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵ / ㄇㄝ¹"
+      },
       "meaning": "what",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "乜嘢 means 'what' and stays in the same place as the answer would: 你食乜嘢？ — 我食飯. 咩 (me1) is the short, everyday form.",
+      "explanationParts": [
+        {
+          "cjk": "乜嘢",
+          "jyutping": "mat1 je5",
+          "yale": "māt yéh",
+          "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+        },
+        " means 'what' and stays in the same place as the answer would: ",
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "食",
+          "jyutping": "sik6",
+          "yale": "sihk",
+          "bopomofo": "ㄙㄧㆶ⁶"
+        },
+        {
+          "cjk": "乜嘢",
+          "jyutping": "mat1 je5",
+          "yale": "māt yéh",
+          "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+        },
+        "？ — ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "食飯",
+          "jyutping": "sik6 faan6",
+          "yale": "sihk faahn",
+          "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+        },
+        ". ",
+        {
+          "cjk": "咩",
+          "jyutping": "me1",
+          "yale": "mē",
+          "bopomofo": "ㄇㄝ¹"
+        },
+        " (me1) is the short, everyday form."
+      ],
       "writtenEquivalent": {
         "cjk": "甚麼",
         "note": "Written Chinese uses 甚麼 / 什麼."
@@ -2358,7 +3237,22 @@
             "yale": "néih yiu māt yéh a?",
             "bopomofo": "ㄋㄝㄧ⁵ ㄧㄨ³ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³?"
           },
-          "note": "甚麼 is written Chinese."
+          "note": "甚麼 is written Chinese.",
+          "noteParts": [
+            {
+              "cjk": "甚",
+              "jyutping": "sam6",
+              "yale": "sahm",
+              "bopomofo": "ㄙㄜㆬ⁶"
+            },
+            {
+              "cjk": "麼",
+              "jyutping": "mo1",
+              "yale": "mō",
+              "bopomofo": "ㄇㄛ¹"
+            },
+            " is written Chinese."
+          ]
         }
       ],
       "related": [
@@ -2374,11 +3268,72 @@
       "id": "bin1-where-who",
       "pattern": "邊度 / 邊個 / 邊 + Classifier",
       "jyutping": "bin1 dou6 / bin1 go3 / bin1 + Classifier",
+      "patternRomanised": {
+        "jyutping": "bin1 dou6 / bin1 go3 / bin1 + Classifier",
+        "yale": "bīn douh / bīn go / bīn + Classifier",
+        "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶ / ㄅㄧㄣ¹ ㄍㄛ³ / ㄅㄧㄣ¹ + Classifier"
+      },
       "meaning": "where / who / which",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "邊 means 'which'. 邊度 is 'which place' (where), 邊個 is 'which person' (who), and 邊 + any classifier asks 'which one': 邊件, 邊間.",
+      "explanationParts": [
+        {
+          "cjk": "邊",
+          "jyutping": "bin1",
+          "yale": "bīn",
+          "bopomofo": "ㄅㄧㄣ¹"
+        },
+        " means 'which'. ",
+        {
+          "cjk": "邊度",
+          "jyutping": "bin1 dou6",
+          "yale": "bīn douh",
+          "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+        },
+        " is 'which place' (where), ",
+        {
+          "cjk": "邊個",
+          "jyutping": "bin1 go3",
+          "yale": "bīn go",
+          "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+        },
+        " is 'which person' (who), and ",
+        {
+          "cjk": "邊",
+          "jyutping": "bin1",
+          "yale": "bīn",
+          "bopomofo": "ㄅㄧㄣ¹"
+        },
+        " + any classifier asks 'which one': ",
+        {
+          "cjk": "邊",
+          "jyutping": "bin1",
+          "yale": "bīn",
+          "bopomofo": "ㄅㄧㄣ¹"
+        },
+        {
+          "cjk": "件",
+          "jyutping": "gin6",
+          "yale": "gihn",
+          "bopomofo": "ㄍㄧㄣ⁶"
+        },
+        ", ",
+        {
+          "cjk": "邊",
+          "jyutping": "bin1",
+          "yale": "bīn",
+          "bopomofo": "ㄅㄧㄣ¹"
+        },
+        {
+          "cjk": "間",
+          "jyutping": "gaan1",
+          "yale": "gāan",
+          "bopomofo": "ㄍㄚㄣ¹"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "哪裏 / 誰 / 哪",
         "note": "Written Chinese uses 哪裏, 誰 and 哪."
@@ -2522,11 +3477,69 @@
       "id": "gei2-si4-when",
       "pattern": "幾時 + Verb？",
       "jyutping": "gei2 si4 + Verb?",
+      "patternRomanised": {
+        "jyutping": "gei2 si4 + Verb?",
+        "yale": "géi sìh + Verb?",
+        "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴ + Verb?"
+      },
       "meaning": "when",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "幾時 goes before the verb, where the time word would go in the answer: 你幾時返工？ — 我九點返工.",
+      "explanationParts": [
+        {
+          "cjk": "幾時",
+          "jyutping": "gei2 si4",
+          "yale": "géi sìh",
+          "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+        },
+        " goes before the verb, where the time word would go in the answer: ",
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "幾時",
+          "jyutping": "gei2 si4",
+          "yale": "géi sìh",
+          "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+        },
+        {
+          "cjk": "返工",
+          "jyutping": "faan1 gung1",
+          "yale": "fāan gūng",
+          "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+        },
+        "？ — ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "九",
+          "jyutping": "gau2",
+          "yale": "gáu",
+          "bopomofo": "ㄍㄜㄨ²"
+        },
+        {
+          "cjk": "點",
+          "jyutping": "dim2",
+          "yale": "dím",
+          "bopomofo": "ㄉㄧㆬ²"
+        },
+        {
+          "cjk": "返工",
+          "jyutping": "faan1 gung1",
+          "yale": "fāan gūng",
+          "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+        },
+        "."
+      ],
       "writtenEquivalent": {
         "cjk": "甚麼時候",
         "note": "Written Chinese uses 甚麼時候."
@@ -2664,11 +3677,70 @@
       "id": "aa3-softener",
       "pattern": "… 呀",
       "jyutping": "… aa3",
+      "patternRomanised": {
+        "jyutping": "… aa3",
+        "yale": "… a",
+        "bopomofo": "… ㄚ³"
+      },
       "meaning": "friendly softener for questions and replies",
       "level": "A1",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "Sentence-final particles add tone of voice. 呀 makes questions and short answers sound warm rather than blunt. 你去邊度？ is abrupt; 你去邊度呀？ is friendly.",
+      "explanationParts": [
+        "Sentence-final particles add tone of voice. ",
+        {
+          "cjk": "呀",
+          "jyutping": "aa3",
+          "yale": "a",
+          "bopomofo": "ㄚ³"
+        },
+        " makes questions and short answers sound warm rather than blunt. ",
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        {
+          "cjk": "邊度",
+          "jyutping": "bin1 dou6",
+          "yale": "bīn douh",
+          "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+        },
+        "？ is abrupt; ",
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        {
+          "cjk": "邊度",
+          "jyutping": "bin1 dou6",
+          "yale": "bīn douh",
+          "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+        },
+        {
+          "cjk": "呀",
+          "jyutping": "aa3",
+          "yale": "a",
+          "bopomofo": "ㄚ³"
+        },
+        "？ is friendly."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -2773,11 +3845,32 @@
       "id": "laa1-suggestion",
       "pattern": "… 啦",
       "jyutping": "… laa1",
+      "patternRomanised": {
+        "jyutping": "… laa1",
+        "yale": "… lā",
+        "bopomofo": "… ㄌㄚ¹"
+      },
       "meaning": "suggestion, invitation or gentle request",
       "level": "A1",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "啦 (laa1, high level tone) turns a statement into a suggestion or polite urging: 'let's…', 'go ahead and…'. Don't confuse it with 喇 (laa3), which marks a change of situation.",
+      "explanationParts": [
+        {
+          "cjk": "啦",
+          "jyutping": "laa1",
+          "yale": "lā",
+          "bopomofo": "ㄌㄚ¹"
+        },
+        " (laa1, high level tone) turns a statement into a suggestion or polite urging: 'let's…', 'go ahead and…'. Don't confuse it with ",
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        " (laa3), which marks a change of situation."
+      ],
       "writtenEquivalent": {
         "cjk": "吧",
         "note": "Written Chinese uses 吧."
@@ -2886,7 +3979,43 @@
             "yale": "ngóh deih jáu lā.",
             "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄗㄜㄨ² ㄌㄚ¹."
           },
-          "note": "我們 and 吧 are written forms. Speech uses 我哋 and 啦."
+          "note": "我們 and 吧 are written forms. Speech uses 我哋 and 啦.",
+          "noteParts": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "們",
+              "jyutping": "mun4",
+              "yale": "mùhn",
+              "bopomofo": "ㄇㄨㄣ⁴"
+            },
+            " and ",
+            {
+              "cjk": "吧",
+              "jyutping": "baa6",
+              "yale": "bah",
+              "bopomofo": "ㄅㄚ⁶"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "我哋",
+              "jyutping": "ngo5 dei6",
+              "yale": "ngóh deih",
+              "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶"
+            },
+            " and ",
+            {
+              "cjk": "啦",
+              "jyutping": "laa1",
+              "yale": "lā",
+              "bopomofo": "ㄌㄚ¹"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -2902,11 +4031,33 @@
       "id": "maa3-question",
       "pattern": "… 嗎？",
       "jyutping": "… maa3?",
+      "patternRomanised": {
+        "jyutping": "… maa3?",
+        "yale": "… ma?",
+        "bopomofo": "… ㄇㄚ³?"
+      },
       "meaning": "neutral yes/no question",
       "level": "A1",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "Adding 嗎 to a statement makes it a yes/no question. It is correct and widely understood, though A-not-A questions (去唔去？) sound more colloquial in everyday speech.",
+      "explanationParts": [
+        "Adding ",
+        {
+          "cjk": "嗎",
+          "jyutping": "maa3",
+          "yale": "ma",
+          "bopomofo": "ㄇㄚ³"
+        },
+        " to a statement makes it a yes/no question. It is correct and widely understood, though A-not-A questions (",
+        {
+          "cjk": "去唔去",
+          "jyutping": "heoi3 m4 heoi3",
+          "yale": "heui m̀h heui",
+          "bopomofo": "ㄏㆤㄧ³ ㆬ⁴ ㄏㆤㄧ³"
+        },
+        "？) sound more colloquial in everyday speech."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -3023,11 +4174,25 @@
       "id": "tung4-and-with",
       "pattern": "A + 同 + B",
       "jyutping": "A + tung4 + B",
+      "patternRomanised": {
+        "jyutping": "A + tung4 + B",
+        "yale": "A + tùhng + B",
+        "bopomofo": "A + ㄊㄨㄥ⁴ + B"
+      },
       "meaning": "and; with",
       "level": "A1",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "同 joins two nouns ('and') or says who you do something with ('with'). It joins nouns and people, not whole sentences.",
+      "explanationParts": [
+        {
+          "cjk": "同",
+          "jyutping": "tung4",
+          "yale": "tùhng",
+          "bopomofo": "ㄊㄨㄥ⁴"
+        },
+        " joins two nouns ('and') or says who you do something with ('with'). It joins nouns and people, not whole sentences."
+      ],
       "writtenEquivalent": {
         "cjk": "和 / 跟",
         "note": "Written Chinese uses 和 or 跟."
@@ -3200,11 +4365,32 @@
       "id": "m4-hou2-dont",
       "pattern": "唔好 + Verb",
       "jyutping": "m4 hou2 + Verb",
+      "patternRomanised": {
+        "jyutping": "m4 hou2 + Verb",
+        "yale": "m̀h hóu + Verb",
+        "bopomofo": "ㆬ⁴ ㄏㄛㄨ² + Verb"
+      },
       "meaning": "don't (telling someone not to)",
       "level": "A1",
       "function": "negation",
       "functionName": "Negation",
       "explanation": "唔好 before a verb tells someone not to do something. It is the everyday way to say 'don't'. Compare 唔使, which means 'there's no need to'.",
+      "explanationParts": [
+        {
+          "cjk": "唔好",
+          "jyutping": "m4 hou2",
+          "yale": "m̀h hóu",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+        },
+        " before a verb tells someone not to do something. It is the everyday way to say 'don't'. Compare ",
+        {
+          "cjk": "唔使",
+          "jyutping": "m4 sai2",
+          "yale": "m̀h sái",
+          "bopomofo": "ㆬ⁴ ㄙㄜㄧ²"
+        },
+        ", which means 'there's no need to'."
+      ],
       "writtenEquivalent": {
         "cjk": "不要 / 別",
         "note": "Written Chinese uses 不要 or 別."
@@ -3313,7 +4499,29 @@
             "yale": "m̀h hóu dāam sām.",
             "bopomofo": "ㆬ⁴ ㄏㄛㄨ² ㄉㄚㆬ¹ ㄙㄜㆬ¹."
           },
-          "note": "不要 is written Chinese. Say 唔好."
+          "note": "不要 is written Chinese. Say 唔好.",
+          "noteParts": [
+            {
+              "cjk": "不",
+              "jyutping": "bat1",
+              "yale": "bāt",
+              "bopomofo": "ㄅㄜㆵ¹"
+            },
+            {
+              "cjk": "要",
+              "jyutping": "jiu3",
+              "yale": "yiu",
+              "bopomofo": "ㄧㄨ³"
+            },
+            " is written Chinese. Say ",
+            {
+              "cjk": "唔好",
+              "jyutping": "m4 hou2",
+              "yale": "m̀h hóu",
+              "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -3329,11 +4537,39 @@
       "id": "ding6-hai6-or",
       "pattern": "A 定係 B？",
       "jyutping": "A ding6 hai6 B?",
+      "patternRomanised": {
+        "jyutping": "A ding6 hai6 B?",
+        "yale": "A dihng haih B?",
+        "bopomofo": "A ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ B?"
+      },
       "meaning": "…or…? (choosing in a question)",
       "level": "A1",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "定係 (often shortened to 定) offers a choice in a question: tea or coffee? In a statement, 'or' is 或者 instead.",
+      "explanationParts": [
+        {
+          "cjk": "定係",
+          "jyutping": "ding6 hai6",
+          "yale": "dihng haih",
+          "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+        },
+        " (often shortened to ",
+        {
+          "cjk": "定",
+          "jyutping": "ding6",
+          "yale": "dihng",
+          "bopomofo": "ㄉㄧㄥ⁶"
+        },
+        ") offers a choice in a question: tea or coffee? In a statement, 'or' is ",
+        {
+          "cjk": "或者",
+          "jyutping": "waak6 ze2",
+          "yale": "waahk jé",
+          "bopomofo": "ㄨㄚㆶ⁶ ㄗㄝ²"
+        },
+        " instead."
+      ],
       "writtenEquivalent": {
         "cjk": "還是",
         "note": "Written Chinese uses 還是."
@@ -3490,7 +4726,29 @@
             "yale": "néih yiu chàh dihng haih ga fē a?",
             "bopomofo": "ㄋㄝㄧ⁵ ㄧㄨ³ ㄘㄚ⁴ ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄍㄚ³ ㄈㄝ¹ ㄚ³?"
           },
-          "note": "還是 is written Chinese; 或者 is for statements, not questions."
+          "note": "還是 is written Chinese; 或者 is for statements, not questions.",
+          "noteParts": [
+            {
+              "cjk": "還",
+              "jyutping": "waan4",
+              "yale": "wàahn",
+              "bopomofo": "ㄨㄚㄣ⁴"
+            },
+            {
+              "cjk": "是",
+              "jyutping": "si6",
+              "yale": "sih",
+              "bopomofo": "ㄙㄧ⁶"
+            },
+            " is written Chinese; ",
+            {
+              "cjk": "或者",
+              "jyutping": "waak6 ze2",
+              "yale": "waahk jé",
+              "bopomofo": "ㄨㄚㆶ⁶ ㄗㄝ²"
+            },
+            " is for statements, not questions."
+          ]
         }
       ],
       "related": [
@@ -3506,11 +4764,73 @@
       "id": "mei6-yet",
       "pattern": "Verb + 咗 + … 未？ / 未 + Verb",
       "jyutping": "Verb + zo2 + … mei6? / mei6 + Verb",
+      "patternRomanised": {
+        "jyutping": "Verb + zo2 + … mei6? / mei6 + Verb",
+        "yale": "Verb + jó + … meih? / meih + Verb",
+        "bopomofo": "Verb + ㄗㄛ² + … ㄇㄝㄧ⁶? / ㄇㄝㄧ⁶ + Verb"
+      },
       "meaning": "…yet? / not yet",
       "level": "A2",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "Put 未 at the end of a 咗 sentence to ask 'yet?'. Answer …咗喇 (yes, already) or 未呀 (not yet). Before a verb, 未 means 'haven't yet'. 食咗飯未呀？ is also an everyday greeting.",
+      "explanationParts": [
+        "Put ",
+        {
+          "cjk": "未",
+          "jyutping": "mei6",
+          "yale": "meih",
+          "bopomofo": "ㄇㄝㄧ⁶"
+        },
+        " at the end of a ",
+        {
+          "cjk": "咗",
+          "jyutping": "zo2",
+          "yale": "jó",
+          "bopomofo": "ㄗㄛ²"
+        },
+        " sentence to ask 'yet?'. Answer …",
+        {
+          "cjk": "咗",
+          "jyutping": "zo2",
+          "yale": "jó",
+          "bopomofo": "ㄗㄛ²"
+        },
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        " (yes, already) or ",
+        {
+          "cjk": "未",
+          "jyutping": "mei6",
+          "yale": "meih",
+          "bopomofo": "ㄇㄝㄧ⁶"
+        },
+        {
+          "cjk": "呀",
+          "jyutping": "aa3",
+          "yale": "a",
+          "bopomofo": "ㄚ³"
+        },
+        " (not yet). Before a verb, ",
+        {
+          "cjk": "未",
+          "jyutping": "mei6",
+          "yale": "meih",
+          "bopomofo": "ㄇㄝㄧ⁶"
+        },
+        " means 'haven't yet'. ",
+        {
+          "cjk": "食咗飯未呀",
+          "jyutping": "sik6 zo2 faan6 mei6 aa3",
+          "yale": "sihk jó faahn meih a",
+          "bopomofo": "ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³"
+        },
+        "？ is also an everyday greeting."
+      ],
       "writtenEquivalent": {
         "cjk": "…了沒有？ / 還沒",
         "note": "Written Chinese uses 了沒有 and 還沒."
@@ -3654,11 +4974,39 @@
       "id": "gwo3-experience",
       "pattern": "Verb + 過",
       "jyutping": "Verb + gwo3",
+      "patternRomanised": {
+        "jyutping": "Verb + gwo3",
+        "yale": "Verb + gwo",
+        "bopomofo": "Verb + ㄍㄨㄛ³"
+      },
       "meaning": "have ever done (experience)",
       "level": "A2",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "過 after a verb says you have had the experience at some point: 'have been to', 'have tried'. 未 + Verb + 過 means 'have never'.",
+      "explanationParts": [
+        {
+          "cjk": "過",
+          "jyutping": "gwo3",
+          "yale": "gwo",
+          "bopomofo": "ㄍㄨㄛ³"
+        },
+        " after a verb says you have had the experience at some point: 'have been to', 'have tried'. ",
+        {
+          "cjk": "未",
+          "jyutping": "mei6",
+          "yale": "meih",
+          "bopomofo": "ㄇㄝㄧ⁶"
+        },
+        " + Verb + ",
+        {
+          "cjk": "過",
+          "jyutping": "gwo3",
+          "yale": "gwo",
+          "bopomofo": "ㄍㄨㄛ³"
+        },
+        " means 'have never'."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -3806,11 +5154,32 @@
       "id": "sik1-know-how",
       "pattern": "識 + Verb",
       "jyutping": "sik1 + Verb",
+      "patternRomanised": {
+        "jyutping": "sik1 + Verb",
+        "yale": "sīk + Verb",
+        "bopomofo": "ㄙㄧㆶ¹ + Verb"
+      },
       "meaning": "know how to; can (a learned skill)",
       "level": "A2",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "識 before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than 會, which leans towards 'will'.",
+      "explanationParts": [
+        {
+          "cjk": "識",
+          "jyutping": "sik1",
+          "yale": "sīk",
+          "bopomofo": "ㄙㄧㆶ¹"
+        },
+        " before a verb means you have learned how to do something: speak a language, swim, drive. For learned skills it is more natural than ",
+        {
+          "cjk": "會",
+          "jyutping": "wui5",
+          "yale": "wúih",
+          "bopomofo": "ㄨㄨㄧ⁵"
+        },
+        ", which leans towards 'will'."
+      ],
       "writtenEquivalent": {
         "cjk": "會",
         "note": "Written Chinese uses 會 for learned ability."
@@ -3943,7 +5312,49 @@
             "yale": "ngóh m̀h sīk góng gwóng dūng wá.",
             "bopomofo": "ㆭㄛ⁵ ㆬ⁴ ㄙㄧㆶ¹ ㄍㄛㄥ² ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²."
           },
-          "note": "不, 會 and 說 are written forms. Speech uses 唔識講."
+          "note": "不, 會 and 說 are written forms. Speech uses 唔識講.",
+          "noteParts": [
+            {
+              "cjk": "不",
+              "jyutping": "bat1",
+              "yale": "bāt",
+              "bopomofo": "ㄅㄜㆵ¹"
+            },
+            ", ",
+            {
+              "cjk": "會",
+              "jyutping": "wui5",
+              "yale": "wúih",
+              "bopomofo": "ㄨㄨㄧ⁵"
+            },
+            " and ",
+            {
+              "cjk": "說",
+              "jyutping": "syut3",
+              "yale": "syut",
+              "bopomofo": "ㄙㄩㆵ³"
+            },
+            " are written forms. Speech uses ",
+            {
+              "cjk": "唔",
+              "jyutping": "m4",
+              "yale": "m̀h",
+              "bopomofo": "ㆬ⁴"
+            },
+            {
+              "cjk": "識",
+              "jyutping": "sik1",
+              "yale": "sīk",
+              "bopomofo": "ㄙㄧㆶ¹"
+            },
+            {
+              "cjk": "講",
+              "jyutping": "gong2",
+              "yale": "góng",
+              "bopomofo": "ㄍㄛㄥ²"
+            },
+            "."
+          ]
         }
       ],
       "related": [
@@ -3959,11 +5370,52 @@
       "id": "ho2-ji5-may",
       "pattern": "可唔可以 + Verb？",
       "jyutping": "ho2 m4 ho2 ji5 + Verb?",
+      "patternRomanised": {
+        "jyutping": "ho2 m4 ho2 ji5 + Verb?",
+        "yale": "hó m̀h hó yíh + Verb?",
+        "bopomofo": "ㄏㄛ² ㆬ⁴ ㄏㄛ² ㄧ⁵ + Verb?"
+      },
       "meaning": "may I…? / could you…?",
       "level": "A2",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "可以 means 'may' or 'can' (permission or possibility). Its A-not-A form 可唔可以 is the standard polite request. Answer 可以 (yes) or 唔可以 (no).",
+      "explanationParts": [
+        {
+          "cjk": "可以",
+          "jyutping": "ho2 ji5",
+          "yale": "hó yíh",
+          "bopomofo": "ㄏㄛ² ㄧ⁵"
+        },
+        " means 'may' or 'can' (permission or possibility). Its A-not-A form ",
+        {
+          "cjk": "可唔可以",
+          "jyutping": "ho2 m4 ho2 ji5",
+          "yale": "hó m̀h hó yíh",
+          "bopomofo": "ㄏㄛ² ㆬ⁴ ㄏㄛ² ㄧ⁵"
+        },
+        " is the standard polite request. Answer ",
+        {
+          "cjk": "可以",
+          "jyutping": "ho2 ji5",
+          "yale": "hó yíh",
+          "bopomofo": "ㄏㄛ² ㄧ⁵"
+        },
+        " (yes) or ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "可以",
+          "jyutping": "ho2 ji5",
+          "yale": "hó yíh",
+          "bopomofo": "ㄏㄛ² ㄧ⁵"
+        },
+        " (no)."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -4110,11 +5562,32 @@
       "id": "taai3-too",
       "pattern": "太 + Adjective + 喇",
       "jyutping": "taai3 + Adjective + laa3",
+      "patternRomanised": {
+        "jyutping": "taai3 + Adjective + laa3",
+        "yale": "taai + Adjective + la",
+        "bopomofo": "ㄊㄚㄧ³ + Adjective + ㄌㄚ³"
+      },
       "meaning": "too (much)",
       "level": "A2",
       "function": "degree-and-comparison",
       "functionName": "Degree and comparison",
       "explanation": "太 before an adjective means 'too'. It is very often followed by 喇, which marks the situation as having gone past what's acceptable.",
+      "explanationParts": [
+        {
+          "cjk": "太",
+          "jyutping": "taai3",
+          "yale": "taai",
+          "bopomofo": "ㄊㄚㄧ³"
+        },
+        " before an adjective means 'too'. It is very often followed by ",
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        ", which marks the situation as having gone past what's acceptable."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -4261,11 +5734,39 @@
       "id": "dim2-gaai2-why",
       "pattern": "點解 …？",
       "jyutping": "dim2 gaai2 …?",
+      "patternRomanised": {
+        "jyutping": "dim2 gaai2 …?",
+        "yale": "dím gáai …?",
+        "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ² …?"
+      },
       "meaning": "why",
       "level": "A2",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "點解 can go at the start of the question or after the subject. Answers usually begin with 因為 (because). Ending with 㗎 adds a note of puzzlement.",
+      "explanationParts": [
+        {
+          "cjk": "點解",
+          "jyutping": "dim2 gaai2",
+          "yale": "dím gáai",
+          "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+        },
+        " can go at the start of the question or after the subject. Answers usually begin with ",
+        {
+          "cjk": "因為",
+          "jyutping": "jan1 wai6",
+          "yale": "yān waih",
+          "bopomofo": "ㄧㄜㄣ¹ ㄨㄜㄧ⁶"
+        },
+        " (because). Ending with ",
+        {
+          "cjk": "㗎",
+          "jyutping": "gaa3",
+          "yale": "ga",
+          "bopomofo": "ㄍㄚ³"
+        },
+        " adds a note of puzzlement."
+      ],
       "writtenEquivalent": {
         "cjk": "為甚麼",
         "note": "Written Chinese uses 為甚麼."
@@ -4409,11 +5910,45 @@
       "id": "dim2-how",
       "pattern": "點(樣) + Verb？",
       "jyutping": "dim2 (joeng2) + Verb?",
+      "patternRomanised": {
+        "jyutping": "dim2 (joeng2) + Verb?",
+        "yale": "dím (yéung) + Verb?",
+        "bopomofo": "ㄉㄧㆬ² (ㄧㆦㄥ²) + Verb?"
+      },
       "meaning": "how (to do something)",
       "level": "A2",
       "function": "questions",
       "functionName": "Asking questions",
       "explanation": "點 or 點樣 before a verb asks how to do it. 點去…？ ('how to get to…?') is essential for directions.",
+      "explanationParts": [
+        {
+          "cjk": "點",
+          "jyutping": "dim2",
+          "yale": "dím",
+          "bopomofo": "ㄉㄧㆬ²"
+        },
+        " or ",
+        {
+          "cjk": "點樣",
+          "jyutping": "dim2 joeng2",
+          "yale": "dím yéung",
+          "bopomofo": "ㄉㄧㆬ² ㄧㆦㄥ²"
+        },
+        " before a verb asks how to do it. ",
+        {
+          "cjk": "點",
+          "jyutping": "dim2",
+          "yale": "dím",
+          "bopomofo": "ㄉㄧㆬ²"
+        },
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        "…？ ('how to get to…?') is essential for directions."
+      ],
       "writtenEquivalent": {
         "cjk": "怎樣",
         "note": "Written Chinese uses 怎樣 / 怎麼."
@@ -4575,11 +6110,32 @@
       "id": "laa3-change",
       "pattern": "… 喇",
       "jyutping": "… laa3",
+      "patternRomanised": {
+        "jyutping": "… laa3",
+        "yale": "… la",
+        "bopomofo": "… ㄌㄚ³"
+      },
       "meaning": "change of situation; 'now'",
       "level": "A2",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "喇 (laa3, mid level tone) signals that something has changed or a new situation now holds: I'm full now, it's started raining. Compare 啦 (laa1), which makes suggestions.",
+      "explanationParts": [
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        " (laa3, mid level tone) signals that something has changed or a new situation now holds: I'm full now, it's started raining. Compare ",
+        {
+          "cjk": "啦",
+          "jyutping": "laa1",
+          "yale": "lā",
+          "bopomofo": "ㄌㄚ¹"
+        },
+        " (laa1), which makes suggestions."
+      ],
       "writtenEquivalent": {
         "cjk": "了",
         "note": "Written Chinese uses sentence-final 了."
@@ -4691,11 +6247,64 @@
       "id": "me1-surprise",
       "pattern": "… 咩？",
       "jyutping": "… me1?",
+      "patternRomanised": {
+        "jyutping": "… me1?",
+        "yale": "… mē?",
+        "bopomofo": "… ㄇㄝ¹?"
+      },
       "meaning": "surprised question ('really?')",
       "level": "A2",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "At the end of a sentence, 咩 shows surprise or doubt: you expected the opposite. 你識講廣東話咩？ means 'You can speak Cantonese?!' This is different from 咩 meaning 'what' inside a sentence.",
+      "explanationParts": [
+        "At the end of a sentence, ",
+        {
+          "cjk": "咩",
+          "jyutping": "me1",
+          "yale": "mē",
+          "bopomofo": "ㄇㄝ¹"
+        },
+        " shows surprise or doubt: you expected the opposite. ",
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "識",
+          "jyutping": "sik1",
+          "yale": "sīk",
+          "bopomofo": "ㄙㄧㆶ¹"
+        },
+        {
+          "cjk": "講",
+          "jyutping": "gong2",
+          "yale": "góng",
+          "bopomofo": "ㄍㄛㄥ²"
+        },
+        {
+          "cjk": "廣東話",
+          "jyutping": "gwong2 dung1 waa2",
+          "yale": "gwóng dūng wá",
+          "bopomofo": "ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²"
+        },
+        {
+          "cjk": "咩",
+          "jyutping": "me1",
+          "yale": "mē",
+          "bopomofo": "ㄇㄝ¹"
+        },
+        "？ means 'You can speak Cantonese?!' This is different from ",
+        {
+          "cjk": "咩",
+          "jyutping": "me1",
+          "yale": "mē",
+          "bopomofo": "ㄇㄝ¹"
+        },
+        " meaning 'what' inside a sentence."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -4830,11 +6439,38 @@
       "id": "dou1-also",
       "pattern": "Subject + 都 + Verb",
       "jyutping": "Subject + dou1 + Verb",
+      "patternRomanised": {
+        "jyutping": "Subject + dou1 + Verb",
+        "yale": "Subject + dōu + Verb",
+        "bopomofo": "Subject + ㄉㄛㄨ¹ + Verb"
+      },
       "meaning": "also; both / all",
       "level": "A2",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "都 means 'also' or 'all' and always goes before the verb — never at the end of the sentence like English 'too'. With a negative, 都唔 means 'not … either'.",
+      "explanationParts": [
+        {
+          "cjk": "都",
+          "jyutping": "dou1",
+          "yale": "dōu",
+          "bopomofo": "ㄉㄛㄨ¹"
+        },
+        " means 'also' or 'all' and always goes before the verb — never at the end of the sentence like English 'too'. With a negative, ",
+        {
+          "cjk": "都",
+          "jyutping": "dou1",
+          "yale": "dōu",
+          "bopomofo": "ㄉㄛㄨ¹"
+        },
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        " means 'not … either'."
+      ],
       "writtenEquivalent": {
         "cjk": "也 / 都",
         "note": "Written Chinese often uses 也."
@@ -4967,7 +6603,16 @@
             "yale": "ngóh dōu haih hohk sāang.",
             "bopomofo": "ㆭㄛ⁵ ㄉㄛㄨ¹ ㄏㄜㄧ⁶ ㄏㄛㆶ⁶ ㄙㄚㄥ¹."
           },
-          "note": "都 goes before the verb, not at the end."
+          "note": "都 goes before the verb, not at the end.",
+          "noteParts": [
+            {
+              "cjk": "都",
+              "jyutping": "dou1",
+              "yale": "dōu",
+              "bopomofo": "ㄉㄛㄨ¹"
+            },
+            " goes before the verb, not at the end."
+          ]
         }
       ],
       "related": [
@@ -4982,11 +6627,63 @@
       "id": "bei2-give",
       "pattern": "畀 + Thing + Person",
       "jyutping": "bei2 + Thing + Person",
+      "patternRomanised": {
+        "jyutping": "bei2 + Thing + Person",
+        "yale": "béi + Thing + Person",
+        "bopomofo": "ㄅㄝㄧ² + Thing + Person"
+      },
       "meaning": "to give",
       "level": "A2",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "畀 means 'give'. In traditional Cantonese order the thing comes before the person: 畀杯水我 ('give a glass of water me'). The Mandarin-like order 畀我… is also heard, especially among younger speakers.",
+      "explanationParts": [
+        {
+          "cjk": "畀",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        " means 'give'. In traditional Cantonese order the thing comes before the person: ",
+        {
+          "cjk": "畀",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        {
+          "cjk": "杯",
+          "jyutping": "bui1",
+          "yale": "būi",
+          "bopomofo": "ㄅㄨㄧ¹"
+        },
+        {
+          "cjk": "水",
+          "jyutping": "seoi2",
+          "yale": "séui",
+          "bopomofo": "ㄙㆤㄧ²"
+        },
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        " ('give a glass of water me'). The Mandarin-like order ",
+        {
+          "cjk": "畀",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        "… is also heard, especially among younger speakers."
+      ],
       "writtenEquivalent": {
         "cjk": "給",
         "note": "Written Chinese uses 給, with the person first."
@@ -5131,7 +6828,30 @@
             "yale": "kéuih béi jó yāt bún syū ngóh.",
             "bopomofo": "ㄎㆤㄧ⁵ ㄅㄝㄧ² ㄗㄛ² ㄧㄜㆵ¹ ㄅㄨㄣ² ㄙㄩ¹ ㆭㄛ⁵."
           },
-          "note": "他, 給 and 了 are written forms."
+          "note": "他, 給 and 了 are written forms.",
+          "noteParts": [
+            {
+              "cjk": "他",
+              "jyutping": "taa1",
+              "yale": "tā",
+              "bopomofo": "ㄊㄚ¹"
+            },
+            ", ",
+            {
+              "cjk": "給",
+              "jyutping": "kap1",
+              "yale": "kāp",
+              "bopomofo": "ㄎㄜㆴ¹"
+            },
+            " and ",
+            {
+              "cjk": "了",
+              "jyutping": "liu5",
+              "yale": "líuh",
+              "bopomofo": "ㄌㄧㄨ⁵"
+            },
+            " are written forms."
+          ]
         }
       ],
       "related": [
@@ -5146,11 +6866,25 @@
       "id": "haa5-briefly",
       "pattern": "Verb + 吓",
       "jyutping": "Verb + haa5",
+      "patternRomanised": {
+        "jyutping": "Verb + haa5",
+        "yale": "Verb + háh",
+        "bopomofo": "Verb + ㄏㄚ⁵"
+      },
       "meaning": "do briefly; have a go",
       "level": "A2",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "吓 after a verb softens it: 'have a quick look', 'give it a try', 'wait a moment'. It makes requests and suggestions sound relaxed.",
+      "explanationParts": [
+        {
+          "cjk": "吓",
+          "jyutping": "haa5",
+          "yale": "háh",
+          "bopomofo": "ㄏㄚ⁵"
+        },
+        " after a verb softens it: 'have a quick look', 'give it a try', 'wait a moment'. It makes requests and suggestions sound relaxed."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -5266,11 +7000,83 @@
       "id": "gwo3-comparison",
       "pattern": "A + Adjective + 過 + B",
       "jyutping": "A + Adjective + gwo3 + B",
+      "patternRomanised": {
+        "jyutping": "A + Adjective + gwo3 + B",
+        "yale": "A + Adjective + gwo + B",
+        "bopomofo": "A + Adjective + ㄍㄨㄛ³ + B"
+      },
       "meaning": "A is more … than B",
       "level": "A2",
       "function": "degree-and-comparison",
       "functionName": "Degree and comparison",
       "explanation": "To compare, put 過 after the adjective: 佢高過我 ('he tall-past me'). The written-style 佢比我高 is understood, but 過 is the natural spoken form.",
+      "explanationParts": [
+        "To compare, put ",
+        {
+          "cjk": "過",
+          "jyutping": "gwo3",
+          "yale": "gwo",
+          "bopomofo": "ㄍㄨㄛ³"
+        },
+        " after the adjective: ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "高",
+          "jyutping": "gou1",
+          "yale": "gōu",
+          "bopomofo": "ㄍㄛㄨ¹"
+        },
+        {
+          "cjk": "過",
+          "jyutping": "gwo3",
+          "yale": "gwo",
+          "bopomofo": "ㄍㄨㄛ³"
+        },
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        " ('he tall-past me'). The written-style ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "比",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "高",
+          "jyutping": "gou1",
+          "yale": "gōu",
+          "bopomofo": "ㄍㄛㄨ¹"
+        },
+        " is understood, but ",
+        {
+          "cjk": "過",
+          "jyutping": "gwo3",
+          "yale": "gwo",
+          "bopomofo": "ㄍㄨㄛ³"
+        },
+        " is the natural spoken form."
+      ],
       "writtenEquivalent": {
         "cjk": "A 比 B + Adjective",
         "note": "Written Chinese uses 比 before the adjective."
@@ -5409,7 +7215,23 @@
             "yale": "kéuih gōu gwo ngóh.",
             "bopomofo": "ㄎㆤㄧ⁵ ㄍㄛㄨ¹ ㄍㄨㄛ³ ㆭㄛ⁵."
           },
-          "note": "他 is written; 比 sounds bookish in casual speech."
+          "note": "他 is written; 比 sounds bookish in casual speech.",
+          "noteParts": [
+            {
+              "cjk": "他",
+              "jyutping": "taa1",
+              "yale": "tā",
+              "bopomofo": "ㄊㄚ¹"
+            },
+            " is written; ",
+            {
+              "cjk": "比",
+              "jyutping": "bei2",
+              "yale": "béi",
+              "bopomofo": "ㄅㄝㄧ²"
+            },
+            " sounds bookish in casual speech."
+          ]
         }
       ],
       "related": [
@@ -5425,11 +7247,32 @@
       "id": "jan1-wai6-because",
       "pattern": "因為 …，所以 …",
       "jyutping": "jan1 wai6 …, so2 ji5 …",
+      "patternRomanised": {
+        "jyutping": "jan1 wai6 …, so2 ji5 …",
+        "yale": "yān waih …, só yíh …",
+        "bopomofo": "ㄧㄜㄣ¹ ㄨㄜㄧ⁶ …, ㄙㄛ² ㄧ⁵ …"
+      },
       "meaning": "because …, so …",
       "level": "A2",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "因為 introduces the reason and 所以 the result. Unlike English, using both in one sentence is normal. Either half can also stand alone.",
+      "explanationParts": [
+        {
+          "cjk": "因為",
+          "jyutping": "jan1 wai6",
+          "yale": "yān waih",
+          "bopomofo": "ㄧㄜㄣ¹ ㄨㄜㄧ⁶"
+        },
+        " introduces the reason and ",
+        {
+          "cjk": "所以",
+          "jyutping": "so2 ji5",
+          "yale": "só yíh",
+          "bopomofo": "ㄙㄛ² ㄧ⁵"
+        },
+        " the result. Unlike English, using both in one sentence is normal. Either half can also stand alone."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -5635,11 +7478,64 @@
       "id": "classifier-possessive",
       "pattern": "Owner + Classifier + Noun",
       "jyutping": "Owner + Classifier + Noun",
+      "patternRomanised": {
+        "jyutping": "Owner + Classifier + Noun",
+        "yale": "Owner + Classifier + Noun",
+        "bopomofo": "Owner + Classifier + Noun"
+      },
       "meaning": "my / your / her (a specific thing)",
       "level": "A2",
       "function": "possession-and-description",
       "functionName": "Possession and description",
       "explanation": "Instead of 嘅, Cantonese often joins an owner to a specific thing with its classifier: 我部手機 is 'my phone', 佢間屋 is 'her flat'. This is very common in everyday speech.",
+      "explanationParts": [
+        "Instead of ",
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        ", Cantonese often joins an owner to a specific thing with its classifier: ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "部",
+          "jyutping": "bou6",
+          "yale": "bouh",
+          "bopomofo": "ㄅㄛㄨ⁶"
+        },
+        {
+          "cjk": "手機",
+          "jyutping": "sau2 gei1",
+          "yale": "sáu gēi",
+          "bopomofo": "ㄙㄜㄨ² ㄍㄝㄧ¹"
+        },
+        " is 'my phone', ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "間",
+          "jyutping": "gaan1",
+          "yale": "gāan",
+          "bopomofo": "ㄍㄚㄣ¹"
+        },
+        {
+          "cjk": "屋",
+          "jyutping": "uk1",
+          "yale": "ūk",
+          "bopomofo": "ㄨㆶ¹"
+        },
+        " is 'her flat'. This is very common in everyday speech."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -5792,11 +7688,38 @@
       "id": "wui5-will",
       "pattern": "會 + Verb",
       "jyutping": "wui5 + Verb",
+      "patternRomanised": {
+        "jyutping": "wui5 + Verb",
+        "yale": "wúih + Verb",
+        "bopomofo": "ㄨㄨㄧ⁵ + Verb"
+      },
       "meaning": "will; would; likely to",
       "level": "A2",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "會 before a verb talks about the future or what is likely: it will rain, I'll call you. 唔會 means 'won't' or 'is unlikely to'.",
+      "explanationParts": [
+        {
+          "cjk": "會",
+          "jyutping": "wui5",
+          "yale": "wúih",
+          "bopomofo": "ㄨㄨㄧ⁵"
+        },
+        " before a verb talks about the future or what is likely: it will rain, I'll call you. ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "會",
+          "jyutping": "wui5",
+          "yale": "wúih",
+          "bopomofo": "ㄨㄨㄧ⁵"
+        },
+        " means 'won't' or 'is unlikely to'."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -5943,11 +7866,25 @@
       "id": "jing1-goi1-should",
       "pattern": "應該 + Verb",
       "jyutping": "jing1 goi1 + Verb",
+      "patternRomanised": {
+        "jyutping": "jing1 goi1 + Verb",
+        "yale": "yīng gōi + Verb",
+        "bopomofo": "ㄧㄥ¹ ㄍㄛㄧ¹ + Verb"
+      },
       "meaning": "should; ought to; probably",
       "level": "A2",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "應該 gives advice ('you should') or a reasonable guess ('she should be there by now').",
+      "explanationParts": [
+        {
+          "cjk": "應該",
+          "jyutping": "jing1 goi1",
+          "yale": "yīng gōi",
+          "bopomofo": "ㄧㄥ¹ ㄍㄛㄧ¹"
+        },
+        " gives advice ('you should') or a reasonable guess ('she should be there by now')."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -6094,11 +8031,39 @@
       "id": "m4-sai2-no-need",
       "pattern": "唔使 + Verb",
       "jyutping": "m4 sai2 + Verb",
+      "patternRomanised": {
+        "jyutping": "m4 sai2 + Verb",
+        "yale": "m̀h sái + Verb",
+        "bopomofo": "ㆬ⁴ ㄙㄜㄧ² + Verb"
+      },
       "meaning": "no need to; don't have to",
       "level": "A2",
       "function": "wants-and-needs",
       "functionName": "Wants, needs and ability",
       "explanation": "唔使 says something isn't necessary. It is the negative of 要 ('need to'). Don't confuse it with 唔好, which tells someone not to do something.",
+      "explanationParts": [
+        {
+          "cjk": "唔使",
+          "jyutping": "m4 sai2",
+          "yale": "m̀h sái",
+          "bopomofo": "ㆬ⁴ ㄙㄜㄧ²"
+        },
+        " says something isn't necessary. It is the negative of ",
+        {
+          "cjk": "要",
+          "jyutping": "jiu3",
+          "yale": "yiu",
+          "bopomofo": "ㄧㄨ³"
+        },
+        " ('need to'). Don't confuse it with ",
+        {
+          "cjk": "唔好",
+          "jyutping": "m4 hou2",
+          "yale": "m̀h hóu",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+        },
+        ", which tells someone not to do something."
+      ],
       "writtenEquivalent": {
         "cjk": "不用",
         "note": "Written Chinese uses 不用."
@@ -6222,11 +8187,65 @@
       "id": "jyun4-finish",
       "pattern": "Verb + 完",
       "jyutping": "Verb + jyun4",
+      "patternRomanised": {
+        "jyutping": "Verb + jyun4",
+        "yale": "Verb + yùhn",
+        "bopomofo": "Verb + ㄩㄣ⁴"
+      },
       "meaning": "finish doing",
       "level": "A2",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "完 after a verb means the action is finished: 做完 (finish doing), 食完 (finish eating). It often comes with 咗 or 喇.",
+      "explanationParts": [
+        {
+          "cjk": "完",
+          "jyutping": "jyun4",
+          "yale": "yùhn",
+          "bopomofo": "ㄩㄣ⁴"
+        },
+        " after a verb means the action is finished: ",
+        {
+          "cjk": "做",
+          "jyutping": "zou6",
+          "yale": "jouh",
+          "bopomofo": "ㄗㄛㄨ⁶"
+        },
+        {
+          "cjk": "完",
+          "jyutping": "jyun4",
+          "yale": "yùhn",
+          "bopomofo": "ㄩㄣ⁴"
+        },
+        " (finish doing), ",
+        {
+          "cjk": "食",
+          "jyutping": "sik6",
+          "yale": "sihk",
+          "bopomofo": "ㄙㄧㆶ⁶"
+        },
+        {
+          "cjk": "完",
+          "jyutping": "jyun4",
+          "yale": "yùhn",
+          "bopomofo": "ㄩㄣ⁴"
+        },
+        " (finish eating). It often comes with ",
+        {
+          "cjk": "咗",
+          "jyutping": "zo2",
+          "yale": "jó",
+          "bopomofo": "ㄗㄛ²"
+        },
+        " or ",
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        "."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -6391,11 +8410,32 @@
       "id": "ji5-ging1-already",
       "pattern": "已經 + … + 喇",
       "jyutping": "ji5 ging1 + … + laa3",
+      "patternRomanised": {
+        "jyutping": "ji5 ging1 + … + laa3",
+        "yale": "yíh gīng + … + la",
+        "bopomofo": "ㄧ⁵ ㄍㄧㄥ¹ + … + ㄌㄚ³"
+      },
       "meaning": "already",
       "level": "A2",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "已經 goes before the verb, and the sentence usually ends with 喇 to mark the new situation.",
+      "explanationParts": [
+        {
+          "cjk": "已經",
+          "jyutping": "ji5 ging1",
+          "yale": "yíh gīng",
+          "bopomofo": "ㄧ⁵ ㄍㄧㄥ¹"
+        },
+        " goes before the verb, and the sentence usually ends with ",
+        {
+          "cjk": "喇",
+          "jyutping": "laa3",
+          "yale": "la",
+          "bopomofo": "ㄌㄚ³"
+        },
+        " to mark the new situation."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -6564,11 +8604,77 @@
       "id": "dou2-result",
       "pattern": "Verb + 到 / Verb + 唔到",
       "jyutping": "Verb + dou2 / Verb + m4 dou2",
+      "patternRomanised": {
+        "jyutping": "Verb + dou2 / Verb + m4 dou2",
+        "yale": "Verb + dóu / Verb + m̀h dóu",
+        "bopomofo": "Verb + ㄉㄛㄨ² / Verb + ㆬ⁴ ㄉㄛㄨ²"
+      },
       "meaning": "manage to; can't manage to",
       "level": "B1",
       "function": "complements",
       "functionName": "Verb endings and complements",
-      "explanation": "到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from 到 (dou3) 'to arrive'.",
+      "explanation": "到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from dou3 'to arrive', which is written with the same character.",
+      "explanationParts": [
+        {
+          "cjk": "到",
+          "jyutping": "dou2",
+          "yale": "dóu",
+          "bopomofo": "ㄉㄛㄨ²"
+        },
+        " (dou2, rising tone) after a verb says the action succeeded: ",
+        {
+          "cjk": "搵",
+          "jyutping": "wan2",
+          "yale": "wán",
+          "bopomofo": "ㄨㄜㄣ²"
+        },
+        {
+          "cjk": "到",
+          "jyutping": "dou2",
+          "yale": "dóu",
+          "bopomofo": "ㄉㄛㄨ²"
+        },
+        " (found), ",
+        {
+          "cjk": "買",
+          "jyutping": "maai5",
+          "yale": "máaih",
+          "bopomofo": "ㄇㄚㄧ⁵"
+        },
+        {
+          "cjk": "到",
+          "jyutping": "dou2",
+          "yale": "dóu",
+          "bopomofo": "ㄉㄛㄨ²"
+        },
+        " (managed to buy). Put ",
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        " in between for 'couldn't': ",
+        {
+          "cjk": "買",
+          "jyutping": "maai5",
+          "yale": "máaih",
+          "bopomofo": "ㄇㄚㄧ⁵"
+        },
+        {
+          "cjk": "唔",
+          "jyutping": "m4",
+          "yale": "m̀h",
+          "bopomofo": "ㆬ⁴"
+        },
+        {
+          "cjk": "到",
+          "jyutping": "dou2",
+          "yale": "dóu",
+          "bopomofo": "ㄉㄛㄨ²"
+        },
+        ". This is a different word from dou3 'to arrive', which is written with the same character."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -6715,11 +8821,64 @@
       "id": "dak1-degree",
       "pattern": "Verb + 得 + Adjective",
       "jyutping": "Verb + dak1 + Adjective",
+      "patternRomanised": {
+        "jyutping": "Verb + dak1 + Adjective",
+        "yale": "Verb + dāk + Adjective",
+        "bopomofo": "Verb + ㄉㄜㆶ¹ + Adjective"
+      },
       "meaning": "how well / how fast someone does something",
       "level": "B1",
       "function": "complements",
       "functionName": "Verb endings and complements",
       "explanation": "To describe how an action is done, put 得 after the verb and then the description: 行得好慢 (walks slowly). If the verb has an object, say the verb twice: 講廣東話講得好好.",
+      "explanationParts": [
+        "To describe how an action is done, put ",
+        {
+          "cjk": "得",
+          "jyutping": "dak1",
+          "yale": "dāk",
+          "bopomofo": "ㄉㄜㆶ¹"
+        },
+        " after the verb and then the description: ",
+        {
+          "cjk": "行得好慢",
+          "jyutping": "haang4 dak1 hou2 maan6",
+          "yale": "hàahng dāk hóu maahn",
+          "bopomofo": "ㄏㄚㄥ⁴ ㄉㄜㆶ¹ ㄏㄛㄨ² ㄇㄚㄣ⁶"
+        },
+        " (walks slowly). If the verb has an object, say the verb twice: ",
+        {
+          "cjk": "講",
+          "jyutping": "gong2",
+          "yale": "góng",
+          "bopomofo": "ㄍㄛㄥ²"
+        },
+        {
+          "cjk": "廣東話",
+          "jyutping": "gwong2 dung1 waa2",
+          "yale": "gwóng dūng wá",
+          "bopomofo": "ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²"
+        },
+        {
+          "cjk": "講",
+          "jyutping": "gong2",
+          "yale": "góng",
+          "bopomofo": "ㄍㄛㄥ²"
+        },
+        {
+          "cjk": "得",
+          "jyutping": "dak1",
+          "yale": "dāk",
+          "bopomofo": "ㄉㄜㆶ¹"
+        },
+        {
+          "cjk": "好好",
+          "jyutping": "hou2 hou2",
+          "yale": "hóu hóu",
+          "bopomofo": "ㄏㄛㄨ² ㄏㄛㄨ²"
+        },
+        "."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -6890,11 +9049,71 @@
       "id": "saai3-all",
       "pattern": "Verb + 晒",
       "jyutping": "Verb + saai3",
+      "patternRomanised": {
+        "jyutping": "Verb + saai3",
+        "yale": "Verb + saai",
+        "bopomofo": "Verb + ㄙㄚㄧ³"
+      },
       "meaning": "all; completely; entirely",
       "level": "B1",
       "function": "complements",
       "functionName": "Verb endings and complements",
       "explanation": "晒 after a verb means the action covers everything: 賣晒 (sold out), 食晒 (ate it all). 唔該晒 and 多謝晒 mean 'thanks very much'.",
+      "explanationParts": [
+        {
+          "cjk": "晒",
+          "jyutping": "saai3",
+          "yale": "saai",
+          "bopomofo": "ㄙㄚㄧ³"
+        },
+        " after a verb means the action covers everything: ",
+        {
+          "cjk": "賣晒",
+          "jyutping": "maai6 saai3",
+          "yale": "maaih saai",
+          "bopomofo": "ㄇㄚㄧ⁶ ㄙㄚㄧ³"
+        },
+        " (sold out), ",
+        {
+          "cjk": "食",
+          "jyutping": "sik6",
+          "yale": "sihk",
+          "bopomofo": "ㄙㄧㆶ⁶"
+        },
+        {
+          "cjk": "晒",
+          "jyutping": "saai3",
+          "yale": "saai",
+          "bopomofo": "ㄙㄚㄧ³"
+        },
+        " (ate it all). ",
+        {
+          "cjk": "唔該",
+          "jyutping": "m4 goi1",
+          "yale": "m̀h gōi",
+          "bopomofo": "ㆬ⁴ ㄍㄛㄧ¹"
+        },
+        {
+          "cjk": "晒",
+          "jyutping": "saai3",
+          "yale": "saai",
+          "bopomofo": "ㄙㄚㄧ³"
+        },
+        " and ",
+        {
+          "cjk": "多謝",
+          "jyutping": "do1 ze6",
+          "yale": "dō jeh",
+          "bopomofo": "ㄉㄛ¹ ㄗㄝ⁶"
+        },
+        {
+          "cjk": "晒",
+          "jyutping": "saai3",
+          "yale": "saai",
+          "bopomofo": "ㄙㄚㄧ³"
+        },
+        " mean 'thanks very much'."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -7029,11 +9248,64 @@
       "id": "faan1-back",
       "pattern": "Verb + 返",
       "jyutping": "Verb + faan1",
+      "patternRomanised": {
+        "jyutping": "Verb + faan1",
+        "yale": "Verb + fāan",
+        "bopomofo": "Verb + ㄈㄚㄣ¹"
+      },
       "meaning": "back; again; return to a previous state",
       "level": "B1",
       "function": "complements",
       "functionName": "Verb endings and complements",
       "explanation": "返 after a verb means getting something back or returning to how things were: 攞返 (take back), 還返 (give back), 好返 (get better).",
+      "explanationParts": [
+        {
+          "cjk": "返",
+          "jyutping": "faan1",
+          "yale": "fāan",
+          "bopomofo": "ㄈㄚㄣ¹"
+        },
+        " after a verb means getting something back or returning to how things were: ",
+        {
+          "cjk": "攞",
+          "jyutping": "lo2",
+          "yale": "ló",
+          "bopomofo": "ㄌㄛ²"
+        },
+        {
+          "cjk": "返",
+          "jyutping": "faan1",
+          "yale": "fāan",
+          "bopomofo": "ㄈㄚㄣ¹"
+        },
+        " (take back), ",
+        {
+          "cjk": "還",
+          "jyutping": "waan4",
+          "yale": "wàahn",
+          "bopomofo": "ㄨㄚㄣ⁴"
+        },
+        {
+          "cjk": "返",
+          "jyutping": "faan1",
+          "yale": "fāan",
+          "bopomofo": "ㄈㄚㄣ¹"
+        },
+        " (give back), ",
+        {
+          "cjk": "好",
+          "jyutping": "hou2",
+          "yale": "hóu",
+          "bopomofo": "ㄏㄛㄨ²"
+        },
+        {
+          "cjk": "返",
+          "jyutping": "faan1",
+          "yale": "fāan",
+          "bopomofo": "ㄈㄚㄣ¹"
+        },
+        " (get better)."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -7216,11 +9488,73 @@
       "id": "directional",
       "pattern": "Verb + 出 / 入 / 上 / 落 + 嚟 / 去",
       "jyutping": "Verb + ceot1 / jap6 / soeng5 / lok6 + lai4 / heoi3",
+      "patternRomanised": {
+        "jyutping": "Verb + ceot1 / jap6 / soeng5 / lok6 + lai4 / heoi3",
+        "yale": "Verb + chēut / yahp / séuhng / lohk + làih / heui",
+        "bopomofo": "Verb + ㄘㆤㆵ¹ / ㄧㄜㆴ⁶ / ㄙㆦㄥ⁵ / ㄌㄛㆶ⁶ + ㄌㄜㄧ⁴ / ㄏㆤㄧ³"
+      },
       "meaning": "direction of movement",
       "level": "B1",
       "function": "complements",
       "functionName": "Verb endings and complements",
       "explanation": "嚟 means towards the speaker and 去 away from the speaker. Add 出 (out), 入 (in), 上 (up) or 落 (down) for the direction, and they can follow another verb: 行出去 (walk out).",
+      "explanationParts": [
+        {
+          "cjk": "嚟",
+          "jyutping": "lai4",
+          "yale": "làih",
+          "bopomofo": "ㄌㄜㄧ⁴"
+        },
+        " means towards the speaker and ",
+        {
+          "cjk": "去",
+          "jyutping": "heoi3",
+          "yale": "heui",
+          "bopomofo": "ㄏㆤㄧ³"
+        },
+        " away from the speaker. Add ",
+        {
+          "cjk": "出",
+          "jyutping": "ceot1",
+          "yale": "chēut",
+          "bopomofo": "ㄘㆤㆵ¹"
+        },
+        " (out), ",
+        {
+          "cjk": "入",
+          "jyutping": "jap6",
+          "yale": "yahp",
+          "bopomofo": "ㄧㄜㆴ⁶"
+        },
+        " (in), ",
+        {
+          "cjk": "上",
+          "jyutping": "soeng5",
+          "yale": "séuhng",
+          "bopomofo": "ㄙㆦㄥ⁵"
+        },
+        " (up) or ",
+        {
+          "cjk": "落",
+          "jyutping": "lok6",
+          "yale": "lohk",
+          "bopomofo": "ㄌㄛㆶ⁶"
+        },
+        " (down) for the direction, and they can follow another verb: ",
+        {
+          "cjk": "行",
+          "jyutping": "haang4",
+          "yale": "hàahng",
+          "bopomofo": "ㄏㄚㄥ⁴"
+        },
+        {
+          "cjk": "出去",
+          "jyutping": "ceot1 heoi3",
+          "yale": "chēut heui",
+          "bopomofo": "ㄘㆤㆵ¹ ㄏㆤㄧ³"
+        },
+        " (walk out)."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -7336,11 +9670,46 @@
       "id": "bei2-passive",
       "pattern": "Subject + 畀 + Doer + Verb",
       "jyutping": "Subject + bei2 + Doer + Verb",
+      "patternRomanised": {
+        "jyutping": "Subject + bei2 + Doer + Verb",
+        "yale": "Subject + béi + Doer + Verb",
+        "bopomofo": "Subject + ㄅㄝㄧ² + Doer + Verb"
+      },
       "meaning": "passive: was done by",
       "level": "B1",
       "function": "passive",
       "functionName": "Passive",
       "explanation": "To say something was done to someone, use 畀 followed by who did it. If you don't know who, use 畀人 ('by someone'). Spoken Cantonese never uses written 被 here.",
+      "explanationParts": [
+        "To say something was done to someone, use ",
+        {
+          "cjk": "畀",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        " followed by who did it. If you don't know who, use ",
+        {
+          "cjk": "畀",
+          "jyutping": "bei2",
+          "yale": "béi",
+          "bopomofo": "ㄅㄝㄧ²"
+        },
+        {
+          "cjk": "人",
+          "jyutping": "jan4",
+          "yale": "yàhn",
+          "bopomofo": "ㄧㄜㄣ⁴"
+        },
+        " ('by someone'). Spoken Cantonese never uses written ",
+        {
+          "cjk": "被",
+          "jyutping": "bei6",
+          "yale": "beih",
+          "bopomofo": "ㄅㄝㄧ⁶"
+        },
+        " here."
+      ],
       "writtenEquivalent": {
         "cjk": "被",
         "note": "Written Chinese uses 被."
@@ -7503,7 +9872,43 @@
             "yale": "ngóh go ngàhn bāau béi yàhn tāu jó.",
             "bopomofo": "ㆭㄛ⁵ ㄍㄛ³ ㆭㄜㄣ⁴ ㄅㄚㄨ¹ ㄅㄝㄧ² ㄧㄜㄣ⁴ ㄊㄜㄨ¹ ㄗㄛ²."
           },
-          "note": "的, 錢包, 被 and 了 are written forms."
+          "note": "的, 錢包, 被 and 了 are written forms.",
+          "noteParts": [
+            {
+              "cjk": "的",
+              "jyutping": "dik1",
+              "yale": "dīk",
+              "bopomofo": "ㄉㄧㆶ¹"
+            },
+            ", ",
+            {
+              "cjk": "錢",
+              "jyutping": "cin2",
+              "yale": "chín",
+              "bopomofo": "ㄘㄧㄣ²"
+            },
+            {
+              "cjk": "包",
+              "jyutping": "baau1",
+              "yale": "bāau",
+              "bopomofo": "ㄅㄚㄨ¹"
+            },
+            ", ",
+            {
+              "cjk": "被",
+              "jyutping": "bei6",
+              "yale": "beih",
+              "bopomofo": "ㄅㄝㄧ⁶"
+            },
+            " and ",
+            {
+              "cjk": "了",
+              "jyutping": "liu5",
+              "yale": "líuh",
+              "bopomofo": "ㄌㄧㄨ⁵"
+            },
+            " are written forms."
+          ]
         }
       ],
       "related": [
@@ -7519,11 +9924,39 @@
       "id": "jyu4-gwo2-if",
       "pattern": "如果 …，就 …",
       "jyutping": "jyu4 gwo2 …, zau6 …",
+      "patternRomanised": {
+        "jyutping": "jyu4 gwo2 …, zau6 …",
+        "yale": "yùh gwó …, jauh …",
+        "bopomofo": "ㄩ⁴ ㄍㄨㄛ² …, ㄗㄜㄨ⁶ …"
+      },
       "meaning": "if …, then …",
       "level": "B1",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "如果 introduces the condition and 就 the result. 就 goes after the subject of the second half, before the verb.",
+      "explanationParts": [
+        {
+          "cjk": "如果",
+          "jyutping": "jyu4 gwo2",
+          "yale": "yùh gwó",
+          "bopomofo": "ㄩ⁴ ㄍㄨㄛ²"
+        },
+        " introduces the condition and ",
+        {
+          "cjk": "就",
+          "jyutping": "zau6",
+          "yale": "jauh",
+          "bopomofo": "ㄗㄜㄨ⁶"
+        },
+        " the result. ",
+        {
+          "cjk": "就",
+          "jyutping": "zau6",
+          "yale": "jauh",
+          "bopomofo": "ㄗㄜㄨ⁶"
+        },
+        " goes after the subject of the second half, before the verb."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -7730,11 +10163,32 @@
       "id": "seoi1-jin4-although",
       "pattern": "雖然 …，但係 …",
       "jyutping": "seoi1 jin4 …, daan6 hai6 …",
+      "patternRomanised": {
+        "jyutping": "seoi1 jin4 …, daan6 hai6 …",
+        "yale": "sēui yìhn …, daahn haih …",
+        "bopomofo": "ㄙㆤㄧ¹ ㄧㄣ⁴ …, ㄉㄚㄣ⁶ ㄏㄜㄧ⁶ …"
+      },
       "meaning": "although …, (but) …",
       "level": "B1",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "雖然 introduces a contrast and 但係 the main point. Unlike English, both words are normally used in the same sentence.",
+      "explanationParts": [
+        {
+          "cjk": "雖然",
+          "jyutping": "seoi1 jin4",
+          "yale": "sēui yìhn",
+          "bopomofo": "ㄙㆤㄧ¹ ㄧㄣ⁴"
+        },
+        " introduces a contrast and ",
+        {
+          "cjk": "但係",
+          "jyutping": "daan6 hai6",
+          "yale": "daahn haih",
+          "bopomofo": "ㄉㄚㄣ⁶ ㄏㄜㄧ⁶"
+        },
+        " the main point. Unlike English, both words are normally used in the same sentence."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -7959,11 +10413,32 @@
       "id": "jat1-zau6-as-soon-as",
       "pattern": "一 …就 …",
       "jyutping": "jat1 … zau6 …",
+      "patternRomanised": {
+        "jyutping": "jat1 … zau6 …",
+        "yale": "yāt … jauh …",
+        "bopomofo": "ㄧㄜㆵ¹ … ㄗㄜㄨ⁶ …"
+      },
       "meaning": "as soon as …; whenever …",
       "level": "B1",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "一 before the first verb and 就 before the second link two events closely: as soon as one happens, the other follows.",
+      "explanationParts": [
+        {
+          "cjk": "一",
+          "jyutping": "jat1",
+          "yale": "yāt",
+          "bopomofo": "ㄧㄜㆵ¹"
+        },
+        " before the first verb and ",
+        {
+          "cjk": "就",
+          "jyutping": "zau6",
+          "yale": "jauh",
+          "bopomofo": "ㄗㄜㄨ⁶"
+        },
+        " before the second link two events closely: as soon as one happens, the other follows."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8152,11 +10627,25 @@
       "id": "jyut6-lai4-jyut6",
       "pattern": "越嚟越 + Adjective",
       "jyutping": "jyut6 lai4 jyut6 + Adjective",
+      "patternRomanised": {
+        "jyutping": "jyut6 lai4 jyut6 + Adjective",
+        "yale": "yuht làih yuht + Adjective",
+        "bopomofo": "ㄩㆵ⁶ ㄌㄜㄧ⁴ ㄩㆵ⁶ + Adjective"
+      },
       "meaning": "more and more …",
       "level": "B1",
       "function": "degree-and-comparison",
       "functionName": "Degree and comparison",
       "explanation": "越嚟越 before an adjective describes something that keeps increasing: hotter and hotter, better and better.",
+      "explanationParts": [
+        {
+          "cjk": "越嚟越",
+          "jyutping": "jyut6 lai4 jyut6",
+          "yale": "yuht làih yuht",
+          "bopomofo": "ㄩㆵ⁶ ㄌㄜㄧ⁴ ㄩㆵ⁶"
+        },
+        " before an adjective describes something that keeps increasing: hotter and hotter, better and better."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8297,11 +10786,70 @@
       "id": "sin1-zoi3-first-then",
       "pattern": "先 … 再 … / … 先",
       "jyutping": "sin1 … zoi3 … / … sin1",
+      "patternRomanised": {
+        "jyutping": "sin1 … zoi3 … / … sin1",
+        "yale": "sīn … joi … / … sīn",
+        "bopomofo": "ㄙㄧㄣ¹ … ㄗㄛㄧ³ … / … ㄙㄧㄣ¹"
+      },
       "meaning": "first …, then …",
       "level": "B1",
       "function": "connecting",
       "functionName": "Connecting words",
       "explanation": "先 means 'first' and 再 'then'. Very typically for Cantonese, 先 can also come at the end of a sentence: 等我諗吓先 (let me think first).",
+      "explanationParts": [
+        {
+          "cjk": "先",
+          "jyutping": "sin1",
+          "yale": "sīn",
+          "bopomofo": "ㄙㄧㄣ¹"
+        },
+        " means 'first' and ",
+        {
+          "cjk": "再",
+          "jyutping": "zoi3",
+          "yale": "joi",
+          "bopomofo": "ㄗㄛㄧ³"
+        },
+        " 'then'. Very typically for Cantonese, ",
+        {
+          "cjk": "先",
+          "jyutping": "sin1",
+          "yale": "sīn",
+          "bopomofo": "ㄙㄧㄣ¹"
+        },
+        " can also come at the end of a sentence: ",
+        {
+          "cjk": "等",
+          "jyutping": "dang2",
+          "yale": "dáng",
+          "bopomofo": "ㄉㄜㄥ²"
+        },
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "諗",
+          "jyutping": "nam2",
+          "yale": "nám",
+          "bopomofo": "ㄋㄜㆬ²"
+        },
+        {
+          "cjk": "吓",
+          "jyutping": "haa5",
+          "yale": "háh",
+          "bopomofo": "ㄏㄚ⁵"
+        },
+        {
+          "cjk": "先",
+          "jyutping": "sin1",
+          "yale": "sīn",
+          "bopomofo": "ㄙㄧㄣ¹"
+        },
+        " (let me think first)."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8474,11 +11022,25 @@
       "id": "lo1-obvious",
       "pattern": "… 囉",
       "jyutping": "… lo1",
+      "patternRomanised": {
+        "jyutping": "… lo1",
+        "yale": "… lō",
+        "bopomofo": "… ㄌㄛ¹"
+      },
       "meaning": "it's obvious; oh well",
       "level": "B1",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "囉 at the end of a sentence presents something as obvious or the natural conclusion, sometimes with a shrug: 'well, then…', 'of course'.",
+      "explanationParts": [
+        {
+          "cjk": "囉",
+          "jyutping": "lo1",
+          "yale": "lō",
+          "bopomofo": "ㄌㄛ¹"
+        },
+        " at the end of a sentence presents something as obvious or the natural conclusion, sometimes with a shrug: 'well, then…', 'of course'."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8613,11 +11175,25 @@
       "id": "wo3-noticing",
       "pattern": "… 喎",
       "jyutping": "… wo3",
+      "patternRomanised": {
+        "jyutping": "… wo3",
+        "yale": "… wo",
+        "bopomofo": "… ㄨㄛ³"
+      },
       "meaning": "noticing something; passing on what someone said",
       "level": "B1",
       "function": "particles",
       "functionName": "Sentence-final particles",
       "explanation": "喎 marks something you have just noticed ('oh, look…') or information you are passing on from someone else ('he said…').",
+      "explanationParts": [
+        {
+          "cjk": "喎",
+          "jyutping": "wo3",
+          "yale": "wo",
+          "bopomofo": "ㄨㄛ³"
+        },
+        " marks something you have just noticed ('oh, look…') or information you are passing on from someone else ('he said…')."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8780,11 +11356,57 @@
       "id": "relative-ge3",
       "pattern": "[Description] + 嘅 + Noun",
       "jyutping": "[Description] + ge3 + Noun",
+      "patternRomanised": {
+        "jyutping": "[Description] + ge3 + Noun",
+        "yale": "[Description] + ge + Noun",
+        "bopomofo": "[Description] + ㄍㄝ³ + Noun"
+      },
       "meaning": "the … that / who … (relative clauses)",
       "level": "B1",
       "function": "possession-and-description",
       "functionName": "Possession and description",
       "explanation": "To describe a noun with a whole phrase, put the phrase first, then 嘅, then the noun: 我尋日買嘅衫 ('the top I bought yesterday'). English puts the description after the noun; Cantonese puts it before.",
+      "explanationParts": [
+        "To describe a noun with a whole phrase, put the phrase first, then ",
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        ", then the noun: ",
+        {
+          "cjk": "我",
+          "jyutping": "ngo5",
+          "yale": "ngóh",
+          "bopomofo": "ㆭㄛ⁵"
+        },
+        {
+          "cjk": "尋日",
+          "jyutping": "cam4 jat6",
+          "yale": "chàhm yaht",
+          "bopomofo": "ㄘㄜㆬ⁴ ㄧㄜㆵ⁶"
+        },
+        {
+          "cjk": "買",
+          "jyutping": "maai5",
+          "yale": "máaih",
+          "bopomofo": "ㄇㄚㄧ⁵"
+        },
+        {
+          "cjk": "嘅",
+          "jyutping": "ge3",
+          "yale": "ge",
+          "bopomofo": "ㄍㄝ³"
+        },
+        {
+          "cjk": "衫",
+          "jyutping": "saam1",
+          "yale": "sāam",
+          "bopomofo": "ㄙㄚㆬ¹"
+        },
+        " ('the top I bought yesterday'). English puts the description after the noun; Cantonese puts it before."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -8961,11 +11583,64 @@
       "id": "zyu6-continuous",
       "pattern": "Verb + 住",
       "jyutping": "Verb + zyu6",
+      "patternRomanised": {
+        "jyutping": "Verb + zyu6",
+        "yale": "Verb + jyuh",
+        "bopomofo": "Verb + ㄗㄩ⁶"
+      },
       "meaning": "keep doing; in a continuing state",
       "level": "B1",
       "function": "aspect",
       "functionName": "Time and aspect",
       "explanation": "住 after a verb describes an ongoing state rather than an action in progress: 戴住眼鏡 (wearing glasses), 攞住 (holding). Compare 緊, which describes an action happening now.",
+      "explanationParts": [
+        {
+          "cjk": "住",
+          "jyutping": "zyu6",
+          "yale": "jyuh",
+          "bopomofo": "ㄗㄩ⁶"
+        },
+        " after a verb describes an ongoing state rather than an action in progress: ",
+        {
+          "cjk": "戴",
+          "jyutping": "daai3",
+          "yale": "daai",
+          "bopomofo": "ㄉㄚㄧ³"
+        },
+        {
+          "cjk": "住",
+          "jyutping": "zyu6",
+          "yale": "jyuh",
+          "bopomofo": "ㄗㄩ⁶"
+        },
+        {
+          "cjk": "眼鏡",
+          "jyutping": "ngaan5 geng2",
+          "yale": "ngáahn géng",
+          "bopomofo": "ㆭㄚㄣ⁵ ㄍㄝㄥ²"
+        },
+        " (wearing glasses), ",
+        {
+          "cjk": "攞",
+          "jyutping": "lo2",
+          "yale": "ló",
+          "bopomofo": "ㄌㄛ²"
+        },
+        {
+          "cjk": "住",
+          "jyutping": "zyu6",
+          "yale": "jyuh",
+          "bopomofo": "ㄗㄩ⁶"
+        },
+        " (holding). Compare ",
+        {
+          "cjk": "緊",
+          "jyutping": "gan2",
+          "yale": "gán",
+          "bopomofo": "ㄍㄜㄣ²"
+        },
+        ", which describes an action happening now."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -9105,11 +11780,69 @@
       "id": "hou2-ci5-seem",
       "pattern": "好似 …",
       "jyutping": "hou2 ci5 …",
+      "patternRomanised": {
+        "jyutping": "hou2 ci5 …",
+        "yale": "hóu chíh …",
+        "bopomofo": "ㄏㄛㄨ² ㄘㄧ⁵ …"
+      },
       "meaning": "seems; looks like; to be like",
       "level": "B1",
       "function": "degree-and-comparison",
       "functionName": "Degree and comparison",
       "explanation": "好似 means 'seems' before a description, or 'to be like' before a noun: 佢好似唔開心 (she seems unhappy), 你好似你爸爸 (you look like your dad).",
+      "explanationParts": [
+        {
+          "cjk": "好似",
+          "jyutping": "hou2 ci5",
+          "yale": "hóu chíh",
+          "bopomofo": "ㄏㄛㄨ² ㄘㄧ⁵"
+        },
+        " means 'seems' before a description, or 'to be like' before a noun: ",
+        {
+          "cjk": "佢",
+          "jyutping": "keoi5",
+          "yale": "kéuih",
+          "bopomofo": "ㄎㆤㄧ⁵"
+        },
+        {
+          "cjk": "好似",
+          "jyutping": "hou2 ci5",
+          "yale": "hóu chíh",
+          "bopomofo": "ㄏㄛㄨ² ㄘㄧ⁵"
+        },
+        {
+          "cjk": "唔開心",
+          "jyutping": "m4 hoi1 sam1",
+          "yale": "m̀h hōi sām",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄧ¹ ㄙㄜㆬ¹"
+        },
+        " (she seems unhappy), ",
+        {
+          "cjk": "你好",
+          "jyutping": "nei5 hou2",
+          "yale": "néih hóu",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄏㄛㄨ²"
+        },
+        {
+          "cjk": "似",
+          "jyutping": "ci5",
+          "yale": "chíh",
+          "bopomofo": "ㄘㄧ⁵"
+        },
+        {
+          "cjk": "你",
+          "jyutping": "nei5",
+          "yale": "néih",
+          "bopomofo": "ㄋㄝㄧ⁵"
+        },
+        {
+          "cjk": "爸爸",
+          "jyutping": "baa4 baa1",
+          "yale": "bàh bā",
+          "bopomofo": "ㄅㄚ⁴ ㄅㄚ¹"
+        },
+        " (you look like your dad)."
+      ],
       "writtenEquivalent": null,
       "examples": [
         {
@@ -9240,6 +11973,12 @@
       "id": "greetings",
       "title": "Greetings and courtesy",
       "titleCjk": "打招呼",
+      "titleWord": {
+        "cjk": "打招呼",
+        "jyutping": "daa2 ziu1 fu1",
+        "yale": "dá jīu fū",
+        "bopomofo": "ㄉㄚ² ㄗㄧㄨ¹ ㄈㄨ¹"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -9268,7 +12007,17 @@
           "bopomofo": "ㆬ⁴ ㄍㄛㄧ¹",
           "en": "thank you (for a service); excuse me",
           "pos": "phrase",
-          "note": "Use for small favours and services; 多謝 is for gifts and compliments."
+          "note": "Use for small favours and services; 多謝 is for gifts and compliments.",
+          "noteParts": [
+            "Use for small favours and services; ",
+            {
+              "cjk": "多謝",
+              "jyutping": "do1 ze6",
+              "yale": "dō jeh",
+              "bopomofo": "ㄉㄛ¹ ㄗㄝ⁶"
+            },
+            " is for gifts and compliments."
+          ]
         },
         {
           "cjk": "多謝",
@@ -9461,7 +12210,17 @@
           "bopomofo": "ㄏㄜㄧ⁶",
           "en": "yes; that's right",
           "pos": "phrase",
-          "note": "Cantonese has no single word for 'yes'; people usually repeat the verb, or say 係 to confirm a fact."
+          "note": "Cantonese has no single word for 'yes'; people usually repeat the verb, or say 係 to confirm a fact.",
+          "noteParts": [
+            "Cantonese has no single word for 'yes'; people usually repeat the verb, or say ",
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            " to confirm a fact."
+          ]
         },
         {
           "cjk": "唔係",
@@ -9493,6 +12252,12 @@
       "id": "numbers-money-time",
       "title": "Numbers, money and time",
       "titleCjk": "數字、錢同時間",
+      "titleWord": {
+        "cjk": "數字、錢同時間",
+        "jyutping": "sou3 zi6 cin2 tung4 si4 gaan3",
+        "yale": "sou jih chín tùhng sìh gaan",
+        "bopomofo": "ㄙㄛㄨ³ ㄗㄧ⁶ ㄘㄧㄣ² ㄊㄨㄥ⁴ ㄙㄧ⁴ ㄍㄚㄣ³"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -9513,7 +12278,44 @@
           "bopomofo": "ㄌㆦㄥ⁵",
           "en": "two (before a classifier)",
           "pos": "number",
-          "note": "Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十)."
+          "note": "Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十).",
+          "noteParts": [
+            "Use ",
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            " before classifiers (",
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            {
+              "cjk": "個",
+              "jyutping": "go3",
+              "yale": "go",
+              "bopomofo": "ㄍㄛ³"
+            },
+            ") and ",
+            {
+              "cjk": "二",
+              "jyutping": "ji6",
+              "yale": "yih",
+              "bopomofo": "ㄧ⁶"
+            },
+            " when counting or in larger numbers (",
+            {
+              "cjk": "二十",
+              "jyutping": "ji6 sap6",
+              "yale": "yih sahp",
+              "bopomofo": "ㄧ⁶ ㄙㄜㆴ⁶"
+            },
+            ")."
+          ]
         },
         {
           "cjk": "三",
@@ -9634,7 +12436,24 @@
           "bopomofo": "ㄙㄝㄧ³",
           "en": "four",
           "pos": "number",
-          "note": "Some people avoid 四 because it sounds like 死 (sei2, 'to die')."
+          "note": "Some people avoid 四 because it sounds like 死 (sei2, 'to die').",
+          "noteParts": [
+            "Some people avoid ",
+            {
+              "cjk": "四",
+              "jyutping": "sei3",
+              "yale": "sei",
+              "bopomofo": "ㄙㄝㄧ³"
+            },
+            " because it sounds like ",
+            {
+              "cjk": "死",
+              "jyutping": "sei2",
+              "yale": "séi",
+              "bopomofo": "ㄙㄝㄧ²"
+            },
+            " (sei2, 'to die')."
+          ]
         },
         {
           "cjk": "五",
@@ -9667,7 +12486,17 @@
           "bopomofo": "ㄅㄚㆵ³",
           "en": "eight",
           "pos": "number",
-          "note": "Considered lucky because it rhymes with 發 (faat3, 'to prosper')."
+          "note": "Considered lucky because it rhymes with 發 (faat3, 'to prosper').",
+          "noteParts": [
+            "Considered lucky because it rhymes with ",
+            {
+              "cjk": "發",
+              "jyutping": "faat3",
+              "yale": "faat",
+              "bopomofo": "ㄈㄚㆵ³"
+            },
+            " (faat3, 'to prosper')."
+          ]
         },
         {
           "cjk": "九",
@@ -9759,6 +12588,12 @@
       "id": "food-and-dim-sum",
       "title": "Food and dim sum",
       "titleCjk": "飲食同點心",
+      "titleWord": {
+        "cjk": "飲食同點心",
+        "jyutping": "jam2 sik6 tung4 dim2 sam1",
+        "yale": "yám sihk tùhng dím sām",
+        "bopomofo": "ㄧㄜㆬ² ㄙㄧㆶ⁶ ㄊㄨㄥ⁴ ㄉㄧㆬ² ㄙㄜㆬ¹"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -10065,7 +12900,10 @@
             "yale": "tìuh",
             "bopomofo": "ㄊㄧㄨ⁴"
           },
-          "note": "Usually jyu2 when talking about fish as food; jyu4 in more formal words."
+          "note": "Usually jyu2 when talking about fish as food; jyu4 in more formal words.",
+          "noteParts": [
+            "Usually jyu2 when talking about fish as food; jyu4 in more formal words."
+          ]
         },
         {
           "cjk": "菜",
@@ -10119,6 +12957,12 @@
       "id": "shopping",
       "title": "Shopping",
       "titleCjk": "買嘢",
+      "titleWord": {
+        "cjk": "買嘢",
+        "jyutping": "maai5 je5",
+        "yale": "máaih yéh",
+        "bopomofo": "ㄇㄚㄧ⁵ ㄧㄝ⁵"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -10139,7 +12983,17 @@
           "bopomofo": "ㄇㄚㄧ⁶",
           "en": "to sell",
           "pos": "verb",
-          "note": "Same syllable as 買 but tone 6. Tone changes the meaning."
+          "note": "Same syllable as 買 but tone 6. Tone changes the meaning.",
+          "noteParts": [
+            "Same syllable as ",
+            {
+              "cjk": "買",
+              "jyutping": "maai5",
+              "yale": "máaih",
+              "bopomofo": "ㄇㄚㄧ⁵"
+            },
+            " but tone 6. Tone changes the meaning."
+          ]
         },
         {
           "cjk": "貴",
@@ -10437,6 +13291,12 @@
       "id": "transport",
       "title": "Transport and MTR",
       "titleCjk": "交通同港鐵",
+      "titleWord": {
+        "cjk": "交通同港鐵",
+        "jyutping": "gaau1 tung1 tung4 gong2 tit3",
+        "yale": "gāau tūng tùhng góng tit",
+        "bopomofo": "ㄍㄚㄨ¹ ㄊㄨㄥ¹ ㄊㄨㄥ⁴ ㄍㄛㄥ² ㄊㄧㆵ³"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -10784,6 +13644,12 @@
       "id": "directions",
       "title": "Directions",
       "titleCjk": "問路",
+      "titleWord": {
+        "cjk": "問路",
+        "jyutping": "man6 lou6",
+        "yale": "mahn louh",
+        "bopomofo": "ㄇㄜㄣ⁶ ㄌㄛㄨ⁶"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -11059,6 +13925,12 @@
       "id": "family-and-people",
       "title": "Family and people",
       "titleCjk": "屋企人同朋友",
+      "titleWord": {
+        "cjk": "屋企人同朋友",
+        "jyutping": "uk1 kei2 jan4 tung4 pang4 jau5",
+        "yale": "ūk kéi yàhn tùhng pàhng yáuh",
+        "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴ ㄊㄨㄥ⁴ ㄆㄜㄥ⁴ ㄧㄜㄨ⁵"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -11424,6 +14296,12 @@
       "id": "home-and-routine",
       "title": "Home and daily routine",
       "titleCjk": "屋企同日常",
+      "titleWord": {
+        "cjk": "屋企同日常",
+        "jyutping": "uk1 kei2 tung4 jat6 soeng4",
+        "yale": "ūk kéi tùhng yaht sèuhng",
+        "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄊㄨㄥ⁴ ㄧㄜㆵ⁶ ㄙㆦㄥ⁴"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -11759,6 +14637,12 @@
       "id": "health",
       "title": "Health and the doctor",
       "titleCjk": "健康同睇醫生",
+      "titleWord": {
+        "cjk": "健康同睇醫生",
+        "jyutping": "gin6 hong1 tung4 tai2 ji1 sang1",
+        "yale": "gihn hōng tùhng tái yī sāng",
+        "bopomofo": "ㄍㄧㄣ⁶ ㄏㄛㄥ¹ ㄊㄨㄥ⁴ ㄊㄜㄧ² ㄧ¹ ㄙㄜㄥ¹"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -12058,6 +14942,12 @@
       "id": "work",
       "title": "Work and the office",
       "titleCjk": "返工",
+      "titleWord": {
+        "cjk": "返工",
+        "jyutping": "faan1 gung1",
+        "yale": "fāan gūng",
+        "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -12387,6 +15277,12 @@
       "id": "weather",
       "title": "Weather",
       "titleCjk": "天氣",
+      "titleWord": {
+        "cjk": "天氣",
+        "jyutping": "tin1 hei3",
+        "yale": "tīn hei",
+        "bopomofo": "ㄊㄧㄣ¹ ㄏㄝㄧ³"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -12623,7 +15519,10 @@
           "bopomofo": "ㄅㄚㆵ³ ㄏㄛㄨ⁶ ㄈㄨㄥ¹ ㄎㄜㄨ⁴",
           "en": "typhoon signal no. 8",
           "pos": "noun",
-          "note": "When it is raised, offices and schools close."
+          "note": "When it is raised, offices and schools close.",
+          "noteParts": [
+            "When it is raised, offices and schools close."
+          ]
         },
         {
           "cjk": "溫度",
@@ -12663,6 +15562,12 @@
       "id": "feelings",
       "title": "Feelings",
       "titleCjk": "感受",
+      "titleWord": {
+        "cjk": "感受",
+        "jyutping": "gam2 sau6",
+        "yale": "gám sauh",
+        "bopomofo": "ㄍㄜㆬ² ㄙㄜㄨ⁶"
+      },
       "review": {
         "status": "draft",
         "reviewers": []
@@ -12914,7 +15819,16 @@
       "id": "tech-work",
       "title": "Tech and work",
       "titleCjk": "科技同返工",
+      "titleWord": {
+        "cjk": "科技同返工",
+        "jyutping": "fo1 gei6 tung4 faan1 gung1",
+        "yale": "fō geih tùhng fāan gūng",
+        "bopomofo": "ㄈㄛ¹ ㄍㄝㄧ⁶ ㄊㄨㄥ⁴ ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+      },
       "note": "Hong Kong office speech mixes in English words freely. The English words keep their English spelling here and are said much as in English, usually fitted to Cantonese rhythm. The fully Cantonese word is often more formal or written.",
+      "noteParts": [
+        "Hong Kong office speech mixes in English words freely. The English words keep their English spelling here and are said much as in English, usually fitted to Cantonese rhythm. The fully Cantonese word is often more formal or written."
+      ],
       "review": {
         "status": "draft",
         "reviewers": []
@@ -12943,7 +15857,16 @@
           "bopomofo": "ㄗㄜㆴ¹ bug",
           "en": "to fix bugs",
           "pos": "verb",
-          "note": "執 means to tidy up or sort out."
+          "note": "執 means to tidy up or sort out.",
+          "noteParts": [
+            {
+              "cjk": "執",
+              "jyutping": "zap1",
+              "yale": "jāp",
+              "bopomofo": "ㄗㄜㆴ¹"
+            },
+            " means to tidy up or sort out."
+          ]
         },
         {
           "cjk": "趕 deadline",
@@ -12960,7 +15883,17 @@
           "bopomofo": "ㄏㄛㄧ¹ meeting",
           "en": "to have a meeting",
           "pos": "verb",
-          "note": "The same as 開會, and very common in offices."
+          "note": "The same as 開會, and very common in offices.",
+          "noteParts": [
+            "The same as ",
+            {
+              "cjk": "開會",
+              "jyutping": "hoi1 wui2",
+              "yale": "hōi wúi",
+              "bopomofo": "ㄏㄛㄧ¹ ㄨㄨㄧ²"
+            },
+            ", and very common in offices."
+          ]
         },
         {
           "cjk": "開 OT",
@@ -12969,7 +15902,17 @@
           "bopomofo": "ㄏㄛㄧ¹ OT",
           "en": "to work overtime",
           "pos": "verb",
-          "note": "OT is overtime, said as two letters; the same as 加班."
+          "note": "OT is overtime, said as two letters; the same as 加班.",
+          "noteParts": [
+            "OT is overtime, said as two letters; the same as ",
+            {
+              "cjk": "加班",
+              "jyutping": "gaa1 baan1",
+              "yale": "gā bāan",
+              "bopomofo": "ㄍㄚ¹ ㄅㄚㄣ¹"
+            },
+            "."
+          ]
         },
         {
           "cjk": "覆 email",
@@ -13018,7 +15961,10 @@
           "bopomofo": "ㄅㄛㄨ⁶ ㄘㄩ⁵",
           "en": "to deploy",
           "pos": "verb",
-          "note": "Formal; in speech many developers simply say deploy."
+          "note": "Formal; in speech many developers simply say deploy.",
+          "noteParts": [
+            "Formal; in speech many developers simply say deploy."
+          ]
         },
         {
           "cjk": "測試",
@@ -13127,7 +16073,10 @@
             "yale": "bouh",
             "bopomofo": "ㄅㄛㄨ⁶"
           },
-          "note": "Many people just say server."
+          "note": "Many people just say server.",
+          "noteParts": [
+            "Many people just say server."
+          ]
         },
         {
           "cjk": "密碼",

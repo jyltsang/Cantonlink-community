@@ -5,7 +5,7 @@ import { TOOLS } from './tool-definitions.js';
 import { buildLexicon } from './library.js';
 import { ai, saveAi, setProvider, forgetKey, aiReady, makeClient } from './ai-settings.js';
 import {
-  REPO, LEVELS, settings, h, show, sentenceEl, pageHead, chips, savePhrase, isPhraseSaved,
+  REPO, LEVELS, settings, h, show, sentenceEl, pageHead, chips, savePhrase, isPhraseSaved, patternName,
 } from './lib.js';
 
 let lexicon;
@@ -139,9 +139,9 @@ function tutorMessage(item, data, onAction) {
       sentenceEl(v.correction.better.tokens),
       h('p', { class: 'en' }, v.correction.better.en),
       h('p', { class: 'small' }, v.correction.explanation),
-      v.correction.pattern_id ? h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${v.correction.pattern_id}`, lang: 'yue-Hant-HK' }, byId.get(v.correction.pattern_id).pattern)) : null) : null,
+      v.correction.pattern_id ? h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${v.correction.pattern_id}` }, patternName(byId.get(v.correction.pattern_id)))) : null) : null,
     v.note ? h('p', { class: 'small note' }, v.note) : null,
-    v.patterns?.length ? h('p', { class: 'small' }, 'Grammar used: ', v.patterns.map((id, i) => [i ? ', ' : '', h('a', { href: `#/grammar/${id}`, lang: 'yue-Hant-HK' }, byId.get(id).pattern)])) : null,
+    v.patterns?.length ? h('p', { class: 'small' }, 'Grammar used: ', v.patterns.map((id, i) => [i ? ', ' : '', h('a', { href: `#/grammar/${id}` }, patternName(byId.get(id)))])) : null,
     checksView(item.steps, { badge: item.badge }),
     h('div', { class: 'msg-actions' },
       h('button', { class: 'btn btn-small', type: 'button', disabled: item.badge === 'unverified' || saved, title: item.badge === 'unverified' ? 'Unverified replies cannot be saved' : '', onclick: () => { savePhrase(v.reply); onAction(); } }, saved ? 'Saved for review' : 'Save phrase'),
@@ -214,7 +214,7 @@ export function tutorView(data, query) {
     };
     try {
       const result = await checkedAnswer({
-        client: makeClient(), system: tutorSystem({ data, ...chat, focus: data.path.find((u) => u.id === chat.unit)?.patterns ?? [], dialogue: data.path.find((u) => u.id === chat.unit)?.dialogue ?? null }), history: chat.history, kind: 'tutor',
+        client: makeClient(), system: tutorSystem({ data, ...chat, focus: data.path.find((u) => u.id === chat.unit)?.patterns ?? [], dialogue: data.path.find((u) => u.id === chat.unit)?.dialogue ?? null, romanOnly: !settings.showCjk }), history: chat.history, kind: 'tutor',
         data, lexicon: lexiconFor(data), tools: TOOLS, secondOpinionOn: ai.secondOpinion, onEvent,
       });
       await revealChecks(result.steps, (steps) => { pending.steps = steps; renderLog(); });
@@ -309,4 +309,4 @@ export function aiTaskSection(data, { task, label, intro }) {
 }
 
 export const translateTask = (english) => TASKS.translate(english);
-export const explainTask = (pattern) => TASKS.explain(pattern);
+export const explainTask = (pattern) => TASKS.explain(pattern, { romanOnly: !settings.showCjk });

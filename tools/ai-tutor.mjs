@@ -28,7 +28,12 @@ const JSON_RULES = `Always answer with one JSON object and nothing else, in this
 - "patterns": ids of library grammar patterns your reply uses (from list_grammar_patterns). Never invent ids.
 - "note": optional short English tip, or "".`;
 
-export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free', focus = [], dialogue = null }) {
+// For learners who have turned characters off: the reply itself is shown in
+// romanisation word by word, but free English text would otherwise mention
+// Cantonese words in characters.
+const ROMAN_ONLY = 'The learner does not read Chinese characters. In "explanation", "note" and any other English text, write Cantonese words in Jyutping only (for example "zo2", not "咗").';
+
+export function tutorSystem({ data, mode = 'friend', level = 'A1', scenario = 'free', focus = [], dialogue = null, romanOnly = false }) {
   const patterns = listPatterns(data, level).map((p) => `${p.id}: ${p.pattern} (${p.meaning})`).join('\n');
   const style = mode === 'sifu'
     ? 'You are a patient Cantonese teacher (師傅, Sifu). Correct every mistake the learner makes, gently, and name the grammar pattern involved.'
@@ -50,7 +55,7 @@ Use the tools to look up words and grammar in the learner's reviewed library rat
 Grammar patterns at this level:
 ${patterns}
 ${focusNote}${dialogueNote}
-${JSON_RULES}`;
+${JSON_RULES}${romanOnly ? `\n${ROMAN_ONLY}` : ''}`;
 }
 
 const TASK_SYSTEM = `You help learners of spoken Hong Kong Cantonese. Use natural spoken Cantonese, never Standard Written Chinese (佢 not 他, 係 not 是, 嘅 not 的, 唔 not 不, 咗 not 了). Jyutping must have tone numbers 1–6, one syllable per character. Answer with one JSON object and nothing else.`;
@@ -60,13 +65,13 @@ export const TASKS = {
     kind: 'sentence',
     prompt: `Translate into natural spoken Hong Kong Cantonese: "${english}"\nAnswer as {"words": [{"cjk": "...", "jyutping": "..."}], "en": "the English"}, with punctuation as its own word with empty Jyutping.`,
   }),
-  explain: (pattern) => ({
+  explain: (pattern, { romanOnly = false } = {}) => ({
     kind: 'explain',
     prompt: `Explain this Cantonese grammar pattern to a learner in simple English (at most 120 words), then give two new example sentences that are different from the library's.
 Pattern: ${pattern.pattern} — ${pattern.meaning}
 Library explanation: ${pattern.explanation}
 Library examples: ${pattern.examples.map((e) => `${e.cjk} (${e.jyutping}) "${e.en}"`).join('; ')}
-Answer as {"explanation": "...", "examples": [{"words": [{"cjk": "...", "jyutping": "..."}], "en": "..."}]}.`,
+Answer as {"explanation": "...", "examples": [{"words": [{"cjk": "...", "jyutping": "..."}], "en": "..."}]}.${romanOnly ? `\n${ROMAN_ONLY}` : ''}`,
   }),
 };
 

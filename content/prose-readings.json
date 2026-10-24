@@ -1,0 +1,15 @@
+{
+  "description": "Checked readings for characters inside English text (grammar explanations, notes), used when a learner turns characters off. Needed where a character has several readings in the library. \"in\" limits a reading to one entry (a pattern id, or topic/word); without it the reading applies everywhere.",
+  "readings": [
+    { "cjk": "呢", "jyutping": "ni1", "note": "In explanations 呢 is always the demonstrative 'this', not the question particle ne1." },
+    { "cjk": "會", "jyutping": "wui5", "note": "The modal verb 'will; can'; wui2 (a meeting) and wui6 do not occur in the notes." },
+    { "cjk": "間", "jyutping": "gaan1", "note": "The classifier for rooms, flats and shops." },
+    { "cjk": "件", "jyutping": "gin6", "note": "The classifier for clothes and matters." },
+    { "cjk": "人", "jyutping": "jan4", "note": "畀人 'by someone'; jan2 is a changed tone used only in some compounds." },
+    { "cjk": "上", "jyutping": "soeng5", "note": "The directional verb 'to go up'." },
+    { "cjk": "行", "jyutping": "haang4", "note": "'To walk'; hong4 (a line, a trade) does not occur in the notes." },
+    { "cjk": "行得好慢", "jyutping": "haang4 dak1 hou2 maan6", "in": "dak1-degree", "note": "慢 is maan6 'slow'; maan2 is the changed tone in 慢慢." },
+    { "cjk": "賣晒", "jyutping": "maai6 saai3", "in": "saai3-all", "note": "賣 is maai6 'to sell'; maai2 does not apply here." },
+    { "cjk": "到", "jyutping": "dou2", "in": "dou2-result", "note": "The resultative complement, rising tone, as the explanation says." }
+  ]
+}

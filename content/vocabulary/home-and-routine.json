@@ -3,6 +3,7 @@
   "order": 8,
   "title": "Home and daily routine",
   "titleCjk": "屋企同日常",
+  "titleJyutping": "uk1 kei2 tung4 jat6 soeng4",
   "words": [
     { "cjk": "屋企", "jyutping": "uk1 kei2", "en": "home", "pos": "noun" },
     { "cjk": "起身", "jyutping": "hei2 san1", "en": "to get up", "pos": "verb" },

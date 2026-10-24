@@ -1,7 +1,7 @@
 import { parseSyllable, phraseToYale, phraseToBopomofo, romanise } from './romanise.js';
 import {
   SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, romText, pageHead, chips,
-  reportLine, recordAnswer, reviewKeys, savedPhrase, stats, whenDue,
+  reportLine, recordAnswer, reviewKeys, savedPhrase, stats, whenDue, patternName, patternText, topicCantoText,
 } from './lib.js';
 import { aiReady } from './ai-settings.js';
 
@@ -9,7 +9,7 @@ const SESSION_LENGTH = 10;
 export const itemKey = (item) => KINDS[item.kind].key(item.q);
 const patternLink = (data, id) => {
   const p = data.grammar.find((x) => x.id === id);
-  return p ? h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${p.id}`, lang: 'yue-Hant-HK' }, p.pattern), ` — ${p.meaning}`) : null;
+  return p ? h('p', { class: 'small' }, 'Pattern: ', h('a', { href: `#/grammar/${p.id}` }, patternName(p)), ` — ${p.meaning}`) : null;
 };
 
 // Lines of a unit's model dialogue, practised as build-the-sentence items.
@@ -44,7 +44,7 @@ const KINDS = {
             h('span', { class: 'key-hint', 'aria-hidden': 'true' }, i + 1), rom(o), han(o));
         })),
         st.done ? h('div', { class: `feedback ${st.correct ? 'good' : 'bad'}`, role: 'status' },
-          verdict(st.correct, `The answer is ${right.cjk} ${right[settings.system]}.`), patternLink(data, q.patternId),
+          verdict(st.correct, `The answer is ${settings.showCjk ? `${right.cjk} ` : ''}${right[settings.system]}.`), patternLink(data, q.patternId),
           aiReady() ? h('p', { class: 'small' }, h('a', { href: `#/tutor?ask=${encodeURIComponent(`Why is ${right.cjk} (${right.jyutping}) right in "${q.tokens.map((t) => t.cjk).join('')}" (${q.en})${st.choice !== right ? `, and not ${st.choice.cjk}` : ''}?`)}` }, 'Ask the AI tutor why')) : null) : null,
       ];
     },
@@ -283,8 +283,8 @@ export function fillTheGap(data, query) {
   const p = pattern && data.grammar.find((x) => x.id === pattern);
   return runSession(data, {
     title: 'Fill the gap',
-    lede: p ? `Practising ${p.pattern}: ${p.meaning}.` : 'Choose the word that completes the sentence so that it matches the English. Number keys 1 to 4 also work.',
-    back: p ? [`#/grammar/${p.id}`, p.pattern] : ['#/', 'Home'],
+    lede: p ? `Practising ${patternText(p)}: ${p.meaning}.` : 'Choose the word that completes the sentence so that it matches the English. Number keys 1 to 4 also work.',
+    back: p ? [`#/grammar/${p.id}`, patternText(p)] : ['#/', 'Home'],
     filters: p ? null : (restart) => levelFilter(level, (l) => { level = l; restart(); }),
     makeItems: () => (p
       ? shuffle(data.practice.fillGap.filter((q) => q.patternId === p.id))
@@ -311,7 +311,7 @@ export function tones(data) {
     filters: (restart) => h('div', {},
       h('select', { class: 'chip', 'aria-label': 'Topic', onchange: (e) => { topic = e.target.value; restart(); } },
         h('option', { value: 'all', selected: topic === 'all' }, 'All topics'),
-        data.vocabulary.map((t) => h('option', { value: t.id, selected: t.id === topic }, `${t.title} · ${t.titleCjk}`))),
+        data.vocabulary.map((t) => h('option', { value: t.id, selected: t.id === topic }, `${t.title} · ${topicCantoText(t)}`))),
       toneTable()),
     makeItems: () => sample(words.filter((w) => topic === 'all' || w.topic === topic), 30)
       .map(({ word, topic: t }) => toneQuestion(word, t)).filter(Boolean).slice(0, SESSION_LENGTH).map((q) => ({ kind: 'tone', q })),
@@ -326,11 +326,20 @@ function toneTable() {
       h('thead', {}, h('tr', {}, ['Tone', 'Pitch', 'Example', 'Meaning'].map((t) => h('th', { scope: 'col' }, t)))),
       h('tbody', {}, rows.map(([t, cjk, en]) => h('tr', {},
         h('td', {}, String(t)), h('td', {}, TONE_NAMES[t]),
-        h('td', {}, h('span', { lang: 'yue-Hant-HK' }, cjk), ' ', h('span', { lang: SYSTEM_LANG[settings.system] }, romanise(`si${t}`)[settings.system])),
+        h('td', {}, settings.showCjk ? [h('span', { lang: 'yue-Hant-HK' }, cjk), ' '] : null, h('span', { lang: SYSTEM_LANG[settings.system] }, romanise(`si${t}`)[settings.system])),
         h('td', {}, en))))));
 }
 
 export function spokenOrWritten(data) {
+  // The drill is about written characters, so it only makes sense with them on.
+  if (!settings.showCjk) {
+    show(
+      ...pageHead('Spoken or written?'),
+      h('p', {}, 'This drill tells spoken Cantonese from Standard Written Chinese, which is a difference in characters. It is available when characters are turned on under Display.'),
+      h('div', { class: 'actions' }, h('button', { class: 'btn btn-primary', type: 'button', onclick: () => document.querySelector('input[name="showCjk"]')?.click() }, 'Turn characters on'),
+        h('a', { class: 'btn', href: '#/' }, 'Home')));
+    return () => spokenOrWritten(data);
+  }
   return runSession(data, {
     title: 'Spoken or written?',
     lede: 'Is this how people actually speak, or Standard Written Chinese? This drill uses characters, because written Chinese has no Cantonese romanisation of its own.',
@@ -349,6 +358,7 @@ export function review(data) {
       return q && { kind, q };
     }
     if (kind === 'sow') {
+      if (!settings.showCjk) return null;
       const q = sowPool(data).find((x) => x.n === Number(rest[0]) && x.kind === rest[1]);
       return q && { kind, q };
     }
@@ -403,7 +413,7 @@ export function flashcards(data, query) {
       ...pageHead('Flashcards', { lede: 'Turn the card over, then say whether you knew it. Cards you miss come back later in the session and are saved for review.' }),
       h('div', { class: 'toolbar' },
         h('select', { class: 'chip', 'aria-label': 'Topic', onchange: (e) => { topicId = e.target.value; start(); } },
-          data.vocabulary.map((t) => h('option', { value: t.id, selected: t.id === topicId }, `${t.title} · ${t.titleCjk}`))),
+          data.vocabulary.map((t) => h('option', { value: t.id, selected: t.id === topicId }, `${t.title} · ${topicCantoText(t)}`))),
         chips([['canto-en', 'Cantonese first'], ['en-canto', 'English first']], direction, (d) => { direction = d; start(); }, 'Direction')),
     ];
     if (!queue.length) {

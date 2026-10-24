@@ -3,6 +3,7 @@
   "order": 12,
   "title": "Feelings",
   "titleCjk": "感受",
+  "titleJyutping": "gam2 sau6",
   "words": [
     { "cjk": "開心", "jyutping": "hoi1 sam1", "en": "happy", "pos": "adjective" },
     { "cjk": "唔開心", "jyutping": "m4 hoi1 sam1", "en": "unhappy", "pos": "adjective" },

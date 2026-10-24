@@ -3,6 +3,7 @@
   "order": 11,
   "title": "Weather",
   "titleCjk": "天氣",
+  "titleJyutping": "tin1 hei3",
   "words": [
     { "cjk": "天氣", "jyutping": "tin1 hei3", "en": "weather", "pos": "noun" },
     { "cjk": "熱", "jyutping": "jit6", "en": "hot", "pos": "adjective" },

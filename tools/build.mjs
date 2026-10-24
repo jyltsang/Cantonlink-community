@@ -7,6 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { parseSyllable, phraseToYale, phraseToBopomofo, toYale, toBopomofo } from './romanise.mjs';
 import { PUNCTUATION, word, tokens, sentence } from './data.mjs';
 import { SCHEMA } from './schema.mjs';
+import ToJyutping from 'to-jyutping';
+import { proseParts, joinParts, mixedRomanised, patternMismatch } from './prose.mjs';
 
 // CANTONLINK_ROOT lets tests validate a modified copy of content/.
 const ROOT = process.env.CANTONLINK_ROOT ?? join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -23,6 +25,7 @@ const spokenOrWritten = readJson('content/practice/spoken-or-written.json');
 const extraLexicon = readJson('content/lexicon.json');
 const path = readJson('content/path.json');
 const dialogues = readJson('content/dialogues.json').dialogues;
+const proseReadings = readJson('content/prose-readings.json').readings;
 
 const FUNCTIONS = {
   'being-and-having': 'Being and having',
@@ -83,7 +86,17 @@ function checkSpoken(where, words) {
 }
 
 const lexicon = new Map();
-const learn = (cjk, jyutping) => { if (!lexicon.has(cjk)) lexicon.set(cjk, jyutping); };
+// Every reading each single character has anywhere in the library, so prose
+// readings can tell when a character is ambiguous.
+const readings = new Map();
+const learn = (cjk, jyutping) => {
+  if (!lexicon.has(cjk)) lexicon.set(cjk, jyutping);
+  const chars = [...cjk];
+  const syllables = jyutping.split(' ');
+  if (chars.length === syllables.length && chars.every((c) => /\p{Script=Han}/u.test(c))) {
+    chars.forEach((c, i) => readings.set(c, (readings.get(c) ?? new Set()).add(syllables[i])));
+  }
+};
 
 const ids = new Set();
 for (const p of patterns) {
@@ -208,6 +221,43 @@ const patternForms = (p) => p.pattern.split('/').map((form) => (form.match(/\p{S
     if (used.length < 3) fail(where, `uses ${used.length} of the unit's patterns (${used.join(', ') || 'none'}); use at least three`);
   }
   for (const u of path.units) if (!seen.has(u.id)) fail(`path/${u.id}`, 'has no dialogue in content/dialogues.json');
+}
+
+// Readings for characters inside English text (explanations and notes), for
+// learners who turn characters off. Pattern names already carry their
+// Jyutping, which must line up with the characters.
+const prose = new Map();
+{
+  const used = new Set();
+  const fallbacks = [];
+  const fallback = (cjk) => {
+    const jyutping = ToJyutping.getJyutpingText(cjk);
+    fallbacks.push(cjk);
+    return jyutping;
+  };
+  const read = (where, text) => {
+    if (!text) return undefined;
+    const parts = proseParts(text, { lexicon, readings, overrides: proseReadings, fallback, where, used, problems: errors });
+    if (joinParts(parts) !== text) fail(where, 'prose readings do not reproduce the text');
+    for (const part of parts) if (typeof part !== 'string') checkJyutping(`${where} reading of ${part[0]}`, part[0], part[1] ?? '');
+    return parts;
+  };
+  for (const p of patterns) {
+    const mismatch = patternMismatch(p.pattern, p.jyutping);
+    if (mismatch) fail(p.id, `pattern Jyutping does not line up with "${p.pattern}": ${mismatch}`);
+    prose.set(`${p.id}:explanation`, read(p.id, p.explanation));
+    (p.mistakes ?? []).forEach((m, i) => prose.set(`${p.id}:mistake:${i}`, read(p.id, m.note)));
+  }
+  for (const t of topics) {
+    checkJyutping(`${t.id} title`, t.titleCjk, t.titleJyutping ?? '');
+    prose.set(`${t.id}:note`, read(t.id, t.note));
+    for (const w of t.words) prose.set(`${t.id}/${w.cjk}:note`, read(`${t.id}/${w.cjk}`, w.note));
+  }
+  for (const o of proseReadings) {
+    checkJyutping(`content/prose-readings.json ${o.cjk}`, o.cjk, o.jyutping);
+    if (!used.has(o)) fail(`content/prose-readings.json ${o.cjk}${o.in ? ` (${o.in})` : ''}`, 'is not used; remove it');
+  }
+  if (process.env.CANTONLINK_PROSE_REPORT) console.log(`Readings from to-jyutping: ${[...new Set(fallbacks)].join(' ') || 'none'}`);
 }
 
 const REVIEW_STATUSES = ['draft', 'reviewed'];
@@ -548,20 +598,23 @@ emit('library/README.md', page(
   ));
 }
 
-// Data file for apps and other projects
+// Data file for apps and other projects. Text with characters inside it gets
+// a *Parts version: plain strings and words, for showing without characters.
+const fullParts = (parts) => parts.map((part) => (typeof part === 'string' ? part : word(...part)));
+const partsField = (name, key, full) => (prose.get(key) ? { [name]: full ? fullParts(prose.get(key)) : prose.get(key) } : {});
 emit('dist/cantonlink-community.json', JSON.stringify({
   licence: 'CC BY-SA 4.0',
   source: 'https://github.com/jyltsang/cantonlink-community',
   grammar: patterns.map((p) => ({
-    id: p.id, pattern: p.pattern, jyutping: p.jyutping, meaning: p.meaning, level: p.level, function: p.function,
-    functionName: FUNCTIONS[p.function], explanation: p.explanation, writtenEquivalent: p.writtenEquivalent ?? null,
+    id: p.id, pattern: p.pattern, jyutping: p.jyutping, patternRomanised: mixedRomanised(p.jyutping), meaning: p.meaning, level: p.level, function: p.function,
+    functionName: FUNCTIONS[p.function], explanation: p.explanation, ...partsField('explanationParts', `${p.id}:explanation`, true), writtenEquivalent: p.writtenEquivalent ?? null,
     examples: p.examples.map((ex) => ({ ...sentence(ex.words, ex.en), tokens: tokens(ex.words) })),
-    mistakes: (p.mistakes ?? []).map((m) => ({ incorrect: m.incorrect, correct: sentence(m.correct), note: m.note })),
+    mistakes: (p.mistakes ?? []).map((m, i) => ({ incorrect: m.incorrect, correct: sentence(m.correct), note: m.note, ...partsField('noteParts', `${p.id}:mistake:${i}`, true) })),
     related: p.related ?? [], review: p.review,
   })),
   vocabulary: topics.map((t) => ({
-    id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
-    words: t.words.map((w) => ({ ...word(w.cjk, w.jyutping), en: w.en, pos: w.pos, ...(w.classifier ? { classifier: word(...w.classifier) } : {}), ...(w.note ? { note: w.note } : {}) })),
+    id: t.id, title: t.title, titleCjk: t.titleCjk, titleWord: word(t.titleCjk, t.titleJyutping), ...(t.note ? { note: t.note } : {}), ...partsField('noteParts', `${t.id}:note`, true), review: t.review,
+    words: t.words.map((w) => ({ ...word(w.cjk, w.jyutping), en: w.en, pos: w.pos, ...(w.classifier ? { classifier: word(...w.classifier) } : {}), ...(w.note ? { note: w.note } : {}), ...partsField('noteParts', `${t.id}/${w.cjk}:note`, true) })),
   })),
   path: path.units.map(({ titleCjk, titleJyutping, ...u }) => {
     const d = dialogues.find((x) => x.unit === u.id);
@@ -598,15 +651,15 @@ emit('dist/schema.json', JSON.stringify(SCHEMA, null, 2) + '\n');
     source: 'https://github.com/jyltsang/cantonlink-community',
     slim: true,
     grammar: patterns.map((p) => ({
-      id: p.id, pattern: p.pattern, jyutping: p.jyutping, meaning: p.meaning, level: p.level, function: p.function,
-      functionName: FUNCTIONS[p.function], explanation: p.explanation, writtenEquivalent: p.writtenEquivalent ?? null,
+      id: p.id, pattern: p.pattern, jyutping: p.jyutping, patternRomanised: mixedRomanised(p.jyutping), meaning: p.meaning, level: p.level, function: p.function,
+      functionName: FUNCTIONS[p.function], explanation: p.explanation, ...partsField('explanationParts', `${p.id}:explanation`), writtenEquivalent: p.writtenEquivalent ?? null,
       examples: p.examples.map((ex) => [ex.words, ex.en]),
-      mistakes: (p.mistakes ?? []).map((m) => ({ incorrect: m.incorrect, correct: m.correct, note: m.note })),
+      mistakes: (p.mistakes ?? []).map((m, i) => ({ incorrect: m.incorrect, correct: m.correct, note: m.note, ...partsField('noteParts', `${p.id}:mistake:${i}`) })),
       related: p.related ?? [], review: p.review,
     })),
     vocabulary: topics.map((t) => ({
-      id: t.id, title: t.title, titleCjk: t.titleCjk, ...(t.note ? { note: t.note } : {}), review: t.review,
-      words: t.words.map((w) => ({ cjk: w.cjk, jyutping: w.jyutping, en: w.en, pos: w.pos, ...(w.classifier ? { classifier: w.classifier } : {}), ...(w.note ? { note: w.note } : {}) })),
+      id: t.id, title: t.title, titleCjk: t.titleCjk, titleWord: pair(t.titleCjk, t.titleJyutping), ...(t.note ? { note: t.note } : {}), ...partsField('noteParts', `${t.id}:note`), review: t.review,
+      words: t.words.map((w) => ({ cjk: w.cjk, jyutping: w.jyutping, en: w.en, pos: w.pos, ...(w.classifier ? { classifier: w.classifier } : {}), ...(w.note ? { note: w.note } : {}), ...partsField('noteParts', `${t.id}/${w.cjk}:note`) })),
     })),
     path: path.units.map(({ titleCjk, titleJyutping, ...u }) => {
       const d = dialogues.find((x) => x.unit === u.id);

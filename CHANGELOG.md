@@ -7,6 +7,8 @@
 - Dark mode is derived from the brand (warm ink canvas, cream text) rather than a separate palette.
 - Romanisation first: Jyutping is set in mono with tone numbers as superscripts; the text itself is unchanged, so copying and screen readers still get "nei5 hou2". Characters are now **off by default** (a choice already saved in the browser is kept) and appear beneath the romanisation when turned on.
 - **Try first**, the output-first pattern, is the default for unit dialogues: you play the second speaker, see what to say in English, try it, then reveal it. Revealed lines count towards the unit's progress. **Read** shows the whole dialogue as before.
+- **No characters anywhere when they are off.** Grammar pattern names (Verb + zo²), explanations, mistake notes, word notes, topic names, classifiers, the tone table and the home page now follow the setting, using readings worked out and checked at build time (see the quality report, section 6). Spoken or written?, which is about characters, is hidden until characters are turned on. With characters off, the AI tutor is asked to write Cantonese words in its explanations in Jyutping. A browser test checks every page.
+- New fields in the data file: `patternRomanised` and `explanationParts` on grammar patterns, `noteParts` on mistakes and word notes, and `titleWord` on vocabulary topics.
 - A new test checks WCAG AA contrast (4.5:1 for text, 3:1 for controls) for every colour pair the site uses, in both themes.
 
 ## 1.0.0-rc.2 · 24 October 2026

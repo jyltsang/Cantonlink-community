@@ -76,3 +76,14 @@ test('dialogues: written Chinese, a missing unit and too few patterns are reject
   }));
   assert.match(thin, /dialogue\/u02: uses 0 of the unit's patterns/);
 });
+
+test('prose readings: an ambiguous character needs a checked reading, and unused readings are rejected', () => {
+  const ambiguous = validate((edit) => edit('prose-readings.json', (d) => { d.readings = d.readings.filter((r) => r.cjk !== '會'); }));
+  assert.match(ambiguous, /"會" in ".*" has several readings in the library \(wui5, wui2, wui6\)/);
+  const unused = validate((edit) => edit('prose-readings.json', (d) => { d.readings.push({ cjk: '貓', jyutping: 'maau1' }); }));
+  assert.match(unused, /prose-readings\.json 貓: is not used/);
+  const badTitle = validate((edit) => edit('vocabulary/greetings.json', (d) => { d.titleJyutping = 'daa2 ziu1'; }));
+  assert.match(badTitle, /greetings title: "打招呼" has 3 characters but "daa2 ziu1" has 2 syllables/);
+  const badPattern = validate((edit) => edit('grammar/A1.json', (d) => { d.find((p) => p.id === 'hai6-copula').jyutping = 'Subject + Noun'; }));
+  assert.match(badPattern, /hai6-copula: pattern Jyutping does not line up/);
+});

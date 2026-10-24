@@ -6,7 +6,7 @@
     "meaning": "manage to; can't manage to",
     "level": "B1",
     "function": "complements",
-    "explanation": "到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from 到 (dou3) 'to arrive'.",
+    "explanation": "到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from dou3 'to arrive', which is written with the same character.",
     "examples": [
       { "words": [["我", "ngo5"], ["搵", "wan2"], ["到", "dou2"], ["我", "ngo5"], ["條", "tiu4"], ["鎖匙", "so2 si4"], ["喇", "laa3"], ["。"]], "en": "I've found my key.", "gap": { "word": "到", "distractors": ["完", "緊", "過"] } },
       { "words": [["你", "nei5"], ["聽唔聽到", "teng1 m4 teng1 dou2"], ["呀", "aa3"], ["？"]], "en": "Can you hear me?" },

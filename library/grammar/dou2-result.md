@@ -6,7 +6,7 @@
 
 > **Draft: awaiting native-speaker review.** Spotted something unnatural? Please [report it](https://github.com/jyltsang/cantonlink-community/issues/new?template=content-error.yml&title=%5BCorrection%5D%20grammar%2Fdou2-result).
 
-到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from 到 (dou3) 'to arrive'.
+到 (dou2, rising tone) after a verb says the action succeeded: 搵到 (found), 買到 (managed to buy). Put 唔 in between for 'couldn't': 買唔到. This is a different word from dou3 'to arrive', which is written with the same character.
 
 ## Examples
 

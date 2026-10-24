@@ -13,6 +13,9 @@ const romanOf = (words, convert) => words
 
 export const word = (cjk, jyutping) => ({ cjk, jyutping, yale: phraseToYale(jyutping), bopomofo: phraseToBopomofo(jyutping) });
 export const tokens = (words) => words.map((w) => (w.length === 1 ? { cjk: w[0], punctuation: PUNCTUATION[w[0]] } : word(w[0], w[1])));
+const parts = (list) => list.map((part) => (typeof part === 'string' ? part : word(...part)));
+const withParts = (item, name) => (item[name] ? { ...item, [name]: parts(item[name]) } : item);
+
 export const sentence = (words, en) => ({
   cjk: words.map((w) => w[0]).join(''),
   jyutping: romanOf(words, SYSTEMS.jyutping),
@@ -34,17 +37,18 @@ export function hydrate(data) {
   const full = {
     licence, source,
     grammar: grammar.map((p) => ({
-      ...p,
+      ...withParts(p, 'explanationParts'),
       examples: p.examples.map(([words, en], i) => {
         const ex = { ...sentence(words, en), tokens: tokens(words) };
         examples.set(`${p.id}:${i}`, { p, ex });
         return ex;
       }),
-      mistakes: p.mistakes.map((m) => ({ ...m, correct: sentence(m.correct) })),
+      mistakes: p.mistakes.map((m) => ({ ...withParts(m, 'noteParts'), correct: sentence(m.correct) })),
     })),
     vocabulary: vocabulary.map((t) => ({
-      ...t,
-      words: t.words.map(({ classifier, ...w }) => ({ ...word(w.cjk, w.jyutping), ...w, ...(classifier ? { classifier: word(...classifier) } : {}) })),
+      ...withParts(t, 'noteParts'),
+      titleWord: word(...t.titleWord),
+      words: t.words.map(({ classifier, ...w }) => ({ ...word(w.cjk, w.jyutping), ...withParts(w, 'noteParts'), ...(classifier ? { classifier: word(...classifier) } : {}) })),
     })),
     path: path.map((u) => ({
       ...u,

@@ -3,6 +3,7 @@
   "order": 7,
   "title": "Family and people",
   "titleCjk": "屋企人同朋友",
+  "titleJyutping": "uk1 kei2 jan4 tung4 pang4 jau5",
   "words": [
     { "cjk": "屋企人", "jyutping": "uk1 kei2 jan4", "en": "family", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "爸爸", "jyutping": "baa4 baa1", "en": "dad", "pos": "noun" },

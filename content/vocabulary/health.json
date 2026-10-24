@@ -3,6 +3,7 @@
   "order": 9,
   "title": "Health and the doctor",
   "titleCjk": "健康同睇醫生",
+  "titleJyutping": "gin6 hong1 tung4 tai2 ji1 sang1",
   "words": [
     { "cjk": "醫生", "jyutping": "ji1 sang1", "en": "doctor", "pos": "noun", "classifier": ["個", "go3"] },
     { "cjk": "睇醫生", "jyutping": "tai2 ji1 sang1", "en": "to see a doctor", "pos": "verb" },

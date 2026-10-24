@@ -3,6 +3,7 @@
   "order": 3,
   "title": "Food and dim sum",
   "titleCjk": "飲食同點心",
+  "titleJyutping": "jam2 sik6 tung4 dim2 sam1",
   "words": [
     { "cjk": "食", "jyutping": "sik6", "en": "to eat", "pos": "verb" },
     { "cjk": "飲", "jyutping": "jam2", "en": "to drink", "pos": "verb" },

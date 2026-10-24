@@ -3,6 +3,7 @@
   "order": 6,
   "title": "Directions",
   "titleCjk": "問路",
+  "titleJyutping": "man6 lou6",
   "words": [
     { "cjk": "邊度", "jyutping": "bin1 dou6", "en": "where", "pos": "question word" },
     { "cjk": "呢度", "jyutping": "ni1 dou6", "en": "here", "pos": "place" },

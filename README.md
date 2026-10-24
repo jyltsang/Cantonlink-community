@@ -24,7 +24,7 @@
 The **[learning site](https://jyltsang.github.io/Cantonlink-community/)** presents the same material interactively:
 
 - **Learn:** browse grammar by level, read each pattern with word-by-word examples, browse vocabulary by topic, and look words up from English, Jyutping, Yale or characters.
-- **Romanisation first:** everything is shown in Jyutping (tones as superscripts, e.g. nei⁵ hou²), Yale or Bopomofo. 漢字 are off by default; turn them on under Display and they appear beneath the romanisation.
+- **Romanisation first:** everything is shown in Jyutping (tones as superscripts, e.g. nei⁵ hou²), Yale or Bopomofo. 漢字 are off by default, everywhere on the site, including grammar names and explanations; turn them on under Display and they appear beneath the romanisation.
 - **Try first:** each unit's model dialogue asks you to say your lines before it shows them, then reveals the answer.
 - **Practise:** flashcards, fill the gap, build the sentence, a tone drill and spoken-or-written, all in the romanisation you choose.
 - **AI tutor (optional, your own key):** conversation practice with every reply checked against the library.

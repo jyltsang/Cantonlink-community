@@ -76,3 +76,29 @@ The AI tutor was tested against a real provider, **Google Gemini**, by driving t
 - The role-play step had not really run (the test clicked the navigation's Tutor link); the test is fixed.
 
 A paid run costs about 1–3 US cents with the default model; the test stops after 40 requests whatever happens.
+
+## 6. Readings for characters inside English text
+
+With characters turned off (the default), learners see no Chinese characters anywhere, so every character that appears inside English text (grammar explanations, mistake notes, word notes, pattern names and topic names) needs a reading. The build works them out and checks them:
+
+- **Pattern names** use each pattern's own Jyutping (Verb + 咗 → Verb + zo2); the build checks that the Jyutping has one valid syllable for each character.
+- **Topic names** have a hand-written reading in each vocabulary file (`titleJyutping`), checked like every other entry.
+- **Explanations and notes** use the library's own words, longest first. Where a single character has more than one reading in the library, the build stops until a checked reading is added to `content/prose-readings.json`. Ten were needed:
+
+| Characters | Reading | Where | Why |
+|---|---|---|---|
+| 呢 | ni1 | everywhere | the demonstrative "this", not the particle ne1 |
+| 會 | wui5 | everywhere | the modal "will; can" |
+| 間 | gaan1 | everywhere | the classifier |
+| 件 | gin6 | everywhere | the classifier |
+| 人 | jan4 | everywhere | 畀人 "by someone" |
+| 上 | soeng5 | everywhere | the directional verb "to go up" |
+| 行 | haang4 | everywhere | "to walk" |
+| 行得好慢 | haang4 dak1 hou2 maan6 | dak1-degree | 慢 maan6, not the changed tone maan2 |
+| 賣晒 | maai6 saai3 | saai3-all | 賣 maai6 "to sell" |
+| 到 | dou2 | dou2-result | the resultative complement |
+
+- **Written forms** that the notes warn against (他, 是, 不, 沒, 吃, 了, 這, 在, 哪, 很, 甚麼, 們, 吧, 說, 給, 比, 被) are not in the spoken-Cantonese library, so their readings come from the independent dictionary (to-jyutping), e.g. 他 taa1, 是 si6.
+- One explanation was reworded: dou2-result said "a different word from 到 (dou3)", which cannot be read correctly without characters when the same character is read dou2 elsewhere in the note. It now says "a different word from dou3 'to arrive', which is written with the same character".
+
+A browser test visits every page (every grammar pattern, word topic and unit, Look up, each exercise, review, the tutor and AI settings) in Jyutping and in Yale, and fails if any Chinese character appears.

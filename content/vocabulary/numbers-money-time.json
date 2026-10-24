@@ -3,6 +3,7 @@
   "order": 2,
   "title": "Numbers, money and time",
   "titleCjk": "數字、錢同時間",
+  "titleJyutping": "sou3 zi6 cin2 tung4 si4 gaan3",
   "words": [
     { "cjk": "一", "jyutping": "jat1", "en": "one", "pos": "number" },
     { "cjk": "兩", "jyutping": "loeng5", "en": "two (before a classifier)", "pos": "number", "note": "Use 兩 before classifiers (兩個) and 二 when counting or in larger numbers (二十)." },
