@@ -185,7 +185,12 @@ export function tutorView(data, query) {
           h('p', { lang: /\p{Script=Han}/u.test(item.text) ? 'yue-Hant-HK' : undefined }, item.text),
           item.notes?.length ? h('div', { class: 'learner-notes' }, h('p', { class: 'small' }, 'Quick check:'), h('ul', {}, item.notes.map((n) => h('li', {}, n)))) : null);
       }
-      if (item.role === 'error') return h('div', { class: 'msg msg-error', role: 'alert' }, h('p', {}, item.text), h('a', { href: '#/ai' }, 'Check AI settings'));
+      if (item.role === 'error') {
+        return h('div', { class: 'msg msg-error', role: 'alert' }, h('p', {}, item.text),
+          h('div', { class: 'actions' },
+            h('button', { class: 'btn btn-small', type: 'button', disabled: chat.busy, onclick: item.retry }, 'Try again'),
+            h('a', { href: '#/ai' }, 'Check AI settings')));
+      }
       if (item.pending) return pendingMessage(item);
       return tutorMessage(item, data, (action) => (action === 'explain' ? send({ explain: true }) : renderLog()));
     }));
@@ -195,6 +200,7 @@ export function tutorView(data, query) {
 
   async function ask(userContent, display) {
     if (display) chat.items.push(display);
+    const mark = chat.history.length;
     chat.history.push({ role: 'user', content: userContent, hidden: !display });
     const pending = { role: 'tutor', pending: true, activity: ['Thinking…'], steps: null };
     chat.items.push(pending);
@@ -214,7 +220,12 @@ export function tutorView(data, query) {
       await revealChecks(result.steps, (steps) => { pending.steps = steps; renderLog(); });
       Object.assign(pending, { pending: false, value: result.value, steps: result.steps, badge: result.badge });
     } catch (error) {
-      chat.items.splice(chat.items.indexOf(pending), 1, { role: 'error', text: error instanceof ProviderError ? error.message : `Something went wrong: ${error.message}` });
+      // Leave the conversation as it was, so trying again sends the same turn.
+      chat.history.length = mark;
+      chat.items.splice(chat.items.indexOf(pending), 1, {
+        role: 'error', text: error instanceof ProviderError ? error.message : `Something went wrong: ${error.message}`,
+        retry: () => { chat.items = chat.items.filter((item) => item.role !== 'error'); ask(userContent, null); },
+      });
     }
     chat.busy = false;
     renderLog();

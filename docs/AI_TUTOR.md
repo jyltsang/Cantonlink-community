@@ -39,6 +39,10 @@ Everything else on the site works without a key.
    Use `http://localhost:8080` instead if you run the site locally with `npm run preview`.
 3. In AI settings choose **OpenAI-compatible**, keep the address `http://localhost:11434/v1`, and type the model name (`qwen2.5`).
 
+### If the model is busy or slow
+
+Popular models are sometimes overloaded. The site retries a busy provider twice by itself and gives up on any single request after 90 seconds. If it still fails, the chat shows the error with a **Try again** button, which sends the same message again without repeating it in the conversation. If it keeps happening, choose a different model in AI settings: **Test connection** lists the models your key can use, and warns if the one you chose has been retired.
+
 ## Your key and your privacy
 
 - **The key goes only to the provider you chose**, directly from your browser. The site is static: it has no server, collects nothing, and never sees your key.

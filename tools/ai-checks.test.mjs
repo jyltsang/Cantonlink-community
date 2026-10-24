@@ -112,3 +112,11 @@ test('schemas are valid structured-output schemas (objects closed)', () => {
   };
   Object.values(SCHEMAS).forEach(walk);
 });
+
+test('a library word split across tokens is recognised, but a wrong reading still is not', () => {
+  const reply = (words) => JSON.stringify({ reply: { words, en: "I'm running late for the meeting." }, correction: null, patterns: [], note: '' });
+  const split = verify('tutor', reply([{ cjk: '我', jyutping: 'ngo5' }, { cjk: '開', jyutping: 'hoi1' }, { cjk: '會', jyutping: 'wui2' }, { cjk: '遲到', jyutping: 'ci4 dou3' }, { cjk: '喇', jyutping: 'laa3' }, { cjk: '。', jyutping: '' }]), ctx);
+  assert.equal(split.steps.find((st) => st.id === 'library').status, 'pass');
+  const wrong = verify('tutor', reply([{ cjk: '我', jyutping: 'ngo5' }, { cjk: '開', jyutping: 'hoi1' }, { cjk: '會', jyutping: 'wui3' }, { cjk: '喇', jyutping: 'laa3' }, { cjk: '。', jyutping: '' }]), ctx);
+  assert.equal(wrong.steps.find((st) => st.id === 'library').status, 'warn');
+});

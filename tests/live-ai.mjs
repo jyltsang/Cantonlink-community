@@ -19,7 +19,7 @@ const MOCK = process.argv.includes('--mock');
 const MOCK_PORT = 8791;
 const LOCAL = process.argv.includes('--local');
 const BASE = LOCAL ? 'http://localhost:8080/' : (process.env.SITE_URL ?? 'https://jyltsang.github.io/Cantonlink-community/');
-const REPLY_TIMEOUT = 150_000;
+const REPLY_TIMEOUT = 240_000;
 const PROVIDERS = [
   { id: 'anthropic', name: 'Claude', key: 'ANTHROPIC_API_KEY', model: 'ANTHROPIC_MODEL', hosts: ['api.anthropic.com'] },
   { id: 'openai', name: 'OpenAI', key: 'OPENAI_API_KEY', model: 'OPENAI_MODEL', hosts: ['api.openai.com'] },
@@ -87,34 +87,49 @@ async function testProvider(browser, provider) {
     }
   };
 
-  // 1. Settings and connection test
-  await page.goto(`${BASE}#/ai`);
-  await page.locator(`input[name=provider][value=${provider.id}]`).check();
-  await page.fill('#ai-key', process.env[provider.key]);
-  if (process.env[provider.model]) await page.fill('#ai-model', process.env[provider.model]);
-  await page.getByRole('button', { name: 'Test connection' }).click();
-  await page.waitForFunction(() => !/Testing/.test(document.getElementById('ai-status').textContent), null, { timeout: 60_000 });
+  // 1. Settings and connection test. The key is kept in memory only, so a
+  // reload (used to recover from a failed step) means entering it again.
+  const connect = async () => {
+    await page.goto(`${BASE}#/ai`);
+    await page.reload();
+    await page.locator(`input[name=provider][value=${provider.id}]`).check();
+    await page.fill('#ai-key', process.env[provider.key]);
+    if (process.env[provider.model]) await page.fill('#ai-model', process.env[provider.model]);
+    await page.getByRole('button', { name: 'Test connection' }).click();
+    await page.waitForFunction(() => !/Testing/.test(document.getElementById('ai-status').textContent), null, { timeout: 60_000 });
+  };
+  await connect();
   result.connection = await page.locator('#ai-status').textContent();
   result.model = await page.inputValue('#ai-model');
+  result.models = await page.locator('#model-list option').evaluateAll((options) => options.map((o) => o.value));
 
-  // 2. A three-turn conversation with the Friend tutor
-  await page.goto(`${BASE}#/tutor`);
+  // 2–3. A conversation with the Friend tutor, then a Sifu correction. After
+  // a failed turn the chat starts again, so one failure does not spoil the rest.
   let replies = 0;
-  await step('Friend: opening', async () => readReply(await waitForNthReply(page, ++replies)));
-  for (const message of ['我今日好攰，啱啱收工。', 'Can you suggest somewhere to eat dinner nearby?']) {
-    await step(`Friend: "${message}"`, async () => {
-      await page.fill('#chat-input', message);
-      await page.getByRole('button', { name: 'Send' }).click();
-      return readReply(await waitForNthReply(page, ++replies));
-    });
-  }
-
-  // 3. Sifu corrects written Chinese
-  await step('Sifu: check 他是學生', async () => {
-    await page.getByRole('button', { name: 'Sifu (corrects you)' }).click();
-    await page.fill('#chat-input', '他是學生');
-    await page.getByRole('button', { name: 'Check my sentence' }).click();
+  const startChat = async () => {
+    await page.goto(`${BASE}#/tutor`);
+    replies = 0;
     return readReply(await waitForNthReply(page, ++replies));
+  };
+  const say = async (message, button = 'Send') => {
+    await page.fill('#chat-input', message);
+    await page.getByRole('button', { name: button }).click();
+    return readReply(await waitForNthReply(page, ++replies));
+  };
+  const chatStep = async (name, fn) => {
+    const before = result.steps.length;
+    await step(name, fn);
+    if (result.steps[before]?.badge === 'error') {
+      await connect();
+      await startChat().catch(() => {});
+    }
+  };
+  await chatStep('Friend: opening', startChat);
+  await chatStep('Friend: "我今日好攰，啱啱收工。"', () => say('我今日好攰，啱啱收工。'));
+  await chatStep('Friend: "Can you suggest somewhere to eat dinner nearby?"', () => say('Can you suggest somewhere to eat dinner nearby?'));
+  await chatStep('Sifu: check 他是學生', async () => {
+    await page.getByRole('button', { name: 'Sifu (corrects you)' }).click();
+    return say('他是學生', 'Check my sentence');
   });
 
   // 4–5. AI tasks on other pages
@@ -154,6 +169,7 @@ function markdown(results) {
   const lines = ['## Live AI provider test', '', `Site: ${BASE}`, ''];
   for (const r of results) {
     lines.push(`### ${r.provider} (${r.model}): ${r.passed ? 'passed' : 'FAILED'}`, '', `Connection: ${r.connection}`, '');
+    if (r.models?.length) lines.push(`<details><summary>${r.models.length} models available to this key</summary>\n\n${r.models.join(', ')}\n\n</details>`, '');
     lines.push('| Step | Badge | Seconds | Checks not passed | Reply |', '|---|---|---|---|---|');
     for (const s of r.steps) {
       const notes = s.error ?? (s.checks ?? []).filter((c) => c.status !== 'pass' && c.status !== 'skip').map((c) => `${c.label}: ${c.status}${c.detail ? ` (${c.detail})` : ''}`).join('; ');

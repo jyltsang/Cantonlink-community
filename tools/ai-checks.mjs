@@ -165,7 +165,23 @@ export function verify(kind, text, { data, lexicon }) {
   const fixed = [];
   const noted = [];
   let known = 0;
-  for (const w of words) {
+  // A model may split a library word across tokens (開 + 會 for 開會); when
+  // the joined tokens match the word's reading, they count as that word.
+  const covered = new Set();
+  for (let i = 0; i < words.length; i++) {
+    for (let n = Math.min(4, words.length - i); n >= 2; n--) {
+      const run = words.slice(i, i + n);
+      if (run.some((w) => !w.jyutping)) continue;
+      const readings = lexicon.get(run.map((w) => w.cjk).join(''));
+      if (readings?.has(run.map((w) => w.jyutping).join(' '))) {
+        run.forEach((_, k) => covered.add(i + k));
+        known++;
+        break;
+      }
+    }
+  }
+  for (const [index, w] of words.entries()) {
+    if (covered.has(index)) continue;
     const readings = lexicon.get(w.cjk);
     if (!readings) continue;
     known++;

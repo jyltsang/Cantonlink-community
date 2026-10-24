@@ -47,19 +47,42 @@ const ANTHROPIC_VERSION = '2026-10-21';
 // Models that accept server-side refusal fallbacks in the "default" form.
 const ANTHROPIC_FALLBACK_MODELS = new Set(['claude-opus-5-5', 'claude-fable-5-1', 'claude-opus-5', 'claude-sonnet-5-5']);
 
-async function request(fetchImpl, url, init, provider) {
-  let response;
+// Busy or briefly failing providers are retried; anything else is reported
+// at once. Each attempt has a time limit, so a request that never answers
+// ends with an error instead of leaving the learner waiting.
+const RETRY_STATUSES = new Set([429, 500, 502, 503, 504]);
+const MAX_RETRY_WAIT = 20_000;
+
+async function attempt(ctx, url, init, provider) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ctx.timeoutMs);
   try {
-    response = await fetchImpl(url, init);
-  } catch {
+    const response = await ctx.fetch(url, { ...init, signal: controller.signal });
+    const body = await response.json().catch(() => ({}));
+    return { response, body };
+  } catch (error) {
+    if (controller.signal.aborted) throw new ProviderError(`${PROVIDERS[provider].label} took too long to answer (over ${Math.round(ctx.timeoutMs / 1000)} seconds). The model may be busy: try again, or choose a faster model in AI settings.`);
     throw new ProviderError(`Could not reach ${PROVIDERS[provider].label}. Check your connection${provider === 'compatible' ? ', that the server is running, and that it allows requests from this site (for Ollama, set OLLAMA_ORIGINS)' : ''}.`);
+  } finally {
+    clearTimeout(timer);
   }
-  const body = await response.json().catch(() => ({}));
+}
+
+async function request(ctx, url, init, provider) {
+  let response;
+  let body;
+  for (let tries = 0; ; tries++) {
+    ({ response, body } = await attempt(ctx, url, init, provider));
+    if (response.ok || !RETRY_STATUSES.has(response.status) || tries >= ctx.retryDelays.length) break;
+    const retryAfter = Number(response.headers?.get?.('retry-after')) * 1000;
+    await ctx.sleep(Math.min(retryAfter > 0 ? retryAfter : ctx.retryDelays[tries], MAX_RETRY_WAIT));
+  }
   if (!response.ok) {
     const message = body?.error?.message ?? body?.message ?? response.statusText;
     if (response.status === 401 || response.status === 403) throw new ProviderError(`The API key was rejected (${response.status}). ${message}`);
     if (response.status === 404) throw new ProviderError(`Not found (404): check the model name. ${message}`);
-    if (response.status === 429) throw new ProviderError(`Rate limit or quota reached (429). ${message}`);
+    if (response.status === 429) throw new ProviderError(`Rate limit or quota reached (429), even after retrying. ${message}`);
+    if (RETRY_STATUSES.has(response.status)) throw new ProviderError(`${PROVIDERS[provider].label} is busy (${response.status}), even after retrying. Try again in a minute, or choose another model in AI settings. ${message}`);
     throw new ProviderError(`${PROVIDERS[provider].label} returned an error (${response.status}). ${message}`);
   }
   return body;
@@ -86,7 +109,7 @@ function groupTools(messages) {
 
 // --- Claude ---------------------------------------------------------------
 
-function anthropicAdapter({ apiKey, model, fetchImpl }) {
+function anthropicAdapter({ apiKey, model, http }) {
   const headers = {
     'content-type': 'application/json',
     'x-api-key': apiKey,
@@ -115,7 +138,7 @@ function anthropicAdapter({ apiKey, model, fetchImpl }) {
         extra['anthropic-beta'] = 'server-side-fallback-2026-07-01';
         body.fallbacks = 'default';
       }
-      const data = await request(fetchImpl, 'https://api.anthropic.com/v1/messages', { method: 'POST', headers: { ...headers, ...extra }, body: JSON.stringify(body) }, 'anthropic');
+      const data = await request(http, 'https://api.anthropic.com/v1/messages', { method: 'POST', headers: { ...headers, ...extra }, body: JSON.stringify(body) }, 'anthropic');
       if (data.stop_reason === 'refusal') throw new ProviderError('The model declined to answer this. Try rephrasing.');
       const content = data.content ?? [];
       return {
@@ -126,7 +149,7 @@ function anthropicAdapter({ apiKey, model, fetchImpl }) {
       };
     },
     async listModels() {
-      const data = await request(fetchImpl, 'https://api.anthropic.com/v1/models?limit=100', { headers }, 'anthropic');
+      const data = await request(http, 'https://api.anthropic.com/v1/models?limit=100', { headers }, 'anthropic');
       return (data.data ?? []).map((m) => m.id);
     },
   };
@@ -134,7 +157,7 @@ function anthropicAdapter({ apiKey, model, fetchImpl }) {
 
 // --- OpenAI and OpenAI-compatible -----------------------------------------
 
-function openaiAdapter({ apiKey, model, baseUrl, fetchImpl, provider }) {
+function openaiAdapter({ apiKey, model, baseUrl, http, provider }) {
   const base = (baseUrl || 'https://api.openai.com/v1').replace(/\/+$/, '');
   const headers = { 'content-type': 'application/json', ...(apiKey ? { authorization: `Bearer ${apiKey}` } : {}) };
   return {
@@ -157,7 +180,7 @@ function openaiAdapter({ apiKey, model, baseUrl, fetchImpl, provider }) {
       // Native JSON-schema output on OpenAI itself; compatible servers vary, so
       // they rely on the prompt and the structure check.
       if (schema && provider === 'openai') body.response_format = { type: 'json_schema', json_schema: { name: 'reply', schema, strict: true } };
-      const data = await request(fetchImpl, `${base}/chat/completions`, { method: 'POST', headers, body: JSON.stringify(body) }, provider);
+      const data = await request(http, `${base}/chat/completions`, { method: 'POST', headers, body: JSON.stringify(body) }, provider);
       const choice = data.choices?.[0];
       if (!choice) throw new ProviderError('The provider returned no answer.');
       const message = choice.message ?? {};
@@ -170,7 +193,7 @@ function openaiAdapter({ apiKey, model, baseUrl, fetchImpl, provider }) {
       };
     },
     async listModels() {
-      const data = await request(fetchImpl, `${base}/models`, { headers }, provider);
+      const data = await request(http, `${base}/models`, { headers }, provider);
       return (data.data ?? []).map((m) => m.id);
     },
   };
@@ -187,7 +210,7 @@ function geminiSchema(schema) {
   return out;
 }
 
-function geminiAdapter({ apiKey, model, fetchImpl }) {
+function geminiAdapter({ apiKey, model, http }) {
   const base = 'https://generativelanguage.googleapis.com/v1beta';
   const headers = { 'content-type': 'application/json', 'x-goog-api-key': apiKey };
   return {
@@ -205,7 +228,7 @@ function geminiAdapter({ apiKey, model, fetchImpl }) {
       };
       if (tools.length) body.tools = [{ functionDeclarations: tools.map((t) => ({ name: t.name, description: t.description, parameters: geminiSchema(t.inputSchema) })) }];
       else if (schema) body.generationConfig = { responseMimeType: 'application/json' };
-      const data = await request(fetchImpl, `${base}/models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', headers, body: JSON.stringify(body) }, 'gemini');
+      const data = await request(http, `${base}/models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', headers, body: JSON.stringify(body) }, 'gemini');
       const candidate = data.candidates?.[0];
       if (!candidate?.content) throw new ProviderError(candidate?.finishReason === 'SAFETY' ? 'The model declined to answer this. Try rephrasing.' : 'The provider returned no answer.');
       const parts = candidate.content.parts ?? [];
@@ -217,17 +240,21 @@ function geminiAdapter({ apiKey, model, fetchImpl }) {
       };
     },
     async listModels() {
-      const data = await request(fetchImpl, `${base}/models?pageSize=200`, { headers }, 'gemini');
+      const data = await request(http, `${base}/models?pageSize=200`, { headers }, 'gemini');
       return (data.models ?? []).filter((m) => (m.supportedGenerationMethods ?? []).includes('generateContent')).map((m) => m.name.replace(/^models\//, ''));
     },
   };
 }
 
-export function createClient({ provider, apiKey = '', model, baseUrl = '', fetch: fetchImpl = globalThis.fetch.bind(globalThis) }) {
+export function createClient({
+  provider, apiKey = '', model, baseUrl = '', fetch = globalThis.fetch.bind(globalThis),
+  timeoutMs = 90_000, retryDelays = [2_000, 6_000], sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
+}) {
   if (!PROVIDERS[provider]) throw new ProviderError(`Unknown provider "${provider}".`);
   if (PROVIDERS[provider].needsKey && !apiKey) throw new ProviderError('Add an API key first.');
   if (!model) throw new ProviderError('Choose a model first.');
-  if (provider === 'anthropic') return anthropicAdapter({ apiKey, model, fetchImpl });
-  if (provider === 'gemini') return geminiAdapter({ apiKey, model, fetchImpl });
-  return openaiAdapter({ apiKey, model, baseUrl: provider === 'compatible' ? (baseUrl || PROVIDERS.compatible.defaultBaseUrl) : '', fetchImpl, provider });
+  const http = { fetch, timeoutMs, retryDelays, sleep };
+  if (provider === 'anthropic') return anthropicAdapter({ apiKey, model, http });
+  if (provider === 'gemini') return geminiAdapter({ apiKey, model, http });
+  return openaiAdapter({ apiKey, model, baseUrl: provider === 'compatible' ? (baseUrl || PROVIDERS.compatible.defaultBaseUrl) : '', http, provider });
 }

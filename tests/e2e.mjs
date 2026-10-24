@@ -430,6 +430,27 @@ test('AI tutor: a unit sets the level, scenario and focus patterns', async () =>
   await context.close();
 });
 
+test('AI tutor: a busy provider shows an error with Try again, and the retry succeeds cleanly', async () => {
+  const { page, context, errors } = await open('#/ai');
+  await connectMock(page);
+  await page.goto(`${BASE}#/tutor`);
+  await lastTutor(page).locator('.badge').waitFor();
+  await page.fill('#chat-input', 'BUSY 我食咗飯喇');
+  await page.keyboard.press('Enter');
+  const error = page.locator('.msg-error');
+  await error.waitFor({ timeout: 30_000 });
+  assert.match(await error.innerText(), /busy \(503\), even after retrying/);
+  const before = mockAi.requests.length;
+  await error.getByRole('button', { name: 'Try again' }).click();
+  await page.waitForFunction(() => document.querySelectorAll('.msg-tutor:not(.pending) .badge').length === 2, null, { timeout: 30_000 });
+  assert.equal(await page.locator('.msg-error').count(), 0);
+  assert.equal(await page.locator('.msg-learner').count(), 1, 'the learner message is not duplicated');
+  const sent = mockAi.requests.slice(before).find((r) => r.path === '/v1/chat/completions').body.messages;
+  assert.equal(sent.filter((m) => m.role === 'user' && String(m.content).includes('BUSY')).length, 1, 'the failed turn is not sent twice');
+  assert.deepEqual(errors.filter((e) => !/503/.test(e)), []);
+  await context.close();
+});
+
 test('AI tutor: without a key it asks for one', async () => {
   const { page, context } = await open('#/tutor');
   assert.match(await page.locator('main').innerText(), /Add an API key/);

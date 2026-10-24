@@ -5,6 +5,8 @@
 //   contains FIX   → first reply has bad Jyutping; the retry is correct
 //   contains BAD   → every reply has bad Jyutping (stays Unverified)
 //   他是學生       → a correction to 佢係學生
+//   BUSY           → HTTP 503 for the first three requests (one turn with
+//                    its retries), then normal answers
 import { createServer } from 'node:http';
 
 const W = (text) => text.split(' ').map((t) => {
@@ -49,6 +51,7 @@ function answer(messages) {
 
 export function startMockAi(port) {
   const requests = [];
+  let busyLeft = 3;
   const server = createServer(async (req, res) => {
     const headers = { 'access-control-allow-origin': '*', 'access-control-allow-headers': 'authorization, content-type', 'content-type': 'application/json' };
     if (req.method === 'OPTIONS') return res.writeHead(204, headers).end();
@@ -56,7 +59,11 @@ export function startMockAi(port) {
     for await (const chunk of req) body += chunk;
     requests.push({ path: req.url, auth: req.headers.authorization, body: body ? JSON.parse(body) : null });
     if (req.url === '/v1/models') return res.writeHead(200, headers).end(JSON.stringify({ data: [{ id: 'mock-model' }, { id: 'mock-model-large' }] }));
-    if (req.url === '/v1/chat/completions') return res.writeHead(200, headers).end(JSON.stringify(answer(JSON.parse(body).messages)));
+    if (req.url === '/v1/chat/completions') {
+      const { messages } = JSON.parse(body);
+      if (messages.some((m) => m.role === 'user' && String(m.content).includes('BUSY')) && busyLeft-- > 0) return res.writeHead(503, headers).end(JSON.stringify({ error: { message: 'high demand' } }));
+      return res.writeHead(200, headers).end(JSON.stringify(answer(messages)));
+    }
     res.writeHead(404, headers).end('{}');
   });
   return new Promise((resolve) => server.listen(port, () => resolve({ server, requests, close: () => server.close() })));

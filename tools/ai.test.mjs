@@ -15,7 +15,7 @@ function fakeFetch(responses) {
   const fn = async (url, init = {}) => {
     calls.push({ url, headers: init.headers ?? {}, body: init.body ? JSON.parse(init.body) : null });
     const next = responses.shift();
-    return { ok: (next.status ?? 200) < 400, status: next.status ?? 200, statusText: 'x', json: async () => next.body };
+    return { ok: (next.status ?? 200) < 400, status: next.status ?? 200, statusText: 'x', headers: new Headers(next.headers ?? {}), json: async () => next.body };
   };
   fn.calls = calls;
   return fn;
@@ -155,4 +155,30 @@ test('prompts: tutor includes level patterns and rules; tasks build prompts', ()
   assert.match(system, /佢 not 他/);
   assert.equal(TASKS.translate('Good morning').kind, 'sentence');
   assert.match(TASKS.explain(data.grammar[0]).prompt, /Library examples/);
+});
+
+test('busy providers are retried, honouring Retry-After, then reported clearly', async () => {
+  const waits = [];
+  const sleep = async (ms) => { waits.push(ms); };
+  const ok = { body: { candidates: [{ content: { parts: [{ text: good }] } }] } };
+  const fetch = fakeFetch([{ status: 503, body: { error: { message: 'high demand' } } }, { status: 429, headers: { 'retry-after': '3' }, body: {} }, ok]);
+  const client = createClient({ provider: 'gemini', apiKey: 'g', model: 'gemini-x', fetch, sleep });
+  const reply = await client.send({ system: 's', messages: [{ role: 'user', content: 'hi' }], schema: null });
+  assert.equal(reply.text, good);
+  assert.deepEqual(waits, [2000, 3000]);
+
+  const busy = fakeFetch([0, 1, 2].map(() => ({ status: 503, body: { error: { message: 'high demand' } } })));
+  const failing = createClient({ provider: 'gemini', apiKey: 'g', model: 'gemini-x', fetch: busy, sleep });
+  await assert.rejects(failing.send({ system: 's', messages: [{ role: 'user', content: 'hi' }] }), (e) => e instanceof ProviderError && /is busy \(503\), even after retrying/.test(e.message));
+  assert.equal(busy.calls.length, 3);
+
+  const invalid = fakeFetch([{ status: 400, body: { error: { message: 'bad request' } } }]);
+  await assert.rejects(createClient({ provider: 'gemini', apiKey: 'g', model: 'gemini-x', fetch: invalid, sleep }).send({ system: 's', messages: [{ role: 'user', content: 'hi' }] }), /returned an error \(400\)/);
+  assert.equal(invalid.calls.length, 1, 'a 400 is not retried');
+});
+
+test('a request that never answers times out with a clear error', async () => {
+  const hanging = (url, init) => new Promise((_, reject) => init.signal.addEventListener('abort', () => reject(new DOMException('aborted', 'AbortError'))));
+  const client = createClient({ provider: 'openai', apiKey: 'k', model: 'm', fetch: hanging, timeoutMs: 50 });
+  await assert.rejects(client.send({ system: 's', messages: [{ role: 'user', content: 'hi' }] }), (e) => e instanceof ProviderError && /took too long to answer/.test(e.message));
 });
