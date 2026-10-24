@@ -1,6 +1,6 @@
 # Quality report
 
-This report records the quality checks made on the content of the Community Edition, what they found and what was changed. It complements the automatic checks in [`tools/build.mjs`](../tools/build.mjs) and the [release checklist](RELEASE_CHECKLIST.md). None of this replaces review by native speakers: every entry stays marked "draft" until two native speakers have checked it.
+This report records the quality checks made on the content of the Community Edition, what they found and what was changed. It complements the automatic checks in [`tools/build.mjs`](../tools/build.mjs) and the verification summary in [What has been developed](DEVELOPED.md#how-it-is-verified). None of this replaces review by native speakers: every entry stays marked "draft" until two native speakers have checked it.
 
 ## 1. Independent pronunciation check
 

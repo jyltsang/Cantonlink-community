@@ -59,15 +59,15 @@ content/*.json  ──►  tools/build.mjs  ──►  library/*.md        pages
 - **The site is tested in a real browser.** CI runs every page and learning journey in Chromium on each change.
 
 ```sh
-npm test                          # romanisation tests
+npm test                          # unit tests: romanisation, build rules, AI checks, contrast, links
 npm run build                     # validate content and regenerate library/ and dist/
-npm run check                     # confirm formatting and generated files are up to date
+npm run check                     # formatting, generated files and the pronunciation cross-check
 npm run preview                   # learning site at http://localhost:8080
 npm run test:e2e                  # browser tests (after npm ci and npm run site)
 npm run romanise -- "nei5 hou2"   # convert any Jyutping to Yale and Bopomofo
 ```
 
-Requires Node.js 22 or later. The content tools have no dependencies; the browser tests use Playwright.
+Requires Node.js 22 or later; run `npm ci` first. The site itself has no dependencies. The build uses two development packages (to-jyutping for the pronunciation cross-check and readings, opencc-js to generate the Simplified-character list), and the browser tests use Playwright.
 
 ## AI tutor with your own key
 
@@ -101,12 +101,12 @@ console.log(pattern.examples[0].jyutping, '·', pattern.examples[0].en);
 
 ## Documents
 
-- [Product specification](docs/PRODUCT_SPEC.md): problem, audience, scope, quality process, licence audit and roadmap
+- **Start here:** [What has been developed](docs/DEVELOPED.md) · [Master plan](docs/MASTER_PLAN.md) · [Next run](docs/NEXT_RUN.md)
 - [Curriculum](docs/CURRICULUM.md): what is covered at each level, and why
 - [AI tutor guide](docs/AI_TUTOR.md): connect your own AI model, privacy, and how replies are checked
 - [MCP guide](docs/MCP_GUIDE.md): connect an AI assistant to the library, and build your own MCP server
 - [Contributing](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md): how to report errors, review and add content
-- [Release checklist](docs/RELEASE_CHECKLIST.md): what has been verified, and what still needs people
+- [Quality report](docs/QUALITY_REPORT.md) and [retrospectives](docs/retrospectives/README.md): the evidence behind each check, and what each run taught us
 - [Changelog](CHANGELOG.md)
 
 ## Relationship to CantoLink

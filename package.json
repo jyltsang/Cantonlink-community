@@ -19,7 +19,8 @@
     "site": "node tools/site.mjs",
     "preview": "node tools/site.mjs --serve",
     "test:e2e": "node --test --test-concurrency=1 tests/e2e.mjs",
-    "test:live": "node tests/live-ai.mjs"
+    "test:live": "node tests/live-ai.mjs",
+    "ci": "npm test && npm run check && npm test --prefix mcp && npm run test:e2e && node tests/live-ai.mjs --local --mock"
   },
   "devDependencies": {
     "opencc-js": "1.4.2",

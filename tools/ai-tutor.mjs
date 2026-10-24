@@ -147,7 +147,3 @@ export async function checkedAnswer({ client, system, history, kind, data, lexic
   onEvent?.({ type: 'checks', steps, attempt: retried ? 2 : 1, done: true, badge });
   return { value: result.value, steps, badge, raw: text };
 }
-
-export function tutorTools() {
-  return TOOLS;
-}

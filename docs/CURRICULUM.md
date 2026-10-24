@@ -33,7 +33,7 @@ Levels follow the CEFR-style labels used across CantonLink. Cantonese has no off
 | **Verb complements** | | | 到 / 唔到, 得 + adjective, 晒, 返, directional verbs |
 | **Passive** | | | 畀 + doer + verb |
 
-**60 patterns** in all: A1 24, A2 20, B1 16. That matches the spec's launch target.
+**60 patterns** in all: A1 24, A2 20, B1 16, the launch target in the [master plan](MASTER_PLAN.md).
 
 ### Learning path
 
@@ -65,11 +65,11 @@ The build also rejects written forms in spoken sentences, so this can't creep ba
 
 | Not included | Why |
 |---|---|
-| Audio | Good Cantonese audio needs native recordings. Synthetic voices often get tones wrong, which would teach errors. Planned with community recordings (spec §9.3). |
-| Character writing | The project is romanisation-first. Characters are shown as an optional aid. |
+| Audio | Good Cantonese audio needs native recordings. Synthetic voices often get tones wrong, which would teach errors. Planned with community recordings (see the [master plan](MASTER_PLAN.md)). |
+| Character writing | The project is romanisation-first. Characters are off by default and shown only as an optional aid. |
 | B2 and above | The review process should prove itself on A1–B1 first. |
 | Slang and very regional usage | Kept to widely understood Hong Kong usage. A few common colloquial items are included and labelled (e.g. 頭痕). |
-| Free-text translation | Translating arbitrary English would need an AI service, which conflicts with the free-to-run principle. The look-up covers the library's own words. |
+| Free-text translation without a key | Translating arbitrary English needs an AI model, which would cost money to run for everyone. The look-up covers the library's own words; learners who add their own API key can translate any phrase, with the reply checked against the library ([AI tutor guide](AI_TUTOR.md)). |
 
 ## Known gaps to address after review
 

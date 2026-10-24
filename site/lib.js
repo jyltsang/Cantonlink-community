@@ -64,7 +64,6 @@ export function markDone(key) {
 }
 export const reviewKeys = () => dueKeys(progress.review);
 export const isDone = (key) => Boolean(progress.done[key]);
-export const reviewBox = (key) => progress.review[key]?.box;
 
 // Phrases saved from verified AI tutor replies, reviewed like flashcards.
 export function savePhrase(sentence) {

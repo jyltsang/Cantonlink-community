@@ -10,7 +10,7 @@ Thank you for helping make free Cantonese learning material more reliable. All c
 
 ## Content standards
 
-Content follows the quality process in [§8 of the spec](docs/PRODUCT_SPEC.md#8-content-quality--what-flawless-means). In short:
+Content follows the quality bar in the [master plan](docs/MASTER_PLAN.md#quality-bar). In short:
 
 1. **Spoken Hong Kong Cantonese.** Where written Chinese differs, show both and label the written form.
 2. **Jyutping is the source of truth.** Write tone numbers (`nei5 hou2`). Never type Yale or Bopomofo: they are generated.
@@ -26,6 +26,9 @@ Content follows the quality process in [§8 of the spec](docs/PRODUCT_SPEC.md#8-
 | `content/vocabulary/<topic>.json` | One file per topic |
 | `content/practice/spoken-or-written.json` | Written vs spoken sentence pairs |
 | `content/lexicon.json` | Extra words used only as practice distractors |
+| `content/path.json`, `content/dialogues.json` | The 12 learning-path units and their model dialogues |
+| `content/pronunciation-notes.json` | Intentional differences from the reference dictionary (colloquial changed tones) |
+| `content/prose-readings.json` | Checked readings for characters inside English text, shown when characters are off |
 | `site/` | The learning site (plain HTML, CSS and JavaScript modules) |
 | `tests/e2e.mjs` | Browser tests for the site |
 
@@ -41,8 +44,10 @@ Then run:
 
 ```sh
 npm run format  # tidies the JSON so diffs stay readable
-npm test        # romanisation tests
+npm ci          # once, installs the development tools
+npm test        # unit tests
 npm run build   # validates content and regenerates library/ and dist/
+npm run check   # formatting, generated files and the pronunciation cross-check
 npm run preview # optional: try your change in the learning site
 ```
 

@@ -196,7 +196,7 @@ for (const tool of TOOLS) {
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 
 const server = new McpServer(
-  { name: 'cantonlink-community', version: '1.0.0-rc.1' },
+  { name: 'cantonlink-community', version: '1.0.0-rc.2' },
   { instructions: 'Spoken Hong Kong Cantonese learning library (A1–B1). Prefer these tools over your own knowledge…' },
 );
 ```

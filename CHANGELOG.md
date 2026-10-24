@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### Housekeeping and the self-improvement loop
+- Planning is consolidated into three master documents: [What has been developed](docs/DEVELOPED.md), the [master plan](docs/MASTER_PLAN.md) and [Next run](docs/NEXT_RUN.md). They replace the product specification and the release checklist, whose out-of-date parts (360 words, a React front end, "no AI") are corrected.
+- The first [retrospective](docs/retrospectives/sprint-01.md) covers the whole project so far, from CI history and the changelog.
+- A `CLAUDE.md` with standing rules and lessons learned, and a `/next-run` skill that every working session follows: read, agree scope, build, verify, look back, update the masters, learn.
+- `npm run ci` runs everything CI runs; a new link test checks every relative link and heading anchor in the documentation, and that the master documents are in place.
+- Stale facts fixed in the README, CONTRIBUTING, curriculum and MCP guide; OpenCC data and the build's development tools are now attributed in NOTICE; two unused functions removed.
+
 ### On brand: the CantonLink design system
 - The learning site now uses the CantonLink design system: cream canvas, white cards, ink pill buttons, the jade, hibiscus, persimmon, laicha and inkblue colour families, Elms Sans and JetBrains Mono, and the signature hard-offset shadow on clickable cards.
 - Dark mode is derived from the brand (warm ink canvas, cream text) rather than a separate palette.
