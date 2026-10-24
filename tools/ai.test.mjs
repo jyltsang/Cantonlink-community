@@ -182,3 +182,12 @@ test('a request that never answers times out with a clear error', async () => {
   const client = createClient({ provider: 'openai', apiKey: 'k', model: 'm', fetch: hanging, timeoutMs: 50 });
   await assert.rejects(client.send({ system: 's', messages: [{ role: 'user', content: 'hi' }] }), (e) => e instanceof ProviderError && /took too long to answer/.test(e.message));
 });
+
+test('a used-up quota is reported at once with when it resets, not retried', async () => {
+  const waits = [];
+  const quota = fakeFetch([{ status: 429, body: { error: { message: 'Quota exceeded', details: [{ '@type': 'type.googleapis.com/google.rpc.RetryInfo', retryDelay: '24468s' }] } } }]);
+  const client = createClient({ provider: 'gemini', apiKey: 'g', model: 'gemini-x', fetch: quota, sleep: async (ms) => { waits.push(ms); } });
+  await assert.rejects(client.send({ system: 's', messages: [{ role: 'user', content: 'hi' }] }), (e) => e instanceof ProviderError && /used up the quota.*resets in about 7 hours.*choose another model/s.test(e.message));
+  assert.equal(quota.calls.length, 1);
+  assert.deepEqual(waits, []);
+});

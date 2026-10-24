@@ -68,14 +68,33 @@ async function attempt(ctx, url, init, provider) {
   }
 }
 
+// How long the provider asks us to wait, in milliseconds, from the
+// Retry-After header or Gemini's RetryInfo ("24468s"); 0 if it does not say.
+function requestedWait(response, body) {
+  const header = Number(response.headers?.get?.('retry-after'));
+  if (header > 0) return header * 1000;
+  const info = (body?.error?.details ?? []).find((d) => typeof d?.retryDelay === 'string');
+  const seconds = info ? Number.parseFloat(info.retryDelay) : 0;
+  return seconds > 0 ? seconds * 1000 : 0;
+}
+
+const describeWait = (ms) => {
+  const minutes = Math.ceil(ms / 60_000);
+  return minutes >= 90 ? `about ${Math.round(minutes / 60)} hours` : `about ${minutes} minute${minutes === 1 ? '' : 's'}`;
+};
+
 async function request(ctx, url, init, provider) {
   let response;
   let body;
   for (let tries = 0; ; tries++) {
     ({ response, body } = await attempt(ctx, url, init, provider));
     if (response.ok || !RETRY_STATUSES.has(response.status) || tries >= ctx.retryDelays.length) break;
-    const retryAfter = Number(response.headers?.get?.('retry-after')) * 1000;
-    await ctx.sleep(Math.min(retryAfter > 0 ? retryAfter : ctx.retryDelays[tries], MAX_RETRY_WAIT));
+    const wait = requestedWait(response, body);
+    // A long wait means a used-up quota: retrying now would only waste it.
+    if (wait > MAX_RETRY_WAIT) {
+      throw new ProviderError(`You have used up the quota for this model on your ${PROVIDERS[provider].label} key (free tiers allow only a few requests a day). It resets in ${describeWait(wait)}. Meanwhile, choose another model in AI settings (each model has its own quota), or enable billing with ${PROVIDERS[provider].label}.`);
+    }
+    await ctx.sleep(wait || ctx.retryDelays[tries]);
   }
   if (!response.ok) {
     const message = body?.error?.message ?? body?.message ?? response.statusText;
