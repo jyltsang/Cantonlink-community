@@ -158,8 +158,11 @@ async function testProvider(browser, provider) {
   // 6. A unit role-play
   await step('Unit 3: role-play', async () => {
     await page.goto(`${BASE}#/path/u03`);
-    await page.getByRole('link', { name: /AI tutor/ }).first().click();
-    return readReply(await waitForNthReply(page, 1));
+    await page.getByRole('link', { name: 'Role-play with the AI tutor' }).click();
+    // The unit starts a new chat: wait for its first reply, not the old chat's.
+    await page.locator('.unit-focus').waitFor();
+    await page.waitForFunction((selector) => document.querySelectorAll(selector).length === 1 && !document.querySelector('.msg-tutor.pending'), tutorReplies, { timeout: REPLY_TIMEOUT });
+    return readReply(page.locator(tutorReplies).first());
   });
 
   await context.close();

@@ -12,6 +12,7 @@
     "build": "node tools/build.mjs",
     "check": "node tools/format.mjs --check && node tools/build.mjs --check && node tools/check-pronunciation.mjs",
     "check:pronunciation": "node tools/check-pronunciation.mjs",
+    "gen:simplified": "node tools/gen-simplified.mjs",
     "format": "node tools/format.mjs",
     "test": "node --test \"tools/*.test.mjs\"",
     "romanise": "node tools/cli.mjs",
@@ -21,6 +22,7 @@
     "test:live": "node tests/live-ai.mjs"
   },
   "devDependencies": {
+    "opencc-js": "1.4.2",
     "playwright": "1.56.1",
     "to-jyutping": "3.1.1"
   }

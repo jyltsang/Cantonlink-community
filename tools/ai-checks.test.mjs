@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { buildLexicon, checkWordAlignment } from './library.mjs';
-import { verify, badgeFor, parseReply, checkLearnerText, SCHEMAS } from './ai-checks.mjs';
+import { findSimplified, verify, badgeFor, parseReply, checkLearnerText, SCHEMAS } from './ai-checks.mjs';
 
 const data = JSON.parse(readFileSync(new URL('../dist/cantonlink-community.json', import.meta.url), 'utf8'));
 const ctx = { data, lexicon: buildLexicon(data) };
@@ -119,4 +119,19 @@ test('a library word split across tokens is recognised, but a wrong reading stil
   assert.equal(split.steps.find((st) => st.id === 'library').status, 'pass');
   const wrong = verify('tutor', reply([{ cjk: '我', jyutping: 'ngo5' }, { cjk: '開', jyutping: 'hoi1' }, { cjk: '會', jyutping: 'wui3' }, { cjk: '喇', jyutping: 'laa3' }, { cjk: '。', jyutping: '' }]), ctx);
   assert.equal(wrong.steps.find((st) => st.id === 'library').status, 'warn');
+});
+
+test('Simplified characters fail the spoken check and the retry is told the Traditional forms', () => {
+  const reply = JSON.stringify({ words: [{ cjk: '我', jyutping: 'ngo5' }, { cjk: '开', jyutping: 'hoi1' }, { cjk: '会', jyutping: 'wui2' }, { cjk: '就', jyutping: 'zau6' }, { cjk: '迟', jyutping: 'ci4' }, { cjk: '喇', jyutping: 'laa3' }, { cjk: '。', jyutping: '' }], en: "I'm running late for the meeting." });
+  const result = verify('sentence', reply, ctx);
+  const spoken = result.steps.find((st) => st.id === 'spoken');
+  assert.equal(spoken.status, 'fail');
+  assert.match(spoken.detail, /开 → 開, 会 → 會, 迟 → 遲/);
+  assert.match(result.retryFeedback, /Traditional characters/);
+});
+
+test('no character in the library content is mistaken for Simplified Chinese', () => {
+  const text = readFileSync(new URL('../dist/cantonlink-community.json', import.meta.url), 'utf8');
+  assert.deepEqual(findSimplified(text), []);
+  assert.deepEqual(findSimplified('皇后 干擾 公里 睇吓 賣晒'), []);
 });

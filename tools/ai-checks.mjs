@@ -4,12 +4,21 @@
 
 import { parseSyllable, toYale, toBopomofo } from './romanise.mjs';
 import { checkSpoken, checkWordAlignment, findPattern } from './library.mjs';
+import { SIMPLIFIED_PAIRS } from './simplified-chars.mjs';
+
+// Simplified-only character → its Traditional form, e.g. 开 → 開.
+const SIMPLIFIED = new Map();
+{
+  const chars = [...SIMPLIFIED_PAIRS];
+  for (let i = 0; i < chars.length; i += 2) SIMPLIFIED.set(chars[i], chars[i + 1]);
+}
+export const findSimplified = (text) => [...new Set([...text].filter((c) => SIMPLIFIED.has(c)))].map((c) => ({ simplified: c, traditional: SIMPLIFIED.get(c) }));
 
 export const CHECKS = [
   { id: 'structure', label: 'Structure', running: 'Reading the reply…' },
   { id: 'jyutping', label: 'Valid Jyutping', running: 'Checking Jyutping…' },
   { id: 'alignment', label: 'Characters match syllables', running: 'Matching characters to syllables…' },
-  { id: 'spoken', label: 'Spoken, not written, Chinese', running: 'Looking for written Chinese…' },
+  { id: 'spoken', label: 'Spoken Cantonese in Traditional characters', running: 'Looking for written or Simplified Chinese…' },
   { id: 'library', label: 'Agrees with the library', running: 'Comparing with the library…' },
   { id: 'patterns', label: 'Grammar references are real', running: 'Checking grammar references…' },
   { id: 'romanisation', label: 'Yale and Bopomofo generated locally', running: 'Generating Yale and Bopomofo…' },
@@ -155,10 +164,16 @@ export function verify(kind, text, { data, lexicon }) {
   if (misaligned.length) set('alignment', 'fail', misaligned.join('; ') + '.');
   else set('alignment', invalid.length ? 'skip' : 'pass', invalid.length ? 'Not run until the Jyutping is valid.' : 'Every word has one syllable per character.');
 
-  // 4. Spoken, not written, Chinese
+  // 4. Spoken Cantonese, in Traditional characters
+  const allText = sentences.map((s) => s.words.map((w) => w.cjk).join('')).join('');
   const findings = sentences.flatMap((s) => checkSpoken(s.words.map((w) => w.cjk).join('')));
-  if (findings.length) set('spoken', 'fail', `Written-Chinese forms: ${findings.map((f) => `"${f.written}" (say ${f.spoken})`).join(', ')}.`);
-  else set('spoken', 'pass', 'No written-Chinese forms found.');
+  const simplified = findSimplified(allText);
+  const problems = [
+    ...(findings.length ? [`Written-Chinese forms: ${findings.map((f) => `"${f.written}" (say ${f.spoken})`).join(', ')}.`] : []),
+    ...(simplified.length ? [`Simplified characters; use Traditional characters as in Hong Kong: ${simplified.map((f) => `${f.simplified} → ${f.traditional}`).join(', ')}.`] : []),
+  ];
+  if (problems.length) set('spoken', 'fail', problems.join(' '));
+  else set('spoken', 'pass', 'No written-Chinese forms or Simplified characters found.');
 
   // 5. Agrees with the library. Multi-character words have one reading, so a
   // mismatch is corrected; single characters can have several, so it is noted.
@@ -236,6 +251,7 @@ export function checkLearnerText(text) {
   const notes = [];
   if (/\p{Script=Han}/u.test(text)) {
     for (const f of checkSpoken(text)) notes.push(`"${f.written}" is written Chinese; in speech say ${f.spoken}.`);
+    for (const f of findSimplified(text)) notes.push(`"${f.simplified}" is a Simplified character; in Hong Kong it is written ${f.traditional}.`);
   }
   const tokens = text.toLowerCase().match(/\b[a-z]+[0-9]\b/g) ?? [];
   const bad = tokens.filter((t) => !parseSyllable(t));

@@ -1,7 +1,7 @@
 // Offline support: caches the site on first visit. tools/site.mjs replaces
 // __VERSION__ with a hash of the files, so each deploy gets a fresh cache.
 const CACHE = 'cantonlink-__VERSION__';
-const FILES = ['./', 'index.html', 'styles.css', 'app.js', 'lib.js', 'learn.js', 'practice.js', 'path.js', 'romanise.js', 'data.js', 'srs.js', 'library.js', 'tool-definitions.js', 'ai-checks.js', 'ai-providers.js', 'ai-tutor.js', 'ai-settings.js', 'tutor.js', 'data.json', 'icon.svg', 'manifest.webmanifest'];
+const FILES = ['./', 'index.html', 'styles.css', 'app.js', 'lib.js', 'learn.js', 'practice.js', 'path.js', 'romanise.js', 'data.js', 'srs.js', 'library.js', 'tool-definitions.js', 'simplified-chars.js', 'ai-checks.js', 'ai-providers.js', 'ai-tutor.js', 'ai-settings.js', 'tutor.js', 'data.json', 'icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));

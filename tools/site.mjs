@@ -15,7 +15,7 @@ mkdirSync(OUT, { recursive: true });
 cpSync(join(ROOT, 'site'), OUT, { recursive: true });
 // Shared modules are served as .js (the type every static host knows), so
 // their relative imports are rewritten to match.
-for (const name of ['romanise', 'data', 'srs', 'library', 'tool-definitions', 'ai-checks', 'ai-providers', 'ai-tutor']) {
+for (const name of ['romanise', 'data', 'srs', 'library', 'tool-definitions', 'simplified-chars', 'ai-checks', 'ai-providers', 'ai-tutor']) {
   const source = readFileSync(join(ROOT, 'tools', `${name}.mjs`), 'utf8').replace(/from '\.\/([\w-]+)\.mjs'/g, "from './$1.js'");
   writeFileSync(join(OUT, `${name}.js`), source);
 }
