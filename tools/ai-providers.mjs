@@ -27,7 +27,7 @@ export const PROVIDERS = {
   },
   gemini: {
     label: 'Google Gemini',
-    defaultModel: 'gemini-3.8-flash',
+    defaultModel: 'gemini-flash-lite-latest',
     keyPlaceholder: 'AIza…',
     keyUrl: 'https://aistudio.google.com/apikey',
     needsKey: true,
@@ -92,7 +92,7 @@ async function request(ctx, url, init, provider) {
     const wait = requestedWait(response, body);
     // A long wait means a used-up quota: retrying now would only waste it.
     if (wait > MAX_RETRY_WAIT) {
-      throw new ProviderError(`You have used up the quota for this model on your ${PROVIDERS[provider].label} key (free tiers allow only a few requests a day). It resets in ${describeWait(wait)}. Meanwhile, choose another model in AI settings (each model has its own quota), or enable billing with ${PROVIDERS[provider].label}.`);
+      throw new ProviderError(`You have used up the quota for this model on your ${PROVIDERS[provider].label} key (free tiers limit requests per minute and per day). It resets in ${describeWait(wait)}. Meanwhile, choose another model in AI settings (each model has its own quota), or enable billing with ${PROVIDERS[provider].label}.`);
     }
     await ctx.sleep(wait || ctx.retryDelays[tries]);
   }

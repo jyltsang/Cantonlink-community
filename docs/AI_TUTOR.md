@@ -17,7 +17,7 @@ Everything else on the site works without a key.
 |---|---|---|
 | **Claude (Anthropic)** | [console.anthropic.com](https://console.anthropic.com/settings/keys) | Default model `claude-opus-5-5`. Strong at Cantonese and at following the reply format. |
 | **OpenAI** | [platform.openai.com](https://platform.openai.com/api-keys) | Pick a model with "Test connection". |
-| **Google Gemini** | [aistudio.google.com](https://aistudio.google.com/apikey) | Free tier available, with limits. |
+| **Google Gemini** | [aistudio.google.com](https://aistudio.google.com/apikey) | Free tier available. The default, `gemini-flash-lite-latest`, is fast and has the most generous free limits (around 15 requests a minute); larger models such as `gemini-flash-latest` may allow only about 20 requests a day for free, which is a few minutes of chat. One tutor reply can take several requests, because the tutor looks words up in the library. |
 | **OpenAI-compatible** | Ollama, LM Studio, OpenRouter, Groq, Together, DeepSeek, Mistral | Local models are free but usually weaker at Cantonese, so expect more replies to fail the checks. |
 
 **Set a monthly spending limit** in your provider's console before you start. A short lesson of 10–20 messages typically costs a few cents on a mid-range model. The optional second opinion roughly doubles that.

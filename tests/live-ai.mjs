@@ -20,6 +20,9 @@ const MOCK_PORT = 8791;
 const LOCAL = process.argv.includes('--local');
 const BASE = LOCAL ? 'http://localhost:8080/' : (process.env.SITE_URL ?? 'https://jyltsang.github.io/Cantonlink-community/');
 const REPLY_TIMEOUT = 240_000;
+// Pause between steps so free-tier keys (often 15 requests a minute) are not
+// rate-limited by the test itself; one tutor reply can take several requests.
+const STEP_PAUSE = Number(process.env.STEP_PAUSE_MS ?? (process.argv.includes('--mock') ? 0 : 20_000));
 const PROVIDERS = [
   { id: 'anthropic', name: 'Claude', key: 'ANTHROPIC_API_KEY', model: 'ANTHROPIC_MODEL', hosts: ['api.anthropic.com'] },
   { id: 'openai', name: 'OpenAI', key: 'OPENAI_API_KEY', model: 'OPENAI_MODEL', hosts: ['api.openai.com'] },
@@ -78,6 +81,7 @@ async function testProvider(browser, provider) {
   page.on('console', (m) => { if (m.type() === 'error' && /CORS|Content Security Policy/i.test(m.text())) result.networkErrors.push(m.text().slice(0, 200)); });
 
   const step = async (name, fn) => {
+    if (result.steps.length) await new Promise((resolve) => setTimeout(resolve, STEP_PAUSE));
     const started = Date.now();
     try {
       const reply = await fn();
