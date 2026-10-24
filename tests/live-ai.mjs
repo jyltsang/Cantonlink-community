@@ -106,6 +106,11 @@ async function testProvider(browser, provider) {
   result.connection = await page.locator('#ai-status').textContent();
   result.model = await page.inputValue('#ai-model');
   result.models = await page.locator('#model-list option').evaluateAll((options) => options.map((o) => o.value));
+  if (/key was rejected/.test(result.connection)) {
+    // Nothing else can work with a rejected key; say so instead of failing every step.
+    await context.close();
+    return judge(result);
+  }
 
   // 2–3. A conversation with the Friend tutor, then a Sifu correction. After
   // a failed turn the chat starts again, so one failure does not spoil the rest.
