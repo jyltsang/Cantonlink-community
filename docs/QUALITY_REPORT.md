@@ -55,3 +55,24 @@ The build checks that each accepted order uses exactly the sentence's words and 
 ## 4. Model dialogues
 
 The 12 new dialogues (94 lines) were written for natural Hong Kong speech at each unit's level and checked like every other sentence: Jyutping validity, one syllable per character, no written Chinese, and the independent pronunciation check. Four further colloquial readings were documented (喂 wai2 on the phone, 卡 kaat1 'card', 左右 zo2 jau6 'about', and 呀 aa3 in replies). One spelling was changed to the more standard form: 海傍 to 海旁 hoi2 pong4. The build also checks that each dialogue uses at least three of its unit's grammar patterns.
+
+## 5. Live AI tutor test
+
+The AI tutor was tested against a real provider, **Google Gemini**, by driving the deployed site in a browser ([`tests/live-ai.mjs`](../tests/live-ai.mjs), run from the **Live AI provider test** workflow). Each run covers a connection test, a three-turn conversation, a Sifu correction, a translation, a grammar explanation and a unit role-play. Claude and OpenAI were not tested live; they are covered by recorded-response tests.
+
+| Run | Model | Result | What it showed, and the fix |
+|---|---|---|---|
+| 1 | gemini-2.5-flash | Failed | The default model had been retired (404). New default; "Test connection" now warns about retired models. |
+| 2 | gemini-3.8-flash | Failed | Model overloaded (503) and requests hung for minutes. Two retries with backoff; a 90-second limit per request; **Try again** in the chat. |
+| 3 | gemini-3.8-flash | Failed | Free tier allows 20 requests a day; the client retried a quota that resets in hours. A used-up quota is now reported at once. |
+| 4 | gemini-flash-lite-latest | 3 of 3 completed replies passed; then rate-limited | Fast (4–5 s). Made the default; the test now pauses between steps. |
+| 5 | (key rejected) | Not run | The API key had been replaced. The test now stops at once when the key is rejected. |
+| 6 | gemini-flash-lite-latest | **Passed**, 7 of 7 Verified or Corrected, 20 requests | See below. |
+
+**Reading the replies of run 6 by hand** found three things the pass/fail did not:
+
+- The translation 我开会就迟喇 was in **Simplified characters**. Check 4 now fails Simplified characters and gives the model the Traditional forms for its retry (开 → 開).
+- An example sentence, 你未去過長洲未呀, repeats 未 and is ungrammatical (it should be 你去過長洲未呀). It passed every check: the checks test spelling, romanisation, written-Chinese forms and library readings, not grammar. This is why every reply is labelled AI-generated and has a **Report** link.
+- The role-play step had not really run (the test clicked the navigation's Tutor link); the test is fixed.
+
+A paid run costs about 1–3 US cents with the default model; the test stops after 40 requests whatever happens.

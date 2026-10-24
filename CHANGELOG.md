@@ -1,6 +1,13 @@
 # Changelog
 
-## Unreleased
+## 1.0.0-rc.2 · 24 October 2026
+
+### AI tutor tested live, and made robust
+- Tested on the deployed site with a real Gemini key; the final run passed with every reply Verified or Corrected (20 requests).
+- The live tests found and fixed: a retired default model (now the `gemini-flash-lite-latest` alias), no retry on busy providers (now two retries with backoff), requests that never ended (now a 90-second limit), a used-up quota retried pointlessly (now reported at once with when it resets), and Simplified characters passing the checks (check 4 now catches them, using a list generated from OpenCC data).
+- Errors in the chat offer **Try again**; "Test connection" warns about retired models; the live test caps its requests to protect paid keys.
+- `cantonlink-mcp@1.0.0-rc.2` published to npm.
+
 
 ### Model dialogues and a quality pass
 - Each of the 12 units has a model dialogue (94 lines), shown on the unit page with the English hidden until asked for, practised as build-the-sentence items, and used by the AI tutor for role-play. The build checks that each dialogue uses at least three of its unit's patterns.

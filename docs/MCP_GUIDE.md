@@ -53,8 +53,6 @@ This pattern is called **grounding**: the model reasons and converses, while the
 
 There are two ways. Most people only need the first.
 
-> **Not yet on npm.** Until the `cantonlink-mcp` package is published, use **Option B**.
-
 **Option A: no installation (recommended).** Apps start the server with `npx`, which downloads the [`cantonlink-mcp`](https://www.npmjs.com/package/cantonlink-mcp) package the first time and runs it. You only need [Node.js](https://nodejs.org) 22 or later. Check it runs:
 
 ```sh
