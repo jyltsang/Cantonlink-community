@@ -22,6 +22,10 @@ const BASE = LOCAL ? 'http://localhost:8080/' : (process.env.SITE_URL ?? 'https:
 const REPLY_TIMEOUT = 240_000;
 // Pause between steps so free-tier keys (often 15 requests a minute) are not
 // rate-limited by the test itself; one tutor reply can take several requests.
+// A hard limit on requests to each provider per run, so a paid key can never
+// be charged for more than this, whatever goes wrong. CORS preflights
+// (OPTIONS) are free and not counted.
+const MAX_REQUESTS = Number(process.env.MAX_REQUESTS ?? 40);
 const STEP_PAUSE = Number(process.env.STEP_PAUSE_MS ?? (process.argv.includes('--mock') ? 0 : 20_000));
 const PROVIDERS = [
   { id: 'anthropic', name: 'Claude', key: 'ANTHROPIC_API_KEY', model: 'ANTHROPIC_MODEL', hosts: ['api.anthropic.com'] },
@@ -66,14 +70,20 @@ async function runTask(page, url, setup, label) {
 }
 
 async function testProvider(browser, provider) {
-  const result = { provider: provider.name, steps: [], networkErrors: [], connection: '' };
+  const result = { provider: provider.name, steps: [], networkErrors: [], connection: '', requests: 0, capped: false };
   const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  if (MOCK) {
-    await context.route('https://api.openai.com/v1/**', async (route) => {
-      const response = await route.fetch({ url: route.request().url().replace('https://api.openai.com', `http://localhost:${MOCK_PORT}`) });
-      await route.fulfill({ response, headers: { ...response.headers(), 'access-control-allow-origin': '*' } });
-    });
-  }
+  await context.route((url) => provider.hosts.includes(url.host), async (route) => {
+    if (route.request().method() !== 'OPTIONS') {
+      if (result.requests >= MAX_REQUESTS) {
+        result.capped = true;
+        return route.abort('blockedbyclient');
+      }
+      result.requests++;
+    }
+    if (!MOCK) return route.continue();
+    const response = await route.fetch({ url: route.request().url().replace('https://api.openai.com', `http://localhost:${MOCK_PORT}`) });
+    return route.fulfill({ response, headers: { ...response.headers(), 'access-control-allow-origin': '*' } });
+  });
   const page = await context.newPage();
   const isProvider = (url) => provider.hosts.includes(new URL(url).host);
   page.on('requestfailed', (r) => { if (isProvider(r.url())) result.networkErrors.push(`${r.method()} ${new URL(r.url()).pathname}: ${r.failure()?.errorText}`); });
@@ -158,6 +168,7 @@ async function testProvider(browser, provider) {
 
 function judge(result) {
   const failures = [];
+  if (result.capped) failures.push(`stopped at the limit of ${MAX_REQUESTS} requests`);
   if (!/^Connected/.test(result.connection) || /does not list the model/.test(result.connection)) failures.push(`connection test: ${result.connection}`);
   if (result.networkErrors.length) failures.push(`${result.networkErrors.length} network error(s)`);
   const errors = result.steps.filter((s) => s.badge === 'error');
@@ -177,7 +188,7 @@ function judge(result) {
 function markdown(results) {
   const lines = ['## Live AI provider test', '', `Site: ${BASE}`, ''];
   for (const r of results) {
-    lines.push(`### ${r.provider} (${r.model}): ${r.passed ? 'passed' : 'FAILED'}`, '', `Connection: ${r.connection}`, '');
+    lines.push(`### ${r.provider} (${r.model}): ${r.passed ? 'passed' : 'FAILED'}`, '', `Connection: ${r.connection}`, '', `Requests sent to the provider: ${r.requests} (limit ${MAX_REQUESTS})`, '');
     if (r.models?.length) lines.push(`<details><summary>${r.models.length} models available to this key</summary>\n\n${r.models.join(', ')}\n\n</details>`, '');
     lines.push('| Step | Badge | Seconds | Checks not passed | Reply |', '|---|---|---|---|---|');
     for (const s of r.steps) {
