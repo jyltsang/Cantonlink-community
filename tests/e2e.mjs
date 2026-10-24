@@ -404,6 +404,16 @@ test('AI settings: connection test lists models; the key is forgotten on reload 
   await context.close();
 });
 
+test('AI settings: the connection test warns when the chosen model is not available', async () => {
+  const { page, context } = await open('#/ai');
+  await connectMock(page);
+  await page.fill('#ai-model', 'retired-model');
+  await page.getByRole('button', { name: 'Test connection' }).click();
+  await page.locator('#ai-status', { hasText: 'Connected' }).waitFor();
+  assert.match(await page.locator('#ai-status').textContent(), /does not list the model "retired-model"; it may have been retired/);
+  await context.close();
+});
+
 test('AI tutor: a unit sets the level, scenario and focus patterns', async () => {
   const { page, context, errors } = await open('#/ai');
   await connectMock(page);

@@ -63,7 +63,10 @@ export function aiSettingsView(data, rerender) {
     try {
       const list = await makeClient().listModels();
       models.replaceChildren(...list.map((id) => h('option', { value: id })));
-      status.textContent = `Connected. ${list.length} model${list.length === 1 ? '' : 's'} available${list.length ? '; pick one from the model list if you like' : ''}.`;
+      const missing = list.length && ai.model && !list.includes(ai.model);
+      status.textContent = missing
+        ? `Connected, but your account does not list the model "${ai.model}"; it may have been retired. Choose one of the ${list.length} models from the model list.`
+        : `Connected. ${list.length} model${list.length === 1 ? '' : 's'} available${list.length ? '; pick one from the model list if you like' : ''}.`;
     } catch (error) {
       status.textContent = error instanceof ProviderError ? error.message : `Could not connect: ${error.message}`;
     }

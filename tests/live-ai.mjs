@@ -134,7 +134,7 @@ async function testProvider(browser, provider) {
 
 function judge(result) {
   const failures = [];
-  if (!/^Connected/.test(result.connection)) failures.push(`connection test: ${result.connection}`);
+  if (!/^Connected/.test(result.connection) || /does not list the model/.test(result.connection)) failures.push(`connection test: ${result.connection}`);
   if (result.networkErrors.length) failures.push(`${result.networkErrors.length} network error(s)`);
   const errors = result.steps.filter((s) => s.badge === 'error');
   if (errors.length) failures.push(`${errors.length} step(s) failed: ${errors.map((s) => `${s.name} (${s.error})`).join('; ')}`);

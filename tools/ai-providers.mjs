@@ -27,7 +27,7 @@ export const PROVIDERS = {
   },
   gemini: {
     label: 'Google Gemini',
-    defaultModel: 'gemini-2.5-flash',
+    defaultModel: 'gemini-3.8-flash',
     keyPlaceholder: 'AIza…',
     keyUrl: 'https://aistudio.google.com/apikey',
     needsKey: true,
