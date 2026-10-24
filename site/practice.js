@@ -1,6 +1,6 @@
 import { parseSyllable, phraseToYale, phraseToBopomofo, romanise } from './romanise.js';
 import {
-  SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, pageHead, chips,
+  SYSTEM_LANG, settings, h, show, app, shuffle, sample, rom, han, sentenceEl, sentenceText, romText, pageHead, chips,
   reportLine, recordAnswer, reviewKeys, savedPhrase, stats, whenDue,
 } from './lib.js';
 import { aiReady } from './ai-settings.js';
@@ -155,7 +155,7 @@ const KINDS = {
       const w = q.word;
       return [
         h('div', { class: 'card static' },
-          h('span', { class: 'big', lang: SYSTEM_LANG[settings.system] }, w[settings.system]),
+          h('span', { class: settings.system === 'jyutping' ? 'big jp' : 'big', lang: SYSTEM_LANG[settings.system] }, romText(w[settings.system])),
           settings.showCjk ? h('span', { class: 'han-big', lang: 'yue-Hant-HK' }, w.cjk) : null,
           st.revealed ? [h('hr', { class: 'divider', 'aria-hidden': 'true' }), h('span', { class: 'big' }, w.en)] : null),
         !st.revealed ? h('div', { class: 'actions' }, h('button', { class: 'btn btn-primary', type: 'button', onclick: () => { st.revealed = true; answer.rerender(); } }, 'Show meaning'))
@@ -415,7 +415,7 @@ export function flashcards(data, query) {
       return;
     }
     const w = queue[0];
-    const canto = [h('span', { class: 'big', lang: SYSTEM_LANG[settings.system] }, w[settings.system]), settings.showCjk ? h('span', { class: 'han-big', lang: 'yue-Hant-HK' }, w.cjk) : null];
+    const canto = [h('span', { class: settings.system === 'jyutping' ? 'big jp' : 'big', lang: SYSTEM_LANG[settings.system] }, romText(w[settings.system])), settings.showCjk ? h('span', { class: 'han-big', lang: 'yue-Hant-HK' }, w.cjk) : null];
     const en = [h('span', { class: 'big' }, w.en), h('span', { class: 'meta' }, w.pos)];
     const [front, back] = direction === 'canto-en' ? [canto, en] : [en, canto];
     show(

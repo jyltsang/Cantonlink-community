@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+### On brand: the CantonLink design system
+- The learning site now uses the CantonLink design system: cream canvas, white cards, ink pill buttons, the jade, hibiscus, persimmon, laicha and inkblue colour families, Elms Sans and JetBrains Mono, and the signature hard-offset shadow on clickable cards.
+- Dark mode is derived from the brand (warm ink canvas, cream text) rather than a separate palette.
+- Romanisation first: Jyutping is set in mono with tone numbers as superscripts; the text itself is unchanged, so copying and screen readers still get "nei5 hou2". Characters are now **off by default** (a choice already saved in the browser is kept) and appear beneath the romanisation when turned on.
+- **Try first**, the output-first pattern, is the default for unit dialogues: you play the second speaker, see what to say in English, try it, then reveal it. Revealed lines count towards the unit's progress. **Read** shows the whole dialogue as before.
+- A new test checks WCAG AA contrast (4.5:1 for text, 3:1 for controls) for every colour pair the site uses, in both themes.
+
 ## 1.0.0-rc.2 · 24 October 2026
 
 ### AI tutor tested live, and made robust

@@ -34,8 +34,13 @@ after(async () => {
   mockAi?.close();
 });
 
-async function open(path = '', { viewport = { width: 390, height: 844 }, colorScheme = 'light', storage } = {}) {
+// Characters are hidden by default; tests that find words by their
+// characters pass { cjk: true } to turn them on.
+const CJK_ON = { 'cantonlink-settings': { system: 'jyutping', showCjk: true } };
+
+async function open(path = '', { viewport = { width: 390, height: 844 }, colorScheme = 'light', storage, cjk = false } = {}) {
   const context = await browser.newContext({ viewport, colorScheme });
+  if (cjk) storage = { ...CJK_ON, ...storage };
   // Seeds localStorage once, before the first page load.
   if (storage) await context.addInitScript((items) => {
     if (sessionStorage.getItem('seeded')) return;
@@ -108,7 +113,7 @@ test('grammar: filter, read a pattern and practise it', async () => {
 });
 
 test('build the sentence marks a correct answer as correct', async () => {
-  const { page, context } = await open('#/build');
+  const { page, context } = await open('#/build', { cjk: true });
   const en = (await page.locator('.prompt-en').textContent()).replace(/[“”]/g, '');
   const q = data.practice.buildSentence.find((x) => x.en === en);
   for (const t of q.tokens.filter((x) => !x.punctuation)) {
@@ -120,7 +125,7 @@ test('build the sentence marks a correct answer as correct', async () => {
 });
 
 test('look up finds words from English and converts Jyutping', async () => {
-  const { page, context } = await open('#/lookup');
+  const { page, context } = await open('#/lookup', { cjk: true });
   await page.fill('#lookup-input', 'thank you');
   await page.waitForSelector('.word-row');
   assert.match(await page.locator('.words').innerText(), /唔該/);
@@ -132,7 +137,7 @@ test('look up finds words from English and converts Jyutping', async () => {
 });
 
 test('display settings change the romanisation and persist', async () => {
-  const { page, context } = await open(`#/vocabulary/${data.vocabulary[0].id}`);
+  const { page, context } = await open(`#/vocabulary/${data.vocabulary[0].id}`, { cjk: true });
   await page.locator('.settings summary').click();
   await page.locator('input[value="yale"]').check();
   const first = data.vocabulary[0].words[0];
@@ -258,7 +263,7 @@ test('works offline after the first visit', async () => {
 
 
 test('code-mixed words work in the word list, the tone drill and flashcards', async () => {
-  const { page, context, errors } = await open('#/vocabulary/tech-work');
+  const { page, context, errors } = await open('#/vocabulary/tech-work', { cjk: true });
   assert.match(await page.locator('main').innerText(), /mixes in English words/);
   await page.locator('text=寫 code').first().waitFor();
   for (const system of ['yale', 'bopomofo']) {
@@ -281,7 +286,7 @@ test('code-mixed words work in the word list, the tone drill and flashcards', as
 });
 
 test('build the sentence accepts another natural word order', async () => {
-  const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { review: { 'build:ding6-hai6-or:0': { box: 1, due: Date.now() - 1000 } } } } });
+  const { page, context, errors } = await open('#/', { cjk: true, storage: { 'cantonlink-progress': { review: { 'build:ding6-hai6-or:0': { box: 1, due: Date.now() - 1000 } } } } });
   await page.goto(`${BASE}#/review`);
   await page.locator('.prompt-en', { hasText: 'Would you like tea or coffee?' }).waitFor();
   for (const word of ['你', '飲', '咖啡', '定係', '茶', '呀']) await page.locator('.tiles:not(.answer) .tile', { hasText: word }).first().click();
@@ -303,12 +308,13 @@ function unitKeys(unitId) {
     ...data.practice.buildSentence.filter(has).map((q) => `build:${q.id}`),
     ...data.vocabulary.filter((t) => unit.topics.includes(t.id)).flatMap((t) => t.words.map((w) => `card:${t.id}:${w.cjk}`)),
     ...unit.dialogue.lines.map((line, i) => ({ line, i })).filter(({ line }) => line.tokens.filter((t) => !t.punctuation).length >= 4).map(({ i }) => `build:dialogue:${unitId}:${i}`),
+    ...unit.dialogue.lines.map((line, i) => ({ line, i })).filter(({ line }) => line.speaker === 'B').map(({ i }) => `say:${unitId}:${i}`),
   ];
 }
 
 test('learning path: home card, units, progress and unit practice', async () => {
   const { page, context, errors } = await open('#/');
-  assert.match(await page.locator('.continue').innerText(), /Start · Unit 1 of 12 · A1[\s\S]*Meeting people/);
+  assert.match(await page.locator('.continue').innerText(), /Start · Unit 1 of 12 · A1[\s\S]*Meeting people/i);
   await page.getByRole('link', { name: 'Start the unit' }).click();
   await page.locator('main h1', { hasText: 'Unit 1: Meeting people' }).waitFor();
   assert.equal(await page.locator('main .link-list').first().locator('li').count(), 5);
@@ -326,10 +332,11 @@ test('learning path: home card, units, progress and unit practice', async () => 
 });
 
 test('learning path: each unit has a model dialogue with the English hidden until asked for', async () => {
-  const { page, context, errors } = await open('#/path/u07');
+  const { page, context, errors } = await open('#/path/u07', { cjk: true });
+  await page.getByRole('button', { name: 'Read', exact: true }).click();
   const lines = page.locator('.dialogue-line');
   assert.equal(await lines.count(), data.path.find((u) => u.id === 'u07').dialogue.lines.length);
-  assert.match(await lines.first().innerText(), /^Lily[\s\S]*cing2 man6[\s\S]*請問[\s\S]*天星碼頭/);
+  assert.match(await lines.first().innerText(), /^Lily[\s\S]*cing2 man6[\s\S]*請問[\s\S]*天星碼頭/i);
   assert.equal(await lines.first().locator('.en').isVisible(), false);
   await page.getByRole('button', { name: 'Show English' }).click();
   assert.equal(await lines.first().locator('.en').isVisible(), true);
@@ -342,8 +349,61 @@ test('learning path: each unit has a model dialogue with the English hidden unti
   await context.close();
 });
 
+test('characters are hidden by default, and Jyutping tones are superscripts with unchanged text', async () => {
+  const { page, context, errors } = await open(`#/vocabulary/${data.vocabulary[0].id}`);
+  const first = data.vocabulary[0].words[0];
+  assert.equal(await page.locator('.word-han').count(), 0);
+  const rom = page.locator('.word-rom').first();
+  assert.equal(await rom.textContent(), first.jyutping);
+  assert.equal(await rom.locator('sup.tone').count(), first.jyutping.split(' ').length);
+  assert.equal(await rom.evaluate((el) => getComputedStyle(el).fontFamily.includes('JetBrains Mono')), true);
+  await page.locator('.settings summary').click();
+  await page.locator('input[name="showCjk"]').check();
+  assert.equal(await page.locator('.word-han').first().textContent(), first.cjk);
+  await page.locator('input[value="yale"]').check();
+  assert.equal(await page.locator('.word-rom sup').count(), 0);
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+test('learning path: Try first asks for each of your lines, then reveals them', async () => {
+  const unit = data.path.find((u) => u.id === 'u07');
+  const lines = unit.dialogue.lines;
+  const mine = lines.map((line, i) => ({ line, i })).filter(({ line }) => line.speaker === 'B');
+  const { page, context, errors } = await open('#/path/u07');
+  assert.equal(await page.getByRole('button', { name: 'Try first' }).getAttribute('aria-pressed'), 'true');
+  const ask = page.locator('.step-ask');
+  assert.equal(await ask.count(), 1);
+  assert.equal(await page.locator('.dialogue-line').count(), mine[0].i + 1);
+  assert.match(await ask.innerText(), new RegExp(`Step 1 · ask[\\s\\S]*How would you say “${mine[0].line.en.replace(/[.?*+()]/g, '\\$&')}”\\?[\\s\\S]*Try first · we’ll show after`, 'i'));
+
+  await ask.getByRole('button', { name: 'Reveal' }).click();
+  const revealed = page.locator('.step-reveal');
+  assert.equal(await revealed.count(), 1);
+  assert.match(await revealed.innerText(), /Step 2 · reveal/i);
+  assert.equal(await revealed.locator('.rom').first().textContent(), mine[0].line.tokens[0].jyutping);
+  assert.equal(await page.evaluate(() => document.activeElement.textContent), 'Reveal');
+  assert.equal(await page.locator('.step-ask').count(), 1);
+
+  await page.getByRole('button', { name: 'Reveal all' }).click();
+  assert.equal(await page.locator('.step-reveal').count(), mine.length);
+  assert.equal(await page.locator('.step-ask').count(), 0);
+  assert.equal(await page.locator('.dialogue-line').count(), lines.length);
+  const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('cantonlink-progress')).done);
+  assert.deepEqual(mine.map(({ i }) => saved[`say:u07:${i}`]), mine.map(() => 1));
+
+  await page.getByRole('button', { name: 'Start again' }).click();
+  assert.equal(await page.locator('.step-reveal').count(), 0);
+  assert.equal(await page.locator('.step-ask').count(), 1);
+  await page.reload();
+  await page.waitForSelector('.dialogue');
+  assert.match(await page.locator('.small', { hasText: 'exercises practised' }).innerText(), new RegExp(`^${mine.length} of`));
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
 test('learning path: dialogue lines can be practised and reviewed', async () => {
-  const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { review: { 'build:dialogue:u03:1': { box: 1, due: Date.now() - 1000 } } } } });
+  const { page, context, errors } = await open('#/', { cjk: true, storage: { 'cantonlink-progress': { review: { 'build:dialogue:u03:1': { box: 1, due: Date.now() - 1000 } } } } });
   await page.goto(`${BASE}#/review`);
   await page.locator('.prompt-en', { hasText: "I'd like a pineapple bun and a bowl of wonton noodles." }).waitFor();
   for (const word of ['我', '想', '要', '一', '個', '菠蘿包', '同', '一', '碗', '雲吞麪']) await page.locator('.tiles:not(.answer) .tile', { hasText: word }).first().click();
@@ -358,7 +418,7 @@ test('learning path: a unit completes at 80% and the next one is up', async () =
   const keys = unitKeys('u01');
   const done = Object.fromEntries(keys.slice(0, Math.ceil(keys.length * 0.8)).map((k) => [k, 1]));
   const { page, context, errors } = await open('#/', { storage: { 'cantonlink-progress': { answered: 50, correct: 50, done } } });
-  assert.match(await page.locator('.continue').innerText(), /Start · Unit 2 of 12[\s\S]*Numbers and prices/);
+  assert.match(await page.locator('.continue').innerText(), /Start · Unit 2 of 12[\s\S]*Numbers and prices/i);
   await page.goto(`${BASE}#/path`);
   await page.waitForSelector('.path-unit');
   const first = page.locator('.path-unit').first();

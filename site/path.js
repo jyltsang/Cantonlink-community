@@ -1,4 +1,4 @@
-import { LEVELS, h, show, rom, han, pageHead, tag, isDone, shuffle, sentenceEl } from './lib.js';
+import { LEVELS, h, show, rom, han, pageHead, tag, chips, isDone, markDone, shuffle, sentenceEl } from './lib.js';
 import { runSession, itemKey, dialogueBuildItems } from './practice.js';
 import { aiReady } from './ai-settings.js';
 
@@ -16,9 +16,12 @@ function unitItems(data, unit) {
   ];
 }
 
+// Each of the learner's lines in Try first counts once it has been revealed.
+const sayKeys = (unit) => (unit.dialogue?.lines ?? []).flatMap((line, i) => (line.speaker === 'B' ? [`say:${unit.id}:${i}`] : []));
+
 export function unitProgress(data, unit) {
-  const items = unitItems(data, unit);
-  const done = items.filter((item) => isDone(itemKey(item))).length;
+  const items = [...unitItems(data, unit).map(itemKey), ...sayKeys(unit)];
+  const done = items.filter(isDone).length;
   return { done, total: items.length, share: items.length ? done / items.length : 0, complete: done >= items.length * COMPLETE };
 }
 
@@ -74,14 +77,75 @@ export function pathView(data) {
   );
 }
 
-// The unit's model dialogue, word by word in the chosen romanisation, with
-// the English hidden until the learner asks for it.
+// The unit's model dialogue. "Try first" is the output-first pattern: the
+// learner plays B, sees what to say in English, tries it aloud, then reveals
+// it. "Read" shows the whole dialogue. Reveals last for this visit; that a
+// line was practised is kept in progress.
+let dialogueMode = 'try';
+const revealed = new Map();
+
+function askCard(line, i, onReveal) {
+  return h('li', { class: 'dialogue-line speaker-B step-ask', 'data-line': i },
+    h('p', { class: 'step-label' }, 'Step 1 · ask'),
+    h('p', { class: 'step-question' }, `How would you say “${line.en}”?`),
+    h('p', { class: 'try-box' }, 'Try first · we’ll show after. Say it out loud, or write it down.'),
+    h('button', { class: 'btn btn-primary btn-small', type: 'button', onclick: onReveal }, 'Reveal'));
+}
+
+function revealCard(line, speaker) {
+  return h('li', { class: 'dialogue-line speaker-B step-reveal', tabindex: '-1' },
+    h('p', { class: 'step-label' }, `Step 2 · reveal · ${speaker}`),
+    sentenceEl(line.tokens),
+    h('p', { class: 'step-en' }, line.en));
+}
+
 function dialogueSection(unit) {
   const d = unit.dialogue;
-  const lines = h('ol', { class: 'dialogue' }, d.lines.map((line) => h('li', { class: `dialogue-line speaker-${line.speaker}` },
+  const shown = revealed.get(unit.id) ?? new Set();
+  revealed.set(unit.id, shown);
+  const lines = h('ol', { class: 'dialogue' });
+  const status = h('p', { class: 'visually-hidden', role: 'status' });
+  const plainLine = (line) => h('li', { class: `dialogue-line speaker-${line.speaker}` },
     h('p', { class: 'speaker' }, d.speakers[line.speaker]),
     sentenceEl(line.tokens),
-    h('p', { class: 'en' }, line.en))));
+    h('p', { class: 'en' }, line.en));
+
+  const reveal = (indexes) => {
+    for (const i of indexes) {
+      shown.add(i);
+      markDone(`say:${unit.id}:${i}`);
+    }
+    render();
+    status.textContent = indexes.length > 1 ? 'All lines revealed.' : 'Line revealed.';
+    const next = lines.querySelector('.step-ask button');
+    (next ?? lines.lastElementChild)?.focus?.({ preventScroll: false });
+  };
+
+  const actions = h('div', { class: 'actions' });
+  function render() {
+    lines.classList.toggle('try-first', dialogueMode === 'try');
+    if (dialogueMode === 'read') {
+      lines.replaceChildren(...d.lines.map(plainLine));
+      actions.replaceChildren();
+      return;
+    }
+    const items = [];
+    for (const [i, line] of d.lines.entries()) {
+      if (line.speaker !== 'B') items.push(plainLine(line));
+      else if (shown.has(i)) items.push(revealCard(line, d.speakers.B));
+      else {
+        items.push(askCard(line, i, () => reveal([i])));
+        break;
+      }
+    }
+    lines.replaceChildren(...items);
+    const hidden = d.lines.flatMap((line, i) => (line.speaker === 'B' && !shown.has(i) ? [i] : []));
+    actions.replaceChildren(...[
+      hidden.length ? h('button', { class: 'btn btn-small', type: 'button', onclick: () => reveal(hidden) }, 'Reveal all') : null,
+      shown.size ? h('button', { class: 'btn btn-small btn-quiet', type: 'button', onclick: () => { shown.clear(); render(); lines.querySelector('.step-ask button')?.focus(); } }, 'Start again') : null,
+    ].filter(Boolean));
+  }
+
   const toggle = h('button', {
     class: 'btn btn-small', type: 'button', 'aria-pressed': 'false',
     onclick: () => {
@@ -90,10 +154,20 @@ function dialogueSection(unit) {
       toggle.textContent = showing ? 'Hide English' : 'Show English';
     },
   }, 'Show English');
+  const intro = h('p', { class: 'small' });
+  const modes = h('div');
+  const setMode = (mode) => {
+    dialogueMode = mode;
+    modes.replaceChildren(chips([['try', 'Try first'], ['read', 'Read']], mode, setMode, 'Dialogue mode'));
+    intro.textContent = mode === 'try'
+      ? `You are ${d.speakers.B}. For each of your lines, try saying it before you reveal it.`
+      : 'Read it aloud, taking each part in turn. Try to understand it before you show the English.';
+    render();
+  };
+  setMode(dialogueMode);
   return h('section', { class: 'panel', 'aria-labelledby': 'dialogue-heading' },
     h('h2', { id: 'dialogue-heading' }, `3. Model dialogue: ${d.title}`),
-    h('p', { class: 'small' }, 'Read it aloud, taking each part in turn. Try to understand it before you show the English.'),
-    toggle, lines);
+    modes, intro, toggle, lines, actions, status);
 }
 
 export function unitView(data, id) {

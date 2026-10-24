@@ -22,7 +22,9 @@ function write(key, value) {
   }
 }
 
-export const settings = { system: 'jyutping', showCjk: true, ...read('cantonlink-settings', {}) };
+// Characters are off by default: romanisation comes first, and learners turn
+// 漢字 on under Display when they want them.
+export const settings = { system: 'jyutping', showCjk: false, ...read('cantonlink-settings', {}) };
 export const saveSettings = () => write('cantonlink-settings', settings);
 
 // Missed items go into a spaced-repetition schedule (see srs.js). Keys look
@@ -50,6 +52,13 @@ export function recordAnswer(key, isCorrect, { reviewing = false } = {}) {
     if (next) progress.review[key] = next;
     else delete progress.review[key];
   }
+  changed();
+}
+// Practice that has no right or wrong answer (revealing a Try first line):
+// counts towards a unit's progress without touching the score.
+export function markDone(key) {
+  if (progress.done[key]) return;
+  progress.done[key] = 1;
   changed();
 }
 export const reviewKeys = () => dueKeys(progress.review);
@@ -131,7 +140,14 @@ export const fold = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLow
 
 // --- Cantonese rendering --------------------------------------------------
 
-export const rom = (word, cls = 'rom') => h('span', { class: cls, lang: SYSTEM_LANG[settings.system] }, word[settings.system]);
+// Jyutping tone numbers become superscripts (nei⁵ hou²). The digits stay in
+// the text, so copying and screen readers still get "nei5 hou2".
+export function romText(text, system = settings.system) {
+  if (system !== 'jyutping' || !text) return [text];
+  return text.split(/(?<=[a-z])([1-6])(?![0-9])/i).map((part, i) => (i % 2 ? h('sup', { class: 'tone' }, part) : part)).filter((part) => part !== '');
+}
+const romClass = (cls) => (settings.system === 'jyutping' ? `${cls} jp` : cls);
+export const rom = (word, cls = 'rom') => h('span', { class: romClass(cls), lang: SYSTEM_LANG[settings.system] }, romText(word[settings.system]));
 export const han = (word, cls = 'han') => (settings.showCjk ? h('span', { class: cls, lang: 'yue-Hant-HK' }, word.cjk) : null);
 
 export function sentenceEl(tokens, { blankIndex = -1, filled = null, highlight = -1 } = {}) {
@@ -146,7 +162,9 @@ export function sentenceEl(tokens, { blankIndex = -1, filled = null, highlight =
 }
 
 export function sentenceText(sentence) {
-  return h('span', {}, settings.showCjk ? h('span', { class: 'cjk', lang: 'yue-Hant-HK' }, sentence.cjk, ' ') : null, h('span', { lang: SYSTEM_LANG[settings.system] }, sentence[settings.system]));
+  return h('span', { class: 'dual' },
+    h('span', { class: romClass('dual-rom'), lang: SYSTEM_LANG[settings.system] }, romText(sentence[settings.system])),
+    settings.showCjk ? h('span', { class: 'dual-cjk cjk', lang: 'yue-Hant-HK' }, sentence.cjk) : null);
 }
 
 // --- Shared page pieces ---------------------------------------------------
