@@ -166,7 +166,10 @@ function markdown(results) {
   return lines.join('\n');
 }
 
-if (MOCK) process.env.OPENAI_API_KEY = 'mock-key';
+if (MOCK) {
+  process.env.OPENAI_API_KEY = 'mock-key';
+  process.env.OPENAI_MODEL = 'mock-model'; // the model the scripted provider lists
+}
 const tested = PROVIDERS.filter((p) => process.env[p.key] && (!MOCK || p.id === 'openai'));
 const mock = MOCK ? await startMockAi(MOCK_PORT) : null;
 if (!tested.length) {
