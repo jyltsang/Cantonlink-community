@@ -44,6 +44,7 @@ npm run preview             # site at http://localhost:8080
 
 Add a line whenever a run teaches something; keep the newest first.
 
+- Look at real output with characters off, not only at tests: a missing space between readings passed every test for two sprints. (Sprint 4)
 - Tests on generated data should assert what matters, not incidental order: new content reorders things. (Sprint 3)
 - Put test clean-up (closing clients, killing child processes) in `finally`: a failed assertion that skips it turns a failure into a hang. (Sprint 2)
 - Never `pkill -f` a pattern that also appears in your own command line; kill by process ID. (Sprint 2)

@@ -4,6 +4,8 @@
 
 ### More practice material
 - Every A1 pattern now has five examples: 48 new draft sentences in new everyday contexts, with fill-the-gap and accepted word orders.
+- New B1 particles: 添 (too; even), 啩 (I suppose) and 嘛 (it's obvious), on the path in units 10, 11 and 12. Sentence-final 先 gains a second example in its existing pattern. 63 patterns in all.
+- Romanisation-only text in the MCP server keeps a space between adjacent words (keoi5 hou2 gou1, not keoi5hou2gou1).
 
 ### Jyutping and Yale first in the MCP server
 - **Characters are off by default** in `cantonlink-mcp`: tools, resources and prompts show Jyutping (or Yale with `--romanisation=yale`), and the tutor prompt tells the model never to show characters. `--characters=on` restores the previous output; `CANTONLINK_CHARACTERS` and `CANTONLINK_ROMANISATION` do the same. This changes the default for existing users.
