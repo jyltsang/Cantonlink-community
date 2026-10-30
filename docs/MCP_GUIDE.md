@@ -347,6 +347,7 @@ Run them with `npm test --prefix mcp`. They check every tool, resource and promp
 
 ## 10. Going further
 
+- **Search by meaning.** To ground your own tutor with a vector index, see the [RAG guide](RAG_GUIDE.md).
 - **Use it from your own code.** The same SDK includes a client (`@modelcontextprotocol/sdk/client`), so your own app can connect to this server and pass its tools to any AI model's tool-calling API.
 - **Run it remotely.** For a web app, or to share one server with a team, serve it over **Streamable HTTP** instead of stdio. The SDK provides that transport too; you would then add authentication.
 - **Contribute.** Ideas for new tools: spaced-repetition scheduling, a "which classifier?" quiz, or searching example sentences by pattern. Open an issue to discuss.

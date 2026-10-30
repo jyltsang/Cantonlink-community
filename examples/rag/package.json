@@ -1,0 +1,19 @@
+{
+  "name": "cantonlink-rag-example",
+  "private": true,
+  "description": "Build your own vector index over the CantonLink Community library. See docs/RAG_GUIDE.md.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build-index": "node build-index.mjs",
+    "query": "node query.mjs",
+    "evaluate": "node evaluate.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1"
+  }
+}

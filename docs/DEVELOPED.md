@@ -68,6 +68,14 @@ Documented in the [MCP guide](MCP_GUIDE.md) and `mcp/README.md`.
 - `cantonlink` CLI: `word` (search or word of the day), `quiz`, `romanise`.
 - Self-contained package (library and data bundled at pack time), published with provenance as `cantonlink-mcp@1.0.0-rc.2`; repository folders are pre-configured for Claude Code, VS Code and Cursor.
 
+## Retrieval example for developers (`examples/rag/`)
+
+Documented in the [RAG guide](RAG_GUIDE.md): how to build a vector index over the library, the project rules it must keep, and how to evaluate it.
+
+- Chunking (one chunk per word, pattern and example, no characters), a local embedding model through transformers.js (no key), brute-force cosine search, hybrid ranking with the library's own search (reciprocal rank fusion) and a stale-index guard.
+- 25 evaluation queries (paraphrases, romanisation, grammar by meaning). Keyword search alone: 16% recall@5. Vector and hybrid scores are not yet measured: the model download needs network access that the project's environment lacks.
+- Not part of the site or the npm package.
+
 ## Data for reuse (`dist/`)
 
 - `cantonlink-community.json`: every pattern, example, word, unit, dialogue and practice item with characters, Jyutping, Yale and Bopomofo, word by word, plus `*Parts` fields for showing text without characters.
@@ -92,6 +100,7 @@ Documented in the [MCP guide](MCP_GUIDE.md) and `mcp/README.md`.
 | The live AI test itself, against a mock provider | `node tests/live-ai.mjs --local --mock` |
 | The MCP package packed, unpacked and run through npm's symlinks; **no Chinese character in any tool result, resource or prompt with characters off**, in Jyutping and Yale | `npm test --prefix mcp` (25 tests) |
 | Learner romanisation finds the right word (no tones, Yale, run together, l for n); wrong tones are only approximate | `tools/library.test.mjs` |
+| The retrieval example's chunking, index metadata, stale-index guard, fusion and evaluation maths, with a stand-in embedder | `examples/rag/rag.test.mjs` (in `npm test`) |
 
 ### By hand
 

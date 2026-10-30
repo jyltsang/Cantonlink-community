@@ -14,7 +14,7 @@
     "check:pronunciation": "node tools/check-pronunciation.mjs",
     "gen:simplified": "node tools/gen-simplified.mjs",
     "format": "node tools/format.mjs",
-    "test": "node --test \"tools/*.test.mjs\"",
+    "test": "node --test \"tools/*.test.mjs\" \"examples/rag/*.test.mjs\"",
     "romanise": "node tools/cli.mjs",
     "site": "node tools/site.mjs",
     "preview": "node tools/site.mjs --serve",

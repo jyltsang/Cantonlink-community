@@ -66,6 +66,49 @@ Start the run with the `/next-run` skill (`.claude/skills/next-run/SKILL.md`). I
 - **Do:** update `@modelcontextprotocol/sdk` (1.32.2) and `zod` (4.6.7) in `mcp/`, then run the MCP tests. Publishing a new version (rc.3) is the owner's call; ask first.
 - **Files:** `mcp/package.json`, `mcp/package-lock.json`.
 
+### Developer platform (roadmap phase 8), in order
+
+Take these after items 1–5 unless the owner reorders them. The design is in the master plan's [Developer platform](MASTER_PLAN.md#developer-platform) section.
+
+### 6. Evaluation set and accuracy-rate command (8a)
+
+- **Why:** principle 10, accuracy is measured, never assumed.
+- **Do:**
+  - build an evaluation set of English prompts with the expected Jyutping and pattern, drawn from reviewed examples first (drafts labelled as such);
+  - write a command that runs it against a developer's own model and key and reports syllables right (tones included), sentences exactly right, replies passing all checks and written-Chinese slips, with and without retrieval;
+  - test it against the mock provider only.
+- **Done when:** the command runs in CI against the mock provider, and its report labels the score "agreement with reviewed examples" with the model and date.
+- **Files:** new `tools/eval-*.mjs` and data, `tests/`, `docs/AI_TUTOR.md`.
+- **Rule:** no live run without the owner's consent; the live-test cap applies to the owner's key.
+
+### 7. Confidence labels and the learner flag (8b)
+
+- **Why:** principle 11, the learner is the judge and reviewers confirm.
+- **Do:**
+  - add the "in the library" or "not in the library" note beside the existing Verified, Corrected and Unverified badges;
+  - add a one-step "this sounds wrong" flag that opens a pre-filled GitHub issue form (prompt, answer, model, check results, optional comment), which the learner reviews and submits; never include the key;
+  - add the issue form and a reviewer triage guide.
+- **Done when:** e2e tests cover the labels and the flag in both themes and with characters off, and the form never contains a key.
+- **Files:** `site/tutor.js`, `tools/ai-checks.mjs`, `.github/ISSUE_TEMPLATE/`, `tests/e2e.mjs`, `docs/AI_TUTOR.md`.
+
+### 8. Grammar breakdown tool (8c)
+
+- **Do:** a shared tool that splits a sentence into words with Jyutping, Yale and meaning, and names the library patterns used; offered to the AI tutor and the MCP server, romanisation-only when characters are off.
+- **Done when:** unit and MCP tests pass, including the no-characters guard.
+- **Files:** `tools/library.mjs`, `tools/tool-definitions.mjs`, `mcp/test/`.
+
+### 9. Dictionary licence checks (8d)
+
+- **Do:** check and record the licences of CC-Canto, CC-CEDICT, rime-cantonese, HKCanCor, words.hk and any Hugging Face datasets from their own sources; update the licensing table. Import nothing until the owner approves a source.
+- **Done when:** each candidate has a recorded licence, version, URL and decision.
+- **Files:** `docs/MASTER_PLAN.md`, `NOTICE`.
+
+### 10. Retrieval contract (8e)
+
+- **Do:** one `retrieve(query, { kind, limit })` contract over the romanisation-aware search; run the `examples/rag` evaluation with a real embedding model and record the results.
+- **Done when:** the contract is tested, and embeddings are adopted only if the hybrid clearly beats keyword search on paraphrases without losing on romanisation.
+- **Files:** `tools/library.mjs`, `examples/rag/`, `docs/RAG_GUIDE.md`.
+
 ## Waiting on the owner or reviewers (not run work)
 
 | Item | What is needed |
