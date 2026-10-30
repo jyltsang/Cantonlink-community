@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "opencc-js": "1.4.2",
-    "playwright": "1.56.1",
+    "playwright": "1.64.1",
     "to-jyutping": "3.1.1"
   }
 }
