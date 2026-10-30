@@ -16,7 +16,7 @@ This guide is for developers who want to put the CantonLink Community library in
 
 ## 1. Do you need a vector database?
 
-Start with the size of the library: 60 grammar patterns, 180 example sentences and 390 words, about 630 chunks in all. A vector "database" for that is a JSON file and a loop: comparing a query with every chunk takes well under a millisecond. You need a real vector store only when you add much more data, for example an external dictionary of tens of thousands of entries (see section 9).
+Start with the size of the library: 60 grammar patterns, 228 example sentences and 390 words, about 680 chunks in all. A vector "database" for that is a JSON file and a loop: comparing a query with every chunk takes well under a millisecond. You need a real vector store only when you add much more data, for example an external dictionary of tens of thousands of entries (see section 9).
 
 The project's own MCP server uses **no embeddings**. Its search is romanisation-aware: tones are optional, Yale works with or without marks, syllables can run together, and l for n is accepted. That handles what learners without characters type, and embedding models handle it badly.
 
@@ -111,7 +111,7 @@ Grow the cases whenever a search misses something it should find. More cases mak
 
 ## 8. Keep the index fresh
 
-The library changes as entries are written and reviewed. The example stores a hash of the data file in the index (`dataVersion`) and refuses to search a stale index. Rebuild after every library update; with a local model, embedding all 630 chunks takes seconds.
+The library changes as entries are written and reviewed. The example stores a hash of the data file in the index (`dataVersion`) and refuses to search a stale index. Rebuild after every library update; with a local model, embedding all 680 chunks takes seconds.
 
 ## 9. Adding external dictionaries
 

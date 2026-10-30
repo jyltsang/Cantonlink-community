@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### More practice material
+- Every A1 pattern now has five examples: 48 new draft sentences in new everyday contexts, with fill-the-gap and accepted word orders.
+
 ### Jyutping and Yale first in the MCP server
 - **Characters are off by default** in `cantonlink-mcp`: tools, resources and prompts show Jyutping (or Yale with `--romanisation=yale`), and the tutor prompt tells the model never to show characters. `--characters=on` restores the previous output; `CANTONLINK_CHARACTERS` and `CANTONLINK_ROMANISATION` do the same. This changes the default for existing users.
 - **Search finds what learners type:** tones optional (a given tone must match), Yale with or without marks, run-together syllables, l for n, dropped ng-. Wrong-tone and one-letter matches are labelled as closest matches. The site's AI tutor gains this search too.

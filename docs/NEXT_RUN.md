@@ -6,9 +6,9 @@ What the next working session will develop. This is one of three master document
 - [Master plan](MASTER_PLAN.md): purpose, principles, decisions, roadmap and release criteria.
 - **Next run** (this page): the next session's brief.
 
-Start the run with the `/next-run` skill (`.claude/skills/next-run/SKILL.md`). It reads this page, agrees the scope with the project owner, and updates it at the end. Items come from the [Sprint 2 retrospective](retrospectives/sprint-02.md), the release criteria and the [curriculum](CURRICULUM.md)'s known gaps.
+Start the run with the `/next-run` skill (`.claude/skills/next-run/SKILL.md`). It reads this page, agrees the scope with the project owner, and updates it at the end. Items come from the [Sprint 3 retrospective](retrospectives/sprint-03.md), the release criteria and the [curriculum](CURRICULUM.md)'s known gaps.
 
-**Prepared:** 30 October 2026, after Sprint 2. Sprint 2 finished the accessibility checks, the Playwright upgrade and the MCP dependency patch.
+**Prepared:** 30 October 2026, after Sprint 3. Sprint 3 added two examples to every A1 pattern.
 
 ## Constraints for every run
 
@@ -19,21 +19,9 @@ Start the run with the `/next-run` skill (`.claude/skills/next-run/SKILL.md`). I
 
 ## Goal for the next run
 
-**More practice material, then the developer platform.** Take the items in order and stop when the run's time is used; unfinished items stay here.
+**Close the B1 gaps, then the developer platform.** Take the items in order and stop when the run's time is used; unfinished items stay here.
 
-### 1. Two more examples for each A1 pattern
-
-- **Why:** three examples is the minimum; five lets practice vary more. Start with the 24 A1 patterns: 48 sentences.
-- **Do:**
-  - write original, natural spoken sentences in different everyday contexts, with gaps for fill-the-gap where the rules allow;
-  - add accepted word orders where another order is natural.
-- **Done when:**
-  - the build, pronunciation cross-check and all tests pass;
-  - each new sentence has been proofread for tones and naturalness;
-  - the quality report has a new section.
-- **Files:** `content/grammar/A1.json`, regenerated `library/` and `dist/`.
-
-### 2. Close B1 gaps (first batch)
+### 1. Close B1 gaps (first batch)
 
 - **Why:** the curriculum lists missing B1 items.
 - **Do:** add sentence-final 先 and 添, and the particles 嘛 and 啩, as new patterns with three examples each. Fit them into existing B1 units (each pattern must be taught exactly once).
@@ -46,9 +34,9 @@ Start the run with the `/next-run` skill (`.claude/skills/next-run/SKILL.md`). I
 
 ### Developer platform (roadmap phase 8), in order
 
-Take these after items 1–2 unless the owner reorders them. The design is in the master plan's [Developer platform](MASTER_PLAN.md#developer-platform) section.
+Take these after item 1 unless the owner reorders them. The design is in the master plan's [Developer platform](MASTER_PLAN.md#developer-platform) section.
 
-### 3. Evaluation set and accuracy-rate command (8a)
+### 2. Evaluation set and accuracy-rate command (8a)
 
 - **Why:** principle 10, accuracy is measured, never assumed.
 - **Do:**
@@ -59,7 +47,7 @@ Take these after items 1–2 unless the owner reorders them. The design is in th
 - **Files:** new `tools/eval-*.mjs` and data, `tests/`, `docs/AI_TUTOR.md`.
 - **Rule:** no live run without the owner's consent; the live-test cap applies to the owner's key.
 
-### 4. Confidence labels and the learner flag (8b)
+### 3. Confidence labels and the learner flag (8b)
 
 - **Why:** principle 11, the learner is the judge and reviewers confirm.
 - **Do:**
@@ -69,32 +57,32 @@ Take these after items 1–2 unless the owner reorders them. The design is in th
 - **Done when:** e2e tests cover the labels and the flag in both themes and with characters off, and the form never contains a key.
 - **Files:** `site/tutor.js`, `tools/ai-checks.mjs`, `.github/ISSUE_TEMPLATE/`, `tests/e2e.mjs`, `docs/AI_TUTOR.md`.
 
-### 5. Grammar breakdown tool (8c)
+### 4. Grammar breakdown tool (8c)
 
 - **Do:** a shared tool that splits a sentence into words with Jyutping, Yale and meaning, and names the library patterns used; offered to the AI tutor and the MCP server, romanisation-only when characters are off.
 - **Done when:** unit and MCP tests pass, including the no-characters guard.
 - **Files:** `tools/library.mjs`, `tools/tool-definitions.mjs`, `mcp/test/`.
 
-### 6. Dictionary licence checks (8d)
+### 5. Dictionary licence checks (8d)
 
 - **Do:** check and record the licences of CC-Canto, CC-CEDICT, rime-cantonese, HKCanCor, words.hk and any Hugging Face datasets from their own sources; update the licensing table. Import nothing until the owner approves a source.
 - **Done when:** each candidate has a recorded licence, version, URL and decision.
 - **Files:** `docs/MASTER_PLAN.md`, `NOTICE`.
 
-### 7. Retrieval contract (8e)
+### 6. Retrieval contract (8e)
 
 - **Do:** one `retrieve(query, { kind, limit })` contract over the romanisation-aware search; run the `examples/rag` evaluation with a real embedding model and record the results.
 - **Done when:** the contract is tested, and embeddings are adopted only if the hybrid clearly beats keyword search on paraphrases without losing on romanisation.
 - **Files:** `tools/library.mjs`, `examples/rag/`, `docs/RAG_GUIDE.md`.
 
-### 8. Measure the retrieval example with a real model
+### 7. Measure the retrieval example with a real model
 
 - **Why:** the RAG guide reports only the keyword baseline (16% recall@5); Hugging Face was blocked in the Sprint 2 environment.
 - **Do:** in an environment that can reach Hugging Face, run `npm ci`, `npm run build-index` and `npm run evaluate` in `examples/rag/`; record keyword, vector and hybrid scores with the model and date.
-- **Done when:** the RAG guide and `docs/DEVELOPED.md` show all three scores, and item 7's decision on embeddings uses them.
+- **Done when:** the RAG guide and `docs/DEVELOPED.md` show all three scores, and item 6's decision on embeddings uses them.
 - **Files:** `docs/RAG_GUIDE.md`, `docs/DEVELOPED.md`.
 
-### 9. Hong Kong street spellings in search
+### 8. Hong Kong street spellings in search
 
 - **Why:** learners type `cha siu bao` and `yum cha`, which neither Jyutping nor Yale rules match.
 - **Do:** add a small, tested set of street-spelling rules to the search in `tools/library.mjs` (for example ch/ts for c, u for a, dropped final r), labelled as approximate when uncertain.

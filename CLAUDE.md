@@ -44,6 +44,7 @@ npm run preview             # site at http://localhost:8080
 
 Add a line whenever a run teaches something; keep the newest first.
 
+- Tests on generated data should assert what matters, not incidental order: new content reorders things. (Sprint 3)
 - Put test clean-up (closing clients, killing child processes) in `finally`: a failed assertion that skips it turns a failure into a hang. (Sprint 2)
 - Never `pkill -f` a pattern that also appears in your own command line; kill by process ID. (Sprint 2)
 - If a pinned Playwright cannot find its browser locally, point `PLAYWRIGHT_BROWSERS_PATH` at a folder linking the installed build; do not install browsers or edit the tests. (Sprint 2)

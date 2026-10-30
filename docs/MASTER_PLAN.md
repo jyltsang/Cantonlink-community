@@ -127,7 +127,7 @@ Developers plug in their own model and key and build on the library; learners wi
 | 24 Oct 2026 | **Try first** (output-first) is the default dialogue mode. |
 | 24 Oct 2026 | Planning is kept in three master documents with a retrospective after every run. |
 | 30 Oct 2026 | The **MCP server shows characters off by default**, Jyutping or Yale first, matching the site. |
-| 30 Oct 2026 | **No vector database for the library itself:** at about 630 chunks, romanisation-aware search is cheaper, testable and better at what learners type. Embeddings may come later behind a retrieval contract, only if an evaluation shows a gain; developers who want their own index follow the [RAG guide](RAG_GUIDE.md). |
+| 30 Oct 2026 | **No vector database for the library itself:** at under 700 chunks, romanisation-aware search is cheaper, testable and better at what learners type. Embeddings may come later behind a retrieval contract, only if an evaluation shows a gain; developers who want their own index follow the [RAG guide](RAG_GUIDE.md). |
 | 30 Oct 2026 | **Developer platform:** developers are the people the project builds with, learners without characters the people it serves. Accuracy is published as measured agreement, and learners can flag doubts for reviewers. |
 | 30 Oct 2026 | **External dictionaries** only with a licence compatible with CC BY-SA 4.0, as a separate "external, unreviewed" status. |
 
