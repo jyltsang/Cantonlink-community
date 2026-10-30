@@ -2,15 +2,39 @@
   "name": "cantonlink-mcp",
   "version": "1.0.0-rc.2",
   "description": "Learn spoken Hong Kong Cantonese from your AI assistant or terminal: an MCP server and CLI over the CantonLink Community library, with Jyutping, Yale and Bopomofo.",
-  "keywords": ["cantonese", "jyutping", "yale", "bopomofo", "mcp", "model-context-protocol", "language-learning", "cli"],
+  "keywords": [
+    "cantonese",
+    "jyutping",
+    "yale",
+    "bopomofo",
+    "mcp",
+    "model-context-protocol",
+    "language-learning",
+    "cli"
+  ],
   "homepage": "https://github.com/jyltsang/Cantonlink-community/blob/main/docs/MCP_GUIDE.md",
-  "repository": { "type": "git", "url": "git+https://github.com/jyltsang/Cantonlink-community.git", "directory": "mcp" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyltsang/Cantonlink-community.git",
+    "directory": "mcp"
+  },
   "bugs": "https://github.com/jyltsang/Cantonlink-community/issues",
   "type": "module",
   "license": "MIT AND CC-BY-SA-4.0",
-  "bin": { "cantonlink-mcp": "server.mjs", "cantonlink": "cli.mjs" },
-  "files": ["server.mjs", "cli.mjs", "shared.mjs", "vendor/", "README.md"],
-  "engines": { "node": ">=22" },
+  "bin": {
+    "cantonlink-mcp": "server.mjs",
+    "cantonlink": "cli.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "cli.mjs",
+    "shared.mjs",
+    "vendor/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test",
@@ -19,7 +43,7 @@
     "inspect": "npx @modelcontextprotocol/inspector@2.10.1 node server.mjs"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.32.1",
-    "zod": "4.6.5"
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
   }
 }
