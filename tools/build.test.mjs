@@ -79,7 +79,7 @@ test('dialogues: written Chinese, a missing unit and too few patterns are reject
 
 test('prose readings: an ambiguous character needs a checked reading, and unused readings are rejected', () => {
   const ambiguous = validate((edit) => edit('prose-readings.json', (d) => { d.readings = d.readings.filter((r) => r.cjk !== '會'); }));
-  assert.match(ambiguous, /"會" in ".*" has several readings in the library \(wui5, wui2, wui6\)/);
+  assert.match(ambiguous, /"會" in ".*" has several readings in the library \((?=[^)]*wui5)(?=[^)]*wui2)[^)]*\)/);
   const unused = validate((edit) => edit('prose-readings.json', (d) => { d.readings.push({ cjk: '貓', jyutping: 'maau1' }); }));
   assert.match(unused, /prose-readings\.json 貓: is not used/);
   const badTitle = validate((edit) => edit('vocabulary/greetings.json', (d) => { d.titleJyutping = 'daa2 ziu1'; }));

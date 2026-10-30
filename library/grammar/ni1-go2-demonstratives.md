@@ -36,6 +36,22 @@
 | Bopomofo | ㄍㄛ² ㄍㄚㄣ¹ ㄘㄚㄣ¹ ㄊㄝㄥ¹ ㄏㄛㄨ² ㄘㆤㆵ¹ ㄇㄝㄥ². |
 | English | That restaurant is very famous. |
 
+| | |
+|---|---|
+| 漢字 | **呢部電腦好慢。** |
+| Jyutping | ni1 bou6 din6 nou5 hou2 maan6. |
+| Yale | nī bouh dihn nóuh hóu maahn. |
+| Bopomofo | ㄋㄧ¹ ㄅㄛㄨ⁶ ㄉㄧㄣ⁶ ㄋㄛㄨ⁵ ㄏㄛㄨ² ㄇㄚㄣ⁶. |
+| English | This computer is very slow. |
+
+| | |
+|---|---|
+| 漢字 | **嗰個人係我老細。** |
+| Jyutping | go2 go3 jan4 hai6 ngo5 lou5 sai3. |
+| Yale | gó go yàhn haih ngóh lóuh sai. |
+| Bopomofo | ㄍㄛ² ㄍㄛ³ ㄧㄜㄣ⁴ ㄏㄜㄧ⁶ ㆭㄛ⁵ ㄌㄛㄨ⁵ ㄙㄜㄧ³. |
+| English | That person is my boss. |
+
 ## Related patterns
 
 - [Number + Classifier + Noun](number-classifier.md) — counting things

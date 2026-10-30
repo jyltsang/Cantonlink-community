@@ -237,6 +237,7 @@ Vocabulary: [Health and the doctor](vocabulary/health.md)
 - [Verb + 返](grammar/faan1-back.md) — back; again; return to a previous state
 - [先 … 再 … / … 先](grammar/sin1-zoi3-first-then.md) — first …, then …
 - [一 …就 …](grammar/jat1-zau6-as-soon-as.md) — as soon as …; whenever …
+- [… 添](grammar/tim1-as-well.md) — too; as well; even (adding one more thing)
 
 Vocabulary: [Work and the office](vocabulary/work.md), [Tech and work](vocabulary/tech-work.md)
 
@@ -262,6 +263,7 @@ Vocabulary: [Work and the office](vocabulary/work.md), [Tech and work](vocabular
 - [越嚟越 + Adjective](grammar/jyut6-lai4-jyut6.md) — more and more …
 - [好似 …](grammar/hou2-ci5-seem.md) — seems; looks like; to be like
 - [Verb + 出 / 入 / 上 / 落 + 嚟 / 去](grammar/directional.md) — direction of movement
+- [… 啩](grammar/gwaa3-suppose.md) — I suppose; probably
 
 Vocabulary: [Weather](vocabulary/weather.md)
 
@@ -286,6 +288,7 @@ Vocabulary: [Weather](vocabulary/weather.md)
 - [Verb + 住](grammar/zyu6-continuous.md) — keep doing; in a continuing state
 - [… 囉](grammar/lo1-obvious.md) — it's obvious; oh well
 - [… 喎](grammar/wo3-noticing.md) — noticing something; passing on what someone said
+- [… 嘛](grammar/maa3-obvious.md) — it's obvious; that's why (giving a reason)
 
 Vocabulary: [Feelings](vocabulary/feelings.md)
 

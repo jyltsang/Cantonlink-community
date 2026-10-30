@@ -102,3 +102,33 @@ With characters turned off (the default), learners see no Chinese characters any
 - One explanation was reworded: dou2-result said "a different word from 到 (dou3)", which cannot be read correctly without characters when the same character is read dou2 elsewhere in the note. It now says "a different word from dou3 'to arrive', which is written with the same character".
 
 A browser test visits every page (every grammar pattern, word topic and unit, Look up, each exercise, review, the tutor and AI settings) in Jyutping and in Yale, and fails if any Chinese character appears.
+
+## 7. Automated accessibility checks (30 October 2026)
+
+Every page (18 routes) is checked with axe-core for WCAG 2.0, 2.1 and 2.2 A and AA rules, in light mode with characters off and in dark mode with characters on (`tests/e2e.mjs`). Serious and critical violations fail CI.
+
+| Finding | Impact | Fix |
+|---|---|---|
+| Flashcard button labelled "Card. Select to turn over." while showing the word: its accessible name did not contain its visible text (`label-content-name-mismatch`), so a speech-input user saying the word could not select it | Serious | The fixed label is removed; the card is named by its own text and uses `aria-pressed` to say whether it is turned over |
+
+No other serious or critical violations were found. Automated checks catch only part of WCAG; the screen-reader and device testing in the release criteria is still needed.
+
+## 8. More examples for each A1 pattern (30 October 2026)
+
+Each of the 24 A1 patterns gained two original example sentences (48 in all), so every A1 pattern now has five, in new everyday contexts: work, health, transport, shopping, food, weather and home. All are drafts until two native speakers review them.
+
+- **Automatic checks:** valid Jyutping, one syllable per character, no written-Chinese forms, distractors rules, accepted orders. The build caught one distractor (咗) that already appeared in its own sentence; it was replaced.
+- **Pronunciation cross-check:** two readings differed from the reference dictionary.
+  - 會 in 開緊會 is wui2 ("a meeting", the changed tone of 開會); documented in `content/pronunciation-notes.json`.
+  - 掂 "to touch" (dim3) was replaced with a different sentence (唔好咁大聲, "Don't be so loud") rather than relying on a disputed reading.
+- **Proofreading:** every sentence read for tones and for whether a Hong Kong speaker would say it. Accepted word orders were added where another order is natural: fronted time words (聽日我要返工), swapped partners with 同, and swapped choices with 定係.
+
+## 9. First batch of B1 gaps (30 October 2026)
+
+Three B1 particles were added as new patterns, each with three examples, fill-the-gap and draft status: 添 (tim1, "too; as well; even", unit 10), 啩 (gwaa3, "I suppose; probably", unit 11) and 嘛 (maa3, "it's obvious; that's why", unit 12, beside 囉 and 喎). 嘛 has a mistake note, because it sounds the same as the question particle 嗎.
+
+Sentence-final 先 was already taught in `sin1-zoi3-first-then` (等我諗吓先), so it gained a second example (你行先, "You go first") rather than a pattern of its own: the path teaches each point once. A planned mistake note calling 我先食 wrong was dropped before release, because the pattern's own example 我哋先食飯 shows 先 before the verb is correct.
+
+- **Automatic checks:** content valid; every pattern taught exactly once; unit dialogues still use at least three of their unit's patterns.
+- **Pronunciation cross-check:** all 912 readings agree with the reference dictionary, including 嘛 maa3 and 啩 gwaa3; no new notes were needed.
+- **Characters off:** the new explanations get readings from the build; the MCP guard and the site-wide browser test cover the new patterns.

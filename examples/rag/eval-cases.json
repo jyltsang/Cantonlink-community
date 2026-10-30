@@ -1,0 +1,30 @@
+{
+  "description": "Queries a learner might type, each with the library entries that answer it. Paraphrases test meaning (where embeddings should help); romanisation tests spelling (where keyword search should win). Add a case whenever a search misses something it should find.",
+  "cases": [
+    { "query": "I'm starving", "expect": ["word:food-and-dim-sum/ngo6", "word:feelings/tou5 ngo6"] },
+    { "query": "can I pay by credit card", "expect": ["word:shopping/luk1 kaat1"] },
+    { "query": "where's the loo", "expect": ["word:home-and-routine/sai2 sau2 gaan1"] },
+    { "query": "it's pouring down", "expect": ["word:weather/lok6 jyu5", "word:weather/jyu5", "word:weather/hak1 jyu5"] },
+    { "query": "I don't feel well", "expect": ["word:health/m4 syu1 fuk6", "word:health/beng6"] },
+    { "query": "my head hurts", "expect": ["word:health/tau4 tung3"] },
+    { "query": "can we have the check", "expect": ["word:food-and-dim-sum/maai4 daan1"] },
+    { "query": "what's the price", "expect": ["word:shopping/gei2 do1 cin2", "pattern:gei2-do1-cin2"] },
+    { "query": "the subway", "expect": ["word:transport/gong2 tit3", "word:transport/dei6 tit3"] },
+    { "query": "cab", "expect": ["word:transport/dik1 si2"] },
+    { "query": "quit my job", "expect": ["word:work/ci4 zik1"] },
+    { "query": "payday", "expect": ["word:work/ceot1 loeng4"] },
+    { "query": "I'm worn out", "expect": ["word:feelings/gui6"] },
+    { "query": "no worries", "expect": ["word:greetings/m4 gan2 jiu3", "word:greetings/mou5 man6 tai4"] },
+    { "query": "hot and humid", "expect": ["word:weather/ai3 guk6", "word:weather/ciu4 sap1"] },
+    { "query": "my laptop froze", "expect": ["word:tech-work/sei2 gei1"] },
+    { "query": "aircon", "expect": ["word:home-and-routine/laang5 hei3"] },
+    { "query": "I've had enough to eat", "expect": ["word:food-and-dim-sum/baau2"] },
+    { "query": "goodbye", "expect": ["word:greetings/zoi3 gin3", "word:greetings/baai1 baai3"] },
+    { "query": "lei hou", "expect": ["word:greetings/nei5 hou2"] },
+    { "query": "m goi", "expect": ["word:greetings/m4 goi1"] },
+    { "query": "sihk", "expect": ["word:food-and-dim-sum/sik6"] },
+    { "query": "saying something has already happened", "expect": ["pattern:zo2-completed", "pattern:ji5-ging1-already"] },
+    { "query": "comparing two things", "expect": ["pattern:gwo3-comparison"] },
+    { "query": "asking why", "expect": ["pattern:dim2-gaai2-why"] }
+  ]
+}

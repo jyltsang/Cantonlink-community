@@ -36,6 +36,22 @@ Put 幾多錢 after the thing you are asking about. Prices are answered with a n
 | Bopomofo | ㄏㆤㄧ³ ㄍㄝㄧ¹ ㄘㆦㄥ⁴ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³? |
 | English | How much is it to the airport? |
 
+| | |
+|---|---|
+| 漢字 | **兩個蛋撻幾多錢呀？** |
+| Jyutping | loeng5 go3 daan6 taat1 gei2 do1 cin2 aa3? |
+| Yale | léuhng go daahn tāat géi dō chín a? |
+| Bopomofo | ㄌㆦㄥ⁵ ㄍㄛ³ ㄉㄚㄣ⁶ ㄊㄚㆵ¹ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³? |
+| English | How much are two egg tarts? |
+
+| | |
+|---|---|
+| 漢字 | **一張飛幾多錢呀？** |
+| Jyutping | jat1 zoeng1 fei1 gei2 do1 cin2 aa3? |
+| Yale | yāt jēung fēi géi dō chín a? |
+| Bopomofo | ㄧㄜㆵ¹ ㄗㆦㄥ¹ ㄈㄝㄧ¹ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³? |
+| English | How much is one ticket? |
+
 ## Common mistakes
 
 - Not ~~這個多少錢？~~ but **呢個幾多錢呀？** *ni1 go3 gei2 do1 cin2 aa3?* · *nī go géi dō chín a?*  

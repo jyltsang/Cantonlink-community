@@ -4,7 +4,7 @@
 
 Put the word tiles in the right order to say the English sentence in Cantonese. Answers are at the bottom.
 
-> **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **63 of 63 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** “He's my friend.”
 
@@ -82,159 +82,175 @@ Put the word tiles in the right order to say the English sentence in Cantonese. 
 
 `去 heoi3` `你 nei5` `邊度 bin1 dou6` `呀 aa3`
 
-**20.** “Are you from Hong Kong?”
+**20.** “Have some more.”
+
+`啲 di1` `啦 laa1` `食 sik6` `多 do1` `你 nei5`
+
+**21.** “Are you from Hong Kong?”
 
 `嗎 maa3` `香港人 hoeng1 gong2 jan4` `你 nei5` `係 hai6`
 
-**21.** “I'm going to see a film with her.”
+**22.** “I'm going to see a film with her.”
 
 `睇戲 tai2 hei3` `同 tung4` `佢 keoi5` `我 ngo5` `去 heoi3`
 
-**22.** “Don't tell him.”
+**23.** “Don't tell him.”
 
 `知 zi1` `話 waa6` `佢 keoi5` `唔好 m4 hou2`
 
-**23.** “Would you like tea or coffee?”
+**24.** “Would you like tea or coffee?”
 
 `呀 aa3` `茶 caa4` `咖啡 gaa3 fe1` `你 nei5` `飲 jam2` `定係 ding6 hai6`
 
-**24.** “Have you eaten yet?”
+**25.** “Have you eaten yet?”
 
 `呀 aa3` `未 mei6` `飯 faan6` `食 sik6` `咗 zo2` `你 nei5`
 
-**25.** “I've been to Japan.”
+**26.** “I've been to Japan.”
 
 `我 ngo5` `過 gwo3` `去 heoi3` `日本 jat6 bun2`
 
-**26.** “I can speak a little Cantonese.”
+**27.** “I can speak a little Cantonese.”
 
 `講 gong2` `識 sik1` `廣東話 gwong2 dung1 waa2` `我 ngo5` `少少 siu2 siu2`
 
-**27.** “Could you make it a bit cheaper?”
+**28.** “Could you make it a bit cheaper?”
 
 `平 peng4` `啲 di1` `呀 aa3` `可唔可以 ho2 m4 ho2 ji5`
 
-**28.** “This coffee is too sweet.”
+**29.** “This coffee is too sweet.”
 
 `咖啡 gaa3 fe1` `甜 tim4` `呢 ni1` `太 taai3` `喇 laa3` `杯 bui1`
 
-**29.** “Why are you learning Cantonese?”
+**30.** “Why are you learning Cantonese?”
 
 `學 hok6` `呀 aa3` `廣東話 gwong2 dung1 waa2` `點解 dim2 gaai2` `你 nei5`
 
-**30.** “Excuse me, how do I get to Central?”
+**31.** “Excuse me, how do I get to Central?”
 
 `呀 aa3` `去 heoi3` `點 dim2` `請問 cing2 man6` `中環 zung1 waan4`
 
-**31.** “You don't like it?”
+**32.** “You don't like it?”
 
 `咩 me1` `唔 m4` `你 nei5` `鍾意 zung1 ji3`
 
-**32.** “I'm a student too.”
+**33.** “I'm a student too.”
 
 `係 hai6` `都 dou1` `我 ngo5` `學生 hok6 saang1`
 
-**33.** “Could I have a glass of water, please?”
+**34.** “Could I have a glass of water, please?”
 
 `我 ngo5` `杯 bui1` `唔該 m4 goi1` `畀 bei2` `水 seoi2`
 
-**34.** “Let me have a look first.”
+**35.** “Let me have a look first.”
 
 `睇 tai2` `吓 haa5` `先 sin1` `我 ngo5`
 
-**35.** “He's taller than me.”
+**36.** “He's taller than me.”
 
 `高 gou1` `我 ngo5` `佢 keoi5` `過 gwo3`
 
-**36.** “Because it was raining, I didn't go out.”
+**37.** “Because it was raining, I didn't go out.”
 
 `因為 jan1 wai6` `我 ngo5` `所以 so2 ji5` `出街 ceot1 gaai1` `落雨 lok6 jyu5` `冇 mou5`
 
-**37.** “My phone's battery is dead.”
+**38.** “My phone's battery is dead.”
 
 `手機 sau2 gei1` `我 ngo5` `喇 laa3` `冇 mou5` `部 bou6` `電 din6`
 
-**38.** “I'll phone you tomorrow.”
+**39.** “I'll phone you tomorrow.”
 
 `你 nei5` `會 wui5` `電話 din6 waa2` `畀 bei2` `打 daa2` `我 ngo5` `聽日 ting1 jat6`
 
-**39.** “You should go to bed earlier.”
+**40.** “You should go to bed earlier.”
 
 `你 nei5` `早 zou2` `瞓 fan3` `啲 di1` `應該 jing1 goi1`
 
-**40.** “You don't need to pay — it's free.”
+**41.** “You don't need to pay — it's free.”
 
 `畀 bei2` `錢 cin2` `免費 min5 fai3` `㗎 gaa3` `唔使 m4 sai2`
 
-**41.** “I've finished my homework.”
+**42.** “I've finished my homework.”
 
 `功課 gung1 fo3` `喇 laa3` `做 zou6` `我 ngo5` `完 jyun4`
 
-**42.** “I've already eaten.”
+**43.** “I've already eaten.”
 
 `我 ngo5` `食 sik6` `咗 zo2` `飯 faan6` `已經 ji5 ging1` `喇 laa3`
 
-**43.** “I've found my key.”
+**44.** “I've found my key.”
 
 `喇 laa3` `我 ngo5` `鎖匙 so2 si4` `到 dou2` `條 tiu4` `我 ngo5` `搵 wan2`
 
-**44.** “She speaks Cantonese really well.”
+**45.** “She speaks Cantonese really well.”
 
 `講 gong2` `佢 keoi5` `廣東話 gwong2 dung1 waa2` `好 hou2` `講 gong2` `得 dak1` `好 hou2`
 
-**45.** “The egg tarts are sold out.”
+**46.** “The egg tarts are sold out.”
 
 `賣 maai6` `啲 di1` `喇 laa3` `晒 saai3` `蛋撻 daan6 taat1`
 
-**46.** “I'd like to get my umbrella back.”
+**47.** “I'd like to get my umbrella back.”
 
 `想 soeng2` `攞 lo2` `我 ngo5` `遮 ze1` `我 ngo5` `返 faan1` `把 baa2`
 
-**47.** “She's gone out.”
+**48.** “She's gone out.”
 
 `行 haang4` `出去 ceot1 heoi3` `佢 keoi5` `咗 zo2`
 
-**48.** “I got told off by my boss.”
+**49.** “I got told off by my boss.”
 
 `畀 bei2` `我 ngo5` `老細 lou5 sai3` `鬧 naau6` `咗 zo2`
 
-**49.** “If it rains tomorrow, we won't go.”
+**50.** “If it rains tomorrow, we won't go.”
 
 `聽日 ting1 jat6` `去 heoi3` `唔 m4` `就 zau6` `我哋 ngo5 dei6` `落雨 lok6 jyu5` `如果 jyu4 gwo2` `喇 laa3`
 
-**50.** “It's expensive, but it's delicious.”
+**51.** “It's expensive, but it's delicious.”
 
 `雖然 seoi1 jin4` `貴 gwai3` `但係 daan6 hai6` `好 hou2` `好好食 hou2 hou2 sik6`
 
-**51.** “I'll call you as soon as I arrive.”
+**52.** “I'll call you as soon as I arrive.”
 
 `到 dou3` `你 nei5` `就 zau6` `畀 bei2` `電話 din6 waa2` `一 jat1` `打 daa2` `我 ngo5`
 
-**52.** “Your Cantonese is getting better and better!”
+**53.** “Your Cantonese is getting better and better!”
 
 `好 hou2` `你 nei5` `喇 laa3` `越嚟越 jyut6 lai4 jyut6` `廣東話 gwong2 dung1 waa2` `嘅 ge3`
 
-**53.** “Let's eat first, then go to the cinema.”
+**54.** “Let's eat first, then go to the cinema.”
 
 `再 zoi3` `去 heoi3` `睇戲 tai2 hei3` `食飯 sik6 faan6` `我哋 ngo5 dei6` `先 sin1`
 
-**54.** “Oh well, forget it then.”
+**55.** “Oh well, forget it then.”
 
 `噉 gam2` `算 syun3` `囉 lo1` `就 zau6`
 
-**55.** “Wow, there are so many people!”
+**56.** “Wow, there are so many people!”
 
 `多 do1` `人 jan4` `嘩 waa3` `好 hou2` `喎 wo3`
 
-**56.** “The top I bought yesterday was cheap.”
+**57.** “And she even has to work overtime tonight.”
+
+`仲 zung6` `添 tim1` `要 jiu3` `加班 gaa1 baan1` `今晚 gam1 maan5` `佢 keoi5`
+
+**58.** “She's a teacher, so of course she knows.”
+
+`係 hai6` `梗係 gang2 hai6` `識 sik1` `啦 laa1` `嘛 maa3` `佢 keoi5` `老師 lou5 si1`
+
+**59.** “It'll rain tomorrow, I think.”
+
+`聽日 ting1 jat6` `會 wui5` `啩 gwaa3` `落雨 lok6 jyu5`
+
+**60.** “The top I bought yesterday was cheap.”
 
 `尋日 cam4 jat6` `衫 saam1` `嘅 ge3` `買 maai5` `我 ngo5` `平 peng4` `好 hou2`
 
-**57.** “She's wearing glasses.”
+**61.** “She's wearing glasses.”
 
 `住 zyu6` `眼鏡 ngaan5 geng2` `戴 daai3` `佢 keoi5`
 
-**58.** “She seems unhappy.”
+**62.** “She seems unhappy.”
 
 `開心 hoi1 sam1` `好似 hou2 ci5` `佢 keoi5` `唔 m4`
 
@@ -260,45 +276,49 @@ Put the word tiles in the right order to say the English sentence in Cantonese. 
 17. **你住喺邊度呀？** nei5 zyu6 hai2 bin1 dou6 aa3? · *néih jyuh hái bīn douh a?* — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md)
 18. **你幾時返工呀？** nei5 gei2 si4 faan1 gung1 aa3? · *néih géi sìh fāan gūng a?* — [幾時 + Verb？](../grammar/gei2-si4-when.md)
 19. **你去邊度呀？** nei5 heoi3 bin1 dou6 aa3? · *néih heui bīn douh a?* — [… 呀](../grammar/aa3-softener.md)
-20. **你係香港人嗎？** nei5 hai6 hoeng1 gong2 jan4 maa3? · *néih haih hēung góng yàhn ma?* — [… 嗎？](../grammar/maa3-question.md)
-21. **我同佢去睇戲。** ngo5 tung4 keoi5 heoi3 tai2 hei3. · *ngóh tùhng kéuih heui tái hei.* — [A + 同 + B](../grammar/tung4-and-with.md)
-22. **唔好話佢知。** m4 hou2 waa6 keoi5 zi1. · *m̀h hóu wah kéuih jī.* — [唔好 + Verb](../grammar/m4-hou2-dont.md)
-23. **你飲茶定係咖啡呀？** nei5 jam2 caa4 ding6 hai6 gaa3 fe1 aa3? · *néih yám chàh dihng haih ga fē a?* — [A 定係 B？](../grammar/ding6-hai6-or.md) (also correct: 你飲咖啡定係茶呀)
-24. **你食咗飯未呀？** nei5 sik6 zo2 faan6 mei6 aa3? · *néih sihk jó faahn meih a?* — [Verb + 咗 + … 未？ / 未 + Verb](../grammar/mei6-yet.md)
-25. **我去過日本。** ngo5 heoi3 gwo3 jat6 bun2. · *ngóh heui gwo yaht bún.* — [Verb + 過](../grammar/gwo3-experience.md)
-26. **我識講少少廣東話。** ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2. · *ngóh sīk góng síu síu gwóng dūng wá.* — [識 + Verb](../grammar/sik1-know-how.md)
-27. **可唔可以平啲呀？** ho2 m4 ho2 ji5 peng4 di1 aa3? · *hó m̀h hó yíh pèhng dī a?* — [可唔可以 + Verb？](../grammar/ho2-ji5-may.md)
-28. **呢杯咖啡太甜喇。** ni1 bui1 gaa3 fe1 taai3 tim4 laa3. · *nī būi ga fē taai tìhm la.* — [太 + Adjective + 喇](../grammar/taai3-too.md)
-29. **你點解學廣東話呀？** nei5 dim2 gaai2 hok6 gwong2 dung1 waa2 aa3? · *néih dím gáai hohk gwóng dūng wá a?* — [點解 …？](../grammar/dim2-gaai2-why.md) (also correct: 點解你學廣東話呀)
-30. **請問點去中環呀？** cing2 man6 dim2 heoi3 zung1 waan4 aa3? · *chíng mahn dím heui jūng wàahn a?* — [點(樣) + Verb？](../grammar/dim2-how.md)
-31. **你唔鍾意咩？** nei5 m4 zung1 ji3 me1? · *néih m̀h jūng yi mē?* — [… 咩？](../grammar/me1-surprise.md)
-32. **我都係學生。** ngo5 dou1 hai6 hok6 saang1. · *ngóh dōu haih hohk sāang.* — [Subject + 都 + Verb](../grammar/dou1-also.md)
-33. **唔該畀杯水我。** m4 goi1 bei2 bui1 seoi2 ngo5. · *m̀h gōi béi būi séui ngóh.* — [畀 + Thing + Person](../grammar/bei2-give.md)
-34. **我睇吓先。** ngo5 tai2 haa5 sin1. · *ngóh tái háh sīn.* — [Verb + 吓](../grammar/haa5-briefly.md)
-35. **佢高過我。** keoi5 gou1 gwo3 ngo5. · *kéuih gōu gwo ngóh.* — [A + Adjective + 過 + B](../grammar/gwo3-comparison.md)
-36. **因為落雨，所以我冇出街。** jan1 wai6 lok6 jyu5, so2 ji5 ngo5 mou5 ceot1 gaai1. · *yān waih lohk yúh, só yíh ngóh móuh chēut gāai.* — [因為 …，所以 …](../grammar/jan1-wai6-because.md) (also correct: 我因為落雨所以冇出街)
-37. **我部手機冇電喇。** ngo5 bou6 sau2 gei1 mou5 din6 laa3. · *ngóh bouh sáu gēi móuh dihn la.* — [Owner + Classifier + Noun](../grammar/classifier-possessive.md)
-38. **我聽日會打電話畀你。** ngo5 ting1 jat6 wui5 daa2 din6 waa2 bei2 nei5. · *ngóh tīng yaht wúih dá dihn wá béi néih.* — [會 + Verb](../grammar/wui5-will.md) (also correct: 聽日我會打電話畀你)
-39. **你應該早啲瞓。** nei5 jing1 goi1 zou2 di1 fan3. · *néih yīng gōi jóu dī fan.* — [應該 + Verb](../grammar/jing1-goi1-should.md)
-40. **唔使畀錢，免費㗎。** m4 sai2 bei2 cin2, min5 fai3 gaa3. · *m̀h sái béi chín, míhn fai ga.* — [唔使 + Verb](../grammar/m4-sai2-no-need.md)
-41. **我做完功課喇。** ngo5 zou6 jyun4 gung1 fo3 laa3. · *ngóh jouh yùhn gūng fo la.* — [Verb + 完](../grammar/jyun4-finish.md)
-42. **我已經食咗飯喇。** ngo5 ji5 ging1 sik6 zo2 faan6 laa3. · *ngóh yíh gīng sihk jó faahn la.* — [已經 + … + 喇](../grammar/ji5-ging1-already.md)
-43. **我搵到我條鎖匙喇。** ngo5 wan2 dou2 ngo5 tiu4 so2 si4 laa3. · *ngóh wán dóu ngóh tìuh só sìh la.* — [Verb + 到 / Verb + 唔到](../grammar/dou2-result.md)
-44. **佢講廣東話講得好好。** keoi5 gong2 gwong2 dung1 waa2 gong2 dak1 hou2 hou2. · *kéuih góng gwóng dūng wá góng dāk hóu hóu.* — [Verb + 得 + Adjective](../grammar/dak1-degree.md)
-45. **啲蛋撻賣晒喇。** di1 daan6 taat1 maai6 saai3 laa3. · *dī daahn tāat maaih saai la.* — [Verb + 晒](../grammar/saai3-all.md)
-46. **我想攞返我把遮。** ngo5 soeng2 lo2 faan1 ngo5 baa2 ze1. · *ngóh séung ló fāan ngóh bá jē.* — [Verb + 返](../grammar/faan1-back.md)
-47. **佢行咗出去。** keoi5 haang4 zo2 ceot1 heoi3. · *kéuih hàahng jó chēut heui.* — [Verb + 出 / 入 / 上 / 落 + 嚟 / 去](../grammar/directional.md)
-48. **我畀老細鬧咗。** ngo5 bei2 lou5 sai3 naau6 zo2. · *ngóh béi lóuh sai naauh jó.* — [Subject + 畀 + Doer + Verb](../grammar/bei2-passive.md)
-49. **如果聽日落雨，我哋就唔去喇。** jyu4 gwo2 ting1 jat6 lok6 jyu5, ngo5 dei6 zau6 m4 heoi3 laa3. · *yùh gwó tīng yaht lohk yúh, ngóh deih jauh m̀h heui la.* — [如果 …，就 …](../grammar/jyu4-gwo2-if.md) (also correct: 聽日如果落雨我哋就唔去喇)
-50. **雖然好貴，但係好好食。** seoi1 jin4 hou2 gwai3, daan6 hai6 hou2 hou2 sik6. · *sēui yìhn hóu gwai, daahn haih hóu hóu sihk.* — [雖然 …，但係 …](../grammar/seoi1-jin4-although.md)
-51. **我一到就打電話畀你。** ngo5 jat1 dou3 zau6 daa2 din6 waa2 bei2 nei5. · *ngóh yāt dou jauh dá dihn wá béi néih.* — [一 …就 …](../grammar/jat1-zau6-as-soon-as.md)
-52. **你嘅廣東話越嚟越好喇！** nei5 ge3 gwong2 dung1 waa2 jyut6 lai4 jyut6 hou2 laa3! · *néih ge gwóng dūng wá yuht làih yuht hóu la!* — [越嚟越 + Adjective](../grammar/jyut6-lai4-jyut6.md)
-53. **我哋先食飯，再去睇戲。** ngo5 dei6 sin1 sik6 faan6, zoi3 heoi3 tai2 hei3. · *ngóh deih sīn sihk faahn, joi heui tái hei.* — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md)
-54. **噉就算囉。** gam2 zau6 syun3 lo1. · *gám jauh syun lō.* — [… 囉](../grammar/lo1-obvious.md)
-55. **嘩，好多人喎！** waa3, hou2 do1 jan4 wo3! · *wa, hóu dō yàhn wo!* — [… 喎](../grammar/wo3-noticing.md)
-56. **我尋日買嘅衫好平。** ngo5 cam4 jat6 maai5 ge3 saam1 hou2 peng4. · *ngóh chàhm yaht máaih ge sāam hóu pèhng.* — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md)
-57. **佢戴住眼鏡。** keoi5 daai3 zyu6 ngaan5 geng2. · *kéuih daai jyuh ngáahn géng.* — [Verb + 住](../grammar/zyu6-continuous.md)
-58. **佢好似唔開心。** keoi5 hou2 ci5 m4 hoi1 sam1. · *kéuih hóu chíh m̀h hōi sām.* — [好似 …](../grammar/hou2-ci5-seem.md)
+20. **你食多啲啦。** nei5 sik6 do1 di1 laa1. · *néih sihk dō dī lā.* — [… 啦](../grammar/laa1-suggestion.md)
+21. **你係香港人嗎？** nei5 hai6 hoeng1 gong2 jan4 maa3? · *néih haih hēung góng yàhn ma?* — [… 嗎？](../grammar/maa3-question.md)
+22. **我同佢去睇戲。** ngo5 tung4 keoi5 heoi3 tai2 hei3. · *ngóh tùhng kéuih heui tái hei.* — [A + 同 + B](../grammar/tung4-and-with.md)
+23. **唔好話佢知。** m4 hou2 waa6 keoi5 zi1. · *m̀h hóu wah kéuih jī.* — [唔好 + Verb](../grammar/m4-hou2-dont.md)
+24. **你飲茶定係咖啡呀？** nei5 jam2 caa4 ding6 hai6 gaa3 fe1 aa3? · *néih yám chàh dihng haih ga fē a?* — [A 定係 B？](../grammar/ding6-hai6-or.md) (also correct: 你飲咖啡定係茶呀)
+25. **你食咗飯未呀？** nei5 sik6 zo2 faan6 mei6 aa3? · *néih sihk jó faahn meih a?* — [Verb + 咗 + … 未？ / 未 + Verb](../grammar/mei6-yet.md)
+26. **我去過日本。** ngo5 heoi3 gwo3 jat6 bun2. · *ngóh heui gwo yaht bún.* — [Verb + 過](../grammar/gwo3-experience.md)
+27. **我識講少少廣東話。** ngo5 sik1 gong2 siu2 siu2 gwong2 dung1 waa2. · *ngóh sīk góng síu síu gwóng dūng wá.* — [識 + Verb](../grammar/sik1-know-how.md)
+28. **可唔可以平啲呀？** ho2 m4 ho2 ji5 peng4 di1 aa3? · *hó m̀h hó yíh pèhng dī a?* — [可唔可以 + Verb？](../grammar/ho2-ji5-may.md)
+29. **呢杯咖啡太甜喇。** ni1 bui1 gaa3 fe1 taai3 tim4 laa3. · *nī būi ga fē taai tìhm la.* — [太 + Adjective + 喇](../grammar/taai3-too.md)
+30. **你點解學廣東話呀？** nei5 dim2 gaai2 hok6 gwong2 dung1 waa2 aa3? · *néih dím gáai hohk gwóng dūng wá a?* — [點解 …？](../grammar/dim2-gaai2-why.md) (also correct: 點解你學廣東話呀)
+31. **請問點去中環呀？** cing2 man6 dim2 heoi3 zung1 waan4 aa3? · *chíng mahn dím heui jūng wàahn a?* — [點(樣) + Verb？](../grammar/dim2-how.md)
+32. **你唔鍾意咩？** nei5 m4 zung1 ji3 me1? · *néih m̀h jūng yi mē?* — [… 咩？](../grammar/me1-surprise.md)
+33. **我都係學生。** ngo5 dou1 hai6 hok6 saang1. · *ngóh dōu haih hohk sāang.* — [Subject + 都 + Verb](../grammar/dou1-also.md)
+34. **唔該畀杯水我。** m4 goi1 bei2 bui1 seoi2 ngo5. · *m̀h gōi béi būi séui ngóh.* — [畀 + Thing + Person](../grammar/bei2-give.md)
+35. **我睇吓先。** ngo5 tai2 haa5 sin1. · *ngóh tái háh sīn.* — [Verb + 吓](../grammar/haa5-briefly.md)
+36. **佢高過我。** keoi5 gou1 gwo3 ngo5. · *kéuih gōu gwo ngóh.* — [A + Adjective + 過 + B](../grammar/gwo3-comparison.md)
+37. **因為落雨，所以我冇出街。** jan1 wai6 lok6 jyu5, so2 ji5 ngo5 mou5 ceot1 gaai1. · *yān waih lohk yúh, só yíh ngóh móuh chēut gāai.* — [因為 …，所以 …](../grammar/jan1-wai6-because.md) (also correct: 我因為落雨所以冇出街)
+38. **我部手機冇電喇。** ngo5 bou6 sau2 gei1 mou5 din6 laa3. · *ngóh bouh sáu gēi móuh dihn la.* — [Owner + Classifier + Noun](../grammar/classifier-possessive.md)
+39. **我聽日會打電話畀你。** ngo5 ting1 jat6 wui5 daa2 din6 waa2 bei2 nei5. · *ngóh tīng yaht wúih dá dihn wá béi néih.* — [會 + Verb](../grammar/wui5-will.md) (also correct: 聽日我會打電話畀你)
+40. **你應該早啲瞓。** nei5 jing1 goi1 zou2 di1 fan3. · *néih yīng gōi jóu dī fan.* — [應該 + Verb](../grammar/jing1-goi1-should.md)
+41. **唔使畀錢，免費㗎。** m4 sai2 bei2 cin2, min5 fai3 gaa3. · *m̀h sái béi chín, míhn fai ga.* — [唔使 + Verb](../grammar/m4-sai2-no-need.md)
+42. **我做完功課喇。** ngo5 zou6 jyun4 gung1 fo3 laa3. · *ngóh jouh yùhn gūng fo la.* — [Verb + 完](../grammar/jyun4-finish.md)
+43. **我已經食咗飯喇。** ngo5 ji5 ging1 sik6 zo2 faan6 laa3. · *ngóh yíh gīng sihk jó faahn la.* — [已經 + … + 喇](../grammar/ji5-ging1-already.md)
+44. **我搵到我條鎖匙喇。** ngo5 wan2 dou2 ngo5 tiu4 so2 si4 laa3. · *ngóh wán dóu ngóh tìuh só sìh la.* — [Verb + 到 / Verb + 唔到](../grammar/dou2-result.md)
+45. **佢講廣東話講得好好。** keoi5 gong2 gwong2 dung1 waa2 gong2 dak1 hou2 hou2. · *kéuih góng gwóng dūng wá góng dāk hóu hóu.* — [Verb + 得 + Adjective](../grammar/dak1-degree.md)
+46. **啲蛋撻賣晒喇。** di1 daan6 taat1 maai6 saai3 laa3. · *dī daahn tāat maaih saai la.* — [Verb + 晒](../grammar/saai3-all.md)
+47. **我想攞返我把遮。** ngo5 soeng2 lo2 faan1 ngo5 baa2 ze1. · *ngóh séung ló fāan ngóh bá jē.* — [Verb + 返](../grammar/faan1-back.md)
+48. **佢行咗出去。** keoi5 haang4 zo2 ceot1 heoi3. · *kéuih hàahng jó chēut heui.* — [Verb + 出 / 入 / 上 / 落 + 嚟 / 去](../grammar/directional.md)
+49. **我畀老細鬧咗。** ngo5 bei2 lou5 sai3 naau6 zo2. · *ngóh béi lóuh sai naauh jó.* — [Subject + 畀 + Doer + Verb](../grammar/bei2-passive.md)
+50. **如果聽日落雨，我哋就唔去喇。** jyu4 gwo2 ting1 jat6 lok6 jyu5, ngo5 dei6 zau6 m4 heoi3 laa3. · *yùh gwó tīng yaht lohk yúh, ngóh deih jauh m̀h heui la.* — [如果 …，就 …](../grammar/jyu4-gwo2-if.md) (also correct: 聽日如果落雨我哋就唔去喇)
+51. **雖然好貴，但係好好食。** seoi1 jin4 hou2 gwai3, daan6 hai6 hou2 hou2 sik6. · *sēui yìhn hóu gwai, daahn haih hóu hóu sihk.* — [雖然 …，但係 …](../grammar/seoi1-jin4-although.md)
+52. **我一到就打電話畀你。** ngo5 jat1 dou3 zau6 daa2 din6 waa2 bei2 nei5. · *ngóh yāt dou jauh dá dihn wá béi néih.* — [一 …就 …](../grammar/jat1-zau6-as-soon-as.md)
+53. **你嘅廣東話越嚟越好喇！** nei5 ge3 gwong2 dung1 waa2 jyut6 lai4 jyut6 hou2 laa3! · *néih ge gwóng dūng wá yuht làih yuht hóu la!* — [越嚟越 + Adjective](../grammar/jyut6-lai4-jyut6.md)
+54. **我哋先食飯，再去睇戲。** ngo5 dei6 sin1 sik6 faan6, zoi3 heoi3 tai2 hei3. · *ngóh deih sīn sihk faahn, joi heui tái hei.* — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md)
+55. **噉就算囉。** gam2 zau6 syun3 lo1. · *gám jauh syun lō.* — [… 囉](../grammar/lo1-obvious.md)
+56. **嘩，好多人喎！** waa3, hou2 do1 jan4 wo3! · *wa, hóu dō yàhn wo!* — [… 喎](../grammar/wo3-noticing.md)
+57. **佢今晚仲要加班添。** keoi5 gam1 maan5 zung6 jiu3 gaa1 baan1 tim1. · *kéuih gām máahn juhng yiu gā bāan tīm.* — [… 添](../grammar/tim1-as-well.md)
+58. **佢係老師嘛，梗係識啦。** keoi5 hai6 lou5 si1 maa3, gang2 hai6 sik1 laa1. · *kéuih haih lóuh sī ma, gáng haih sīk lā.* — [… 嘛](../grammar/maa3-obvious.md)
+59. **聽日會落雨啩。** ting1 jat6 wui5 lok6 jyu5 gwaa3. · *tīng yaht wúih lohk yúh gwa.* — [… 啩](../grammar/gwaa3-suppose.md)
+60. **我尋日買嘅衫好平。** ngo5 cam4 jat6 maai5 ge3 saam1 hou2 peng4. · *ngóh chàhm yaht máaih ge sāam hóu pèhng.* — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md)
+61. **佢戴住眼鏡。** keoi5 daai3 zyu6 ngaan5 geng2. · *kéuih daai jyuh ngáahn géng.* — [Verb + 住](../grammar/zyu6-continuous.md)
+62. **佢好似唔開心。** keoi5 hou2 ci5 m4 hoi1 sam1. · *kéuih hóu chíh m̀h hōi sām.* — [好似 …](../grammar/hou2-ci5-seem.md)
 
 </details>
 

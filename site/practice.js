@@ -431,7 +431,7 @@ export function flashcards(data, query) {
     show(
       ...head,
       h('div', { class: 'progress' }, h('span', {}, `${total - queue.length} of ${total} learnt · ${queue.length} to go`)),
-      h('button', { class: 'card', type: 'button', 'aria-label': flipped ? 'Card, turned over' : 'Card. Select to turn over.', onclick: () => { flipped = !flipped; render(); } },
+      h('button', { class: 'card', type: 'button', 'aria-pressed': String(flipped), onclick: () => { flipped = !flipped; render(); } },
         ...front,
         ...(flipped ? [h('hr', { class: 'divider', 'aria-hidden': 'true' }), ...back,
           w.classifier ? h('span', { class: 'meta' }, 'Classifier: ', h('span', { lang: 'yue-Hant-HK' }, w.classifier.cjk), ` ${w.classifier[settings.system]}`) : null,

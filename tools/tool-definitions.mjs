@@ -1,9 +1,11 @@
 // The six lesson tools, defined once in plain JSON Schema. The MCP server
 // registers them for AI apps; the website's AI tutor offers them to the
 // learner's chosen model. Both run the same `run` functions on the library.
+// `display` says how to show Cantonese ({ characters, romanisation }); the
+// website passes nothing and gets characters with Jyutping.
 
 import {
-  LEVELS, searchVocabulary, formatWord, listPatterns, findPattern, suggestPatterns, formatPattern,
+  LEVELS, searchWords, formatWord, listPatterns, findPattern, suggestPatterns, formatPattern, patternName,
   convertJyutping, checkSpoken, practiceQuestions,
 } from './library.mjs';
 
@@ -15,7 +17,7 @@ export const TOOLS = [
   {
     name: 'search_vocabulary',
     title: 'Search vocabulary',
-    description: 'Find Cantonese words in the library by English meaning, Jyutping (tone numbers optional), Yale or Chinese characters. Returns characters, Jyutping, Yale, Bopomofo, meaning, classifier and usage notes.',
+    description: 'Find Cantonese words in the library by English meaning, Jyutping or Yale (tones optional; run-together syllables and common learner spellings such as l for n are accepted) or Chinese characters. Returns the word in romanisation, its meaning, classifier and usage notes; results that only match with a different tone or spelling are marked as closest matches.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -25,10 +27,11 @@ export const TOOLS = [
       required: ['query'],
     },
     annotations: READ_ONLY,
-    run(data, { query, limit }) {
-      const results = searchVocabulary(data, query, limit);
+    run(data, { query, limit }, display) {
+      const results = searchWords(data, query, limit);
       if (!results.length) return ok(`No words in the library match "${query}". The library has ${data.vocabulary.reduce((n, t) => n + t.words.length, 0)} everyday words; it is not a full dictionary.`);
-      return ok(results.map(formatWord).join('\n\n'));
+      const text = results.map((r) => formatWord(r.word, display)).join('\n\n');
+      return ok(results.every((r) => r.approx) ? `No exact match for "${query}". Closest matches (a different tone or spelling), so check before using them:\n\n${text}` : text);
     },
   },
   {
@@ -40,8 +43,8 @@ export const TOOLS = [
       properties: { level: { type: 'string', enum: LEVELS, description: 'Only patterns at this level' } },
     },
     annotations: READ_ONLY,
-    run(data, { level }) {
-      return ok(listPatterns(data, level).map((p) => `${p.id} [${p.level}] ${p.pattern} — ${p.meaning}`).join('\n'));
+    run(data, { level }, display) {
+      return ok(listPatterns(data, level).map((p) => `${p.id} [${p.level}] ${patternName(p, display)} — ${p.meaning}`).join('\n'));
     },
   },
   {
@@ -54,9 +57,9 @@ export const TOOLS = [
       required: ['id'],
     },
     annotations: READ_ONLY,
-    run(data, { id }) {
+    run(data, { id }, display) {
       const pattern = findPattern(data, id);
-      if (pattern) return ok(formatPattern(pattern));
+      if (pattern) return ok(formatPattern(pattern, display));
       const suggestions = suggestPatterns(data, id);
       return fail(`No pattern with id "${id}".${suggestions.length ? ` Did you mean: ${suggestions.map((p) => p.id).join(', ')}?` : ' Use list_grammar_patterns to see all ids.'}`);
     },
@@ -107,8 +110,9 @@ export const TOOLS = [
       required: ['type'],
     },
     annotations: READ_ONLY,
-    run(data, { type, level, count }) {
-      const items = practiceQuestions(data, type, { level, count });
+    run(data, { type, level, count }, display) {
+      if (type === 'spoken_or_written' && display?.characters === false) return fail('spoken_or_written questions are about Chinese characters, and this learner does not read them. Use fill_the_gap or build_the_sentence.');
+      const items = practiceQuestions(data, type, { level, count, display });
       return ok(['QUESTIONS', ...items.map((i) => i.question), '', 'ANSWERS (reveal only after the learner answers)', ...items.map((i) => i.answer)].join('\n'));
     },
   },
@@ -141,10 +145,10 @@ export function validateArguments(schema, args) {
   return errors.length ? { errors } : { value };
 }
 
-export function runTool(data, name, args) {
+export function runTool(data, name, args, display) {
   const tool = TOOLS.find((t) => t.name === name);
   if (!tool) return fail(`Unknown tool "${name}". Available tools: ${TOOLS.map((t) => t.name).join(', ')}.`);
   const { value, errors } = validateArguments(tool.inputSchema, args);
   if (errors) return fail(`Invalid arguments for ${name}: ${errors.join('; ')}.`);
-  return tool.run(data, value);
+  return tool.run(data, value, display);
 }

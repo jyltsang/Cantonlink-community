@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄝㄧ⁵ ㄧㄨ³ ㄅㄧㄣ¹ ㄍㄧㄣ⁶ ㄚ³? |
 | English | Which one do you want? |
 
+| | |
+|---|---|
+| 漢字 | **港鐵站喺邊度呀？** |
+| Jyutping | gong2 tit3 zaam6 hai2 bin1 dou6 aa3? |
+| Yale | góng tit jaahm hái bīn douh a? |
+| Bopomofo | ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶ ㄏㄜㄧ² ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³? |
+| English | Where's the MTR station? |
+
+| | |
+|---|---|
+| 漢字 | **邊個想飲咖啡呀？** |
+| Jyutping | bin1 go3 soeng2 jam2 gaa3 fe1 aa3? |
+| Yale | bīn go séung yám ga fē a? |
+| Bopomofo | ㄅㄧㄣ¹ ㄍㄛ³ ㄙㆦㄥ² ㄧㄜㆬ² ㄍㄚ³ ㄈㄝ¹ ㄚ³? |
+| English | Who'd like a coffee? |
+
 ## Related patterns
 
 - [Subject + 喺 + Place](hai2-location.md) — to be at / in

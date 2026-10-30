@@ -34,6 +34,22 @@ Sentence-final particles add tone of voice. 呀 makes questions and short answer
 | Bopomofo | ㄏㄛㄨ² ㄚ³! |
 | English | Sure! Sounds good! |
 
+| | |
+|---|---|
+| 漢字 | **你食咗飯未呀？** |
+| Jyutping | nei5 sik6 zo2 faan6 mei6 aa3? |
+| Yale | néih sihk jó faahn meih a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³? |
+| English | Have you eaten yet? |
+
+| | |
+|---|---|
+| 漢字 | **冇問題呀。** |
+| Jyutping | mou5 man6 tai4 aa3. |
+| Yale | móuh mahn tàih a. |
+| Bopomofo | ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ ㄚ³. |
+| English | No problem. |
+
 ## Related patterns
 
 - [… 啦](laa1-suggestion.md) — suggestion, invitation or gentle request

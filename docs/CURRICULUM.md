@@ -28,16 +28,16 @@ Levels follow the CEFR-style labels used across CantonLink. Cantonese has no off
 | **Counting** | number + classifier | | |
 | **Wants, needs and ability** | 想, 要 | 識, 可唔可以, 會, 應該, 唔使 | |
 | **Degree and comparison** | 好 + adjective | 太…喇, Adj + 過 | 越嚟越, 好似 |
-| **Particles** | 呀, 啦, 嗎 | 喇, 咩 | 囉, 喎 |
-| **Connecting** | 同 | 都, 畀 (give), 因為…所以 | 如果…就, 雖然…但係, 一…就, 先…再 |
+| **Particles** | 呀, 啦, 嗎 | 喇, 咩 | 囉, 喎, 添, 嘛, 啩 |
+| **Connecting** | 同 | 都, 畀 (give), 因為…所以 | 如果…就, 雖然…但係, 一…就, 先…再 (and sentence-final 先) |
 | **Verb complements** | | | 到 / 唔到, 得 + adjective, 晒, 返, directional verbs |
 | **Passive** | | | 畀 + doer + verb |
 
-**60 patterns** in all: A1 24, A2 20, B1 16, the launch target in the [master plan](MASTER_PLAN.md).
+**63 patterns** in all: A1 24, A2 20, B1 19. The launch target in the [master plan](MASTER_PLAN.md) was 60; 添, 嘛 and 啩 were added in Sprint 4.
 
 ### Learning path
 
-[`content/path.json`](../content/path.json) puts everything above into 12 units in teaching order (5 at A1, 4 at A2, 3 at B1). Each unit pairs four to six patterns with a vocabulary topic (two in unit 10) and an AI tutor scenario, so learners meet the grammar in a situation where they need it: ordering food (想, 要, 啦, 定係, 乜嘢) or seeing a doctor (應該, 唔使, 會, 因為…所以). Each unit also has a **model dialogue** of 6–8 lines (`content/dialogues.json`) that puts at least three of its patterns to work in the unit's situation; the tutor uses it for role-play. The build checks that every pattern and topic is taught exactly once, that units never go down in level, and that each dialogue really uses its unit's patterns. The readable version is [library/path.md](../library/path.md).
+[`content/path.json`](../content/path.json) puts everything above into 12 units in teaching order (5 at A1, 4 at A2, 3 at B1). Each unit pairs four to seven patterns with a vocabulary topic (two in unit 10) and an AI tutor scenario, so learners meet the grammar in a situation where they need it: ordering food (想, 要, 啦, 定係, 乜嘢) or seeing a doctor (應該, 唔使, 會, 因為…所以). Each unit also has a **model dialogue** of 6–8 lines (`content/dialogues.json`) that puts at least three of its patterns to work in the unit's situation; the tutor uses it for role-play. The build checks that every pattern and topic is taught exactly once, that units never go down in level, and that each dialogue really uses its unit's patterns. The readable version is [library/path.md](../library/path.md).
 
 ### Vocabulary
 
@@ -73,6 +73,6 @@ The build also rejects written forms in spoken sentences, so this can't creep ba
 
 ## Known gaps to address after review
 
-- More B1 particles (嘛, 啩, 㗎喇), and 被 versus 畀 in formal speech.
-- Sentence-final 先 and 添, and resultatives beyond 到 / 晒 / 返 (e.g. 好, 低).
-- More examples per pattern: three is the minimum, and five would let practice sessions vary more.
+- More B1 particles (㗎喇), and 被 versus 畀 in formal speech.
+- Resultatives beyond 到 / 晒 / 返 (e.g. 好, 低).
+- More examples per pattern at A2 and B1: every A1 pattern has five; three is the minimum elsewhere.

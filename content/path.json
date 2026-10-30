@@ -107,7 +107,7 @@
       "titleJyutping": "faan1 gung1",
       "scenario": "work",
       "goal": "Talk about tasks and results, how well things went, and what to do first.",
-      "patterns": ["dou2-result", "dak1-degree", "saai3-all", "faan1-back", "sin1-zoi3-first-then", "jat1-zau6-as-soon-as"],
+      "patterns": ["dou2-result", "dak1-degree", "saai3-all", "faan1-back", "sin1-zoi3-first-then", "jat1-zau6-as-soon-as", "tim1-as-well"],
       "topics": ["work", "tech-work"]
     },
     {
@@ -118,7 +118,7 @@
       "titleJyutping": "tin1 hei3 tung4 gai3 waak6",
       "scenario": "free",
       "goal": "Make plans that depend on the weather, and talk about changes and impressions.",
-      "patterns": ["jyu4-gwo2-if", "seoi1-jin4-although", "jyut6-lai4-jyut6", "hou2-ci5-seem", "directional"],
+      "patterns": ["jyu4-gwo2-if", "seoi1-jin4-although", "jyut6-lai4-jyut6", "hou2-ci5-seem", "directional", "gwaa3-suppose"],
       "topics": ["weather"]
     },
     {
@@ -129,7 +129,7 @@
       "titleJyutping": "gong2 gu3 si6",
       "scenario": "friends",
       "goal": "Tell what happened and how you felt, react to news, and describe people and things in detail.",
-      "patterns": ["bei2-passive", "relative-ge3", "zyu6-continuous", "lo1-obvious", "wo3-noticing"],
+      "patterns": ["bei2-passive", "relative-ge3", "zyu6-continuous", "lo1-obvious", "wo3-noticing", "maa3-obvious"],
       "topics": ["feelings"]
     }
   ]

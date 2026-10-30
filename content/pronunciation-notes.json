@@ -34,6 +34,7 @@
     { "cjk": "呀", "jyutping": "aa3", "reference": "aa5", "reason": "The friendly particle 呀 is aa3 in replies such as 唔係呀; aa5 is a less common variant." },
     { "cjk": "喂", "jyutping": "wai2", "reference": "wai3", "reason": "Answering the phone, 喂 is said with a rising tone, wai2; wai3 is the call 'hey!'." },
     { "cjk": "卡", "jyutping": "kaat1", "reference": "kaa1", "reason": "卡 'card' (from English 'card'), as in 碌卡 and 八達通卡, is kaat1; kaa1 is 'to get stuck'." },
-    { "cjk": "左右", "jyutping": "zo2 jau6", "reference": "zo2 jau2", "reason": "左右 'about, approximately' after a number is zo2 jau6; jau2 is a casual changed tone." }
+    { "cjk": "左右", "jyutping": "zo2 jau6", "reference": "zo2 jau2", "reason": "左右 'about, approximately' after a number is zo2 jau6; jau2 is a casual changed tone." },
+    { "cjk": "會", "jyutping": "wui2", "reference": "wui5", "reason": "會 'a meeting' is wui2 (changed tone), as in 開會 hoi1 wui2; when 緊 splits the verb (開緊會) it stands alone. wui5 is the modal 'will'." }
   ]
 }

@@ -34,6 +34,22 @@
 | Bopomofo | ㄋㄝㄧ⁵ ㄧㄨ³ ㆬ⁴ ㄧㄨ³ ㄉㄛㄧ² ㄚ³? |
 | English | Do you need a bag? |
 
+| | |
+|---|---|
+| 漢字 | **我要兩個菠蘿包。** |
+| Jyutping | ngo5 jiu3 loeng5 go3 bo1 lo4 baau1. |
+| Yale | ngóh yiu léuhng go bō lòh bāau. |
+| Bopomofo | ㆭㄛ⁵ ㄧㄨ³ ㄌㆦㄥ⁵ ㄍㄛ³ ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹. |
+| English | Two pineapple buns, please. |
+
+| | |
+|---|---|
+| 漢字 | **我聽日要返工。** |
+| Jyutping | ngo5 ting1 jat6 jiu3 faan1 gung1. |
+| Yale | ngóh tīng yaht yiu fāan gūng. |
+| Bopomofo | ㆭㄛ⁵ ㄊㄧㄥ¹ ㄧㄜㆵ⁶ ㄧㄨ³ ㄈㄚㄣ¹ ㄍㄨㄥ¹. |
+| English | I have to work tomorrow. |
+
 ## Related patterns
 
 - [想 + Verb](soeng2-want.md) — would like to / want to

@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄝㄧ⁵ ㄍㄝㄧ² ㄙㄧ⁴ ㄌㄜㄧ⁴ ㄏㆦㄥ¹ ㄍㄛㄥ² ㄍㄚ³? |
 | English | When did you come to Hong Kong? |
 
+| | |
+|---|---|
+| 漢字 | **你幾時得閒呀？** |
+| Jyutping | nei5 gei2 si4 dak1 haan4 aa3? |
+| Yale | néih géi sìh dāk hàahn a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄍㄝㄧ² ㄙㄧ⁴ ㄉㄜㆶ¹ ㄏㄚㄣ⁴ ㄚ³? |
+| English | When are you free? |
+
+| | |
+|---|---|
+| 漢字 | **架巴士幾時到呀？** |
+| Jyutping | gaa3 baa1 si2 gei2 si4 dou3 aa3? |
+| Yale | ga bā sí géi sìh dou a? |
+| Bopomofo | ㄍㄚ³ ㄅㄚ¹ ㄙㄧ² ㄍㄝㄧ² ㄙㄧ⁴ ㄉㄛㄨ³ ㄚ³? |
+| English | When does the bus get here? |
+
 ## Related patterns
 
 - [乜嘢 / 咩](mat1-je5-what.md) — what

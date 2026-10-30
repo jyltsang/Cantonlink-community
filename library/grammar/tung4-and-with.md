@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄝㄧ⁵ ㄊㄨㄥ⁴ ㄅㄧㄣ¹ ㄍㄛ³ ㄌㄜㄧ⁴ ㄍㄚ³? |
 | English | Who did you come with? |
 
+| | |
+|---|---|
+| 漢字 | **我同屋企人住。** |
+| Jyutping | ngo5 tung4 uk1 kei2 jan4 zyu6. |
+| Yale | ngóh tùhng ūk kéi yàhn jyuh. |
+| Bopomofo | ㆭㄛ⁵ ㄊㄨㄥ⁴ ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴ ㄗㄩ⁶. |
+| English | I live with my family. |
+
+| | |
+|---|---|
+| 漢字 | **佢同佢老公去咗日本。** |
+| Jyutping | keoi5 tung4 keoi5 lou5 gung1 heoi3 zo2 jat6 bun2. |
+| Yale | kéuih tùhng kéuih lóuh gūng heui jó yaht bún. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄊㄨㄥ⁴ ㄎㆤㄧ⁵ ㄌㄛㄨ⁵ ㄍㄨㄥ¹ ㄏㆤㄧ³ ㄗㄛ² ㄧㄜㆵ⁶ ㄅㄨㄣ². |
+| English | She went to Japan with her husband. |
+
 ## Related patterns
 
 - [Subject + 都 + Verb](dou1-also.md) — also; both / all

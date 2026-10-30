@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄧ¹ ㄍㄛ³ ㄏㄜㄧ⁶ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄌㄜㄧ⁴ ㄍㄚ³? |
 | English | What is this? |
 
+| | |
+|---|---|
+| 漢字 | **你做緊乜嘢呀？** |
+| Jyutping | nei5 zou6 gan2 mat1 je5 aa3? |
+| Yale | néih jouh gán māt yéh a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄗㄛㄨ⁶ ㄍㄜㄣ² ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³? |
+| English | What are you doing? |
+
+| | |
+|---|---|
+| 漢字 | **你鍾意咩顏色呀？** |
+| Jyutping | nei5 zung1 ji3 me1 ngaan4 sik1 aa3? |
+| Yale | néih jūng yi mē ngàahn sīk a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄗㄨㄥ¹ ㄧ³ ㄇㄝ¹ ㆭㄚㄣ⁴ ㄙㄧㆶ¹ ㄚ³? |
+| English | What colour do you like? |
+
 ## Common mistakes
 
 - Not ~~你要甚麼？~~ but **你要乜嘢呀？** *nei5 jiu3 mat1 je5 aa3?* · *néih yiu māt yéh a?*  

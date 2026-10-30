@@ -36,6 +36,22 @@
 | Bopomofo | ㆭㄛ⁵ ㄗㄧ¹ ㄉㄛㄨ³ ㄧㄜㆵ¹ ㄍㄚㄣ¹ ㄏㄛㄨ² ㄏㄛㄨ² ㄙㄧㆶ⁶ ㄍㄝ³ ㄘㄚㄣ¹ ㄊㄝㄥ¹. |
 | English | I know a really good restaurant. |
 
+| | |
+|---|---|
+| 漢字 | **呢把遮係邊個嘅呀？** |
+| Jyutping | ni1 baa2 ze1 hai6 bin1 go3 ge3 aa3? |
+| Yale | nī bá jē haih bīn go ge a? |
+| Bopomofo | ㄋㄧ¹ ㄅㄚ² ㄗㄝ¹ ㄏㄜㄧ⁶ ㄅㄧㄣ¹ ㄍㄛ³ ㄍㄝ³ ㄚ³? |
+| English | Whose umbrella is this? |
+
+| | |
+|---|---|
+| 漢字 | **我嘅手機冇電。** |
+| Jyutping | ngo5 ge3 sau2 gei1 mou5 din6. |
+| Yale | ngóh ge sáu gēi móuh dihn. |
+| Bopomofo | ㆭㄛ⁵ ㄍㄝ³ ㄙㄜㄨ² ㄍㄝㄧ¹ ㄇㄛㄨ⁵ ㄉㄧㄣ⁶. |
+| English | My phone's battery is dead. |
+
 ## Common mistakes
 
 - Not ~~這是我的書。~~ but **呢本係我嘅書。** *ni1 bun2 hai6 ngo5 ge3 syu1.* · *nī bún haih ngóh ge syū.*  

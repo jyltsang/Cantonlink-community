@@ -146,6 +146,33 @@ Put the same entry as Claude Desktop (below) in `~/.cursor/mcp.json` to make it 
 
 Any MCP-capable app works the same way. Find where it keeps its MCP settings and give it the command `npx` with the arguments `-y cantonlink-mcp`. Most apps use the `mcpServers` format shown for Claude Desktop.
 
+### Characters and romanisation
+
+The server is built first for learners who do not read Chinese characters. By default, **characters are off**. Tool results, resources and prompts show Cantonese in Jyutping with Yale beside it, and the server tells the model never to show characters, not even inside explanations. Forms that only make sense in characters (the written-Chinese equivalent of a pattern, the "avoid" sentence, the spoken-or-written quiz) are left out, as they are on the website with characters off.
+
+Two options change this. Add them after `cantonlink-mcp` in the arguments, or set the environment variables if your app only passes those:
+
+| Argument | Environment variable | Values | Default |
+|---|---|---|---|
+| `--romanisation=yale` | `CANTONLINK_ROMANISATION` | `jyutping`, `yale` | `jyutping` |
+| `--characters=on` | `CANTONLINK_CHARACTERS` | `off`, `on` | `off` |
+
+For example, Yale first, in Claude Desktop:
+
+```json
+{ "mcpServers": { "cantonlink": { "command": "npx", "args": ["-y", "cantonlink-mcp", "--romanisation=yale"] } } }
+```
+
+or in Claude Code:
+
+```sh
+claude mcp add --transport stdio --scope user cantonlink -- npx -y cantonlink-mcp --romanisation=yale
+```
+
+`check_spoken_cantonese` still takes Chinese text. With characters off, the model writes its Cantonese in characters only to check it, then shows you the romanisation.
+
+**Typing romanisation.** `search_vocabulary` accepts the way learners actually type. Tones are optional: `m goi`, `m4 goi1`, `mh goi` and `m̀h gōi` all find the same word. It also accepts Yale with or without its marks, syllables run together (`neihou`), and l for n (`lei hou`). A tone you do give must match. When only a different tone or a one-letter slip connects your query to a word, the result is labelled as a closest match. Hong Kong street spellings such as `cha siu bao` are not yet recognised.
+
 ## 5. Try it
 
 Ask in plain language. The model chooses which tools to call:
@@ -184,11 +211,13 @@ for (const tool of TOOLS) {
     inputSchema: z.fromJSONSchema(tool.inputSchema),
     annotations: tool.annotations,
   }, async (args) => {
-    const result = tool.run(data, args);
+    const result = tool.run(data, args, display);
     return { content: [{ type: 'text', text: result.text }], isError: result.isError };
   });
 }
 ```
+
+`display` is the server's options, `{ characters, romanisation }`. The same tool shows a word as `m4 goi1 | Yale: m̀h gōi` to a learner who does not read characters and as `唔該 — m4 goi1` to one who does. The website passes nothing and gets characters, so one definition still serves both hosts.
 
 ### Creating the server
 
@@ -237,7 +266,7 @@ server.registerResource('grammar-pattern', new ResourceTemplate('cantonlink://gr
 }));
 ```
 
-One template covers all 60 patterns. `list` lets apps show them in a picker, and `complete` offers autocompletion as you type an id.
+One template covers all 63 patterns. `list` lets apps show them in a picker, and `complete` offers autocompletion as you type an id.
 
 ### A prompt
 
@@ -318,6 +347,7 @@ Run them with `npm test --prefix mcp`. They check every tool, resource and promp
 
 ## 10. Going further
 
+- **Search by meaning.** To ground your own tutor with a vector index, see the [RAG guide](RAG_GUIDE.md).
 - **Use it from your own code.** The same SDK includes a client (`@modelcontextprotocol/sdk/client`), so your own app can connect to this server and pass its tools to any AI model's tool-calling API.
 - **Run it remotely.** For a web app, or to share one server with a team, serve it over **Streamable HTTP** instead of stdio. The SDK provides that transport too; you would then add authentication.
 - **Contribute.** Ideas for new tools: spaced-repetition scheduling, a "which classifier?" quiz, or searching example sentences by pattern. Open an issue to discuss.

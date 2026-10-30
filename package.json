@@ -14,7 +14,7 @@
     "check:pronunciation": "node tools/check-pronunciation.mjs",
     "gen:simplified": "node tools/gen-simplified.mjs",
     "format": "node tools/format.mjs",
-    "test": "node --test \"tools/*.test.mjs\"",
+    "test": "node --test \"tools/*.test.mjs\" \"examples/rag/*.test.mjs\"",
     "romanise": "node tools/cli.mjs",
     "site": "node tools/site.mjs",
     "preview": "node tools/site.mjs --serve",
@@ -23,8 +23,9 @@
     "ci": "npm test && npm run check && npm test --prefix mcp && npm run test:e2e && node tests/live-ai.mjs --local --mock"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "opencc-js": "1.4.2",
-    "playwright": "1.56.1",
+    "playwright": "1.64.1",
     "to-jyutping": "3.1.1"
   }
 }

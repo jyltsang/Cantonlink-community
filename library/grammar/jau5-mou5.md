@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄧ¹ ㄉㄛㄨ⁶ ㄇㄛㄨ⁵ ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹. |
 | English | There's no toilet here. |
 
+| | |
+|---|---|
+| 漢字 | **我冇錢。** |
+| Jyutping | ngo5 mou5 cin2. |
+| Yale | ngóh móuh chín. |
+| Bopomofo | ㆭㄛ⁵ ㄇㄛㄨ⁵ ㄘㄧㄣ². |
+| English | I haven't got any money. |
+
+| | |
+|---|---|
+| 漢字 | **佢有兩個細路。** |
+| Jyutping | keoi5 jau5 loeng5 go3 sai3 lou6. |
+| Yale | kéuih yáuh léuhng go sai louh. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄧㄜㄨ⁵ ㄌㆦㄥ⁵ ㄍㄛ³ ㄙㄜㄧ³ ㄌㄛㄨ⁶. |
+| English | She has two children. |
+
 ## Common mistakes
 
 - Not ~~我唔有錢。~~ but **我冇錢。** *ngo5 mou5 cin2.* · *ngóh móuh chín.*  

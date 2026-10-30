@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { chromium } from 'playwright';
+import AxeBuilder from '@axe-core/playwright';
 import { startMockAi } from './mock-ai.mjs';
 
 const PORT = 8123;
@@ -86,6 +87,28 @@ test('every page renders without errors or sideways scrolling', async () => {
   }
   assert.deepEqual(errors, []);
   await context.close();
+});
+
+// Automated WCAG checks (axe-core) on every page, in both themes and with
+// characters on and off. Serious and critical violations fail the test;
+// screen-reader and device testing by people is still needed.
+test('every page passes automated accessibility checks, in light and dark', async () => {
+  const paths = ['', '#/ai', '#/tutor', '#/grammar', `#/grammar/${data.grammar[0].id}`, '#/vocabulary', `#/vocabulary/${data.vocabulary[0].id}`, '#/lookup',
+    '#/flashcards', '#/fill-the-gap', '#/build', '#/tones', '#/spoken-or-written', '#/review', '#/path', '#/path/u03', '#/path/u03/practise', '#/nowhere'];
+  const found = [];
+  for (const [colorScheme, cjk] of [['light', false], ['dark', true]]) {
+    const { page, context } = await open('', { colorScheme, cjk, viewport: { width: 1280, height: 900 } });
+    for (const path of paths) {
+      await page.goto(BASE + path);
+      await page.waitForSelector('main h1');
+      const { violations } = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']).analyze();
+      for (const v of violations.filter((x) => ['serious', 'critical'].includes(x.impact))) {
+        found.push(`${colorScheme} ${path || '#/'}: ${v.id} (${v.impact}) ${v.help} — ${v.nodes.slice(0, 2).map((n) => n.target.join(' ')).join('; ')}`);
+      }
+    }
+    await context.close();
+  }
+  assert.deepEqual(found, []);
 });
 
 test('grammar: filter, read a pattern and practise it', async () => {

@@ -2,7 +2,7 @@
 
 # Review status
 
-**0 of 74 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
+**0 of 77 entries reviewed.** An entry counts as reviewed once two native speakers of Hong Kong Cantonese have checked it against the [review guide](../docs/REVIEW_GUIDE.md).
 
 Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml) — reviewers are credited by name.
 
@@ -65,6 +65,9 @@ Want to help? [Volunteer as a reviewer](https://github.com/jyltsang/cantonlink-c
 | Grammar | [先 … 再 … / … 先](grammar/sin1-zoi3-first-then.md) | B1 | Draft (0/2) | — |
 | Grammar | [… 囉](grammar/lo1-obvious.md) | B1 | Draft (0/2) | — |
 | Grammar | [… 喎](grammar/wo3-noticing.md) | B1 | Draft (0/2) | — |
+| Grammar | [… 添](grammar/tim1-as-well.md) | B1 | Draft (0/2) | — |
+| Grammar | [… 嘛](grammar/maa3-obvious.md) | B1 | Draft (0/2) | — |
+| Grammar | [… 啩](grammar/gwaa3-suppose.md) | B1 | Draft (0/2) | — |
 | Grammar | [[Description] + 嘅 + Noun](grammar/relative-ge3.md) | B1 | Draft (0/2) | — |
 | Grammar | [Verb + 住](grammar/zyu6-continuous.md) | B1 | Draft (0/2) | — |
 | Grammar | [好似 …](grammar/hou2-ci5-seem.md) | B1 | Draft (0/2) | — |
