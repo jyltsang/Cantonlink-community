@@ -1,6 +1,6 @@
 # What has been developed
 
-The state of CantonLink Community Edition as of **24 October 2026** (version `1.0.0-rc.2`). This is one of three master documents:
+The state of CantonLink Community Edition as of **30 October 2026** (version `1.0.0-rc.2`). This is one of three master documents:
 
 - **What has been developed** (this page): what exists and how it is verified.
 - [Master plan](MASTER_PLAN.md): why the project exists, its principles, decisions and roadmap.
@@ -96,7 +96,8 @@ Documented in the [RAG guide](RAG_GUIDE.md): how to build a vector index over th
 | Romanisation against all ~4,000 pingyambiu syllables; spaced review; AI checks with recorded provider responses; slim data rebuilds the full data; workflows install dependencies | `npm test` |
 | WCAG AA contrast for every colour pair, both themes | `tools/contrast.test.mjs` |
 | Relative links in the documentation resolve; the three master documents exist and link to each other | `tools/links.test.mjs` |
-| Every page and learning journey in Chromium: no errors, no sideways scrolling, no emoji, named buttons; **no Chinese character on any page with characters off**, in Jyutping and Yale; Try first; the AI tutor against a scripted provider | `npm run test:e2e` (30 tests) |
+| Every page and learning journey in Chromium: no errors, no sideways scrolling, no emoji, named buttons; **no Chinese character on any page with characters off**, in Jyutping and Yale; Try first; the AI tutor against a scripted provider | `npm run test:e2e` (31 tests) |
+| Every page, in light and dark and with characters on and off, has no serious or critical WCAG 2.2 A/AA violations (axe-core) | `npm run test:e2e` |
 | The live AI test itself, against a mock provider | `node tests/live-ai.mjs --local --mock` |
 | The MCP package packed, unpacked and run through npm's symlinks; **no Chinese character in any tool result, resource or prompt with characters off**, in Jyutping and Yale | `npm test --prefix mcp` (25 tests) |
 | Learner romanisation finds the right word (no tones, Yale, run together, l for n); wrong tones are only approximate | `tools/library.test.mjs` |

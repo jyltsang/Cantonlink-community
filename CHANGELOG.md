@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+### Jyutping and Yale first in the MCP server
+- **Characters are off by default** in `cantonlink-mcp`: tools, resources and prompts show Jyutping (or Yale with `--romanisation=yale`), and the tutor prompt tells the model never to show characters. `--characters=on` restores the previous output; `CANTONLINK_CHARACTERS` and `CANTONLINK_ROMANISATION` do the same. This changes the default for existing users.
+- **Search finds what learners type:** tones optional (a given tone must match), Yale with or without marks, run-together syllables, l for n, dropped ng-. Wrong-tone and one-letter matches are labelled as closest matches. The site's AI tutor gains this search too.
+- MCP SDK 1.32.2 and zod 4.6.7.
+
+### For developers
+- A [RAG guide](docs/RAG_GUIDE.md) and a runnable example in `examples/rag/`: build a vector index over the library with a local model, combine it with the library's search, and evaluate it. Keyword search alone scores 16% recall@5 on the 25 sample queries.
+- The master plan gains a developer-platform section: accuracy published as measured agreement, confidence labels and learner flags, and a policy for external dictionaries.
+
+### Accessibility and tooling
+- Every page is checked with axe-core in light and dark, with characters on and off; no serious or critical violations remain.
+- The flashcard is now named by its own text and announces whether it is turned over, instead of a fixed label that hid the word from speech-input users.
+- Playwright 1.64.1, with the matching CI image.
+
 ### Housekeeping and the self-improvement loop
 - Planning is consolidated into three master documents: [What has been developed](docs/DEVELOPED.md), the [master plan](docs/MASTER_PLAN.md) and [Next run](docs/NEXT_RUN.md). They replace the product specification and the release checklist, whose out-of-date parts (360 words, a React front end, "no AI") are corrected.
 - The first [retrospective](docs/retrospectives/sprint-01.md) covers the whole project so far, from CI history and the changelog.

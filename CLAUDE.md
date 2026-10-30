@@ -44,6 +44,9 @@ npm run preview             # site at http://localhost:8080
 
 Add a line whenever a run teaches something; keep the newest first.
 
+- Put test clean-up (closing clients, killing child processes) in `finally`: a failed assertion that skips it turns a failure into a hang. (Sprint 2)
+- Never `pkill -f` a pattern that also appears in your own command line; kill by process ID. (Sprint 2)
+- If a pinned Playwright cannot find its browser locally, point `PLAYWRIGHT_BROWSERS_PATH` at a folder linking the installed build; do not install browsers or edit the tests. (Sprint 2)
 - Characters-off was first applied only to sentences; grammar names and notes still showed characters. Guard display rules on every page, not where the feature was built. (Sprint 1)
 - Two CI failures came from pushing without the full local sequence. Run `npm run ci` before every push. (Sprint 1)
 - `element.replaceChildren(a, b)` inserts the text "null" for null arguments; filter first. (Sprint 1)
