@@ -112,3 +112,13 @@ Every page (18 routes) is checked with axe-core for WCAG 2.0, 2.1 and 2.2 A and 
 | Flashcard button labelled "Card. Select to turn over." while showing the word: its accessible name did not contain its visible text (`label-content-name-mismatch`), so a speech-input user saying the word could not select it | Serious | The fixed label is removed; the card is named by its own text and uses `aria-pressed` to say whether it is turned over |
 
 No other serious or critical violations were found. Automated checks catch only part of WCAG; the screen-reader and device testing in the release criteria is still needed.
+
+## 8. More examples for each A1 pattern (30 October 2026)
+
+Each of the 24 A1 patterns gained two original example sentences (48 in all), so every A1 pattern now has five, in new everyday contexts: work, health, transport, shopping, food, weather and home. All are drafts until two native speakers review them.
+
+- **Automatic checks:** valid Jyutping, one syllable per character, no written-Chinese forms, distractors rules, accepted orders. The build caught one distractor (咗) that already appeared in its own sentence; it was replaced.
+- **Pronunciation cross-check:** two readings differed from the reference dictionary.
+  - 會 in 開緊會 is wui2 ("a meeting", the changed tone of 開會); documented in `content/pronunciation-notes.json`.
+  - 掂 "to touch" (dim3) was replaced with a different sentence (唔好咁大聲, "Don't be so loud") rather than relying on a disputed reading.
+- **Proofreading:** every sentence read for tones and for whether a Hong Kong speaker would say it. Accepted word orders were added where another order is natural: fronted time words (聽日我要返工), swapped partners with 同, and swapped choices with 定係.

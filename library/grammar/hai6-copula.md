@@ -36,6 +36,22 @@
 | Bopomofo | ㄋㄧ¹ ㄉㄛㄨ⁶ ㄏㄜㄧ⁶ ㄊㄨㄥ⁴ ㄌㄛ⁴ ㄨㄚㄣ¹. |
 | English | This is Causeway Bay. |
 
+| | |
+|---|---|
+| 漢字 | **佢係醫生。** |
+| Jyutping | keoi5 hai6 ji1 sang1. |
+| Yale | kéuih haih yī sāng. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㄧ¹ ㄙㄜㄥ¹. |
+| English | She's a doctor. |
+
+| | |
+|---|---|
+| 漢字 | **今日係星期六。** |
+| Jyutping | gam1 jat6 hai6 sing1 kei4 luk6. |
+| Yale | gām yaht haih sīng kèih luhk. |
+| Bopomofo | ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄏㄜㄧ⁶ ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄌㄨㆶ⁶. |
+| English | Today is Saturday. |
+
 ## Common mistakes
 
 - Not ~~他是學生。~~ but **佢係學生。** *keoi5 hai6 hok6 saang1.* · *kéuih haih hohk sāang.*  

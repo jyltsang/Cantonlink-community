@@ -36,6 +36,22 @@ Add 緊 straight after a verb to say an action is happening right now, like Engl
 | Bopomofo | ㆭㄛㄧ⁶ ㄇㄧㄣ⁶ ㄌㄛㆶ⁶ ㄍㄜㄣ² ㄩ⁵. |
 | English | It's raining outside. |
 
+| | |
+|---|---|
+| 漢字 | **佢哋開緊會。** |
+| Jyutping | keoi5 dei6 hoi1 gan2 wui2. |
+| Yale | kéuih deih hōi gán wúi. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄉㄝㄧ⁶ ㄏㄛㄧ¹ ㄍㄜㄣ² ㄨㄨㄧ². |
+| English | They're in a meeting. |
+
+| | |
+|---|---|
+| 漢字 | **我等緊巴士。** |
+| Jyutping | ngo5 dang2 gan2 baa1 si2. |
+| Yale | ngóh dáng gán bā sí. |
+| Bopomofo | ㆭㄛ⁵ ㄉㄜㄥ² ㄍㄜㄣ² ㄅㄚ¹ ㄙㄧ². |
+| English | I'm waiting for the bus. |
+
 ## Related patterns
 
 - [Verb + 咗](zo2-completed.md) — completed action

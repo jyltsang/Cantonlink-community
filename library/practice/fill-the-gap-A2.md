@@ -504,7 +504,7 @@ ting1 jat6 \_\_\_ lok6 jyu5.
 “It's going to rain tomorrow.”
 
 (a) 想 soeng2 · séung · ㄙㆦㄥ²  
-(b) 會 wui5 · wúih · ㄨㄨㄧ⁵  
+(b) 會 wui2 · wúi · ㄨㄨㄧ²  
 (c) 識 sik1 · sīk · ㄙㄧㆶ¹  
 (d) 喺 hai2 · hái · ㄏㄜㄧ²
 
@@ -515,7 +515,7 @@ ngo5 ting1 jat6 \_\_\_ daa2 din6 waa2 bei2 nei5.
 *ngóh tīng yaht \_\_\_ dá dihn wá béi néih.*  
 “I'll phone you tomorrow.”
 
-(a) 會 wui5 · wúih · ㄨㄨㄧ⁵  
+(a) 會 wui2 · wúi · ㄨㄨㄧ²  
 (b) 想 soeng2 · séung · ㄙㆦㄥ²  
 (c) 識 sik1 · sīk · ㄙㄧㆶ¹  
 (d) 喺 hai2 · hái · ㄏㄜㄧ²
@@ -530,7 +530,7 @@ keoi5 m4 \_\_\_ lai4 laa3.
 (a) 識 sik1 · sīk · ㄙㄧㆶ¹  
 (b) 喺 hai2 · hái · ㄏㄜㄧ²  
 (c) 想 soeng2 · séung · ㄙㆦㄥ²  
-(d) 會 wui5 · wúih · ㄨㄨㄧ⁵
+(d) 會 wui2 · wúi · ㄨㄨㄧ²
 
 ---
 

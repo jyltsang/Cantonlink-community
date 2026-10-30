@@ -173,6 +173,68 @@
               "punctuation": "."
             }
           ]
+        },
+        {
+          "cjk": "佢係醫生。",
+          "jyutping": "keoi5 hai6 ji1 sang1.",
+          "yale": "kéuih haih yī sāng.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㄧ¹ ㄙㄜㄥ¹.",
+          "en": "She's a doctor.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "醫生",
+              "jyutping": "ji1 sang1",
+              "yale": "yī sāng",
+              "bopomofo": "ㄧ¹ ㄙㄜㄥ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "今日係星期六。",
+          "jyutping": "gam1 jat6 hai6 sing1 kei4 luk6.",
+          "yale": "gām yaht haih sīng kèih luhk.",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄏㄜㄧ⁶ ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄌㄨㆶ⁶.",
+          "en": "Today is Saturday.",
+          "tokens": [
+            {
+              "cjk": "今日",
+              "jyutping": "gam1 jat6",
+              "yale": "gām yaht",
+              "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+            },
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "星期六",
+              "jyutping": "sing1 kei4 luk6",
+              "yale": "sīng kèih luhk",
+              "bopomofo": "ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄌㄨㆶ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [
@@ -386,6 +448,86 @@
               "punctuation": "."
             }
           ]
+        },
+        {
+          "cjk": "我唔飲酒。",
+          "jyutping": "ngo5 m4 jam2 zau2.",
+          "yale": "ngóh m̀h yám jáu.",
+          "bopomofo": "ㆭㄛ⁵ ㆬ⁴ ㄧㄜㆬ² ㄗㄜㄨ².",
+          "en": "I don't drink alcohol.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "唔",
+              "jyutping": "m4",
+              "yale": "m̀h",
+              "bopomofo": "ㆬ⁴"
+            },
+            {
+              "cjk": "飲",
+              "jyutping": "jam2",
+              "yale": "yám",
+              "bopomofo": "ㄧㄜㆬ²"
+            },
+            {
+              "cjk": "酒",
+              "jyutping": "zau2",
+              "yale": "jáu",
+              "bopomofo": "ㄗㄜㄨ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "呢間餐廳唔貴。",
+          "jyutping": "ni1 gaan1 caan1 teng1 m4 gwai3.",
+          "yale": "nī gāan chāan tēng m̀h gwai.",
+          "bopomofo": "ㄋㄧ¹ ㄍㄚㄣ¹ ㄘㄚㄣ¹ ㄊㄝㄥ¹ ㆬ⁴ ㄍㄨㄜㄧ³.",
+          "en": "This restaurant isn't expensive.",
+          "tokens": [
+            {
+              "cjk": "呢",
+              "jyutping": "ni1",
+              "yale": "nī",
+              "bopomofo": "ㄋㄧ¹"
+            },
+            {
+              "cjk": "間",
+              "jyutping": "gaan1",
+              "yale": "gāan",
+              "bopomofo": "ㄍㄚㄣ¹"
+            },
+            {
+              "cjk": "餐廳",
+              "jyutping": "caan1 teng1",
+              "yale": "chāan tēng",
+              "bopomofo": "ㄘㄚㄣ¹ ㄊㄝㄥ¹"
+            },
+            {
+              "cjk": "唔",
+              "jyutping": "m4",
+              "yale": "m̀h",
+              "bopomofo": "ㆬ⁴"
+            },
+            {
+              "cjk": "貴",
+              "jyutping": "gwai3",
+              "yale": "gwai",
+              "bopomofo": "ㄍㄨㄜㄧ³"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [
@@ -571,6 +713,80 @@
               "jyutping": "sai2 sau2 gaan1",
               "yale": "sái sáu gāan",
               "bopomofo": "ㄙㄜㄧ² ㄙㄜㄨ² ㄍㄚㄣ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我冇錢。",
+          "jyutping": "ngo5 mou5 cin2.",
+          "yale": "ngóh móuh chín.",
+          "bopomofo": "ㆭㄛ⁵ ㄇㄛㄨ⁵ ㄘㄧㄣ².",
+          "en": "I haven't got any money.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "冇",
+              "jyutping": "mou5",
+              "yale": "móuh",
+              "bopomofo": "ㄇㄛㄨ⁵"
+            },
+            {
+              "cjk": "錢",
+              "jyutping": "cin2",
+              "yale": "chín",
+              "bopomofo": "ㄘㄧㄣ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "佢有兩個細路。",
+          "jyutping": "keoi5 jau5 loeng5 go3 sai3 lou6.",
+          "yale": "kéuih yáuh léuhng go sai louh.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄧㄜㄨ⁵ ㄌㆦㄥ⁵ ㄍㄛ³ ㄙㄜㄧ³ ㄌㄛㄨ⁶.",
+          "en": "She has two children.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "有",
+              "jyutping": "jau5",
+              "yale": "yáuh",
+              "bopomofo": "ㄧㄜㄨ⁵"
+            },
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            {
+              "cjk": "個",
+              "jyutping": "go3",
+              "yale": "go",
+              "bopomofo": "ㄍㄛ³"
+            },
+            {
+              "cjk": "細路",
+              "jyutping": "sai3 lou6",
+              "yale": "sai louh",
+              "bopomofo": "ㄙㄜㄧ³ ㄌㄛㄨ⁶"
             },
             {
               "cjk": "。",
@@ -812,6 +1028,74 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "你有冇時間呀？",
+          "jyutping": "nei5 jau5 mou5 si4 gaan3 aa3?",
+          "yale": "néih yáuh móuh sìh gaan a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄙㄧ⁴ ㄍㄚㄣ³ ㄚ³?",
+          "en": "Have you got time?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "有冇",
+              "jyutping": "jau5 mou5",
+              "yale": "yáuh móuh",
+              "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+            },
+            {
+              "cjk": "時間",
+              "jyutping": "si4 gaan3",
+              "yale": "sìh gaan",
+              "bopomofo": "ㄙㄧ⁴ ㄍㄚㄣ³"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "有冇細碼呀？",
+          "jyutping": "jau5 mou5 sai3 maa5 aa3?",
+          "yale": "yáuh móuh sai máh a?",
+          "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄙㄜㄧ³ ㄇㄚ⁵ ㄚ³?",
+          "en": "Do you have a small size?",
+          "tokens": [
+            {
+              "cjk": "有冇",
+              "jyutping": "jau5 mou5",
+              "yale": "yáuh móuh",
+              "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+            },
+            {
+              "cjk": "細碼",
+              "jyutping": "sai3 maa5",
+              "yale": "sai máh",
+              "bopomofo": "ㄙㄜㄧ³ ㄇㄚ⁵"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -973,6 +1257,74 @@
               "jyutping": "hou2 m4 hou2 sik6",
               "yale": "hóu m̀h hóu sihk",
               "bopomofo": "ㄏㄛㄨ² ㆬ⁴ ㄏㄛㄨ² ㄙㄧㆶ⁶"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "你食唔食辣呀？",
+          "jyutping": "nei5 sik6 m4 sik6 laat6 aa3?",
+          "yale": "néih sihk m̀h sihk laaht a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㆬ⁴ ㄙㄧㆶ⁶ ㄌㄚㆵ⁶ ㄚ³?",
+          "en": "Do you eat spicy food?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "食唔食",
+              "jyutping": "sik6 m4 sik6",
+              "yale": "sihk m̀h sihk",
+              "bopomofo": "ㄙㄧㆶ⁶ ㆬ⁴ ㄙㄧㆶ⁶"
+            },
+            {
+              "cjk": "辣",
+              "jyutping": "laat6",
+              "yale": "laaht",
+              "bopomofo": "ㄌㄚㆵ⁶"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "今日凍唔凍呀？",
+          "jyutping": "gam1 jat6 dung3 m4 dung3 aa3?",
+          "yale": "gām yaht dung m̀h dung a?",
+          "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄉㄨㄥ³ ㆬ⁴ ㄉㄨㄥ³ ㄚ³?",
+          "en": "Is it cold today?",
+          "tokens": [
+            {
+              "cjk": "今日",
+              "jyutping": "gam1 jat6",
+              "yale": "gām yaht",
+              "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+            },
+            {
+              "cjk": "凍唔凍",
+              "jyutping": "dung3 m4 dung3",
+              "yale": "dung m̀h dung",
+              "bopomofo": "ㄉㄨㄥ³ ㆬ⁴ ㄉㄨㄥ³"
             },
             {
               "cjk": "呀",
@@ -1148,6 +1500,80 @@
               "jyutping": "syu1",
               "yale": "syū",
               "bopomofo": "ㄙㄩ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我搭咗的士。",
+          "jyutping": "ngo5 daap3 zo2 dik1 si2.",
+          "yale": "ngóh daap jó dīk sí.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄚㆴ³ ㄗㄛ² ㄉㄧㆶ¹ ㄙㄧ².",
+          "en": "I took a taxi.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "搭",
+              "jyutping": "daap3",
+              "yale": "daap",
+              "bopomofo": "ㄉㄚㆴ³"
+            },
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            {
+              "cjk": "的士",
+              "jyutping": "dik1 si2",
+              "yale": "dīk sí",
+              "bopomofo": "ㄉㄧㆶ¹ ㄙㄧ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我到咗喇。",
+          "jyutping": "ngo5 dou3 zo2 laa3.",
+          "yale": "ngóh dou jó la.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄛㄨ³ ㄗㄛ² ㄌㄚ³.",
+          "en": "I've arrived.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "到",
+              "jyutping": "dou3",
+              "yale": "dou",
+              "bopomofo": "ㄉㄛㄨ³"
+            },
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            {
+              "cjk": "喇",
+              "jyutping": "laa3",
+              "yale": "la",
+              "bopomofo": "ㄌㄚ³"
             },
             {
               "cjk": "。",
@@ -1341,6 +1767,80 @@
               "jyutping": "jyu5",
               "yale": "yúh",
               "bopomofo": "ㄩ⁵"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "佢哋開緊會。",
+          "jyutping": "keoi5 dei6 hoi1 gan2 wui2.",
+          "yale": "kéuih deih hōi gán wúi.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄉㄝㄧ⁶ ㄏㄛㄧ¹ ㄍㄜㄣ² ㄨㄨㄧ².",
+          "en": "They're in a meeting.",
+          "tokens": [
+            {
+              "cjk": "佢哋",
+              "jyutping": "keoi5 dei6",
+              "yale": "kéuih deih",
+              "bopomofo": "ㄎㆤㄧ⁵ ㄉㄝㄧ⁶"
+            },
+            {
+              "cjk": "開",
+              "jyutping": "hoi1",
+              "yale": "hōi",
+              "bopomofo": "ㄏㄛㄧ¹"
+            },
+            {
+              "cjk": "緊",
+              "jyutping": "gan2",
+              "yale": "gán",
+              "bopomofo": "ㄍㄜㄣ²"
+            },
+            {
+              "cjk": "會",
+              "jyutping": "wui2",
+              "yale": "wúi",
+              "bopomofo": "ㄨㄨㄧ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我等緊巴士。",
+          "jyutping": "ngo5 dang2 gan2 baa1 si2.",
+          "yale": "ngóh dáng gán bā sí.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄜㄥ² ㄍㄜㄣ² ㄅㄚ¹ ㄙㄧ².",
+          "en": "I'm waiting for the bus.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "等",
+              "jyutping": "dang2",
+              "yale": "dáng",
+              "bopomofo": "ㄉㄜㄥ²"
+            },
+            {
+              "cjk": "緊",
+              "jyutping": "gan2",
+              "yale": "gán",
+              "bopomofo": "ㄍㄜㄣ²"
+            },
+            {
+              "cjk": "巴士",
+              "jyutping": "baa1 si2",
+              "yale": "bā sí",
+              "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
             },
             {
               "cjk": "。",
@@ -1609,6 +2109,104 @@
               "punctuation": "."
             }
           ]
+        },
+        {
+          "cjk": "呢把遮係邊個嘅呀？",
+          "jyutping": "ni1 baa2 ze1 hai6 bin1 go3 ge3 aa3?",
+          "yale": "nī bá jē haih bīn go ge a?",
+          "bopomofo": "ㄋㄧ¹ ㄅㄚ² ㄗㄝ¹ ㄏㄜㄧ⁶ ㄅㄧㄣ¹ ㄍㄛ³ ㄍㄝ³ ㄚ³?",
+          "en": "Whose umbrella is this?",
+          "tokens": [
+            {
+              "cjk": "呢",
+              "jyutping": "ni1",
+              "yale": "nī",
+              "bopomofo": "ㄋㄧ¹"
+            },
+            {
+              "cjk": "把",
+              "jyutping": "baa2",
+              "yale": "bá",
+              "bopomofo": "ㄅㄚ²"
+            },
+            {
+              "cjk": "遮",
+              "jyutping": "ze1",
+              "yale": "jē",
+              "bopomofo": "ㄗㄝ¹"
+            },
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "邊個",
+              "jyutping": "bin1 go3",
+              "yale": "bīn go",
+              "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+            },
+            {
+              "cjk": "嘅",
+              "jyutping": "ge3",
+              "yale": "ge",
+              "bopomofo": "ㄍㄝ³"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "我嘅手機冇電。",
+          "jyutping": "ngo5 ge3 sau2 gei1 mou5 din6.",
+          "yale": "ngóh ge sáu gēi móuh dihn.",
+          "bopomofo": "ㆭㄛ⁵ ㄍㄝ³ ㄙㄜㄨ² ㄍㄝㄧ¹ ㄇㄛㄨ⁵ ㄉㄧㄣ⁶.",
+          "en": "My phone's battery is dead.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "嘅",
+              "jyutping": "ge3",
+              "yale": "ge",
+              "bopomofo": "ㄍㄝ³"
+            },
+            {
+              "cjk": "手機",
+              "jyutping": "sau2 gei1",
+              "yale": "sáu gēi",
+              "bopomofo": "ㄙㄜㄨ² ㄍㄝㄧ¹"
+            },
+            {
+              "cjk": "冇",
+              "jyutping": "mou5",
+              "yale": "móuh",
+              "bopomofo": "ㄇㄛㄨ⁵"
+            },
+            {
+              "cjk": "電",
+              "jyutping": "din6",
+              "yale": "dihn",
+              "bopomofo": "ㄉㄧㄣ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [
@@ -1794,6 +2392,80 @@
               "jyutping": "sik6 faan6",
               "yale": "sihk faahn",
               "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "佢喺屋企。",
+          "jyutping": "keoi5 hai2 uk1 kei2.",
+          "yale": "kéuih hái ūk kéi.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄏㄜㄧ² ㄨㆶ¹ ㄎㄝㄧ².",
+          "en": "She's at home.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "喺",
+              "jyutping": "hai2",
+              "yale": "hái",
+              "bopomofo": "ㄏㄜㄧ²"
+            },
+            {
+              "cjk": "屋企",
+              "jyutping": "uk1 kei2",
+              "yale": "ūk kéi",
+              "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我哋喺尖沙咀等你。",
+          "jyutping": "ngo5 dei6 hai2 zim1 saa1 zeoi2 dang2 nei5.",
+          "yale": "ngóh deih hái jīm sā jéui dáng néih.",
+          "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄏㄜㄧ² ㄗㄧㆬ¹ ㄙㄚ¹ ㄗㆤㄧ² ㄉㄜㄥ² ㄋㄝㄧ⁵.",
+          "en": "We'll wait for you in Tsim Sha Tsui.",
+          "tokens": [
+            {
+              "cjk": "我哋",
+              "jyutping": "ngo5 dei6",
+              "yale": "ngóh deih",
+              "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶"
+            },
+            {
+              "cjk": "喺",
+              "jyutping": "hai2",
+              "yale": "hái",
+              "bopomofo": "ㄏㄜㄧ²"
+            },
+            {
+              "cjk": "尖沙咀",
+              "jyutping": "zim1 saa1 zeoi2",
+              "yale": "jīm sā jéui",
+              "bopomofo": "ㄗㄧㆬ¹ ㄙㄚ¹ ㄗㆤㄧ²"
+            },
+            {
+              "cjk": "等",
+              "jyutping": "dang2",
+              "yale": "dáng",
+              "bopomofo": "ㄉㄜㄥ²"
+            },
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
             },
             {
               "cjk": "。",
@@ -2049,6 +2721,98 @@
               "punctuation": "."
             }
           ]
+        },
+        {
+          "cjk": "呢部電腦好慢。",
+          "jyutping": "ni1 bou6 din6 nou5 hou2 maan6.",
+          "yale": "nī bouh dihn nóuh hóu maahn.",
+          "bopomofo": "ㄋㄧ¹ ㄅㄛㄨ⁶ ㄉㄧㄣ⁶ ㄋㄛㄨ⁵ ㄏㄛㄨ² ㄇㄚㄣ⁶.",
+          "en": "This computer is very slow.",
+          "tokens": [
+            {
+              "cjk": "呢",
+              "jyutping": "ni1",
+              "yale": "nī",
+              "bopomofo": "ㄋㄧ¹"
+            },
+            {
+              "cjk": "部",
+              "jyutping": "bou6",
+              "yale": "bouh",
+              "bopomofo": "ㄅㄛㄨ⁶"
+            },
+            {
+              "cjk": "電腦",
+              "jyutping": "din6 nou5",
+              "yale": "dihn nóuh",
+              "bopomofo": "ㄉㄧㄣ⁶ ㄋㄛㄨ⁵"
+            },
+            {
+              "cjk": "好",
+              "jyutping": "hou2",
+              "yale": "hóu",
+              "bopomofo": "ㄏㄛㄨ²"
+            },
+            {
+              "cjk": "慢",
+              "jyutping": "maan6",
+              "yale": "maahn",
+              "bopomofo": "ㄇㄚㄣ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "嗰個人係我老細。",
+          "jyutping": "go2 go3 jan4 hai6 ngo5 lou5 sai3.",
+          "yale": "gó go yàhn haih ngóh lóuh sai.",
+          "bopomofo": "ㄍㄛ² ㄍㄛ³ ㄧㄜㄣ⁴ ㄏㄜㄧ⁶ ㆭㄛ⁵ ㄌㄛㄨ⁵ ㄙㄜㄧ³.",
+          "en": "That person is my boss.",
+          "tokens": [
+            {
+              "cjk": "嗰",
+              "jyutping": "go2",
+              "yale": "gó",
+              "bopomofo": "ㄍㄛ²"
+            },
+            {
+              "cjk": "個",
+              "jyutping": "go3",
+              "yale": "go",
+              "bopomofo": "ㄍㄛ³"
+            },
+            {
+              "cjk": "人",
+              "jyutping": "jan4",
+              "yale": "yàhn",
+              "bopomofo": "ㄧㄜㄣ⁴"
+            },
+            {
+              "cjk": "係",
+              "jyutping": "hai6",
+              "yale": "haih",
+              "bopomofo": "ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "老細",
+              "jyutping": "lou5 sai3",
+              "yale": "lóuh sai",
+              "bopomofo": "ㄌㄛㄨ⁵ ㄙㄜㄧ³"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -2262,6 +3026,104 @@
               "punctuation": "."
             }
           ]
+        },
+        {
+          "cjk": "佢買咗三對鞋。",
+          "jyutping": "keoi5 maai5 zo2 saam1 deoi3 haai4.",
+          "yale": "kéuih máaih jó sāam deui hàaih.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄇㄚㄧ⁵ ㄗㄛ² ㄙㄚㆬ¹ ㄉㆤㄧ³ ㄏㄚㄧ⁴.",
+          "en": "She bought three pairs of shoes.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "買",
+              "jyutping": "maai5",
+              "yale": "máaih",
+              "bopomofo": "ㄇㄚㄧ⁵"
+            },
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            {
+              "cjk": "三",
+              "jyutping": "saam1",
+              "yale": "sāam",
+              "bopomofo": "ㄙㄚㆬ¹"
+            },
+            {
+              "cjk": "對",
+              "jyutping": "deoi3",
+              "yale": "deui",
+              "bopomofo": "ㄉㆤㄧ³"
+            },
+            {
+              "cjk": "鞋",
+              "jyutping": "haai4",
+              "yale": "hàaih",
+              "bopomofo": "ㄏㄚㄧ⁴"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我想要一張地圖。",
+          "jyutping": "ngo5 soeng2 jiu3 jat1 zoeng1 dei6 tou4.",
+          "yale": "ngóh séung yiu yāt jēung deih tòuh.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㆦㄥ² ㄧㄨ³ ㄧㄜㆵ¹ ㄗㆦㄥ¹ ㄉㄝㄧ⁶ ㄊㄛㄨ⁴.",
+          "en": "I'd like a map.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "想",
+              "jyutping": "soeng2",
+              "yale": "séung",
+              "bopomofo": "ㄙㆦㄥ²"
+            },
+            {
+              "cjk": "要",
+              "jyutping": "jiu3",
+              "yale": "yiu",
+              "bopomofo": "ㄧㄨ³"
+            },
+            {
+              "cjk": "一",
+              "jyutping": "jat1",
+              "yale": "yāt",
+              "bopomofo": "ㄧㄜㆵ¹"
+            },
+            {
+              "cjk": "張",
+              "jyutping": "zoeng1",
+              "yale": "jēung",
+              "bopomofo": "ㄗㆦㄥ¹"
+            },
+            {
+              "cjk": "地圖",
+              "jyutping": "dei6 tou4",
+              "yale": "deih tòuh",
+              "bopomofo": "ㄉㄝㄧ⁶ ㄊㄛㄨ⁴"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [
@@ -2438,6 +3300,86 @@
               "jyutping": "bin1 dou6",
               "yale": "bīn douh",
               "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "我想返屋企。",
+          "jyutping": "ngo5 soeng2 faan1 uk1 kei2.",
+          "yale": "ngóh séung fāan ūk kéi.",
+          "bopomofo": "ㆭㄛ⁵ ㄙㆦㄥ² ㄈㄚㄣ¹ ㄨㆶ¹ ㄎㄝㄧ².",
+          "en": "I want to go home.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "想",
+              "jyutping": "soeng2",
+              "yale": "séung",
+              "bopomofo": "ㄙㆦㄥ²"
+            },
+            {
+              "cjk": "返",
+              "jyutping": "faan1",
+              "yale": "fāan",
+              "bopomofo": "ㄈㄚㄣ¹"
+            },
+            {
+              "cjk": "屋企",
+              "jyutping": "uk1 kei2",
+              "yale": "ūk kéi",
+              "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "你想食乜嘢呀？",
+          "jyutping": "nei5 soeng2 sik6 mat1 je5 aa3?",
+          "yale": "néih séung sihk māt yéh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㆦㄥ² ㄙㄧㆶ⁶ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³?",
+          "en": "What would you like to eat?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "想",
+              "jyutping": "soeng2",
+              "yale": "séung",
+              "bopomofo": "ㄙㆦㄥ²"
+            },
+            {
+              "cjk": "食",
+              "jyutping": "sik6",
+              "yale": "sihk",
+              "bopomofo": "ㄙㄧㆶ⁶"
+            },
+            {
+              "cjk": "乜嘢",
+              "jyutping": "mat1 je5",
+              "yale": "māt yéh",
+              "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
             },
             {
               "cjk": "呀",
@@ -2630,6 +3572,86 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "我要兩個菠蘿包。",
+          "jyutping": "ngo5 jiu3 loeng5 go3 bo1 lo4 baau1.",
+          "yale": "ngóh yiu léuhng go bō lòh bāau.",
+          "bopomofo": "ㆭㄛ⁵ ㄧㄨ³ ㄌㆦㄥ⁵ ㄍㄛ³ ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹.",
+          "en": "Two pineapple buns, please.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "要",
+              "jyutping": "jiu3",
+              "yale": "yiu",
+              "bopomofo": "ㄧㄨ³"
+            },
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            {
+              "cjk": "個",
+              "jyutping": "go3",
+              "yale": "go",
+              "bopomofo": "ㄍㄛ³"
+            },
+            {
+              "cjk": "菠蘿包",
+              "jyutping": "bo1 lo4 baau1",
+              "yale": "bō lòh bāau",
+              "bopomofo": "ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "我聽日要返工。",
+          "jyutping": "ngo5 ting1 jat6 jiu3 faan1 gung1.",
+          "yale": "ngóh tīng yaht yiu fāan gūng.",
+          "bopomofo": "ㆭㄛ⁵ ㄊㄧㄥ¹ ㄧㄜㆵ⁶ ㄧㄨ³ ㄈㄚㄣ¹ ㄍㄨㄥ¹.",
+          "en": "I have to work tomorrow.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "聽日",
+              "jyutping": "ting1 jat6",
+              "yale": "tīng yaht",
+              "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+            },
+            {
+              "cjk": "要",
+              "jyutping": "jiu3",
+              "yale": "yiu",
+              "bopomofo": "ㄧㄨ³"
+            },
+            {
+              "cjk": "返工",
+              "jyutping": "faan1 gung1",
+              "yale": "fāan gūng",
+              "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -2776,6 +3798,68 @@
               "jyutping": "gui6",
               "yale": "guih",
               "bopomofo": "ㄍㄨㄧ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "佢好高。",
+          "jyutping": "keoi5 hou2 gou1.",
+          "yale": "kéuih hóu gōu.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄏㄛㄨ² ㄍㄛㄨ¹.",
+          "en": "He's very tall.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "好",
+              "jyutping": "hou2",
+              "yale": "hóu",
+              "bopomofo": "ㄏㄛㄨ²"
+            },
+            {
+              "cjk": "高",
+              "jyutping": "gou1",
+              "yale": "gōu",
+              "bopomofo": "ㄍㄛㄨ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "港鐵好迫。",
+          "jyutping": "gong2 tit3 hou2 bik1.",
+          "yale": "góng tit hóu bīk.",
+          "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³ ㄏㄛㄨ² ㄅㄧㆶ¹.",
+          "en": "The MTR is really crowded.",
+          "tokens": [
+            {
+              "cjk": "港鐵",
+              "jyutping": "gong2 tit3",
+              "yale": "góng tit",
+              "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
+            },
+            {
+              "cjk": "好",
+              "jyutping": "hou2",
+              "yale": "hóu",
+              "bopomofo": "ㄏㄛㄨ²"
+            },
+            {
+              "cjk": "迫",
+              "jyutping": "bik1",
+              "yale": "bīk",
+              "bopomofo": "ㄅㄧㆶ¹"
             },
             {
               "cjk": "。",
@@ -2974,6 +4058,92 @@
               "jyutping": "gei1 coeng4",
               "yale": "gēi chèuhng",
               "bopomofo": "ㄍㄝㄧ¹ ㄘㆦㄥ⁴"
+            },
+            {
+              "cjk": "幾多錢",
+              "jyutping": "gei2 do1 cin2",
+              "yale": "géi dō chín",
+              "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "兩個蛋撻幾多錢呀？",
+          "jyutping": "loeng5 go3 daan6 taat1 gei2 do1 cin2 aa3?",
+          "yale": "léuhng go daahn tāat géi dō chín a?",
+          "bopomofo": "ㄌㆦㄥ⁵ ㄍㄛ³ ㄉㄚㄣ⁶ ㄊㄚㆵ¹ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much are two egg tarts?",
+          "tokens": [
+            {
+              "cjk": "兩",
+              "jyutping": "loeng5",
+              "yale": "léuhng",
+              "bopomofo": "ㄌㆦㄥ⁵"
+            },
+            {
+              "cjk": "個",
+              "jyutping": "go3",
+              "yale": "go",
+              "bopomofo": "ㄍㄛ³"
+            },
+            {
+              "cjk": "蛋撻",
+              "jyutping": "daan6 taat1",
+              "yale": "daahn tāat",
+              "bopomofo": "ㄉㄚㄣ⁶ ㄊㄚㆵ¹"
+            },
+            {
+              "cjk": "幾多錢",
+              "jyutping": "gei2 do1 cin2",
+              "yale": "géi dō chín",
+              "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "一張飛幾多錢呀？",
+          "jyutping": "jat1 zoeng1 fei1 gei2 do1 cin2 aa3?",
+          "yale": "yāt jēung fēi géi dō chín a?",
+          "bopomofo": "ㄧㄜㆵ¹ ㄗㆦㄥ¹ ㄈㄝㄧ¹ ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ² ㄚ³?",
+          "en": "How much is one ticket?",
+          "tokens": [
+            {
+              "cjk": "一",
+              "jyutping": "jat1",
+              "yale": "yāt",
+              "bopomofo": "ㄧㄜㆵ¹"
+            },
+            {
+              "cjk": "張",
+              "jyutping": "zoeng1",
+              "yale": "jēung",
+              "bopomofo": "ㄗㆦㄥ¹"
+            },
+            {
+              "cjk": "飛",
+              "jyutping": "fei1",
+              "yale": "fēi",
+              "bopomofo": "ㄈㄝㄧ¹"
             },
             {
               "cjk": "幾多錢",
@@ -3226,6 +4396,92 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "你做緊乜嘢呀？",
+          "jyutping": "nei5 zou6 gan2 mat1 je5 aa3?",
+          "yale": "néih jouh gán māt yéh a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄗㄛㄨ⁶ ㄍㄜㄣ² ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³?",
+          "en": "What are you doing?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "做",
+              "jyutping": "zou6",
+              "yale": "jouh",
+              "bopomofo": "ㄗㄛㄨ⁶"
+            },
+            {
+              "cjk": "緊",
+              "jyutping": "gan2",
+              "yale": "gán",
+              "bopomofo": "ㄍㄜㄣ²"
+            },
+            {
+              "cjk": "乜嘢",
+              "jyutping": "mat1 je5",
+              "yale": "māt yéh",
+              "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "你鍾意咩顏色呀？",
+          "jyutping": "nei5 zung1 ji3 me1 ngaan4 sik1 aa3?",
+          "yale": "néih jūng yi mē ngàahn sīk a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄗㄨㄥ¹ ㄧ³ ㄇㄝ¹ ㆭㄚㄣ⁴ ㄙㄧㆶ¹ ㄚ³?",
+          "en": "What colour do you like?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "鍾意",
+              "jyutping": "zung1 ji3",
+              "yale": "jūng yi",
+              "bopomofo": "ㄗㄨㄥ¹ ㄧ³"
+            },
+            {
+              "cjk": "咩",
+              "jyutping": "me1",
+              "yale": "mē",
+              "bopomofo": "ㄇㄝ¹"
+            },
+            {
+              "cjk": "顏色",
+              "jyutping": "ngaan4 sik1",
+              "yale": "ngàahn sīk",
+              "bopomofo": "ㆭㄚㄣ⁴ ㄙㄧㆶ¹"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
         }
       ],
       "mistakes": [
@@ -3461,6 +4717,86 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "港鐵站喺邊度呀？",
+          "jyutping": "gong2 tit3 zaam6 hai2 bin1 dou6 aa3?",
+          "yale": "góng tit jaahm hái bīn douh a?",
+          "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶ ㄏㄜㄧ² ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³?",
+          "en": "Where's the MTR station?",
+          "tokens": [
+            {
+              "cjk": "港鐵站",
+              "jyutping": "gong2 tit3 zaam6",
+              "yale": "góng tit jaahm",
+              "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶"
+            },
+            {
+              "cjk": "喺",
+              "jyutping": "hai2",
+              "yale": "hái",
+              "bopomofo": "ㄏㄜㄧ²"
+            },
+            {
+              "cjk": "邊度",
+              "jyutping": "bin1 dou6",
+              "yale": "bīn douh",
+              "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "邊個想飲咖啡呀？",
+          "jyutping": "bin1 go3 soeng2 jam2 gaa3 fe1 aa3?",
+          "yale": "bīn go séung yám ga fē a?",
+          "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³ ㄙㆦㄥ² ㄧㄜㆬ² ㄍㄚ³ ㄈㄝ¹ ㄚ³?",
+          "en": "Who'd like a coffee?",
+          "tokens": [
+            {
+              "cjk": "邊個",
+              "jyutping": "bin1 go3",
+              "yale": "bīn go",
+              "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+            },
+            {
+              "cjk": "想",
+              "jyutping": "soeng2",
+              "yale": "séung",
+              "bopomofo": "ㄙㆦㄥ²"
+            },
+            {
+              "cjk": "飲",
+              "jyutping": "jam2",
+              "yale": "yám",
+              "bopomofo": "ㄧㄜㆬ²"
+            },
+            {
+              "cjk": "咖啡",
+              "jyutping": "gaa3 fe1",
+              "yale": "ga fē",
+              "bopomofo": "ㄍㄚ³ ㄈㄝ¹"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -3661,6 +4997,86 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "你幾時得閒呀？",
+          "jyutping": "nei5 gei2 si4 dak1 haan4 aa3?",
+          "yale": "néih géi sìh dāk hàahn a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄍㄝㄧ² ㄙㄧ⁴ ㄉㄜㆶ¹ ㄏㄚㄣ⁴ ㄚ³?",
+          "en": "When are you free?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "幾時",
+              "jyutping": "gei2 si4",
+              "yale": "géi sìh",
+              "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+            },
+            {
+              "cjk": "得閒",
+              "jyutping": "dak1 haan4",
+              "yale": "dāk hàahn",
+              "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "架巴士幾時到呀？",
+          "jyutping": "gaa3 baa1 si2 gei2 si4 dou3 aa3?",
+          "yale": "ga bā sí géi sìh dou a?",
+          "bopomofo": "ㄍㄚ³ ㄅㄚ¹ ㄙㄧ² ㄍㄝㄧ² ㄙㄧ⁴ ㄉㄛㄨ³ ㄚ³?",
+          "en": "When does the bus get here?",
+          "tokens": [
+            {
+              "cjk": "架",
+              "jyutping": "gaa3",
+              "yale": "ga",
+              "bopomofo": "ㄍㄚ³"
+            },
+            {
+              "cjk": "巴士",
+              "jyutping": "baa1 si2",
+              "yale": "bā sí",
+              "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+            },
+            {
+              "cjk": "幾時",
+              "jyutping": "gei2 si4",
+              "yale": "géi sìh",
+              "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+            },
+            {
+              "cjk": "到",
+              "jyutping": "dou3",
+              "yale": "dou",
+              "bopomofo": "ㄉㄛㄨ³"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -3829,6 +5245,80 @@
               "punctuation": "!"
             }
           ]
+        },
+        {
+          "cjk": "你食咗飯未呀？",
+          "jyutping": "nei5 sik6 zo2 faan6 mei6 aa3?",
+          "yale": "néih sihk jó faahn meih a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄗㄛ² ㄈㄚㄣ⁶ ㄇㄝㄧ⁶ ㄚ³?",
+          "en": "Have you eaten yet?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "食",
+              "jyutping": "sik6",
+              "yale": "sihk",
+              "bopomofo": "ㄙㄧㆶ⁶"
+            },
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            {
+              "cjk": "飯",
+              "jyutping": "faan6",
+              "yale": "faahn",
+              "bopomofo": "ㄈㄚㄣ⁶"
+            },
+            {
+              "cjk": "未",
+              "jyutping": "mei6",
+              "yale": "meih",
+              "bopomofo": "ㄇㄝㄧ⁶"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "冇問題呀。",
+          "jyutping": "mou5 man6 tai4 aa3.",
+          "yale": "móuh mahn tàih a.",
+          "bopomofo": "ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ ㄚ³.",
+          "en": "No problem.",
+          "tokens": [
+            {
+              "cjk": "冇問題",
+              "jyutping": "mou5 man6 tai4",
+              "yale": "móuh mahn tàih",
+              "bopomofo": "ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -3966,6 +5456,80 @@
             {
               "cjk": "！",
               "punctuation": "!"
+            }
+          ]
+        },
+        {
+          "cjk": "一齊食飯啦。",
+          "jyutping": "jat1 cai4 sik6 faan6 laa1.",
+          "yale": "yāt chàih sihk faahn lā.",
+          "bopomofo": "ㄧㄜㆵ¹ ㄘㄜㄧ⁴ ㄙㄧㆶ⁶ ㄈㄚㄣ⁶ ㄌㄚ¹.",
+          "en": "Let's eat together.",
+          "tokens": [
+            {
+              "cjk": "一齊",
+              "jyutping": "jat1 cai4",
+              "yale": "yāt chàih",
+              "bopomofo": "ㄧㄜㆵ¹ ㄘㄜㄧ⁴"
+            },
+            {
+              "cjk": "食飯",
+              "jyutping": "sik6 faan6",
+              "yale": "sihk faahn",
+              "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+            },
+            {
+              "cjk": "啦",
+              "jyutping": "laa1",
+              "yale": "lā",
+              "bopomofo": "ㄌㄚ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "你食多啲啦。",
+          "jyutping": "nei5 sik6 do1 di1 laa1.",
+          "yale": "néih sihk dō dī lā.",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄉㄛ¹ ㄉㄧ¹ ㄌㄚ¹.",
+          "en": "Have some more.",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "食",
+              "jyutping": "sik6",
+              "yale": "sihk",
+              "bopomofo": "ㄙㄧㆶ⁶"
+            },
+            {
+              "cjk": "多",
+              "jyutping": "do1",
+              "yale": "dō",
+              "bopomofo": "ㄉㄛ¹"
+            },
+            {
+              "cjk": "啲",
+              "jyutping": "di1",
+              "yale": "dī",
+              "bopomofo": "ㄉㄧ¹"
+            },
+            {
+              "cjk": "啦",
+              "jyutping": "laa1",
+              "yale": "lā",
+              "bopomofo": "ㄌㄚ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
             }
           ]
         }
@@ -4146,6 +5710,86 @@
               "jyutping": "man6 tai4",
               "yale": "mahn tàih",
               "bopomofo": "ㄇㄜㄣ⁶ ㄊㄜㄧ⁴"
+            },
+            {
+              "cjk": "嗎",
+              "jyutping": "maa3",
+              "yale": "ma",
+              "bopomofo": "ㄇㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "你識講廣東話嗎？",
+          "jyutping": "nei5 sik1 gong2 gwong2 dung1 waa2 maa3?",
+          "yale": "néih sīk góng gwóng dūng wá ma?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄙㄧㆶ¹ ㄍㄛㄥ² ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ² ㄇㄚ³?",
+          "en": "Can you speak Cantonese?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "識",
+              "jyutping": "sik1",
+              "yale": "sīk",
+              "bopomofo": "ㄙㄧㆶ¹"
+            },
+            {
+              "cjk": "講",
+              "jyutping": "gong2",
+              "yale": "góng",
+              "bopomofo": "ㄍㄛㄥ²"
+            },
+            {
+              "cjk": "廣東話",
+              "jyutping": "gwong2 dung1 waa2",
+              "yale": "gwóng dūng wá",
+              "bopomofo": "ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²"
+            },
+            {
+              "cjk": "嗎",
+              "jyutping": "maa3",
+              "yale": "ma",
+              "bopomofo": "ㄇㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "呢度可以坐嗎？",
+          "jyutping": "ni1 dou6 ho2 ji5 co5 maa3?",
+          "yale": "nī douh hó yíh chóh ma?",
+          "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶ ㄏㄛ² ㄧ⁵ ㄘㄛ⁵ ㄇㄚ³?",
+          "en": "Can I sit here?",
+          "tokens": [
+            {
+              "cjk": "呢度",
+              "jyutping": "ni1 dou6",
+              "yale": "nī douh",
+              "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶"
+            },
+            {
+              "cjk": "可以",
+              "jyutping": "ho2 ji5",
+              "yale": "hó yíh",
+              "bopomofo": "ㄏㄛ² ㄧ⁵"
+            },
+            {
+              "cjk": "坐",
+              "jyutping": "co5",
+              "yale": "chóh",
+              "bopomofo": "ㄘㄛ⁵"
             },
             {
               "cjk": "嗎",
@@ -4350,6 +5994,98 @@
               "punctuation": "?"
             }
           ]
+        },
+        {
+          "cjk": "我同屋企人住。",
+          "jyutping": "ngo5 tung4 uk1 kei2 jan4 zyu6.",
+          "yale": "ngóh tùhng ūk kéi yàhn jyuh.",
+          "bopomofo": "ㆭㄛ⁵ ㄊㄨㄥ⁴ ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴ ㄗㄩ⁶.",
+          "en": "I live with my family.",
+          "tokens": [
+            {
+              "cjk": "我",
+              "jyutping": "ngo5",
+              "yale": "ngóh",
+              "bopomofo": "ㆭㄛ⁵"
+            },
+            {
+              "cjk": "同",
+              "jyutping": "tung4",
+              "yale": "tùhng",
+              "bopomofo": "ㄊㄨㄥ⁴"
+            },
+            {
+              "cjk": "屋企人",
+              "jyutping": "uk1 kei2 jan4",
+              "yale": "ūk kéi yàhn",
+              "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴"
+            },
+            {
+              "cjk": "住",
+              "jyutping": "zyu6",
+              "yale": "jyuh",
+              "bopomofo": "ㄗㄩ⁶"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "佢同佢老公去咗日本。",
+          "jyutping": "keoi5 tung4 keoi5 lou5 gung1 heoi3 zo2 jat6 bun2.",
+          "yale": "kéuih tùhng kéuih lóuh gūng heui jó yaht bún.",
+          "bopomofo": "ㄎㆤㄧ⁵ ㄊㄨㄥ⁴ ㄎㆤㄧ⁵ ㄌㄛㄨ⁵ ㄍㄨㄥ¹ ㄏㆤㄧ³ ㄗㄛ² ㄧㄜㆵ⁶ ㄅㄨㄣ².",
+          "en": "She went to Japan with her husband.",
+          "tokens": [
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "同",
+              "jyutping": "tung4",
+              "yale": "tùhng",
+              "bopomofo": "ㄊㄨㄥ⁴"
+            },
+            {
+              "cjk": "佢",
+              "jyutping": "keoi5",
+              "yale": "kéuih",
+              "bopomofo": "ㄎㆤㄧ⁵"
+            },
+            {
+              "cjk": "老公",
+              "jyutping": "lou5 gung1",
+              "yale": "lóuh gūng",
+              "bopomofo": "ㄌㄛㄨ⁵ ㄍㄨㄥ¹"
+            },
+            {
+              "cjk": "去",
+              "jyutping": "heoi3",
+              "yale": "heui",
+              "bopomofo": "ㄏㆤㄧ³"
+            },
+            {
+              "cjk": "咗",
+              "jyutping": "zo2",
+              "yale": "jó",
+              "bopomofo": "ㄗㄛ²"
+            },
+            {
+              "cjk": "日本",
+              "jyutping": "jat6 bun2",
+              "yale": "yaht bún",
+              "bopomofo": "ㄧㄜㆵ⁶ ㄅㄨㄣ²"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
         }
       ],
       "mistakes": [],
@@ -4482,6 +6218,68 @@
               "jyutping": "zi1",
               "yale": "jī",
               "bopomofo": "ㄗㄧ¹"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "唔好遲到呀。",
+          "jyutping": "m4 hou2 ci4 dou3 aa3.",
+          "yale": "m̀h hóu chìh dou a.",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄨ² ㄘㄧ⁴ ㄉㄛㄨ³ ㄚ³.",
+          "en": "Don't be late.",
+          "tokens": [
+            {
+              "cjk": "唔好",
+              "jyutping": "m4 hou2",
+              "yale": "m̀h hóu",
+              "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+            },
+            {
+              "cjk": "遲到",
+              "jyutping": "ci4 dou3",
+              "yale": "chìh dou",
+              "bopomofo": "ㄘㄧ⁴ ㄉㄛㄨ³"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "。",
+              "punctuation": "."
+            }
+          ]
+        },
+        {
+          "cjk": "唔好咁大聲。",
+          "jyutping": "m4 hou2 gam3 daai6 seng1.",
+          "yale": "m̀h hóu gam daaih sēng.",
+          "bopomofo": "ㆬ⁴ ㄏㄛㄨ² ㄍㄜㆬ³ ㄉㄚㄧ⁶ ㄙㄝㄥ¹.",
+          "en": "Don't be so loud.",
+          "tokens": [
+            {
+              "cjk": "唔好",
+              "jyutping": "m4 hou2",
+              "yale": "m̀h hóu",
+              "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+            },
+            {
+              "cjk": "咁",
+              "jyutping": "gam3",
+              "yale": "gam",
+              "bopomofo": "ㄍㄜㆬ³"
+            },
+            {
+              "cjk": "大聲",
+              "jyutping": "daai6 seng1",
+              "yale": "daaih sēng",
+              "bopomofo": "ㄉㄚㄧ⁶ ㄙㄝㄥ¹"
             },
             {
               "cjk": "。",
@@ -4703,6 +6501,110 @@
               "jyutping": "hok6 saang1",
               "yale": "hohk sāang",
               "bopomofo": "ㄏㄛㆶ⁶ ㄙㄚㄥ¹"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "你今日定係聽日得閒呀？",
+          "jyutping": "nei5 gam1 jat6 ding6 hai6 ting1 jat6 dak1 haan4 aa3?",
+          "yale": "néih gām yaht dihng haih tīng yaht dāk hàahn a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄊㄧㄥ¹ ㄧㄜㆵ⁶ ㄉㄜㆶ¹ ㄏㄚㄣ⁴ ㄚ³?",
+          "en": "Are you free today or tomorrow?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "今日",
+              "jyutping": "gam1 jat6",
+              "yale": "gām yaht",
+              "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+            },
+            {
+              "cjk": "定係",
+              "jyutping": "ding6 hai6",
+              "yale": "dihng haih",
+              "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "聽日",
+              "jyutping": "ting1 jat6",
+              "yale": "tīng yaht",
+              "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+            },
+            {
+              "cjk": "得閒",
+              "jyutping": "dak1 haan4",
+              "yale": "dāk hàahn",
+              "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+            },
+            {
+              "cjk": "呀",
+              "jyutping": "aa3",
+              "yale": "a",
+              "bopomofo": "ㄚ³"
+            },
+            {
+              "cjk": "？",
+              "punctuation": "?"
+            }
+          ]
+        },
+        {
+          "cjk": "你搭巴士定係搭港鐵呀？",
+          "jyutping": "nei5 daap3 baa1 si2 ding6 hai6 daap3 gong2 tit3 aa3?",
+          "yale": "néih daap bā sí dihng haih daap góng tit a?",
+          "bopomofo": "ㄋㄝㄧ⁵ ㄉㄚㆴ³ ㄅㄚ¹ ㄙㄧ² ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄉㄚㆴ³ ㄍㄛㄥ² ㄊㄧㆵ³ ㄚ³?",
+          "en": "Are you taking the bus or the MTR?",
+          "tokens": [
+            {
+              "cjk": "你",
+              "jyutping": "nei5",
+              "yale": "néih",
+              "bopomofo": "ㄋㄝㄧ⁵"
+            },
+            {
+              "cjk": "搭",
+              "jyutping": "daap3",
+              "yale": "daap",
+              "bopomofo": "ㄉㄚㆴ³"
+            },
+            {
+              "cjk": "巴士",
+              "jyutping": "baa1 si2",
+              "yale": "bā sí",
+              "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+            },
+            {
+              "cjk": "定係",
+              "jyutping": "ding6 hai6",
+              "yale": "dihng haih",
+              "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+            },
+            {
+              "cjk": "搭",
+              "jyutping": "daap3",
+              "yale": "daap",
+              "bopomofo": "ㄉㄚㆴ³"
+            },
+            {
+              "cjk": "港鐵",
+              "jyutping": "gong2 tit3",
+              "yale": "góng tit",
+              "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
             },
             {
               "cjk": "呀",
@@ -21788,6 +23690,120 @@
         ]
       },
       {
+        "id": "hai6-copula:3",
+        "patternId": "hai6-copula",
+        "level": "A1",
+        "en": "She's a doctor.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "醫生",
+            "jyutping": "ji1 sang1",
+            "yale": "yī sāng",
+            "bopomofo": "ㄧ¹ ㄙㄜㄥ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          }
+        ]
+      },
+      {
+        "id": "hai6-copula:4",
+        "patternId": "hai6-copula",
+        "level": "A1",
+        "en": "Today is Saturday.",
+        "tokens": [
+          {
+            "cjk": "今日",
+            "jyutping": "gam1 jat6",
+            "yale": "gām yaht",
+            "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "星期六",
+            "jyutping": "sing1 kei4 luk6",
+            "yale": "sīng kèih luhk",
+            "bopomofo": "ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄌㄨㆶ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          }
+        ]
+      },
+      {
         "id": "m4-negation:0",
         "patternId": "m4-negation",
         "level": "A1",
@@ -21967,6 +23983,138 @@
             "jyutping": "mei6",
             "yale": "meih",
             "bopomofo": "ㄇㄝㄧ⁶"
+          }
+        ]
+      },
+      {
+        "id": "m4-negation:3",
+        "patternId": "m4-negation",
+        "level": "A1",
+        "en": "I don't drink alcohol.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "飲",
+            "jyutping": "jam2",
+            "yale": "yám",
+            "bopomofo": "ㄧㄜㆬ²"
+          },
+          {
+            "cjk": "酒",
+            "jyutping": "zau2",
+            "yale": "jáu",
+            "bopomofo": "ㄗㄜㄨ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          }
+        ]
+      },
+      {
+        "id": "m4-negation:4",
+        "patternId": "m4-negation",
+        "level": "A1",
+        "en": "This restaurant isn't expensive.",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          },
+          {
+            "cjk": "餐廳",
+            "jyutping": "caan1 teng1",
+            "yale": "chāan tēng",
+            "bopomofo": "ㄘㄚㄣ¹ ㄊㄝㄥ¹"
+          },
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "貴",
+            "jyutping": "gwai3",
+            "yale": "gwai",
+            "bopomofo": "ㄍㄨㄜㄧ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 3,
+        "options": [
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "太",
+            "jyutping": "taai3",
+            "yale": "taai",
+            "bopomofo": "ㄊㄚㄧ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
           }
         ]
       },
@@ -22154,6 +24302,132 @@
         ]
       },
       {
+        "id": "jau5-mou5:3",
+        "patternId": "jau5-mou5",
+        "level": "A1",
+        "en": "I haven't got any money.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "錢",
+            "jyutping": "cin2",
+            "yale": "chín",
+            "bopomofo": "ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "未",
+            "jyutping": "mei6",
+            "yale": "meih",
+            "bopomofo": "ㄇㄝㄧ⁶"
+          }
+        ]
+      },
+      {
+        "id": "jau5-mou5:4",
+        "patternId": "jau5-mou5",
+        "level": "A1",
+        "en": "She has two children.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "細路",
+            "jyutping": "sai3 lou6",
+            "yale": "sai louh",
+            "bopomofo": "ㄙㄜㄧ³ ㄌㄛㄨ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          }
+        ]
+      },
+      {
         "id": "jau5-mou5-question:0",
         "patternId": "jau5-mou5-question",
         "level": "A1",
@@ -22327,6 +24601,126 @@
             "jyutping": "gei2 do1",
             "yale": "géi dō",
             "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹"
+          },
+          {
+            "cjk": "點解",
+            "jyutping": "dim2 gaai2",
+            "yale": "dím gáai",
+            "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "jau5-mou5-question:3",
+        "patternId": "jau5-mou5-question",
+        "level": "A1",
+        "en": "Have you got time?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "時間",
+            "jyutping": "si4 gaan3",
+            "yale": "sìh gaan",
+            "bopomofo": "ㄙㄧ⁴ ㄍㄚㄣ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "係唔係",
+            "jyutping": "hai6 m4 hai6",
+            "yale": "haih m̀h haih",
+            "bopomofo": "ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "幾多",
+            "jyutping": "gei2 do1",
+            "yale": "géi dō",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          }
+        ]
+      },
+      {
+        "id": "jau5-mou5-question:4",
+        "patternId": "jau5-mou5-question",
+        "level": "A1",
+        "en": "Do you have a small size?",
+        "tokens": [
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "細碼",
+            "jyutping": "sai3 maa5",
+            "yale": "sai máh",
+            "bopomofo": "ㄙㄜㄧ³ ㄇㄚ⁵"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "係唔係",
+            "jyutping": "hai6 m4 hai6",
+            "yale": "haih m̀h haih",
+            "bopomofo": "ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
           },
           {
             "cjk": "點解",
@@ -22544,6 +24938,132 @@
         ]
       },
       {
+        "id": "zo2-completed:3",
+        "patternId": "zo2-completed",
+        "level": "A1",
+        "en": "I took a taxi.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "的士",
+            "jyutping": "dik1 si2",
+            "yale": "dīk sí",
+            "bopomofo": "ㄉㄧㆶ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "住",
+            "jyutping": "zyu6",
+            "yale": "jyuh",
+            "bopomofo": "ㄗㄩ⁶"
+          },
+          {
+            "cjk": "吓",
+            "jyutping": "haa5",
+            "yale": "háh",
+            "bopomofo": "ㄏㄚ⁵"
+          }
+        ]
+      },
+      {
+        "id": "zo2-completed:4",
+        "patternId": "zo2-completed",
+        "level": "A1",
+        "en": "I've arrived.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "到",
+            "jyutping": "dou3",
+            "yale": "dou",
+            "bopomofo": "ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "喇",
+            "jyutping": "laa3",
+            "yale": "la",
+            "bopomofo": "ㄌㄚ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "過",
+            "jyutping": "gwo3",
+            "yale": "gwo",
+            "bopomofo": "ㄍㄨㄛ³"
+          },
+          {
+            "cjk": "吓",
+            "jyutping": "haa5",
+            "yale": "háh",
+            "bopomofo": "ㄏㄚ⁵"
+          }
+        ]
+      },
+      {
         "id": "gan2-progressive:0",
         "patternId": "gan2-progressive",
         "level": "A1",
@@ -22698,6 +25218,132 @@
             "jyutping": "jyu5",
             "yale": "yúh",
             "bopomofo": "ㄩ⁵"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "過",
+            "jyutping": "gwo3",
+            "yale": "gwo",
+            "bopomofo": "ㄍㄨㄛ³"
+          },
+          {
+            "cjk": "吓",
+            "jyutping": "haa5",
+            "yale": "háh",
+            "bopomofo": "ㄏㄚ⁵"
+          }
+        ]
+      },
+      {
+        "id": "gan2-progressive:3",
+        "patternId": "gan2-progressive",
+        "level": "A1",
+        "en": "They're in a meeting.",
+        "tokens": [
+          {
+            "cjk": "佢哋",
+            "jyutping": "keoi5 dei6",
+            "yale": "kéuih deih",
+            "bopomofo": "ㄎㆤㄧ⁵ ㄉㄝㄧ⁶"
+          },
+          {
+            "cjk": "開",
+            "jyutping": "hoi1",
+            "yale": "hōi",
+            "bopomofo": "ㄏㄛㄧ¹"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "會",
+            "jyutping": "wui2",
+            "yale": "wúi",
+            "bopomofo": "ㄨㄨㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "過",
+            "jyutping": "gwo3",
+            "yale": "gwo",
+            "bopomofo": "ㄍㄨㄛ³"
+          },
+          {
+            "cjk": "吓",
+            "jyutping": "haa5",
+            "yale": "háh",
+            "bopomofo": "ㄏㄚ⁵"
+          }
+        ]
+      },
+      {
+        "id": "gan2-progressive:4",
+        "patternId": "gan2-progressive",
+        "level": "A1",
+        "en": "I'm waiting for the bus.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "等",
+            "jyutping": "dang2",
+            "yale": "dáng",
+            "bopomofo": "ㄉㄜㄥ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
           },
           {
             "cjk": "。",
@@ -22970,6 +25616,156 @@
         ]
       },
       {
+        "id": "ge3-possessive:3",
+        "patternId": "ge3-possessive",
+        "level": "A1",
+        "en": "Whose umbrella is this?",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "把",
+            "jyutping": "baa2",
+            "yale": "bá",
+            "bopomofo": "ㄅㄚ²"
+          },
+          {
+            "cjk": "遮",
+            "jyutping": "ze1",
+            "yale": "jē",
+            "bopomofo": "ㄗㄝ¹"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 5,
+        "options": [
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          }
+        ]
+      },
+      {
+        "id": "ge3-possessive:4",
+        "patternId": "ge3-possessive",
+        "level": "A1",
+        "en": "My phone's battery is dead.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "手機",
+            "jyutping": "sau2 gei1",
+            "yale": "sáu gēi",
+            "bopomofo": "ㄙㄜㄨ² ㄍㄝㄧ¹"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "電",
+            "jyutping": "din6",
+            "yale": "dihn",
+            "bopomofo": "ㄉㄧㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          }
+        ]
+      },
+      {
         "id": "hai2-location:0",
         "patternId": "hai2-location",
         "level": "A1",
@@ -23118,6 +25914,132 @@
             "jyutping": "sik6 faan6",
             "yale": "sihk faahn",
             "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          }
+        ]
+      },
+      {
+        "id": "hai2-location:3",
+        "patternId": "hai2-location",
+        "level": "A1",
+        "en": "She's at home.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "屋企",
+            "jyutping": "uk1 kei2",
+            "yale": "ūk kéi",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "去",
+            "jyutping": "heoi3",
+            "yale": "heui",
+            "bopomofo": "ㄏㆤㄧ³"
+          }
+        ]
+      },
+      {
+        "id": "hai2-location:4",
+        "patternId": "hai2-location",
+        "level": "A1",
+        "en": "We'll wait for you in Tsim Sha Tsui.",
+        "tokens": [
+          {
+            "cjk": "我哋",
+            "jyutping": "ngo5 dei6",
+            "yale": "ngóh deih",
+            "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "尖沙咀",
+            "jyutping": "zim1 saa1 zeoi2",
+            "yale": "jīm sā jéui",
+            "bopomofo": "ㄗㄧㆬ¹ ㄙㄚ¹ ㄗㆤㄧ²"
+          },
+          {
+            "cjk": "等",
+            "jyutping": "dang2",
+            "yale": "dáng",
+            "bopomofo": "ㄉㄜㄥ²"
+          },
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
           },
           {
             "cjk": "。",
@@ -23313,6 +26235,150 @@
             "jyutping": "ceot1 meng2",
             "yale": "chēut méng",
             "bopomofo": "ㄘㆤㆵ¹ ㄇㄝㄥ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "嗰",
+            "jyutping": "go2",
+            "yale": "gó",
+            "bopomofo": "ㄍㄛ²"
+          },
+          {
+            "cjk": "邊",
+            "jyutping": "bin1",
+            "yale": "bīn",
+            "bopomofo": "ㄅㄧㄣ¹"
+          },
+          {
+            "cjk": "幾",
+            "jyutping": "gei2",
+            "yale": "géi",
+            "bopomofo": "ㄍㄝㄧ²"
+          },
+          {
+            "cjk": "乜",
+            "jyutping": "mat1",
+            "yale": "māt",
+            "bopomofo": "ㄇㄜㆵ¹"
+          }
+        ]
+      },
+      {
+        "id": "ni1-go2-demonstratives:3",
+        "patternId": "ni1-go2-demonstratives",
+        "level": "A1",
+        "en": "This computer is very slow.",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          },
+          {
+            "cjk": "電腦",
+            "jyutping": "din6 nou5",
+            "yale": "dihn nóuh",
+            "bopomofo": "ㄉㄧㄣ⁶ ㄋㄛㄨ⁵"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "慢",
+            "jyutping": "maan6",
+            "yale": "maahn",
+            "bopomofo": "ㄇㄚㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "邊",
+            "jyutping": "bin1",
+            "yale": "bīn",
+            "bopomofo": "ㄅㄧㄣ¹"
+          },
+          {
+            "cjk": "幾",
+            "jyutping": "gei2",
+            "yale": "géi",
+            "bopomofo": "ㄍㄝㄧ²"
+          },
+          {
+            "cjk": "乜",
+            "jyutping": "mat1",
+            "yale": "māt",
+            "bopomofo": "ㄇㄜㆵ¹"
+          }
+        ]
+      },
+      {
+        "id": "ni1-go2-demonstratives:4",
+        "patternId": "ni1-go2-demonstratives",
+        "level": "A1",
+        "en": "That person is my boss.",
+        "tokens": [
+          {
+            "cjk": "嗰",
+            "jyutping": "go2",
+            "yale": "gó",
+            "bopomofo": "ㄍㄛ²"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "人",
+            "jyutping": "jan4",
+            "yale": "yàhn",
+            "bopomofo": "ㄧㄜㄣ⁴"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "老細",
+            "jyutping": "lou5 sai3",
+            "yale": "lóuh sai",
+            "bopomofo": "ㄌㄛㄨ⁵ ㄙㄜㄧ³"
           },
           {
             "cjk": "。",
@@ -23567,6 +26633,156 @@
         ]
       },
       {
+        "id": "number-classifier:3",
+        "patternId": "number-classifier",
+        "level": "A1",
+        "en": "She bought three pairs of shoes.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "買",
+            "jyutping": "maai5",
+            "yale": "máaih",
+            "bopomofo": "ㄇㄚㄧ⁵"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "三",
+            "jyutping": "saam1",
+            "yale": "sāam",
+            "bopomofo": "ㄙㄚㆬ¹"
+          },
+          {
+            "cjk": "對",
+            "jyutping": "deoi3",
+            "yale": "deui",
+            "bopomofo": "ㄉㆤㄧ³"
+          },
+          {
+            "cjk": "鞋",
+            "jyutping": "haai4",
+            "yale": "hàaih",
+            "bopomofo": "ㄏㄚㄧ⁴"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 4,
+        "options": [
+          {
+            "cjk": "對",
+            "jyutping": "deoi3",
+            "yale": "deui",
+            "bopomofo": "ㄉㆤㄧ³"
+          },
+          {
+            "cjk": "杯",
+            "jyutping": "bui1",
+            "yale": "būi",
+            "bopomofo": "ㄅㄨㄧ¹"
+          },
+          {
+            "cjk": "本",
+            "jyutping": "bun2",
+            "yale": "bún",
+            "bopomofo": "ㄅㄨㄣ²"
+          },
+          {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          }
+        ]
+      },
+      {
+        "id": "number-classifier:4",
+        "patternId": "number-classifier",
+        "level": "A1",
+        "en": "I'd like a map.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
+          },
+          {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          },
+          {
+            "cjk": "地圖",
+            "jyutping": "dei6 tou4",
+            "yale": "deih tòuh",
+            "bopomofo": "ㄉㄝㄧ⁶ ㄊㄛㄨ⁴"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 4,
+        "options": [
+          {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          },
+          {
+            "cjk": "杯",
+            "jyutping": "bui1",
+            "yale": "būi",
+            "bopomofo": "ㄅㄨㄧ¹"
+          },
+          {
+            "cjk": "本",
+            "jyutping": "bun2",
+            "yale": "bún",
+            "bopomofo": "ㄅㄨㄣ²"
+          },
+          {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          }
+        ]
+      },
+      {
         "id": "soeng2-want:0",
         "patternId": "soeng2-want",
         "level": "A1",
@@ -23762,6 +26978,138 @@
         ]
       },
       {
+        "id": "soeng2-want:3",
+        "patternId": "soeng2-want",
+        "level": "A1",
+        "en": "I want to go home.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "返",
+            "jyutping": "faan1",
+            "yale": "fāan",
+            "bopomofo": "ㄈㄚㄣ¹"
+          },
+          {
+            "cjk": "屋企",
+            "jyutping": "uk1 kei2",
+            "yale": "ūk kéi",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "識",
+            "jyutping": "sik1",
+            "yale": "sīk",
+            "bopomofo": "ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "試",
+            "jyutping": "si3",
+            "yale": "si",
+            "bopomofo": "ㄙㄧ³"
+          }
+        ]
+      },
+      {
+        "id": "soeng2-want:4",
+        "patternId": "soeng2-want",
+        "level": "A1",
+        "en": "What would you like to eat?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "識",
+            "jyutping": "sik1",
+            "yale": "sīk",
+            "bopomofo": "ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          }
+        ]
+      },
+      {
         "id": "jiu3-want-need:0",
         "patternId": "jiu3-want-need",
         "level": "A1",
@@ -23866,6 +27214,138 @@
           }
         ],
         "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "識",
+            "jyutping": "sik1",
+            "yale": "sīk",
+            "bopomofo": "ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "試",
+            "jyutping": "si3",
+            "yale": "si",
+            "bopomofo": "ㄙㄧ³"
+          }
+        ]
+      },
+      {
+        "id": "jiu3-want-need:3",
+        "patternId": "jiu3-want-need",
+        "level": "A1",
+        "en": "Two pineapple buns, please.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "菠蘿包",
+            "jyutping": "bo1 lo4 baau1",
+            "yale": "bō lòh bāau",
+            "bopomofo": "ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "jiu3-want-need:4",
+        "patternId": "jiu3-want-need",
+        "level": "A1",
+        "en": "I have to work tomorrow.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "聽日",
+            "jyutping": "ting1 jat6",
+            "yale": "tīng yaht",
+            "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "返工",
+            "jyutping": "faan1 gung1",
+            "yale": "fāan gūng",
+            "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
         "options": [
           {
             "cjk": "要",
@@ -24042,6 +27522,120 @@
             "jyutping": "gui6",
             "yale": "guih",
             "bopomofo": "ㄍㄨㄧ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "太",
+            "jyutping": "taai3",
+            "yale": "taai",
+            "bopomofo": "ㄊㄚㄧ³"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "最",
+            "jyutping": "zeoi3",
+            "yale": "jeui",
+            "bopomofo": "ㄗㆤㄧ³"
+          }
+        ]
+      },
+      {
+        "id": "hou2-very:3",
+        "patternId": "hou2-very",
+        "level": "A1",
+        "en": "He's very tall.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "高",
+            "jyutping": "gou1",
+            "yale": "gōu",
+            "bopomofo": "ㄍㄛㄨ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "太",
+            "jyutping": "taai3",
+            "yale": "taai",
+            "bopomofo": "ㄊㄚㄧ³"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "最",
+            "jyutping": "zeoi3",
+            "yale": "jeui",
+            "bopomofo": "ㄗㆤㄧ³"
+          }
+        ]
+      },
+      {
+        "id": "hou2-very:4",
+        "patternId": "hou2-very",
+        "level": "A1",
+        "en": "The MTR is really crowded.",
+        "tokens": [
+          {
+            "cjk": "港鐵",
+            "jyutping": "gong2 tit3",
+            "yale": "góng tit",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "迫",
+            "jyutping": "bik1",
+            "yale": "bīk",
+            "bopomofo": "ㄅㄧㆶ¹"
           },
           {
             "cjk": "。",
@@ -24278,6 +27872,144 @@
         ]
       },
       {
+        "id": "gei2-do1-cin2:3",
+        "patternId": "gei2-do1-cin2",
+        "level": "A1",
+        "en": "How much are two egg tarts?",
+        "tokens": [
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "蛋撻",
+            "jyutping": "daan6 taat1",
+            "yale": "daahn tāat",
+            "bopomofo": "ㄉㄚㄣ⁶ ㄊㄚㆵ¹"
+          },
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 3,
+        "options": [
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "點解",
+            "jyutping": "dim2 gaai2",
+            "yale": "dím gáai",
+            "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "gei2-do1-cin2:4",
+        "patternId": "gei2-do1-cin2",
+        "level": "A1",
+        "en": "How much is one ticket?",
+        "tokens": [
+          {
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
+          },
+          {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          },
+          {
+            "cjk": "飛",
+            "jyutping": "fei1",
+            "yale": "fēi",
+            "bopomofo": "ㄈㄝㄧ¹"
+          },
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 3,
+        "options": [
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "點解",
+            "jyutping": "dim2 gaai2",
+            "yale": "dím gáai",
+            "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+          }
+        ]
+      },
+      {
         "id": "mat1-je5-what:0",
         "patternId": "mat1-je5-what",
         "level": "A1",
@@ -24475,6 +28207,144 @@
             "jyutping": "dim2 gaai2",
             "yale": "dím gáai",
             "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "mat1-je5-what:3",
+        "patternId": "mat1-je5-what",
+        "level": "A1",
+        "en": "What are you doing?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "做",
+            "jyutping": "zou6",
+            "yale": "jouh",
+            "bopomofo": "ㄗㄛㄨ⁶"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 3,
+        "options": [
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "點解",
+            "jyutping": "dim2 gaai2",
+            "yale": "dím gáai",
+            "bopomofo": "ㄉㄧㆬ² ㄍㄚㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "mat1-je5-what:4",
+        "patternId": "mat1-je5-what",
+        "level": "A1",
+        "en": "What colour do you like?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "鍾意",
+            "jyutping": "zung1 ji3",
+            "yale": "jūng yi",
+            "bopomofo": "ㄗㄨㄥ¹ ㄧ³"
+          },
+          {
+            "cjk": "咩",
+            "jyutping": "me1",
+            "yale": "mē",
+            "bopomofo": "ㄇㄝ¹"
+          },
+          {
+            "cjk": "顏色",
+            "jyutping": "ngaan4 sik1",
+            "yale": "ngàahn sīk",
+            "bopomofo": "ㆭㄚㄣ⁴ ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "咩",
+            "jyutping": "me1",
+            "yale": "mē",
+            "bopomofo": "ㄇㄝ¹"
+          },
+          {
+            "cjk": "邊",
+            "jyutping": "bin1",
+            "yale": "bīn",
+            "bopomofo": "ㄅㄧㄣ¹"
+          },
+          {
+            "cjk": "幾",
+            "jyutping": "gei2",
+            "yale": "géi",
+            "bopomofo": "ㄍㄝㄧ²"
+          },
+          {
+            "cjk": "點",
+            "jyutping": "dim2",
+            "yale": "dím",
+            "bopomofo": "ㄉㄧㆬ²"
           }
         ]
       },
@@ -24680,6 +28550,138 @@
         ]
       },
       {
+        "id": "bin1-where-who:3",
+        "patternId": "bin1-where-who",
+        "level": "A1",
+        "en": "Where's the MTR station?",
+        "tokens": [
+          {
+            "cjk": "港鐵站",
+            "jyutping": "gong2 tit3 zaam6",
+            "yale": "góng tit jaahm",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          }
+        ]
+      },
+      {
+        "id": "bin1-where-who:4",
+        "patternId": "bin1-where-who",
+        "level": "A1",
+        "en": "Who'd like a coffee?",
+        "tokens": [
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "飲",
+            "jyutping": "jam2",
+            "yale": "yám",
+            "bopomofo": "ㄧㄜㆬ²"
+          },
+          {
+            "cjk": "咖啡",
+            "jyutping": "gaa3 fe1",
+            "yale": "ga fē",
+            "bopomofo": "ㄍㄚ³ ㄈㄝ¹"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "幾多",
+            "jyutping": "gei2 do1",
+            "yale": "géi dō",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹"
+          }
+        ]
+      },
+      {
         "id": "gei2-si4-when:0",
         "patternId": "gei2-si4-when",
         "level": "A1",
@@ -24875,6 +28877,138 @@
         ]
       },
       {
+        "id": "gei2-si4-when:3",
+        "patternId": "gei2-si4-when",
+        "level": "A1",
+        "en": "When are you free?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "得閒",
+            "jyutping": "dak1 haan4",
+            "yale": "dāk hàahn",
+            "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "幾多",
+            "jyutping": "gei2 do1",
+            "yale": "géi dō",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹"
+          },
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          }
+        ]
+      },
+      {
+        "id": "gei2-si4-when:4",
+        "patternId": "gei2-si4-when",
+        "level": "A1",
+        "en": "When does the bus get here?",
+        "tokens": [
+          {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "到",
+            "jyutping": "dou3",
+            "yale": "dou",
+            "bopomofo": "ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "幾多",
+            "jyutping": "gei2 do1",
+            "yale": "géi dō",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹"
+          },
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          }
+        ]
+      },
+      {
         "id": "aa3-softener:0",
         "patternId": "aa3-softener",
         "level": "A1",
@@ -25009,6 +29143,132 @@
           {
             "cjk": "！",
             "punctuation": "!"
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "過",
+            "jyutping": "gwo3",
+            "yale": "gwo",
+            "bopomofo": "ㄍㄨㄛ³"
+          }
+        ]
+      },
+      {
+        "id": "aa3-softener:3",
+        "patternId": "aa3-softener",
+        "level": "A1",
+        "en": "Have you eaten yet?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "飯",
+            "jyutping": "faan6",
+            "yale": "faahn",
+            "bopomofo": "ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "未",
+            "jyutping": "mei6",
+            "yale": "meih",
+            "bopomofo": "ㄇㄝㄧ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 5,
+        "options": [
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "過",
+            "jyutping": "gwo3",
+            "yale": "gwo",
+            "bopomofo": "ㄍㄨㄛ³"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          }
+        ]
+      },
+      {
+        "id": "aa3-softener:4",
+        "patternId": "aa3-softener",
+        "level": "A1",
+        "en": "No problem.",
+        "tokens": [
+          {
+            "cjk": "冇問題",
+            "jyutping": "mou5 man6 tai4",
+            "yale": "móuh mahn tàih",
+            "bopomofo": "ㄇㄛㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
           }
         ],
         "gapIndex": 1,
@@ -25211,6 +29471,132 @@
         ]
       },
       {
+        "id": "laa1-suggestion:3",
+        "patternId": "laa1-suggestion",
+        "level": "A1",
+        "en": "Let's eat together.",
+        "tokens": [
+          {
+            "cjk": "一齊",
+            "jyutping": "jat1 cai4",
+            "yale": "yāt chàih",
+            "bopomofo": "ㄧㄜㆵ¹ ㄘㄜㄧ⁴"
+          },
+          {
+            "cjk": "食飯",
+            "jyutping": "sik6 faan6",
+            "yale": "sihk faahn",
+            "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "咩",
+            "jyutping": "me1",
+            "yale": "mē",
+            "bopomofo": "ㄇㄝ¹"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          }
+        ]
+      },
+      {
+        "id": "laa1-suggestion:4",
+        "patternId": "laa1-suggestion",
+        "level": "A1",
+        "en": "Have some more.",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "多",
+            "jyutping": "do1",
+            "yale": "dō",
+            "bopomofo": "ㄉㄛ¹"
+          },
+          {
+            "cjk": "啲",
+            "jyutping": "di1",
+            "yale": "dī",
+            "bopomofo": "ㄉㄧ¹"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 4,
+        "options": [
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "咩",
+            "jyutping": "me1",
+            "yale": "mē",
+            "bopomofo": "ㄇㄝ¹"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          }
+        ]
+      },
+      {
         "id": "maa3-question:0",
         "patternId": "maa3-question",
         "level": "A1",
@@ -25360,6 +29746,138 @@
           }
         ],
         "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          }
+        ]
+      },
+      {
+        "id": "maa3-question:3",
+        "patternId": "maa3-question",
+        "level": "A1",
+        "en": "Can you speak Cantonese?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "識",
+            "jyutping": "sik1",
+            "yale": "sīk",
+            "bopomofo": "ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "講",
+            "jyutping": "gong2",
+            "yale": "góng",
+            "bopomofo": "ㄍㄛㄥ²"
+          },
+          {
+            "cjk": "廣東話",
+            "jyutping": "gwong2 dung1 waa2",
+            "yale": "gwóng dūng wá",
+            "bopomofo": "ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 4,
+        "options": [
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          }
+        ]
+      },
+      {
+        "id": "maa3-question:4",
+        "patternId": "maa3-question",
+        "level": "A1",
+        "en": "Can I sit here?",
+        "tokens": [
+          {
+            "cjk": "呢度",
+            "jyutping": "ni1 dou6",
+            "yale": "nī douh",
+            "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "可以",
+            "jyutping": "ho2 ji5",
+            "yale": "hó yíh",
+            "bopomofo": "ㄏㄛ² ㄧ⁵"
+          },
+          {
+            "cjk": "坐",
+            "jyutping": "co5",
+            "yale": "chóh",
+            "bopomofo": "ㄘㄛ⁵"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 3,
         "options": [
           {
             "cjk": "嗎",
@@ -25619,6 +30137,150 @@
         ]
       },
       {
+        "id": "tung4-and-with:3",
+        "patternId": "tung4-and-with",
+        "level": "A1",
+        "en": "I live with my family.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "屋企人",
+            "jyutping": "uk1 kei2 jan4",
+            "yale": "ūk kéi yàhn",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴"
+          },
+          {
+            "cjk": "住",
+            "jyutping": "zyu6",
+            "yale": "jyuh",
+            "bopomofo": "ㄗㄩ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "畀",
+            "jyutping": "bei2",
+            "yale": "béi",
+            "bopomofo": "ㄅㄝㄧ²"
+          }
+        ]
+      },
+      {
+        "id": "tung4-and-with:4",
+        "patternId": "tung4-and-with",
+        "level": "A1",
+        "en": "She went to Japan with her husband.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "老公",
+            "jyutping": "lou5 gung1",
+            "yale": "lóuh gūng",
+            "bopomofo": "ㄌㄛㄨ⁵ ㄍㄨㄥ¹"
+          },
+          {
+            "cjk": "去",
+            "jyutping": "heoi3",
+            "yale": "heui",
+            "bopomofo": "ㄏㆤㄧ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "日本",
+            "jyutping": "jat6 bun2",
+            "yale": "yaht bún",
+            "bopomofo": "ㄧㄜㆵ⁶ ㄅㄨㄣ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 1,
+        "options": [
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "畀",
+            "jyutping": "bei2",
+            "yale": "béi",
+            "bopomofo": "ㄅㄝㄧ²"
+          }
+        ]
+      },
+      {
         "id": "m4-hou2-dont:0",
         "patternId": "m4-hou2-dont",
         "level": "A1",
@@ -25755,6 +30417,120 @@
             "jyutping": "zi1",
             "yale": "jī",
             "bopomofo": "ㄗㄧ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "未",
+            "jyutping": "mei6",
+            "yale": "meih",
+            "bopomofo": "ㄇㄝㄧ⁶"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          }
+        ]
+      },
+      {
+        "id": "m4-hou2-dont:3",
+        "patternId": "m4-hou2-dont",
+        "level": "A1",
+        "en": "Don't be late.",
+        "tokens": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "遲到",
+            "jyutping": "ci4 dou3",
+            "yale": "chìh dou",
+            "bopomofo": "ㄘㄧ⁴ ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "gapIndex": 0,
+        "options": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "未",
+            "jyutping": "mei6",
+            "yale": "meih",
+            "bopomofo": "ㄇㄝㄧ⁶"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          }
+        ]
+      },
+      {
+        "id": "m4-hou2-dont:4",
+        "patternId": "m4-hou2-dont",
+        "level": "A1",
+        "en": "Don't be so loud.",
+        "tokens": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "咁",
+            "jyutping": "gam3",
+            "yale": "gam",
+            "bopomofo": "ㄍㄜㆬ³"
+          },
+          {
+            "cjk": "大聲",
+            "jyutping": "daai6 seng1",
+            "yale": "daaih sēng",
+            "bopomofo": "ㄉㄚㄧ⁶ ㄙㄝㄥ¹"
           },
           {
             "cjk": "。",
@@ -25968,6 +30744,162 @@
             "jyutping": "hok6 saang1",
             "yale": "hohk sāang",
             "bopomofo": "ㄏㄛㆶ⁶ ㄙㄚㄥ¹"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 3,
+        "options": [
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          },
+          {
+            "cjk": "或者",
+            "jyutping": "waak6 ze2",
+            "yale": "waahk jé",
+            "bopomofo": "ㄨㄚㆶ⁶ ㄗㄝ²"
+          }
+        ]
+      },
+      {
+        "id": "ding6-hai6-or:3",
+        "patternId": "ding6-hai6-or",
+        "level": "A1",
+        "en": "Are you free today or tomorrow?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "今日",
+            "jyutping": "gam1 jat6",
+            "yale": "gām yaht",
+            "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "聽日",
+            "jyutping": "ting1 jat6",
+            "yale": "tīng yaht",
+            "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "得閒",
+            "jyutping": "dak1 haan4",
+            "yale": "dāk hàahn",
+            "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "gapIndex": 2,
+        "options": [
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "都",
+            "jyutping": "dou1",
+            "yale": "dōu",
+            "bopomofo": "ㄉㄛㄨ¹"
+          },
+          {
+            "cjk": "或者",
+            "jyutping": "waak6 ze2",
+            "yale": "waahk jé",
+            "bopomofo": "ㄨㄚㆶ⁶ ㄗㄝ²"
+          }
+        ]
+      },
+      {
+        "id": "ding6-hai6-or:4",
+        "patternId": "ding6-hai6-or",
+        "level": "A1",
+        "en": "Are you taking the bus or the MTR?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "港鐵",
+            "jyutping": "gong2 tit3",
+            "yale": "góng tit",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
           },
           {
             "cjk": "呀",
@@ -28832,9 +33764,9 @@
         "options": [
           {
             "cjk": "會",
-            "jyutping": "wui5",
-            "yale": "wúih",
-            "bopomofo": "ㄨㄨㄧ⁵"
+            "jyutping": "wui2",
+            "yale": "wúi",
+            "bopomofo": "ㄨㄨㄧ²"
           },
           {
             "cjk": "識",
@@ -28913,9 +33845,9 @@
         "options": [
           {
             "cjk": "會",
-            "jyutping": "wui5",
-            "yale": "wúih",
-            "bopomofo": "ㄨㄨㄧ⁵"
+            "jyutping": "wui2",
+            "yale": "wúi",
+            "bopomofo": "ㄨㄨㄧ²"
           },
           {
             "cjk": "識",
@@ -28982,9 +33914,9 @@
         "options": [
           {
             "cjk": "會",
-            "jyutping": "wui5",
-            "yale": "wúih",
-            "bopomofo": "ㄨㄨㄧ⁵"
+            "jyutping": "wui2",
+            "yale": "wúi",
+            "bopomofo": "ㄨㄨㄧ²"
           },
           {
             "cjk": "識",
@@ -33448,6 +38380,66 @@
         ]
       },
       {
+        "id": "hai6-copula:3",
+        "patternId": "hai6-copula",
+        "level": "A1",
+        "en": "She's a doctor.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "醫生",
+            "jyutping": "ji1 sang1",
+            "yale": "yī sāng",
+            "bopomofo": "ㄧ¹ ㄙㄜㄥ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "hai6-copula:4",
+        "patternId": "hai6-copula",
+        "level": "A1",
+        "en": "Today is Saturday.",
+        "tokens": [
+          {
+            "cjk": "今日",
+            "jyutping": "gam1 jat6",
+            "yale": "gām yaht",
+            "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "星期六",
+            "jyutping": "sing1 kei4 luk6",
+            "yale": "sīng kèih luhk",
+            "bopomofo": "ㄙㄧㄥ¹ ㄎㄝㄧ⁴ ㄌㄨㆶ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "m4-negation:0",
         "patternId": "m4-negation",
         "level": "A1",
@@ -33542,6 +38534,84 @@
             "jyutping": "lou5 si1",
             "yale": "lóuh sī",
             "bopomofo": "ㄌㄛㄨ⁵ ㄙㄧ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "m4-negation:3",
+        "patternId": "m4-negation",
+        "level": "A1",
+        "en": "I don't drink alcohol.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "飲",
+            "jyutping": "jam2",
+            "yale": "yám",
+            "bopomofo": "ㄧㄜㆬ²"
+          },
+          {
+            "cjk": "酒",
+            "jyutping": "zau2",
+            "yale": "jáu",
+            "bopomofo": "ㄗㄜㄨ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "m4-negation:4",
+        "patternId": "m4-negation",
+        "level": "A1",
+        "en": "This restaurant isn't expensive.",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "間",
+            "jyutping": "gaan1",
+            "yale": "gāan",
+            "bopomofo": "ㄍㄚㄣ¹"
+          },
+          {
+            "cjk": "餐廳",
+            "jyutping": "caan1 teng1",
+            "yale": "chāan tēng",
+            "bopomofo": "ㄘㄚㄣ¹ ㄊㄝㄥ¹"
+          },
+          {
+            "cjk": "唔",
+            "jyutping": "m4",
+            "yale": "m̀h",
+            "bopomofo": "ㆬ⁴"
+          },
+          {
+            "cjk": "貴",
+            "jyutping": "gwai3",
+            "yale": "gwai",
+            "bopomofo": "ㄍㄨㄜㄧ³"
           },
           {
             "cjk": "。",
@@ -33652,6 +38722,78 @@
         ]
       },
       {
+        "id": "jau5-mou5:3",
+        "patternId": "jau5-mou5",
+        "level": "A1",
+        "en": "I haven't got any money.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "錢",
+            "jyutping": "cin2",
+            "yale": "chín",
+            "bopomofo": "ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "jau5-mou5:4",
+        "patternId": "jau5-mou5",
+        "level": "A1",
+        "en": "She has two children.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "有",
+            "jyutping": "jau5",
+            "yale": "yáuh",
+            "bopomofo": "ㄧㄜㄨ⁵"
+          },
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "細路",
+            "jyutping": "sai3 lou6",
+            "yale": "sai louh",
+            "bopomofo": "ㄙㄜㄧ³ ㄌㄛㄨ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "jau5-mou5-question:0",
         "patternId": "jau5-mou5-question",
         "level": "A1",
@@ -33754,6 +38896,72 @@
         ]
       },
       {
+        "id": "jau5-mou5-question:3",
+        "patternId": "jau5-mou5-question",
+        "level": "A1",
+        "en": "Have you got time?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "時間",
+            "jyutping": "si4 gaan3",
+            "yale": "sìh gaan",
+            "bopomofo": "ㄙㄧ⁴ ㄍㄚㄣ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "jau5-mou5-question:4",
+        "patternId": "jau5-mou5-question",
+        "level": "A1",
+        "en": "Do you have a small size?",
+        "tokens": [
+          {
+            "cjk": "有冇",
+            "jyutping": "jau5 mou5",
+            "yale": "yáuh móuh",
+            "bopomofo": "ㄧㄜㄨ⁵ ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "細碼",
+            "jyutping": "sai3 maa5",
+            "yale": "sai máh",
+            "bopomofo": "ㄙㄜㄧ³ ㄇㄚ⁵"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
         "id": "a-not-a-question:0",
         "patternId": "a-not-a-question",
         "level": "A1",
@@ -33836,6 +39044,72 @@
             "jyutping": "hou2 m4 hou2 sik6",
             "yale": "hóu m̀h hóu sihk",
             "bopomofo": "ㄏㄛㄨ² ㆬ⁴ ㄏㄛㄨ² ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "a-not-a-question:3",
+        "patternId": "a-not-a-question",
+        "level": "A1",
+        "en": "Do you eat spicy food?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "食唔食",
+            "jyutping": "sik6 m4 sik6",
+            "yale": "sihk m̀h sihk",
+            "bopomofo": "ㄙㄧㆶ⁶ ㆬ⁴ ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "辣",
+            "jyutping": "laat6",
+            "yale": "laaht",
+            "bopomofo": "ㄌㄚㆵ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "a-not-a-question:4",
+        "patternId": "a-not-a-question",
+        "level": "A1",
+        "en": "Is it cold today?",
+        "tokens": [
+          {
+            "cjk": "今日",
+            "jyutping": "gam1 jat6",
+            "yale": "gām yaht",
+            "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "凍唔凍",
+            "jyutping": "dung3 m4 dung3",
+            "yale": "dung m̀h dung",
+            "bopomofo": "ㄉㄨㄥ³ ㆬ⁴ ㄉㄨㄥ³"
           },
           {
             "cjk": "呀",
@@ -33976,6 +39250,78 @@
         ]
       },
       {
+        "id": "zo2-completed:3",
+        "patternId": "zo2-completed",
+        "level": "A1",
+        "en": "I took a taxi.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "的士",
+            "jyutping": "dik1 si2",
+            "yale": "dīk sí",
+            "bopomofo": "ㄉㄧㆶ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "zo2-completed:4",
+        "patternId": "zo2-completed",
+        "level": "A1",
+        "en": "I've arrived.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "到",
+            "jyutping": "dou3",
+            "yale": "dou",
+            "bopomofo": "ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "喇",
+            "jyutping": "laa3",
+            "yale": "la",
+            "bopomofo": "ㄌㄚ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "gan2-progressive:0",
         "patternId": "gan2-progressive",
         "level": "A1",
@@ -34076,6 +39422,78 @@
             "jyutping": "jyu5",
             "yale": "yúh",
             "bopomofo": "ㄩ⁵"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "gan2-progressive:3",
+        "patternId": "gan2-progressive",
+        "level": "A1",
+        "en": "They're in a meeting.",
+        "tokens": [
+          {
+            "cjk": "佢哋",
+            "jyutping": "keoi5 dei6",
+            "yale": "kéuih deih",
+            "bopomofo": "ㄎㆤㄧ⁵ ㄉㄝㄧ⁶"
+          },
+          {
+            "cjk": "開",
+            "jyutping": "hoi1",
+            "yale": "hōi",
+            "bopomofo": "ㄏㄛㄧ¹"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "會",
+            "jyutping": "wui2",
+            "yale": "wúi",
+            "bopomofo": "ㄨㄨㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "gan2-progressive:4",
+        "patternId": "gan2-progressive",
+        "level": "A1",
+        "en": "I'm waiting for the bus.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "等",
+            "jyutping": "dang2",
+            "yale": "dáng",
+            "bopomofo": "ㄉㄜㄥ²"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
           },
           {
             "cjk": "。",
@@ -34240,6 +39658,102 @@
         ]
       },
       {
+        "id": "ge3-possessive:3",
+        "patternId": "ge3-possessive",
+        "level": "A1",
+        "en": "Whose umbrella is this?",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "把",
+            "jyutping": "baa2",
+            "yale": "bá",
+            "bopomofo": "ㄅㄚ²"
+          },
+          {
+            "cjk": "遮",
+            "jyutping": "ze1",
+            "yale": "jē",
+            "bopomofo": "ㄗㄝ¹"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "ge3-possessive:4",
+        "patternId": "ge3-possessive",
+        "level": "A1",
+        "en": "My phone's battery is dead.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "嘅",
+            "jyutping": "ge3",
+            "yale": "ge",
+            "bopomofo": "ㄍㄝ³"
+          },
+          {
+            "cjk": "手機",
+            "jyutping": "sau2 gei1",
+            "yale": "sáu gēi",
+            "bopomofo": "ㄙㄜㄨ² ㄍㄝㄧ¹"
+          },
+          {
+            "cjk": "冇",
+            "jyutping": "mou5",
+            "yale": "móuh",
+            "bopomofo": "ㄇㄛㄨ⁵"
+          },
+          {
+            "cjk": "電",
+            "jyutping": "din6",
+            "yale": "dihn",
+            "bopomofo": "ㄉㄧㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "hai2-location:0",
         "patternId": "hai2-location",
         "level": "A1",
@@ -34334,6 +39848,78 @@
             "jyutping": "sik6 faan6",
             "yale": "sihk faahn",
             "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "hai2-location:3",
+        "patternId": "hai2-location",
+        "level": "A1",
+        "en": "She's at home.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "屋企",
+            "jyutping": "uk1 kei2",
+            "yale": "ūk kéi",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "hai2-location:4",
+        "patternId": "hai2-location",
+        "level": "A1",
+        "en": "We'll wait for you in Tsim Sha Tsui.",
+        "tokens": [
+          {
+            "cjk": "我哋",
+            "jyutping": "ngo5 dei6",
+            "yale": "ngóh deih",
+            "bopomofo": "ㆭㄛ⁵ ㄉㄝㄧ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "尖沙咀",
+            "jyutping": "zim1 saa1 zeoi2",
+            "yale": "jīm sā jéui",
+            "bopomofo": "ㄗㄧㆬ¹ ㄙㄚ¹ ㄗㆤㄧ²"
+          },
+          {
+            "cjk": "等",
+            "jyutping": "dang2",
+            "yale": "dáng",
+            "bopomofo": "ㄉㄜㄥ²"
+          },
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
           },
           {
             "cjk": "。",
@@ -34448,6 +40034,96 @@
             "jyutping": "ceot1 meng2",
             "yale": "chēut méng",
             "bopomofo": "ㄘㆤㆵ¹ ㄇㄝㄥ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "ni1-go2-demonstratives:3",
+        "patternId": "ni1-go2-demonstratives",
+        "level": "A1",
+        "en": "This computer is very slow.",
+        "tokens": [
+          {
+            "cjk": "呢",
+            "jyutping": "ni1",
+            "yale": "nī",
+            "bopomofo": "ㄋㄧ¹"
+          },
+          {
+            "cjk": "部",
+            "jyutping": "bou6",
+            "yale": "bouh",
+            "bopomofo": "ㄅㄛㄨ⁶"
+          },
+          {
+            "cjk": "電腦",
+            "jyutping": "din6 nou5",
+            "yale": "dihn nóuh",
+            "bopomofo": "ㄉㄧㄣ⁶ ㄋㄛㄨ⁵"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "慢",
+            "jyutping": "maan6",
+            "yale": "maahn",
+            "bopomofo": "ㄇㄚㄣ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "ni1-go2-demonstratives:4",
+        "patternId": "ni1-go2-demonstratives",
+        "level": "A1",
+        "en": "That person is my boss.",
+        "tokens": [
+          {
+            "cjk": "嗰",
+            "jyutping": "go2",
+            "yale": "gó",
+            "bopomofo": "ㄍㄛ²"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "人",
+            "jyutping": "jan4",
+            "yale": "yàhn",
+            "bopomofo": "ㄧㄜㄣ⁴"
+          },
+          {
+            "cjk": "係",
+            "jyutping": "hai6",
+            "yale": "haih",
+            "bopomofo": "ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "老細",
+            "jyutping": "lou5 sai3",
+            "yale": "lóuh sai",
+            "bopomofo": "ㄌㄛㄨ⁵ ㄙㄜㄧ³"
           },
           {
             "cjk": "。",
@@ -34594,6 +40270,102 @@
         ]
       },
       {
+        "id": "number-classifier:3",
+        "patternId": "number-classifier",
+        "level": "A1",
+        "en": "She bought three pairs of shoes.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "買",
+            "jyutping": "maai5",
+            "yale": "máaih",
+            "bopomofo": "ㄇㄚㄧ⁵"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "三",
+            "jyutping": "saam1",
+            "yale": "sāam",
+            "bopomofo": "ㄙㄚㆬ¹"
+          },
+          {
+            "cjk": "對",
+            "jyutping": "deoi3",
+            "yale": "deui",
+            "bopomofo": "ㄉㆤㄧ³"
+          },
+          {
+            "cjk": "鞋",
+            "jyutping": "haai4",
+            "yale": "hàaih",
+            "bopomofo": "ㄏㄚㄧ⁴"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "number-classifier:4",
+        "patternId": "number-classifier",
+        "level": "A1",
+        "en": "I'd like a map.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
+          },
+          {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          },
+          {
+            "cjk": "地圖",
+            "jyutping": "dei6 tou4",
+            "yale": "deih tòuh",
+            "bopomofo": "ㄉㄝㄧ⁶ ㄊㄛㄨ⁴"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "soeng2-want:0",
         "patternId": "soeng2-want",
         "level": "A1",
@@ -34694,6 +40466,84 @@
             "jyutping": "bin1 dou6",
             "yale": "bīn douh",
             "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "soeng2-want:3",
+        "patternId": "soeng2-want",
+        "level": "A1",
+        "en": "I want to go home.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "返",
+            "jyutping": "faan1",
+            "yale": "fāan",
+            "bopomofo": "ㄈㄚㄣ¹"
+          },
+          {
+            "cjk": "屋企",
+            "jyutping": "uk1 kei2",
+            "yale": "ūk kéi",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "soeng2-want:4",
+        "patternId": "soeng2-want",
+        "level": "A1",
+        "en": "What would you like to eat?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
           },
           {
             "cjk": "呀",
@@ -34822,6 +40672,92 @@
         ]
       },
       {
+        "id": "jiu3-want-need:3",
+        "patternId": "jiu3-want-need",
+        "level": "A1",
+        "en": "Two pineapple buns, please.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "菠蘿包",
+            "jyutping": "bo1 lo4 baau1",
+            "yale": "bō lòh bāau",
+            "bopomofo": "ㄅㄛ¹ ㄌㄛ⁴ ㄅㄚㄨ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "jiu3-want-need:4",
+        "patternId": "jiu3-want-need",
+        "level": "A1",
+        "en": "I have to work tomorrow.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "聽日",
+            "jyutping": "ting1 jat6",
+            "yale": "tīng yaht",
+            "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "要",
+            "jyutping": "jiu3",
+            "yale": "yiu",
+            "bopomofo": "ㄧㄨ³"
+          },
+          {
+            "cjk": "返工",
+            "jyutping": "faan1 gung1",
+            "yale": "fāan gūng",
+            "bopomofo": "ㄈㄚㄣ¹ ㄍㄨㄥ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "accept": [
+          [
+            "聽日",
+            "我",
+            "要",
+            "返工"
+          ]
+        ]
+      },
+      {
         "id": "hou2-very:0",
         "patternId": "hou2-very",
         "level": "A1",
@@ -34916,6 +40852,66 @@
             "jyutping": "gui6",
             "yale": "guih",
             "bopomofo": "ㄍㄨㄧ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "hou2-very:3",
+        "patternId": "hou2-very",
+        "level": "A1",
+        "en": "He's very tall.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "高",
+            "jyutping": "gou1",
+            "yale": "gōu",
+            "bopomofo": "ㄍㄛㄨ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "hou2-very:4",
+        "patternId": "hou2-very",
+        "level": "A1",
+        "en": "The MTR is really crowded.",
+        "tokens": [
+          {
+            "cjk": "港鐵",
+            "jyutping": "gong2 tit3",
+            "yale": "góng tit",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
+          },
+          {
+            "cjk": "好",
+            "jyutping": "hou2",
+            "yale": "hóu",
+            "bopomofo": "ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "迫",
+            "jyutping": "bik1",
+            "yale": "bīk",
+            "bopomofo": "ㄅㄧㆶ¹"
           },
           {
             "cjk": "。",
@@ -35024,6 +41020,90 @@
             "jyutping": "gei1 coeng4",
             "yale": "gēi chèuhng",
             "bopomofo": "ㄍㄝㄧ¹ ㄘㆦㄥ⁴"
+          },
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "gei2-do1-cin2:3",
+        "patternId": "gei2-do1-cin2",
+        "level": "A1",
+        "en": "How much are two egg tarts?",
+        "tokens": [
+          {
+            "cjk": "兩",
+            "jyutping": "loeng5",
+            "yale": "léuhng",
+            "bopomofo": "ㄌㆦㄥ⁵"
+          },
+          {
+            "cjk": "個",
+            "jyutping": "go3",
+            "yale": "go",
+            "bopomofo": "ㄍㄛ³"
+          },
+          {
+            "cjk": "蛋撻",
+            "jyutping": "daan6 taat1",
+            "yale": "daahn tāat",
+            "bopomofo": "ㄉㄚㄣ⁶ ㄊㄚㆵ¹"
+          },
+          {
+            "cjk": "幾多錢",
+            "jyutping": "gei2 do1 cin2",
+            "yale": "géi dō chín",
+            "bopomofo": "ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "gei2-do1-cin2:4",
+        "patternId": "gei2-do1-cin2",
+        "level": "A1",
+        "en": "How much is one ticket?",
+        "tokens": [
+          {
+            "cjk": "一",
+            "jyutping": "jat1",
+            "yale": "yāt",
+            "bopomofo": "ㄧㄜㆵ¹"
+          },
+          {
+            "cjk": "張",
+            "jyutping": "zoeng1",
+            "yale": "jēung",
+            "bopomofo": "ㄗㆦㄥ¹"
+          },
+          {
+            "cjk": "飛",
+            "jyutping": "fei1",
+            "yale": "fēi",
+            "bopomofo": "ㄈㄝㄧ¹"
           },
           {
             "cjk": "幾多錢",
@@ -35164,6 +41244,90 @@
         ]
       },
       {
+        "id": "mat1-je5-what:3",
+        "patternId": "mat1-je5-what",
+        "level": "A1",
+        "en": "What are you doing?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "做",
+            "jyutping": "zou6",
+            "yale": "jouh",
+            "bopomofo": "ㄗㄛㄨ⁶"
+          },
+          {
+            "cjk": "緊",
+            "jyutping": "gan2",
+            "yale": "gán",
+            "bopomofo": "ㄍㄜㄣ²"
+          },
+          {
+            "cjk": "乜嘢",
+            "jyutping": "mat1 je5",
+            "yale": "māt yéh",
+            "bopomofo": "ㄇㄜㆵ¹ ㄧㄝ⁵"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "mat1-je5-what:4",
+        "patternId": "mat1-je5-what",
+        "level": "A1",
+        "en": "What colour do you like?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "鍾意",
+            "jyutping": "zung1 ji3",
+            "yale": "jūng yi",
+            "bopomofo": "ㄗㄨㄥ¹ ㄧ³"
+          },
+          {
+            "cjk": "咩",
+            "jyutping": "me1",
+            "yale": "mē",
+            "bopomofo": "ㄇㄝ¹"
+          },
+          {
+            "cjk": "顏色",
+            "jyutping": "ngaan4 sik1",
+            "yale": "ngàahn sīk",
+            "bopomofo": "ㆭㄚㄣ⁴ ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
         "id": "bin1-where-who:0",
         "patternId": "bin1-where-who",
         "level": "A1",
@@ -35270,6 +41434,84 @@
             "jyutping": "gin6",
             "yale": "gihn",
             "bopomofo": "ㄍㄧㄣ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "bin1-where-who:3",
+        "patternId": "bin1-where-who",
+        "level": "A1",
+        "en": "Where's the MTR station?",
+        "tokens": [
+          {
+            "cjk": "港鐵站",
+            "jyutping": "gong2 tit3 zaam6",
+            "yale": "góng tit jaahm",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³ ㄗㄚㆬ⁶"
+          },
+          {
+            "cjk": "喺",
+            "jyutping": "hai2",
+            "yale": "hái",
+            "bopomofo": "ㄏㄜㄧ²"
+          },
+          {
+            "cjk": "邊度",
+            "jyutping": "bin1 dou6",
+            "yale": "bīn douh",
+            "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "bin1-where-who:4",
+        "patternId": "bin1-where-who",
+        "level": "A1",
+        "en": "Who'd like a coffee?",
+        "tokens": [
+          {
+            "cjk": "邊個",
+            "jyutping": "bin1 go3",
+            "yale": "bīn go",
+            "bopomofo": "ㄅㄧㄣ¹ ㄍㄛ³"
+          },
+          {
+            "cjk": "想",
+            "jyutping": "soeng2",
+            "yale": "séung",
+            "bopomofo": "ㄙㆦㄥ²"
+          },
+          {
+            "cjk": "飲",
+            "jyutping": "jam2",
+            "yale": "yám",
+            "bopomofo": "ㄧㄜㆬ²"
+          },
+          {
+            "cjk": "咖啡",
+            "jyutping": "gaa3 fe1",
+            "yale": "ga fē",
+            "bopomofo": "ㄍㄚ³ ㄈㄝ¹"
           },
           {
             "cjk": "呀",
@@ -35398,6 +41640,84 @@
         ]
       },
       {
+        "id": "gei2-si4-when:3",
+        "patternId": "gei2-si4-when",
+        "level": "A1",
+        "en": "When are you free?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "得閒",
+            "jyutping": "dak1 haan4",
+            "yale": "dāk hàahn",
+            "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "gei2-si4-when:4",
+        "patternId": "gei2-si4-when",
+        "level": "A1",
+        "en": "When does the bus get here?",
+        "tokens": [
+          {
+            "cjk": "架",
+            "jyutping": "gaa3",
+            "yale": "ga",
+            "bopomofo": "ㄍㄚ³"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "幾時",
+            "jyutping": "gei2 si4",
+            "yale": "géi sìh",
+            "bopomofo": "ㄍㄝㄧ² ㄙㄧ⁴"
+          },
+          {
+            "cjk": "到",
+            "jyutping": "dou3",
+            "yale": "dou",
+            "bopomofo": "ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
         "id": "aa3-softener:0",
         "patternId": "aa3-softener",
         "level": "A1",
@@ -35420,6 +41740,54 @@
             "jyutping": "bin1 dou6",
             "yale": "bīn douh",
             "bopomofo": "ㄅㄧㄣ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "aa3-softener:3",
+        "patternId": "aa3-softener",
+        "level": "A1",
+        "en": "Have you eaten yet?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "飯",
+            "jyutping": "faan6",
+            "yale": "faahn",
+            "bopomofo": "ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "未",
+            "jyutping": "mei6",
+            "yale": "meih",
+            "bopomofo": "ㄇㄝㄧ⁶"
           },
           {
             "cjk": "呀",
@@ -35524,6 +41892,78 @@
         ]
       },
       {
+        "id": "laa1-suggestion:3",
+        "patternId": "laa1-suggestion",
+        "level": "A1",
+        "en": "Let's eat together.",
+        "tokens": [
+          {
+            "cjk": "一齊",
+            "jyutping": "jat1 cai4",
+            "yale": "yāt chàih",
+            "bopomofo": "ㄧㄜㆵ¹ ㄘㄜㄧ⁴"
+          },
+          {
+            "cjk": "食飯",
+            "jyutping": "sik6 faan6",
+            "yale": "sihk faahn",
+            "bopomofo": "ㄙㄧㆶ⁶ ㄈㄚㄣ⁶"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "laa1-suggestion:4",
+        "patternId": "laa1-suggestion",
+        "level": "A1",
+        "en": "Have some more.",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "食",
+            "jyutping": "sik6",
+            "yale": "sihk",
+            "bopomofo": "ㄙㄧㆶ⁶"
+          },
+          {
+            "cjk": "多",
+            "jyutping": "do1",
+            "yale": "dō",
+            "bopomofo": "ㄉㄛ¹"
+          },
+          {
+            "cjk": "啲",
+            "jyutping": "di1",
+            "yale": "dī",
+            "bopomofo": "ㄉㄧ¹"
+          },
+          {
+            "cjk": "啦",
+            "jyutping": "laa1",
+            "yale": "lā",
+            "bopomofo": "ㄌㄚ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
         "id": "maa3-question:0",
         "patternId": "maa3-question",
         "level": "A1",
@@ -35606,6 +42046,84 @@
             "jyutping": "man6 tai4",
             "yale": "mahn tàih",
             "bopomofo": "ㄇㄜㄣ⁶ ㄊㄜㄧ⁴"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "maa3-question:3",
+        "patternId": "maa3-question",
+        "level": "A1",
+        "en": "Can you speak Cantonese?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "識",
+            "jyutping": "sik1",
+            "yale": "sīk",
+            "bopomofo": "ㄙㄧㆶ¹"
+          },
+          {
+            "cjk": "講",
+            "jyutping": "gong2",
+            "yale": "góng",
+            "bopomofo": "ㄍㄛㄥ²"
+          },
+          {
+            "cjk": "廣東話",
+            "jyutping": "gwong2 dung1 waa2",
+            "yale": "gwóng dūng wá",
+            "bopomofo": "ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ²"
+          },
+          {
+            "cjk": "嗎",
+            "jyutping": "maa3",
+            "yale": "ma",
+            "bopomofo": "ㄇㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ]
+      },
+      {
+        "id": "maa3-question:4",
+        "patternId": "maa3-question",
+        "level": "A1",
+        "en": "Can I sit here?",
+        "tokens": [
+          {
+            "cjk": "呢度",
+            "jyutping": "ni1 dou6",
+            "yale": "nī douh",
+            "bopomofo": "ㄋㄧ¹ ㄉㄛㄨ⁶"
+          },
+          {
+            "cjk": "可以",
+            "jyutping": "ho2 ji5",
+            "yale": "hó yíh",
+            "bopomofo": "ㄏㄛ² ㄧ⁵"
+          },
+          {
+            "cjk": "坐",
+            "jyutping": "co5",
+            "yale": "chóh",
+            "bopomofo": "ㄘㄛ⁵"
           },
           {
             "cjk": "嗎",
@@ -35783,6 +42301,115 @@
         ]
       },
       {
+        "id": "tung4-and-with:3",
+        "patternId": "tung4-and-with",
+        "level": "A1",
+        "en": "I live with my family.",
+        "tokens": [
+          {
+            "cjk": "我",
+            "jyutping": "ngo5",
+            "yale": "ngóh",
+            "bopomofo": "ㆭㄛ⁵"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "屋企人",
+            "jyutping": "uk1 kei2 jan4",
+            "yale": "ūk kéi yàhn",
+            "bopomofo": "ㄨㆶ¹ ㄎㄝㄧ² ㄧㄜㄣ⁴"
+          },
+          {
+            "cjk": "住",
+            "jyutping": "zyu6",
+            "yale": "jyuh",
+            "bopomofo": "ㄗㄩ⁶"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "accept": [
+          [
+            "屋企人",
+            "同",
+            "我",
+            "住"
+          ]
+        ]
+      },
+      {
+        "id": "tung4-and-with:4",
+        "patternId": "tung4-and-with",
+        "level": "A1",
+        "en": "She went to Japan with her husband.",
+        "tokens": [
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "同",
+            "jyutping": "tung4",
+            "yale": "tùhng",
+            "bopomofo": "ㄊㄨㄥ⁴"
+          },
+          {
+            "cjk": "佢",
+            "jyutping": "keoi5",
+            "yale": "kéuih",
+            "bopomofo": "ㄎㆤㄧ⁵"
+          },
+          {
+            "cjk": "老公",
+            "jyutping": "lou5 gung1",
+            "yale": "lóuh gūng",
+            "bopomofo": "ㄌㄛㄨ⁵ ㄍㄨㄥ¹"
+          },
+          {
+            "cjk": "去",
+            "jyutping": "heoi3",
+            "yale": "heui",
+            "bopomofo": "ㄏㆤㄧ³"
+          },
+          {
+            "cjk": "咗",
+            "jyutping": "zo2",
+            "yale": "jó",
+            "bopomofo": "ㄗㄛ²"
+          },
+          {
+            "cjk": "日本",
+            "jyutping": "jat6 bun2",
+            "yale": "yaht bún",
+            "bopomofo": "ㄧㄜㆵ⁶ ㄅㄨㄣ²"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ],
+        "accept": [
+          [
+            "佢",
+            "老公",
+            "同",
+            "佢",
+            "去",
+            "咗",
+            "日本"
+          ]
+        ]
+      },
+      {
         "id": "m4-hou2-dont:1",
         "patternId": "m4-hou2-dont",
         "level": "A1",
@@ -35841,6 +42468,66 @@
             "jyutping": "zi1",
             "yale": "jī",
             "bopomofo": "ㄗㄧ¹"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "m4-hou2-dont:3",
+        "patternId": "m4-hou2-dont",
+        "level": "A1",
+        "en": "Don't be late.",
+        "tokens": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "遲到",
+            "jyutping": "ci4 dou3",
+            "yale": "chìh dou",
+            "bopomofo": "ㄘㄧ⁴ ㄉㄛㄨ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "。",
+            "punctuation": "."
+          }
+        ]
+      },
+      {
+        "id": "m4-hou2-dont:4",
+        "patternId": "m4-hou2-dont",
+        "level": "A1",
+        "en": "Don't be so loud.",
+        "tokens": [
+          {
+            "cjk": "唔好",
+            "jyutping": "m4 hou2",
+            "yale": "m̀h hóu",
+            "bopomofo": "ㆬ⁴ ㄏㄛㄨ²"
+          },
+          {
+            "cjk": "咁",
+            "jyutping": "gam3",
+            "yale": "gam",
+            "bopomofo": "ㄍㄜㆬ³"
+          },
+          {
+            "cjk": "大聲",
+            "jyutping": "daai6 seng1",
+            "yale": "daaih sēng",
+            "bopomofo": "ㄉㄚㄧ⁶ ㄙㄝㄥ¹"
           },
           {
             "cjk": "。",
@@ -36011,6 +42698,129 @@
             "學生",
             "定係",
             "老師",
+            "呀"
+          ]
+        ]
+      },
+      {
+        "id": "ding6-hai6-or:3",
+        "patternId": "ding6-hai6-or",
+        "level": "A1",
+        "en": "Are you free today or tomorrow?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "今日",
+            "jyutping": "gam1 jat6",
+            "yale": "gām yaht",
+            "bopomofo": "ㄍㄜㆬ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "聽日",
+            "jyutping": "ting1 jat6",
+            "yale": "tīng yaht",
+            "bopomofo": "ㄊㄧㄥ¹ ㄧㄜㆵ⁶"
+          },
+          {
+            "cjk": "得閒",
+            "jyutping": "dak1 haan4",
+            "yale": "dāk hàahn",
+            "bopomofo": "ㄉㄜㆶ¹ ㄏㄚㄣ⁴"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "accept": [
+          [
+            "你",
+            "聽日",
+            "定係",
+            "今日",
+            "得閒",
+            "呀"
+          ]
+        ]
+      },
+      {
+        "id": "ding6-hai6-or:4",
+        "patternId": "ding6-hai6-or",
+        "level": "A1",
+        "en": "Are you taking the bus or the MTR?",
+        "tokens": [
+          {
+            "cjk": "你",
+            "jyutping": "nei5",
+            "yale": "néih",
+            "bopomofo": "ㄋㄝㄧ⁵"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "巴士",
+            "jyutping": "baa1 si2",
+            "yale": "bā sí",
+            "bopomofo": "ㄅㄚ¹ ㄙㄧ²"
+          },
+          {
+            "cjk": "定係",
+            "jyutping": "ding6 hai6",
+            "yale": "dihng haih",
+            "bopomofo": "ㄉㄧㄥ⁶ ㄏㄜㄧ⁶"
+          },
+          {
+            "cjk": "搭",
+            "jyutping": "daap3",
+            "yale": "daap",
+            "bopomofo": "ㄉㄚㆴ³"
+          },
+          {
+            "cjk": "港鐵",
+            "jyutping": "gong2 tit3",
+            "yale": "góng tit",
+            "bopomofo": "ㄍㄛㄥ² ㄊㄧㆵ³"
+          },
+          {
+            "cjk": "呀",
+            "jyutping": "aa3",
+            "yale": "a",
+            "bopomofo": "ㄚ³"
+          },
+          {
+            "cjk": "？",
+            "punctuation": "?"
+          }
+        ],
+        "accept": [
+          [
+            "你",
+            "搭",
+            "港鐵",
+            "定係",
+            "搭",
+            "巴士",
             "呀"
           ]
         ]

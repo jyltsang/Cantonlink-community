@@ -36,6 +36,22 @@
 | Bopomofo | ㆬ⁴ ㄏㄛㄨ² ㄨㄚ⁶ ㄎㆤㄧ⁵ ㄗㄧ¹. |
 | English | Don't tell him. |
 
+| | |
+|---|---|
+| 漢字 | **唔好遲到呀。** |
+| Jyutping | m4 hou2 ci4 dou3 aa3. |
+| Yale | m̀h hóu chìh dou a. |
+| Bopomofo | ㆬ⁴ ㄏㄛㄨ² ㄘㄧ⁴ ㄉㄛㄨ³ ㄚ³. |
+| English | Don't be late. |
+
+| | |
+|---|---|
+| 漢字 | **唔好咁大聲。** |
+| Jyutping | m4 hou2 gam3 daai6 seng1. |
+| Yale | m̀h hóu gam daaih sēng. |
+| Bopomofo | ㆬ⁴ ㄏㄛㄨ² ㄍㄜㆬ³ ㄉㄚㄧ⁶ ㄙㄝㄥ¹. |
+| English | Don't be so loud. |
+
 ## Common mistakes
 
 - Not ~~不要擔心。~~ but **唔好擔心。** *m4 hou2 daam1 sam1.* · *m̀h hóu dāam sām.*  

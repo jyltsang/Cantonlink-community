@@ -34,6 +34,22 @@
 | Bopomofo | ㄋㄝㄧ⁵ ㄙㆦㄥ² ㄏㆤㄧ³ ㄅㄧㄣ¹ ㄉㄛㄨ⁶ ㄚ³? |
 | English | Where would you like to go? |
 
+| | |
+|---|---|
+| 漢字 | **我想返屋企。** |
+| Jyutping | ngo5 soeng2 faan1 uk1 kei2. |
+| Yale | ngóh séung fāan ūk kéi. |
+| Bopomofo | ㆭㄛ⁵ ㄙㆦㄥ² ㄈㄚㄣ¹ ㄨㆶ¹ ㄎㄝㄧ². |
+| English | I want to go home. |
+
+| | |
+|---|---|
+| 漢字 | **你想食乜嘢呀？** |
+| Jyutping | nei5 soeng2 sik6 mat1 je5 aa3? |
+| Yale | néih séung sihk māt yéh a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄙㆦㄥ² ㄙㄧㆶ⁶ ㄇㄜㆵ¹ ㄧㄝ⁵ ㄚ³? |
+| English | What would you like to eat? |
+
 ## Related patterns
 
 - [要 + Noun / Verb](jiu3-want-need.md) — to want (something); to need to / have to

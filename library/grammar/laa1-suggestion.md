@@ -36,6 +36,22 @@
 | Bopomofo | ㄈㄚㄧ³ ㄉㄧ¹ ㄌㄚ¹! |
 | English | Hurry up! |
 
+| | |
+|---|---|
+| 漢字 | **一齊食飯啦。** |
+| Jyutping | jat1 cai4 sik6 faan6 laa1. |
+| Yale | yāt chàih sihk faahn lā. |
+| Bopomofo | ㄧㄜㆵ¹ ㄘㄜㄧ⁴ ㄙㄧㆶ⁶ ㄈㄚㄣ⁶ ㄌㄚ¹. |
+| English | Let's eat together. |
+
+| | |
+|---|---|
+| 漢字 | **你食多啲啦。** |
+| Jyutping | nei5 sik6 do1 di1 laa1. |
+| Yale | néih sihk dō dī lā. |
+| Bopomofo | ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㄉㄛ¹ ㄉㄧ¹ ㄌㄚ¹. |
+| English | Have some more. |
+
 ## Common mistakes
 
 - Not ~~我們走吧。~~ but **我哋走啦。** *ngo5 dei6 zau2 laa1.* · *ngóh deih jáu lā.*  

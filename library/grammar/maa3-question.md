@@ -34,6 +34,22 @@ Adding 嗎 to a statement makes it a yes/no question. It is correct and widely u
 | Bopomofo | ㄧㄜㄨ⁵ ㄇㄜㄣ⁶ ㄊㄜㄧ⁴ ㄇㄚ³? |
 | English | Any questions? |
 
+| | |
+|---|---|
+| 漢字 | **你識講廣東話嗎？** |
+| Jyutping | nei5 sik1 gong2 gwong2 dung1 waa2 maa3? |
+| Yale | néih sīk góng gwóng dūng wá ma? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄙㄧㆶ¹ ㄍㄛㄥ² ㄍㄨㄛㄥ² ㄉㄨㄥ¹ ㄨㄚ² ㄇㄚ³? |
+| English | Can you speak Cantonese? |
+
+| | |
+|---|---|
+| 漢字 | **呢度可以坐嗎？** |
+| Jyutping | ni1 dou6 ho2 ji5 co5 maa3? |
+| Yale | nī douh hó yíh chóh ma? |
+| Bopomofo | ㄋㄧ¹ ㄉㄛㄨ⁶ ㄏㄛ² ㄧ⁵ ㄘㄛ⁵ ㄇㄚ³? |
+| English | Can I sit here? |
+
 ## Related patterns
 
 - [Verb + 唔 + Verb？](a-not-a-question.md) — yes/no question (A-not-A)

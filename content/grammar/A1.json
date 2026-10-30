@@ -11,7 +11,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["係", "hai6"], ["學生", "hok6 saang1"], ["。"]], "en": "I'm a student.", "gap": { "word": "係", "distractors": ["喺", "有", "嘅"] } },
       { "words": [["佢", "keoi5"], ["係", "hai6"], ["我", "ngo5"], ["朋友", "pang4 jau5"], ["。"]], "en": "He's my friend.", "gap": { "word": "係", "distractors": ["喺", "冇", "嘅"] } },
-      { "words": [["呢度", "ni1 dou6"], ["係", "hai6"], ["銅鑼灣", "tung4 lo4 waan1"], ["。"]], "en": "This is Causeway Bay.", "gap": { "word": "係", "distractors": ["喺", "有", "咗"] } }
+      { "words": [["呢度", "ni1 dou6"], ["係", "hai6"], ["銅鑼灣", "tung4 lo4 waan1"], ["。"]], "en": "This is Causeway Bay.", "gap": { "word": "係", "distractors": ["喺", "有", "咗"] } },
+      { "words": [["佢", "keoi5"], ["係", "hai6"], ["醫生", "ji1 sang1"], ["。"]], "en": "She's a doctor.", "gap": { "word": "係", "distractors": ["喺", "有", "嘅"] } },
+      { "words": [["今日", "gam1 jat6"], ["係", "hai6"], ["星期六", "sing1 kei4 luk6"], ["。"]], "en": "Today is Saturday.", "gap": { "word": "係", "distractors": ["喺", "有", "咗"] } }
     ],
     "mistakes": [{ "incorrect": "他是學生。", "correct": [["佢", "keoi5"], ["係", "hai6"], ["學生", "hok6 saang1"], ["。"]], "note": "他 and 是 are written forms. Speech uses 佢 and 係." }],
     "related": ["m4-negation", "hai2-location"],
@@ -29,7 +31,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["唔", "m4"], ["食", "sik6"], ["牛肉", "ngau4 juk6"], ["。"]], "en": "I don't eat beef.", "gap": { "word": "唔", "distractors": ["冇", "咗", "好"] } },
       { "words": [["今日", "gam1 jat6"], ["唔", "m4"], ["熱", "jit6"], ["。"]], "en": "It's not hot today.", "gap": { "word": "唔", "distractors": ["好", "太", "咗"] } },
-      { "words": [["佢", "keoi5"], ["唔", "m4"], ["係", "hai6"], ["老師", "lou5 si1"], ["。"]], "en": "She isn't a teacher.", "gap": { "word": "唔", "distractors": ["冇", "都", "未"] } }
+      { "words": [["佢", "keoi5"], ["唔", "m4"], ["係", "hai6"], ["老師", "lou5 si1"], ["。"]], "en": "She isn't a teacher.", "gap": { "word": "唔", "distractors": ["冇", "都", "未"] } },
+      { "words": [["我", "ngo5"], ["唔", "m4"], ["飲", "jam2"], ["酒", "zau2"], ["。"]], "en": "I don't drink alcohol.", "gap": { "word": "唔", "distractors": ["冇", "咗", "都"] } },
+      { "words": [["呢", "ni1"], ["間", "gaan1"], ["餐廳", "caan1 teng1"], ["唔", "m4"], ["貴", "gwai3"], ["。"]], "en": "This restaurant isn't expensive.", "gap": { "word": "唔", "distractors": ["好", "太", "咗"] } }
     ],
     "mistakes": [{ "incorrect": "我不去。", "correct": [["我", "ngo5"], ["唔", "m4"], ["去", "heoi3"], ["。"]], "note": "不 is written Chinese. Say 唔." }],
     "related": ["jau5-mou5", "hai6-copula"],
@@ -47,7 +51,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["有", "jau5"], ["一", "jat1"], ["隻", "zek3"], ["貓", "maau1"], ["。"]], "en": "I have a cat.", "gap": { "word": "有", "distractors": ["冇", "係", "喺"] } },
       { "words": [["佢", "keoi5"], ["冇", "mou5"], ["車", "ce1"], ["。"]], "en": "He doesn't have a car.", "gap": { "word": "冇", "distractors": ["有", "唔", "未"] } },
-      { "words": [["呢度", "ni1 dou6"], ["冇", "mou5"], ["洗手間", "sai2 sau2 gaan1"], ["。"]], "en": "There's no toilet here.", "gap": { "word": "冇", "distractors": ["有", "唔", "係"] } }
+      { "words": [["呢度", "ni1 dou6"], ["冇", "mou5"], ["洗手間", "sai2 sau2 gaan1"], ["。"]], "en": "There's no toilet here.", "gap": { "word": "冇", "distractors": ["有", "唔", "係"] } },
+      { "words": [["我", "ngo5"], ["冇", "mou5"], ["錢", "cin2"], ["。"]], "en": "I haven't got any money.", "gap": { "word": "冇", "distractors": ["有", "唔", "未"] } },
+      { "words": [["佢", "keoi5"], ["有", "jau5"], ["兩", "loeng5"], ["個", "go3"], ["細路", "sai3 lou6"], ["。"]], "en": "She has two children.", "gap": { "word": "有", "distractors": ["冇", "係", "喺"] } }
     ],
     "mistakes": [
       { "incorrect": "我唔有錢。", "correct": [["我", "ngo5"], ["冇", "mou5"], ["錢", "cin2"], ["。"]], "note": "The negative of 有 is 冇, not 唔有." },
@@ -67,7 +73,9 @@
     "examples": [
       { "words": [["有冇", "jau5 mou5"], ["奶茶", "naai5 caa4"], ["呀", "aa3"], ["？"]], "en": "Do you have milk tea?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾多", "邊度"] } },
       { "words": [["你", "nei5"], ["有冇", "jau5 mou5"], ["八達通", "baat3 daat6 tung1"], ["呀", "aa3"], ["？"]], "en": "Do you have an Octopus card?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾時", "邊個"] } },
-      { "words": [["附近", "fu6 gan6"], ["有冇", "jau5 mou5"], ["銀行", "ngan4 hong4"], ["呀", "aa3"], ["？"]], "en": "Is there a bank nearby?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾多", "點解"] } }
+      { "words": [["附近", "fu6 gan6"], ["有冇", "jau5 mou5"], ["銀行", "ngan4 hong4"], ["呀", "aa3"], ["？"]], "en": "Is there a bank nearby?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾多", "點解"] } },
+      { "words": [["你", "nei5"], ["有冇", "jau5 mou5"], ["時間", "si4 gaan3"], ["呀", "aa3"], ["？"]], "en": "Have you got time?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾多", "邊度"] } },
+      { "words": [["有冇", "jau5 mou5"], ["細碼", "sai3 maa5"], ["呀", "aa3"], ["？"]], "en": "Do you have a small size?", "gap": { "word": "有冇", "distractors": ["係唔係", "幾時", "點解"] } }
     ],
     "related": ["jau5-mou5", "a-not-a-question"],
     "review": { "status": "draft", "reviewers": [] }
@@ -84,7 +92,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["去唔去", "heoi3 m4 heoi3"], ["呀", "aa3"], ["？"]], "en": "Are you going?" },
       { "words": [["你", "nei5"], ["係唔係", "hai6 m4 hai6"], ["老師", "lou5 si1"], ["呀", "aa3"], ["？"]], "en": "Are you a teacher?" },
-      { "words": [["呢個", "ni1 go3"], ["好唔好食", "hou2 m4 hou2 sik6"], ["呀", "aa3"], ["？"]], "en": "Is this tasty?" }
+      { "words": [["呢個", "ni1 go3"], ["好唔好食", "hou2 m4 hou2 sik6"], ["呀", "aa3"], ["？"]], "en": "Is this tasty?" },
+      { "words": [["你", "nei5"], ["食唔食", "sik6 m4 sik6"], ["辣", "laat6"], ["呀", "aa3"], ["？"]], "en": "Do you eat spicy food?" },
+      { "words": [["今日", "gam1 jat6"], ["凍唔凍", "dung3 m4 dung3"], ["呀", "aa3"], ["？"]], "en": "Is it cold today?" }
     ],
     "related": ["jau5-mou5-question", "maa3-question"],
     "review": { "status": "draft", "reviewers": [] }
@@ -101,7 +111,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["喇", "laa3"], ["。"]], "en": "I've already eaten.", "gap": { "word": "咗", "distractors": ["緊", "住", "吓"] } },
       { "words": [["佢", "keoi5"], ["返", "faan1"], ["咗", "zo2"], ["屋企", "uk1 kei2"], ["。"]], "en": "He's gone home.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } },
-      { "words": [["我", "ngo5"], ["買", "maai5"], ["咗", "zo2"], ["兩", "loeng5"], ["本", "bun2"], ["書", "syu1"], ["。"]], "en": "I bought two books.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } }
+      { "words": [["我", "ngo5"], ["買", "maai5"], ["咗", "zo2"], ["兩", "loeng5"], ["本", "bun2"], ["書", "syu1"], ["。"]], "en": "I bought two books.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } },
+      { "words": [["我", "ngo5"], ["搭", "daap3"], ["咗", "zo2"], ["的士", "dik1 si2"], ["。"]], "en": "I took a taxi.", "gap": { "word": "咗", "distractors": ["緊", "住", "吓"] } },
+      { "words": [["我", "ngo5"], ["到", "dou3"], ["咗", "zo2"], ["喇", "laa3"], ["。"]], "en": "I've arrived.", "gap": { "word": "咗", "distractors": ["緊", "過", "吓"] } }
     ],
     "mistakes": [{ "incorrect": "我吃了飯。", "correct": [["我", "ngo5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["。"]], "note": "吃 and 了 are written forms. Speech uses 食 and 咗." }],
     "related": ["mei6-yet", "gan2-progressive", "gwo3-experience"],
@@ -119,7 +131,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["食", "sik6"], ["緊", "gan2"], ["飯", "faan6"], ["。"]], "en": "I'm eating.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } },
       { "words": [["佢", "keoi5"], ["講", "gong2"], ["緊", "gan2"], ["電話", "din6 waa2"], ["。"]], "en": "She's on the phone.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } },
-      { "words": [["外面", "ngoi6 min6"], ["落", "lok6"], ["緊", "gan2"], ["雨", "jyu5"], ["。"]], "en": "It's raining outside.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } }
+      { "words": [["外面", "ngoi6 min6"], ["落", "lok6"], ["緊", "gan2"], ["雨", "jyu5"], ["。"]], "en": "It's raining outside.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } },
+      { "words": [["佢哋", "keoi5 dei6"], ["開", "hoi1"], ["緊", "gan2"], ["會", "wui2"], ["。"]], "en": "They're in a meeting.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } },
+      { "words": [["我", "ngo5"], ["等", "dang2"], ["緊", "gan2"], ["巴士", "baa1 si2"], ["。"]], "en": "I'm waiting for the bus.", "gap": { "word": "緊", "distractors": ["咗", "過", "吓"] } }
     ],
     "related": ["zo2-completed", "gwo3-experience"],
     "review": { "status": "draft", "reviewers": [] }
@@ -140,7 +154,9 @@
         "words": [["我", "ngo5"], ["知道", "zi1 dou3"], ["一", "jat1"], ["間", "gaan1"], ["好好食", "hou2 hou2 sik6"], ["嘅", "ge3"], ["餐廳", "caan1 teng1"], ["。"]],
         "en": "I know a really good restaurant.",
         "gap": { "word": "嘅", "distractors": ["係", "喺", "咗"] }
-      }
+      },
+      { "words": [["呢", "ni1"], ["把", "baa2"], ["遮", "ze1"], ["係", "hai6"], ["邊個", "bin1 go3"], ["嘅", "ge3"], ["呀", "aa3"], ["？"]], "en": "Whose umbrella is this?", "gap": { "word": "嘅", "distractors": ["緊", "喺", "咗"] } },
+      { "words": [["我", "ngo5"], ["嘅", "ge3"], ["手機", "sau2 gei1"], ["冇", "mou5"], ["電", "din6"], ["。"]], "en": "My phone's battery is dead.", "gap": { "word": "嘅", "distractors": ["緊", "喺", "咗"] } }
     ],
     "mistakes": [{ "incorrect": "這是我的書。", "correct": [["呢", "ni1"], ["本", "bun2"], ["係", "hai6"], ["我", "ngo5"], ["嘅", "ge3"], ["書", "syu1"], ["。"]], "note": "這 and 的 are written forms. Speech uses 呢 + classifier and 嘅." }],
     "related": ["ni1-go2-demonstratives"],
@@ -158,7 +174,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["喺", "hai2"], ["香港", "hoeng1 gong2"], ["。"]], "en": "I'm in Hong Kong.", "gap": { "word": "喺", "distractors": ["係", "有", "去"] } },
       { "words": [["洗手間", "sai2 sau2 gaan1"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where's the toilet?", "gap": { "word": "喺", "distractors": ["係", "有", "嘅"] } },
-      { "words": [["我", "ngo5"], ["喺", "hai2"], ["公司", "gung1 si1"], ["食飯", "sik6 faan6"], ["。"]], "en": "I eat at the office.", "gap": { "word": "喺", "distractors": ["係", "有", "嘅"] } }
+      { "words": [["我", "ngo5"], ["喺", "hai2"], ["公司", "gung1 si1"], ["食飯", "sik6 faan6"], ["。"]], "en": "I eat at the office.", "gap": { "word": "喺", "distractors": ["係", "有", "嘅"] } },
+      { "words": [["佢", "keoi5"], ["喺", "hai2"], ["屋企", "uk1 kei2"], ["。"]], "en": "She's at home.", "gap": { "word": "喺", "distractors": ["係", "有", "去"] } },
+      { "words": [["我哋", "ngo5 dei6"], ["喺", "hai2"], ["尖沙咀", "zim1 saa1 zeoi2"], ["等", "dang2"], ["你", "nei5"], ["。"]], "en": "We'll wait for you in Tsim Sha Tsui.", "gap": { "word": "喺", "distractors": ["係", "有", "嘅"] } }
     ],
     "mistakes": [{ "incorrect": "你在哪裏？", "correct": [["你", "nei5"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "note": "在 and 哪裏 are written forms. Speech uses 喺 and 邊度." }],
     "related": ["hai6-copula", "bin1-where-who"],
@@ -176,7 +194,9 @@
     "examples": [
       { "words": [["呢", "ni1"], ["個", "go3"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is this?", "gap": { "word": "呢", "distractors": ["邊", "幾", "乜"] } },
       { "words": [["我", "ngo5"], ["要", "jiu3"], ["嗰", "go2"], ["件", "gin6"], ["。"]], "en": "I'd like that one (piece of clothing).", "gap": { "word": "嗰", "distractors": ["邊", "幾", "乜"] } },
-      { "words": [["嗰", "go2"], ["間", "gaan1"], ["餐廳", "caan1 teng1"], ["好", "hou2"], ["出名", "ceot1 meng2"], ["。"]], "en": "That restaurant is very famous.", "gap": { "word": "嗰", "distractors": ["邊", "幾", "乜"] } }
+      { "words": [["嗰", "go2"], ["間", "gaan1"], ["餐廳", "caan1 teng1"], ["好", "hou2"], ["出名", "ceot1 meng2"], ["。"]], "en": "That restaurant is very famous.", "gap": { "word": "嗰", "distractors": ["邊", "幾", "乜"] } },
+      { "words": [["呢", "ni1"], ["部", "bou6"], ["電腦", "din6 nou5"], ["好", "hou2"], ["慢", "maan6"], ["。"]], "en": "This computer is very slow.", "gap": { "word": "呢", "distractors": ["邊", "幾", "乜"] } },
+      { "words": [["嗰", "go2"], ["個", "go3"], ["人", "jan4"], ["係", "hai6"], ["我", "ngo5"], ["老細", "lou5 sai3"], ["。"]], "en": "That person is my boss.", "gap": { "word": "嗰", "distractors": ["邊", "幾", "乜"] } }
     ],
     "related": ["number-classifier", "bin1-where-who"],
     "review": { "status": "draft", "reviewers": [] }
@@ -192,7 +212,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["要", "jiu3"], ["兩", "loeng5"], ["杯", "bui1"], ["奶茶", "naai5 caa4"], ["。"]], "en": "Two milk teas, please.", "gap": { "word": "杯", "distractors": ["本", "部", "件"] } },
       { "words": [["佢", "keoi5"], ["有", "jau5"], ["三", "saam1"], ["個", "go3"], ["仔", "zai2"], ["。"]], "en": "She has three sons.", "gap": { "word": "個", "distractors": ["杯", "本", "部"] } },
-      { "words": [["我", "ngo5"], ["想", "soeng2"], ["買", "maai5"], ["一", "jat1"], ["部", "bou6"], ["新", "san1"], ["手機", "sau2 gei1"], ["。"]], "en": "I want to buy a new phone.", "gap": { "word": "部", "distractors": ["杯", "本", "件"] } }
+      { "words": [["我", "ngo5"], ["想", "soeng2"], ["買", "maai5"], ["一", "jat1"], ["部", "bou6"], ["新", "san1"], ["手機", "sau2 gei1"], ["。"]], "en": "I want to buy a new phone.", "gap": { "word": "部", "distractors": ["杯", "本", "件"] } },
+      { "words": [["佢", "keoi5"], ["買", "maai5"], ["咗", "zo2"], ["三", "saam1"], ["對", "deoi3"], ["鞋", "haai4"], ["。"]], "en": "She bought three pairs of shoes.", "gap": { "word": "對", "distractors": ["杯", "本", "部"] } },
+      { "words": [["我", "ngo5"], ["想", "soeng2"], ["要", "jiu3"], ["一", "jat1"], ["張", "zoeng1"], ["地圖", "dei6 tou4"], ["。"]], "en": "I'd like a map.", "gap": { "word": "張", "distractors": ["杯", "本", "部"] } }
     ],
     "mistakes": [{ "incorrect": "二個人", "correct": [["兩", "loeng5"], ["個", "go3"], ["人", "jan4"]], "note": "Before a classifier, 'two' is 兩, not 二." }],
     "related": ["ni1-go2-demonstratives", "gei2-do1-cin2"],
@@ -209,7 +231,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["想", "soeng2"], ["飲", "jam2"], ["水", "seoi2"], ["。"]], "en": "I'd like some water.", "gap": { "word": "想", "distractors": ["識", "喺", "試"] } },
       { "words": [["我", "ngo5"], ["想", "soeng2"], ["學", "hok6"], ["廣東話", "gwong2 dung1 waa2"], ["。"]], "en": "I want to learn Cantonese.", "gap": { "word": "想", "distractors": ["識", "喺", "教"] } },
-      { "words": [["你", "nei5"], ["想", "soeng2"], ["去", "heoi3"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where would you like to go?", "gap": { "word": "想", "distractors": ["識", "喺", "係"] } }
+      { "words": [["你", "nei5"], ["想", "soeng2"], ["去", "heoi3"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where would you like to go?", "gap": { "word": "想", "distractors": ["識", "喺", "係"] } },
+      { "words": [["我", "ngo5"], ["想", "soeng2"], ["返", "faan1"], ["屋企", "uk1 kei2"], ["。"]], "en": "I want to go home.", "gap": { "word": "想", "distractors": ["識", "喺", "試"] } },
+      { "words": [["你", "nei5"], ["想", "soeng2"], ["食", "sik6"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "en": "What would you like to eat?", "gap": { "word": "想", "distractors": ["識", "喺", "係"] } }
     ],
     "related": ["jiu3-want-need", "sik1-know-how"],
     "review": { "status": "draft", "reviewers": [] }
@@ -225,7 +249,9 @@
     "examples": [
       { "words": [["我", "ngo5"], ["要", "jiu3"], ["一", "jat1"], ["碗", "wun2"], ["雲吞麪", "wan4 tan1 min6"], ["。"]], "en": "One bowl of wonton noodles, please.", "gap": { "word": "要", "distractors": ["有", "係", "喺"] } },
       { "words": [["我", "ngo5"], ["要", "jiu3"], ["走", "zau2"], ["喇", "laa3"], ["。"]], "en": "I have to go now.", "gap": { "word": "要", "distractors": ["想", "識", "試"] } },
-      { "words": [["你", "nei5"], ["要唔要", "jiu3 m4 jiu3"], ["袋", "doi2"], ["呀", "aa3"], ["？"]], "en": "Do you need a bag?" }
+      { "words": [["你", "nei5"], ["要唔要", "jiu3 m4 jiu3"], ["袋", "doi2"], ["呀", "aa3"], ["？"]], "en": "Do you need a bag?" },
+      { "words": [["我", "ngo5"], ["要", "jiu3"], ["兩", "loeng5"], ["個", "go3"], ["菠蘿包", "bo1 lo4 baau1"], ["。"]], "en": "Two pineapple buns, please.", "gap": { "word": "要", "distractors": ["有", "係", "喺"] } },
+      { "words": [["我", "ngo5"], ["聽日", "ting1 jat6"], ["要", "jiu3"], ["返工", "faan1 gung1"], ["。"]], "en": "I have to work tomorrow.", "gap": { "word": "要", "distractors": ["想", "識", "試"] }, "accept": [["聽日", "我", "要", "返工"]] }
     ],
     "related": ["soeng2-want", "number-classifier"],
     "review": { "status": "draft", "reviewers": [] }
@@ -242,7 +268,9 @@
     "examples": [
       { "words": [["今日", "gam1 jat6"], ["好", "hou2"], ["熱", "jit6"], ["。"]], "en": "It's very hot today.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } },
       { "words": [["呢度", "ni1 dou6"], ["啲", "di1"], ["嘢", "je5"], ["好", "hou2"], ["貴", "gwai3"], ["。"]], "en": "Things here are very expensive.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } },
-      { "words": [["我", "ngo5"], ["好", "hou2"], ["攰", "gui6"], ["。"]], "en": "I'm really tired.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } }
+      { "words": [["我", "ngo5"], ["好", "hou2"], ["攰", "gui6"], ["。"]], "en": "I'm really tired.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } },
+      { "words": [["佢", "keoi5"], ["好", "hou2"], ["高", "gou1"], ["。"]], "en": "He's very tall.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } },
+      { "words": [["港鐵", "gong2 tit3"], ["好", "hou2"], ["迫", "bik1"], ["。"]], "en": "The MTR is really crowded.", "gap": { "word": "好", "distractors": ["太", "係", "最"] } }
     ],
     "mistakes": [{ "incorrect": "很好", "correct": [["好", "hou2"], ["好", "hou2"]], "note": "很 is written Chinese. 'Very good' is 好好." }],
     "related": ["taai3-too", "gwo3-comparison"],
@@ -260,7 +288,9 @@
     "examples": [
       { "words": [["一", "jat1"], ["杯", "bui1"], ["奶茶", "naai5 caa4"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is a milk tea?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } },
       { "words": [["呢", "ni1"], ["件", "gin6"], ["衫", "saam1"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is this top?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } },
-      { "words": [["去", "heoi3"], ["機場", "gei1 coeng4"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is it to the airport?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } }
+      { "words": [["去", "heoi3"], ["機場", "gei1 coeng4"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is it to the airport?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } },
+      { "words": [["兩", "loeng5"], ["個", "go3"], ["蛋撻", "daan6 taat1"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much are two egg tarts?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } },
+      { "words": [["一", "jat1"], ["張", "zoeng1"], ["飛", "fei1"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "en": "How much is one ticket?", "gap": { "word": "幾多錢", "distractors": ["幾時", "邊度", "點解"] } }
     ],
     "mistakes": [{ "incorrect": "這個多少錢？", "correct": [["呢", "ni1"], ["個", "go3"], ["幾多錢", "gei2 do1 cin2"], ["呀", "aa3"], ["？"]], "note": "這 and 多少 are written forms." }],
     "related": ["number-classifier", "mat1-je5-what"],
@@ -278,7 +308,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["食", "sik6"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "en": "What are you eating?", "gap": { "word": "乜嘢", "distractors": ["邊度", "幾時", "點解"] } },
       { "words": [["你", "nei5"], ["叫", "giu3"], ["咩", "me1"], ["名", "meng2"], ["呀", "aa3"], ["？"]], "en": "What's your name?", "gap": { "word": "咩", "distractors": ["邊", "幾", "點"] } },
-      { "words": [["呢個", "ni1 go3"], ["係", "hai6"], ["乜嘢", "mat1 je5"], ["嚟", "lai4"], ["㗎", "gaa3"], ["？"]], "en": "What is this?", "gap": { "word": "乜嘢", "distractors": ["邊度", "幾時", "點解"] } }
+      { "words": [["呢個", "ni1 go3"], ["係", "hai6"], ["乜嘢", "mat1 je5"], ["嚟", "lai4"], ["㗎", "gaa3"], ["？"]], "en": "What is this?", "gap": { "word": "乜嘢", "distractors": ["邊度", "幾時", "點解"] } },
+      { "words": [["你", "nei5"], ["做", "zou6"], ["緊", "gan2"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "en": "What are you doing?", "gap": { "word": "乜嘢", "distractors": ["邊度", "幾時", "點解"] } },
+      { "words": [["你", "nei5"], ["鍾意", "zung1 ji3"], ["咩", "me1"], ["顏色", "ngaan4 sik1"], ["呀", "aa3"], ["？"]], "en": "What colour do you like?", "gap": { "word": "咩", "distractors": ["邊", "幾", "點"] } }
     ],
     "mistakes": [{ "incorrect": "你要甚麼？", "correct": [["你", "nei5"], ["要", "jiu3"], ["乜嘢", "mat1 je5"], ["呀", "aa3"], ["？"]], "note": "甚麼 is written Chinese." }],
     "related": ["bin1-where-who", "gei2-si4-when"],
@@ -296,7 +328,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["住", "zyu6"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where do you live?", "gap": { "word": "邊度", "distractors": ["邊個", "幾時", "乜嘢"] } },
       { "words": [["佢", "keoi5"], ["係", "hai6"], ["邊個", "bin1 go3"], ["呀", "aa3"], ["？"]], "en": "Who is he?", "gap": { "word": "邊個", "distractors": ["邊度", "幾時", "幾多"] } },
-      { "words": [["你", "nei5"], ["要", "jiu3"], ["邊", "bin1"], ["件", "gin6"], ["呀", "aa3"], ["？"]], "en": "Which one do you want?", "gap": { "word": "邊", "distractors": ["呢", "嗰", "幾"] } }
+      { "words": [["你", "nei5"], ["要", "jiu3"], ["邊", "bin1"], ["件", "gin6"], ["呀", "aa3"], ["？"]], "en": "Which one do you want?", "gap": { "word": "邊", "distractors": ["呢", "嗰", "幾"] } },
+      { "words": [["港鐵站", "gong2 tit3 zaam6"], ["喺", "hai2"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where's the MTR station?", "gap": { "word": "邊度", "distractors": ["邊個", "幾時", "乜嘢"] } },
+      { "words": [["邊個", "bin1 go3"], ["想", "soeng2"], ["飲", "jam2"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "en": "Who'd like a coffee?", "gap": { "word": "邊個", "distractors": ["邊度", "幾時", "幾多"] } }
     ],
     "related": ["hai2-location", "mat1-je5-what"],
     "review": { "status": "draft", "reviewers": [] }
@@ -313,7 +347,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["返工", "faan1 gung1"], ["呀", "aa3"], ["？"]], "en": "When do you go to work?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } },
       { "words": [["我哋", "ngo5 dei6"], ["幾時", "gei2 si4"], ["見", "gin3"], ["呀", "aa3"], ["？"]], "en": "When shall we meet?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } },
-      { "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["嚟", "lai4"], ["香港", "hoeng1 gong2"], ["㗎", "gaa3"], ["？"]], "en": "When did you come to Hong Kong?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } }
+      { "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["嚟", "lai4"], ["香港", "hoeng1 gong2"], ["㗎", "gaa3"], ["？"]], "en": "When did you come to Hong Kong?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } },
+      { "words": [["你", "nei5"], ["幾時", "gei2 si4"], ["得閒", "dak1 haan4"], ["呀", "aa3"], ["？"]], "en": "When are you free?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } },
+      { "words": [["架", "gaa3"], ["巴士", "baa1 si2"], ["幾時", "gei2 si4"], ["到", "dou3"], ["呀", "aa3"], ["？"]], "en": "When does the bus get here?", "gap": { "word": "幾時", "distractors": ["幾多", "邊個", "乜嘢"] } }
     ],
     "related": ["mat1-je5-what", "dim2-gaai2-why"],
     "review": { "status": "draft", "reviewers": [] }
@@ -329,7 +365,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["去", "heoi3"], ["邊度", "bin1 dou6"], ["呀", "aa3"], ["？"]], "en": "Where are you going?", "gap": { "word": "呀", "distractors": ["咗", "緊", "過"] } },
       { "words": [["係", "hai6"], ["呀", "aa3"], ["。"]], "en": "Yes, that's right.", "gap": { "word": "呀", "distractors": ["咗", "緊", "過"] } },
-      { "words": [["好", "hou2"], ["呀", "aa3"], ["！"]], "en": "Sure! Sounds good!", "gap": { "word": "呀", "distractors": ["咗", "緊", "過"] } }
+      { "words": [["好", "hou2"], ["呀", "aa3"], ["！"]], "en": "Sure! Sounds good!", "gap": { "word": "呀", "distractors": ["咗", "緊", "過"] } },
+      { "words": [["你", "nei5"], ["食", "sik6"], ["咗", "zo2"], ["飯", "faan6"], ["未", "mei6"], ["呀", "aa3"], ["？"]], "en": "Have you eaten yet?", "gap": { "word": "呀", "distractors": ["緊", "過", "嘅"] } },
+      { "words": [["冇問題", "mou5 man6 tai4"], ["呀", "aa3"], ["。"]], "en": "No problem.", "gap": { "word": "呀", "distractors": ["咗", "緊", "過"] } }
     ],
     "related": ["laa1-suggestion", "maa3-question"],
     "review": { "status": "draft", "reviewers": [] }
@@ -346,7 +384,9 @@
     "examples": [
       { "words": [["我哋", "ngo5 dei6"], ["走", "zau2"], ["啦", "laa1"], ["。"]], "en": "Let's go.", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } },
       { "words": [["你", "nei5"], ["坐", "co5"], ["啦", "laa1"], ["。"]], "en": "Please, have a seat.", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } },
-      { "words": [["快", "faai3"], ["啲", "di1"], ["啦", "laa1"], ["！"]], "en": "Hurry up!", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } }
+      { "words": [["快", "faai3"], ["啲", "di1"], ["啦", "laa1"], ["！"]], "en": "Hurry up!", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } },
+      { "words": [["一齊", "jat1 cai4"], ["食飯", "sik6 faan6"], ["啦", "laa1"], ["。"]], "en": "Let's eat together.", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } },
+      { "words": [["你", "nei5"], ["食", "sik6"], ["多", "do1"], ["啲", "di1"], ["啦", "laa1"], ["。"]], "en": "Have some more.", "gap": { "word": "啦", "distractors": ["嗎", "咩", "嘅"] } }
     ],
     "mistakes": [{ "incorrect": "我們走吧。", "correct": [["我哋", "ngo5 dei6"], ["走", "zau2"], ["啦", "laa1"], ["。"]], "note": "我們 and 吧 are written forms. Speech uses 我哋 and 啦." }],
     "related": ["laa3-change", "aa3-softener"],
@@ -363,7 +403,9 @@
     "examples": [
       { "words": [["你", "nei5"], ["好", "hou2"], ["嗎", "maa3"], ["？"]], "en": "How are you?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } },
       { "words": [["你", "nei5"], ["係", "hai6"], ["香港人", "hoeng1 gong2 jan4"], ["嗎", "maa3"], ["？"]], "en": "Are you from Hong Kong?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } },
-      { "words": [["有", "jau5"], ["問題", "man6 tai4"], ["嗎", "maa3"], ["？"]], "en": "Any questions?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } }
+      { "words": [["有", "jau5"], ["問題", "man6 tai4"], ["嗎", "maa3"], ["？"]], "en": "Any questions?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } },
+      { "words": [["你", "nei5"], ["識", "sik1"], ["講", "gong2"], ["廣東話", "gwong2 dung1 waa2"], ["嗎", "maa3"], ["？"]], "en": "Can you speak Cantonese?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } },
+      { "words": [["呢度", "ni1 dou6"], ["可以", "ho2 ji5"], ["坐", "co5"], ["嗎", "maa3"], ["？"]], "en": "Can I sit here?", "gap": { "word": "嗎", "distractors": ["啦", "咗", "緊"] } }
     ],
     "related": ["a-not-a-question", "me1-surprise"],
     "review": { "status": "draft", "reviewers": [] }
@@ -385,7 +427,14 @@
         "gap": { "word": "同", "distractors": ["都", "喺", "畀"] },
         "accept": [["我", "要", "一", "杯", "咖啡", "同", "一", "杯", "奶茶"]]
       },
-      { "words": [["你", "nei5"], ["同", "tung4"], ["邊個", "bin1 go3"], ["嚟", "lai4"], ["㗎", "gaa3"], ["？"]], "en": "Who did you come with?", "gap": { "word": "同", "distractors": ["都", "喺", "畀"] } }
+      { "words": [["你", "nei5"], ["同", "tung4"], ["邊個", "bin1 go3"], ["嚟", "lai4"], ["㗎", "gaa3"], ["？"]], "en": "Who did you come with?", "gap": { "word": "同", "distractors": ["都", "喺", "畀"] } },
+      { "words": [["我", "ngo5"], ["同", "tung4"], ["屋企人", "uk1 kei2 jan4"], ["住", "zyu6"], ["。"]], "en": "I live with my family.", "gap": { "word": "同", "distractors": ["都", "喺", "畀"] }, "accept": [["屋企人", "同", "我", "住"]] },
+      {
+        "words": [["佢", "keoi5"], ["同", "tung4"], ["佢", "keoi5"], ["老公", "lou5 gung1"], ["去", "heoi3"], ["咗", "zo2"], ["日本", "jat6 bun2"], ["。"]],
+        "en": "She went to Japan with her husband.",
+        "gap": { "word": "同", "distractors": ["都", "喺", "畀"] },
+        "accept": [["佢", "老公", "同", "佢", "去", "咗", "日本"]]
+      }
     ],
     "related": ["dou1-also"],
     "review": { "status": "draft", "reviewers": [] }
@@ -402,7 +451,9 @@
     "examples": [
       { "words": [["唔好", "m4 hou2"], ["擔心", "daam1 sam1"], ["。"]], "en": "Don't worry.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
       { "words": [["唔好", "m4 hou2"], ["喺度", "hai2 dou6"], ["食煙", "sik6 jin1"], ["。"]], "en": "Don't smoke here.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
-      { "words": [["唔好", "m4 hou2"], ["話", "waa6"], ["佢", "keoi5"], ["知", "zi1"], ["。"]], "en": "Don't tell him.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } }
+      { "words": [["唔好", "m4 hou2"], ["話", "waa6"], ["佢", "keoi5"], ["知", "zi1"], ["。"]], "en": "Don't tell him.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
+      { "words": [["唔好", "m4 hou2"], ["遲到", "ci4 dou3"], ["呀", "aa3"], ["。"]], "en": "Don't be late.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } },
+      { "words": [["唔好", "m4 hou2"], ["咁", "gam3"], ["大聲", "daai6 seng1"], ["。"]], "en": "Don't be so loud.", "gap": { "word": "唔好", "distractors": ["冇", "未", "都"] } }
     ],
     "mistakes": [{ "incorrect": "不要擔心。", "correct": [["唔好", "m4 hou2"], ["擔心", "daam1 sam1"], ["。"]], "note": "不要 is written Chinese. Say 唔好." }],
     "related": ["m4-negation", "m4-sai2-no-need"],
@@ -435,6 +486,18 @@
         "en": "Is she a teacher or a student?",
         "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
         "accept": [["佢", "係", "學生", "定係", "老師", "呀"]]
+      },
+      {
+        "words": [["你", "nei5"], ["今日", "gam1 jat6"], ["定係", "ding6 hai6"], ["聽日", "ting1 jat6"], ["得閒", "dak1 haan4"], ["呀", "aa3"], ["？"]],
+        "en": "Are you free today or tomorrow?",
+        "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
+        "accept": [["你", "聽日", "定係", "今日", "得閒", "呀"]]
+      },
+      {
+        "words": [["你", "nei5"], ["搭", "daap3"], ["巴士", "baa1 si2"], ["定係", "ding6 hai6"], ["搭", "daap3"], ["港鐵", "gong2 tit3"], ["呀", "aa3"], ["？"]],
+        "en": "Are you taking the bus or the MTR?",
+        "gap": { "word": "定係", "distractors": ["同", "都", "或者"] },
+        "accept": [["你", "搭", "港鐵", "定係", "搭", "巴士", "呀"]]
       }
     ],
     "mistakes": [{ "incorrect": "你要茶還是咖啡？", "correct": [["你", "nei5"], ["要", "jiu3"], ["茶", "caa4"], ["定係", "ding6 hai6"], ["咖啡", "gaa3 fe1"], ["呀", "aa3"], ["？"]], "note": "還是 is written Chinese; 或者 is for statements, not questions." }],

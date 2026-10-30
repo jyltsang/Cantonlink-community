@@ -36,6 +36,22 @@
 | Bopomofo | ㆭㄛ⁵ ㄏㄜㄧ² ㄍㄨㄥ¹ ㄙㄧ¹ ㄙㄧㆶ⁶ ㄈㄚㄣ⁶. |
 | English | I eat at the office. |
 
+| | |
+|---|---|
+| 漢字 | **佢喺屋企。** |
+| Jyutping | keoi5 hai2 uk1 kei2. |
+| Yale | kéuih hái ūk kéi. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄏㄜㄧ² ㄨㆶ¹ ㄎㄝㄧ². |
+| English | She's at home. |
+
+| | |
+|---|---|
+| 漢字 | **我哋喺尖沙咀等你。** |
+| Jyutping | ngo5 dei6 hai2 zim1 saa1 zeoi2 dang2 nei5. |
+| Yale | ngóh deih hái jīm sā jéui dáng néih. |
+| Bopomofo | ㆭㄛ⁵ ㄉㄝㄧ⁶ ㄏㄜㄧ² ㄗㄧㆬ¹ ㄙㄚ¹ ㄗㆤㄧ² ㄉㄜㄥ² ㄋㄝㄧ⁵. |
+| English | We'll wait for you in Tsim Sha Tsui. |
+
 ## Common mistakes
 
 - Not ~~你在哪裏？~~ but **你喺邊度呀？** *nei5 hai2 bin1 dou6 aa3?* · *néih hái bīn douh a?*  

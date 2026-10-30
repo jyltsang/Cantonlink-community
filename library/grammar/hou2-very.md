@@ -36,6 +36,22 @@ Adjectives work like verbs, so no 係 is needed. A bare adjective can sound inco
 | Bopomofo | ㆭㄛ⁵ ㄏㄛㄨ² ㄍㄨㄧ⁶. |
 | English | I'm really tired. |
 
+| | |
+|---|---|
+| 漢字 | **佢好高。** |
+| Jyutping | keoi5 hou2 gou1. |
+| Yale | kéuih hóu gōu. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄏㄛㄨ² ㄍㄛㄨ¹. |
+| English | He's very tall. |
+
+| | |
+|---|---|
+| 漢字 | **港鐵好迫。** |
+| Jyutping | gong2 tit3 hou2 bik1. |
+| Yale | góng tit hóu bīk. |
+| Bopomofo | ㄍㄛㄥ² ㄊㄧㆵ³ ㄏㄛㄨ² ㄅㄧㆶ¹. |
+| English | The MTR is really crowded. |
+
 ## Common mistakes
 
 - Not ~~很好~~ but **好好** *hou2 hou2* · *hóu hóu*  

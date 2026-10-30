@@ -34,6 +34,22 @@ A number cannot go straight before a noun: a classifier goes in between. 個 is 
 | Bopomofo | ㆭㄛ⁵ ㄙㆦㄥ² ㄇㄚㄧ⁵ ㄧㄜㆵ¹ ㄅㄛㄨ⁶ ㄙㄜㄣ¹ ㄙㄜㄨ² ㄍㄝㄧ¹. |
 | English | I want to buy a new phone. |
 
+| | |
+|---|---|
+| 漢字 | **佢買咗三對鞋。** |
+| Jyutping | keoi5 maai5 zo2 saam1 deoi3 haai4. |
+| Yale | kéuih máaih jó sāam deui hàaih. |
+| Bopomofo | ㄎㆤㄧ⁵ ㄇㄚㄧ⁵ ㄗㄛ² ㄙㄚㆬ¹ ㄉㆤㄧ³ ㄏㄚㄧ⁴. |
+| English | She bought three pairs of shoes. |
+
+| | |
+|---|---|
+| 漢字 | **我想要一張地圖。** |
+| Jyutping | ngo5 soeng2 jiu3 jat1 zoeng1 dei6 tou4. |
+| Yale | ngóh séung yiu yāt jēung deih tòuh. |
+| Bopomofo | ㆭㄛ⁵ ㄙㆦㄥ² ㄧㄨ³ ㄧㄜㆵ¹ ㄗㆦㄥ¹ ㄉㄝㄧ⁶ ㄊㄛㄨ⁴. |
+| English | I'd like a map. |
+
 ## Common mistakes
 
 - Not ~~二個人~~ but **兩個人** *loeng5 go3 jan4* · *léuhng go yàhn*  

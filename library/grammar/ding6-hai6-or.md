@@ -36,6 +36,22 @@
 | Bopomofo | ㄎㆤㄧ⁵ ㄏㄜㄧ⁶ ㄌㄛㄨ⁵ ㄙㄧ¹ ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄏㄛㆶ⁶ ㄙㄚㄥ¹ ㄚ³? |
 | English | Is she a teacher or a student? |
 
+| | |
+|---|---|
+| 漢字 | **你今日定係聽日得閒呀？** |
+| Jyutping | nei5 gam1 jat6 ding6 hai6 ting1 jat6 dak1 haan4 aa3? |
+| Yale | néih gām yaht dihng haih tīng yaht dāk hàahn a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄊㄧㄥ¹ ㄧㄜㆵ⁶ ㄉㄜㆶ¹ ㄏㄚㄣ⁴ ㄚ³? |
+| English | Are you free today or tomorrow? |
+
+| | |
+|---|---|
+| 漢字 | **你搭巴士定係搭港鐵呀？** |
+| Jyutping | nei5 daap3 baa1 si2 ding6 hai6 daap3 gong2 tit3 aa3? |
+| Yale | néih daap bā sí dihng haih daap góng tit a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄉㄚㆴ³ ㄅㄚ¹ ㄙㄧ² ㄉㄧㄥ⁶ ㄏㄜㄧ⁶ ㄉㄚㆴ³ ㄍㄛㄥ² ㄊㄧㆵ³ ㄚ³? |
+| English | Are you taking the bus or the MTR? |
+
 ## Common mistakes
 
 - Not ~~你要茶還是咖啡？~~ but **你要茶定係咖啡呀？** *nei5 jiu3 caa4 ding6 hai6 gaa3 fe1 aa3?* · *néih yiu chàh dihng haih ga fē a?*  

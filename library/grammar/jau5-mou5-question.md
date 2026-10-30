@@ -34,6 +34,22 @@
 | Bopomofo | ㄈㄨ⁶ ㄍㄜㄣ⁶ ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㆭㄜㄣ⁴ ㄏㄛㄥ⁴ ㄚ³? |
 | English | Is there a bank nearby? |
 
+| | |
+|---|---|
+| 漢字 | **你有冇時間呀？** |
+| Jyutping | nei5 jau5 mou5 si4 gaan3 aa3? |
+| Yale | néih yáuh móuh sìh gaan a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄙㄧ⁴ ㄍㄚㄣ³ ㄚ³? |
+| English | Have you got time? |
+
+| | |
+|---|---|
+| 漢字 | **有冇細碼呀？** |
+| Jyutping | jau5 mou5 sai3 maa5 aa3? |
+| Yale | yáuh móuh sai máh a? |
+| Bopomofo | ㄧㄜㄨ⁵ ㄇㄛㄨ⁵ ㄙㄜㄧ³ ㄇㄚ⁵ ㄚ³? |
+| English | Do you have a small size? |
+
 ## Related patterns
 
 - [有 / 冇 + Noun](jau5-mou5.md) — to have; there is / there isn't

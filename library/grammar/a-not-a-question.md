@@ -36,6 +36,22 @@ The most natural way to ask a yes/no question is to say the verb, then 唔, then
 | Bopomofo | ㄋㄧ¹ ㄍㄛ³ ㄏㄛㄨ² ㆬ⁴ ㄏㄛㄨ² ㄙㄧㆶ⁶ ㄚ³? |
 | English | Is this tasty? |
 
+| | |
+|---|---|
+| 漢字 | **你食唔食辣呀？** |
+| Jyutping | nei5 sik6 m4 sik6 laat6 aa3? |
+| Yale | néih sihk m̀h sihk laaht a? |
+| Bopomofo | ㄋㄝㄧ⁵ ㄙㄧㆶ⁶ ㆬ⁴ ㄙㄧㆶ⁶ ㄌㄚㆵ⁶ ㄚ³? |
+| English | Do you eat spicy food? |
+
+| | |
+|---|---|
+| 漢字 | **今日凍唔凍呀？** |
+| Jyutping | gam1 jat6 dung3 m4 dung3 aa3? |
+| Yale | gām yaht dung m̀h dung a? |
+| Bopomofo | ㄍㄜㆬ¹ ㄧㄜㆵ⁶ ㄉㄨㄥ³ ㆬ⁴ ㄉㄨㄥ³ ㄚ³? |
+| English | Is it cold today? |
+
 ## Related patterns
 
 - [有冇 + Noun？](jau5-mou5-question.md) — Is there…? / Do you have…?

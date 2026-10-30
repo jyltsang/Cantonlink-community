@@ -36,6 +36,22 @@ Put 唔 directly before a verb or adjective to negate it. The one big exception 
 | Bopomofo | ㄎㆤㄧ⁵ ㆬ⁴ ㄏㄜㄧ⁶ ㄌㄛㄨ⁵ ㄙㄧ¹. |
 | English | She isn't a teacher. |
 
+| | |
+|---|---|
+| 漢字 | **我唔飲酒。** |
+| Jyutping | ngo5 m4 jam2 zau2. |
+| Yale | ngóh m̀h yám jáu. |
+| Bopomofo | ㆭㄛ⁵ ㆬ⁴ ㄧㄜㆬ² ㄗㄜㄨ². |
+| English | I don't drink alcohol. |
+
+| | |
+|---|---|
+| 漢字 | **呢間餐廳唔貴。** |
+| Jyutping | ni1 gaan1 caan1 teng1 m4 gwai3. |
+| Yale | nī gāan chāan tēng m̀h gwai. |
+| Bopomofo | ㄋㄧ¹ ㄍㄚㄣ¹ ㄘㄚㄣ¹ ㄊㄝㄥ¹ ㆬ⁴ ㄍㄨㄜㄧ³. |
+| English | This restaurant isn't expensive. |
+
 ## Common mistakes
 
 - Not ~~我不去。~~ but **我唔去。** *ngo5 m4 heoi3.* · *ngóh m̀h heui.*  

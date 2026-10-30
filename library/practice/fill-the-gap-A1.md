@@ -42,118 +42,250 @@ ni1 dou6 \_\_\_ tung4 lo4 waan1.
 
 ---
 
-**4.** 我＿＿食牛肉。  
+**4.** 佢＿＿醫生。  
+keoi5 \_\_\_ ji1 sang1.  
+*kéuih \_\_\_ yī sāng.*  
+“She's a doctor.”
+
+(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(d) 嘅 ge3 · ge · ㄍㄝ³
+
+---
+
+**5.** 今日＿＿星期六。  
+gam1 jat6 \_\_\_ sing1 kei4 luk6.  
+*gām yaht \_\_\_ sīng kèih luhk.*  
+“Today is Saturday.”
+
+(a) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 喺 hai2 · hái · ㄏㄜㄧ²  
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+
+---
+
+**6.** 我＿＿食牛肉。  
 ngo5 \_\_\_ sik6 ngau4 juk6.  
 *ngóh \_\_\_ sihk ngàuh yuhk.*  
 “I don't eat beef.”
 
+(a) 咗 zo2 · jó · ㄗㄛ²  
+(b) 唔 m4 · m̀h · ㆬ⁴  
+(c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(d) 好 hou2 · hóu · ㄏㄛㄨ²
+
+---
+
+**7.** 今日＿＿熱。  
+gam1 jat6 \_\_\_ jit6.  
+*gām yaht \_\_\_ yiht.*  
+“It's not hot today.”
+
 (a) 唔 m4 · m̀h · ㆬ⁴  
-(b) 好 hou2 · hóu · ㄏㄛㄨ²  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 好 hou2 · hóu · ㄏㄛㄨ²  
+(d) 太 taai3 · taai · ㄊㄚㄧ³
+
+---
+
+**8.** 佢＿＿係老師。  
+keoi5 \_\_\_ hai6 lou5 si1.  
+*kéuih \_\_\_ haih lóuh sī.*  
+“She isn't a teacher.”
+
+(a) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 唔 m4 · m̀h · ㆬ⁴  
+(d) 未 mei6 · meih · ㄇㄝㄧ⁶
+
+---
+
+**9.** 我＿＿飲酒。  
+ngo5 \_\_\_ jam2 zau2.  
+*ngóh \_\_\_ yám jáu.*  
+“I don't drink alcohol.”
+
+(a) 唔 m4 · m̀h · ㆬ⁴  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
 (d) 咗 zo2 · jó · ㄗㄛ²
 
 ---
 
-**5.** 今日＿＿熱。  
-gam1 jat6 \_\_\_ jit6.  
-*gām yaht \_\_\_ yiht.*  
-“It's not hot today.”
+**10.** 呢間餐廳＿＿貴。  
+ni1 gaan1 caan1 teng1 \_\_\_ gwai3.  
+*nī gāan chāan tēng \_\_\_ gwai.*  
+“This restaurant isn't expensive.”
 
 (a) 咗 zo2 · jó · ㄗㄛ²  
-(b) 好 hou2 · hóu · ㄏㄛㄨ²  
-(c) 唔 m4 · m̀h · ㆬ⁴  
-(d) 太 taai3 · taai · ㄊㄚㄧ³
+(b) 太 taai3 · taai · ㄊㄚㄧ³  
+(c) 好 hou2 · hóu · ㄏㄛㄨ²  
+(d) 唔 m4 · m̀h · ㆬ⁴
 
 ---
 
-**6.** 佢＿＿係老師。  
-keoi5 \_\_\_ hai6 lou5 si1.  
-*kéuih \_\_\_ haih lóuh sī.*  
-“She isn't a teacher.”
-
-(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
-(b) 唔 m4 · m̀h · ㆬ⁴  
-(c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
-(d) 未 mei6 · meih · ㄇㄝㄧ⁶
-
----
-
-**7.** 我＿＿一隻貓。  
+**11.** 我＿＿一隻貓。  
 ngo5 \_\_\_ jat1 zek3 maau1.  
 *ngóh \_\_\_ yāt jek māau.*  
 “I have a cat.”
 
-(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(a) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
 (b) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(c) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(d) 喺 hai2 · hái · ㄏㄜㄧ²
+
+---
+
+**12.** 佢＿＿車。  
+keoi5 \_\_\_ ce1.  
+*kéuih \_\_\_ chē.*  
+“He doesn't have a car.”
+
+(a) 唔 m4 · m̀h · ㆬ⁴  
+(b) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
+(d) 有 jau5 · yáuh · ㄧㄜㄨ⁵
+
+---
+
+**13.** 呢度＿＿洗手間。  
+ni1 dou6 \_\_\_ sai2 sau2 gaan1.  
+*nī douh \_\_\_ sái sáu gāan.*  
+“There's no toilet here.”
+
+(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(c) 唔 m4 · m̀h · ㆬ⁴  
+(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+
+---
+
+**14.** 我＿＿錢。  
+ngo5 \_\_\_ cin2.  
+*ngóh \_\_\_ chín.*  
+“I haven't got any money.”
+
+(a) 唔 m4 · m̀h · ㆬ⁴  
+(b) 未 mei6 · meih · ㄇㄝㄧ⁶  
 (c) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
 (d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
 
 ---
 
-**8.** 佢＿＿車。  
-keoi5 \_\_\_ ce1.  
-*kéuih \_\_\_ chē.*  
-“He doesn't have a car.”
+**15.** 佢＿＿兩個細路。  
+keoi5 \_\_\_ loeng5 go3 sai3 lou6.  
+*kéuih \_\_\_ léuhng go sai louh.*  
+“She has two children.”
 
-(a) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
-(b) 唔 m4 · m̀h · ㆬ⁴  
-(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
-(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
-
----
-
-**9.** 呢度＿＿洗手間。  
-ni1 dou6 \_\_\_ sai2 sau2 gaan1.  
-*nī douh \_\_\_ sái sáu gāan.*  
-“There's no toilet here.”
-
-(a) 唔 m4 · m̀h · ㆬ⁴  
-(b) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
 (c) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
-(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+(d) 有 jau5 · yáuh · ㄧㄜㄨ⁵
 
 ---
 
-**10.** ＿＿奶茶呀？  
+**16.** ＿＿奶茶呀？  
 \_\_\_ naai5 caa4 aa3?  
 *\_\_\_ náaih chàh a?*  
 “Do you have milk tea?”
 
-(a) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(a) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶  
+(b) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(c) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵  
+(d) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶
+
+---
+
+**17.** 你＿＿八達通呀？  
+nei5 \_\_\_ baat3 daat6 tung1 aa3?  
+*néih \_\_\_ baat daaht tūng a?*  
+“Do you have an Octopus card?”
+
+(a) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵  
+(b) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(d) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶
+
+---
+
+**18.** 附近＿＿銀行呀？  
+fu6 gan6 \_\_\_ ngan4 hong4 aa3?  
+*fuh gahn \_\_\_ ngàhn hòhng a?*  
+“Is there a bank nearby?”
+
+(a) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶  
+(b) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(c) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵  
+(d) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²
+
+---
+
+**19.** 你＿＿時間呀？  
+nei5 \_\_\_ si4 gaan3 aa3?  
+*néih \_\_\_ sìh gaan a?*  
+“Have you got time?”
+
+(a) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶  
+(b) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(c) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵  
+(d) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶
+
+---
+
+**20.** ＿＿細碼呀？  
+\_\_\_ sai3 maa5 aa3?  
+*\_\_\_ sai máh a?*  
+“Do you have a small size?”
+
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
 (c) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶  
 (d) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵
 
 ---
 
-**11.** 你＿＿八達通呀？  
-nei5 \_\_\_ baat3 daat6 tung1 aa3?  
-*néih \_\_\_ baat daaht tūng a?*  
-“Do you have an Octopus card?”
-
-(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(b) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵  
-(c) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
-(d) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶
-
----
-
-**12.** 附近＿＿銀行呀？  
-fu6 gan6 \_\_\_ ngan4 hong4 aa3?  
-*fuh gahn \_\_\_ ngàhn hòhng a?*  
-“Is there a bank nearby?”
-
-(a) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
-(b) 係唔係 hai6 m4 hai6 · haih m̀h haih · ㄏㄜㄧ⁶ ㆬ⁴ ㄏㄜㄧ⁶  
-(c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(d) 有冇 jau5 mou5 · yáuh móuh · ㄧㄜㄨ⁵ ㄇㄛㄨ⁵
-
----
-
-**13.** 我食＿＿飯喇。  
+**21.** 我食＿＿飯喇。  
 ngo5 sik6 \_\_\_ faan6 laa3.  
 *ngóh sihk \_\_\_ faahn la.*  
 “I've already eaten.”
+
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 住 zyu6 · jyuh · ㄗㄩ⁶  
+(c) 咗 zo2 · jó · ㄗㄛ²  
+(d) 緊 gan2 · gán · ㄍㄜㄣ²
+
+---
+
+**22.** 佢返＿＿屋企。  
+keoi5 faan1 \_\_\_ uk1 kei2.  
+*kéuih fāan \_\_\_ ūk kéi.*  
+“He's gone home.”
+
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
+(b) 吓 haa5 · háh · ㄏㄚ⁵  
+(c) 咗 zo2 · jó · ㄗㄛ²  
+(d) 過 gwo3 · gwo · ㄍㄨㄛ³
+
+---
+
+**23.** 我買＿＿兩本書。  
+ngo5 maai5 \_\_\_ loeng5 bun2 syu1.  
+*ngóh máaih \_\_\_ léuhng bún syū.*  
+“I bought two books.”
+
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(d) 吓 haa5 · háh · ㄏㄚ⁵
+
+---
+
+**24.** 我搭＿＿的士。  
+ngo5 daap3 \_\_\_ dik1 si2.  
+*ngóh daap \_\_\_ dīk sí.*  
+“I took a taxi.”
 
 (a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 咗 zo2 · jó · ㄗㄛ²  
@@ -162,247 +294,379 @@ ngo5 sik6 \_\_\_ faan6 laa3.
 
 ---
 
-**14.** 佢返＿＿屋企。  
-keoi5 faan1 \_\_\_ uk1 kei2.  
-*kéuih fāan \_\_\_ ūk kéi.*  
-“He's gone home.”
+**25.** 我到＿＿喇。  
+ngo5 dou3 \_\_\_ laa3.  
+*ngóh dou \_\_\_ la.*  
+“I've arrived.”
 
-(a) 咗 zo2 · jó · ㄗㄛ²  
-(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(c) 吓 haa5 · háh · ㄏㄚ⁵  
-(d) 緊 gan2 · gán · ㄍㄜㄣ²
-
----
-
-**15.** 我買＿＿兩本書。  
-ngo5 maai5 \_\_\_ loeng5 bun2 syu1.  
-*ngóh máaih \_\_\_ léuhng bún syū.*  
-“I bought two books.”
-
-(a) 緊 gan2 · gán · ㄍㄜㄣ²  
-(b) 吓 haa5 · háh · ㄏㄚ⁵  
-(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(d) 咗 zo2 · jó · ㄗㄛ²
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 咗 zo2 · jó · ㄗㄛ²  
+(d) 過 gwo3 · gwo · ㄍㄨㄛ³
 
 ---
 
-**16.** 我食＿＿飯。  
+**26.** 我食＿＿飯。  
 ngo5 sik6 \_\_\_ faan6.  
 *ngóh sihk \_\_\_ faahn.*  
 “I'm eating.”
 
-(a) 吓 haa5 · háh · ㄏㄚ⁵  
-(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(c) 咗 zo2 · jó · ㄗㄛ²  
-(d) 緊 gan2 · gán · ㄍㄜㄣ²
+(a) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 吓 haa5 · háh · ㄏㄚ⁵
 
 ---
 
-**17.** 佢講＿＿電話。  
+**27.** 佢講＿＿電話。  
 keoi5 gong2 \_\_\_ din6 waa2.  
 *kéuih góng \_\_\_ dihn wá.*  
 “She's on the phone.”
 
 (a) 吓 haa5 · háh · ㄏㄚ⁵  
-(b) 緊 gan2 · gán · ㄍㄜㄣ²  
-(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
 (d) 咗 zo2 · jó · ㄗㄛ²
 
 ---
 
-**18.** 外面落＿＿雨。  
+**28.** 外面落＿＿雨。  
 ngoi6 min6 lok6 \_\_\_ jyu5.  
 *ngoih mihn lohk \_\_\_ yúh.*  
 “It's raining outside.”
 
-(a) 緊 gan2 · gán · ㄍㄜㄣ²  
-(b) 咗 zo2 · jó · ㄗㄛ²  
+(a) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
 (c) 吓 haa5 · háh · ㄏㄚ⁵  
+(d) 咗 zo2 · jó · ㄗㄛ²
+
+---
+
+**29.** 佢哋開＿＿會。  
+keoi5 dei6 hoi1 \_\_\_ wui2.  
+*kéuih deih hōi \_\_\_ wúi.*  
+“They're in a meeting.”
+
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
 (d) 過 gwo3 · gwo · ㄍㄨㄛ³
 
 ---
 
-**19.** 呢本係我＿＿書。  
+**30.** 我等＿＿巴士。  
+ngo5 dang2 \_\_\_ baa1 si2.  
+*ngóh dáng \_\_\_ bā sí.*  
+“I'm waiting for the bus.”
+
+(a) 吓 haa5 · háh · ㄏㄚ⁵  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 咗 zo2 · jó · ㄗㄛ²
+
+---
+
+**31.** 呢本係我＿＿書。  
 ni1 bun2 hai6 ngo5 \_\_\_ syu1.  
 *nī bún haih ngóh \_\_\_ syū.*  
 “This is my book.”
 
-(a) 緊 gan2 · gán · ㄍㄜㄣ²  
-(b) 嘅 ge3 · ge · ㄍㄝ³  
-(c) 咗 zo2 · jó · ㄗㄛ²  
-(d) 喺 hai2 · hái · ㄏㄜㄧ²
+(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 嘅 ge3 · ge · ㄍㄝ³  
+(d) 緊 gan2 · gán · ㄍㄜㄣ²
 
 ---
 
-**20.** 佢＿＿電話號碼係幾多呀？  
+**32.** 佢＿＿電話號碼係幾多呀？  
 keoi5 \_\_\_ din6 waa2 hou6 maa5 hai6 gei2 do1 aa3?  
 *kéuih \_\_\_ dihn wá houh máh haih géi dō a?*  
 “What's her phone number?”
 
 (a) 喺 hai2 · hái · ㄏㄜㄧ²  
-(b) 咗 zo2 · jó · ㄗㄛ²  
-(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 咗 zo2 · jó · ㄗㄛ²  
 (d) 嘅 ge3 · ge · ㄍㄝ³
 
 ---
 
-**21.** 我知道一間好好食＿＿餐廳。  
+**33.** 我知道一間好好食＿＿餐廳。  
 ngo5 zi1 dou3 jat1 gaan1 hou2 hou2 sik6 \_\_\_ caan1 teng1.  
 *ngóh jī dou yāt gāan hóu hóu sihk \_\_\_ chāan tēng.*  
 “I know a really good restaurant.”
 
-(a) 咗 zo2 · jó · ㄗㄛ²  
+(a) 嘅 ge3 · ge · ㄍㄝ³  
 (b) 係 hai6 · haih · ㄏㄜㄧ⁶  
-(c) 嘅 ge3 · ge · ㄍㄝ³  
+(c) 咗 zo2 · jó · ㄗㄛ²  
 (d) 喺 hai2 · hái · ㄏㄜㄧ²
 
 ---
 
-**22.** 我＿＿香港。  
+**34.** 呢把遮係邊個＿＿呀？  
+ni1 baa2 ze1 hai6 bin1 go3 \_\_\_ aa3?  
+*nī bá jē haih bīn go \_\_\_ a?*  
+“Whose umbrella is this?”
+
+(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 嘅 ge3 · ge · ㄍㄝ³  
+(d) 咗 zo2 · jó · ㄗㄛ²
+
+---
+
+**35.** 我＿＿手機冇電。  
+ngo5 \_\_\_ sau2 gei1 mou5 din6.  
+*ngóh \_\_\_ sáu gēi móuh dihn.*  
+“My phone's battery is dead.”
+
+(a) 咗 zo2 · jó · ㄗㄛ²  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 喺 hai2 · hái · ㄏㄜㄧ²  
+(d) 嘅 ge3 · ge · ㄍㄝ³
+
+---
+
+**36.** 我＿＿香港。  
 ngo5 \_\_\_ hoeng1 gong2.  
 *ngóh \_\_\_ hēung góng.*  
 “I'm in Hong Kong.”
 
-(a) 去 heoi3 · heui · ㄏㆤㄧ³  
-(b) 喺 hai2 · hái · ㄏㄜㄧ²  
-(c) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
-(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(b) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(d) 去 heoi3 · heui · ㄏㆤㄧ³
 
 ---
 
-**23.** 洗手間＿＿邊度呀？  
+**37.** 洗手間＿＿邊度呀？  
 sai2 sau2 gaan1 \_\_\_ bin1 dou6 aa3?  
 *sái sáu gāan \_\_\_ bīn douh a?*  
 “Where's the toilet?”
 
-(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(a) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
 (b) 喺 hai2 · hái · ㄏㄜㄧ²  
-(c) 嘅 ge3 · ge · ㄍㄝ³  
-(d) 有 jau5 · yáuh · ㄧㄜㄨ⁵
+(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(d) 嘅 ge3 · ge · ㄍㄝ³
 
 ---
 
-**24.** 我＿＿公司食飯。  
+**38.** 我＿＿公司食飯。  
 ngo5 \_\_\_ gung1 si1 sik6 faan6.  
 *ngóh \_\_\_ gūng sī sihk faahn.*  
 “I eat at the office.”
 
 (a) 喺 hai2 · hái · ㄏㄜㄧ²  
-(b) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 嘅 ge3 · ge · ㄍㄝ³  
 (c) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
-(d) 嘅 ge3 · ge · ㄍㄝ³
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
 
 ---
 
-**25.** ＿＿個幾多錢呀？  
+**39.** 佢＿＿屋企。  
+keoi5 \_\_\_ uk1 kei2.  
+*kéuih \_\_\_ ūk kéi.*  
+“She's at home.”
+
+(a) 去 heoi3 · heui · ㄏㆤㄧ³  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(d) 有 jau5 · yáuh · ㄧㄜㄨ⁵
+
+---
+
+**40.** 我哋＿＿尖沙咀等你。  
+ngo5 dei6 \_\_\_ zim1 saa1 zeoi2 dang2 nei5.  
+*ngóh deih \_\_\_ jīm sā jéui dáng néih.*  
+“We'll wait for you in Tsim Sha Tsui.”
+
+(a) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 嘅 ge3 · ge · ㄍㄝ³  
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+
+---
+
+**41.** ＿＿個幾多錢呀？  
 \_\_\_ go3 gei2 do1 cin2 aa3?  
 *\_\_\_ go géi dō chín a?*  
 “How much is this?”
 
-(a) 邊 bin1 · bīn · ㄅㄧㄣ¹  
-(b) 呢 ni1 · nī · ㄋㄧ¹  
-(c) 乜 mat1 · māt · ㄇㄜㆵ¹  
-(d) 幾 gei2 · géi · ㄍㄝㄧ²
+(a) 乜 mat1 · māt · ㄇㄜㆵ¹  
+(b) 幾 gei2 · géi · ㄍㄝㄧ²  
+(c) 呢 ni1 · nī · ㄋㄧ¹  
+(d) 邊 bin1 · bīn · ㄅㄧㄣ¹
 
 ---
 
-**26.** 我要＿＿件。  
+**42.** 我要＿＿件。  
 ngo5 jiu3 \_\_\_ gin6.  
 *ngóh yiu \_\_\_ gihn.*  
 “I'd like that one (piece of clothing).”
 
-(a) 嗰 go2 · gó · ㄍㄛ²  
+(a) 乜 mat1 · māt · ㄇㄜㆵ¹  
 (b) 邊 bin1 · bīn · ㄅㄧㄣ¹  
-(c) 幾 gei2 · géi · ㄍㄝㄧ²  
-(d) 乜 mat1 · māt · ㄇㄜㆵ¹
+(c) 嗰 go2 · gó · ㄍㄛ²  
+(d) 幾 gei2 · géi · ㄍㄝㄧ²
 
 ---
 
-**27.** ＿＿間餐廳好出名。  
+**43.** ＿＿間餐廳好出名。  
 \_\_\_ gaan1 caan1 teng1 hou2 ceot1 meng2.  
 *\_\_\_ gāan chāan tēng hóu chēut méng.*  
 “That restaurant is very famous.”
 
-(a) 嗰 go2 · gó · ㄍㄛ²  
-(b) 邊 bin1 · bīn · ㄅㄧㄣ¹  
-(c) 幾 gei2 · géi · ㄍㄝㄧ²  
-(d) 乜 mat1 · māt · ㄇㄜㆵ¹
+(a) 幾 gei2 · géi · ㄍㄝㄧ²  
+(b) 嗰 go2 · gó · ㄍㄛ²  
+(c) 乜 mat1 · māt · ㄇㄜㆵ¹  
+(d) 邊 bin1 · bīn · ㄅㄧㄣ¹
 
 ---
 
-**28.** 我要兩＿＿奶茶。  
+**44.** ＿＿部電腦好慢。  
+\_\_\_ bou6 din6 nou5 hou2 maan6.  
+*\_\_\_ bouh dihn nóuh hóu maahn.*  
+“This computer is very slow.”
+
+(a) 乜 mat1 · māt · ㄇㄜㆵ¹  
+(b) 幾 gei2 · géi · ㄍㄝㄧ²  
+(c) 邊 bin1 · bīn · ㄅㄧㄣ¹  
+(d) 呢 ni1 · nī · ㄋㄧ¹
+
+---
+
+**45.** ＿＿個人係我老細。  
+\_\_\_ go3 jan4 hai6 ngo5 lou5 sai3.  
+*\_\_\_ go yàhn haih ngóh lóuh sai.*  
+“That person is my boss.”
+
+(a) 嗰 go2 · gó · ㄍㄛ²  
+(b) 乜 mat1 · māt · ㄇㄜㆵ¹  
+(c) 幾 gei2 · géi · ㄍㄝㄧ²  
+(d) 邊 bin1 · bīn · ㄅㄧㄣ¹
+
+---
+
+**46.** 我要兩＿＿奶茶。  
 ngo5 jiu3 loeng5 \_\_\_ naai5 caa4.  
 *ngóh yiu léuhng \_\_\_ náaih chàh.*  
 “Two milk teas, please.”
 
-(a) 部 bou6 · bouh · ㄅㄛㄨ⁶  
-(b) 本 bun2 · bún · ㄅㄨㄣ²  
-(c) 件 gin6 · gihn · ㄍㄧㄣ⁶  
+(a) 件 gin6 · gihn · ㄍㄧㄣ⁶  
+(b) 部 bou6 · bouh · ㄅㄛㄨ⁶  
+(c) 本 bun2 · bún · ㄅㄨㄣ²  
 (d) 杯 bui1 · būi · ㄅㄨㄧ¹
 
 ---
 
-**29.** 佢有三＿＿仔。  
+**47.** 佢有三＿＿仔。  
 keoi5 jau5 saam1 \_\_\_ zai2.  
 *kéuih yáuh sāam \_\_\_ jái.*  
 “She has three sons.”
 
-(a) 個 go3 · go · ㄍㄛ³  
-(b) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(a) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(b) 個 go3 · go · ㄍㄛ³  
 (c) 部 bou6 · bouh · ㄅㄛㄨ⁶  
 (d) 本 bun2 · bún · ㄅㄨㄣ²
 
 ---
 
-**30.** 我想買一＿＿新手機。  
+**48.** 我想買一＿＿新手機。  
 ngo5 soeng2 maai5 jat1 \_\_\_ san1 sau2 gei1.  
 *ngóh séung máaih yāt \_\_\_ sān sáu gēi.*  
 “I want to buy a new phone.”
 
-(a) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(a) 本 bun2 · bún · ㄅㄨㄣ²  
 (b) 部 bou6 · bouh · ㄅㄛㄨ⁶  
-(c) 本 bun2 · bún · ㄅㄨㄣ²  
-(d) 件 gin6 · gihn · ㄍㄧㄣ⁶
+(c) 件 gin6 · gihn · ㄍㄧㄣ⁶  
+(d) 杯 bui1 · būi · ㄅㄨㄧ¹
 
 ---
 
-**31.** 我＿＿飲水。  
+**49.** 佢買咗三＿＿鞋。  
+keoi5 maai5 zo2 saam1 \_\_\_ haai4.  
+*kéuih máaih jó sāam \_\_\_ hàaih.*  
+“She bought three pairs of shoes.”
+
+(a) 對 deoi3 · deui · ㄉㆤㄧ³  
+(b) 杯 bui1 · būi · ㄅㄨㄧ¹  
+(c) 本 bun2 · bún · ㄅㄨㄣ²  
+(d) 部 bou6 · bouh · ㄅㄛㄨ⁶
+
+---
+
+**50.** 我想要一＿＿地圖。  
+ngo5 soeng2 jiu3 jat1 \_\_\_ dei6 tou4.  
+*ngóh séung yiu yāt \_\_\_ deih tòuh.*  
+“I'd like a map.”
+
+(a) 張 zoeng1 · jēung · ㄗㆦㄥ¹  
+(b) 部 bou6 · bouh · ㄅㄛㄨ⁶  
+(c) 本 bun2 · bún · ㄅㄨㄣ²  
+(d) 杯 bui1 · būi · ㄅㄨㄧ¹
+
+---
+
+**51.** 我＿＿飲水。  
 ngo5 \_\_\_ jam2 seoi2.  
 *ngóh \_\_\_ yám séui.*  
 “I'd like some water.”
 
 (a) 喺 hai2 · hái · ㄏㄜㄧ²  
-(b) 試 si3 · si · ㄙㄧ³  
+(b) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(c) 想 soeng2 · séung · ㄙㆦㄥ²  
+(d) 試 si3 · si · ㄙㄧ³
+
+---
+
+**52.** 我＿＿學廣東話。  
+ngo5 \_\_\_ hok6 gwong2 dung1 waa2.  
+*ngóh \_\_\_ hohk gwóng dūng wá.*  
+“I want to learn Cantonese.”
+
+(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(b) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(c) 想 soeng2 · séung · ㄙㆦㄥ²  
+(d) 教 gaau3 · gaau · ㄍㄚㄨ³
+
+---
+
+**53.** 你＿＿去邊度呀？  
+nei5 \_\_\_ heoi3 bin1 dou6 aa3?  
+*néih \_\_\_ heui bīn douh a?*  
+“Where would you like to go?”
+
+(a) 喺 hai2 · hái · ㄏㄜㄧ²  
+(b) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(c) 想 soeng2 · séung · ㄙㆦㄥ²  
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+
+---
+
+**54.** 我＿＿返屋企。  
+ngo5 \_\_\_ faan1 uk1 kei2.  
+*ngóh \_\_\_ fāan ūk kéi.*  
+“I want to go home.”
+
+(a) 試 si3 · si · ㄙㄧ³  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
 (c) 識 sik1 · sīk · ㄙㄧㆶ¹  
 (d) 想 soeng2 · séung · ㄙㆦㄥ²
 
 ---
 
-**32.** 我＿＿學廣東話。  
-ngo5 \_\_\_ hok6 gwong2 dung1 waa2.  
-*ngóh \_\_\_ hohk gwóng dūng wá.*  
-“I want to learn Cantonese.”
+**55.** 你＿＿食乜嘢呀？  
+nei5 \_\_\_ sik6 mat1 je5 aa3?  
+*néih \_\_\_ sihk māt yéh a?*  
+“What would you like to eat?”
 
-(a) 識 sik1 · sīk · ㄙㄧㆶ¹  
-(b) 教 gaau3 · gaau · ㄍㄚㄨ³  
-(c) 想 soeng2 · séung · ㄙㆦㄥ²  
-(d) 喺 hai2 · hái · ㄏㄜㄧ²
-
----
-
-**33.** 你＿＿去邊度呀？  
-nei5 \_\_\_ heoi3 bin1 dou6 aa3?  
-*néih \_\_\_ heui bīn douh a?*  
-“Where would you like to go?”
-
-(a) 識 sik1 · sīk · ㄙㄧㆶ¹  
-(b) 係 hai6 · haih · ㄏㄜㄧ⁶  
-(c) 喺 hai2 · hái · ㄏㄜㄧ²  
-(d) 想 soeng2 · séung · ㄙㆦㄥ²
+(a) 想 soeng2 · séung · ㄙㆦㄥ²  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
 
 ---
 
-**34.** 我＿＿一碗雲吞麪。  
+**56.** 我＿＿一碗雲吞麪。  
 ngo5 \_\_\_ jat1 wun2 wan4 tan1 min6.  
 *ngóh \_\_\_ yāt wún wàhn tān mihn.*  
 “One bowl of wonton noodles, please.”
@@ -414,10 +678,34 @@ ngo5 \_\_\_ jat1 wun2 wan4 tan1 min6.
 
 ---
 
-**35.** 我＿＿走喇。  
+**57.** 我＿＿走喇。  
 ngo5 \_\_\_ zau2 laa3.  
 *ngóh \_\_\_ jáu la.*  
 “I have to go now.”
+
+(a) 要 jiu3 · yiu · ㄧㄨ³  
+(b) 識 sik1 · sīk · ㄙㄧㆶ¹  
+(c) 想 soeng2 · séung · ㄙㆦㄥ²  
+(d) 試 si3 · si · ㄙㄧ³
+
+---
+
+**58.** 我＿＿兩個菠蘿包。  
+ngo5 \_\_\_ loeng5 go3 bo1 lo4 baau1.  
+*ngóh \_\_\_ léuhng go bō lòh bāau.*  
+“Two pineapple buns, please.”
+
+(a) 有 jau5 · yáuh · ㄧㄜㄨ⁵  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(d) 要 jiu3 · yiu · ㄧㄨ³
+
+---
+
+**59.** 我聽日＿＿返工。  
+ngo5 ting1 jat6 \_\_\_ faan1 gung1.  
+*ngóh tīng yaht \_\_\_ fāan gūng.*  
+“I have to work tomorrow.”
 
 (a) 想 soeng2 · séung · ㄙㆦㄥ²  
 (b) 識 sik1 · sīk · ㄙㄧㆶ¹  
@@ -426,58 +714,118 @@ ngo5 \_\_\_ zau2 laa3.
 
 ---
 
-**36.** 今日＿＿熱。  
+**60.** 今日＿＿熱。  
 gam1 jat6 \_\_\_ jit6.  
 *gām yaht \_\_\_ yiht.*  
 “It's very hot today.”
 
 (a) 係 hai6 · haih · ㄏㄜㄧ⁶  
-(b) 好 hou2 · hóu · ㄏㄛㄨ²  
+(b) 太 taai3 · taai · ㄊㄚㄧ³  
 (c) 最 zeoi3 · jeui · ㄗㆤㄧ³  
-(d) 太 taai3 · taai · ㄊㄚㄧ³
+(d) 好 hou2 · hóu · ㄏㄛㄨ²
 
 ---
 
-**37.** 呢度啲嘢＿＿貴。  
+**61.** 呢度啲嘢＿＿貴。  
 ni1 dou6 di1 je5 \_\_\_ gwai3.  
 *nī douh dī yéh \_\_\_ gwai.*  
 “Things here are very expensive.”
 
-(a) 最 zeoi3 · jeui · ㄗㆤㄧ³  
-(b) 好 hou2 · hóu · ㄏㄛㄨ²  
-(c) 太 taai3 · taai · ㄊㄚㄧ³  
-(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 太 taai3 · taai · ㄊㄚㄧ³  
+(c) 最 zeoi3 · jeui · ㄗㆤㄧ³  
+(d) 好 hou2 · hóu · ㄏㄛㄨ²
 
 ---
 
-**38.** 我＿＿攰。  
+**62.** 我＿＿攰。  
 ngo5 \_\_\_ gui6.  
 *ngóh \_\_\_ guih.*  
 “I'm really tired.”
 
-(a) 好 hou2 · hóu · ㄏㄛㄨ²  
-(b) 係 hai6 · haih · ㄏㄜㄧ⁶  
-(c) 太 taai3 · taai · ㄊㄚㄧ³  
-(d) 最 zeoi3 · jeui · ㄗㆤㄧ³
+(a) 最 zeoi3 · jeui · ㄗㆤㄧ³  
+(b) 好 hou2 · hóu · ㄏㄛㄨ²  
+(c) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(d) 太 taai3 · taai · ㄊㄚㄧ³
 
 ---
 
-**39.** 一杯奶茶＿＿呀？  
+**63.** 佢＿＿高。  
+keoi5 \_\_\_ gou1.  
+*kéuih \_\_\_ gōu.*  
+“He's very tall.”
+
+(a) 太 taai3 · taai · ㄊㄚㄧ³  
+(b) 好 hou2 · hóu · ㄏㄛㄨ²  
+(c) 最 zeoi3 · jeui · ㄗㆤㄧ³  
+(d) 係 hai6 · haih · ㄏㄜㄧ⁶
+
+---
+
+**64.** 港鐵＿＿迫。  
+gong2 tit3 \_\_\_ bik1.  
+*góng tit \_\_\_ bīk.*  
+“The MTR is really crowded.”
+
+(a) 係 hai6 · haih · ㄏㄜㄧ⁶  
+(b) 太 taai3 · taai · ㄊㄚㄧ³  
+(c) 最 zeoi3 · jeui · ㄗㆤㄧ³  
+(d) 好 hou2 · hóu · ㄏㄛㄨ²
+
+---
+
+**65.** 一杯奶茶＿＿呀？  
 jat1 bui1 naai5 caa4 \_\_\_ aa3?  
 *yāt būi náaih chàh \_\_\_ a?*  
 “How much is a milk tea?”
 
 (a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
+(c) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²  
+(d) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶
+
+---
+
+**66.** 呢件衫＿＿呀？  
+ni1 gin6 saam1 \_\_\_ aa3?  
+*nī gihn sāam \_\_\_ a?*  
+“How much is this top?”
+
+(a) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
 (b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
-(c) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
+(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
 (d) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²
 
 ---
 
-**40.** 呢件衫＿＿呀？  
-ni1 gin6 saam1 \_\_\_ aa3?  
-*nī gihn sāam \_\_\_ a?*  
-“How much is this top?”
+**67.** 去機場＿＿呀？  
+heoi3 gei1 coeng4 \_\_\_ aa3?  
+*heui gēi chèuhng \_\_\_ a?*  
+“How much is it to the airport?”
+
+(a) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(b) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²  
+(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(d) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²
+
+---
+
+**68.** 兩個蛋撻＿＿呀？  
+loeng5 go3 daan6 taat1 \_\_\_ aa3?  
+*léuhng go daahn tāat \_\_\_ a?*  
+“How much are two egg tarts?”
+
+(a) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
+(b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(d) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²
+
+---
+
+**69.** 一張飛＿＿呀？  
+jat1 zoeng1 fei1 \_\_\_ aa3?  
+*yāt jēung fēi \_\_\_ a?*  
+“How much is one ticket?”
 
 (a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
 (b) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²  
@@ -486,130 +834,214 @@ ni1 gin6 saam1 \_\_\_ aa3?
 
 ---
 
-**41.** 去機場＿＿呀？  
-heoi3 gei1 coeng4 \_\_\_ aa3?  
-*heui gēi chèuhng \_\_\_ a?*  
-“How much is it to the airport?”
-
-(a) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
-(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(c) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
-(d) 幾多錢 gei2 do1 cin2 · géi dō chín · ㄍㄝㄧ² ㄉㄛ¹ ㄘㄧㄣ²
-
----
-
-**42.** 你食＿＿呀？  
+**70.** 你食＿＿呀？  
 nei5 sik6 \_\_\_ aa3?  
 *néih sihk \_\_\_ a?*  
 “What are you eating?”
 
 (a) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
 (b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
-(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(d) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²
+(c) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
+(d) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴
 
 ---
 
-**43.** 你叫＿＿名呀？  
+**71.** 你叫＿＿名呀？  
 nei5 giu3 \_\_\_ meng2 aa3?  
 *néih giu \_\_\_ méng a?*  
 “What's your name?”
 
-(a) 咩 me1 · mē · ㄇㄝ¹  
-(b) 幾 gei2 · géi · ㄍㄝㄧ²  
-(c) 點 dim2 · dím · ㄉㄧㆬ²  
-(d) 邊 bin1 · bīn · ㄅㄧㄣ¹
+(a) 點 dim2 · dím · ㄉㄧㆬ²  
+(b) 邊 bin1 · bīn · ㄅㄧㄣ¹  
+(c) 幾 gei2 · géi · ㄍㄝㄧ²  
+(d) 咩 me1 · mē · ㄇㄝ¹
 
 ---
 
-**44.** 呢個係＿＿嚟㗎？  
+**72.** 呢個係＿＿嚟㗎？  
 ni1 go3 hai6 \_\_\_ lai4 gaa3?  
 *nī go haih \_\_\_ làih ga?*  
 “What is this?”
 
-(a) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
-(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(c) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
-(d) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(c) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(d) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²
 
 ---
 
-**45.** 你住喺＿＿呀？  
-nei5 zyu6 hai2 \_\_\_ aa3?  
-*néih jyuh hái \_\_\_ a?*  
-“Where do you live?”
+**73.** 你做緊＿＿呀？  
+nei5 zou6 gan2 \_\_\_ aa3?  
+*néih jouh gán \_\_\_ a?*  
+“What are you doing?”
 
-(a) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
-(b) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
-(c) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 點解 dim2 gaai2 · dím gáai · ㄉㄧㆬ² ㄍㄚㄧ²  
+(c) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
 (d) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵
 
 ---
 
-**46.** 佢係＿＿呀？  
+**74.** 你鍾意＿＿顏色呀？  
+nei5 zung1 ji3 \_\_\_ ngaan4 sik1 aa3?  
+*néih jūng yi \_\_\_ ngàahn sīk a?*  
+“What colour do you like?”
+
+(a) 邊 bin1 · bīn · ㄅㄧㄣ¹  
+(b) 咩 me1 · mē · ㄇㄝ¹  
+(c) 幾 gei2 · géi · ㄍㄝㄧ²  
+(d) 點 dim2 · dím · ㄉㄧㆬ²
+
+---
+
+**75.** 你住喺＿＿呀？  
+nei5 zyu6 hai2 \_\_\_ aa3?  
+*néih jyuh hái \_\_\_ a?*  
+“Where do you live?”
+
+(a) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(b) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(c) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(d) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴
+
+---
+
+**76.** 佢係＿＿呀？  
 keoi5 hai6 \_\_\_ aa3?  
 *kéuih haih \_\_\_ a?*  
 “Who is he?”
 
-(a) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(c) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
-(d) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(c) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(d) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶
 
 ---
 
-**47.** 你要＿＿件呀？  
+**77.** 你要＿＿件呀？  
 nei5 jiu3 \_\_\_ gin6 aa3?  
 *néih yiu \_\_\_ gihn a?*  
 “Which one do you want?”
 
-(a) 邊 bin1 · bīn · ㄅㄧㄣ¹  
-(b) 嗰 go2 · gó · ㄍㄛ²  
-(c) 幾 gei2 · géi · ㄍㄝㄧ²  
-(d) 呢 ni1 · nī · ㄋㄧ¹
+(a) 呢 ni1 · nī · ㄋㄧ¹  
+(b) 幾 gei2 · géi · ㄍㄝㄧ²  
+(c) 嗰 go2 · gó · ㄍㄛ²  
+(d) 邊 bin1 · bīn · ㄅㄧㄣ¹
 
 ---
 
-**48.** 你＿＿返工呀？  
-nei5 \_\_\_ faan1 gung1 aa3?  
-*néih \_\_\_ fāan gūng a?*  
-“When do you go to work?”
+**78.** 港鐵站喺＿＿呀？  
+gong2 tit3 zaam6 hai2 \_\_\_ aa3?  
+*góng tit jaahm hái \_\_\_ a?*  
+“Where's the MTR station?”
 
-(a) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(b) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
-(c) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(a) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(b) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(c) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
 (d) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴
 
 ---
 
-**49.** 我哋＿＿見呀？  
-ngo5 dei6 \_\_\_ gin3 aa3?  
-*ngóh deih \_\_\_ gin a?*  
-“When shall we meet?”
+**79.** ＿＿想飲咖啡呀？  
+\_\_\_ soeng2 jam2 gaa3 fe1 aa3?  
+*\_\_\_ séung yám ga fē a?*  
+“Who'd like a coffee?”
 
-(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
-(b) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(c) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(a) 邊度 bin1 dou6 · bīn douh · ㄅㄧㄣ¹ ㄉㄛㄨ⁶  
+(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
 (d) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³
 
 ---
 
-**50.** 你＿＿嚟香港㗎？  
+**80.** 你＿＿返工呀？  
+nei5 \_\_\_ faan1 gung1 aa3?  
+*néih \_\_\_ fāan gūng a?*  
+“When do you go to work?”
+
+(a) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(c) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(d) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹
+
+---
+
+**81.** 我哋＿＿見呀？  
+ngo5 dei6 \_\_\_ gin3 aa3?  
+*ngóh deih \_\_\_ gin a?*  
+“When shall we meet?”
+
+(a) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(b) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(d) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³
+
+---
+
+**82.** 你＿＿嚟香港㗎？  
 nei5 \_\_\_ lai4 hoeng1 gong2 gaa3?  
 *néih \_\_\_ làih hēung góng ga?*  
 “When did you come to Hong Kong?”
 
-(a) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
 (b) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
 (c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
-(d) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴
+(d) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³
 
 ---
 
-**51.** 你去邊度＿＿？  
+**83.** 你＿＿得閒呀？  
+nei5 \_\_\_ dak1 haan4 aa3?  
+*néih \_\_\_ dāk hàahn a?*  
+“When are you free?”
+
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³  
+(c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(d) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵
+
+---
+
+**84.** 架巴士＿＿到呀？  
+gaa3 baa1 si2 \_\_\_ dou3 aa3?  
+*ga bā sí \_\_\_ dou a?*  
+“When does the bus get here?”
+
+(a) 幾時 gei2 si4 · géi sìh · ㄍㄝㄧ² ㄙㄧ⁴  
+(b) 乜嘢 mat1 je5 · māt yéh · ㄇㄜㆵ¹ ㄧㄝ⁵  
+(c) 幾多 gei2 do1 · géi dō · ㄍㄝㄧ² ㄉㄛ¹  
+(d) 邊個 bin1 go3 · bīn go · ㄅㄧㄣ¹ ㄍㄛ³
+
+---
+
+**85.** 你去邊度＿＿？  
 nei5 heoi3 bin1 dou6 \_\_\_?  
 *néih heui bīn douh \_\_\_?*  
 “Where are you going?”
+
+(a) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 呀 aa3 · a · ㄚ³  
+(d) 咗 zo2 · jó · ㄗㄛ²
+
+---
+
+**86.** 係＿＿。  
+hai6 \_\_\_.  
+*haih \_\_\_.*  
+“Yes, that's right.”
+
+(a) 呀 aa3 · a · ㄚ³  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 咗 zo2 · jó · ㄗㄛ²  
+(d) 過 gwo3 · gwo · ㄍㄨㄛ³
+
+---
+
+**87.** 好＿＿！  
+hou2 \_\_\_!  
+*hóu \_\_\_!*  
+“Sure! Sounds good!”
 
 (a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 過 gwo3 · gwo · ㄍㄨㄛ³  
@@ -618,82 +1050,130 @@ nei5 heoi3 bin1 dou6 \_\_\_?
 
 ---
 
-**52.** 係＿＿。  
-hai6 \_\_\_.  
-*haih \_\_\_.*  
-“Yes, that's right.”
+**88.** 你食咗飯未＿＿？  
+nei5 sik6 zo2 faan6 mei6 \_\_\_?  
+*néih sihk jó faahn meih \_\_\_?*  
+“Have you eaten yet?”
 
-(a) 咗 zo2 · jó · ㄗㄛ²  
-(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(c) 呀 aa3 · a · ㄚ³  
-(d) 緊 gan2 · gán · ㄍㄜㄣ²
-
----
-
-**53.** 好＿＿！  
-hou2 \_\_\_!  
-*hóu \_\_\_!*  
-“Sure! Sounds good!”
-
-(a) 咗 zo2 · jó · ㄗㄛ²  
-(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(c) 呀 aa3 · a · ㄚ³  
-(d) 緊 gan2 · gán · ㄍㄜㄣ²
+(a) 呀 aa3 · a · ㄚ³  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
+(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(d) 嘅 ge3 · ge · ㄍㄝ³
 
 ---
 
-**54.** 我哋走＿＿。  
+**89.** 冇問題＿＿。  
+mou5 man6 tai4 \_\_\_.  
+*móuh mahn tàih \_\_\_.*  
+“No problem.”
+
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 咗 zo2 · jó · ㄗㄛ²  
+(d) 呀 aa3 · a · ㄚ³
+
+---
+
+**90.** 我哋走＿＿。  
 ngo5 dei6 zau2 \_\_\_.  
 *ngóh deih jáu \_\_\_.*  
 “Let's go.”
 
-(a) 咩 me1 · mē · ㄇㄝ¹  
-(b) 啦 laa1 · lā · ㄌㄚ¹  
-(c) 嘅 ge3 · ge · ㄍㄝ³  
-(d) 嗎 maa3 · ma · ㄇㄚ³
+(a) 啦 laa1 · lā · ㄌㄚ¹  
+(b) 嘅 ge3 · ge · ㄍㄝ³  
+(c) 嗎 maa3 · ma · ㄇㄚ³  
+(d) 咩 me1 · mē · ㄇㄝ¹
 
 ---
 
-**55.** 你坐＿＿。  
+**91.** 你坐＿＿。  
 nei5 co5 \_\_\_.  
 *néih chóh \_\_\_.*  
 “Please, have a seat.”
 
 (a) 咩 me1 · mē · ㄇㄝ¹  
-(b) 嘅 ge3 · ge · ㄍㄝ³  
-(c) 啦 laa1 · lā · ㄌㄚ¹  
-(d) 嗎 maa3 · ma · ㄇㄚ³
-
----
-
-**56.** 快啲＿＿！  
-faai3 di1 \_\_\_!  
-*faai dī \_\_\_!*  
-“Hurry up!”
-
-(a) 嗎 maa3 · ma · ㄇㄚ³  
-(b) 嘅 ge3 · ge · ㄍㄝ³  
-(c) 啦 laa1 · lā · ㄌㄚ¹  
-(d) 咩 me1 · mē · ㄇㄝ¹
-
----
-
-**57.** 你好＿＿？  
-nei5 hou2 \_\_\_?  
-*néih hóu \_\_\_?*  
-“How are you?”
-
-(a) 嗎 maa3 · ma · ㄇㄚ³  
-(b) 緊 gan2 · gán · ㄍㄜㄣ²  
-(c) 咗 zo2 · jó · ㄗㄛ²  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 嘅 ge3 · ge · ㄍㄝ³  
 (d) 啦 laa1 · lā · ㄌㄚ¹
 
 ---
 
-**58.** 你係香港人＿＿？  
+**92.** 快啲＿＿！  
+faai3 di1 \_\_\_!  
+*faai dī \_\_\_!*  
+“Hurry up!”
+
+(a) 嘅 ge3 · ge · ㄍㄝ³  
+(b) 咩 me1 · mē · ㄇㄝ¹  
+(c) 嗎 maa3 · ma · ㄇㄚ³  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**93.** 一齊食飯＿＿。  
+jat1 cai4 sik6 faan6 \_\_\_.  
+*yāt chàih sihk faahn \_\_\_.*  
+“Let's eat together.”
+
+(a) 嘅 ge3 · ge · ㄍㄝ³  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**94.** 你食多啲＿＿。  
+nei5 sik6 do1 di1 \_\_\_.  
+*néih sihk dō dī \_\_\_.*  
+“Have some more.”
+
+(a) 嘅 ge3 · ge · ㄍㄝ³  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**95.** 你好＿＿？  
+nei5 hou2 \_\_\_?  
+*néih hóu \_\_\_?*  
+“How are you?”
+
+(a) 啦 laa1 · lā · ㄌㄚ¹  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 嗎 maa3 · ma · ㄇㄚ³
+
+---
+
+**96.** 你係香港人＿＿？  
 nei5 hai6 hoeng1 gong2 jan4 \_\_\_?  
 *néih haih hēung góng yàhn \_\_\_?*  
 “Are you from Hong Kong?”
+
+(a) 咗 zo2 · jó · ㄗㄛ²  
+(b) 啦 laa1 · lā · ㄌㄚ¹  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 嗎 maa3 · ma · ㄇㄚ³
+
+---
+
+**97.** 有問題＿＿？  
+jau5 man6 tai4 \_\_\_?  
+*yáuh mahn tàih \_\_\_?*  
+“Any questions?”
+
+(a) 緊 gan2 · gán · ㄍㄜㄣ²  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 嗎 maa3 · ma · ㄇㄚ³  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**98.** 你識講廣東話＿＿？  
+nei5 sik1 gong2 gwong2 dung1 waa2 \_\_\_?  
+*néih sīk góng gwóng dūng wá \_\_\_?*  
+“Can you speak Cantonese?”
 
 (a) 緊 gan2 · gán · ㄍㄜㄣ²  
 (b) 咗 zo2 · jó · ㄗㄛ²  
@@ -702,22 +1182,46 @@ nei5 hai6 hoeng1 gong2 jan4 \_\_\_?
 
 ---
 
-**59.** 有問題＿＿？  
-jau5 man6 tai4 \_\_\_?  
-*yáuh mahn tàih \_\_\_?*  
-“Any questions?”
+**99.** 呢度可以坐＿＿？  
+ni1 dou6 ho2 ji5 co5 \_\_\_?  
+*nī douh hó yíh chóh \_\_\_?*  
+“Can I sit here?”
 
 (a) 嗎 maa3 · ma · ㄇㄚ³  
-(b) 啦 laa1 · lā · ㄌㄚ¹  
+(b) 緊 gan2 · gán · ㄍㄜㄣ²  
 (c) 咗 zo2 · jó · ㄗㄛ²  
-(d) 緊 gan2 · gán · ㄍㄜㄣ²
+(d) 啦 laa1 · lā · ㄌㄚ¹
 
 ---
 
-**60.** 我＿＿佢去睇戲。  
+**100.** 我＿＿佢去睇戲。  
 ngo5 \_\_\_ keoi5 heoi3 tai2 hei3.  
 *ngóh \_\_\_ kéuih heui tái hei.*  
 “I'm going to see a film with her.”
+
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 喺 hai2 · hái · ㄏㄜㄧ²  
+(c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
+(d) 畀 bei2 · béi · ㄅㄝㄧ²
+
+---
+
+**101.** 我要一杯奶茶＿＿一杯咖啡。  
+ngo5 jiu3 jat1 bui1 naai5 caa4 \_\_\_ jat1 bui1 gaa3 fe1.  
+*ngóh yiu yāt būi náaih chàh \_\_\_ yāt būi ga fē.*  
+“One milk tea and one coffee, please.”
+
+(a) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
+(b) 畀 bei2 · béi · ㄅㄝㄧ²  
+(c) 喺 hai2 · hái · ㄏㄜㄧ²  
+(d) 都 dou1 · dōu · ㄉㄛㄨ¹
+
+---
+
+**102.** 你＿＿邊個嚟㗎？  
+nei5 \_\_\_ bin1 go3 lai4 gaa3?  
+*néih \_\_\_ bīn go làih ga?*  
+“Who did you come with?”
 
 (a) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (b) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
@@ -726,43 +1230,43 @@ ngo5 \_\_\_ keoi5 heoi3 tai2 hei3.
 
 ---
 
-**61.** 我要一杯奶茶＿＿一杯咖啡。  
-ngo5 jiu3 jat1 bui1 naai5 caa4 \_\_\_ jat1 bui1 gaa3 fe1.  
-*ngóh yiu yāt būi náaih chàh \_\_\_ yāt būi ga fē.*  
-“One milk tea and one coffee, please.”
+**103.** 我＿＿屋企人住。  
+ngo5 \_\_\_ uk1 kei2 jan4 zyu6.  
+*ngóh \_\_\_ ūk kéi yàhn jyuh.*  
+“I live with my family.”
 
-(a) 喺 hai2 · hái · ㄏㄜㄧ²  
-(b) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
-(c) 畀 bei2 · béi · ㄅㄝㄧ²  
-(d) 都 dou1 · dōu · ㄉㄛㄨ¹
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 畀 bei2 · béi · ㄅㄝㄧ²  
+(c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
+(d) 喺 hai2 · hái · ㄏㄜㄧ²
 
 ---
 
-**62.** 你＿＿邊個嚟㗎？  
-nei5 \_\_\_ bin1 go3 lai4 gaa3?  
-*néih \_\_\_ bīn go làih ga?*  
-“Who did you come with?”
+**104.** 佢＿＿佢老公去咗日本。  
+keoi5 \_\_\_ keoi5 lou5 gung1 heoi3 zo2 jat6 bun2.  
+*kéuih \_\_\_ kéuih lóuh gūng heui jó yaht bún.*  
+“She went to Japan with her husband.”
 
 (a) 喺 hai2 · hái · ㄏㄜㄧ²  
 (b) 畀 bei2 · béi · ㄅㄝㄧ²  
-(c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
-(d) 都 dou1 · dōu · ㄉㄛㄨ¹
+(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(d) 同 tung4 · tùhng · ㄊㄨㄥ⁴
 
 ---
 
-**63.** ＿＿擔心。  
+**105.** ＿＿擔心。  
 \_\_\_ daam1 sam1.  
 *\_\_\_ dāam sām.*  
 “Don't worry.”
 
-(a) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
-(b) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(a) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(b) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
 (c) 都 dou1 · dōu · ㄉㄛㄨ¹  
-(d) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²
+(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
 
 ---
 
-**64.** ＿＿喺度食煙。  
+**106.** ＿＿喺度食煙。  
 \_\_\_ hai2 dou6 sik6 jin1.  
 *\_\_\_ hái douh sihk yīn.*  
 “Don't smoke here.”
@@ -774,46 +1278,94 @@ nei5 \_\_\_ bin1 go3 lai4 gaa3?
 
 ---
 
-**65.** ＿＿話佢知。  
+**107.** ＿＿話佢知。  
 \_\_\_ waa6 keoi5 zi1.  
 *\_\_\_ wah kéuih jī.*  
 “Don't tell him.”
 
 (a) 未 mei6 · meih · ㄇㄝㄧ⁶  
-(b) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
+(b) 冇 mou5 · móuh · ㄇㄛㄨ⁵  
 (c) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(d) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²
+
+---
+
+**108.** ＿＿遲到呀。  
+\_\_\_ ci4 dou3 aa3.  
+*\_\_\_ chìh dou a.*  
+“Don't be late.”
+
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
 (d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
 
 ---
 
-**66.** 你飲茶＿＿咖啡呀？  
+**109.** ＿＿咁大聲。  
+\_\_\_ gam3 daai6 seng1.  
+*\_\_\_ gam daaih sēng.*  
+“Don't be so loud.”
+
+(a) 唔好 m4 hou2 · m̀h hóu · ㆬ⁴ ㄏㄛㄨ²  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 未 mei6 · meih · ㄇㄝㄧ⁶  
+(d) 冇 mou5 · móuh · ㄇㄛㄨ⁵
+
+---
+
+**110.** 你飲茶＿＿咖啡呀？  
 nei5 jam2 caa4 \_\_\_ gaa3 fe1 aa3?  
 *néih yám chàh \_\_\_ ga fē a?*  
 “Would you like tea or coffee?”
 
-(a) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
-(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
 (c) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
 (d) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²
 
 ---
 
-**67.** 你哋堂食＿＿拎走呀？  
+**111.** 你哋堂食＿＿拎走呀？  
 nei5 dei6 tong4 sik6 \_\_\_ ling1 zau2 aa3?  
 *néih deih tòhng sihk \_\_\_ līng jáu a?*  
 “Eating in or taking away?”
 
-(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
-(b) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
-(c) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(a) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(b) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (d) 同 tung4 · tùhng · ㄊㄨㄥ⁴
 
 ---
 
-**68.** 佢係老師＿＿學生呀？  
+**112.** 佢係老師＿＿學生呀？  
 keoi5 hai6 lou5 si1 \_\_\_ hok6 saang1 aa3?  
 *kéuih haih lóuh sī \_\_\_ hohk sāang a?*  
 “Is she a teacher or a student?”
+
+(a) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(b) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(d) 同 tung4 · tùhng · ㄊㄨㄥ⁴
+
+---
+
+**113.** 你今日＿＿聽日得閒呀？  
+nei5 gam1 jat6 \_\_\_ ting1 jat6 dak1 haan4 aa3?  
+*néih gām yaht \_\_\_ tīng yaht dāk hàahn a?*  
+“Are you free today or tomorrow?”
+
+(a) 或者 waak6 ze2 · waahk jé · ㄨㄚㆶ⁶ ㄗㄝ²  
+(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(c) 定係 ding6 hai6 · dihng haih · ㄉㄧㄥ⁶ ㄏㄜㄧ⁶  
+(d) 同 tung4 · tùhng · ㄊㄨㄥ⁴
+
+---
+
+**114.** 你搭巴士＿＿搭港鐵呀？  
+nei5 daap3 baa1 si2 \_\_\_ daap3 gong2 tit3 aa3?  
+*néih daap bā sí \_\_\_ daap góng tit a?*  
+“Are you taking the bus or the MTR?”
 
 (a) 同 tung4 · tùhng · ㄊㄨㄥ⁴  
 (b) 都 dou1 · dōu · ㄉㄛㄨ¹  
@@ -826,71 +1378,117 @@ keoi5 hai6 lou5 si1 \_\_\_ hok6 saang1 aa3?
 1. **(d) 係** — [Subject + 係 + Noun](../grammar/hai6-copula.md): to be (identity)
 2. **(d) 係** — [Subject + 係 + Noun](../grammar/hai6-copula.md): to be (identity)
 3. **(c) 係** — [Subject + 係 + Noun](../grammar/hai6-copula.md): to be (identity)
-4. **(a) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
-5. **(c) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
+4. **(a) 係** — [Subject + 係 + Noun](../grammar/hai6-copula.md): to be (identity)
+5. **(d) 係** — [Subject + 係 + Noun](../grammar/hai6-copula.md): to be (identity)
 6. **(b) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
-7. **(c) 有** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
-8. **(d) 冇** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
-9. **(c) 冇** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
-10. **(d) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
-11. **(b) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
-12. **(d) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
-13. **(b) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
-14. **(a) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
-15. **(d) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
-16. **(d) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
-17. **(b) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
-18. **(a) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
-19. **(b) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
-20. **(d) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
-21. **(c) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
-22. **(b) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
-23. **(b) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
-24. **(a) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
-25. **(b) 呢** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
-26. **(a) 嗰** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
-27. **(a) 嗰** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
-28. **(d) 杯** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
-29. **(a) 個** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
-30. **(b) 部** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
-31. **(d) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
-32. **(c) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
-33. **(d) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
-34. **(b) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
-35. **(c) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
-36. **(b) 好** — [好 + Adjective](../grammar/hou2-very.md): very
-37. **(b) 好** — [好 + Adjective](../grammar/hou2-very.md): very
-38. **(a) 好** — [好 + Adjective](../grammar/hou2-very.md): very
-39. **(d) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
-40. **(b) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
-41. **(d) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
-42. **(a) 乜嘢** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
-43. **(a) 咩** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
-44. **(a) 乜嘢** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
-45. **(b) 邊度** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
-46. **(d) 邊個** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
-47. **(a) 邊** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
-48. **(d) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
-49. **(a) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
-50. **(d) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
-51. **(c) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
-52. **(c) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
-53. **(c) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
-54. **(b) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
-55. **(c) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
-56. **(c) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
-57. **(a) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
-58. **(d) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
-59. **(a) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
-60. **(b) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
-61. **(b) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
-62. **(c) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
-63. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
-64. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
-65. **(b) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
-66. **(a) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
-67. **(b) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
-68. **(d) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+7. **(a) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
+8. **(c) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
+9. **(a) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
+10. **(d) 唔** — [唔 + Verb / Adjective](../grammar/m4-negation.md): not
+11. **(c) 有** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
+12. **(c) 冇** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
+13. **(d) 冇** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
+14. **(d) 冇** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
+15. **(d) 有** — [有 / 冇 + Noun](../grammar/jau5-mou5.md): to have; there is / there isn't
+16. **(c) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
+17. **(a) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
+18. **(c) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
+19. **(c) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
+20. **(d) 有冇** — [有冇 + Noun？](../grammar/jau5-mou5-question.md): Is there…? / Do you have…?
+21. **(c) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
+22. **(c) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
+23. **(b) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
+24. **(b) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
+25. **(c) 咗** — [Verb + 咗](../grammar/zo2-completed.md): completed action
+26. **(c) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
+27. **(c) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
+28. **(b) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
+29. **(c) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
+30. **(c) 緊** — [Verb + 緊](../grammar/gan2-progressive.md): in the middle of doing (-ing)
+31. **(c) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
+32. **(d) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
+33. **(a) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
+34. **(c) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
+35. **(d) 嘅** — [Noun / Pronoun + 嘅 + Noun](../grammar/ge3-possessive.md): 's / of (possession and description)
+36. **(a) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
+37. **(b) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
+38. **(a) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
+39. **(b) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
+40. **(b) 喺** — [Subject + 喺 + Place](../grammar/hai2-location.md): to be at / in
+41. **(c) 呢** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
+42. **(c) 嗰** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
+43. **(b) 嗰** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
+44. **(d) 呢** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
+45. **(a) 嗰** — [呢 / 嗰 + Classifier (+ Noun)](../grammar/ni1-go2-demonstratives.md): this / that
+46. **(d) 杯** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
+47. **(b) 個** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
+48. **(b) 部** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
+49. **(a) 對** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
+50. **(a) 張** — [Number + Classifier + Noun](../grammar/number-classifier.md): counting things
+51. **(c) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
+52. **(c) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
+53. **(c) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
+54. **(d) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
+55. **(a) 想** — [想 + Verb](../grammar/soeng2-want.md): would like to / want to
+56. **(b) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
+57. **(a) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
+58. **(d) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
+59. **(c) 要** — [要 + Noun / Verb](../grammar/jiu3-want-need.md): to want (something); to need to / have to
+60. **(d) 好** — [好 + Adjective](../grammar/hou2-very.md): very
+61. **(d) 好** — [好 + Adjective](../grammar/hou2-very.md): very
+62. **(b) 好** — [好 + Adjective](../grammar/hou2-very.md): very
+63. **(b) 好** — [好 + Adjective](../grammar/hou2-very.md): very
+64. **(d) 好** — [好 + Adjective](../grammar/hou2-very.md): very
+65. **(c) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
+66. **(d) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
+67. **(b) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
+68. **(d) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
+69. **(b) 幾多錢** — [… 幾多錢？](../grammar/gei2-do1-cin2.md): How much is…?
+70. **(a) 乜嘢** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
+71. **(d) 咩** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
+72. **(c) 乜嘢** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
+73. **(d) 乜嘢** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
+74. **(b) 咩** — [乜嘢 / 咩](../grammar/mat1-je5-what.md): what
+75. **(c) 邊度** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
+76. **(c) 邊個** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
+77. **(d) 邊** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
+78. **(c) 邊度** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
+79. **(d) 邊個** — [邊度 / 邊個 / 邊 + Classifier](../grammar/bin1-where-who.md): where / who / which
+80. **(b) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
+81. **(b) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
+82. **(a) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
+83. **(a) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
+84. **(a) 幾時** — [幾時 + Verb？](../grammar/gei2-si4-when.md): when
+85. **(c) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
+86. **(a) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
+87. **(c) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
+88. **(a) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
+89. **(d) 呀** — [… 呀](../grammar/aa3-softener.md): friendly softener for questions and replies
+90. **(a) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
+91. **(d) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
+92. **(d) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
+93. **(d) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
+94. **(d) 啦** — [… 啦](../grammar/laa1-suggestion.md): suggestion, invitation or gentle request
+95. **(d) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
+96. **(d) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
+97. **(c) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
+98. **(d) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
+99. **(a) 嗎** — [… 嗎？](../grammar/maa3-question.md): neutral yes/no question
+100. **(c) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+101. **(a) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+102. **(b) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+103. **(c) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+104. **(d) 同** — [A + 同 + B](../grammar/tung4-and-with.md): and; with
+105. **(b) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+106. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+107. **(d) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+108. **(b) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+109. **(a) 唔好** — [唔好 + Verb](../grammar/m4-hou2-dont.md): don't (telling someone not to)
+110. **(b) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+111. **(a) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+112. **(b) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+113. **(c) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
+114. **(d) 定係** — [A 定係 B？](../grammar/ding6-hai6-or.md): …or…? (choosing in a question)
 
 </details>
 

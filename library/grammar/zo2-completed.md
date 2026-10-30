@@ -36,6 +36,22 @@ Add 咗 straight after a verb to show the action has happened or been completed.
 | Bopomofo | ㆭㄛ⁵ ㄇㄚㄧ⁵ ㄗㄛ² ㄌㆦㄥ⁵ ㄅㄨㄣ² ㄙㄩ¹. |
 | English | I bought two books. |
 
+| | |
+|---|---|
+| 漢字 | **我搭咗的士。** |
+| Jyutping | ngo5 daap3 zo2 dik1 si2. |
+| Yale | ngóh daap jó dīk sí. |
+| Bopomofo | ㆭㄛ⁵ ㄉㄚㆴ³ ㄗㄛ² ㄉㄧㆶ¹ ㄙㄧ². |
+| English | I took a taxi. |
+
+| | |
+|---|---|
+| 漢字 | **我到咗喇。** |
+| Jyutping | ngo5 dou3 zo2 laa3. |
+| Yale | ngóh dou jó la. |
+| Bopomofo | ㆭㄛ⁵ ㄉㄛㄨ³ ㄗㄛ² ㄌㄚ³. |
+| English | I've arrived. |
+
 ## Common mistakes
 
 - Not ~~我吃了飯。~~ but **我食咗飯。** *ngo5 sik6 zo2 faan6.* · *ngóh sihk jó faahn.*  
