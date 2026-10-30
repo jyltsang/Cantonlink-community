@@ -1,6 +1,6 @@
 # cantonlink-mcp
 
-Learn spoken Hong Kong Cantonese from your AI assistant or your terminal. An [MCP](https://modelcontextprotocol.io) server and a small CLI over the [CantonLink Community](https://github.com/jyltsang/Cantonlink-community) library: 60 grammar patterns, 390 words, Jyutping, Yale and Bopomofo.
+Learn spoken Hong Kong Cantonese from your AI assistant or your terminal. An [MCP](https://modelcontextprotocol.io) server and a small CLI over the [CantonLink Community](https://github.com/jyltsang/Cantonlink-community) library: 63 grammar patterns, 390 words, Jyutping, Yale and Bopomofo.
 
 ## Use it with an AI assistant
 

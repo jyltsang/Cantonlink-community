@@ -93,7 +93,7 @@ Take these after item 1 unless the owner reorders them. The design is in the mas
 
 | Item | What is needed |
 |---|---|
-| Native-speaker review of 74 entries | Reviewers (two per entry), recruited through the reviewer issue form |
+| Native-speaker review of 77 entries | Reviewers (two per entry), recruited through the reviewer issue form |
 | Screen-reader and device testing | Testers with VoiceOver, NVDA, an older Android phone and iOS Safari |
 | Live AI test with Claude, OpenAI or Ollama | A key added as a repository secret, and permission for one capped run |
 | Audio | A decision: community recordings first, or a checked synthetic voice |

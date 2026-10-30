@@ -167,7 +167,7 @@ Third-party data audit (October 2026):
 | 2b. AI tutor (own key), MCP server and CLI on npm, open data with schema | Done |
 | 2c. Brand design, romanisation-first display, Try first | Done |
 | 2d. Jyutping/Yale-first MCP server, romanisation-aware search, RAG guide for developers | Done, awaiting merge to `main` |
-| 3. Native-speaker review of all 74 entries | **Waiting on reviewers** |
+| 3. Native-speaker review of all 77 entries | **Waiting on reviewers** |
 | 4. Accessibility and device testing (screen readers, older phones) | **Waiting on testers** |
 | 5. Private beta with 20–30 learners and a few teachers | Not started |
 | 6. Public launch (1.0.0) | After phases 3–5 |

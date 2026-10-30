@@ -4,7 +4,7 @@
 
 Choose the word that completes each sentence so that it matches the English. Answers are at the bottom.
 
-> **16 of 16 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **19 of 19 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** 我搵＿＿我條鎖匙喇。  
 ngo5 wan2 \_\_\_ ngo5 tiu4 so2 si4 laa3.  
@@ -390,22 +390,22 @@ dang2 ngo5 nam2 haa5 \_\_\_.
 
 ---
 
-**33.** 噉就算＿＿。  
-gam2 zau6 syun3 \_\_\_.  
-*gám jauh syun \_\_\_.*  
-“Oh well, forget it then.”
+**33.** 你行＿＿。  
+nei5 haang4 \_\_\_.  
+*néih hàahng \_\_\_.*  
+“You go first.”
 
-(a) 咩 me1 · mē · ㄇㄝ¹  
-(b) 嗎 maa3 · ma · ㄇㄚ³  
-(c) 囉 lo1 · lō · ㄌㄛ¹  
-(d) 未 mei6 · meih · ㄇㄝㄧ⁶
+(a) 晒 saai3 · saai · ㄙㄚㄧ³  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(d) 再 zoi3 · joi · ㄗㄛㄧ³
 
 ---
 
-**34.** 你唔鍾意就唔好食＿＿。  
-nei5 m4 zung1 ji3 zau6 m4 hou2 sik6 \_\_\_.  
-*néih m̀h jūng yi jauh m̀h hóu sihk \_\_\_.*  
-“If you don't like it, just don't eat it.”
+**34.** 噉就算＿＿。  
+gam2 zau6 syun3 \_\_\_.  
+*gám jauh syun \_\_\_.*  
+“Oh well, forget it then.”
 
 (a) 囉 lo1 · lō · ㄌㄛ¹  
 (b) 嗎 maa3 · ma · ㄇㄚ³  
@@ -414,10 +414,10 @@ nei5 m4 zung1 ji3 zau6 m4 hou2 sik6 \_\_\_.
 
 ---
 
-**35.** 梗係＿＿！  
-gang2 hai6 \_\_\_!  
-*gáng haih \_\_\_!*  
-“Of course!”
+**35.** 你唔鍾意就唔好食＿＿。  
+nei5 m4 zung1 ji3 zau6 m4 hou2 sik6 \_\_\_.  
+*néih m̀h jūng yi jauh m̀h hóu sihk \_\_\_.*  
+“If you don't like it, just don't eat it.”
 
 (a) 未 mei6 · meih · ㄇㄝㄧ⁶  
 (b) 囉 lo1 · lō · ㄌㄛ¹  
@@ -426,22 +426,22 @@ gang2 hai6 \_\_\_!
 
 ---
 
-**36.** 嘩，好多人＿＿！  
-waa3, hou2 do1 jan4 \_\_\_!  
-*wa, hóu dō yàhn \_\_\_!*  
-“Wow, there are so many people!”
+**36.** 梗係＿＿！  
+gang2 hai6 \_\_\_!  
+*gáng haih \_\_\_!*  
+“Of course!”
 
-(a) 嗎 maa3 · ma · ㄇㄚ³  
+(a) 囉 lo1 · lō · ㄌㄛ¹  
 (b) 咩 me1 · mē · ㄇㄝ¹  
-(c) 喎 wo3 · wo · ㄨㄛ³  
-(d) 啦 laa1 · lā · ㄌㄚ¹
+(c) 嗎 maa3 · ma · ㄇㄚ³  
+(d) 未 mei6 · meih · ㄇㄝㄧ⁶
 
 ---
 
-**37.** 佢話今日唔嚟＿＿。  
-keoi5 waa6 gam1 jat6 m4 lai4 \_\_\_.  
-*kéuih wah gām yaht m̀h làih \_\_\_.*  
-“He says he's not coming today.”
+**37.** 嘩，好多人＿＿！  
+waa3, hou2 do1 jan4 \_\_\_!  
+*wa, hóu dō yàhn \_\_\_!*  
+“Wow, there are so many people!”
 
 (a) 咩 me1 · mē · ㄇㄝ¹  
 (b) 喎 wo3 · wo · ㄨㄛ³  
@@ -450,10 +450,10 @@ keoi5 waa6 gam1 jat6 m4 lai4 \_\_\_.
 
 ---
 
-**38.** 呢間餐廳幾好食＿＿。  
-ni1 gaan1 caan1 teng1 gei2 hou2 sik6 \_\_\_.  
-*nī gāan chāan tēng géi hóu sihk \_\_\_.*  
-“Hey, this restaurant's actually pretty good.”
+**38.** 佢話今日唔嚟＿＿。  
+keoi5 waa6 gam1 jat6 m4 lai4 \_\_\_.  
+*kéuih wah gām yaht m̀h làih \_\_\_.*  
+“He says he's not coming today.”
 
 (a) 啦 laa1 · lā · ㄌㄚ¹  
 (b) 咩 me1 · mē · ㄇㄝ¹  
@@ -462,110 +462,230 @@ ni1 gaan1 caan1 teng1 gei2 hou2 sik6 \_\_\_.
 
 ---
 
-**39.** 我尋日買＿＿衫好平。  
+**39.** 呢間餐廳幾好食＿＿。  
+ni1 gaan1 caan1 teng1 gei2 hou2 sik6 \_\_\_.  
+*nī gāan chāan tēng géi hóu sihk \_\_\_.*  
+“Hey, this restaurant's actually pretty good.”
+
+(a) 啦 laa1 · lā · ㄌㄚ¹  
+(b) 喎 wo3 · wo · ㄨㄛ³  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 嗎 maa3 · ma · ㄇㄚ³
+
+---
+
+**40.** 佢今晚仲要加班＿＿。  
+keoi5 gam1 maan5 zung6 jiu3 gaa1 baan1 \_\_\_.  
+*kéuih gām máahn juhng yiu gā bāan \_\_\_.*  
+“And she even has to work overtime tonight.”
+
+(a) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 添 tim1 · tīm · ㄊㄧㆬ¹  
+(d) 咩 me1 · mē · ㄇㄝ¹
+
+---
+
+**41.** 我唔記得帶遮＿＿！  
+ngo5 m4 gei3 dak1 daai3 ze1 \_\_\_!  
+*ngóh m̀h gei dāk daai jē \_\_\_!*  
+“And I forgot my umbrella too!”
+
+(a) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 添 tim1 · tīm · ㄊㄧㆬ¹  
+(d) 咩 me1 · mē · ㄇㄝ¹
+
+---
+
+**42.** 飲多杯＿＿啦。  
+jam2 do1 bui1 \_\_\_ laa1.  
+*yám dō būi \_\_\_ lā.*  
+“Have another glass.”
+
+(a) 嗎 maa3 · ma · ㄇㄚ³  
+(b) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(c) 添 tim1 · tīm · ㄊㄧㆬ¹  
+(d) 咩 me1 · mē · ㄇㄝ¹
+
+---
+
+**43.** 佢係老師＿＿，梗係識啦。  
+keoi5 hai6 lou5 si1 \_\_\_, gang2 hai6 sik1 laa1.  
+*kéuih haih lóuh sī \_\_\_, gáng haih sīk lā.*  
+“She's a teacher, so of course she knows.”
+
+(a) 嘛 maa3 · ma · ㄇㄚ³  
+(b) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 嗎 maa3 · ma · ㄇㄚ³
+
+---
+
+**44.** 我都話咗會落雨＿＿。  
+ngo5 dou1 waa6 zo2 wui5 lok6 jyu5 \_\_\_.  
+*ngóh dōu wah jó wúih lohk yúh \_\_\_.*  
+“I did say it would rain.”
+
+(a) 嗎 maa3 · ma · ㄇㄚ³  
+(b) 咩 me1 · mē · ㄇㄝ¹  
+(c) 嘛 maa3 · ma · ㄇㄚ³  
+(d) 先 sin1 · sīn · ㄙㄧㄣ¹
+
+---
+
+**45.** 唔緊要＿＿，下次再嚟啦。  
+m4 gan2 jiu3 \_\_\_, haa6 ci3 zoi3 lai4 laa1.  
+*m̀h gán yiu \_\_\_, hah chi joi làih lā.*  
+“It doesn't matter; come again next time.”
+
+(a) 嗎 maa3 · ma · ㄇㄚ³  
+(b) 先 sin1 · sīn · ㄙㄧㄣ¹  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 嘛 maa3 · ma · ㄇㄚ³
+
+---
+
+**46.** 聽日會落雨＿＿。  
+ting1 jat6 wui5 lok6 jyu5 \_\_\_.  
+*tīng yaht wúih lohk yúh \_\_\_.*  
+“It'll rain tomorrow, I think.”
+
+(a) 啦 laa1 · lā · ㄌㄚ¹  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 啩 gwaa3 · gwa · ㄍㄨㄚ³  
+(d) 咩 me1 · mē · ㄇㄝ¹
+
+---
+
+**47.** 佢應該到咗＿＿。  
+keoi5 jing1 goi1 dou3 zo2 \_\_\_.  
+*kéuih yīng gōi dou jó \_\_\_.*  
+“He should be there by now, I suppose.”
+
+(a) 咩 me1 · mē · ㄇㄝ¹  
+(b) 啩 gwaa3 · gwa · ㄍㄨㄚ³  
+(c) 嗎 maa3 · ma · ㄇㄚ³  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**48.** 唔係＿＿！  
+m4 hai6 \_\_\_!  
+*m̀h haih \_\_\_!*  
+“Surely not!”
+
+(a) 啩 gwaa3 · gwa · ㄍㄨㄚ³  
+(b) 嗎 maa3 · ma · ㄇㄚ³  
+(c) 咩 me1 · mē · ㄇㄝ¹  
+(d) 啦 laa1 · lā · ㄌㄚ¹
+
+---
+
+**49.** 我尋日買＿＿衫好平。  
 ngo5 cam4 jat6 maai5 \_\_\_ saam1 hou2 peng4.  
 *ngóh chàhm yaht máaih \_\_\_ sāam hóu pèhng.*  
 “The top I bought yesterday was cheap.”
 
-(a) 嘅 ge3 · ge · ㄍㄝ³  
-(b) 都 dou1 · dōu · ㄉㄛㄨ¹  
-(c) 咗 zo2 · jó · ㄗㄛ²  
+(a) 都 dou1 · dōu · ㄉㄛㄨ¹  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 嘅 ge3 · ge · ㄍㄝ³  
 (d) 緊 gan2 · gán · ㄍㄜㄣ²
 
 ---
 
-**40.** 佢係教我廣東話＿＿老師。  
+**50.** 佢係教我廣東話＿＿老師。  
 keoi5 hai6 gaau3 ngo5 gwong2 dung1 waa2 \_\_\_ lou5 si1.  
 *kéuih haih gaau ngóh gwóng dūng wá \_\_\_ lóuh sī.*  
 “She's the teacher who teaches me Cantonese.”
 
-(a) 緊 gan2 · gán · ㄍㄜㄣ²  
+(a) 咗 zo2 · jó · ㄗㄛ²  
 (b) 都 dou1 · dōu · ㄉㄛㄨ¹  
 (c) 嘅 ge3 · ge · ㄍㄝ³  
-(d) 咗 zo2 · jó · ㄗㄛ²
+(d) 緊 gan2 · gán · ㄍㄜㄣ²
 
 ---
 
-**41.** 有冇唔辣＿＿嘢食呀？  
+**51.** 有冇唔辣＿＿嘢食呀？  
 jau5 mou5 m4 laat6 \_\_\_ je5 sik6 aa3?  
 *yáuh móuh m̀h laaht \_\_\_ yéh sihk a?*  
 “Is there anything to eat that isn't spicy?”
 
-(a) 咗 zo2 · jó · ㄗㄛ²  
-(b) 緊 gan2 · gán · ㄍㄜㄣ²  
-(c) 都 dou1 · dōu · ㄉㄛㄨ¹  
-(d) 嘅 ge3 · ge · ㄍㄝ³
+(a) 嘅 ge3 · ge · ㄍㄝ³  
+(b) 咗 zo2 · jó · ㄗㄛ²  
+(c) 緊 gan2 · gán · ㄍㄜㄣ²  
+(d) 都 dou1 · dōu · ㄉㄛㄨ¹
 
 ---
 
-**42.** 佢戴＿＿眼鏡。  
+**52.** 佢戴＿＿眼鏡。  
 keoi5 daai3 \_\_\_ ngaan5 geng2.  
 *kéuih daai \_\_\_ ngáahn géng.*  
 “She's wearing glasses.”
 
-(a) 晒 saai3 · saai · ㄙㄚㄧ³  
-(b) 住 zyu6 · jyuh · ㄗㄩ⁶  
-(c) 完 jyun4 · yùhn · ㄩㄣ⁴  
-(d) 過 gwo3 · gwo · ㄍㄨㄛ³
+(a) 完 jyun4 · yùhn · ㄩㄣ⁴  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 晒 saai3 · saai · ㄙㄚㄧ³  
+(d) 住 zyu6 · jyuh · ㄗㄩ⁶
 
 ---
 
-**43.** 你攞＿＿先。  
+**53.** 你攞＿＿先。  
 nei5 lo2 \_\_\_ sin1.  
 *néih ló \_\_\_ sīn.*  
 “Hold on to it for now.”
 
-(a) 晒 saai3 · saai · ㄙㄚㄧ³  
-(b) 住 zyu6 · jyuh · ㄗㄩ⁶  
-(c) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(d) 完 jyun4 · yùhn · ㄩㄣ⁴
+(a) 住 zyu6 · jyuh · ㄗㄩ⁶  
+(b) 過 gwo3 · gwo · ㄍㄨㄛ³  
+(c) 完 jyun4 · yùhn · ㄩㄣ⁴  
+(d) 晒 saai3 · saai · ㄙㄚㄧ³
 
 ---
 
-**44.** 佢拎＿＿一把遮。  
+**54.** 佢拎＿＿一把遮。  
 keoi5 ling1 \_\_\_ jat1 baa2 ze1.  
 *kéuih līng \_\_\_ yāt bá jē.*  
 “She's holding an umbrella.”
 
-(a) 住 zyu6 · jyuh · ㄗㄩ⁶  
+(a) 完 jyun4 · yùhn · ㄩㄣ⁴  
 (b) 過 gwo3 · gwo · ㄍㄨㄛ³  
-(c) 晒 saai3 · saai · ㄙㄚㄧ³  
-(d) 完 jyun4 · yùhn · ㄩㄣ⁴
+(c) 住 zyu6 · jyuh · ㄗㄩ⁶  
+(d) 晒 saai3 · saai · ㄙㄚㄧ³
 
 ---
 
-**45.** 佢＿＿唔開心。  
+**55.** 佢＿＿唔開心。  
 keoi5 \_\_\_ m4 hoi1 sam1.  
 *kéuih \_\_\_ m̀h hōi sām.*  
 “She seems unhappy.”
 
 (a) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
-(b) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
-(c) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
+(b) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
+(c) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
 (d) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵
 
 ---
 
-**46.** 你＿＿你爸爸。  
+**56.** 你＿＿你爸爸。  
 nei5 \_\_\_ nei5 baa4 baa1.  
 *néih \_\_\_ néih bàh bā.*  
 “You look like your dad.”
 
 (a) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
 (b) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²  
-(c) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵  
-(d) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵
+(c) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
+(d) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵
 
 ---
 
-**47.** ＿＿要落雨喇。  
+**57.** ＿＿要落雨喇。  
 \_\_\_ jiu3 lok6 jyu5 laa3.  
 *\_\_\_ yiu lohk yúh la.*  
 “It looks like it's going to rain.”
 
-(a) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
-(b) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
-(c) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵  
+(a) 可以 ho2 ji5 · hó yíh · ㄏㄛ² ㄧ⁵  
+(b) 好似 hou2 ci5 · hóu chíh · ㄏㄛㄨ² ㄘㄧ⁵  
+(c) 已經 ji5 ging1 · yíh gīng · ㄧ⁵ ㄍㄧㄥ¹  
 (d) 唔使 m4 sai2 · m̀h sái · ㆬ⁴ ㄙㄜㄧ²
 
 <details>
@@ -603,21 +723,31 @@ nei5 \_\_\_ nei5 baa4 baa1.
 30. **(a) 再** — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md): first …, then …
 31. **(d) 先** — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md): first …, then …
 32. **(a) 先** — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md): first …, then …
-33. **(c) 囉** — [… 囉](../grammar/lo1-obvious.md): it's obvious; oh well
+33. **(c) 先** — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md): first …, then …
 34. **(a) 囉** — [… 囉](../grammar/lo1-obvious.md): it's obvious; oh well
 35. **(b) 囉** — [… 囉](../grammar/lo1-obvious.md): it's obvious; oh well
-36. **(c) 喎** — [… 喎](../grammar/wo3-noticing.md): noticing something; passing on what someone said
+36. **(a) 囉** — [… 囉](../grammar/lo1-obvious.md): it's obvious; oh well
 37. **(b) 喎** — [… 喎](../grammar/wo3-noticing.md): noticing something; passing on what someone said
 38. **(c) 喎** — [… 喎](../grammar/wo3-noticing.md): noticing something; passing on what someone said
-39. **(a) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
-40. **(c) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
-41. **(d) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
-42. **(b) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
-43. **(b) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
-44. **(a) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
-45. **(d) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
-46. **(c) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
-47. **(c) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
+39. **(b) 喎** — [… 喎](../grammar/wo3-noticing.md): noticing something; passing on what someone said
+40. **(c) 添** — [… 添](../grammar/tim1-as-well.md): too; as well; even (adding one more thing)
+41. **(c) 添** — [… 添](../grammar/tim1-as-well.md): too; as well; even (adding one more thing)
+42. **(c) 添** — [… 添](../grammar/tim1-as-well.md): too; as well; even (adding one more thing)
+43. **(a) 嘛** — [… 嘛](../grammar/maa3-obvious.md): it's obvious; that's why (giving a reason)
+44. **(c) 嘛** — [… 嘛](../grammar/maa3-obvious.md): it's obvious; that's why (giving a reason)
+45. **(d) 嘛** — [… 嘛](../grammar/maa3-obvious.md): it's obvious; that's why (giving a reason)
+46. **(c) 啩** — [… 啩](../grammar/gwaa3-suppose.md): I suppose; probably
+47. **(b) 啩** — [… 啩](../grammar/gwaa3-suppose.md): I suppose; probably
+48. **(a) 啩** — [… 啩](../grammar/gwaa3-suppose.md): I suppose; probably
+49. **(c) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
+50. **(c) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
+51. **(a) 嘅** — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md): the … that / who … (relative clauses)
+52. **(d) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
+53. **(a) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
+54. **(c) 住** — [Verb + 住](../grammar/zyu6-continuous.md): keep doing; in a continuing state
+55. **(d) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
+56. **(d) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
+57. **(b) 好似** — [好似 …](../grammar/hou2-ci5-seem.md): seems; looks like; to be like
 
 </details>
 

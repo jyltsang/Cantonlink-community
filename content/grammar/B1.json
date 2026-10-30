@@ -228,7 +228,8 @@
         "en": "Do your homework first, then play.",
         "gap": { "word": "先", "distractors": ["緊", "晒", "過"] }
       },
-      { "words": [["等", "dang2"], ["我", "ngo5"], ["諗", "nam2"], ["吓", "haa5"], ["先", "sin1"], ["。"]], "en": "Let me think about it first.", "gap": { "word": "先", "distractors": ["再", "晒", "過"] } }
+      { "words": [["等", "dang2"], ["我", "ngo5"], ["諗", "nam2"], ["吓", "haa5"], ["先", "sin1"], ["。"]], "en": "Let me think about it first.", "gap": { "word": "先", "distractors": ["再", "晒", "過"] } },
+      { "words": [["你", "nei5"], ["行", "haang4"], ["先", "sin1"], ["。"]], "en": "You go first.", "gap": { "word": "先", "distractors": ["再", "晒", "過"] } }
     ],
     "related": ["jat1-zau6-as-soon-as", "haa5-briefly"],
     "review": { "status": "draft", "reviewers": [] }
@@ -267,6 +268,69 @@
       { "words": [["呢", "ni1"], ["間", "gaan1"], ["餐廳", "caan1 teng1"], ["幾", "gei2"], ["好食", "hou2 sik6"], ["喎", "wo3"], ["。"]], "en": "Hey, this restaurant's actually pretty good.", "gap": { "word": "喎", "distractors": ["嗎", "咩", "啦"] } }
     ],
     "related": ["lo1-obvious", "me1-surprise"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "tim1-as-well",
+    "pattern": "… 添",
+    "jyutping": "… tim1",
+    "meaning": "too; as well; even (adding one more thing)",
+    "level": "B1",
+    "function": "particles",
+    "explanation": "添 at the end of a sentence adds one more thing, often with feeling: something extra, or one more piece of bad luck. It often goes with 仲 (even) or 多 (more): 飲多杯添 means \"have another glass\".",
+    "examples": [
+      { "words": [["佢", "keoi5"], ["今晚", "gam1 maan5"], ["仲", "zung6"], ["要", "jiu3"], ["加班", "gaa1 baan1"], ["添", "tim1"], ["。"]], "en": "And she even has to work overtime tonight.", "gap": { "word": "添", "distractors": ["先", "嗎", "咩"] } },
+      { "words": [["我", "ngo5"], ["唔記得", "m4 gei3 dak1"], ["帶", "daai3"], ["遮", "ze1"], ["添", "tim1"], ["！"]], "en": "And I forgot my umbrella too!", "gap": { "word": "添", "distractors": ["先", "嗎", "咩"] } },
+      { "words": [["飲", "jam2"], ["多", "do1"], ["杯", "bui1"], ["添", "tim1"], ["啦", "laa1"], ["。"]], "en": "Have another glass.", "gap": { "word": "添", "distractors": ["先", "嗎", "咩"] } }
+    ],
+    "related": ["dou1-also", "laa1-suggestion"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "maa3-obvious",
+    "pattern": "… 嘛",
+    "jyutping": "… maa3",
+    "meaning": "it's obvious; that's why (giving a reason)",
+    "level": "B1",
+    "function": "particles",
+    "explanation": "嘛 presents something as obvious, or as the reason behind what you are saying: \"well, she is a teacher\". It can also reassure: 唔緊要嘛 means \"it really doesn't matter\".",
+    "examples": [
+      {
+        "words": [["佢", "keoi5"], ["係", "hai6"], ["老師", "lou5 si1"], ["嘛", "maa3"], ["，"], ["梗係", "gang2 hai6"], ["識", "sik1"], ["啦", "laa1"], ["。"]],
+        "en": "She's a teacher, so of course she knows.",
+        "gap": { "word": "嘛", "distractors": ["嗎", "咩", "先"] }
+      },
+      { "words": [["我", "ngo5"], ["都", "dou1"], ["話", "waa6"], ["咗", "zo2"], ["會", "wui5"], ["落雨", "lok6 jyu5"], ["嘛", "maa3"], ["。"]], "en": "I did say it would rain.", "gap": { "word": "嘛", "distractors": ["嗎", "咩", "先"] } },
+      {
+        "words": [["唔緊要", "m4 gan2 jiu3"], ["嘛", "maa3"], ["，"], ["下次", "haa6 ci3"], ["再", "zoi3"], ["嚟", "lai4"], ["啦", "laa1"], ["。"]],
+        "en": "It doesn't matter; come again next time.",
+        "gap": { "word": "嘛", "distractors": ["嗎", "咩", "先"] }
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "佢係老師嗎，梗係識啦。",
+        "correct": [["佢", "keoi5"], ["係", "hai6"], ["老師", "lou5 si1"], ["嘛", "maa3"], ["，"], ["梗係", "gang2 hai6"], ["識", "sik1"], ["啦", "laa1"], ["。"]],
+        "note": "Written with the character for the question particle, this looks like a question. Both are said maa3; here the meaning is \"obviously\", so the sentence states something and does not ask."
+      }
+    ],
+    "related": ["lo1-obvious", "maa3-question"],
+    "review": { "status": "draft", "reviewers": [] }
+  },
+  {
+    "id": "gwaa3-suppose",
+    "pattern": "… 啩",
+    "jyutping": "… gwaa3",
+    "meaning": "I suppose; probably",
+    "level": "B1",
+    "function": "particles",
+    "explanation": "啩 at the end of a sentence makes it a guess: \"I think\", \"probably\". It often goes with 應該 (should). 唔係啩 means \"surely not\".",
+    "examples": [
+      { "words": [["聽日", "ting1 jat6"], ["會", "wui5"], ["落雨", "lok6 jyu5"], ["啩", "gwaa3"], ["。"]], "en": "It'll rain tomorrow, I think.", "gap": { "word": "啩", "distractors": ["嗎", "啦", "咩"] } },
+      { "words": [["佢", "keoi5"], ["應該", "jing1 goi1"], ["到", "dou3"], ["咗", "zo2"], ["啩", "gwaa3"], ["。"]], "en": "He should be there by now, I suppose.", "gap": { "word": "啩", "distractors": ["嗎", "啦", "咩"] } },
+      { "words": [["唔係", "m4 hai6"], ["啩", "gwaa3"], ["！"]], "en": "Surely not!", "gap": { "word": "啩", "distractors": ["嗎", "啦", "咩"] } }
+    ],
+    "related": ["jing1-goi1-should", "wui5-will"],
     "review": { "status": "draft", "reviewers": [] }
   },
   {

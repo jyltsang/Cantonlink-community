@@ -34,6 +34,14 @@
 | Bopomofo | ㄉㄜㄥ² ㆭㄛ⁵ ㄋㄜㆬ² ㄏㄚ⁵ ㄙㄧㄣ¹. |
 | English | Let me think about it first. |
 
+| | |
+|---|---|
+| 漢字 | **你行先。** |
+| Jyutping | nei5 haang4 sin1. |
+| Yale | néih hàahng sīn. |
+| Bopomofo | ㄋㄝㄧ⁵ ㄏㄚㄥ⁴ ㄙㄧㄣ¹. |
+| English | You go first. |
+
 ## Related patterns
 
 - [一 …就 …](jat1-zau6-as-soon-as.md) — as soon as …; whenever …

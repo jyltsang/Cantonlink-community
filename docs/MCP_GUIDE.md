@@ -266,7 +266,7 @@ server.registerResource('grammar-pattern', new ResourceTemplate('cantonlink://gr
 }));
 ```
 
-One template covers all 60 patterns. `list` lets apps show them in a picker, and `complete` offers autocompletion as you type an id.
+One template covers all 63 patterns. `list` lets apps show them in a picker, and `complete` offers autocompletion as you type an id.
 
 ### A prompt
 

@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **[Learning path](library/path.md)** | 12 units from A1 to B1 in teaching order, each pairing grammar with a vocabulary topic and a model dialogue |
-| **[Grammar](library/grammar/README.md)** | 60 patterns from A1 to B1, each with three example sentences, the written-Chinese equivalent and common mistakes where relevant |
+| **[Grammar](library/grammar/README.md)** | 63 patterns from A1 to B1, each with at least three example sentences, the written-Chinese equivalent and common mistakes where relevant |
 | **[Vocabulary](library/vocabulary/README.md)** | 390 everyday words in 13 topics, with classifiers and usage notes, including tech and office words as Hong Kong people really say them (寫 code, 趕 deadline) |
 | **[English → Cantonese index](library/english-index.md)** | Every word, sorted by its English meaning |
 | **[Practice worksheets](library/practice/README.md)** | Printable fill-the-gap (A1, A2, B1), build-the-sentence and spoken-or-written worksheets with answers |

@@ -2,9 +2,9 @@
 
 # Grammar patterns
 
-60 patterns of everyday spoken Cantonese, each with at least three example sentences in 漢字, Jyutping, Yale, Bopomofo and English.
+63 patterns of everyday spoken Cantonese, each with at least three example sentences in 漢字, Jyutping, Yale, Bopomofo and English.
 
-> **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **63 of 63 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 ## A1
 
@@ -83,6 +83,9 @@
 | [先 … 再 … / … 先](sin1-zoi3-first-then.md) | sin1 … zoi3 … / … sin1 | first …, then … | Connecting words | Draft |
 | [… 囉](lo1-obvious.md) | … lo1 | it's obvious; oh well | Sentence-final particles | Draft |
 | [… 喎](wo3-noticing.md) | … wo3 | noticing something; passing on what someone said | Sentence-final particles | Draft |
+| [… 添](tim1-as-well.md) | … tim1 | too; as well; even (adding one more thing) | Sentence-final particles | Draft |
+| [… 嘛](maa3-obvious.md) | … maa3 | it's obvious; that's why (giving a reason) | Sentence-final particles | Draft |
+| [… 啩](gwaa3-suppose.md) | … gwaa3 | I suppose; probably | Sentence-final particles | Draft |
 | [[Description] + 嘅 + Noun](relative-ge3.md) | [Description] + ge3 + Noun | the … that / who … (relative clauses) | Possession and description | Draft |
 | [Verb + 住](zyu6-continuous.md) | Verb + zyu6 | keep doing; in a continuing state | Time and aspect | Draft |
 | [好似 …](hou2-ci5-seem.md) | hou2 ci5 … | seems; looks like; to be like | Degree and comparison | Draft |

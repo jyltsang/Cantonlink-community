@@ -26,8 +26,8 @@ All content is original, in spoken Hong Kong Cantonese, with Jyutping written on
 
 | | Count | Where |
 |---|---|---|
-| Grammar patterns | 60 (A1 24, A2 20, B1 16), each with at least three examples (five at A1), a written-Chinese note where relevant and common mistakes | `content/grammar/` |
-| Example sentences | 228 (each A1 pattern has five) | in the patterns |
+| Grammar patterns | 63 (A1 24, A2 20, B1 19), each with at least three examples (five at A1), a written-Chinese note where relevant and common mistakes | `content/grammar/` |
+| Example sentences | 238 (each A1 pattern has five) | in the patterns |
 | Vocabulary | 390 words in 13 topics of 30, with classifiers, usage notes and code-mixed work words (寫 code) | `content/vocabulary/` |
 | Learning path | 12 units in teaching order (A1 5, A2 4, B1 3), each with patterns, a topic, an AI scenario and a 6–8 line model dialogue (94 lines) | `content/path.json`, `content/dialogues.json` |
 | Spoken or written? | 30 pairs | `content/practice/spoken-or-written.json` |
@@ -112,7 +112,7 @@ Documented in the [RAG guide](RAG_GUIDE.md): how to build a vector index over th
 
 ### Not yet verified (needs people)
 
-1. Native-speaker review of all 74 entries (60 patterns, 13 word lists, the spoken-or-written set), two reviewers each ([review guide](REVIEW_GUIDE.md), [status](../library/review-status.md)).
+1. Native-speaker review of all 77 entries (63 patterns, 13 word lists, the spoken-or-written set), two reviewers each ([review guide](REVIEW_GUIDE.md), [status](../library/review-status.md)).
 2. Screen readers (VoiceOver, NVDA) and real devices (older Android, iOS Safari).
 3. The AI tutor live with Claude, OpenAI and a local Ollama model (needs keys; covered by recorded-response tests meanwhile).
 

@@ -50,7 +50,7 @@ test('search_vocabulary finds words by English, Jyutping and characters', async 
 });
 
 test('grammar tools list, fetch and suggest patterns', async () => {
-  assert.equal((await call('list_grammar_patterns', { level: 'B1' })).text.split('\n').length, 16);
+  assert.equal((await call('list_grammar_patterns', { level: 'B1' })).text.split('\n').length, 19);
   const pattern = await call('get_grammar_pattern', { id: 'zo2-completed' });
   assert.match(pattern.text, /我食咗飯喇。/);
   assert.match(pattern.text, /Yale: ngóh sihk jó faahn la\./);

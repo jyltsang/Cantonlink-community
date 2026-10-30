@@ -4,7 +4,7 @@
 
 Put the word tiles in the right order to say the English sentence in Cantonese. Answers are at the bottom.
 
-> **60 of 60 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
+> **63 of 63 entries are awaiting native-speaker review.** See the [review status](../review-status.md), or [help review](https://github.com/jyltsang/cantonlink-community/issues/new?template=reviewer.yml).
 
 **1.** “He's my friend.”
 
@@ -230,15 +230,27 @@ Put the word tiles in the right order to say the English sentence in Cantonese. 
 
 `多 do1` `人 jan4` `嘩 waa3` `好 hou2` `喎 wo3`
 
-**57.** “The top I bought yesterday was cheap.”
+**57.** “And she even has to work overtime tonight.”
+
+`仲 zung6` `添 tim1` `要 jiu3` `加班 gaa1 baan1` `今晚 gam1 maan5` `佢 keoi5`
+
+**58.** “She's a teacher, so of course she knows.”
+
+`係 hai6` `梗係 gang2 hai6` `識 sik1` `啦 laa1` `嘛 maa3` `佢 keoi5` `老師 lou5 si1`
+
+**59.** “It'll rain tomorrow, I think.”
+
+`聽日 ting1 jat6` `會 wui5` `啩 gwaa3` `落雨 lok6 jyu5`
+
+**60.** “The top I bought yesterday was cheap.”
 
 `尋日 cam4 jat6` `衫 saam1` `嘅 ge3` `買 maai5` `我 ngo5` `平 peng4` `好 hou2`
 
-**58.** “She's wearing glasses.”
+**61.** “She's wearing glasses.”
 
 `住 zyu6` `眼鏡 ngaan5 geng2` `戴 daai3` `佢 keoi5`
 
-**59.** “She seems unhappy.”
+**62.** “She seems unhappy.”
 
 `開心 hoi1 sam1` `好似 hou2 ci5` `佢 keoi5` `唔 m4`
 
@@ -301,9 +313,12 @@ Put the word tiles in the right order to say the English sentence in Cantonese. 
 54. **我哋先食飯，再去睇戲。** ngo5 dei6 sin1 sik6 faan6, zoi3 heoi3 tai2 hei3. · *ngóh deih sīn sihk faahn, joi heui tái hei.* — [先 … 再 … / … 先](../grammar/sin1-zoi3-first-then.md)
 55. **噉就算囉。** gam2 zau6 syun3 lo1. · *gám jauh syun lō.* — [… 囉](../grammar/lo1-obvious.md)
 56. **嘩，好多人喎！** waa3, hou2 do1 jan4 wo3! · *wa, hóu dō yàhn wo!* — [… 喎](../grammar/wo3-noticing.md)
-57. **我尋日買嘅衫好平。** ngo5 cam4 jat6 maai5 ge3 saam1 hou2 peng4. · *ngóh chàhm yaht máaih ge sāam hóu pèhng.* — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md)
-58. **佢戴住眼鏡。** keoi5 daai3 zyu6 ngaan5 geng2. · *kéuih daai jyuh ngáahn géng.* — [Verb + 住](../grammar/zyu6-continuous.md)
-59. **佢好似唔開心。** keoi5 hou2 ci5 m4 hoi1 sam1. · *kéuih hóu chíh m̀h hōi sām.* — [好似 …](../grammar/hou2-ci5-seem.md)
+57. **佢今晚仲要加班添。** keoi5 gam1 maan5 zung6 jiu3 gaa1 baan1 tim1. · *kéuih gām máahn juhng yiu gā bāan tīm.* — [… 添](../grammar/tim1-as-well.md)
+58. **佢係老師嘛，梗係識啦。** keoi5 hai6 lou5 si1 maa3, gang2 hai6 sik1 laa1. · *kéuih haih lóuh sī ma, gáng haih sīk lā.* — [… 嘛](../grammar/maa3-obvious.md)
+59. **聽日會落雨啩。** ting1 jat6 wui5 lok6 jyu5 gwaa3. · *tīng yaht wúih lohk yúh gwa.* — [… 啩](../grammar/gwaa3-suppose.md)
+60. **我尋日買嘅衫好平。** ngo5 cam4 jat6 maai5 ge3 saam1 hou2 peng4. · *ngóh chàhm yaht máaih ge sāam hóu pèhng.* — [[Description] + 嘅 + Noun](../grammar/relative-ge3.md)
+61. **佢戴住眼鏡。** keoi5 daai3 zyu6 ngaan5 geng2. · *kéuih daai jyuh ngáahn géng.* — [Verb + 住](../grammar/zyu6-continuous.md)
+62. **佢好似唔開心。** keoi5 hou2 ci5 m4 hoi1 sam1. · *kéuih hóu chíh m̀h hōi sām.* — [好似 …](../grammar/hou2-ci5-seem.md)
 
 </details>
 
