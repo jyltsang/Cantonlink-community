@@ -11,7 +11,7 @@ import { searchWords, suggestPatterns } from '../../tools/library.mjs';
 // Text with characters inside it, read in Jyutping. Chunks never contain
 // characters: the embedding model is English, and nothing the index returns
 // can then show characters to a learner who has turned them off.
-const read = (text, parts) => (parts ? parts.map((p) => (typeof p === 'string' ? p : p.jyutping)).join('') : text);
+const read = (text, parts) => (parts ? parts.map((p, i) => (typeof p === 'string' ? p : `${typeof parts[i - 1] === 'object' ? ' ' : ''}${p.jyutping}`)).join('') : text);
 
 // One chunk per word, per grammar pattern and per example sentence. `text` is
 // what gets embedded; the other fields are metadata kept beside the vector.

@@ -157,7 +157,8 @@ const SYSTEM_NAMES = { jyutping: 'Jyutping', yale: 'Yale' };
 // Array.map passes an index as the second argument: treat it as the default.
 const displayOf = (display) => (display && typeof display === 'object' ? { ...DEFAULT_DISPLAY, ...display } : DEFAULT_DISPLAY);
 const otherSystem = (system) => (system === 'yale' ? 'jyutping' : 'yale');
-const readParts = (parts, system) => parts.map((part) => (typeof part === 'string' ? part : part[system])).join('');
+// Adjacent words get a space between their readings, as on the website.
+const readParts = (parts, system) => parts.map((part, i) => (typeof part === 'string' ? part : `${typeof parts[i - 1] === 'object' ? ' ' : ''}${part[system]}`)).join('');
 const prose = (text, parts, system) => (parts ? readParts(parts, system) : text);
 const joinTokens = (readings) => readings.join(' ').replace(/ ([.,?!])/g, '$1');
 

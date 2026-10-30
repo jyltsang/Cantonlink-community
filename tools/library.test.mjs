@@ -62,6 +62,12 @@ test('romanisation-only display leads with the chosen system', () => {
   assert.match(formatPattern(pattern, { characters: false, romanisation: 'yale' }), /^# Subject \+ haih \+ Noun/);
 });
 
+test('romanisation-only prose keeps a space between adjacent words, as the site does', () => {
+  const hai6 = formatPattern(data.grammar.find((p) => p.id === 'hai6-copula'), { characters: false });
+  assert.match(hai6, /say keoi5 hou2 gou1 \(he is tall\)/);
+  assert.doesNotMatch(data.grammar.map((p) => formatPattern(p, { characters: false })).join('\n'), /[1-6][a-z]+[1-6]/, 'no two syllables run together');
+});
+
 test('the default display is unchanged, with characters', () => {
   const word = data.vocabulary.flatMap((t) => t.words).find((w) => w.cjk === '唔該');
   assert.match(formatWord(word), /^唔該 — m4 goi1 \| Yale: m̀h gōi \| Bopomofo: /);
