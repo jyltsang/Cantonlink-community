@@ -23,6 +23,7 @@
     "ci": "npm test && npm run check && npm test --prefix mcp && npm run test:e2e && node tests/live-ai.mjs --local --mock"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "opencc-js": "1.4.2",
     "playwright": "1.64.1",
     "to-jyutping": "3.1.1"

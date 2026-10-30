@@ -102,3 +102,13 @@ With characters turned off (the default), learners see no Chinese characters any
 - One explanation was reworded: dou2-result said "a different word from 到 (dou3)", which cannot be read correctly without characters when the same character is read dou2 elsewhere in the note. It now says "a different word from dou3 'to arrive', which is written with the same character".
 
 A browser test visits every page (every grammar pattern, word topic and unit, Look up, each exercise, review, the tutor and AI settings) in Jyutping and in Yale, and fails if any Chinese character appears.
+
+## 7. Automated accessibility checks (30 October 2026)
+
+Every page (18 routes) is checked with axe-core for WCAG 2.0, 2.1 and 2.2 A and AA rules, in light mode with characters off and in dark mode with characters on (`tests/e2e.mjs`). Serious and critical violations fail CI.
+
+| Finding | Impact | Fix |
+|---|---|---|
+| Flashcard button labelled "Card. Select to turn over." while showing the word: its accessible name did not contain its visible text (`label-content-name-mismatch`), so a speech-input user saying the word could not select it | Serious | The fixed label is removed; the card is named by its own text and uses `aria-pressed` to say whether it is turned over |
+
+No other serious or critical violations were found. Automated checks catch only part of WCAG; the screen-reader and device testing in the release criteria is still needed.
