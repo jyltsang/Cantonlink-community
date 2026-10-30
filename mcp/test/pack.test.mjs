@@ -44,10 +44,13 @@ test('the CLI runs from the unpacked package', () => {
 
 test('the MCP server starts over stdio from the unpacked package', async () => {
   const client = new Client({ name: 'pack-test', version: '1.0.0' });
-  await client.connect(new StdioClientTransport({ command: bin('cantonlink-mcp'), stderr: 'ignore' }));
-  const { tools } = await client.listTools();
-  assert.equal(tools.length, 6);
-  const result = await client.callTool({ name: 'search_vocabulary', arguments: { query: 'deadline' } });
-  assert.match(result.content[0].text, /趕 deadline/);
-  await client.close();
+  await client.connect(new StdioClientTransport({ command: bin('cantonlink-mcp'), args: ['--romanisation=yale'], stderr: 'ignore' }));
+  try {
+    const { tools } = await client.listTools();
+    assert.equal(tools.length, 6);
+    const result = await client.callTool({ name: 'search_vocabulary', arguments: { query: 'deadline' } });
+    assert.match(result.content[0].text, /^gón deadline \| Jyutping: gon2 deadline/, 'characters off by default; Yale from the argument');
+  } finally {
+    await client.close();
+  }
 });

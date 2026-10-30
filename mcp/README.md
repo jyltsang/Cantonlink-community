@@ -18,6 +18,8 @@ claude mcp add --transport stdio --scope user cantonlink -- npx -y cantonlink-mc
 
 Then ask: *"How do I say 'thank you' in Cantonese? Give me Jyutping and Yale."* The assistant answers from the library instead of from memory.
 
+**Characters are off by default**, for learners who do not read them: Cantonese is shown in Jyutping (or Yale) only, and the assistant is told never to show characters. Add `--romanisation=yale` to show Yale first, or `--characters=on` to show characters; the variables `CANTONLINK_ROMANISATION` and `CANTONLINK_CHARACTERS` do the same. Search accepts romanisation without tones, run together, or spelt as learners hear it (`lei hou`, `mgoi`).
+
 ## Use it in the terminal
 
 ```sh
@@ -33,7 +35,7 @@ Or `npm install -g cantonlink-mcp` and type `cantonlink quiz`.
 
 | Kind | Name | What it does |
 |---|---|---|
-| Tool | `search_vocabulary` | Find words by English, Jyutping, Yale or characters |
+| Tool | `search_vocabulary` | Find words by English, Jyutping or Yale (tones optional) or characters |
 | Tool | `list_grammar_patterns` | List patterns, optionally by level |
 | Tool | `get_grammar_pattern` | One pattern with examples and common mistakes |
 | Tool | `romanise_jyutping` | Convert Jyutping to Yale and Bopomofo, validating each syllable |

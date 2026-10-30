@@ -3,24 +3,33 @@ import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
-import { createServer } from '../server.mjs';
+import { createServer, displayOptions, loadLibrary } from '../server.mjs';
 import { checkSpoken } from '../../tools/library.mjs';
 
-let client;
+const HAN = /\p{Script=Han}/u;
+const clients = [];
+let client; // characters on, for learners who read them
+
+async function connect(display) {
+  const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
+  await createServer(loadLibrary(), display).connect(serverTransport);
+  const c = new Client({ name: 'test-client', version: '1.0.0' });
+  await c.connect(clientTransport);
+  clients.push(c);
+  return c;
+}
 
 before(async () => {
-  const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
-  await createServer().connect(serverTransport);
-  client = new Client({ name: 'test-client', version: '1.0.0' });
-  await client.connect(clientTransport);
+  client = await connect({ characters: true, romanisation: 'jyutping' });
 });
 
-after(() => client?.close());
+after(() => Promise.all(clients.map((c) => c.close())));
 
-const call = async (name, args) => {
-  const result = await client.callTool({ name, arguments: args });
-  return { text: result.content.map((c) => c.text).join('\n'), isError: Boolean(result.isError) };
+const callWith = async (c, name, args) => {
+  const result = await c.callTool({ name, arguments: args });
+  return { text: result.content.map((x) => x.text).join('\n'), isError: Boolean(result.isError) };
 };
+const call = (name, args) => callWith(client, name, args);
 
 test('lists the six tools, all marked read-only', async () => {
   const { tools } = await client.listTools();
@@ -32,11 +41,12 @@ test('lists the six tools, all marked read-only', async () => {
 });
 
 test('search_vocabulary finds words by English, Jyutping and characters', async () => {
-  for (const query of ['thank you', 'm4 goi1', 'm4goi', '唔該']) {
+  for (const query of ['thank you', 'm4 goi1', 'm4goi', '唔該', 'mh goi', 'm goi']) {
     const { text } = await call('search_vocabulary', { query });
     assert.match(text, /唔該 — m4 goi1/, query);
   }
   assert.match((await call('search_vocabulary', { query: 'xyzzy' })).text, /No words/);
+  assert.match((await call('search_vocabulary', { query: 'nei hoe' })).text, /^No exact match for "nei hoe"\. Closest matches/);
 });
 
 test('grammar tools list, fetch and suggest patterns', async () => {
@@ -105,4 +115,73 @@ test('runs over stdio as a desktop app would launch it', async () => {
   child.kill();
   assert.equal(message.result.serverInfo.name, 'cantonlink-community');
   assert.ok(message.result.capabilities.tools && message.result.capabilities.resources && message.result.capabilities.prompts);
+});
+
+test('options come from arguments or the environment; characters are off by default', () => {
+  assert.deepEqual(displayOptions([], {}), { characters: false, romanisation: 'jyutping' });
+  assert.deepEqual(displayOptions(['--characters=on', '--romanisation=yale'], {}), { characters: true, romanisation: 'yale' });
+  assert.deepEqual(displayOptions([], { CANTONLINK_CHARACTERS: 'ON', CANTONLINK_ROMANISATION: 'Yale' }), { characters: true, romanisation: 'yale' });
+  assert.deepEqual(displayOptions(['--romanisation', 'yale'], { CANTONLINK_ROMANISATION: 'jyutping' }), { characters: false, romanisation: 'yale' });
+  assert.throws(() => displayOptions(['--romanisation=bopomofo'], {}), /jyutping or yale/);
+  assert.throws(() => displayOptions(['--characters=maybe'], {}), /on or off/);
+});
+
+// The site-wide rule, applied to the server: with characters off, nothing a
+// learner can see contains Chinese characters. check_spoken_cantonese is the
+// one exception: its input is the AI's own Cantonese in characters, which the
+// AI checks before showing the learner only the romanisation.
+for (const romanisation of ['jyutping', 'yale']) {
+  test(`with characters off (${romanisation}), no characters in any tool, resource or prompt`, async () => {
+    const c = await connect({ characters: false, romanisation });
+    const seen = [];
+    const { tools } = await c.listTools();
+    seen.push(...tools.filter((t) => t.name !== 'check_spoken_cantonese').map((t) => `${t.name}: ${t.description}`));
+    for (const query of ['thank you', 'm goi', 'lei hou', 'sihk', 'food', 'xyzzy']) seen.push((await callWith(c, 'search_vocabulary', { query, limit: 50 })).text);
+    for (const level of ['A1', 'A2', 'B1', undefined]) {
+      seen.push((await callWith(c, 'list_grammar_patterns', { level })).text);
+      for (const type of ['fill_the_gap', 'build_the_sentence']) seen.push((await callWith(c, 'get_practice_questions', { type, level, count: 10 })).text);
+    }
+    const ids = (await callWith(c, 'list_grammar_patterns', {})).text.split('\n').map((line) => line.split(' ')[0]);
+    for (const id of [...ids, 'zo2', 'jo']) seen.push((await callWith(c, 'get_grammar_pattern', { id })).text);
+    seen.push((await callWith(c, 'romanise_jyutping', { jyutping: 'nei5 hou2' })).text);
+    const spokenOrWritten = await callWith(c, 'get_practice_questions', { type: 'spoken_or_written' });
+    assert.equal(spokenOrWritten.isError, true);
+    seen.push(spokenOrWritten.text);
+
+    const { resources } = await c.listResources();
+    for (const r of resources) {
+      seen.push(r.name);
+      seen.push(...(await c.readResource({ uri: r.uri })).contents.map((x) => x.text));
+    }
+    const { prompts } = await c.listPrompts();
+    for (const p of prompts) seen.push(p.description, ...(p.arguments ?? []).map((a) => a.description));
+    for (const level of ['A1', 'B1']) seen.push((await c.getPrompt({ name: 'cantonese_tutor', arguments: { level } })).messages[0].content.text);
+    for (const id of ids) seen.push((await c.getPrompt({ name: 'explain_pattern', arguments: { id } })).messages[0].content.text);
+    seen.push(c.getInstructions());
+
+    const leaks = seen.filter((text) => HAN.test(text ?? ''));
+    assert.deepEqual(leaks, [], `characters shown with characters off:\n${leaks.slice(0, 3).join('\n---\n')}`);
+  });
+}
+
+test('with characters off, Cantonese leads with the chosen romanisation and the tutor is told why', async () => {
+  const yale = await connect({ characters: false, romanisation: 'yale' });
+  assert.match((await callWith(yale, 'search_vocabulary', { query: 'm goi' })).text, /^m̀h gōi \| Jyutping: m4 goi1 — /);
+  assert.match((await callWith(yale, 'get_grammar_pattern', { id: 'hai6-copula' })).text, /^# Subject \+ haih \+ Noun/);
+  const tutor = (await yale.getPrompt({ name: 'cantonese_tutor', arguments: { level: 'A1' } })).messages[0].content.text;
+  assert.match(tutor, /I do not read Chinese characters: write each line in Yale/);
+  assert.match(tutor, /check_spoken_cantonese/);
+  const jyutping = (await yale.getPrompt({ name: 'cantonese_tutor', arguments: { level: 'A1', romanisation: 'jyutping' } })).messages[0].content.text;
+  assert.match(jyutping, /write each line in Jyutping/);
+  assert.match(yale.getInstructions(), /does not read Chinese characters/);
+  assert.doesNotMatch(client.getInstructions(), /does not read Chinese characters/);
+});
+
+test('the default server, as npx starts it, has characters off', async () => {
+  const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
+  await createServer().connect(serverTransport);
+  const c = new Client({ name: 'test-client', version: '1.0.0' });
+  await c.connect(clientTransport);
+  clients.push(c);
+  assert.doesNotMatch((await callWith(c, 'search_vocabulary', { query: 'thank you' })).text, HAN);
 });

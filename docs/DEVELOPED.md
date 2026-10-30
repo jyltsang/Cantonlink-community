@@ -63,6 +63,8 @@ Documented in the [AI tutor guide](AI_TUTOR.md).
 Documented in the [MCP guide](MCP_GUIDE.md) and `mcp/README.md`.
 
 - Six library tools shared with the site (`tools/tool-definitions.mjs`): vocabulary search, grammar list and detail, Jyutping conversion, the written-Chinese check and practice questions, plus resources and prompts.
+- Characters off by default, for learners who do not read them: tools, resources and prompts show Jyutping or Yale only (`--characters=on|off`, `--romanisation=jyutping|yale`, or the `CANTONLINK_*` variables), and the tutor prompt tells the model never to show characters.
+- Romanisation-aware search (`searchWords` in `tools/library.mjs`, also used by the site's tutor): tones optional, Jyutping or Yale with or without marks, run-together syllables, l for n, dropped ng-; a wrong tone or a one-letter slip is returned as a labelled closest match.
 - `cantonlink` CLI: `word` (search or word of the day), `quiz`, `romanise`.
 - Self-contained package (library and data bundled at pack time), published with provenance as `cantonlink-mcp@1.0.0-rc.2`; repository folders are pre-configured for Claude Code, VS Code and Cursor.
 
@@ -88,7 +90,8 @@ Documented in the [MCP guide](MCP_GUIDE.md) and `mcp/README.md`.
 | Relative links in the documentation resolve; the three master documents exist and link to each other | `tools/links.test.mjs` |
 | Every page and learning journey in Chromium: no errors, no sideways scrolling, no emoji, named buttons; **no Chinese character on any page with characters off**, in Jyutping and Yale; Try first; the AI tutor against a scripted provider | `npm run test:e2e` (30 tests) |
 | The live AI test itself, against a mock provider | `node tests/live-ai.mjs --local --mock` |
-| The MCP package packed, unpacked and run through npm's symlinks | `npm test --prefix mcp` (20 tests) |
+| The MCP package packed, unpacked and run through npm's symlinks; **no Chinese character in any tool result, resource or prompt with characters off**, in Jyutping and Yale | `npm test --prefix mcp` (25 tests) |
+| Learner romanisation finds the right word (no tones, Yale, run together, l for n); wrong tones are only approximate | `tools/library.test.mjs` |
 
 ### By hand
 
