@@ -190,3 +190,12 @@ test('updatePins rewrites only the changed checksum in sources.json', async () =
   assert.equal(pinned.url, src.url);
   assert.deepEqual(await updatePins([pinned], { path, cacheDir, download }), []);
 });
+
+test('updatePins refuses to guess when a pinned hash appears more than once', async () => {
+  const body = `# CC-Canto\n${SA3}old\n`;
+  const src = textSource(body);
+  const { dir, cacheDir, download } = setup({ canto: `${body}changed` }, [src]);
+  const path = join(dir, 'sources.json');
+  writeFileSync(path, JSON.stringify({ sources: [src, { ...src, id: 'twin' }] }, null, 2));
+  await assert.rejects(updatePins([src], { path, cacheDir, download }), /exactly one pin/);
+});

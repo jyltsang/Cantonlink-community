@@ -301,3 +301,34 @@ test('no entry has Chinese characters, brackets or a bar in its English; a corre
   // set.english wins and is used as written, so the final assertion catches a bad correction
   assert.throws(() => buildEntries(sources(), [{ match: { characters: '唔該', jyutping: 'm4 goi1' }, set: { english: ['bad 他'] } }]), /unclean English/);
 });
+
+test('modifiers before a pure cross-reference lead-in are dropped with the whole segment', () => {
+  for (const gloss of [
+    'old variant of 你[ni3]',
+    '(Cantonese) variant of 你[ni3]',
+    'erhua variant of 花[hua1]',
+    'Japanese variant of 勞|劳[lao2]',
+    'archaic variant of 你[ni3]',
+    '(old) contracted variant of 你[ni3]',
+    'to see 見|见[jian4]',
+    'Taiwan pr. [wang2]',
+    'also pr. [yi1]',
+    'abbr. for 北京[Bei3 jing1]',
+    'CL:個|个[ge4]',
+    'see also 你[ni3]',
+  ]) assert.deepEqual(cleanEnglish([gloss]), [], gloss);
+});
+
+test('plain English before "equivalent to" is kept only when it is at least two words', () => {
+  assert.deepEqual(cleanEnglish(['Cantonese particle equivalent to 了[le5]']), ['Cantonese particle']);
+  assert.deepEqual(cleanEnglish(['particle equivalent to 了[le5]']), []);
+  assert.deepEqual(cleanEnglish(['man', 'people M: 個|个[ge4]']), ['man', 'people']);
+});
+
+test('a bare modifier is dropped, but a parenthetical note inside a real gloss stays', () => {
+  assert.deepEqual(cleanEnglish(['old', '(Tw)', '(literary)', 'Erhua', 'it (Cantonese)', 'what? (Cantonese)']), ['it (Cantonese)', 'what? (Cantonese)']);
+});
+
+test('a plain bracketed note becomes a parenthetical note', () => {
+  assert.deepEqual(cleanEnglish(['dollars [colloquial]']), ['dollars (colloquial)']);
+});

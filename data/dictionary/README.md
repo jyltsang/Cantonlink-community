@@ -50,10 +50,13 @@ The sources write cross-references into their glosses. A learner sees English on
 source's glosses (CC-Canto and CC-CEDICT) are cleaned before corrections:
 
 - A meaning is split on `;` into segments.
-- A segment with Chinese characters and a pinyin bracket is a cross-reference (`CL:個|个[ge4]`, `variant of 你[ni3]`, `see 你[ni3]`, `Mandarin equivalent: 他tā [他]`). It is dropped, except that plain English before the lead-in words (`equivalent to`, `variant of`, `see`, `also written`, `same as`, `abbr`, `CL:`) is kept ("Cantonese particle equivalent to 了[le5]" becomes "Cantonese particle"), and an inline reference inside a longer name is removed and the rest kept ("a county in Zhoushan City 舟山市[Zhou1 shan1 Shi4], Zhejiang" becomes "a county in Zhoushan City, Zhejiang").
+- A segment with a reference (Chinese characters or a pinyin bracket) and a pure-reference lead-in is dropped whole, whatever comes before the lead-in, because that text is a modifier ("old", "erhua", "(Cantonese)", "to"), not a meaning. The lead-ins are one table in `build.mjs` taken from the real data: `variant of`, `form of`, `contraction of`, `see`, `see also`, `to see`, `cf.`, `abbr. for/to/of`, `abbreviation for`, `short for`, `also written`, `also pr.`, `also read`, `also called`, `also known as`, `CL:`, `pr.`, `used in`, `euphemism for`, `another name for`, `alternative name/term for`, `internet slang for`.
+- With `equivalent to`, `Mandarin/dialectal/Taiwan/PRC equivalent`, `same as` or `similar to`, the text before is kept only if it has at least two Latin words ("Cantonese particle equivalent to 了[le5]" becomes "Cantonese particle"). With a measure-word marker `M:` the text before is a real meaning and is kept ("people M: 個[ge4]" becomes "people").
+- A reference inside a longer name is removed and the rest kept ("a county in Zhoushan City 舟山市[Zhou1 shan1 Shi4], Zhejiang" becomes "a county in Zhoushan City, Zhejiang").
 - A parenthetical note that holds a cross-reference is removed ("(Mandarin equivalent: 什麼|什么[shen2 me5])").
 - A segment with Chinese characters but no bracket has the characters stripped, and is kept only if a Latin word of 2 or more letters remains outside notes; one that starts with a lead-in word before the characters ("Mandarin equivalent: 他tā") is dropped.
-- Empty brackets, stray `|` and extra spaces are removed; real notes such as `(Cantonese)` stay.
+- Empty brackets, stray `|` and extra spaces are removed; a plain bracketed note becomes a parenthetical one (`[colloquial]` to `(colloquial)`); real notes such as `it (Cantonese)` stay.
+- After cleaning, a segment that is only a bare modifier (old, archaic, erhua, Japanese, Taiwan, Tw, dialect, literary, euphemistic, abbreviation, contracted, to, Cantonese, with or without brackets) is dropped.
 - An entry whose English becomes empty is kept with `english: []` and counted in the build report ("emptied by cleaning").
 - A correction's `set.english` is used as written and never cleaned. The build fails, naming the entry id, if any entry's English has a Chinese character, kana, `[`, `]` or `|`, so a bad correction is caught.
 

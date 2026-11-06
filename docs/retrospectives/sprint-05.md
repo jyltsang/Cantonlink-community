@@ -8,7 +8,7 @@ An open dictionary dataset for the CantonLink app's free dictionary, after the o
 
 | Metric | Before | After |
 |---|---|---|
-| Unit tests (`npm test`) | 90 | 124 |
+| Unit tests (`npm test`) | 90 | 133 |
 | Dictionary entries (not in the library) | none | about 131,000, all external-unreviewed |
 | Entries with a Tatoeba example | none | 1,163 |
 | Entries dropped for an invalid syllable | not applicable | 671 |

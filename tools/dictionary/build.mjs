@@ -118,11 +118,31 @@ export function assertUniqueIds(entries) {
 // A learner sees English only, so Chinese characters, pinyin brackets and the notes built on them go.
 const CJK_CHAR = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\u2E80-\u2FDF\u3000-\u303F\uFF00-\uFFEF]/u;
 const CJK_ANY = new RegExp(CJK_CHAR.source, 'gu');
-const CROSS_REF_LEAD = /\b(equivalent|variant|see|also written|written as|same as|abbr|short for|erhua)\b[^;]*$/i;
+// Lead-ins found in the real CC-CEDICT and CC-Canto glosses (most frequent first: "see", "variant of",
+// "CL:", "used in", "old variant of", "erhua variant of", "abbr. for", "see also", "also written").
+// Whatever precedes a pure-reference lead-in is a modifier ("old", "erhua", "(Cantonese)"), never a
+// meaning, so a segment with one of these and a reference is dropped whole.
+const PURE_REFERENCE_LEAD = new RegExp(
+  [
+    'variant of', 'form of', 'contracted form', 'contraction of', 'see', 'see also', 'to see', 'cf\\.?',
+    'abbr\\.? (?:for|to|of)', 'abbreviation (?:for|of)', 'short for', 'also written', 'also pr\\.?', 'also read',
+    'also called', 'also known as', 'cl:', 'pr\\.', 'used in', 'euphemism for', 'another name for',
+    'alternative (?:name|term) for', 'internet slang for',
+  ].map((lead) => `(?:^|[^A-Za-z])${lead}(?![A-Za-z])`).join('|'),
+  'i',
+);
+// "<meaning> equivalent to <reference>": the text before is kept only when it is at least two words.
+const EQUIVALENT_LEAD = /(?:^|[^A-Za-z])(?:(?:mandarin|dialectal|taiwan|prc) equivalent(?: of| to)?:?|equivalent (?:to|of)|same as|similar to)(?![A-Za-z])/i;
+// "<meaning> M: <measure word>": the text before is a real meaning and is kept.
+const MEASURE_LEAD = /\bm:/i;
+const BARE_MODIFIERS = new Set(
+  'old archaic ancient erhua japanese korean taiwan tw dialect dialectal literary euphemistic abbreviation abbr contracted classical colloquial cantonese variant to prc'.split(' '),
+);
 
-const CROSS_REF_START = /\b(mandarin equivalent|equivalent to|variant of|see also|see|also written|written as|same as|cl:|abbr)/i;
-
+const hasReference = (text) => CJK_CHAR.test(text) || /\[[^\]]+\]/.test(text);
 const isCrossReference = (text) => CJK_CHAR.test(text) && /\[[^\]]*\]/.test(text);
+const latinWords = (text) => (text.match(/[A-Za-z]{2,}/g) ?? []).length;
+const isBareModifier = (text) => BARE_MODIFIERS.has(text.toLowerCase().replace(/[^a-z]+/g, ' ').trim());
 
 // One meaning, which may hold several ";" segments. Returns '' when nothing meaningful is left.
 function cleanMeaning(meaning) {
@@ -135,31 +155,31 @@ function cleanMeaning(meaning) {
   const kept = [];
   for (const segment of text.split(';')) {
     let out = segment;
-    if (isCrossReference(segment)) {
-      const at = segment.search(CROSS_REF_START);
-      if (at >= 0) {
-        // keep any plain English before the cross-reference ("Cantonese particle equivalent to 了[le5]")
-        out = segment.slice(0, at);
-        if (CJK_CHAR.test(out) || /\[/.test(out) || !/[A-Za-z]{2,}/.test(out)) continue;
-      } else {
+    if (hasReference(segment)) {
+      if (PURE_REFERENCE_LEAD.test(segment)) continue;
+      const equivalent = EQUIVALENT_LEAD.exec(segment) ?? MEASURE_LEAD.exec(segment);
+      if (equivalent) {
+        out = segment.slice(0, equivalent.index);
+        const needed = MEASURE_LEAD.test(segment) && !EQUIVALENT_LEAD.test(segment) ? 1 : 2;
+        if (CJK_CHAR.test(out) || /\[/.test(out) || latinWords(out.replace(/\([^)]*\)/g, '')) < needed) continue;
+      } else if (isCrossReference(segment)) {
         // a name with an inline reference ("a county in Zhoushan City 舟山市[Zhou1 shan1 Shi4], Zhejiang")
         out = segment.replace(/\S*[\p{Script=Han}]\S*\s*\[[^\]]*\]/gu, ' ');
       }
     }
     if (CJK_CHAR.test(out)) {
-      const lead = out.slice(0, out.search(CJK_CHAR));
-      if (CROSS_REF_LEAD.test(lead)) continue; // "Mandarin equivalent: 他tā"
       out = out.replace(CJK_ANY, ' ');
       if (!/[A-Za-z]{2,}/.test(out.replace(/\([^)]*\)/g, ''))) continue; // nothing but notes left
     }
     out = out
       .replace(/\[\s*\]|\(\s*\)/g, ' ')
+      .replace(/\[([^\]\[\d]+)\]/g, '($1)') // "dollars [colloquial]" keeps its note
       .replace(/[\[\]|]/g, ' ')
       .replace(/\s+/g, ' ')
       .replace(/\s+([,.:?!)])/g, '$1')
       .replace(/([(])\s+/g, '$1')
       .replace(/^[\s,:;.]+|[\s,:;]+$/g, '');
-    if (out) kept.push(out);
+    if (out && !isBareModifier(out)) kept.push(out);
   }
   return kept.join('; ');
 }

@@ -6,7 +6,7 @@
 //   data/dictionary/.cache/<id>/<file>         the download, exactly as published
 //   data/dictionary/.cache/<id>/LICENCE.txt    the licence text read from that download
 //
-// Usage: node tools/dictionary/fetch.mjs [--strict] [--cache <dir>]
+// Usage: node tools/dictionary/fetch.mjs [--strict] [--update-pins] [--cache <dir>]
 //   --update-pins   download every source afresh and rewrite its sha256 in sources.json
 //              (the licence check still runs on the next plain fetch; update `version` by hand)
 //   --strict   also fail for sources whose licence cannot be read from the download
@@ -106,6 +106,7 @@ export async function updatePins(sources, { path = SOURCES_PATH, cacheDir = CACH
     const actual = sha256File(part);
     renameSync(part, join(dir, source.file));
     if (actual === source.sha256) continue;
+    if (text.split(source.sha256).length !== 2) throw new Error(`Expected exactly one pin of ${source.sha256} in sources.json for ${source.id}`);
     text = text.replace(source.sha256, actual);
     changed.push(source.id);
   }

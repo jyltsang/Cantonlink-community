@@ -81,6 +81,7 @@ Documented in the [RAG guide](RAG_GUIDE.md): how to build a vector index over th
 - `fetch.mjs` downloads the pinned sources (CC-Canto, CC-CEDICT readings, CC-CEDICT, Tatoeba, HKCanCor), checks each SHA-256 and reads each licence from the download; `--update-pins` re-pins stale checksums.
 - `build.mjs` writes `data/dictionary/dist/dictionary.jsonl.gz` (not in git): about 131,000 entries with Jyutping, generated Yale and Bopomofo, English, register (colloquial, general, written), frequency and up to two Tatoeba examples with ids. Invalid syllables are dropped and counted; duplicate ids fail the build.
 - `corrections.json` (applied last) and `written-markers.json` hold CantonLink's edits; see `data/dictionary/README.md`.
+- English glosses are cleaned of Chinese characters, pinyin brackets and cross-references ("see", "variant of", "CL:"); the build fails if any remain.
 - Every entry is `external-unreviewed`. A `dictionary-v*` tag runs `dictionary-release.yml`, which attaches the dataset, `LICENSE` and `SOURCES.md` to a release. It is not in the site or the MCP server.
 - Verified by `tools/dictionary/*.test.mjs` (in `npm test`, fixtures only, no network). Tatoeba's licence is not yet confirmed from tatoeba.org.
 
