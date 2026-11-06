@@ -29,6 +29,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" data/dictionary/dist/dictionary.jsonl.gz \
-            --title "Dictionary dataset $GITHUB_REF_NAME" \
-            --notes "Built from the pinned sources in data/dictionary/sources.json. See data/dictionary/SOURCES.md and data/dictionary/LICENSE. Every entry is external-unreviewed."
+          ASSET=data/dictionary/dist/dictionary.jsonl.gz
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "$ASSET" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "$ASSET" \
+              --title "Dictionary dataset $GITHUB_REF_NAME" \
+              --notes "Built from the pinned sources in data/dictionary/sources.json. See data/dictionary/SOURCES.md and data/dictionary/LICENSE. Every entry is external-unreviewed."
+          fi
