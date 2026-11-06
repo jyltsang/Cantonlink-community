@@ -54,7 +54,7 @@ Take these in order unless the owner reorders them. The design is in the master 
 
 ### 4. Dictionary licence checks (8d)
 
-- **Do:** check and record the licences of CC-Canto, CC-CEDICT, rime-cantonese, HKCanCor, words.hk and any Hugging Face datasets from their own sources; update the licensing table. Import nothing until the owner approves a source.
+- **Do:** the owner approved CC-Canto, CC-CEDICT (with Cantonese readings) and Tatoeba on 5 November 2026 (words.hk excluded); their licences are recorded in `data/dictionary/SOURCES.md` and the dataset build exists. Still to do: confirm the Tatoeba licence from tatoeba.org, check rime-cantonese and any Hugging Face dataset from their own sources, and update the licensing table. Import nothing further until the owner approves a source.
 - **Done when:** each candidate has a recorded licence, version, URL and decision.
 - **Files:** `docs/MASTER_PLAN.md`, `NOTICE`.
 

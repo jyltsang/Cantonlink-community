@@ -1,7 +1,13 @@
 name: Release dictionary dataset
 
 # Builds the dictionary dataset from the pinned sources and attaches it to a GitHub release.
-# Runs only when a tag named dictionary-v* is pushed, for example dictionary-v2026.11.1.
+# Runs only when a tag named dictionary-v* is pushed. The first tag is dictionary-v1.
+#
+# The pinned checksums in data/dictionary/sources.json go stale: MDBG regenerates the CC-CEDICT
+# export daily and Tatoeba replaces its exports weekly, and the fetch step fails on a mismatch.
+# So before tagging: run `node tools/dictionary/fetch.mjs --update-pins`, update `version` in
+# sources.json, run `node tools/dictionary/fetch.mjs` and the build, merge that change, and push
+# the tag immediately afterwards (see data/dictionary/README.md, "Releasing").
 on:
   push:
     tags:
@@ -29,11 +35,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          ASSET=data/dictionary/dist/dictionary.jsonl.gz
+          FILES="data/dictionary/dist/dictionary.jsonl.gz data/dictionary/LICENSE data/dictionary/SOURCES.md"
           if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" "$ASSET" --clobber
+            gh release upload "$GITHUB_REF_NAME" $FILES --clobber
           else
-            gh release create "$GITHUB_REF_NAME" "$ASSET" \
+            gh release create "$GITHUB_REF_NAME" $FILES \
               --title "Dictionary dataset $GITHUB_REF_NAME" \
-              --notes "Built from the pinned sources in data/dictionary/sources.json. See data/dictionary/SOURCES.md and data/dictionary/LICENSE. Every entry is external-unreviewed."
+              --notes "Built from the pinned sources in data/dictionary/sources.json. LICENSE (CC BY-SA 4.0, with the credits for CC-Canto, CC-CEDICT, Tatoeba and HKCanCor) and SOURCES.md are attached and must travel with the dataset. Every entry is external-unreviewed."
           fi

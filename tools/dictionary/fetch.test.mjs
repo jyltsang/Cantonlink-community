@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { crc32 } from 'node:zlib';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { fetchAll, readLicenceText, sha256File, loadSources } from './fetch.mjs';
+import { updatePins, fetchAll, readLicenceText, sha256File, loadSources } from './fetch.mjs';
 
 const sha = (buf) => createHash('sha256').update(buf).digest('hex');
 
@@ -175,4 +175,18 @@ test('the real sources.json is well formed', () => {
     assert.ok(s.file && s.version && s.licence.expected, s.id);
     assert.ok(s.licence.unverified || (s.licence.patterns?.length && s.licence.from?.kind), `${s.id} needs a licence check`);
   }
+});
+
+test('updatePins rewrites only the changed checksum in sources.json', async () => {
+  const body = `# CC-Canto\n${SA3}old\n`;
+  const src = textSource(body);
+  const fresh = `# CC-Canto\n${SA3}new\n`;
+  const { dir, cacheDir, download } = setup({ canto: fresh }, [src]);
+  const path = join(dir, 'sources.json');
+  writeFileSync(path, JSON.stringify({ sources: [src] }, null, 2));
+  assert.deepEqual(await updatePins([src], { path, cacheDir, download }), ['canto']);
+  const [pinned] = JSON.parse(readFileSync(path, 'utf8')).sources;
+  assert.equal(pinned.sha256, sha(Buffer.from(fresh)));
+  assert.equal(pinned.url, src.url);
+  assert.deepEqual(await updatePins([pinned], { path, cacheDir, download }), []);
 });

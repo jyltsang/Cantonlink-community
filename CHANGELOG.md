@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Open dictionary dataset
+- `tools/dictionary/` fetches pinned sources (CC-Canto, CC-CEDICT with Cantonese readings, CC-CEDICT, Tatoeba, HKCanCor), checks each checksum and licence, and builds `dictionary.jsonl.gz`: Jyutping, generated Yale and Bopomofo, English, register ranking (colloquial, general, written), frequency and up to two Tatoeba examples. Every entry is external and unreviewed. A `dictionary-v*` tag attaches it, with its CC BY-SA licence and sources, to a release. Not part of the site or the MCP server.
+
 ### More practice material
 - Every A1 pattern now has five examples: 48 new draft sentences in new everyday contexts, with fill-the-gap and accepted word orders.
 - New B1 particles: 添 (too; even), 啩 (I suppose) and 嘛 (it's obvious), on the path in units 10, 11 and 12. Sentence-final 先 gains a second example in its existing pattern. 63 patterns in all.

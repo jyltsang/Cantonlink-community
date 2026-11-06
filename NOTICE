@@ -19,6 +19,16 @@ Use:     The list of Simplified-only characters that the AI tutor's checks
          reject, each with its Traditional form
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------
+Dictionary dataset sources (data/dictionary/)
+Sources: CC-Canto and CC-CEDICT Cantonese readings (Pleco, CC BY-SA 3.0),
+         CC-CEDICT (CC BY-SA 4.0), Tatoeba (understood to be CC BY 2.0 FR,
+         not yet confirmed), HKCanCor (CC BY 4.0, frequency counts only)
+Licence: the dataset is offered under CC BY-SA 4.0; the full credits are in
+         data/dictionary/LICENSE and the checks in data/dictionary/SOURCES.md
+Use:     The open dictionary dataset built by tools/dictionary/build.mjs
+------------------------------------------------------------------------
+
 Development tools used at build time only (not distributed with the site):
 - to-jyutping (CanCLID), BSD-2-Clause: independent pronunciation
   cross-check, and readings for written forms in explanations

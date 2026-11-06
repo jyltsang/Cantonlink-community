@@ -11,10 +11,11 @@ the same licence.
 
 The dataset is built from open sources. It must carry these credits:
 
-- CC-Canto and the CC-CEDICT Cantonese readings: copyright (c) 2015-2017
-  Pleco Software Incorporated, under CC BY-SA 3.0
-  (https://creativecommons.org/licenses/by-sa/3.0/). CC BY-SA 3.0 allows
-  adaptations to be shared under a later version of the same licence, which is
+- CC-Canto: copyright (c) 2015-17 Pleco Inc., and the CC-CEDICT Cantonese
+  readings: copyright (c) 2015 Pleco Software Incorporated; both under
+  CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Section 4(b)
+  of CC BY-SA 3.0 allows an adaptation to be licensed under a Creative Commons
+  licence designated as compatible, and CC BY-SA 4.0 is so designated. That is
   why the combined dataset is offered under CC BY-SA 4.0.
   Source: https://cantonese.org/download.html
 - CC-CEDICT: the CC-CEDICT contributors, published by MDBG under CC BY-SA 4.0.
@@ -22,9 +23,11 @@ The dataset is built from open sources. It must carry these credits:
   1997, 1998 Paul Andrew Denisowski.
   Source: https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 - Tatoeba: example sentences and their translations are contributed by Tatoeba
-  users and released under CC BY 2.0 FR
-  (https://creativecommons.org/licenses/by/2.0/fr/). Each example keeps its
-  Tatoeba sentence id so it can be traced to its contributors.
+  users and are understood to be released under CC BY 2.0 FR
+  (https://creativecommons.org/licenses/by/2.0/fr/); this has not yet been
+  confirmed from tatoeba.org (see SOURCES.md). Some sentences are released
+  under CC0 instead. Each example keeps its Tatoeba sentence id so it can be
+  traced to its contributors.
   Source: https://tatoeba.org
 - HKCanCor, the Hong Kong Cantonese Corpus, compiled by Kang Kwong Luke and
   May L.Y. Wong, under CC BY 4.0. It is used only to count word frequency.

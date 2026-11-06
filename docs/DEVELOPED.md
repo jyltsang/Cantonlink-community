@@ -1,6 +1,6 @@
 # What has been developed
 
-The state of CantonLink Community Edition as of **30 October 2026** (version `1.0.0-rc.2`). This is one of three master documents:
+The state of CantonLink Community Edition as of **6 November 2026** (version `1.0.0-rc.2`). This is one of three master documents:
 
 - **What has been developed** (this page): what exists and how it is verified.
 - [Master plan](MASTER_PLAN.md): why the project exists, its principles, decisions and roadmap.
@@ -75,6 +75,14 @@ Documented in the [RAG guide](RAG_GUIDE.md): how to build a vector index over th
 - Chunking (one chunk per word, pattern and example, no characters), a local embedding model through transformers.js (no key), brute-force cosine search, hybrid ranking with the library's own search (reciprocal rank fusion) and a stale-index guard.
 - 25 evaluation queries (paraphrases, romanisation, grammar by meaning). Keyword search alone: 16% recall@5. Vector and hybrid scores are not yet measured: the model download needs network access that the project's environment lacks.
 - Not part of the site or the npm package.
+
+## Open dictionary dataset (`data/dictionary/`, `tools/dictionary/`)
+
+- `fetch.mjs` downloads the pinned sources (CC-Canto, CC-CEDICT readings, CC-CEDICT, Tatoeba, HKCanCor), checks each SHA-256 and reads each licence from the download; `--update-pins` re-pins stale checksums.
+- `build.mjs` writes `data/dictionary/dist/dictionary.jsonl.gz` (not in git): about 131,000 entries with Jyutping, generated Yale and Bopomofo, English, register (colloquial, general, written), frequency and up to two Tatoeba examples with ids. Invalid syllables are dropped and counted; duplicate ids fail the build.
+- `corrections.json` (applied last) and `written-markers.json` hold CantonLink's edits; see `data/dictionary/README.md`.
+- Every entry is `external-unreviewed`. A `dictionary-v*` tag runs `dictionary-release.yml`, which attaches the dataset, `LICENSE` and `SOURCES.md` to a release. It is not in the site or the MCP server.
+- Verified by `tools/dictionary/*.test.mjs` (in `npm test`, fixtures only, no network). Tatoeba's licence is not yet confirmed from tatoeba.org.
 
 ## Data for reuse (`dist/`)
 

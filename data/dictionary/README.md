@@ -5,6 +5,20 @@
 (ignored by git; attached to a release by `.github/workflows/dictionary-release.yml`
 when a tag named `dictionary-v*` is pushed) and prints a build report.
 
+## Releasing
+
+The first release tag is `dictionary-v1`; the CantonLink app pins a tag. Pins go stale: MDBG
+regenerates the CC-CEDICT export daily and Tatoeba replaces its exports weekly, and `fetch.mjs`
+fails on a checksum mismatch, so a tag pushed some days after the pins were taken cannot build.
+To release:
+
+1. `node tools/dictionary/fetch.mjs --update-pins` (downloads afresh and rewrites the `sha256` values in `sources.json`), then set each changed `version` by hand.
+2. `node tools/dictionary/fetch.mjs` (checks the checksums and re-reads every licence; stop if one differs), then `node tools/dictionary/build.mjs` and read the report.
+3. Merge that change to `main`, then push the tag at once: `git tag dictionary-v1 && git push origin dictionary-v1`. Do not leave days between merging and tagging.
+
+The workflow attaches `dictionary.jsonl.gz`, `LICENSE` and `SOURCES.md` to the release; the
+licence and credits must travel with the dataset.
+
 Every entry has the status `external-unreviewed`.
 
 ## corrections.json

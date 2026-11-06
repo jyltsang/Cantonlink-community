@@ -7,6 +7,8 @@
 //   data/dictionary/.cache/<id>/LICENCE.txt    the licence text read from that download
 //
 // Usage: node tools/dictionary/fetch.mjs [--strict] [--cache <dir>]
+//   --update-pins   download every source afresh and rewrite its sha256 in sources.json
+//              (the licence check still runs on the next plain fetch; update `version` by hand)
 //   --strict   also fail for sources whose licence cannot be read from the download
 //              ("unverified") and for sources marked "pending".
 
@@ -91,6 +93,26 @@ export async function fetchAll(sources, { cacheDir = CACHE_DIR, download = curlD
   return { ok, results };
 }
 
+// Re-pins daily and weekly regenerated sources: downloads each file afresh and rewrites only the
+// sha256 value in sources.json. It never skips the licence check, which runs on every fetch.
+export async function updatePins(sources, { path = SOURCES_PATH, cacheDir = CACHE_DIR, download = curlDownload } = {}) {
+  let text = readFileSync(path, 'utf8');
+  const changed = [];
+  for (const source of sources.filter((s) => s.status !== 'pending')) {
+    const dir = join(cacheDir, source.id);
+    mkdirSync(dir, { recursive: true });
+    const part = join(dir, `${source.file}.part`);
+    await download(source.url, part);
+    const actual = sha256File(part);
+    renameSync(part, join(dir, source.file));
+    if (actual === source.sha256) continue;
+    text = text.replace(source.sha256, actual);
+    changed.push(source.id);
+  }
+  writeFileSync(path, text);
+  return changed;
+}
+
 function report({ results }) {
   for (const r of results) {
     if (r.status === 'pending') console.log(`PENDING   ${r.id}: ${r.note}`);
@@ -103,6 +125,11 @@ function report({ results }) {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const args = process.argv.slice(2);
+  if (args.includes('--update-pins')) {
+    const changed = await updatePins(loadSources());
+    console.log(changed.length ? `Re-pinned: ${changed.join(', ')}. Now run fetch, merge, and push the release tag at once.` : 'All pins already current.');
+    process.exit(0);
+  }
   const cacheIndex = args.indexOf('--cache');
   const outcome = await fetchAll(loadSources(), {
     strict: args.includes('--strict'),

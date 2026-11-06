@@ -117,6 +117,7 @@ This is the free, open companion to [CantoLink](https://cantolink.org), an AI-po
 
 - **Code:** [MIT](LICENSE)
 - **Learning content** (explanations, examples, word lists): [CC BY-SA 4.0](LICENSE-CONTENT)
+- **Dictionary dataset** (`data/dictionary/`): its own [CC BY-SA 4.0 licence with third-party credits](data/dictionary/LICENSE) (CC-Canto, CC-CEDICT, Tatoeba, HKCanCor)
 - **Third-party data:** see [NOTICE](NOTICE)
 
 加油！ *gaa1 jau2!*

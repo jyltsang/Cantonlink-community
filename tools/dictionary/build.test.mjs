@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseCedictLine, buildEntries, buildEntriesWithReport } from './build.mjs';
+import { assertUniqueIds, parseCedictLine, buildEntries, buildEntriesWithReport } from './build.mjs';
 import { phraseToYale, phraseToBopomofo, isValidSyllable } from '../romanise.mjs';
 
 const CANTO = [
@@ -238,4 +238,12 @@ test('the report counts entries by register and source', () => {
   assert.equal(report.total, Object.values(report.byRegister).reduce((a, b) => a + b, 0));
   assert.equal(report.bySource['cc-canto'], 5);
   assert.ok(report.withExamples >= 1);
+});
+
+test('two entries sharing an id make the build fail with a clear error', () => {
+  assert.doesNotThrow(() => assertUniqueIds([{ id: 'a' }, { id: 'b' }]));
+  assert.throws(
+    () => assertUniqueIds([{ id: 'a', characters: '甲', jyutping: 'gaap3' }, { id: 'a', characters: '乙', jyutping: 'jyut6' }]),
+    /Duplicate entry id a: 甲 gaap3 and 乙 jyut6/,
+  );
 });

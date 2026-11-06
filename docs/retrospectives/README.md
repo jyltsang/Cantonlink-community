@@ -8,5 +8,6 @@ A short look back after every working session ("run"), as part of the [self-impr
 | [Sprint 2](sprint-02.md) | 30 October 2026 | Jyutping/Yale-first MCP server and learner-tolerant search, a RAG guide for developers, the developer-platform plan, Playwright 1.64.1, automated accessibility checks |
 | [Sprint 3](sprint-03.md) | 30 October 2026 | Two more examples for every A1 pattern (48 draft sentences) |
 | [Sprint 4](sprint-04.md) | 30 October 2026 | B1 particles 添, 嘛 and 啩; a second sentence-final 先 example; spaces between readings in romanisation-only text |
+| [Sprint 5](sprint-05.md) | 6 November 2026 | Open dictionary dataset: pinned sources with licence checks, the build, the release workflow |
 
 For later sprints, copy the headings of the latest file and keep it short: summary and metrics, wins and challenges, issues with root causes, action items, lessons.

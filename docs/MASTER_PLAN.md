@@ -130,6 +130,7 @@ Developers plug in their own model and key and build on the library; learners wi
 | 30 Oct 2026 | **No vector database for the library itself:** at under 700 chunks, romanisation-aware search is cheaper, testable and better at what learners type. Embeddings may come later behind a retrieval contract, only if an evaluation shows a gain; developers who want their own index follow the [RAG guide](RAG_GUIDE.md). |
 | 30 Oct 2026 | **Developer platform:** developers are the people the project builds with, learners without characters the people it serves. Accuracy is published as measured agreement, and learners can flag doubts for reviewers. |
 | 30 Oct 2026 | **External dictionaries** only with a licence compatible with CC BY-SA 4.0, as a separate "external, unreviewed" status. |
+| 5 Nov 2026 | The owner approved importing **CC-Canto, CC-CEDICT (with Cantonese readings) and Tatoeba**, and publishing the edited dataset openly under CC BY-SA, for the CantonLink app's free dictionary. words.hk is excluded (non-commercial licence). Entries stay "external, unreviewed" (the quality bar), never count towards review targets, and never ground the AI unless labelled. |
 
 ## Relationship to CantonLink
 
@@ -153,8 +154,11 @@ Third-party data audit (October 2026):
 | to-jyutping (CanCLID) | BSD-2-Clause | Development dependency for the pronunciation cross-check and readings |
 | opencc-js | MIT (data Apache-2.0) | Development dependency to generate the Simplified-character list |
 | CantoLink's imported character dictionaries | Unknown origin | Excluded |
-| HKCanCor (CC BY 4.0), words.hk (by permission) | | Possible future sources; words.hk only if its terms allow this use |
-| CC-Canto, CC-CEDICT (with CC-Canto readings), rime-cantonese, Hugging Face datasets | To be verified per source | Candidates for the external vocabulary bank; each licence to be checked before any import |
+| HKCanCor | CC BY 4.0 | Used for word frequency counts only |
+| words.hk | Non-commercial | Excluded |
+| CC-Canto, CC-CEDICT (with CC-Canto readings) | CC BY-SA 3.0 and 4.0, read from the downloads (5 Nov 2026) | Approved and imported as the dictionary dataset in `data/dictionary/` |
+| Tatoeba (Cantonese, English, links) | Understood to be CC BY 2.0 FR; not yet confirmed from tatoeba.org | Approved; examples only, ids kept |
+| rime-cantonese, Hugging Face datasets | To be verified per source | Candidates; each licence to be checked before any import |
 | HongKongvision converter | Not open data | Reference only; no data used |
 
 ## Roadmap

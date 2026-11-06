@@ -99,6 +99,16 @@ const syllablesOf = (jyutping) => jyutping.split(' ');
 const allValid = (jyutping) => syllablesOf(jyutping).every(isValidSyllable);
 const entryKey = (characters, jyutping) => `${characters}|${jyutping}`;
 const idOf = (characters, jyutping) => createHash('sha1').update(entryKey(characters, jyutping)).digest('hex').slice(0, 12);
+// Ids are 12 hex characters of a SHA-1, so a clash is very unlikely; a silent one would merge two
+// entries when the dataset is loaded, so fail loudly instead.
+export function assertUniqueIds(entries) {
+  const seen = new Map();
+  for (const e of entries) {
+    const other = seen.get(e.id);
+    if (other) throw new Error(`Duplicate entry id ${e.id}: ${other.characters} ${other.jyutping} and ${e.characters} ${e.jyutping}`);
+    seen.set(e.id, e);
+  }
+}
 const uniq = (list) => [...new Set(list)];
 
 export function loadWrittenMarkers(path = MARKERS_PATH) {
@@ -358,6 +368,7 @@ export function buildEntriesWithReport(sources, corrections = []) {
       status: 'external-unreviewed',
     };
   });
+  assertUniqueIds(entries);
   entries.sort(
     (a, b) =>
       REGISTER_RANK[a.register] - REGISTER_RANK[b.register] ||
