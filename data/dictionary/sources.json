@@ -1,0 +1,68 @@
+{
+  "note": "Pinned snapshots of the open data behind the dictionary. tools/dictionary/fetch.mjs downloads each file into data/dictionary/.cache/<id>/, checks the SHA-256, and reads the licence text from the download. Sources with an `unverified` licence note could not be read from a download and need a manual check against the cited page.",
+  "sources": [
+    {
+      "id": "cc-canto",
+      "name": "CC-Canto",
+      "url": "https://cantonese.org/cccanto-170202.zip",
+      "file": "cccanto-170202.zip",
+      "version": "2017-02-02",
+      "sha256": "0cc9e600a19c02405064d6d227d96563c09da1a0af1c7717508c0f231028af27",
+      "licence": { "expected": "CC BY-SA 3.0", "patterns": ["Attribution-Share Alike 3\\.0", "creativecommons\\.org/licenses/by-sa/3\\.0/"], "from": { "kind": "zip", "member": "cccanto-webdist.txt", "maxLines": 12 } }
+    },
+    {
+      "id": "cc-cedict-canto-readings",
+      "name": "CC-CEDICT Cantonese readings",
+      "url": "https://cantonese.org/cccedict-canto-readings-150923.zip",
+      "file": "cccedict-canto-readings-150923.zip",
+      "version": "2015-09-23",
+      "sha256": "f6d99991791f49aaf96d97b2838a3ba9e057e060a5a9e24311cf851f8f71a950",
+      "licence": { "expected": "CC BY-SA 3.0", "patterns": ["Attribution-Share Alike 3\\.0", "creativecommons\\.org/licenses/by-sa/3\\.0/"], "from": { "kind": "zip", "member": "cccedict-canto-readings-150923.txt", "maxLines": 12 } }
+    },
+    {
+      "id": "cc-cedict",
+      "name": "CC-CEDICT",
+      "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip",
+      "file": "cedict_1_0_ts_utf-8_mdbg.zip",
+      "version": "MDBG export of 2026-11-05",
+      "sha256": "9e97e8e4b1e00125538c81cdb632255a791163133741362a1a99961b4449745a",
+      "licence": { "expected": "CC BY-SA 4.0", "patterns": ["Attribution-ShareAlike 4\\.0 International", "creativecommons\\.org/licenses/by-sa/4\\.0/"], "from": { "kind": "zip", "member": "cedict_ts.u8", "maxLines": 14 } }
+    },
+    {
+      "id": "tatoeba-yue",
+      "name": "Tatoeba Cantonese sentences",
+      "url": "https://downloads.tatoeba.org/exports/per_language/yue/yue_sentences.tsv.bz2",
+      "file": "yue_sentences.tsv.bz2",
+      "version": "Tatoeba export of 2026-10-31",
+      "sha256": "8d9ad18b481ec0f2ea60a04307cc4c7601c7d9ec9bf7b4b95a3dfd7c141d5371",
+      "licence": { "expected": "CC BY 2.0 FR", "unverified": "The export holds only id, language and text; the licence is stated on tatoeba.org, which is not reachable from the build environment." }
+    },
+    {
+      "id": "tatoeba-eng",
+      "name": "Tatoeba English sentences",
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2",
+      "file": "eng_sentences.tsv.bz2",
+      "version": "Tatoeba export of 2026-10-31",
+      "sha256": "07f33d399f0a55b917202abbd901f23c39c54a6dd562252985ce8c7e168db6ef",
+      "licence": { "expected": "CC BY 2.0 FR", "unverified": "The export holds only id, language and text; the licence is stated on tatoeba.org, which is not reachable from the build environment." }
+    },
+    {
+      "id": "tatoeba-links",
+      "name": "Tatoeba Cantonese to English links",
+      "url": "https://downloads.tatoeba.org/exports/per_language/yue/yue-eng_links.tsv.bz2",
+      "file": "yue-eng_links.tsv.bz2",
+      "version": "Tatoeba export of 2026-10-31",
+      "sha256": "ca4051a58c46f6c96bab24e0e946445ef423370fab9cfee331b633bc264ed099",
+      "licence": { "expected": "CC BY 2.0 FR", "unverified": "Links are bare id pairs with no licence text; the licence is stated on tatoeba.org, which is not reachable from the build environment." }
+    },
+    {
+      "id": "hkcancor",
+      "name": "HKCanCor",
+      "url": "https://files.pythonhosted.org/packages/09/09/32e8000e39eb9ff034e1d55a86536a14abab90f2f4df176129fd90c43c29/pycantonese-5.0.0.tar.gz",
+      "file": "pycantonese-5.0.0.tar.gz",
+      "version": "pycantonese 5.0.0 (HKCanCor in CHAT format, src/pycantonese/data/hkcancor/)",
+      "sha256": "8655ba3cd891b528d6b070245abed55b20a08d673f1056fcf9afad0adbc47c1d",
+      "licence": { "expected": "CC BY 4.0", "patterns": ["^Creative Commons Attribution 4\\.0 International Public License"], "from": { "kind": "tar", "member": "pycantonese-5.0.0/src/pycantonese/data/hkcancor/LICENSE.txt", "maxLines": 3 } }
+    }
+  ]
+}

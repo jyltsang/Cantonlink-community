@@ -1,0 +1,41 @@
+CantonLink Community Dictionary data
+====================================
+
+The dictionary dataset in this folder is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You may copy, share and adapt it, including commercially, provided that you
+credit the sources below, say if you made changes, and share your version under
+the same licence.
+
+The dataset is built from open sources. It must carry these credits:
+
+- CC-Canto and the CC-CEDICT Cantonese readings: copyright (c) 2015-2017
+  Pleco Software Incorporated, under CC BY-SA 3.0
+  (https://creativecommons.org/licenses/by-sa/3.0/). CC BY-SA 3.0 allows
+  adaptations to be shared under a later version of the same licence, which is
+  why the combined dataset is offered under CC BY-SA 4.0.
+  Source: https://cantonese.org/download.html
+- CC-CEDICT: the CC-CEDICT contributors, published by MDBG under CC BY-SA 4.0.
+  CC-CEDICT contains portions of the original CEDICT database, copyright (c)
+  1997, 1998 Paul Andrew Denisowski.
+  Source: https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+- Tatoeba: example sentences and their translations are contributed by Tatoeba
+  users and released under CC BY 2.0 FR
+  (https://creativecommons.org/licenses/by/2.0/fr/). Each example keeps its
+  Tatoeba sentence id so it can be traced to its contributors.
+  Source: https://tatoeba.org
+- HKCanCor, the Hong Kong Cantonese Corpus, compiled by Kang Kwong Luke and
+  May L.Y. Wong, under CC BY 4.0. It is used only to count word frequency.
+  Cite: K. K. Luke and M. L. Y. Wong (2015), The Hong Kong Cantonese Corpus:
+  Design and Uses, Journal of Chinese Linguistics Monograph Series, 25, 312-333.
+
+CantonLink's own corrections (corrections.json) and generated fields (Yale,
+Bopomofo, ranking) are offered under the same CC BY-SA 4.0 licence.
+
+Every entry is external and unreviewed. No entry has been checked by native
+speakers for CantonLink.
+
+How the source files and their licences were checked is recorded in
+SOURCES.md.
