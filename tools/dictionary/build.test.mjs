@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { assertUniqueIds, parseCedictLine, buildEntries, buildEntriesWithReport } from './build.mjs';
+import { assertCleanEnglish, cleanEnglish, assertUniqueIds, parseCedictLine, buildEntries, buildEntriesWithReport } from './build.mjs';
 import { phraseToYale, phraseToBopomofo, isValidSyllable } from '../romanise.mjs';
 
 const CANTO = [
@@ -246,4 +246,58 @@ test('two entries sharing an id make the build fail with a clear error', () => {
     () => assertUniqueIds([{ id: 'a', characters: '甲', jyutping: 'gaap3' }, { id: 'a', characters: '乙', jyutping: 'jyut6' }]),
     /Duplicate entry id a: 甲 gaap3 and 乙 jyut6/,
   );
+});
+
+const REAL_GLOSS = {
+  keoi: sources({
+    cccanto: ['佢 佢 [qu2] {keoi5} /he / she / it (Cantonese)/Mandarin equivalent: 他tā [他]/ # adapted from cc-cedict'],
+    cccedictReadings: [],
+    cedict: [],
+  }),
+  nei: sources({
+    cccanto: ['你 你 [ni3] {nei5} /you (informal, as opposed to courteous 您nín [您])/can be used to refer to an unspecified person/ # adapted from cc-cedict'],
+    cccedictReadings: [],
+    cedict: [],
+  }),
+  zo: sources({
+    cccanto: [],
+    cccedictReadings: ['咗 咗 [zuo3] {zo2}'],
+    cedict: ['咗 咗 [zuo3] /Cantonese particle equivalent to 了[le5] or 過|过[guo4]/'],
+  }),
+  matje: sources({
+    cccanto: [],
+    cccedictReadings: ['乜嘢 乜嘢 [mie1 ye3] {mat1 je5}'],
+    cedict: ['乜嘢 乜嘢 [mie1 ye3] /what? (Cantonese) (Mandarin equivalent: 什麼|什么[shen2 me5])/'],
+  }),
+};
+
+test('cross-references are dropped from English: 佢, 你, 咗 and 乜嘢 from their real source lines', () => {
+  const english = (key, chars, jy) => find(buildEntries(REAL_GLOSS[key], []), chars, jy).english;
+  assert.deepEqual(english('keoi', '佢', 'keoi5'), ['he', 'she', 'it (Cantonese)']);
+  assert.deepEqual(english('nei', '你', 'nei5'), ['you', 'can be used to refer to an unspecified person']);
+  assert.deepEqual(english('zo', '咗', 'zo2'), ['Cantonese particle']);
+  assert.deepEqual(english('matje', '乜嘢', 'mat1 je5'), ['what? (Cantonese)']);
+});
+
+test('cleanEnglish: segments, characters, brackets and notes', () => {
+  assert.deepEqual(cleanEnglish(['classifier; CL:個|个[ge4]', 'variant of 你[ni3]', 'see 你[ni3]', 'also written 嗰[ge3]']), ['classifier']);
+  assert.deepEqual(cleanEnglish(['to eat 食 fast (coll.)']), ['to eat fast (coll.)']);
+  assert.deepEqual(cleanEnglish(['嗰 only', '的 ()', '的 a', 'a | b [] c']), ['only', 'a b c']);
+  assert.deepEqual(cleanEnglish(['  spaced   out ; ']), ['spaced out']);
+});
+
+test('an entry whose English is all cross-reference is kept with no English, and counted', () => {
+  const only = sources({ cccanto: ['嘅 嘅 [ge3] {ge3} /variant of 嘅[ge3]/'], cccedictReadings: [], cedict: [] });
+  const { entries, report } = buildEntriesWithReport(only, []);
+  assert.deepEqual(find(entries, '嘅', 'ge3').english, []);
+  assert.equal(report.emptiedByCleaning, 1);
+});
+
+test('no entry has Chinese characters, brackets or a bar in its English; a correction is not cleaned', () => {
+  const entries = buildEntries(sources({ cedict: [...CEDICT, '食飯 食饭 [shi2 fan4] /to eat 飯[fan4] | rice/'] }), []);
+  for (const e of entries) for (const m of e.english) assert.doesNotMatch(m, /[\p{Script=Han}\[\]|]/u);
+  assert.throws(() => assertCleanEnglish([{ id: 'x1', characters: 'a', jyutping: 'a1', english: ['ta []'] }]), /x1/);
+  assert.throws(() => assertCleanEnglish([{ id: 'x2', characters: 'a', jyutping: 'a1', english: ['他'] }]), /x2/);
+  // set.english wins and is used as written, so the final assertion catches a bad correction
+  assert.throws(() => buildEntries(sources(), [{ match: { characters: '唔該', jyutping: 'm4 goi1' }, set: { english: ['bad 他'] } }]), /unclean English/);
 });

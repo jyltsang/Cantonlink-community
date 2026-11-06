@@ -39,6 +39,10 @@
 // a word of their own in the sentence (not inside a longer word) and the entry's reading
 // must equal the sentence's reading there.
 //
+// English glosses are cleaned (see cleanEnglish and data/dictionary/README.md) before corrections;
+// a correction's own English is used as written, and the build fails if any entry still has
+// Chinese characters, brackets or '|' in its English.
+//
 // Corrections (data/dictionary/corrections.json) are applied last, so a source update never
 // removes them: [{ match: { characters, jyutping }, set?: { jyutping?, english?, register? },
 // hide?: true }]. See data/dictionary/README.md.
@@ -109,6 +113,69 @@ export function assertUniqueIds(entries) {
     seen.set(e.id, e);
   }
 }
+// --- Cleaning English glosses -----------------------------------------------------
+// The sources write cross-references into their glosses ("Mandarin equivalent: 他[ta1]", "CL:個[ge4]").
+// A learner sees English only, so Chinese characters, pinyin brackets and the notes built on them go.
+const CJK_CHAR = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\u2E80-\u2FDF\u3000-\u303F\uFF00-\uFFEF]/u;
+const CJK_ANY = new RegExp(CJK_CHAR.source, 'gu');
+const CROSS_REF_LEAD = /\b(equivalent|variant|see|also written|written as|same as|abbr|short for|erhua)\b[^;]*$/i;
+
+const CROSS_REF_START = /\b(mandarin equivalent|equivalent to|variant of|see also|see|also written|written as|same as|cl:|abbr)/i;
+
+const isCrossReference = (text) => CJK_CHAR.test(text) && /\[[^\]]*\]/.test(text);
+
+// One meaning, which may hold several ";" segments. Returns '' when nothing meaningful is left.
+function cleanMeaning(meaning) {
+  let text = meaning;
+  let previous;
+  do {
+    previous = text;
+    text = text.replace(/\([^()]*\)/g, (group) => (isCrossReference(group) ? ' ' : group)); // "(Mandarin equivalent: 什麼[shen2 me5])"
+  } while (text !== previous);
+  const kept = [];
+  for (const segment of text.split(';')) {
+    let out = segment;
+    if (isCrossReference(segment)) {
+      const at = segment.search(CROSS_REF_START);
+      if (at >= 0) {
+        // keep any plain English before the cross-reference ("Cantonese particle equivalent to 了[le5]")
+        out = segment.slice(0, at);
+        if (CJK_CHAR.test(out) || /\[/.test(out) || !/[A-Za-z]{2,}/.test(out)) continue;
+      } else {
+        // a name with an inline reference ("a county in Zhoushan City 舟山市[Zhou1 shan1 Shi4], Zhejiang")
+        out = segment.replace(/\S*[\p{Script=Han}]\S*\s*\[[^\]]*\]/gu, ' ');
+      }
+    }
+    if (CJK_CHAR.test(out)) {
+      const lead = out.slice(0, out.search(CJK_CHAR));
+      if (CROSS_REF_LEAD.test(lead)) continue; // "Mandarin equivalent: 他tā"
+      out = out.replace(CJK_ANY, ' ');
+      if (!/[A-Za-z]{2,}/.test(out.replace(/\([^)]*\)/g, ''))) continue; // nothing but notes left
+    }
+    out = out
+      .replace(/\[\s*\]|\(\s*\)/g, ' ')
+      .replace(/[\[\]|]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .replace(/\s+([,.:?!)])/g, '$1')
+      .replace(/([(])\s+/g, '$1')
+      .replace(/^[\s,:;.]+|[\s,:;]+$/g, '');
+    if (out) kept.push(out);
+  }
+  return kept.join('; ');
+}
+
+export function cleanEnglish(meanings) {
+  return uniq(meanings.map(cleanMeaning).filter(Boolean));
+}
+
+const CLEAN_FORBIDDEN = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\u2E80-\u2FDF\[\]|]/u;
+export function assertCleanEnglish(entries) {
+  for (const e of entries) {
+    const bad = e.english.find((m) => CLEAN_FORBIDDEN.test(m));
+    if (bad !== undefined) throw new Error(`Entry ${e.id} (${e.characters} ${e.jyutping}) has an unclean English meaning: ${bad}`);
+  }
+}
+
 const uniq = (list) => [...new Set(list)];
 
 export function loadWrittenMarkers(path = MARKERS_PATH) {
@@ -143,6 +210,11 @@ function collectCandidates(sources, report) {
   }
 
   const out = [];
+  const tidy = (english) => {
+    const cleaned = cleanEnglish(english);
+    if (english.length && !cleaned.length) report.emptiedByCleaning += 1;
+    return cleaned;
+  };
   const take = (lines, build) => {
     for (const line of lines ?? []) {
       const p = parseLine(line);
@@ -163,13 +235,13 @@ function collectCandidates(sources, report) {
     }
   };
   take(sources.cccanto, (p) => ({
-    characters: p.trad, originalJyutping: p.jyutping, jyutping: p.jyutping, english: p.english, source: 'cc-canto', register: 'colloquial',
+    characters: p.trad, originalJyutping: p.jyutping, jyutping: p.jyutping, english: tidy(p.english), source: 'cc-canto', register: 'colloquial',
   }));
   take(sources.cccedictReadings, (p) => ({
     characters: p.trad,
     originalJyutping: p.jyutping,
     jyutping: p.jyutping,
-    english: cedictByFull.get(`${p.trad}|${p.simp}|${pinyinKey(p.pinyin)}`) ?? cedictByWord.get(`${p.trad}|${p.simp}`) ?? [],
+    english: tidy(cedictByFull.get(`${p.trad}|${p.simp}|${pinyinKey(p.pinyin)}`) ?? cedictByWord.get(`${p.trad}|${p.simp}`) ?? []),
     source: 'cc-cedict',
     register: 'general',
   }));
@@ -340,7 +412,7 @@ function frequencyFor(characters, hk, tatoeba) {
 export function buildEntriesWithReport(sources, corrections = []) {
   const report = {
     total: 0, byRegister: {}, bySource: {}, droppedInvalid: 0, droppedNoReading: 0, unparsed: 0, hidden: 0,
-    unmatchedCorrections: 0, withExamples: 0, withoutEnglish: 0, invalidSamples: [],
+    unmatchedCorrections: 0, emptiedByCleaning: 0, withExamples: 0, withoutEnglish: 0, invalidSamples: [],
   };
   const markers = sources.writtenMarkers ?? loadWrittenMarkers();
   let candidates = dedupe(collectCandidates(sources, report));
@@ -369,6 +441,7 @@ export function buildEntriesWithReport(sources, corrections = []) {
     };
   });
   assertUniqueIds(entries);
+  assertCleanEnglish(entries);
   entries.sort(
     (a, b) =>
       REGISTER_RANK[a.register] - REGISTER_RANK[b.register] ||
@@ -462,7 +535,7 @@ export function formatReport(report, bytes) {
     `Lines that could not be parsed: ${report.unparsed}`,
     `Hidden by corrections: ${report.hidden} (corrections that matched nothing: ${report.unmatchedCorrections})`,
     `With at least one example: ${report.withExamples}`,
-    `Without English: ${report.withoutEnglish}`,
+    `Without English: ${report.withoutEnglish} (emptied by cleaning: ${report.emptiedByCleaning})`,
     ...(bytes === undefined ? [] : [`dictionary.jsonl.gz: ${bytes} bytes`]),
   ].join('\n');
 }

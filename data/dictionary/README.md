@@ -44,6 +44,19 @@ Entries are marked `written` when their characters are in `characters`, or when 
 English meaning contains one of `english_patterns` (for example "(literary)"). CC-Canto
 entries are only marked by `characters`.
 
+## Cleaning the English
+
+The sources write cross-references into their glosses. A learner sees English only, so every
+source's glosses (CC-Canto and CC-CEDICT) are cleaned before corrections:
+
+- A meaning is split on `;` into segments.
+- A segment with Chinese characters and a pinyin bracket is a cross-reference (`CL:個|个[ge4]`, `variant of 你[ni3]`, `see 你[ni3]`, `Mandarin equivalent: 他tā [他]`). It is dropped, except that plain English before the lead-in words (`equivalent to`, `variant of`, `see`, `also written`, `same as`, `abbr`, `CL:`) is kept ("Cantonese particle equivalent to 了[le5]" becomes "Cantonese particle"), and an inline reference inside a longer name is removed and the rest kept ("a county in Zhoushan City 舟山市[Zhou1 shan1 Shi4], Zhejiang" becomes "a county in Zhoushan City, Zhejiang").
+- A parenthetical note that holds a cross-reference is removed ("(Mandarin equivalent: 什麼|什么[shen2 me5])").
+- A segment with Chinese characters but no bracket has the characters stripped, and is kept only if a Latin word of 2 or more letters remains outside notes; one that starts with a lead-in word before the characters ("Mandarin equivalent: 他tā") is dropped.
+- Empty brackets, stray `|` and extra spaces are removed; real notes such as `(Cantonese)` stay.
+- An entry whose English becomes empty is kept with `english: []` and counted in the build report ("emptied by cleaning").
+- A correction's `set.english` is used as written and never cleaned. The build fails, naming the entry id, if any entry's English has a Chinese character, kana, `[`, `]` or `|`, so a bad correction is caught.
+
 ## Frequency
 
 `frequency` is a number (never null), the sum of two per-million rates, rounded to 2 places:

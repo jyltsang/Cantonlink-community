@@ -25,6 +25,7 @@ An open dictionary dataset for the CantonLink app's free dictionary, after the o
 - Pins go stale: MDBG regenerates its export daily and Tatoeba weekly, so a release tag pushed days after pinning cannot build.
 - The first implementation skipped the repository's own documentation loop (retrospective, masters, changelog); a final review found it.
 - Only 1,163 of about 131,000 entries have examples, since the corpus is small and unsegmented.
+- Running the real dataset through the app showed English meanings with Mandarin pinyin and empty brackets (13,736 entries had Chinese characters in their English). The build now cleans glosses and fails if any remain.
 
 ## Issues, root causes and recommendations
 
@@ -43,4 +44,5 @@ An open dictionary dataset for the CantonLink app's free dictionary, after the o
 
 ## Lessons
 
+- Check the real data in the place a learner sees it: fixtures passed while about 10% of English meanings were broken once characters were stripped.
 - Pins of daily or weekly regenerated sources go stale; re-pin, merge and tag the release in one sitting.
