@@ -6,3 +6,4 @@ mcp/vendor/
 *.tgz
 live-ai-report.json
 examples/rag/index.json
+data/dictionary/dist/

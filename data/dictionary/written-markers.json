@@ -1,0 +1,4 @@
+{
+  "characters": ["之", "乃", "於", "乎", "焉", "矣", "吾", "汝", "爾", "曰", "亦", "蓋", "兮", "哉"],
+  "english_patterns": ["(literary)", "(classical)", "(classical chinese)", "(archaic)", "(old)"]
+}
